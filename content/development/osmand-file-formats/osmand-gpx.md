@@ -13,22 +13,22 @@ The following parameters are used to customize the appearance of a track on the 
 #### Parameters
 |Name|Spec and Purpose|
 |:--------|:---------------|
-|[show_arrows]|Bool. "true" or "false". Show / hide arrows along the path line.|
-|[width]|String. "thin", "medium", "bold" or number 1-24. Width of the track line on the map. The thin, medium, and bold are style depended values (should be defined as currentTrackWidth attribute).|
-|[color]|String. Hex value "#AARRGGBB" or "#RRGGBB". Color of a track line on the map.|
-|[split_type]|String. "no_split", "distance" or "time". Split type for a track.|
-|[split_interval]|Double. Split interval for a track. Distance (meters), time (seconds).|
+|[osmand:show_arrows]|Bool. "true" or "false". Show / hide arrows along the path line.|
+|[osmand:width]|String. "thin", "medium", "bold" or number 1-24. Width of the track line on the map. The thin, medium, and bold are style depended values (should be defined as currentTrackWidth attribute).|
+|[osmand:color]|String. Hex value "#AARRGGBB" or "#RRGGBB". Color of a track line on the map.|
+|[osmand:split_type]|String. "no_split", "distance" or "time". Split type for a track.|
+|[osmand:split_interval]|Double. Split interval for a track. Distance (meters), time (seconds).|
 
 #### Example:
 ```xml
-<gpx version="1.1" creator="OsmAndRouterV2" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<gpx version="1.1" creator="OsmAndRouterV2" xmlns="http://www.topografix.com/GPX/1/1" xmlns:osmand="https;//osmand.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 ...
   <extensions>
-    <show_arrows>true</show_arrows>
-    <color>#4e4eff</color>
-    <split_type>distance</split_type>
-    <split_interval>2000.0</split_interval>
-    <width>bold</width>
+    <osmand:show_arrows>true</osmand:show_arrows>
+    <osmand:color>#4e4eff</osmand:color>
+    <osmand:split_type>distance</osmand:split_type>
+    <osmand:split_interval>2000.0</osmand:split_interval>
+    <osmand:width>bold</osmand:width>
   </extensions>
 </gpx>
 ```
@@ -44,8 +44,8 @@ Written to a gpx file while recording a track.
     <time>2019-05-08T10:36:43Z</time>
     <hdop>3</hdop>
     <extensions>
-      <heading>273</heading>
-      <speed>5.02</speed>
+      <osmand:heading>273</osmand:heading>
+      <osmand:speed>5.02</osmand:speed>
     </extensions>
   </trkpt>
 ```
@@ -57,6 +57,18 @@ A gpx file may contain several routes. Each of them is contained in a specific s
 **Plan a route** also adds one (or several, in accordance with the number of contained separate segments / tracks) **rte** blocks to the gpx file, containing route key points (**rtept**).
 #### Gpx structure:
 ```xml
+// List of intermediate route points. If there are multiple routes, the order of the rte list matches the order of the route segments.
+<rte>
+  <rtept ... />
+    // For routes built with the "Plan route", the parameters of key points are saved.
+    <extensions>
+      // Route profile type for next segment (car, bicycle, pedestrian, etc.).
+      <osmand:profile>...</osmand:profile>
+      // The index of the point in the gpx segment that corresponds to the first point of the calculated route for this segment.
+      <osmand:trkpt_idx>...</osmand:trkpt_idx>
+    </extensions>
+  </rtept>
+</rte>
 <trk>
   <trkseg>
     // List of segment points. The order of the points corresponds to the order and length of the route segments (<route><segment length="x" ... />).
@@ -64,38 +76,53 @@ A gpx file may contain several routes. Each of them is contained in a specific s
     <trkpt ... ></trkpt>
     <extensions>
       // List of route segments
-      <route>
+      <osmand:route>
         <segment ... />
-      </route>
+      </osmand:route>
       // Properties of segments included in the route.
       // This data is taken from offline maps during the initial construction of a route.
-      <types>
+      <osmand:types>
         <type ... />
-      </types>
+      </osmand:types>
     </extensions>
   </trkseg>
 </trk>
-
-// List of intermediate route points. If there are multiple routes, the order of the rte list matches the order of the route segments.
-<rte>
-  <rtept ... />
-    // For routes built with the "Plan route", the parameters of key points are saved.
-    <extensions>
-      // Route profile type for next segment (car, bicycle, pedestrian, etc.).
-      <profile>...</profile>
-      // The index of the point in the gpx segment that corresponds to the first point of the calculated route for this segment.
-      <trkpt_idx>...</trkpt_idx>
-    </extensions>
-  </rtept>
-</rte>
 ```
 
 #### Example:
 ```xml
-<gpx version="1.1" creator="OsmAndRouterV2" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<gpx version="1.1" creator="OsmAndRouterV2" xmlns="http://www.topografix.com/GPX/1/1" xmlns:osmand="https;//osmand.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Fri 06 Nov 2020</name>
   </metadata>
+  <rte>
+    <rtept lat="52.3639945" lon="4.8900532">
+      <extensions>
+        <osmand:profile>pedestrian</osmand:profile>
+        <osmand:trkpt_idx>0</osmand:trkpt_idx>
+      </extensions>
+    </rtept>
+    <rtept lat="52.3612797" lon="4.8911677">
+      <extensions>
+        <osmand:profile>pedestrian</osmand:profile>
+        <osmand:trkpt_idx>24</osmand:trkpt_idx>
+      </extensions>
+    </rtept>
+    <rtept lat="52.356996" lon="4.8912071">
+      <extensions>
+        <osmand:profile>pedestrian</osmand:profile>
+        <osmand:trkpt_idx>89</osmand:trkpt_idx>
+      </extensions>
+    </rtept>
+    <rtept lat="52.3542374" lon="4.8947024">
+      <extensions>
+        <osmand:profile>pedestrian</osmand:profile>
+        <osmand:trkpt_idx>121</osmand:trkpt_idx>
+        <osmand:trkpt_idx>121</osmand:trkpt_idx>
+        <osmand:trkpt_idx>121</osmand:trkpt_idx>
+      </extensions>
+    </rtept>
+  </rte>
   <trk>
     <name>Fri 06 Nov 2020</name>
     <trkseg>
@@ -118,50 +145,24 @@ A gpx file may contain several routes. Each of them is contained in a specific s
       ....
 
       <extensions>
-        <route>
+        <osmand:route>
           <segment id="7372058" length="3" segmentTime="178.44" speed="1.11" turnType="C" types="0,1,2,3,4,5,6" names="57" />
           <segment id="334164679" length="5" segmentTime="86.11" speed="1.11" turnType="TR" turnAngle="91.88" types="7,8,0,9,10,11,12,13,6" pointTypes=";;14,15;16,17,18;" names="58" />
           <segment id="334603581" length="6" segmentTime="75.5" speed="1.11" types="19,20,21,7,8,0,22,9,10,11,12,13,23,6" pointTypes=";14;16,24;16,24;14;" names="58" />
           <segment id="446707354" length="3" segmentTime="8.32" speed="1.11" turnType="TSLL" turnAngle="-25.44" types="19,25,21,7,8,22,9,1,11,12,13,6" names="58" />
           ...
-        </route>
-        <types>
+        </osmand:route>
+        <osmand:types>
           <type t="lit" v="yes" />
           <type t="oneway" v="yes" />
           <type t="highway" v="unclassified" />
           <type t="surface" v="paving_stones" />
           <type t="maxspeed" v="30" />
           ...
-        </types>
+        </osmand:types>
       </extensions>
     </trkseg>
   </trk>
 
-  <rte>
-    <rtept lat="52.3639945" lon="4.8900532">
-      <extensions>
-        <profile>pedestrian</profile>
-        <trkpt_idx>0</trkpt_idx>
-      </extensions>
-    </rtept>
-    <rtept lat="52.3612797" lon="4.8911677">
-      <extensions>
-        <profile>pedestrian</profile>
-        <trkpt_idx>24</trkpt_idx>
-      </extensions>
-    </rtept>
-    <rtept lat="52.356996" lon="4.8912071">
-      <extensions>
-        <profile>pedestrian</profile>
-        <trkpt_idx>89</trkpt_idx>
-      </extensions>
-    </rtept>
-    <rtept lat="52.3542374" lon="4.8947024">
-      <extensions>
-        <profile>pedestrian</profile>
-        <trkpt_idx>121</trkpt_idx>
-      </extensions>
-    </rtept>
-  </rte>
 </gpx>
 ```
