@@ -1,8 +1,8 @@
-## GitHub Docs <!-- omit in toc -->
+## OsmAnd Docs (Github docs fork) <!-- omit in toc -->
 
-This repository contains the documentation website code and Markdown source files for [docs.github.com](https://docs.github.com).
+This repository contains the documentation website code and Markdown source files for [https://docs.osmand.net/](https://docs.osmand.net/).
 
-GitHub's Docs team works on pre-production content in a private repo that regularly syncs with this public repo.
+OsmAnd's Docs team works on pre-production content in a private repo that regularly syncs with this public repo.
 
 In this article:
 
@@ -18,7 +18,7 @@ We accept a lot of [different contributions](CONTRIBUTING.md/#types-of-contribut
 
 #### Click **make a contribution** from docs
 
-As you're using the GitHub Docs, you may find something in an article that you'd like to add to, update, or change. Click on **make a contribution** to navigate directly to that article in the codebase, so that you can begin making your contribution.
+As you're using the OsmAnd Docs, you may find something in an article that you'd like to add to, update, or change. Click on **make a contribution** to navigate directly to that article in the codebase, so that you can begin making your contribution.
 
 <img src="./assets/images/contribution_cta.png" width="400">
 
@@ -68,7 +68,8 @@ In addition to the README you're reading right now, this repo includes other REA
 
 ## License
 
-The GitHub product documentation in the assets, content, and data folders are licensed under a [CC-BY license](LICENSE).
+The GitHub product documentation (forked) in the assets, content, and data folders are licensed under a [CC-BY license](LICENSE).
+The OsmAnd product documentation in the assets, content, and data folders are licensed under a [CC-BY license](LICENSE).
 
 All other code in this repository is licensed under a [MIT license](LICENSE-CODE).
 
