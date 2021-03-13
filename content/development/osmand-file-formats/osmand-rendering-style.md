@@ -13,7 +13,7 @@ In case you consider creating your own rendering style, you might need to create
 Map style file consists of several sections.
 
 | Section | Description |
---------------------------
+|---------|-------------|
 | **Header** | Consists of `name` (style name), `defaultColor` (default map color could be overridden by attribute defaultColor) and `depends` (inherits all properties from parent style). |
 | **Rendering parameters** | Defined as `<renderingProperty>` has `attr` which will be used in the style as a parameter name and `name`, `description` will be displayed to user. |
 | **Attributes and constants** | Defined as `<renderingAttribute>` and as `<renderingConstant>` allows to reuse same blocks of rendering styles for different map objects | 
