@@ -282,7 +282,7 @@ This setting allows using of any language for names on the map. If names don't h
 If you have your own or 3rd party custom map style created according to [Specification](/development/osmand-file-formats/osmand-rendering-style), you can install it on a device in the following ways.
 - Copy *.render.xml file on devices & Open with OsmAnd. 
 - Rendering styles could be exported & imported via [Standard import / export dialogs](/osmand/start-with/import-export). So if you create an example '*.osf' package which will work as a plugin that could be shared with other people.
-- If you have access directly to the External Storage of OsmAnd (Android), you can simply copy it to **rendering-styles** folder. Read more about it in [Storage specification](/osmand/storage).
+- If you have access directly to the External Storage of OsmAnd (Android), you can simply copy it to **rendering-styles** folder. Read more about it in [Storage specification](/osmand/start-with/storage).
 
 After that, you could select your own map style in the menu.
 
