@@ -18,7 +18,7 @@ The following menu will show the configurations of the parking spot such as park
 User can delete the parking location marker anytime with ‘Delete’ button. <br>
 It will be removed from the map and from the calendar if such option has been chosen earlier. <br>
 
-![Time limited unlimited](/assets/images/docs/widgets/time_limited_unlimited.png)
+![Time limited unlimited](/assets/images/plugins/parking/time_limited_unlimited.png)
 
 If 'Time-limited parking' has been selected at Step 5 a user can set the parking time interval. <br>
 There are three ways to configure the parking time limit. The first one is by using the electronic watch control and the second one is by using analogue watch control. The third way is to tap the small keyboard image under numeric clock and set the time manually. <br>

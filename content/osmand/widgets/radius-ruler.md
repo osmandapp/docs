@@ -5,7 +5,7 @@ versions: '*'
 ---
 <!-- "Radius-ruler tool helps to determine the radius around the selected point on the map via displaying distance-circles on the map.
 Distance by tap tool helps to calculate the distance between selected points to find the shortest distance. The Ruler tool displays scale. " -->
-![Radius-ruler screen](/assets/images/docs/widgets/radius_ruler_screen.png)
+![Radius-ruler screen](/assets/images/widgets/radius_ruler_screen.png)
 
 ## Radius-ruler widget <!--tool-->
 Radius-ruler widget shows distance between users location and inner point of the 'Radius-ruler' tool distance-circles on the map. Widget is clickable and changes its state between the black scale, the grey one and no scale modes. <br>
@@ -39,15 +39,15 @@ The line will fade by itself after 2 seconds. <br> -->
 **To check the distance from the user's location to a point on the map**: touch a spot on the map. It will allow to see the measurement and the line connecting the two points. The line will stay on screen as long as the user is touching it. <br>
 The line will fade by itself after 2 seconds. <br>
 
-![distance between two random points on the map](/assets/images/docs/widgets/distance_between_two_random_points.png)
+![distance between two random points on the map](/assets/images/widgets/distance_between_two_random_points.png)
 
 **To check the distance between two random points on the map**: touch simultaneously two spots on the map. It will allow to see the measurement and the line connecting the two points. The line will stay on screen as long as the user is touching it. <br>
 The line will fade by itself after 2 seconds. <br>
 
-<!-- ![distance between two random points on the map](/assets/images/docs/widgets/distance_between_two_random_points.png) -->
+<!-- ![distance between two random points on the map](/assets/images/widgets/distance_between_two_random_points.png) -->
 ## Ruler
 
-![Ruler tool](/assets/images/docs/widgets/ruler_tool.png) <br>
+![Ruler tool](/assets/images/widgets/ruler_tool.png) <br>
 
 The Ruler tool displays map scale and shows the number of meters/kilometers (other units of measure) in a segment. Can be seen at the bottom of the screen.
 

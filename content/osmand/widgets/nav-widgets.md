@@ -6,15 +6,13 @@ versions: '*'
 
 Navigational widgets is blocks on the device screen which show next information about a trip.
 
-![navigational widgets](/assets/images/docs/widgets/nw-1.png)
-
-
+![Navigational widgets](/assets/images/widgets/navigational-widgets.png)
 
 ## Relative / magnetic bearing
 
 The widget shows relative or magnetic bearing.
 
-![navigational widgets](/assets/images/docs/widgets/nw-3.png)
+![Relative bearing widget](/assets/images/widgets/widget-bearing.png)
 
 | | |
 |------------|------------|
@@ -28,7 +26,7 @@ The widget shows relative or magnetic bearing.
 
 The widget shows current distance to the finish line.
 
-![navigational widgets](/assets/images/docs/widgets/nw-5.png)
+![Destination widget](/assets/images/widgets/widget-destination.png)
 
 | | |
 |------------|------------|
@@ -41,7 +39,7 @@ The widget shows current distance to the finish line.
 
 The widget shows {% data variables.android-values.access_arrival_time %} or {% data variables.android-values.map_widget_time %} of a trip.
 
-![navigational widgets](/assets/images/docs/widgets/nw-6.png)
+![Time to go widget](/assets/images/widgets/widget-time-to-go.png)
 
 | | |
 |------------|------------|
@@ -53,9 +51,9 @@ The widget shows {% data variables.android-values.access_arrival_time %} or {% d
 
 The widget shows a speed limit for a current road.
 
-![navigational widgets](/assets/images/docs/widgets/nw-7.png)
+![Max speed widget](/assets/images/widgets/widget-max-speed.png)
 
-| |
+| | |
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.map_widget_max_speed %}  |
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.map_widget_max_speed %}|
@@ -64,7 +62,7 @@ The widget shows a speed limit for a current road.
 
 The widget shows which lanes you need to drive during a trip with [distance to a maneuver](/development/algorithms/voice-prompt-triggering). 
 
-![navigational widgets](/assets/images/docs/widgets/nw-8.png)
+![Lanes widget](/assets/images/widgets/widget-lanes.png)
 
 | | |
 |------------|------------|
@@ -75,7 +73,7 @@ The widget shows which lanes you need to drive during a trip with [distance to a
 
 The widget shows alerts on the screen during a trip.
 
-![navigational widgets](/assets/images/docs/widgets/nw-4.png)
+![Alert information](/assets/images/widgets/widget-alert.png)
 
 | | |
 |------------|------------|
@@ -89,7 +87,7 @@ The widget shows alerts on the screen during a trip.
 
 The widget shows warnings about your maneuvers with a picture of maneuver and [distance](/development/algorithms/voice-prompt-triggering) to it.
 
-![navigational widgets](/assets/images/docs/widgets/nw-9.png)
+![Next turns widgets](/assets/images/widgets/widget-next-turn.png)
 
 | | |
 |------------|------------|
@@ -100,9 +98,9 @@ The widget shows warnings about your maneuvers with a picture of maneuver and [d
 
 The widget shows street names or road names (highway shield) for maneuver during navigation. Also shows POI and Favorites along a route.
 
-![navigational widgets](/assets/images/docs/widgets/nw-10.png)
+![Street name](/assets/images/widgets/widget-street-name.png)
 
-| |
+| | |
 |------------|------------|
 | Enable Street name |{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_appearance_rem %} →  {% data variables.android-values.map_widget_top_text %} |
 | Enable POIs |{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.get_directions %} → {% data variables.android-values.shared_string_settings %} →  {% data variables.android-values.show_along_the_route %} →  {% data variables.android-values.points_of_interests %}, {% data variables.android-values.shared_string_my_favorites %}, {% data variables.android-values.way_alarms %} |

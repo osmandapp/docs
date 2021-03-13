@@ -6,7 +6,7 @@ versions: '*'
 
 All widgets are [profile dependent](/osmand/start-with/profiles), so in case you change the order, visibility or state for 1 profile, it won't be applied to other profiles. Each profile has own predefined list of widgets based on the design of the navigation screen. It can be customized by user that's why could be used with and without navigation.
 
-![Configure screen menu](/assets/images/docs/widgets/configure_screen_menu.png)
+![Configure screen menu](/assets/images/widgets/configure_screen_menu.png)
 
 To configure widgets visibility you have to open Configure screen menu.
 
@@ -20,6 +20,6 @@ Most of the widgets could be configured as:
 * Hide – widget is hidden from the map screen
 * Collapse – creates a group of "collapsible" widgets and a button to quickly expand / collapse them on the maps screen.
 
-![Collapsible widget states](/assets/images/docs/widgets/collapsible_widget_states.png)
+![Collapsible widget states](/assets/images/widgets/collapsible_widget_states.png)
 
 [Read more information about each widget individually.](/osmand/widgets)
