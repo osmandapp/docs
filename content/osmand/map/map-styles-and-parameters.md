@@ -152,24 +152,24 @@ Sometimes when we use the application during your trip, you don't use navigation
 |------------|
 |**_{% data variables.android-values.rendering_category_routes %}_**|
 |**{% data variables.android-values.rendering_attr_showCycleRoutes_name %}**: Showing colored cycle routes, paths, and showing nodes network cycle routes. Look at [Map legend](https://osmand.net/help-online/map-legend/).|
-|![Map styles](/assets/images/map/ms-21.png)|
+|![Map routes - cycle routes](/assets/images/map/map-routes-cycle-routes.png)|
 |**{% data variables.android-values.rendering_attr_showCycleNodeNetworkRoutes_name %}**: Highlighted cycle routes and showed nodes network cycle routes.|
-|![Map styles](/assets/images/map/ms-22.png)|
+|![Map routes - cycle-node-networks](/assets/images/map/map-routes-cycle-node-networks.png)|
 |**{% data variables.android-values.rendering_attr_showMtbRoutes_name %}**: Showing colored MTB trails. Look at [Map legend](https://osmand.net/help-online/map-legend/).|
-|![Map styles](/assets/images/map/ms-23.png)|
+|![Map routes - mtb trails](/assets/images/map/map-routes-mtb-trails.png)|
 |**{% data variables.android-values.rendering_attr_alpineHiking_name %}**: Showing  [classified hiking trails](https://wiki.openstreetmap.org/wiki/Key:sac_scale) in mountainous areas with regard to the difficulties to be expected by color.|
-|![Map styles](/assets/images/map/ms-24.png)|
+|![Map routes - alpine hiking](/assets/images/map/map-routes-alpine-hiking.png)|
 |**{% data variables.android-values.rendering_attr_horseRoutes_name %}**: Showing colored routes and symbols for riding horses.|
-|![Map styles](/assets/images/map/ms-25.png)|
+|![Map routes - horse routes](/assets/images/map/map-routes-horse.png)|
 |**{% data variables.android-values.rendering_attr_whiteWaterSports_name %}**: Showing [icons of access, dangerous areas, tourism of whitewater sports](https://wiki.openstreetmap.org/wiki/Whitewater_sports#Whitewater_Map). |
-|![Map styles](/assets/images/map/ms-26.png)|
+|![Map routes - whitewater sport](/assets/images/map/map-routes-whitewater-sport.png)|
 |**_{% data variables.android-values.rendering_attr_hikingRoutesOSMC_name %}_**|
 |**{% data variables.android-values.rendering_value_walkingRoutesOSMC_name %}**: Showing [colored hiking trails and OSMC symbols](https://wiki.openstreetmap.org/wiki/Key:osmc:symbol#Maps_that_show_osmc:symbol) on the map.|
-|![Map styles](/assets/images/map/ms-27.png)|
+|![Map routes - hiking osmc](/assets/images/map/map-routes-hiking-osmc.png)|
 |**{% data variables.android-values.rendering_value_walkingRoutesScopeOSMC_name %}**: Showing [colored trails by type and OSMC symbols](https://wiki.openstreetmap.org/wiki/Key:osmc:symbol#Maps_that_show_osmc:symbol) on the map. |
-|![Map styles](/assets/images/map/ms-28.png)|
+|![Map routes - hiking network](/assets/images/map/map-routes-hiking-network.png)|
 |**{% data variables.android-values.rendering_value_walkingRoutesOSMCNodes_name %}**: Showing [Node networks](https://wiki.openstreetmap.org/wiki/Node_Networks) on the map. |
-|![Map styles](/assets/images/map/ms-29.png)|
+|![Map routes - hiking node networks](/assets/images/map/map-routes-hiking-node-networks.png)|
 
 ### Transport
 
@@ -186,13 +186,13 @@ In OsmAnd  we can choose special rendering for these needed:
 |Parameter and Description|   
 |------------|
 |**{% data variables.android-values.rendering_attr_transportStops_name %}**: Showing public transport stops.|
-|![Map styles](/assets/images/map/ms-30.png)|
+|![Map transport stops](/assets/images/map/map-transport-stops.png)|
 |**{% data variables.android-values.rendering_attr_publicTransportMode_name %}**: Showing bus, trolleybus, shuttle routes.|
-|![Map styles](/assets/images/map/ms-31.png)|
+|![Map transport bus](/assets/images/map/map-transport-bus.png)|
 |**{% data variables.android-values.rendering_attr_tramTrainRoutes_name %}**: Showing tram and train routes. |
-|![Map styles](/assets/images/map/ms-32.png)|
+|![Map transport tram](/assets/images/map/map-transport-tram.png)|
 |**{% data variables.android-values.rendering_attr_subwayMode_name %}**: Showing underground routes.|
-|![Map styles](/assets/images/map/ms-33.png)|
+|![Map transport subway](/assets/images/map/map-transport-subway.png)|
 
 ### Hide
 
@@ -223,15 +223,15 @@ Special settings for roads. When we change colors according to road Atlas or add
 |Parameter and Description|   
 |------------|
 |**{% data variables.android-values.rendering_value_default_name %}**: Default style for highways. Look at [Map legend](https://osmand.net/help-online/map-legend/).|
-|![Map styles](/assets/images/map/ms-34.png)|
+|![Map road style default](/assets/images/map/map-road-style-default.png)|
 |**{% data variables.android-values.rendering_value_germanRoadAtlas_name %}**: Style of German road atlas.|
-|![Map styles](/assets/images/map/ms-35.png)|
+|![Map road style german](/assets/images/map/map-road-style-german.png)|
 |**{% data variables.android-values.rendering_value_americanRoadAtlas_name %}**: Style of American road atlas.|
-|![Map styles](/assets/images/map/ms-36.png)|
+|![Map road style american](/assets/images/map/map-road-style-american.png)|
 |**{% data variables.android-values.rendering_value_highContrastRoads_name %}**: The high contrast of roads.|
-|![Map styles](/assets/images/map/ms-37.png)|
+|![Map road style high contrast](/assets/images/map/map-road-style-high-contrast.png)|
 |**{% data variables.android-values.rendering_value_boldOutline_name %}**: Bold outline for roads.|
-|![Map styles](/assets/images/map/ms-38.png)|
+|![Map road style bold outline](/assets/images/map/map-road-style-bold-outline.png)|
 
 ### Text size
 
@@ -244,9 +244,9 @@ This setting helps to change the text size for names on the map:
 |Example|  
 |------------|
 |**100%**|
-|![Map styles](/assets/images/map/ms-39.png)|
+|![Map text size 100%](/assets/images/map/map-text-size-100.png)|
 |**200%**|
-|![Map styles](/assets/images/map/ms-40.png)|
+|![Map text size 200%](/assets/images/map/map-text-size-200.png)|
 
 ### Map magnifier
 
@@ -259,9 +259,9 @@ This setting helps to change magnifier of the map. It is applicable for raster &
 |Example|  
 |------------|
 |**75%**|
-|![Map styles](/assets/images/map/ms-41.png)|
+|![Map magnifier 75%](/assets/images/map/map-magnifier-75.png)|
 |**200%**|
-|![Map styles](/assets/images/map/ms-42.png)|
+|![Map magnifier 200%](/assets/images/map/map-magnifier-200.png)|
 
 ### Map Language
 
@@ -274,9 +274,9 @@ This setting allows using of any language for names on the map. If names don't h
 |Example|  
 |------------|
 |**Local names**|
-|![Map styles](/assets/images/map/ms-43.png)|
+|![Map language local names](/assets/images/map/map-language-local-names.png)|
 |**Russian**|
-|![Map styles](/assets/images/map/ms-44.png)|
+|![Map language russian](/assets/images/map/map-language-russian.png)|
 
 ## Custom Map style (own map style)
 If you have your own or 3rd party custom map style created according to [Specification](/development/osmand-file-formats/osmand-rendering-style), you can install it on a device in the following ways.
