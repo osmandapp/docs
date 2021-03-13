@@ -14,7 +14,7 @@ There is a big variety of possible use cases cause they vary on infinite externa
 - Live vessel information
 - Online OpenStreetMap tiles for OSM editing purposes
 
-<img src="/assets/images/plugins/online-maps/om-0.png" />
+!()[/assets/images/plugins/online-maps/om-0.png]
 
 **Note**: You can also change the main source of the map from vector maps to online tiles.
 
@@ -92,7 +92,7 @@ In order to add a new online raster map source go to:
 
 At this screen you need to add the next parameters:
 
-<img src="/assets/images/plugins/online-maps/om-4.png" />
+!()[/assets/images/plugins/online-maps/om-4.png]
 
 |Parameter          |Description|
 |:------------|:---------------|
@@ -141,7 +141,7 @@ Tiles are saved in the cache during usage of Online Raster maps as Main / Overla
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_installed %} → {% data variables.ios-values.online_raster_maps %}
 
-<img src="/assets/images/plugins/online-maps/om-3.png" />
+!()[/assets/images/plugins/online-maps/om-3.png]
 
 In order to clear map tiles cache you need to do next:
 
@@ -160,12 +160,12 @@ For this, you need [to choose your online source as Map source](#select-map-as-m
 {% data variables.product.android_button_seq %} you need to select the area by the size of your screen device and to do a long click on the map - {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_actions %} → {% data variables.android-values.shared_string_download_map %} /  {% data variables.android-values.update_tile %} → 
 At this screen you need to choose zoom levels → screen of downloading progress → {% data variables.android-values.shared_string_download %}
 
-<img src="/assets/images/plugins/online-maps/om-10.png" />
+!()[/assets/images/plugins/online-maps/om-10.png]
 
 {% data variables.product.ios_button_seq %}  you need to do a long click on the map -  {% data variables.ios-values.actions %} → {% data variables.ios-values.download_map %} / {% data variables.ios-values.update_map %} → 
 At this screen you can select the needed area, choose zoom levels. When you set all parameters you can see a number of tiles and download size. Next, click to {% data variables.ios-values.shared_string_continue %} → screen of downloading progress.
 
-<img src="/assets/images/plugins/online-maps/om-9.png" />
+!()[/assets/images/plugins/online-maps/om-9.png]
 
 ### Change raster map parameters
 Raster maps can be used as is if tiles are already packaged inside the maps. In case raster maps are provided online, there is always a base url to be configured. There are some other basic parameters that can be modified for raster maps - [see here](#add-new-online-raster-map-source). More sophisticated parameters are encoded in the internals of [SQ Lite format](/development/osmand-file-formats/osmand-sqlite).
