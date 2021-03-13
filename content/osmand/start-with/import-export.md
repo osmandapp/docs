@@ -32,20 +32,19 @@ In order **to import** online map sources, you can click to osf-file of applicat
 
 A. {% data variables.android-values.shared_string_import %} → {% data variables.android-values.select_data_to_import %} → {% data variables.android-values.quick_action_map_source_title %} → {% data variables.android-values.shared_string_import_complete %} → {% data variables.android-values.shared_string_continue %} → {% data variables.android-values.shared_string_close %}
 
-<img src="/assets/images/plugins/online-maps/om-8.png" />
+![Import package Android](/assets/images/plugins/online-maps/import-package-android.png)
 
 B. You can click the SQLiteDb-file on your email, cloud, or messenger, download it and choose OsmAnd app to open. Map package is added automatically to your online maps list in OsmAnd.
 
-<img src="/assets/images/plugins/online-maps/om-6.png" />
+![Import online source Android](/assets/images/plugins/online-maps/import-online-source-android.png)
 
 {% data variables.product.ios_button_seq %}
 
 A. {% data variables.ios-values.shared_string_import %} → {% data variables.ios-values.quick_action_map_source_title %} → {% data variables.ios-values.shared_string_continue %} → {% data variables.ios-values.shared_string_import_complete %} → {% data variables.ios-values.gpx_finish %}
 
-<img src="/assets/images/plugins/online-maps/om-7.png" />
+![Import package iOS](/assets/images/plugins/online-maps/import-package-ios.png)
 
 B. {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_settings_overunder %} → {% data variables.ios-values.import_from_docs %}
 
 C. You can click the SQLiteDb-file on your email, cloud, or messenger, download it and choose OsmAnd app to open. Map package is added automatically to your online maps list in OsmAnd.
 
-<img src="/assets/images/plugins/online-maps/om-5.png" />

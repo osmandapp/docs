@@ -16,11 +16,11 @@ Next, you need to move your map package file(s) to OsmAnd-tiles directory:
 
 For **Android** OsmAnd - you need to access storage to copy file(s) from PC to the device folder BASE_OSMAND_STORAGE/tiles_ or you can click the file on your email, cloud, or messenger, download it and choose OsmAnd app to open. Map package is added automatically to your online maps list in OsmAnd.
 
-<img src="/assets/images/plugins/online-maps/om-11.png" />
+![Import sqlitedb Android](/assets/images/plugins/online-maps/import-sqlitedb-android.png)
 
 For **iOS** OsmAnd - you need to click the file on your iTunes or messenger, download it and choose OsmAnd app to open. Map package is added automatically to your online maps list in OsmAnd.
 
-<img src="/assets/images/plugins/online-maps/om-12.png" />
+![Import sqlitedb iOS](/assets/images/plugins/online-maps/import-sqlitedb-ios.png)
 
 (for the Android version only)
 
