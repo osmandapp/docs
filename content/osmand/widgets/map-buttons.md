@@ -50,7 +50,8 @@ Search button buttons provides quick access from the map to [search capabilities
 ## Compass
 
 **_TODO: make screenshots smaller (narrower) and in one row_**
-![Compass widget](/assets/images/widget/widget-compass.png)
+
+![Compass widget](/assets/images/widgets/widget-compass.png)
 
 Compass widget indicates how map is oriented on the device screen and top arrow / red arrow points where the north of map is located. It also shows the current **[Map orientation mode](/osmand/map/interact-with-map#map-orientation)**. Clicking on the compass will cycle through all Map orientation modes. 
 
