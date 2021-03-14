@@ -6,7 +6,7 @@ versions: '*'
 
 Navigational widgets is blocks on the device screen which show next information about a trip.
 
-![Navigational widgets all](/assets/images/docs/widgets/navigational_widgets_all.png)
+![Navigational widgets all](/assets/images/widgets/navigational_widgets_all.png)
 
 
 
@@ -14,7 +14,7 @@ Navigational widgets is blocks on the device screen which show next information 
 
 The widget shows relative or magnetic bearing.
 
-![Relative Magnetic bearing widget](/assets/images/docs/widgets/relative_magnetic_bearing_widget.png)
+![Relative Magnetic bearing widget](/assets/images/widgets/relative_magnetic_bearing_widget.png)
 
 | | |
 |------------|------------|
@@ -28,7 +28,7 @@ The widget shows relative or magnetic bearing.
 
 The widget shows current distance to the finish line.
 
-![Destination widget](/assets/images/docs/widgets/destination_widget.png)
+![Destination widget](/assets/images/widgets/destination_widget.png)
 
 | | |
 |------------|------------|
@@ -41,7 +41,7 @@ The widget shows current distance to the finish line.
 
 The widget shows {% data variables.android-values.access_arrival_time %} or {% data variables.android-values.map_widget_time %} of a trip.
 
-![Arrival time Time to go widget](/assets/images/docs/widgets/arrival_time_time_to_go_widget.png)
+![Arrival time Time to go widget](/assets/images/widgets/arrival_time_time_to_go_widget.png)
 
 | | |
 |------------|------------|
@@ -53,7 +53,7 @@ The widget shows {% data variables.android-values.access_arrival_time %} or {% d
 
 The widget shows a speed limit for a current road.
 
-![Speed limit widget](/assets/images/docs/widgets/speed_limit_widget.png)
+![Speed limit widget](/assets/images/widgets/speed_limit_widget.png)
 
 | |
 |------------|------------|
@@ -64,7 +64,7 @@ The widget shows a speed limit for a current road.
 
 The widget shows which lanes you need to drive during a trip with [distance to a maneuver](/development/algorithms/voice-prompt-triggering).
 
-![Lanes widgets](/assets/images/docs/widgets/lanes_widget.png)
+![Lanes widgets](/assets/images/widgets/lanes_widget.png)
 
 | | |
 |------------|------------|
@@ -75,7 +75,7 @@ The widget shows which lanes you need to drive during a trip with [distance to a
 
 The widget shows alerts on the screen during a trip.
 
-![Alert information widgets](/assets/images/docs/widgets/alert_information_widget.png)
+![Alert information widgets](/assets/images/widgets/alert_information_widget.png)
 
 | | |
 |------------|------------|
@@ -89,7 +89,7 @@ The widget shows alerts on the screen during a trip.
 
 The widget shows warnings about your maneuvers with a picture of maneuver and [distance](/development/algorithms/voice-prompt-triggering) to it.
 
-![Next turns widget](/assets/images/docs/widgets/next_turns_widget.png)
+![Next turns widget](/assets/images/widgets/next_turns_widget.png)
 
 | | |
 |------------|------------|
@@ -100,7 +100,7 @@ The widget shows warnings about your maneuvers with a picture of maneuver and [d
 
 The widget shows street names or road names (highway shield) for maneuver during navigation. Also shows POI and Favorites along a route.
 
-![Street name POIs widget](/assets/images/docs/widgets/street_name_poi_widget.png)
+![Street name POIs widget](/assets/images/widgets/street_name_poi_widget.png)
 
 | |
 |------------|------------|
