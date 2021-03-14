@@ -6,7 +6,7 @@ versions: '*'
 
 ## My Location & Zoom
 
-![Configure screen menu](/assets/images/docs/widgets/location_zoom_buttons.png)
+![Configure screen menu](/assets/images/widgets/location_zoom_buttons.png)
 
 **My location** is a circle button that shows whether the center of the map is synchronized with "my location" (geolocation of the device). It is also known as "Where am I?". Generally in navigation, the map is synced with device location, and there are no needs to move the map constantly. In this case, the button is hidden and will be activated when the map and 'my location' will go out of sync by user gesture. The app will try to find the device location and show it on the map at the center of the screen when the user clicks on it (IOS will switch to the 3D mode with the 2nd click).
 
@@ -22,7 +22,7 @@ versions: '*'
 
 ## Directions
 
-![Directions button allows](/assets/images/docs/widgets/directions_button_allows.png)
+![Directions button allows](/assets/images/widgets/directions_button_allows.png)
 
 **Directions** button allows to [build a route](/osmand/navigation) and [start navigation](/osmand/navigation). In navigation mode this button is not visible by default and it appears after a short tap on the map. **Directions** button has 3 different indicative states:
 - Default grey icon - the route has not been built yet. A dialog to build a new route will appear by click.
@@ -31,19 +31,19 @@ versions: '*'
 
 ## Main menu
 
-![Main menu button](/assets/images/docs/widgets/main_menu_button.png)
+![Main menu button](/assets/images/widgets/main_menu_button.png)
 
 **Main menu** button allows to access to [all features](/osmand/main-menu) of the application. In navigation mode this button is not visible by default. It appears after a short tap on the map.
 
 ## Search
 
-![Search button](/assets/images/docs/widgets/search_button.png)
+![Search button](/assets/images/widgets/search_button.png)
 
 Search button provides quick access from the map to [search capabilities](/osmand/search/).
 
 ## Compass
 
-![Compass widget](/assets/images/docs/widgets/compass_widget.png)
+![Compass widget](/assets/images/widgets/compass_widget.png)
 
 Compass widget indicates how map is oriented on the device screen and top arrow / red arrow points where the north of map is located. It also shows the current **[Map orientation mode](/osmand/map/interact-with-map#map-orientation)**. Clicking on the compass will cycle through all Map orientation modes.
 

@@ -6,13 +6,13 @@ versions: '*'
 
 Informational widgets is blocks on the top side of the device screen which show next information.
 
-![Informational widgets all](/assets/images/docs/widgets/informational_widgets_all.png)
+![Informational widgets all](/assets/images/widgets/informational_widgets_all.png)
 
 ## Altitude
 
 Altitude widget shows the height above sea level.
 
-![Altitude widget](/assets/images/docs/widgets/altitude_widget.png)
+![Altitude widget](/assets/images/widgets/altitude_widget.png)
 
 | | |
 |------------|------------|
@@ -28,7 +28,7 @@ Altitude widget shows the height above sea level.
 
 This widget shows current time from a device.
 
-![Current time widget](/assets/images/docs/widgets/current_time_widget.png)
+![Current time widget](/assets/images/widgets/current_time_widget.png)
 
 | | |
 |------------|------------|
@@ -41,7 +41,7 @@ This widget shows current time from a device.
 
 This widget shows your current speed.
 
-![Speed widget](/assets/images/docs/widgets/speed_widget.png)
+![Speed widget](/assets/images/widgets/speed_widget.png)
 
 | | |
 |------------|------------|
@@ -55,7 +55,7 @@ This widget shows your current speed.
 
 This widget shows battery level of your device.
 
-![Battery level widget](/assets/images/docs/widgets/battery_level_widget.png)
+![Battery level widget](/assets/images/widgets/battery_level_widget.png)
 
 | | |
 |------------|------------|
@@ -69,7 +69,7 @@ This widget shows battery level of your device.
 
 The widget is shown at the top of the screen. It shows the geographic coordinates of the device's location.
 
-![Coordinates Android widget](/assets/images/docs/widgets/coordinates_widget.png)
+![Coordinates Android widget](/assets/images/widgets/coordinates_widget.png)
 
 | | |
 |------------|------------|
@@ -81,7 +81,7 @@ The widget is shown at the top of the screen. It shows the geographic coordinate
 
 GPS (Global Positioning System) info widget shows a number of satellites that a device sees and uses at that moment.
 
-![GPS Info Android widget](/assets/images/docs/widgets/gps_info_widget.png)
+![GPS Info Android widget](/assets/images/widgets/gps_info_widget.png)
 
 | | |
 |------------|------------|
@@ -95,7 +95,7 @@ GPS (Global Positioning System) info widget shows a number of satellites that a 
 
 The widget shows Frames per Second (FPS) of a device screen.
 
-![FPS info Android widget](/assets/images/docs/widgets/fps_info_widget.png)
+![FPS info Android widget](/assets/images/widgets/fps_info_widget.png)
 
 | | |
 |------------|------------|
@@ -110,7 +110,7 @@ The widget shows Frames per Second (FPS) of a device screen.
 
 Shows the distance from users location to the parking place in default distance units. <br>
 
-![Parking widget](/assets/images/docs/widgets/parking_widget.png)
+![Parking widget](/assets/images/widgets/parking_widget.png)
 
 | | |
 |------------|------------|
@@ -130,7 +130,7 @@ The following menu will show the configurations of the parking spot such as park
 User can delete the parking location marker anytime with ‘Delete’ button. <br>
 It will be removed from the map and from the calendar if such option has been chosen earlier. <br>
 
-![Time limited unlimited](/assets/images/docs/widgets/time_limited_unlimited.png)
+![Time limited unlimited](/assets/images/widgets/time_limited_unlimited.png)
 
 If 'Time-limited parking' has been selected at Step 5 a user can set the parking time interval. <br>
 There are three ways to configure the parking time limit. The first one is by using the electronic watch control and the second one is by using analogue watch control. The third way is to tap the small keyboard image under numeric clock and set the time manually. <br>
@@ -142,7 +142,7 @@ User may also add some extra information on the calendar screen appeared and pre
 
 Is used to get the quick access to recording button. <br>
 
-![Trip recording (REC) widget](/assets/images/docs/widgets/trip_recording_widget.png)
+![Trip recording (REC) widget](/assets/images/widgets/trip_recording_widget.png)
 
 | | |
 |------------|------------|
@@ -153,7 +153,7 @@ Is used to get the quick access to recording button. <br>
 
 <!-- Before recording the trip a Trip recording settings to be defined. Trip recording settings menu is displayed when user clicks on the REC widget. <br>
 
-![Trip recording (REC) Settings](/assets/images/docs/widgets/rec_settings.png)
+![Trip recording (REC) Settings](/assets/images/widgets/rec_settings.png)
 
 In the REC settings menu user can enable 'Show track' on the map feature and configure the style of the track line (for Android only). <br>
 
@@ -162,12 +162,12 @@ The 'Line configuration button' (for Android only) next to the toggle button 'S
 Optionally, user can configure Custom width by moving slider from 1 to 24. <br>
 
 
-![Trip recording Appearence](/assets/images/docs/widgets/appearance_trip_recording.png)
+![Trip recording Appearence](/assets/images/widgets/appearance_trip_recording.png)
 
 In the REC Settings menu user can configure the logging interval from 0 seconds to 5 minutes. <br>
 The Logging interval controls the frequency of queries to the GPS sensor along with frequency of new dots appearing in the track line. <br>
 
-![Logging interval in Trip recording Appearence](/assets/images/docs/widgets/logging_interval_in_tr_widget.png)
+![Logging interval in Trip recording Appearence](/assets/images/widgets/logging_interval_in_tr_widget.png)
 
 If a user wants to apply all configurations to all others tracks recorded in future, the toggle button (switcher) ‘Always ask’ should be off. Please leave this switcher in 'on' position to be able to configure tracks individually. <br>
 When all settings are defined, user can push the ‘Start recording’ button.
@@ -179,7 +179,7 @@ The Logging interval can be additionally checked/ changed in: <br>
 
 When all settings are configured, press ‘Start recording’ button.
 ***For Android devices*** the REC widget will change to the red circle.  The distance passed will be displayed in the widget.  
-![REC widget](/assets/images/docs/widgets/rec_widget.png)
+![REC widget](/assets/images/widgets/rec_widget.png)
 
 To tap REC widget again will give an opportunity  to:
 * See all general information about the track: distance, ascent, descent, average speed, maximum speed, time span. This panel can  be scrolled by the user right and back.
@@ -206,7 +206,7 @@ User can find his track in {% data variables.ios-values.menu %} → {% data vari
 
 Is used to get quick access to audio, video, photo notes button.
 
-![Audio-video notes widget](/assets/images/docs/widgets/audio_video_notes_widget.png)
+![Audio-video notes widget](/assets/images/widgets/audio_video_notes_widget.png)
 
 | | |
 |------------|------------|
@@ -232,10 +232,10 @@ If 'On request' option is selected  user will see three options to choose. <br>
 
 When the 'Take an audio note' option is selected, the user  can start doing audio recording.  To stop audio recording the user has to click on the widget or the button 'Stop' at the bottom of the screen. <br>
 
-![Take an Audio video notes](/assets/images/docs/widgets/take_an_audio_note_widget.png) <br>
+![Take an Audio video notes](/assets/images/widgets/take_an_audio_note_widget.png) <br>
 When the 'Take a video note' option is selected, the user  can start doing video recording.  To stop video recording the user has to click on the widget or the button 'Stop' at the bottom of the screen. User can optionally show or hide the  video screen view by clicking the relevant button in the bottom-left corner. <br>
 
-![Take a video note](/assets/images/docs/widgets/take_a_video_note_widget.png) <br>
+![Take a video note](/assets/images/widgets/take_a_video_note_widget.png) <br>
 
 When the 'Take a photo' option is selected, the user can take a picture. <br>
 
@@ -245,7 +245,7 @@ User can sort files by type/data, share and delete them. <br> -->
 
 The widget is used to get quick access to the OsmAnd Tracker app that is used to share user location with other people. 
 
-![Tracker widget](/assets/images/docs/widgets/tracker_widget.png)
+![Tracker widget](/assets/images/widgets/tracker_widget.png)
 
 | | |
 |------------|------------|
@@ -263,7 +263,7 @@ IMPORTANT: Tap the OsmAnd Tracker widget and chose the tab 'Live now'. In the up
 
 The widget is used to get the quick access to Mapillary app to add missed images. <br>
 
-![Mapillary widget](/assets/images/docs/widgets/mapillary_widget.png) <br>
+![Mapillary widget](/assets/images/widgets/mapillary_widget.png) <br>
 
 | | |
 |------------|------------|
