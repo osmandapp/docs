@@ -8,7 +8,7 @@ versions: '*'
 
 ![Configure screen menu](/assets/images/widgets/location_zoom_buttons.png)
 
-**My location** is a circle button that shows whether the center of the map is synchronized with "my location" (geolocation of the device). It is also known as "Where am I?". Generally in navigation, the map is synced with device location, and there are no needs to move the map constantly. In this case, the button is hidden and will be activated when the map and 'my location'**_quotes 'or"_** will go out of sync by user gesture. The app will try to find the device location and show it on the map at the center of the screen when the user clicks on it (iOS will switch to the 3D mode with the 2nd click **_One click?_**).
+**My location** is a circle button that shows whether the center of the map is synchronized with "my location" (geolocation of the device). It is also known as "Where am I?". Generally in navigation, the map is synced with device location, and there are no needs to move the map constantly. In this case, the button is hidden and will be activated when the map and 'my location' **_quotes 'or"_** will go out of sync by user gesture. The app will try to find the device location and show it on the map at the center of the screen when the user clicks on it (iOS will switch to the 3D mode with the 2nd click **_One click?_**).
 
 **My location** button has four indicative states:
 - Full blue icon - location is found but it is not synchronized with map
@@ -22,9 +22,9 @@ versions: '*'
 
 Keep in mind that during navigation zoom can be controlled by **Auto zoom setting**: 
 
-({% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.application_profiles%} → {% data variables.android-values.routing_settings_2 %} → {% data variables.map_during_navigation_info %} → {% data variables.android-values.auto_zoom_map} 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.application_profiles%} → {% data variables.android-values.routing_settings_2 %} → {% data variables.map_during_navigation_info %} → {% data variables.android-values.auto_zoom_map} 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.map_behavior %} → {% data variables.ios-values.auto_zoom_map%})(**_Check iOS path_**).
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.map_behavior %} → {% data variables.ios-values.auto_zoom_map%}(**_Check iOS path_**).
 
 ## Directions
 
