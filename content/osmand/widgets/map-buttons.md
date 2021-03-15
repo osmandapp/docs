@@ -16,15 +16,12 @@ versions: '*'
 - Grey icon - location is not found yet
 - Arrow icon (iOS) - 3D mode is switched on
 
-**Long tap** on **My location** opens Context menu, so user can share his location. **_Only for Android?_**
+**Long tap** on **My location** opens Context menu, so user can share his location. **_Only for Android_**
 
 **Zoom buttons** are always visible next to **My Location** and allow to control map zoom level. Changing zoom level doesn't change map synchronization with location. **Long tap** on **Zoom buttons** opens Map magnifier dialog and allows to change map detailing(**_Android only_**).
 
 Keep in mind that during navigation zoom can be controlled by **Auto zoom setting**: 
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.application_profiles%} → {% data variables.android-values.routing_settings_2 %} → {% data variables.map_during_navigation_info %} → {% data variables.android-values.auto_zoom_map} 
-
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.map_behavior %} → {% data variables.ios-values.auto_zoom_map%}(**_Check iOS path_**).
 
 ## Directions
 
