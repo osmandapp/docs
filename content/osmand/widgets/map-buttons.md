@@ -22,6 +22,11 @@ versions: '*'
 
 Keep in mind that during navigation zoom can be controlled by **Auto zoom setting**: 
 
+(**_Check iOS and Android pathes_**)
+
+<!--{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.application_profiles%} → {% data variables.android-values.routing_settings_2 %} → {% data variables.map_during_navigation_info %} → {% data variables.android-values.auto_zoom_map}  (**_Check Android path_**)-->
+
+<!--{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.map_behavior %} → {% data variables.ios-values.auto_zoom_map%}(**_Check iOS path_**)-->
 
 ## Directions
 
