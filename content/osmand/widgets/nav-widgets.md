@@ -4,7 +4,7 @@ intro: "Navigational widgets are enabled during navigation to display informatio
 versions: '*'
 ---
 
-Navigational widgets is blocks on the device screen which show next information about a trip.
+
 
 ![Navigational widgets all](/assets/images/widgets/navigational_widgets_all.png)
 
@@ -12,7 +12,11 @@ Navigational widgets is blocks on the device screen which show next information 
 
 ## Relative / magnetic bearing
 
-The widget shows relative or magnetic bearing.
+The widget shows relative or magnetic bearing in angular unit ({% data variables.android-values.shared_string_degrees %} 180, {% data variables.android-values.shared_string_degrees %} 360, {% data variables.android-values.shared_string_milliradians %}).
+
+[Relative bearing](https://en.wikipedia.org/wiki/Bearing_(angle)#Relative) refers to the angle between the craft's forward direction and the location of another object. For example, an object relative bearing of 0 degrees would be dead ahead; an object relative bearing 180 degrees would be behind.
+
+[Magnetic bearing](https://en.wikipedia.org/wiki/Bearing_(angle)#Absolute) is measured in relation to magnetic north, using the direction toward the magnetic north pole (in northeastern Canada) as a reference point.
 
 ![Relative Magnetic bearing widget](/assets/images/widgets/relative_magnetic_bearing_widget.png)
 
@@ -20,13 +24,13 @@ The widget shows relative or magnetic bearing.
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} → {% data variables.android-values.map_widget_bearing %} or {% data variables.android-values.map_widget_magnetic_bearing %}  |
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.map_widget_magnetic_bearing %} or {% data variables.ios-values.map_widget_bearing %}|
-| Click | Changes between  Relative bearing (degree) or Magnetic bearing (degree with "M"). |      
-| Note| [Relative bearing](https://en.wikipedia.org/wiki/Bearing_(angle)#Relative) refers to the angle between the craft's forward direction and the location of another object. For example, an object relative bearing of 0 degrees would be dead ahead; an object relative bearing 180 degrees would be behind. Bearings can be measured in mils or degrees. |
- |   |  [Magnetic bearing](https://en.wikipedia.org/wiki/Bearing_(angle)#Absolute) is measured in relation to magnetic north, using the direction toward the magnetic north pole (in northeastern Canada) as a reference point. |
+| Format | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.units_and_formats %} → {% data variables.android-values.angular_measeurement %} |
+|        | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.units_and_formats %} → {% data variables.ios-values.angular_units %} | 
+| Click | Changes between  Relative bearing or Magnetic bearing (with "M"). |      
 
 ## Destination
 
-The widget shows current distance to the finish line.
+The widget shows current distance to the finish point.
 
 ![Destination widget](/assets/images/widgets/destination_widget.png)
 
@@ -34,12 +38,25 @@ The widget shows current distance to the finish line.
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.route_descr_destination %} |
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.map_widget_distance%}|
-| Click | Moving the map to a finish point. |      
+| Click | Moving the map to a finish point. |    
+
+## Intermediate destination
+
+The widget shows current distance to the nearest intermediate point of navigation.
+
+![Intermediate destination widget](/assets/images/widgets/intermediate_destination_widget.png)
+
+| | |
+|------------|------------|
+| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.map_widget_intermediate_distance %} |
+|  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.map_widget_intermediate_distance %}|
+| Click | If we have one intermediate point then the map moves to the intermediate point. | 
+|       | If we have two and more intermediate points then Destination list with all points opens. | 
 
 
 ## Arrival time or Time to go
 
-The widget shows {% data variables.android-values.access_arrival_time %} or {% data variables.android-values.map_widget_time %} of a trip.
+The widget shows {% data variables.android-values.access_arrival_time %} or {% data variables.android-values.map_widget_time %} of navigation.
 
 ![Arrival time Time to go widget](/assets/images/widgets/arrival_time_time_to_go_widget.png)
 
@@ -48,6 +65,18 @@ The widget shows {% data variables.android-values.access_arrival_time %} or {% d
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.access_arrival_time %} or {% data variables.android-values.map_widget_time %}   |
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.access_arrival_time %} or {% data variables.ios-values.map_widget_time %}|
 | Click | Changes between "Arrival time" to "Time to go" and vice versa. |     
+
+## Intermediate arrival time or Intermediate time
+
+The widget shows {% data variables.android-values.access_arrival_time %} or {% data variables.android-values.map_widget_time %} of navigation.
+
+![Arrival time Time to go widget](/assets/images/widgets/arrival_time_time_to_go_widget.png)
+
+| | |
+|------------|------------|
+| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.access_arrival_time %} or {% data variables.android-values.map_widget_time %}   |
+|  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.access_arrival_time %} or {% data variables.ios-values.map_widget_time %}|
+| Click | Changes between "Arrival time" to "Time to go" and vice versa. |   
 
 ## Speed limit
 
