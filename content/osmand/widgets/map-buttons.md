@@ -8,7 +8,7 @@ versions: '*'
 
 ![Configure screen menu](/assets/images/widgets/location_zoom_buttons.png)
 
-**My location** is a circle button that shows whether the center of the map is synchronized with "my location" (geolocation of the device). It is also known as "Where am I?". Generally in navigation, the map is synced with device location, and there are no needs to move the map constantly. In this case, the button is hidden and will be activated when the map and 'my location' **_quotes 'or"_** will go out of sync by user gesture. The app will try to find the device location and show it on the map at the center of the screen when the user clicks on it (iOS will switch to the 3D mode with the 2nd click **_One click?_**).
+**My location** is a circle button that shows whether the center of the map is synchronized with "my location" (geolocation of the device). It is also known as "Where am I?". Generally in navigation, the map is synced with device location, and there are no needs to move the map constantly. In this case, the button is hidden and will be activated when the map and 'my location' will go out of sync by user gesture. The app will try to find the device location and show it on the map at the center of the screen when the user clicks on it ( iOS will switch to the 3D mode when the user click twice on it).
 
 **My location** button has four indicative states:
 - Full blue icon - location is found but it is not synchronized with map
@@ -16,17 +16,15 @@ versions: '*'
 - Grey icon - location is not found yet
 - Arrow icon (iOS) - 3D mode is switched on
 
-**Long tap** on **My location** opens Context menu, so user can share his location. **_Only for Android_**
+**Long tap** (only for Android) on **My location** opens Context menu, so user can share his location.
 
-**Zoom buttons** are always visible next to **My Location** and allow to control map zoom level. Changing zoom level doesn't change map synchronization with location. **Long tap** on **Zoom buttons** opens Map magnifier dialog and allows to change map detailing(**_Android only_**).
+**Zoom buttons** are always visible next to **My Location** and allow to control map zoom level. Changing zoom level doesn't change map synchronization with location. **Long tap** (only for Android) on **Zoom buttons** opens Map magnifier dialog and allows to change map detailing.
 
-Keep in mind that during navigation zoom can be controlled by **Auto zoom setting**: 
+Keep in mind that during navigation zoom can be controlled by **Auto zoom setting**:
 
-(**_Check iOS and Android pathes_**)
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.application_profiles%} → {% data variables.android-values.routing_settings_2 %} → {% data variables.map_during_navigation_info %} → {% data variables.android-values.auto_zoom_map}  
 
-<!--{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.application_profiles%} → {% data variables.android-values.routing_settings_2 %} → {% data variables.map_during_navigation_info %} → {% data variables.android-values.auto_zoom_map}  (**_Check Android path_**)-->
-
-<!--{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.map_behavior %} → {% data variables.ios-values.auto_zoom_map%}(**_Check iOS path_**)-->
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.map_behavior %} → {% data variables.ios-values.auto_zoom_map%}
 
 ## Directions
 
@@ -41,7 +39,7 @@ Keep in mind that during navigation zoom can be controlled by **Auto zoom settin
 
 ## Configure Map
 
-**_TODO: add small screenshot_**
+![Configure Map](/assets/images/widgets/configure_map.png)
 
 **Configure Map** button allows to access to [Configure Map menu](/osmand/map/configure-map-menu). Icon on it indicates [Current app profile](/osmand/start-with/profiles).
 
