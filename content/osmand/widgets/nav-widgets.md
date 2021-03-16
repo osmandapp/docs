@@ -136,7 +136,7 @@ The widget shows street names or road names (highway shield) for maneuver during
 | |
 |------------|------------|
 | Enable  |{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_appearance_rem %} →  {% data variables.android-values.map_widget_top_text %} |
-|  |For {% data variables.product.android_button_seq %} always showes |
+|  |For {% data variables.product.ios_button_seq %} always showed |
 
 ## POIs
 
