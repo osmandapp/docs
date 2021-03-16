@@ -54,8 +54,7 @@ The line will fade by itself after 2 seconds.
 | Format | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.units_and_formats %} → {% data variables.android-values.unit_of_length %} |
 |   | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.units_and_formats %} → {% data variables.ios-values.unit_of_length %}   |
 
-
-For IOS 'Distance by tap' tool is available as a part of Radius-ruler tool. User have to enable [Radius-ruler widget](https://docs.osmand.net/en/main@latest/osmand/widgets/radius-ruler#radius-ruler-widget) to use the feature.
+For iOS 'Distance by tap' tool is available as a part of Radius-ruler tool. User have to enable [Radius-ruler widget](https://docs.osmand.net/en/main@latest/osmand/widgets/radius-ruler#radius-ruler-widget) to use the feature.
 
 ## Ruler
 
