@@ -68,19 +68,21 @@ The widget shows {% data variables.android-values.access_arrival_time %} or {% d
 
 ## Intermediate arrival time or Intermediate time
 
-The widget shows {% data variables.android-values.access_arrival_time %} or {% data variables.android-values.map_widget_time %} of navigation.
+The widget shows {% data variables.android-values.access_intermediate_arrival_time %} or {% data variables.android-values.map_widget_intermediate_time %} of navigation to an intermediate point.
 
-![Arrival time Time to go widget](/assets/images/widgets/arrival_time_time_to_go_widget.png)
+![Intermediate Arrival time Time widget](/assets/images/widgets/intermediate_arrival_time_and_time_widget.png)
 
 | | |
 |------------|------------|
-| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.access_arrival_time %} or {% data variables.android-values.map_widget_time %}   |
-|  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.access_arrival_time %} or {% data variables.ios-values.map_widget_time %}|
-| Click | Changes between "Arrival time" to "Time to go" and vice versa. |   
+| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.access_intermediate_arrival_time %} or {% data variables.android-values.map_widget_intermediate_time %}   |
+|  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.access_intermediate_arrival_time %} or {% data variables.ios-values.map_widget_intermediate_time %}|
+| Click | Changes between "Intermediate arrival time" to "Intermediate time" and vice versa. |   
 
 ## Speed limit
 
 The widget shows a speed limit for a current road.
+
+> NOTE: speed limit data from [OpenStreetMap project](http://openstreetmap.org/).
 
 ![Speed limit widget](/assets/images/widgets/speed_limit_widget.png)
 
@@ -125,16 +127,27 @@ The widget shows warnings about your maneuvers with a picture of maneuver and [d
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_left %} → {% data variables.android-values.map_widget_next_turn %}, {% data variables.android-values.map_widget_next_turn_small %}, {% data variables.android-values.map_widget_next_next_turn %}|
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_left %} → {% data variables.ios-values.map_widget_next_turn %}, {% data variables.ios-values.map_widget_next_turn_small %}, {% data variables.ios-values.map_widget_next_next_turn %} |
 
-## Street name / POIs (Android)
+## Street name
 
-The widget shows street names or road names (highway shield) for maneuver during navigation. Also shows POI and Favorites along a route.
+The widget shows street names or road names (highway shield) for maneuver during navigation.
 
 ![Street name POIs widget](/assets/images/widgets/street_name_poi_widget.png)
 
 | |
 |------------|------------|
-| Enable Street name |{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_appearance_rem %} →  {% data variables.android-values.map_widget_top_text %} |
-| Enable POIs |{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.get_directions %} → {% data variables.android-values.shared_string_settings %} →  {% data variables.android-values.show_along_the_route %} →  {% data variables.android-values.points_of_interests %}, {% data variables.android-values.shared_string_my_favorites %}, {% data variables.android-values.way_alarms %} |
+| Enable  |{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_appearance_rem %} →  {% data variables.android-values.map_widget_top_text %} |
+|  |For {% data variables.product.android_button_seq %} always showes |
+
+## POIs
+
+The widget shows (Points of interest) POI and Favorites along the route.
+
+![Street name POIs widget](/assets/images/widgets/street_name_poi_widget.png)
+
+| |
+|------------|------------|
+| Enable  |{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.get_directions %} → {% data variables.android-values.shared_string_settings %} →  {% data variables.android-values.show_along_the_route %} →  {% data variables.android-values.points_of_interests %}, {% data variables.android-values.shared_string_my_favorites %}, {% data variables.android-values.way_alarms %} |
+| Enable  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} →  |
 
 ## Read Next
 
