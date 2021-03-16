@@ -30,7 +30,7 @@ As an addition option, it gives the user the Azimuth direction. It is marked as 
 | | |
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.shared_string_ellipsis %} → {% data variables.android-values.show_compass_ruler %}   |
-|  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %}   → {% data variables.ios-values.shared_string_ellipsis%} → {% data variables.ios-values.map_widget_radius_ruler %} |
+|  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %}   → {% data variables.ios-values.shared_string_ellipsis%} →  |
 | Disable  |  {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.shared_string_ellipsis %} → {% data variables.android-values.hide_compass_ruler %}  |
 |   | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %}   → {% data variables.ios-values.shared_string_ellipsis%} → {% data variables.ios-values.hide_compass_ruler %}  |
 | Click | Сhanges widget state between the black scale, the grey one and no scale (only ruler) modes. |
