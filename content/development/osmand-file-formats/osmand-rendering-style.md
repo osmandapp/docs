@@ -39,8 +39,48 @@ Evaluation rules:
     - Example: `<apply_if nightMode="false" streetLightingNight="false" shield="street_lamp_lit_no_shield"/>`. Input parameters: nightMode, streetLightingNight; output parameters - shield.
 
 
-## Attributes & Constants
+## Attributes (special) & Constants 
+Rendering constants & rendering attributes are interchangeable and could be used to simplify rendering style and avoid copy/pasting of values or blocks of code. In case attribute like `color` is a single value, it is **preferred** to use **rendering constant** cause it greatly speeds up rendering style performance. 
+
+Rendering constants could be used only with one given value: `<renderingConstant name="motorwayShadowRadius" value="1.6"/>` and later in feature selectors as `<apply_if shadowRadius="$motorwayShadowRadius"/>`. 
+
+Rendering attributes could have embedded structure with extra selectors and output one of the following attributes (`attrColorValue`, `attrBoolValue`, `attrFloatValue`, `attrIntValue`, `attrStringValue`). Example:
+```
+    <renderingAttribute name="motorroadShadowColor">
+		<case attrColorValue="#5f5fff"/>
+	</renderingAttribute>
+    .....
+    <case showAccess="true" additional="motorroad=yes" attrColorValue="$motorroadShadowColor"/>
+```    
+
+### Special attributes 
+
+Special attributes are `<renderingAttribute >` that are not used by selectors but used directly by the code to query specific feature which is drawn in application like a navigation route, ruler, gpx track, etc.
+| Special attribute | Description |
+|-------------------|-------------|
+| `measureDistanceLine` | Line rendering for Plan Route feature | 
+| `markerGuideline`, `markerPlanRouteline` | Rendering lines to the markers |
+| `route` | Rendering a navigation route | 
+| `gpx` | Rendering a GPX track |
+| `publicTransportLine` | Rendering a public transport navigation route | 
+| `walkingRouteLine` | Rendering a public transport navigation: pedestrian route between stops | 
+| `rulerLineFont`, `rulerLine`, `rulerCircleAlt`, `rulerCircle` | How to render Radius-Ruler widget and measure distance by tap | 
+|||
+| `defaultColor` | Default color to fill the map (switches night / day mode) |
+| `shadowRendering` | Internal how to render shadow with Skia |
+|||
+| `polygonMinSizeToDisplay` | Internals how to render small lines and small polygons | 
+| `roadDensityZoomTile` | Internals how to render small lines and small polygons |
+| `roadsDensityLimitPerTile` | Internals how to render small lines and small polygons |
+| `defaultSymbolPathSpacing` | Internals how to render small lines and small polygons |
+| `defaultBlockPathSpacing` | Internals how to render small lines and small polygons |
+| `globalPathPadding` | Internals how to render small lines and small polygons |
+|||
+| `debugTextDisplayBBox` | Attributes to debug text rendering and positioning | 
+| `debugTextDisplayShieldBBox` | Attributes to debug text rendering and positioning |
+| `debugTextDoNotFindIntersections` | Attributes to debug text rendering and positioning |
+| `debugTextDoNotFindIntersectionsSameName` | Attributes to debug text rendering and positioning |
+| `debugTextDisplayShortRoadNames` | Attributes to debug text rendering and positioning |
 
 ## Map Style Parameters
 
-## Special attributes (altitude / graph)
