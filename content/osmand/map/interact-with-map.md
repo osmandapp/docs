@@ -16,7 +16,7 @@ Special words about my location / radius of my location. Shortly about map inter
 
 There are three wake-up options that user can find in {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings%} → {% data variables.android-values.shared_string_profiles %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.shared_string_other %} → {% data variables.android-values.screen_control %} → {% data variables.android-values.turn_screen_on%}.
 
-Note: The OsmAnd should be in in the foreground when the device is locked.
+Note: The OsmAnd should be in the foreground when the device is locked.
 
 
 ## Map orientation
