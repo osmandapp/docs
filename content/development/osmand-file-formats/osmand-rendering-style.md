@@ -56,6 +56,8 @@ Rendering attributes could have embedded structure with extra selectors and outp
 ### Special attributes 
 
 Special attributes are `<renderingAttribute >` that are not used by selectors but used directly by the code to query specific feature which is drawn in application like a navigation route, ruler, gpx track, etc.
+
+
 | Special attribute | Description |
 |-------------------|-------------|
 | `measureDistanceLine` | Line rendering for Plan Route feature | 
@@ -68,6 +70,8 @@ Special attributes are `<renderingAttribute >` that are not used by selectors bu
 |||
 | `defaultColor` | Default color to fill the map (switches night / day mode) |
 | `shadowRendering` | Internal how to render shadow with Skia |
+||| 
+| `routeInfo_*` | Example: `routeInfo_surface`, `routeInfo_roadClass` are used to produce classes of roads to be displayed in the legend of the route. | 
 |||
 | `polygonMinSizeToDisplay` | Internals how to render small lines and small polygons | 
 | `roadDensityZoomTile` | Internals how to render small lines and small polygons |
@@ -83,4 +87,26 @@ Special attributes are `<renderingAttribute >` that are not used by selectors bu
 | `debugTextDisplayShortRoadNames` | Attributes to debug text rendering and positioning |
 
 ## Map Style Parameters
+
+Map style parameters allow to combine multiple rendering style within one file definition i.e. there is no need to have separate 'my_custom_style_night_mode.render.xml', it is possible to define parameter like `night_mode` (enabled by default) and customize certain rules (like colors) using this parameter. Later in the User interface it's possible to easy switch that parameter and have a different map style in OsmAnd.
+
+Here is a definition of `baseAppMode` parameter. `possibleValues` are values will be displayed in OsmAnd UI, `category` assists in which UI category this property belongs to.
+```
+<renderingProperty attr="baseAppMode" name="Default Rendering mode" description="Map optimization for respective User Profile based on base (parent) profile"
+		type="string" possibleValues="default, car, bicycle, pedestrian, public_transport, boat, ski"/>
+```
+
+Later in the selection style you can specify when this selector could be applied i.e. for which application mode specified by the user
+```
+<renderingAttribute name="roadsDensityLimitPerTile">
+		<!-- Number of roads to display per tile -->
+		<case moreDetailed="true" attrIntValue="55"/>
+		<case baseAppMode="pedestrian" attrIntValue="40"/>
+		<case baseAppMode="bicycle" attrIntValue="40"/>
+		<case attrIntValue="60"/>
+	</renderingAttribute>
+```
+
+So if user selects `moreDetailed=true` then output value for density will be `55` and if `baseAppMode=pedestrian` (another parameter)  it wil be `40`, otherwise 60.
+
 
