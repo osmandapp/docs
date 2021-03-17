@@ -140,7 +140,6 @@ SASPlanet is a freeware, opensource navigation software with the capability of v
 
 [Download](http://www.sasgis.org/download/) the program, [English guideline](https://www.evernote.com/shard/s100/client/snv?noteGuid=e659886a-096c-46b4-8280-b57b77373847&noteKey=dac8148d9a74ed77&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs100%2Fsh%2Fe659886a-096c-46b4-8280-b57b77373847%2Fdac8148d9a74ed77&title=How%2Bto%2Buse%2BSAS.Planet.%2BEnglish%2Bguideline).
 
-[Video tutorial](https://www.youtube.com/watch?v=Y_fekLfcUOc) of using the program.
 
 ## Common Issues
 ### OutOfMemoryError issue
