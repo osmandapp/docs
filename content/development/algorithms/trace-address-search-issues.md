@@ -3,28 +3,32 @@ title: Trace Address Search Issues
 versions: '*'
 ---
 
-## Issue: street or house is found in another city
+## Issue: street or house is found in another city 
 
-Examples on Github: [1](https://github.com/osmandapp/OsmAnd/issues/10679), [2](https://github.com/osmandapp/OsmAnd/issues/10677), [3](https://github.com/osmandapp/OsmAnd/issues/10699).
+Examples when address was find in another city: [1](https://github.com/osmandapp/OsmAnd/issues/10679), [2](https://github.com/osmandapp/OsmAnd/issues/10677), [3](https://github.com/osmandapp/OsmAnd/issues/10699), [4](https://github.com/osmandapp/OsmAnd/issues/10921).
 
-This situation is typical and associated with the processing of borders for cities. It can be seen if you search for STREET or STREET + HOUSE without a city name, then a full-text search will find a house from another city.
+These issues are related to the algorithm of connecting cities to its boundaries in OpenStreetMap. It can be seen if you search for STREET or STREET + HOUSE without a city name, then a full-text search will find a house from another city.
 
-How to OsmAnd is finding city boundaries (relation):
-- OsmAnd searches for relations where admin_center / admin_centre refers to a node with place = city, town, village, etc.
-- Otherwise, the link is checked for an exact match of the name. 
+How to OsmAnd is finding a boundary (relation) to a specific city:
+- Boundary Relation should have following tags **boundary** (*administrative*, *postal_code*) and **place**.
+  - Boundary should have a relation member **label**, **admin_centre** or **admin_center** pointing to a place-node.
+  - Boundary should have **exact same name** as place-node
+  - Otherwise boundary relation is not used as a city boundary
+- Among boundaries the biggest is selected 
 - Ways of relation are the boundaries. Inner / outer ways are supported.
 
-## Possible causes
+### Possible causes
 
 In OpenStreetMap:
 - The city's boundaries are broken. How to fix [here](https://help.openstreetmap.org/questions/1053/how-do-i-fix-inconsistent-boundaries).
 - The city has no borders ([example](https://github.com/osmandapp/OsmAnd/issues/10699)).
 - City boundaries don't overlap correctly. OsmAnd must include the street in both cities. You can fix it in OpenStreetMap.
+- No required tags for relation (**boundary** or **place**) - [4](https://github.com/osmandapp/OsmAnd/issues/10921).
 
 In OsmAnd
 - The address begins to belong to the neighboring city. These cities are often villages, suburbs, districts. Or belong to the general area. Github: [1](https://github.com/osmandapp/OsmAnd/issues/10559),[2](https://github.com/osmandapp/OsmAnd/issues/10679),[3](https://github.com/osmandapp/OsmAnd/issues/10730)
 
-## Examples
+### Examples
 
 Using only OSM: You found - Wolności 223 Zabrze
 
