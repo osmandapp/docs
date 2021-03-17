@@ -79,7 +79,7 @@ The widget shows {% data variables.android-values.access_intermediate_arrival_ti
 The widget shows a speed limit for a current road.
 
 > NOTE: speed limit data from [OpenStreetMap project](http://openstreetmap.org/).
-> 
+
 ![Speed limit widget](/assets/images/widgets/speed_limit_widget.png)
 
 | |
