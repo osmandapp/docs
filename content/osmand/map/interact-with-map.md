@@ -11,10 +11,11 @@ Special words about my location / radius of my location. Shortly about map inter
 
 * Zoom in and out map on the main screen by using two fingers.
 * There is an additional option for iOS to adjust the slope of the map. User have to put two fingers on the map and swipe down the screen to change the slope and swipe up to change to default state.
-clicking with two fingers on the map will zoom out the map.
-* Set from and to navigation directions in {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.get_directions %}. The elevation chart will appear at the bottom of the screen. The User can zoom in and zoom out the elevation chart that will change chart borders accordingly by using two fingers.
+* Clicking with two fingers on the map will zoom out the map.
+* Set from and to navigation directions in {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.get_directions %}. The elevation chart will appear at the bottom of the screen. User can zoom in and zoom out the elevation chart that will change chart borders accordingly by using two fingers.
 
-There are three wake-up options that user can find in {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings%} → {% data variables.android-values.shared_string_profiles %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.shared_string_other %} → {% data variables.android-values.screen_control %} → {% data variables.android-values.turn_screen_on%} (for Android).
+There are three wake-up options that user can find in {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings%} → {% data variables.android-values.shared_string_profiles %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.shared_string_other %} → {% data variables.android-values.screen_control %} → {% data variables.android-values.turn_screen_on%}.
+
 Note: The OsmAnd should be in in the foreground when the device is locked.
 
 
