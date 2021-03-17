@@ -106,7 +106,7 @@ This is a [{% data variables.android-values.osmand_parking_plugin_name %} plugin
 ## * Mapillary widget
 {% tip %}
 
-Enable **[Mapillary plugin](/osmand/plugins/mapillary)**: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_screen %} (Android) / {% data variables.android-values.res_mapsres %} (iOS) →  Mapillary %}.
+Enable **[Mapillary plugin](/osmand/plugins/mapillary)**: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_screen %} (Android) / {% data variables.android-values.res_mapsres %} (iOS) →  Mapillary.
 
 {% endtip %}
 
