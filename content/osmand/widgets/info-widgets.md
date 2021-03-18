@@ -6,13 +6,13 @@ versions: '*'
 
 Most of informational widgets stack together in the right column.
 
-![Informational widgets](/assets/images/widgets/informational-widgets.png)
+![Informational widgets](/assets/images/widgets/informational_widgets_all.png)
 
 ## Altitude
 
 Altitude widget shows the height above sea level of current gelocation. **Android:** on some devices altitude is not displayed correctly due to missing correction of Earth-geoid, you can download it via: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_downloads %} → {% data variables.android-values.world_maps %} → {% data variables.android-values.index_item_world_altitude_correction %}.
 
-![Altitude Android widget](/assets/images/widgets/widget-altitude.png)
+![Altitude widget](/assets/images/widgets/altitude_widget.png)
 
 | | |
 |------------|------------|
@@ -25,7 +25,7 @@ Altitude widget shows the height above sea level of current gelocation. **Androi
 
 This widget shows current time from a device.
 
-![Current time widget](/assets/images/widgets/widget-current-time.png)
+![Current time widget](/assets/images/widgets/current_time_widget.png)
 
 | | |
 |------------|------------|
@@ -38,7 +38,7 @@ This widget shows current time from a device.
 
 Speed widget shows your current speed detected by GPS-sensor.
 
-![Speed Android widget](/assets/images/widgets/widget-current-speed.png)
+![Speed widget](/assets/images/widgets/speed_widget.png)
 
 | | |
 |------------|------------|
@@ -51,7 +51,7 @@ Speed widget shows your current speed detected by GPS-sensor.
 
 This widget shows battery level of your device.
 
-![Battery level Android widget](/assets/images/widgets/widget-battery-level.png)
+![Battery level widget](/assets/images/widgets/battery_level_widget.png)
 
 | | |
 |------------|------------|
@@ -62,7 +62,7 @@ This widget shows battery level of your device.
 
 The widget is shown at the top of the screen. It shows the geographic coordinates of current geo-location.
 
-![Coordinates Android widget](/assets/images/widgets/widget-coordinates.png)
+![Coordinates Android widget](/assets/images/widgets/coordinates_widget.png)
 
 | | |
 |------------|------------|
@@ -72,9 +72,9 @@ The widget is shown at the top of the screen. It shows the geographic coordinate
 
 ## GPS Info (Android)
 
-GPS (Global Positioning System) info widget shows a number of satellites that a device detects and uses at that moment. It could be used to check GPS-status in case of a bad GPS-signal. 
+GPS (Global Positioning System) info widget shows a number of satellites that a device detects and uses at that moment. It could be used to check GPS-status in case of a bad GPS-signal.
 
-![GPS Info Android widget](/assets/images/widgets/widget-gps-info.png)
+![GPS Info Android widget](/assets/images/widgets/gps_info_widget.png)
 
 | | |
 |------------|------------|
@@ -92,7 +92,7 @@ Enable **[{% data variables.android-values.osmand_parking_plugin_name %} plugin]
 {% endtip %}
 
 This is a [{% data variables.android-values.osmand_parking_plugin_name %} plugin](/osmand/plugins/parking) widget that shows distance from you to the parking place.
- 
+
 
 ![Parking widget](/assets/images/plugins/parking/parking_widget.png)
 
@@ -112,7 +112,7 @@ Enable **[Mapillary plugin](/osmand/plugins/mapillary)**: {% data variables.andr
 
 This is a [Mapillary plugin](/osmand/plugins/mapillary) widget that provides quick access to Mapillary app to add Street-Level-Imagery.
 
-![Mapillary widget](/assets/images/plugins/mapillary/mapillary_widget.png) 
+![Mapillary widget](/assets/images/plugins/mapillary/mapillary_widget.png)
 
 | | |
 |------------|------------|
@@ -139,14 +139,14 @@ This is a [{% data variables.android-values.record_plugin_name %} plugin](/osman
 | Enable | {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.map_widget_right %} → {% data variables.android-values.map_widget_monitoring %}  |
 | On Click | Starts / Stop track recording |
 
-## * Audio-video notes widget (Android) 
+## * Audio-video notes widget (Android)
 {% tip %}
 
 Enable **[{% data variables.android-values.audionotes_plugin_name %} plugin](/osmand/plugins/audio-video-notes)**: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_screen %} → {% data variables.android-values.audionotes_plugin_name %}.
 
 {% endtip %}
 
-This is a [{% data variables.android-values.audionotes_plugin_name %} plugin](/osmand/plugins/audio-video-notes) widget that provides quick access to start / stop taking a recording (audio / video or photo). 
+This is a [{% data variables.android-values.audionotes_plugin_name %} plugin](/osmand/plugins/audio-video-notes) widget that provides quick access to start / stop taking a recording (audio / video or photo).
 
 ![Audio-video notes widget](/assets/images/plugins/audio-video-notes/audio_video_notes_widget.png)
 
@@ -177,7 +177,7 @@ Enable **[OsmAnd Tracker plugin](/osmand/plugins/osmand-tracker)**: {% data vari
 
 This is [OsmAnd Tracker plugin](/osmand/plugins/osmand-tracker) widget is used to get quick access to OsmAnd Tracker app and share your location with other people. It shows whether connection is online or offline and if sharing location is enabled, then the time since last successful sending is dispalyed.
 
-![Tracker widget](/assets/images/plugins/online-tracker/tracker_widget.png) 
+![Tracker widget](/assets/images/plugins/online-tracker/tracker_widget.png)
 
 | | |
 |------------|------------|
@@ -195,7 +195,7 @@ This is a [Developer plugin](/osmand/plugins/development) widget to investigate 
 - UI interaction FPS - panning & dragging map (higher number).
 - Map refresh FPS - refreshing points, routes on the map (smaller number).
 
-![FPS info Android widget](/assets/images/widgets/widget-fps.png)
+![FPS info Android widget](/assets/images/widgets/fps_info_widget.png)
 
 | | |
 |------------|------------|

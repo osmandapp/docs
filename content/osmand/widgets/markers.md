@@ -1,6 +1,6 @@
 ---
 title: "Marker widgets"
-intro: "Map markers are used to display selected points on the map along the trip. The information can be viewed  via using the top bar on the map screen or the widget."
+intro: "Map markers are used to display selected points on the map along the trip. The information can be viewed via using the top bar on the map screen or the widget."
 versions: '*'
 ---
 ## Map markers on the Top bar widget  
