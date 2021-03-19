@@ -109,7 +109,8 @@ The widget shows alerts on the screen during navigation
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %} →  {% data variables.android-values.screen_alerts  %} |
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.screen_alerts %} |
 
-| | |    | 
+| | |    |
+|------------|------------|------------|
 |Name|Picture|Description|
 |{% data variables.android-values.show_traffic_warnings %}| ![Alert traffic calming widgets](/assets/images/widgets/warnings_traffic_calming.png) | show traffic calming |
 |{% data variables.android-values.show_pedestrian_warnings %}| ![Alert traffic calming widgets](/assets/images/widgets/warnings_pedestrian.png) | show pedestrian crossing |
