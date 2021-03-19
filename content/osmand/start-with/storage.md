@@ -8,6 +8,17 @@ versions: '*'
 - Folder structure (iOS / Android)
 - 
 
+## Data storage folder
+Memory name | Permission access
+|-----------|------------------|
+| Internal app memory | Only OsmAnd app has access to its data and none of external apps / pc has access| 
+| Shared memory | Multiple OsmAnd apps could have access and multiple external apps |
+| External storage 1 | Only 1 OsmAnd app has access and Admin apps and USB |
+| External storage N | SDCard: Only 1 OsmAnd app has access and Admin apps and USB |
+| Multiuser storage | Only 1 OsmAnd app has access but it's shared between multiple Android users |
+| Manually specified | Depends on the path |
+
+
 ## Copy raster map package created on PC 
 
 Map package can be saved in two formats: [SQ Lite and Metainfo](/osmand/map/online-raster-maps#sqlite-vs-metainfo-sources).
