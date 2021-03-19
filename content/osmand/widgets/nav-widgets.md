@@ -108,6 +108,7 @@ The widget shows alerts on the screen during navigation
 ![Alert information widgets](/assets/images/widgets/alert_information_widget.png)
 
 > Note: You can switch on/off next alerts - {% data variables.android-values.show_traffic_warnings %}, {% data variables.android-values.show_pedestrian_warnings %}, {% data variables.android-values.show_cameras %}, {% data variables.android-values.show_tunnels %} 
+
 | | |
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %} →  {% data variables.android-values.screen_alerts  %} |
