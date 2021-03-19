@@ -114,6 +114,9 @@ The widget shows alerts on the screen during navigation
 |Name|Picture|Description|
 |{% data variables.android-values.show_traffic_warnings %}| show traffic calming | ![Alert traffic calming widgets](/assets/images/widgets/warnings_traffic_calming.png) |
 |{% data variables.android-values.show_pedestrian_warnings %}|show pedestrian crossing  | ![Alert traffic calming widgets](/assets/images/widgets/warnings_pedestrian.png) |
+|{% data variables.android-values.traffic_warning_speed_limit %}|descrip  | ![Alert speed_limit widgets](/assets/images/widgets/warnings_limit.png) ![Alert speed_limit_ca widgets](/assets/images/widgets/warnings_speed_limit_ca.png) ![Alert speed_limit_us widgets](/assets/images/widgets/warnings_speed_limit_us.png)|
+|{% data variables.android-values.show_tunnels %}|descrip  | ![Alert traffic calming widgets](/assets/images/widgets/warnings_pedestrian.png) |
+|{% data variables.android-values.speed_cameras_alert %}|descrip  | ![Alert traffic calming widgets](/assets/images/widgets/warnings_pedestrian.png) |
 | Note | {% data variables.android-values.screen_alerts_descr %} |   | 
 |      | Allerts for {% data variables.android-values.show_traffic_warnings %}, {% data variables.android-values.show_pedestrian_warnings %}, {% data variables.android-values.show_cameras %}, {% data variables.android-values.show_tunnels %}. |
 |      | {% data variables.android-values.speed_cameras_alert %} |   | 
