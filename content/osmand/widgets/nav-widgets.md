@@ -100,7 +100,7 @@ The widget shows which lanes you need to drive during a trip with [distance to a
 
 ## Alert information
 
-The widget shows alerts on the screen during a trip.
+The widget shows alerts on the screen during navigation
 
 ![Alert information widgets](/assets/images/widgets/alert_information_widget.png)
 
@@ -108,9 +108,14 @@ The widget shows alerts on the screen during a trip.
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %} →  {% data variables.android-values.screen_alerts  %} |
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.screen_alerts %} |
-| Note | {% data variables.android-values.screen_alerts_descr %} |
+
+| | |    | 
+|Name|Picture|Description|
+|{% data variables.android-values.show_traffic_warnings %}| ![Alert traffic calming widgets](/assets/images/widgets/warnings_traffic_calming.png) | show traffic calming |
+|{% data variables.android-values.show_pedestrian_warnings %}| ![Alert traffic calming widgets](/assets/images/widgets/warnings_pedestrian.png) | show pedestrian crossing |
+| Note | {% data variables.android-values.screen_alerts_descr %} |   | 
 |      | Allerts for {% data variables.android-values.show_traffic_warnings %}, {% data variables.android-values.show_pedestrian_warnings %}, {% data variables.android-values.show_cameras %}, {% data variables.android-values.show_tunnels %}. |
-|      | {% data variables.android-values.speed_cameras_alert %} |
+|      | {% data variables.android-values.speed_cameras_alert %} |   | 
 
 ## Next turns
 
