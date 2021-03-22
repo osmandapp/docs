@@ -23,8 +23,7 @@ Radius-ruler widget shows distance between users location and inner point of the
 
 ![Compass ruler](/assets/images/widgets/compass_ruler.png)
 
-Compass ruler can be configured in {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} by typing three dots. By default it is enable.
-The compass circle shows the North, the East, the South and the West directions.
+The compass circle shows the North, the East, the South and the West directions. By default Compass is enable.
 As an addition option, it gives the user the Azimuth direction. It is marked as an arrow of a different color. The angle between North, measured clockwise around the observer's horizon, and a celestial body will be displayed over the North arrow.
 
 | | |
@@ -33,7 +32,6 @@ As an addition option, it gives the user the Azimuth direction. It is marked as 
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %}   → {% data variables.ios-values.shared_string_ellipsis%} → {% data variables.ios-values.show_compass_ruler %} |
 | Disable  |  {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.shared_string_ellipsis %} → {% data variables.android-values.hide_compass_ruler %}  |
 |   | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %}   → {% data variables.ios-values.shared_string_ellipsis%} → {% data variables.ios-values.hide_compass_ruler %}  |
-|   | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %}   → {% data variables.ios-values.shared_string_ellipsis%} → {% data variables.ios-values.hide_compass_ruler %}   |
 | Click | Сhanges widget state between the black scale, the grey one and no scale (only ruler) modes. |
 | Format | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.units_and_formats %} → {% data variables.android-values.angular_measeurement%} |
 |   | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.units_and_formats %} → {% data variables.ios-values.angular_units %}   |
@@ -62,11 +60,17 @@ For iOS 'Distance by tap' tool is available as a part of Radius-ruler tool. User
 ![Ruler tool](/assets/images/widgets/ruler_tool_map.png)
 
 The Ruler tool displays map scale and shows the number of meters/kilometers (other units of measure) in a segment. Can be seen at the bottom of the screen.
+
+
 The Ruler gives a visual estimate of the objects on the map and distance between them. The Ruler will change the display value during map zooming.
 
-| | |
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.units_and_formats %} → {% data variables.android-values.unit_of_length %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.units_and_formats %} → {% data variables.ios-values.unit_of_length %}
+
+<!--| | |
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.map_widget_right %} → {% data variables.android-values.radius_ruler_item %}   |
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_radius_ruler %} |
 | Format | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.units_and_formats %} → {% data variables.android-values.unit_of_length %} |
-|   |  {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.units_and_formats %} → {% data variables.ios-values.unit_of_length %} |
+|   |  {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.units_and_formats %} → {% data variables.ios-values.unit_of_length %} |-->
