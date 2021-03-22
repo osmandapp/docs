@@ -5,6 +5,8 @@ versions: '*'
 ---
 ## Map markers on the Top bar widget  
 
+![Map markers on the Top bar widget  ](/assets/images/widgets/map_markers_top_bar_widget.png)
+
 Shows direction and distance from users current position to the marker and the location name.
 
 | | |
@@ -17,6 +19,8 @@ Shows direction and distance from users current position to the marker and the l
 |        | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.units_and_formats %} → {% data variables.ios-values.unit_of_length %}  |
 
 ## Map markers widget  
+
+![Map markers widget ](/assets/images/widgets/map_markers_widget.png)
 
 Shows the distance from users current position to the marker.
 
