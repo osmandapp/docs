@@ -25,17 +25,29 @@ Special words about my location / radius of my location. Shortly about map inter
 - двумя пальцами вниз или вверх - наклон карты 2.5D
 - ...-->
 
+Gestures are an important part of navigation that helps to facilitate using OsmAnd.
 
-* Zoom in and out map on the main screen by using two fingers.
-* There is an additional option for iOS to adjust the slope of the map. User have to put two fingers on the map and swipe down the screen to change the slope and swipe up to change to default state.
-* Clicking with two fingers on the map will zoom out the map.
-* Set from and to navigation directions in {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.get_directions %}. The elevation chart will appear at the bottom of the screen. User can zoom in and zoom out the elevation chart that will change chart borders accordingly by using two fingers.
+{% data variables.product.android_button_seq %}:
+* **Moving the map** - tap on the screen and move finger on the map.
+* **Double tapping on the map with one finger** - zoom in the map.
+* **Double tapping on the map with two fingers** - zoom out the map.
+* **Double tapping on the map and then swiping up or down** - zoom in the map by using one finger.
+* **Pinching  and zooming with two fingers** - zoom in or zoom out the map.  
+* **Two fingers rotation on the map** - rotate the map.
+
+{% data variables.product.ios_button_seq %}:
+* **Moving the map** - tap on the screen and move finger on the map.
+* **Double tapping on the map with one finger** - zoom in the map.
+* **Double tapping on the map with two fingers** - zoom out the map.
+* **Two fingers on the map and then swiping up or down** - to adjust the slope of the map (2.5D).
+* **Pinching  and zooming with two fingers** - zoom in or zoom out the map.  
+* **Two fingers rotation on the map** - rotate the map.
+<!--* Set from and to navigation directions in {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.get_directions %}. The elevation chart will appear at the bottom of the screen. User can zoom in and zoom out the elevation chart that will change chart borders accordingly by using two fingers.
 
 There are three wake-up options that user can find in
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings%} → {% data variables.android-values.shared_string_profiles %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.shared_string_other %} → {% data variables.android-values.screen_control %} → {% data variables.android-values.turn_screen_on%}.
 
-Note: The OsmAnd should be in the foreground when the device is locked.
-
+Note: The OsmAnd should be in the foreground when the device is locked.-->
 
 ## Map orientation
 
