@@ -24,6 +24,7 @@ Radius-ruler widget shows distance between users location and inner point of the
 ![Compass ruler](/assets/images/widgets/compass_ruler.png)
 
 The compass circle shows the North, the East, the South and the West directions. By default Compass is enable.
+
 As an addition option, it gives the user the Azimuth direction. It is marked as an arrow of a different color. The angle between North, measured clockwise around the observer's horizon, and a celestial body will be displayed over the North arrow.
 
 | | |
