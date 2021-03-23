@@ -54,6 +54,10 @@ Extra compass settings (Android):
 
 **Map orientation** could also be changed in Profile settings.
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile%} → {% data variables.android-values.general_settings_2 %}.
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile%} → {% data variables.android-values.general_settings_2 %}  → {% data variables.android-values.shared_string_appearance %}.
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.m_style_overview %} → {% data variables.ios-values.general_settings_2 %}.
+<<<<<<< Updated upstream
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.map_settings_appearance %}.
+=======
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.m_style_overview %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.map_settings_appearance %}.
+>>>>>>> Stashed changes
