@@ -3,27 +3,13 @@ title: "Interact with map"
 intro: "Interact with map"
 versions: '*'
 ---
+
+
 Introduction about the map and what it includes. Explanation about coordinates, text size and zoom magnifier.
 Special words about my location / radius of my location. Shortly about map interaction pan, zoom, click.
 
 
 ## Gestures
-
-<!--Добавить следующее.
-Текст, что такое жесты и для чего нужны.
-Жесты Android:
-- движение карты один палец (нажатие на экран и движение пальца по экрану)
-- зум двумя кликами короткими один палец (зум+)
-- зум один клик и второй задержка на экране и далее движение вниз или вверх по экрану (изменения зума одни пальцем)
-- два пальца на сближение и удаление (зум)
-- два пальца и поворот пальца по оси (поворот карты)
-Жесты iOS:
-- два пальца на сближение и удаление (зум)
-- два пальца и поворот пальца по оси (поворот карты)
-- движение карты один палец (нажатие на экран и движение пальца по экрану)
-- зум двумя кликами короткими один палец (зум+)
-- двумя пальцами вниз или вверх - наклон карты 2.5D
-- ...-->
 
 Gestures are an important part of navigation that helps to facilitate using OsmAnd.
 
@@ -42,12 +28,6 @@ Gestures are an important part of navigation that helps to facilitate using OsmA
 * **Two fingers on the map and then swiping up or down** - to adjust the slope of the map (2.5D).
 * **Pinching  and zooming with two fingers** - zoom in or zoom out the map.  
 * **Two fingers rotation on the map** - rotate the map.
-<!--* Set from and to navigation directions in {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.get_directions %}. The elevation chart will appear at the bottom of the screen. User can zoom in and zoom out the elevation chart that will change chart borders accordingly by using two fingers.
-
-There are three wake-up options that user can find in
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings%} → {% data variables.android-values.shared_string_profiles %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.shared_string_other %} → {% data variables.android-values.screen_control %} → {% data variables.android-values.turn_screen_on%}.
-
-Note: The OsmAnd should be in the foreground when the device is locked.-->
 
 ## Map orientation
 
@@ -59,7 +39,7 @@ There are 3 different **Map orientation** modes which are switched by click on t
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings%} → {% data variables.android-values.shared_string_profiles %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.always_center_position_on_map %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.m_style_overview %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.always_center_position_on_map %}.
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.always_center_position_on_map %}.
 
 - **{% data variables.android-values.rotate_map_compass_opt %}** - map is being synchornized with device compass orientation. So, [Compass widget](/osmand/widgets/map-buttons/#compass) will point to actual Earth North if device is hold flat. In case compass sensor is not present on device, map orientation won't change.
 
@@ -76,4 +56,4 @@ Extra compass settings (Android):
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile%} → {% data variables.android-values.general_settings_2 %}  → {% data variables.android-values.shared_string_appearance %}→ {% data variables.android-values.always_center_position_on_map %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.m_style_overview %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.map_settings_appearance %} → {% data variables.ios-values.always_center_position_on_map %}.
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.map_settings_appearance %} → {% data variables.ios-values.always_center_position_on_map %}.
