@@ -89,7 +89,7 @@ The widget shows a speed limit for a current road.
 
 ## Lanes
 
-The widget shows which lanes you need to drive during a trip with [distance to a maneuver](/development/algorithms/voice-prompt-triggering).
+The widget shows which lanes you need to drive during a navigation with [distance to a maneuver](/development/algorithms/voice-prompt-triggering).
 
 ![Lanes widgets](/assets/images/widgets/lanes_widget.png)
 
@@ -147,14 +147,14 @@ The widget shows warnings about your maneuvers with a picture of maneuver and [d
 
 The widget shows street names or road names (highway shield) for maneuver during navigation.
 
-![Street name POIs widget](/assets/images/widgets/street_name_poi_widget.png)
+![Street name POIs widget](/assets/images/widgets/street_name_widget.png)
 
 | |
 |------------|------------|
 | Enable  |{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_appearance_rem %} →  {% data variables.android-values.map_widget_top_text %} |
 |  |For {% data variables.product.ios_button_seq %} always showed |
 
-## POIs
+## POIs/Favorites
 
 The widget shows (Points of interest) POI and Favorites along the route.
 
@@ -163,7 +163,7 @@ The widget shows (Points of interest) POI and Favorites along the route.
 | |
 |------------|------------|
 | Enable  |{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.get_directions %} → {% data variables.android-values.shared_string_settings %} →  {% data variables.android-values.show_along_the_route %} →  {% data variables.android-values.points_of_interests %}, {% data variables.android-values.shared_string_my_favorites %}, {% data variables.android-values.way_alarms %} |
-| Enable  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} →  |
+| Enable  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → Start navigation with one or more intermediate destination → pencil button |
 
 ## Read Next
 
