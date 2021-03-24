@@ -131,6 +131,12 @@ In OsmAnd there is an opportunity to activate or not next alerts - {% data varia
 |{% data variables.android-values.traffic_warning_payment %}| This warning indicates that a toll booth for a toll road is ahead.   ![Alert toll_booth widgets](/assets/images/widgets/ex_toll_booth.png) | ![Alert speed_limit widgets](/assets/images/widgets/warnings_limit.png) |
 
 
+Change time of alert showing on the screen:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %} →  {% data variables.android-values.voice_announces %} →  {% data variables.android-values.announcement_time_title %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.voice_announces %} → {% data variables.ios-values.arrival_distance %} 
+
 
 ## Next turns
 
