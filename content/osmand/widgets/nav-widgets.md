@@ -27,7 +27,7 @@ The widget shows relative or magnetic bearing in angular unit ({% data variables
 
 ## Destination
 
-The widget shows current distance to the finish point.
+The widget shows current distance to the finish point of navigation.
 
 ![Destination widget](/assets/images/widgets/destination_widget.png)
 
@@ -109,6 +109,8 @@ The widget shows alerts on the screen during navigation
 
 In OsmAnd there is an opportunity to activate or not next alerts - {% data variables.android-values.show_traffic_warnings %}, {% data variables.android-values.show_pedestrian_warnings %}, {% data variables.android-values.show_cameras %}, {% data variables.android-values.show_tunnels %}.
 
+> Other alerts are active always by default.
+
 | | |
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %} →  {% data variables.android-values.screen_alerts  %} |
@@ -116,7 +118,7 @@ In OsmAnd there is an opportunity to activate or not next alerts - {% data varia
 | Distance of showing | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %} →  {% data variables.android-values.voice_announces %} →  {% data variables.android-values.announcement_time_title %}|
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.voice_announces %} → {% data variables.ios-values.arrival_distance %} |
 
-> Other alerts are active always by default.
+**List with all Alerts in OsmAnd.**
 
 | | |    |
 |------------|------------|------------|
