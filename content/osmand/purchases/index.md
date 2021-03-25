@@ -10,6 +10,28 @@ versions: "*"
 |  OsmAnd+ | Unlimited map downloads. <br> Map updates one time per month. <br>  Wikipedia and WikiVoyage articles available offline. <br> Contour lines plugin. <br> Nautical Chars plugin.  |
 | Live (month, 3 months, yearly subscription)     |Unlimited map downloads. <br> HOURLY map updates. <br> Wikipedia and WikiVoyage articles available offline. <br> Contour lines plugin. <br> Nautical Chars plugin.     | -->
 
+Android 
+
+| OsmAnd Free   | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live Subscription |
+| :------------- | :------------- | :------------- | :------------- |
+| Maps download |  7 | ∞ | ∞ |
+| Maps update |  Map updates one time at a month (at first dates of a month) | Map updates one time at a month (at first dates of a month) | Frequent map updates (up to once an hour) |
+| Topo data (Contour lines and Terrain) | - | + | + |
+| Nautical depth | - | + | + |
+| Travel guides (Wikipedia and Wikivoyage | - | + | + |
+| Trip recording | + | + | + |
+| "Plan a route" tool | + | + | + |
+| "Map markers" tool | + | + | + |
+| Offline and online navigation | + | + | + |
+| Online maps layers | + | + | + |
+| Favorite points | + | + | + |
+| Audio/pic/video points | + | + | + |
+| OsmAnd Tracker | + | + | + |
+| Export/import profile | + | + | + |
+
+
+
+
 
 ## Free version limitation
 
