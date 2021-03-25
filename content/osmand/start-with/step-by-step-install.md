@@ -21,6 +21,6 @@ It is important to download the maps. User can do it immediately or press the '{
 
 If the user gives OsmAnd permission to determine the location it will suggest maps to download for the current region. User can select another region if it is necessary.
 
-> **Note (for Android)**: It will be an announcement about data storage at the bottom of the screen. By default, OsmAnd uses  External storage, but the user can change it anytime. {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.osmand_settings %} → {% data variables.android-values.application_dir %} → {% data variables.android-values.change_data_storage_folder %}. For more information, click [Storage](../storage.md).
+> **Note (for Android)**: It will be an announcement about data storage at the bottom of the screen. By default, OsmAnd uses  External storage, but the user can change it anytime. {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.osmand_settings %} → {% data variables.android-values.application_dir %} → {% data variables.android-values.change_data_storage_folder %}. For more information, click [Storage](../start-with/storage.md).
 
 If you want to reinstall the app, please make sure you have back up all your data such as Tracks and Favorites.
