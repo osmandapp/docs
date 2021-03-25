@@ -11,11 +11,11 @@ For **iOS** there is an option to download from [App store](https://apps.apple.c
 
 For more information about OsmAnd versions and paid services with extended functionality see the [Purchases info](docs/content/osmand/purchases/index.md).
 
-After installation open OsmAnd and press {% data variables.android-values.get_started %}.
+After installation open OsmAnd and press '{% data variables.android-values.get_started %}'.
 
 **Welcome in OsmAnd!**
 
-It is important to download the maps. User can do it immediately or press the {% data variables.android-values.shared_string_skip %} button in the top right corner to download maps later.
+It is important to download the maps. User can do it immediately or press the '{% data variables.android-values.shared_string_skip %}' button in the top right corner to download maps later.
 
 ![Download map info](/assets/images/settings/download_map_info.png)
 
