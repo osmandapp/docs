@@ -9,7 +9,7 @@ For **Android** there is an option to download from [Google play store](https://
 
 For **iOS** there is an option to download from [App store](https://apps.apple.com/us/app/osmand-maps-travel-navigate/id934850257).
 
-For more information about OsmAnd versions and paid services with extended functionality see the [Purchases info](docs/content/osmand/purchases/index.md).
+For more information about OsmAnd versions and paid services with extended functionality see the [Purchases info](/osmand/purchases).
 
 After installation open OsmAnd and press '{% data variables.android-values.get_started %}'.
 
