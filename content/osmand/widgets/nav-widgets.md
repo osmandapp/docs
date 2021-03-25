@@ -22,12 +22,12 @@ The widget shows relative or magnetic bearing in angular unit ({% data variables
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} → {% data variables.android-values.map_widget_bearing %} or {% data variables.android-values.map_widget_magnetic_bearing %}  |
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.map_widget_magnetic_bearing %} or {% data variables.ios-values.map_widget_bearing %}|
 | Format | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.units_and_formats %} → {% data variables.android-values.angular_measeurement %} |
-|        | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.units_and_formats %} → {% data variables.ios-values.angular_units %} | 
+|        | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.units_and_formats %} → {% data variables.ios-values.angular_units %} |
 | Click | Changes between  Relative bearing or Magnetic bearing (with "M"). |    
 
 ## Destination
 
-The widget shows current distance to the finish point of navigation.
+The widget shows current distance to the navigation finish point.
 
 ![Destination widget](/assets/images/widgets/destination_widget.png)
 
@@ -39,20 +39,20 @@ The widget shows current distance to the finish point of navigation.
 
 ## Intermediate destination
 
-The widget shows current distance to the nearest intermediate point of navigation.
+The widget shows current distance to the nearest intermediate navigation point.
 
 ![Intermediate destination widget](/assets/images/widgets/intermediate_destination_widget.png)
 
 | | |
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.map_widget_intermediate_distance %} |
-|  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.map_widget_intermediate_distance %}|
-| Click | If we have one intermediate point then the map moves to the intermediate point. | 
-|       | If we have two and more intermediate points then Destination list with all points opens. |
+|  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.map_widget_intermediate_distance %}|
+| Click | If the user has one intermediate point, the map will move to the intermediate point. |
+|       | If the user has more than two intermediate points, the Destination list with all points will open. |
 
 ## Arrival time or Time to go
 
-The widget shows {% data variables.android-values.access_arrival_time %} or {% data variables.android-values.map_widget_time %} of navigation.
+The widget shows navigation {% data variables.android-values.access_arrival_time %} or {% data variables.android-values.map_widget_time %}.
 
 ![Arrival time Time to go widget](/assets/images/widgets/arrival_time_time_to_go_widget.png)
 
@@ -64,7 +64,7 @@ The widget shows {% data variables.android-values.access_arrival_time %} or {% d
 
 ## Intermediate arrival time or Intermediate time
 
-The widget shows {% data variables.android-values.access_intermediate_arrival_time %} or {% data variables.android-values.map_widget_intermediate_time %} of navigation to an intermediate point.
+The widget shows {% data variables.android-values.access_intermediate_arrival_time %} or {% data variables.android-values.map_widget_intermediate_time %} of navigation to the intermediate point.
 
 ![Intermediate Arrival time Time widget](/assets/images/widgets/intermediate_arrival_time_and_time_widget.png)
 
@@ -89,7 +89,7 @@ The widget shows a speed limit for a current road.
 
 ## Lanes
 
-The widget shows which lanes you need to drive during a navigation with [distance to a maneuver](/development/algorithms/voice-prompt-triggering).
+The widget shows the lanes you have to drive during a navigation with [distance to a maneuver](/development/algorithms/voice-prompt-triggering).
 
 ![Lanes widgets](/assets/images/widgets/lanes_widget.png)
 
@@ -102,14 +102,14 @@ The widget shows which lanes you need to drive during a navigation with [distanc
 
 The widget shows alerts on the screen during navigation
 
-> {% data variables.android-values.screen_alerts_descr %} 
+> {% data variables.android-values.screen_alerts_descr %}
 
 
 ![Alert information widgets](/assets/images/widgets/alert_information_widget.png)
 
-In OsmAnd there is an opportunity to activate or not next alerts - {% data variables.android-values.show_traffic_warnings %}, {% data variables.android-values.show_pedestrian_warnings %}, {% data variables.android-values.show_cameras %}, {% data variables.android-values.show_tunnels %}.
+There is an option to turn on and turn off the alerts such as: {% data variables.android-values.show_traffic_warnings %}, {% data variables.android-values.show_pedestrian_warnings %}, {% data variables.android-values.show_cameras %}, {% data variables.android-values.show_tunnels %}.
 
-> Other alerts are active always by default.
+> Other alerts are always active by default.
 
 | | |
 |------------|------------|
@@ -124,9 +124,9 @@ In OsmAnd there is an opportunity to activate or not next alerts - {% data varia
 |------------|------------|------------|
 |Name|Description|Icon|
 |{% data variables.android-values.show_traffic_warnings %}| [Traffic calming](https://en.wikipedia.org/wiki/Traffic_calming) uses physical design and other measures to improve safety for motorists, pedestrians and cyclists. | ![Alert traffic calming widgets](/assets/images/widgets/warnings_traffic_calming.png)  ![Alert traffic calming us widgets](/assets/images/widgets/warnings_traffic_calming_us.png)|
-|{% data variables.android-values.show_pedestrian_warnings %}| [A pedestrian crossing](https://en.wikipedia.org/wiki/Pedestrian_crossing) (primarily British English) or crosswalk is a place designated for pedestrians to cross a road, street, or avenue. In OsmAnd the alert is showed for uncontrolled pedestrian crossing.  | ![Alert traffic calming widgets](/assets/images/widgets/warnings_pedestrian.png)  ![Alert traffic calming us widgets](/assets/images/widgets/warnings_pedestrian_us.png) |
-|{% data variables.android-values.traffic_warning_speed_limit %}| [Road speed limits](https://en.wikipedia.org/wiki/Speed_limit) are used in most countries to set the legal maximum, middle or minimum speed at which road vehicles may travel on a given stretch of road. In OsmAnd the alert is showed when you exceed the speed. You can set parameters of speed exceeding (0, 5, 10.. km/h). ![Alert ex_speed widgets](/assets/images/widgets/ex_warning_speed.png)  | ![Alert speed_limit widgets](/assets/images/widgets/warnings_limit.png) ![Alert speed_limit_ca widgets](/assets/images/widgets/warnings_speed_limit_ca.png) ![Alert speed_limit_us widgets](/assets/images/widgets/warnings_speed_limit_us.png)|
-|{% data variables.android-values.show_tunnels %}| A tunnel is an underground passageway, esp cars that pass under a mountain, river, or a congested urban area. In OsmAnd the alert "Tunnels" has information about tunnel long or if you are in a tunnel it shows distance to tunnel end.   ![Alert ex_tunnel widgets](/assets/images/widgets/ex_warning_tunnel.png)  | ![Alert warnings_tunnel widgets](/assets/images/widgets/warnings_tunnel.png)  ![Alert warnings_tunnel_us widgets](/assets/images/widgets/warnings_tunnel_us.png) |
+|{% data variables.android-values.show_pedestrian_warnings %}| [A pedestrian crossing](https://en.wikipedia.org/wiki/Pedestrian_crossing) (primarily British English) or crosswalk is a place designated for pedestrians to cross a road, street, or avenue. OsmAnd shows the alert of uncontrolled pedestrian crossing.  | ![Alert traffic calming widgets](/assets/images/widgets/warnings_pedestrian.png)  ![Alert traffic calming us widgets](/assets/images/widgets/warnings_pedestrian_us.png) |
+|{% data variables.android-values.traffic_warning_speed_limit %}| In most countries the [Road speed limits](https://en.wikipedia.org/wiki/Speed_limit) are used to set the legal maximum, middle or minimum speed at which road vehicles may travel on a given stretch of road. In OsmAnd the alert is shown when you exceed the speed. You can set parameters of speed exceeding (0, 5, 10.. km/h). ![Alert ex_speed widgets](/assets/images/widgets/ex_warning_speed.png)  | ![Alert speed_limit widgets](/assets/images/widgets/warnings_limit.png) ![Alert speed_limit_ca widgets](/assets/images/widgets/warnings_speed_limit_ca.png) ![Alert speed_limit_us widgets](/assets/images/widgets/warnings_speed_limit_us.png)|
+|{% data variables.android-values.show_tunnels %}| A tunnel is an underground passageway, esp cars that pass under a mountain, river, or a congested urban area. In OsmAnd the alert "Tunnels" has information about tunnel length. If you are in a tunnel it shows distance to the end of the tunnel.   ![Alert ex_tunnel widgets](/assets/images/widgets/ex_warning_tunnel.png)  | ![Alert warnings_tunnel widgets](/assets/images/widgets/warnings_tunnel.png)  ![Alert warnings_tunnel_us widgets](/assets/images/widgets/warnings_tunnel_us.png) |
 |{% data variables.android-values.show_cameras %}| [A traffic enforcement camera](https://en.wikipedia.org/wiki/Traffic_enforcement_camera) is a camera that may be mounted beside or over a road or installed in an enforcement vehicle to detect motoring offenses, including speeding, vehicles going through a red traffic light, vehicles going through a toll booth without paying, unauthorized use of a bus lane, or for recording vehicles inside a congestion charge area.     **NOTE:** {% data variables.android-values.speed_cameras_alert %}  | ![Alert traffic calming widgets](/assets/images/widgets/warnings_speed_camera.png) |
 |{% data variables.android-values.traffic_warning_stop %}| [A stop sign](https://en.wikipedia.org/wiki/Stop_sign) is a traffic sign designed to notify drivers that they must come to a complete stop and make sure the intersection is safely clear of vehicles and pedestrians before continuing past the sign.  | ![Alert stop widgets](/assets/images/widgets/warnings_stop.png) |
 |{% data variables.android-values.show_railway_warnings %}|This warning means that there is a [railway crossing](https://en.wikipedia.org/wiki/Crossbuck) ahead. | ![Alert warnings_railways widgets](/assets/images/widgets/warnings_railways.png) ![Alert warnings_railways_ca widgets](/assets/images/widgets/warnings_railways_ca.png)  ![Alert warnings_railways_us widgets](/assets/images/widgets/warnings_railways_us.png)  |
