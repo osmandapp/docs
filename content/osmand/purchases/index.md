@@ -14,19 +14,24 @@ versions: "*"
 
 |    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live Subscription |
 | :------------- | :------------- | :------------- | :------------- |
+| **Purchase** | - | One-Time, use forever | Subscription for 1 month / 3 months / 1 year |
+| **Price** | 0€ | 19.99€  | 1.99€ / 3.99€ / 7.99€ |
 | Ad-free access | ✔ | ✔ | ✔ |
-| Maps download |  7 maps | ∞ | ∞ |
+| Offline vertor maps |  7 maps | ∞ | ∞ |
 | Maps update |  Map updates one time at a month (at first dates of a month). Update = map download!!! | Map updates one time at a month (at first dates of a month) | Frequent map updates (up to once an hour) |
 | Topo data (Contour lines and Terrain) | - | ✔ | ✔ |
 | Nautical depths | - | ✔ | ✔ |
 | Travel guides (Wikipedia and Wikivoyage | - | ✔ | ✔ |
-| Offline and online navigation | ✔ | ✔ | ✔ |
+| Offline and online navigation with turn-by-turn directions | ✔ | ✔ | ✔ |
+| Offline instant search | ✔ | ✔ | ✔ |
 | Trip recording | ✔ | ✔ | ✔ |
-| Export/import GPX tracks | ✔ | ✔ | ✔ |
+| Export GPX tracks | ✔ | ✔ | ✔ |
+| Import GPX/KML tracks | ✔ | ✔ | ✔ |
 | "Plan a route" tool | ✔ | ✔ | ✔ |
 | "Map markers" tool | ✔ | ✔ | ✔ |
-| Online maps layers | ✔ | ✔ | ✔ |
-| Favorite points | ✔ | ✔ | ✔ |
+| Online map sources | ✔ | ✔ | ✔ |
+| SQLitedb/mbtiles Map support | ✔ | ✔ | ✔ |
+| Favorite points (Bookmarks, waypoints) | ✔ | ✔ | ✔ |
 | Audio/pic/video points | ✔ | ✔ | ✔ |
 | OsmAnd Tracker | ✔ | ✔ | ✔ |
 | Export/import app profile | ✔ | ✔ | ✔ |
