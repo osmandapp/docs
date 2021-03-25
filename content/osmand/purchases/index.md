@@ -10,24 +10,26 @@ versions: "*"
 |  OsmAnd+ | Unlimited map downloads. <br> Map updates one time per month. <br>  Wikipedia and WikiVoyage articles available offline. <br> Contour lines plugin. <br> Nautical Chars plugin.  |
 | Live (month, 3 months, yearly subscription)     |Unlimited map downloads. <br> HOURLY map updates. <br> Wikipedia and WikiVoyage articles available offline. <br> Contour lines plugin. <br> Nautical Chars plugin.     | -->
 
-Android 
+**Android** 
 
-| OsmAnd Free   | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live Subscription |
+|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live Subscription |
 | :------------- | :------------- | :------------- | :------------- |
-| Maps download |  7 | ∞ | ∞ |
-| Maps update |  Map updates one time at a month (at first dates of a month) | Map updates one time at a month (at first dates of a month) | Frequent map updates (up to once an hour) |
-| Topo data (Contour lines and Terrain) | - | + | + |
-| Nautical depth | - | + | + |
-| Travel guides (Wikipedia and Wikivoyage | - | + | + |
-| Trip recording | + | + | + |
-| "Plan a route" tool | + | + | + |
-| "Map markers" tool | + | + | + |
-| Offline and online navigation | + | + | + |
-| Online maps layers | + | + | + |
-| Favorite points | + | + | + |
-| Audio/pic/video points | + | + | + |
-| OsmAnd Tracker | + | + | + |
-| Export/import profile | + | + | + |
+| Ad-free access | ✔ | ✔ | ✔ |
+| Maps download |  7 maps | ∞ | ∞ |
+| Maps update |  Map updates one time at a month (at first dates of a month). Update = map download!!! | Map updates one time at a month (at first dates of a month) | Frequent map updates (up to once an hour) |
+| Topo data (Contour lines and Terrain) | - | ✔ | ✔ |
+| Nautical depths | - | ✔ | ✔ |
+| Travel guides (Wikipedia and Wikivoyage | - | ✔ | ✔ |
+| Offline and online navigation | ✔ | ✔ | ✔ |
+| Trip recording | ✔ | ✔ | ✔ |
+| Export/import GPX tracks | ✔ | ✔ | ✔ |
+| "Plan a route" tool | ✔ | ✔ | ✔ |
+| "Map markers" tool | ✔ | ✔ | ✔ |
+| Online maps layers | ✔ | ✔ | ✔ |
+| Favorite points | ✔ | ✔ | ✔ |
+| Audio/pic/video points | ✔ | ✔ | ✔ |
+| OsmAnd Tracker | ✔ | ✔ | ✔ |
+| Export/import app profile | ✔ | ✔ | ✔ |
 
 
 
