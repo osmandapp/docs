@@ -94,12 +94,15 @@ Set the build target to `OsmAnd Maps`.
 Selet as target your device or as one of IOS simulators. But don't use default 'Any IOS Device (arm64)'. 
 Build the project.
 
-In case of build erros you can press in XCode 
+In case of build erros you can press in XCode: 
 ```
 Product -> Clean build folder
 ```
-Then close XCode. Delete `baked` and `binaries` folders in `OsmAnd` directory. And delete XCode DerivedData folder.
+Then close XCode. 
+Delete `baked` and `binaries` folders in `OsmAnd` directory (if it already exists). 
+Delete XCode DerivedData folder:
 ```
 sudo rm -R ~/Library/Developer/Xcode/DerivedData/*
 ```
-Run `$ ./prepare.sh` and try to build the project again.
+Check that all repositories are up to date.
+Then run `$ ./prepare.sh` and try to build the project again.
