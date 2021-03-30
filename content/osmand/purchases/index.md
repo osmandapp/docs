@@ -1,22 +1,23 @@
 ---
 title: Purchases
-intro: "There are a great variety of features that OsmAnd offers. Most of them are available in a free version of the application. The paid OsmAnd services provide extended functionality."
+intro: "OsmAnd app is available for Android and iOS systems. There are a great variety of features that OsmAnd offers. Most of them are available in a free version of the application. The paid OsmAnd services provide extended functionality."
 versions: "*"
 ---
-<!-- ставить вместо этой таблицы картинку со сравнительной таблицей Где указать и амазон и хуавей (без ценообразования)->
-<!--| Purchase   | Android  |
-| :------------- | :------------- |
-| OsmAnd (Unlimited) | Unlimited map downloads. <br> Map updates one time per month. <br> Wikipedia and WikiVoyage articles available offline. <br> Contour lines plugin. <br> Nautical Chars plugin.  |
-|  OsmAnd+ | Unlimited map downloads. <br> Map updates one time per month. <br>  Wikipedia and WikiVoyage articles available offline. <br> Contour lines plugin. <br> Nautical Chars plugin.  |
-| Live (month, 3 months, yearly subscription)     |Unlimited map downloads. <br> HOURLY map updates. <br> Wikipedia and WikiVoyage articles available offline. <br> Contour lines plugin. <br> Nautical Chars plugin.     | -->
 
-**Android** 
+## Android 
+
+### Free and Paid features
+
+OsmAnd application has many features and tools. Of course, most of them are free. 
+
+The table shows all the features that are included in the paid and free packages of OsmAnd.
 
 |    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live Subscription |
 | :------------- | :------------- | :------------- | :------------- |
 | **Purchase** | - | One-Time, use forever | Subscription for 1 month / 3 months / 1 year |
 | **Price** | 0€ | 19.99€  | 1.99€ / 3.99€ / 7.99€ |
 | Ad-free access | ✔ | ✔ | ✔ |
+| Early access to new features | - | - | ✔ |
 | Offline vertor maps |  7 maps | ∞ | ∞ |
 | Maps update |  Map updates one time at a month (at first dates of a month). Update = map download!!! | Map updates one time at a month (at first dates of a month) | Frequent map updates (up to once an hour) |
 | Topo data (Contour lines and Terrain) | - | ✔ | ✔ |
@@ -36,9 +37,25 @@ versions: "*"
 | OsmAnd Tracker | ✔ | ✔ | ✔ |
 | Export/import app profile | ✔ | ✔ | ✔ |
 
+### Where buy?
+
+For Android devices you can download the free version and buy the full version in the next services:
+
+- [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023&hl=en&gl=US)
+- [Amazon](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss)
+- [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545)
 
 
+|    | Google Play   | Amazon | Huawei AppGallery |
+| :------------- | :------------- | :------------- | :------------- |
+| App OsmAnd Free | ✔ | ✔ | ✔ |
+| App OsmAnd+  | ✔ | ✔ | - |
+| inn-app OsmAnd Unlimited | ✔ | ✔ | ✔ |
+| Subsription OsmAnd live | ✔ | - | ✔ |
+| Subsription OsmAnd premium | - | - | ✔ |
 
+
+## iOS
 
 ## Free version limitation
 
