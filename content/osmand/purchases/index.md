@@ -42,7 +42,7 @@ OsmAnd application has many features and tools. Of course, most of them are free
 The table shows all the features that are included in the paid and free packages of OsmAnd and its price.
 
 |    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live Subscription | OsmAnd Premium Subscription |
-| :------------- | :------------- | :------------- | :------------- |
+| :------------- | :------------- | :------------- | :------------- | :------------- |
 | **Purchase** | - | One-Time, use forever | Subscription for 1 month / 3 months / 1 year | Subscription for 1 month / 1 year |
 | **Price** | 0€ | 19.99€  | 1.99€ / 3.99€ / 7.99€ | 2.99€ / 29.99€|
 | Ad-free access | ✔ | ✔ | ✔ | ✔|
