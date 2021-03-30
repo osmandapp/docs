@@ -4,9 +4,9 @@ intro: "OsmAnd app is available for Android and iOS systems. There are a great v
 versions: "*"
 ---
 
-## Android 
+### Android 
 
-### Where buy?
+## Where buy?
 
 For Android devices you can download the free version and buy the full version in the next services:
 
@@ -23,7 +23,7 @@ For Android devices you can download the free version and buy the full version i
 | Subsription OsmAnd live | ✔ | - | ✔ |
 | Subsription OsmAnd premium | ✔ | - | ✔ |
 
-### What difference between purchases?
+## What difference between purchases?
 
 **OsmAnd+** is a separate application in [Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus&hl=en&gl=US) and [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC). You can add it to [the Family Library in Google Play](https://support.google.com/googleplay/answer/7007852?hl=en).
 
@@ -33,7 +33,7 @@ For Android devices you can download the free version and buy the full version i
 
 **OsmAnd live** is a subscription, available for OsmAnd apllications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023&hl=en&gl=US) and [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss)
 
-### Free and Paid features
+## Free and Paid features
 
 OsmAnd application has many features and tools. Of course, most of them are free. 
 
@@ -64,36 +64,7 @@ The table shows all the features that are included in the paid and free packages
 | OsmAnd Tracker | ✔ | ✔ | ✔ |
 | Export/import app profile | ✔ | ✔ | ✔ |
 
-## iOS
-
-## Free version limitation
-
-| Android   | iOS  |
-| :------------- | :------------- |
-| 7 free maps to download or update | 5 free maps to download without updates  |
-| no Wikipedia and WikiVoyage articles |  Wikipedia and WikiVoyage articles  |
-| No contour lines and  Nautical Chars plugins   |No contour lines and  Nautical Chars plugins     |
-
-<!-- - Map updates are provided monthly i.e. At ~15 December maps dated of 1 December will be available to download. It takes 2-3 weeks to prepare regular maps whether Live Maps (hourly) are provided by subscription. -->
-## In Apps (Android)
-
-User can buy {% data reusables.links.osmand-maps-google-store %}.
-
-> **_Note:_** Use the same  Google Play account which you used for the purchase to share the app with other Google devices or restore your purchases. <br>
-
-{% note %}
-User can control all purchases and subscription from Google account.
-{% endnote %}
-
-| Purchase   | Features  |
-| :------------- | :------------- |
-| OsmAnd (Unlimited) <br> OsmAnd+  | Unlimited map downloads. <br> Map updates one time per month. <br> Wikipedia and WikiVoyage articles available offline. <br> Contour lines plugin. <br> Nautical Chars plugin.  |
-
-> **_Note:_**
-OsmAnd+ is a separate paid application that can be shared with other accounts using the Google Play Family Share service.
-OsmAnd Unlimited can only be activated in the free version of the application and this version cannot be shared.
-
-## In Apps (iOS)
+### iOS
 
 User can buy {% data reusables.links.osmand-maps-app-store %}.
 
