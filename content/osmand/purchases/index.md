@@ -4,9 +4,9 @@ intro: "OsmAnd app is available for Android and iOS systems. There are a great v
 versions: "*"
 ---
 
-### Android 
+## Android 
 
-## Where buy?
+### Where buy?
 
 For Android devices you can download the free version and buy the full version in the next services:
 
@@ -20,51 +20,53 @@ For Android devices you can download the free version and buy the full version i
 | App OsmAnd Free | ✔ | ✔ | ✔ |
 | App OsmAnd+  | ✔ | ✔ | - |
 | In-app OsmAnd Unlimited | ✔ | ✔ | ✔ |
-| Subsription OsmAnd live | ✔ | - | ✔ |
-| Subsription OsmAnd premium | ✔ | - | ✔ |
+| Subscription OsmAnd live | ✔ | - | ✔ |
+| Subscription OsmAnd premium | ✔ | - | ✔ |
 
-## What difference between purchases?
+### What difference between purchases?
 
 **OsmAnd+** is a separate application in [Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus&hl=en&gl=US) and [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC). You can add it to [the Family Library in Google Play](https://support.google.com/googleplay/answer/7007852?hl=en).
 
 **OsmAnd Unlimited** is in-app purchase for OsmAnd free version in [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_2?dchild=1&qid=1617119144&refinements=p_4%3AOsmAnd&s=mobile-apps&search-type=ss&sr=1-2), [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss).
 
-> Note: OsmAnd+ and OsmAnd Unlimited have the same functionality.
+{% note %}
+OsmAnd+ and OsmAnd Unlimited have the same functionality.
+{% endnote %}
 
-**OsmAnd live** is a subscription, available for OsmAnd apllications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023&hl=en&gl=US) and [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss)
+**OsmAnd live** is a subscription, available for OsmAnd apllications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023&hl=en&gl=US) and [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss).
 
-## Free and Paid features
+### Free and Paid features
 
 OsmAnd application has many features and tools. Of course, most of them are free. 
 
-The table shows all the features that are included in the paid and free packages of OsmAnd.
+The table shows all the features that are included in the paid and free packages of OsmAnd and its price.
 
-|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live Subscription |
+|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live Subscription | OsmAnd Premium Subscription |
 | :------------- | :------------- | :------------- | :------------- |
-| **Purchase** | - | One-Time, use forever | Subscription for 1 month / 3 months / 1 year |
-| **Price** | 0€ | 19.99€  | 1.99€ / 3.99€ / 7.99€ |
-| Ad-free access | ✔ | ✔ | ✔ |
-| Early access to new features | - | - | - |
-| Offline vertor maps |  7 maps | ∞ | ∞ |
-| Maps update |  Map updates one time at a month (at first dates of a month). Update = map download!!! | Map updates one time at a month (at first dates of a month) | Frequent map updates (up to once an hour) |
-| Topo data (Contour lines and Terrain) | - | ✔ | ✔ |
-| Nautical depths | - | ✔ | ✔ |
-| Travel guides (Wikipedia and Wikivoyage | - | ✔ | ✔ |
-| Offline and online navigation with turn-by-turn directions | ✔ | ✔ | ✔ |
-| Offline instant search | ✔ | ✔ | ✔ |
-| Trip recording | ✔ | ✔ | ✔ |
-| Export GPX tracks | ✔ | ✔ | ✔ |
-| Import GPX/KML tracks | ✔ | ✔ | ✔ |
-| "Plan a route" tool | ✔ | ✔ | ✔ |
-| "Map markers" tool | ✔ | ✔ | ✔ |
-| Online map sources | ✔ | ✔ | ✔ |
-| SQLitedb/mbtiles Map support | ✔ | ✔ | ✔ |
-| Favorite points (Bookmarks, waypoints) | ✔ | ✔ | ✔ |
-| Audio/pic/video points | ✔ | ✔ | ✔ |
-| OsmAnd Tracker | ✔ | ✔ | ✔ |
-| Export/import app profile | ✔ | ✔ | ✔ |
+| **Purchase** | - | One-Time, use forever | Subscription for 1 month / 3 months / 1 year | Subscription for 1 month / 1 year |
+| **Price** | 0€ | 19.99€  | 1.99€ / 3.99€ / 7.99€ | 2.99€ / 29.99€|
+| Ad-free access | ✔ | ✔ | ✔ | ✔|
+| Early access to new features | - | - | - |✔ |
+| Offline vertor maps |  7 maps | ∞ | ∞ | ✔|
+| Maps update |  Map updates one time at a month (at first dates of a month). Update = map download!!! | Map updates one time at a month (at first dates of a month) | Frequent   map updates (up to once an hour) | ✔|
+| Topo data (Contour lines and Terrain) | - | ✔ | ✔ |✔ |
+| Nautical depths | - | ✔ | ✔ | ✔|
+| Travel guides (Wikipedia and Wikivoyage | - | ✔ | ✔ | ✔|
+| Offline and online navigation with turn-by-turn directions | ✔ | ✔ | ✔ |✔ |
+| Offline instant search | ✔ | ✔ | ✔ |✔ |
+| Trip recording | ✔ | ✔ | ✔ |✔ |
+| Export GPX tracks | ✔ | ✔ | ✔ |✔ |
+| Import GPX/KML tracks | ✔ | ✔ | ✔ |✔ |
+| "Plan a route" tool | ✔ | ✔ | ✔ |✔ |
+| "Map markers" tool | ✔ | ✔ | ✔ |✔ |
+| Online map sources | ✔ | ✔ | ✔ | ✔|
+| SQLitedb/mbtiles Map support | ✔ | ✔ | ✔ |✔ |
+| Favorite points (Bookmarks, waypoints) | ✔ | ✔ | ✔ |✔ |
+| Audio/pic/video points | ✔ | ✔ | ✔ |✔ |
+| OsmAnd Tracker | ✔ | ✔ | ✔ | ✔|
+| Export/import app profile | ✔ | ✔ | ✔ |✔ |
 
-### iOS
+## iOS
 
 User can buy {% data reusables.links.osmand-maps-app-store %}.
 
