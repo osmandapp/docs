@@ -19,10 +19,19 @@ For Android devices you can download the free version and buy the full version i
 | :------------- | :------------- | :------------- | :------------- |
 | App OsmAnd Free | ✔ | ✔ | ✔ |
 | App OsmAnd+  | ✔ | ✔ | - |
-| in-app OsmAnd Unlimited | ✔ | ✔ | ✔ |
+| In-app OsmAnd Unlimited | ✔ | ✔ | ✔ |
 | Subsription OsmAnd live | ✔ | - | ✔ |
-| Subsription OsmAnd premium | - | - | ✔ |
+| Subsription OsmAnd premium | ✔ | - | ✔ |
 
+### What difference between purchases?
+
+**OsmAnd+** is a separate application in [Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus&hl=en&gl=US) and [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC). You can add it to [the Family Library in Google Play](https://support.google.com/googleplay/answer/7007852?hl=en).
+
+**OsmAnd Unlimited** is in-app purchase for OsmAnd free version in [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_2?dchild=1&qid=1617119144&refinements=p_4%3AOsmAnd&s=mobile-apps&search-type=ss&sr=1-2), [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss).
+
+> Note: OsmAnd+ and OsmAnd Unlimited have the same functionality.
+
+**OsmAnd live** is a subscription, available for OsmAnd apllications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023&hl=en&gl=US) and [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss)
 
 ### Free and Paid features
 
@@ -54,14 +63,6 @@ The table shows all the features that are included in the paid and free packages
 | Audio/pic/video points | ✔ | ✔ | ✔ |
 | OsmAnd Tracker | ✔ | ✔ | ✔ |
 | Export/import app profile | ✔ | ✔ | ✔ |
-
-### What difference between purchases?
-
-**OsmAnd+** is a separate application in [Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus&hl=en&gl=US) and [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC). You can add it to [the Family Library in Google Play](https://support.google.com/googleplay/answer/7007852?hl=en).
-
-**OsmAnd Unlimited** is in-app purchase for OsmAnd free version in [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_2?dchild=1&qid=1617119144&refinements=p_4%3AOsmAnd&s=mobile-apps&search-type=ss&sr=1-2), [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss).
-
-**OsmAnd live** is a subscription, available for OsmAnd apllications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023&hl=en&gl=US) and [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss)
 
 ## iOS
 
