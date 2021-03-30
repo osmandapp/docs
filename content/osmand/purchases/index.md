@@ -6,7 +6,7 @@ versions: "*"
 
 ## Android 
 
-### Where buy?
+### Where download OsmAnd?
 
 For Android devices you can download the free version and buy the full version in the next services:
 
@@ -41,7 +41,7 @@ OsmAnd application has many features and tools. Of course, most of them are free
 
 The table shows all the features that are included in the paid and free packages of OsmAnd and its price.
 
-|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live Subscription | OsmAnd Premium Subscription |
+|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd Lite Subscription | OsmAnd Premium Subscription |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
 | **Purchase** | - | One-Time, use forever | Subscription for 1 month / 3 months / 1 year | Subscription for 1 month / 1 year |
 | **Price** | 0€ | 19.99€  | 1.99€ / 3.99€ / 7.99€ | 2.99€ / 29.99€|
@@ -66,11 +66,61 @@ The table shows all the features that are included in the paid and free packages
 | OsmAnd Tracker | ✔ | ✔ | ✔ | ✔|
 | Export/import app profile | ✔ | ✔ | ✔ |✔ |
 
+### Restore purchases
+
+To restore a purchased app, just visit **Google Play** and reinstall it. if you've already purchased the app with your current Google account, you'll be able to redownload it on each app you use.
+
+To restore a purchase from **Amazon**, navigate through the app as though you were going to purchase the feature again. At the point where you would ordinarily be charged, Amazon instead realizes that you've already purchased it in the past and activates it again for free.
+
 ## iOS
 
-User can buy {% data reusables.links.osmand-maps-app-store %}.
+### Where download OsmAnd?
 
-> **_Note:_** Use the same Apple ID to restore your purchases. <br>
+User can download {% data reusables.links.osmand-maps-app-store %}.
+
+### OsmAnd packages?
+
+|    | Description   | Price |
+| :------------- | :------------- | :------------- |
+| All World maps | Download and upate maps of the region | 19.99€  |
+| Asia | Download and upate maps of the region  | 19.99€  |
+| Europe | Download and upate maps of the region  | 19.99€  |
+| Afrika | Download and upate maps of the region  | 19.99€  |
+| North America | Download and upate maps of the region  | 19.99€  |
+| Central America | Download and upate maps of the region  | 19.99€  |
+| South America | Download and upate maps of the region  | 19.99€  |
+| Contour lines | Download and upate maps of the region  | 19.99€  |
+| Wikipedia | Download and upate maps of the region  | 19.99€  |
+| Wikipedia | Download and upate maps of the region  | 19.99€  |
+
+### Free and Paid features
+
+|    | OsmAnd Free   | OsmAnd map package | OsmAnd Lite Subscription | OsmAnd Premium Subscription |
+| :------------- | :------------- | :------------- | :------------- | :------------- |
+| **Purchase** | - | One-Time, use forever | Subscription for 1 month / 3 months / 1 year | Subscription for 1 month / 1 year |
+| **Price** | 0€ | 19.99€  | 1.99€ / 3.99€ / 7.99€ | 2.99€ / 29.99€|
+| Ad-free access | ✔ | ✔ | ✔ | ✔|
+| Early access to new features | - | - | - |✔ |
+| Offline vertor maps |  7 maps | ∞ | ∞ | ✔|
+| Maps update |  Map updates one time at a month (at first dates of a month). Update = map download!!! | Map updates one time at a month (at first dates of a month) | Frequent   map updates (up to once an hour) | ✔|
+| Topo data (Contour lines and Terrain) | - | ✔ | ✔ |✔ |
+| Nautical depths | - | ✔ | ✔ | ✔|
+| Travel guides (Wikipedia and Wikivoyage | - | ✔ | ✔ | ✔|
+| Offline and online navigation with turn-by-turn directions | ✔ | ✔ | ✔ |✔ |
+| Offline instant search | ✔ | ✔ | ✔ |✔ |
+| Trip recording | ✔ | ✔ | ✔ |✔ |
+| Export GPX tracks | ✔ | ✔ | ✔ |✔ |
+| Import GPX/KML tracks | ✔ | ✔ | ✔ |✔ |
+| "Plan a route" tool | ✔ | ✔ | ✔ |✔ |
+| "Map markers" tool | ✔ | ✔ | ✔ |✔ |
+| Online map sources | ✔ | ✔ | ✔ | ✔|
+| SQLitedb/mbtiles Map support | ✔ | ✔ | ✔ |✔ |
+| Favorite points (Bookmarks, waypoints) | ✔ | ✔ | ✔ |✔ |
+| Audio/pic/video points | ✔ | ✔ | ✔ |✔ |
+| OsmAnd Tracker | ✔ | ✔ | ✔ | ✔|
+| Export/import app profile | ✔ | ✔ | ✔ |✔ |
+
+> **_Note:_** Use the same Apple ID to restore your purchases.
 
 <!-- > **_Note:_** User can control all purchases and subscription from Apple account. b <br> -->
 {% note %}
