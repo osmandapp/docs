@@ -11,14 +11,17 @@ versions: '*'
 Gives an opportunity to add action that will be frequently used. It can be:
 
 **Item actions**:  
+
 ![Quick action create items](/assets/images/widgets/quick_action_create_items.png)
 <!--Add Favorite, Add track way points, Add map markers, Add parking place (for Android).-->
 
 **'Configure map' actions**:  
+
 ![Quick action configure map](/assets/images/widgets/quick_action_configure_map.png)
 <!--Show/hide Favorites, Show/hide tracks, Show/hide POI, Change map style, Show/Hide public transport, Show/hide Mapillary, Show/hide contour lines, Show/hide terrain, Switch day/night mode (for iOS), Change map source (for iOS), Change map overlay (for iOS),Change map underlay (for iOS).-->
 
 **Navigation actions**:
+
 ![Quick action navigation actions](/assets/images/widgets/quick_action_navigation_actions.png)
 <!--Switch day/night mode (for Android), Voice on/off, Directions from, Set destination, Add first intermediate, Replace destination, Auto zoom map on/off, Start/Stop navigation, Pause/resume navigation, Change app profile, Delete nearest destination point, Add destination (for iOS).-->
 
