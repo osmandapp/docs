@@ -10,13 +10,13 @@ versions: '*'
 
 Gives an opportunity to add action that will be frequently used. It can be:
 
-|    | {% data variables.android-values.quick_action_add_create_items %}   | {% data variables.android-values.quick_action_add_configure_map %} | {% data variables.android-values.quick_action_add_navigation%}  |
+|    | {% data variables.android-values.quick_action_add_create_items %}   | {% data variables.android-values.quick_action_add_configure_map %} | {% data variables.android-values.quick_action_add_navigation %}  |
 | :------------- | :------------- | :------------- | :------------- |
-|  | ✔ | ✔ | ✔ |
-|   | ✔ | ✔ | - |
-|  | ✔ | ✔ | ✔ |
-| | ✔ | - | ✔ |
-| | ✔ | - | ✔ |
+| {% data variables.android-values.quick_action_add_favorite %} | Android/iOS | - | - |
+|  {% data variables.android-values.quick_action_add_gpx %}  | Android | - | - |
+|  {% data variables.ios-values.add_gpx_waypoint %} | iOS | - | - |
+| {% data variables.android-values.quick_action_add_marker %} | Android/iOS | - | - |
+| | ✔ | - | - |
 |   |   |   |   |
 **Item actions**:  
 
