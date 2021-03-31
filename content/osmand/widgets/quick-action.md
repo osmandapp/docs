@@ -19,8 +19,32 @@ Gives an opportunity to add action that will be frequently used. It can be:
 | {% data variables.android-values.quick_action_add_parking %} | Android | - | - |
 |  {% data variables.android-values.quick_action_add_poi %} | Android  | -  | -  |
 |  {% data variables.android-values.quick_action_add_osm_bug %}  |  Android |   |   |
-|   {% data variables.android-values.quick_action_showhide_favorites_descr %}  | -   | Android/iOS   | -   |
-
+|   {% data variables.ios-values.toggle_fav %} | -   | Android/iOS   | -   |
+|  {% data variables.ios-values.show_hide_gpx %}    | Android/iOS   |   |
+| {% data variables.ios-values.toggle_poi %}    |   |  Android/iOS  |   |
+| {% data variables.android-values.quick_action_map_style %}    |   |  Android/iOS  |   |
+| {% data variables.ios-values.toggle_public_transport %}    |   | Android/iOS   |   |
+| {% data variables.ios-values.quick_action_showhide_mapillary_title %}    |   | Android/iOS   |   |   
+|{% data variables.android-values. %}    |   |  Android |   |   
+| {% data variables.android-values. %}    |   | Android  |   |  
+|  {% data variables.ios-values.change_map_source %}   |   | iOS  |   |  
+| {% data variables.ios-values.change_map_overlay %}   |   | iOS  |   |   
+|  {% data variables.ios-values.change_map_underlay %}  |   |  iOS |   |  
+| {% data variables.ios-values.day_mode %}   |   | iOS  |   |   
+|  {% data variables.ios-values.toggle_contour_lines %} |   |  iOS |   |   
+|  {% data variables.ios-values.toggle_hillshade %}  |   | iOS  |   |  
+|  {% data variables.android-values.quick_action_day_night_switch_mode %}    |   |   | Android   |  
+|  {% data variables.android-values.quick_action_navigation_voice %}  |   |   | Android/iOS   |   
+| {% data variables.android-values.context_menu_item_directions_from %}   |   |   | Android/iOS    |
+| {% data variables.android-values.quick_action_add_destination %}  |   |   |  Android |   
+|{% data variables.ios-values.add_destination%}    |   |   | iOS  |   
+|  {% data variables.android-values.quick_action_remove_next_destination %}  |   |   | Android/iOS  |   
+|  {% data variables.android-values.quick_action_add_first_intermediate %}  |   |   | Android/iOS  |  
+|  {% data variables.android-values.quick_action_replace_destination %}  |   |   | Android/iOS  |
+|{% data variables.android-values.quick_action_auto_zoom %}    |   |   |  Android/iOS |  
+|{% data variables.android-values.quick_action_start_stop_navigation %}   |   |   | Android/iOS  |   
+|{% data variables.android-values.quick_action_resume_pause_navigation %}   |   |   |  Android/iOS |   
+|  {% data variables.android-values.change_application_profile %} |   |   |  Android/iOS  |   |
 
 **Item actions**:  
 
