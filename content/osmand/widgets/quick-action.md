@@ -10,6 +10,14 @@ versions: '*'
 
 Gives an opportunity to add action that will be frequently used. It can be:
 
+|    | {% data variables.android-values.quick_action_add_create_items %}   | {% data variables.android-values.quick_action_add_configure_map %} | {% data variables.android-values.quick_action_add_navigation%}  |
+| :------------- | :------------- | :------------- | :------------- |
+|  | ✔ | ✔ | ✔ |
+|   | ✔ | ✔ | - |
+|  | ✔ | ✔ | ✔ |
+| | ✔ | - | ✔ |
+| | ✔ | - | ✔ |
+|   |   |   |   |
 **Item actions**:  
 
 ![Quick action create items](/assets/images/widgets/quick_action_create_items.png)
