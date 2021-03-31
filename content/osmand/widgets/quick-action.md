@@ -16,8 +16,12 @@ Gives an opportunity to add action that will be frequently used. It can be:
 |  {% data variables.android-values.quick_action_add_gpx %}  | Android | - | - |
 |  {% data variables.ios-values.add_gpx_waypoint %} | iOS | - | - |
 | {% data variables.android-values.quick_action_add_marker %} | Android/iOS | - | - |
-| | ✔ | - | - |
-|   |   |   |   |
+| {% data variables.android-values.quick_action_add_parking %} | Android | - | - |
+|  {% data variables.android-values.quick_action_add_poi %} | Android  | -  | -  |
+|  {% data variables.android-values.quick_action_add_osm_bug %}  |  Android |   |   |
+|   {% data variables.android-values.quick_action_showhide_favorites_descr %}  | -   | Android/iOS   | -   |
+
+
 **Item actions**:  
 
 ![Quick action create items](/assets/images/widgets/quick_action_create_items.png)
