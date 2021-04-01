@@ -40,7 +40,7 @@ $ mkdir OsmAnd && cd OsmAnd
 ```
 $ git clone https://github.com/osmandapp/OsmAnd-build.git build
 $ git clone https://github.com/osmandapp/OsmAnd-core.git core
-$ git clone https://github.com/osmandapp/OsmAnd-core.git -b legacy_core core-legacy
+$ git clone https://github.com/osmandapp/OsmAnd-core-legacy.git core-legacy
 $ git clone https://github.com/osmandapp/OsmAnd-ios.git ios
 $ git clone https://github.com/osmandapp/Osmand.git -b master android
 $ git clone https://github.com/osmandapp/OsmAnd-resources.git resources
