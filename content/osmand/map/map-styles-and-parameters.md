@@ -44,14 +44,14 @@ LightRS style: {% data variables.android-values.light_rs_render_descr %}
 
 ### Nautical 
 
-{% data variables.android-values.nautical_render_descr %} Read more about [Nautical maps](https://osmand.net/features/nautical-charts).
+{% data variables.android-values.nautical_render_descr %} Read more about [Nautical maps](/osmand/plugins/nautical-charts).
 
 ![Nautical map style](/assets/images/map/map-style-nautical.png)
 
 ### Winter and ski
 
 {% data variables.android-values.ski_map_render_descr %}
-Winter and ski style is designed to help you navigate winter sports locations: you'll be able to see ski pistes and other details such as the complexity of skiing tracks and ski lift markers. Key features: renders pistes, aerial ways, and other ski features in a convenient way. Less distracting secondary map objects. Read more about [Ski maps](https://osmand.net/features/ski-plugin).
+Winter and ski style is designed to help you navigate winter sports locations: you'll be able to see ski pistes and other details such as the complexity of skiing tracks and ski lift markers. Key features: renders pistes, aerial ways, and other ski features in a convenient way. Less distracting secondary map objects. Read more about [Ski maps](/osmand/plugins/ski-maps).
 
 ![Winter & Ski map style](/assets/images/map/map-style-winter-ski.png)
 
@@ -206,7 +206,7 @@ In order to hide some objects on the map you can choose them in this menu:
 |Parameter          |Description        
 |:------------|:---------------|
 |{% data variables.android-values.rendering_attr_noAdminboundaries_name %}| Hide regional boundaries inside of countries, but state boundaries are visible. |
-|{% data variables.android-values.rendering_attr_noPolygons_name %}|Hide all polygons of natural objects, special function for [Underlay/Overlay layer](https://docs.osmand.net/en/main@latest/osmand/map/online-raster-maps#change-layer-parameters-transparency).  |
+|{% data variables.android-values.rendering_attr_noPolygons_name %}|Hide all polygons of natural objects, special function for [Underlay/Overlay layer](/osmand/map/online-raster-maps#change-layer-parameters-transparency).  |
 |{% data variables.android-values.rendering_attr_hideBuildings_name %}|Hide all polygons of buildings. |
 |{% data variables.android-values.rendering_attr_hideWaterPolygons_name %}|Hide all polygons of water (seas, lakes, reservoirs and etc.)  |
 |{% data variables.android-values.rendering_attr_hideHouseNumbers_name %}|Hide house numbers on the map.  |
