@@ -19,9 +19,9 @@ For Android devices you can download the free version and buy the full version i
 | :------------- | :------------- | :------------- | :------------- |
 | App OsmAnd Free | ✔ | ✔ | ✔ |
 | App OsmAnd+  | ✔ | ✔ | - |
-| In-app OsmAnd Unlimited | ✔ | ✔ | ✔ |
-| Subscription OsmAnd live | ✔ | - | ✔ |
-| Subscription OsmAnd premium | ✔ | - | ✔ |
+| In-app OsmAnd Maps | ✔ | ✔ | ✔ |
+| Subscription OsmAnd Basic | ✔ | - | ✔ |
+| Subscription OsmAnd Premium | ✔ | - | ✔ |
 
 ### What difference between purchases?
 
@@ -41,10 +41,10 @@ OsmAnd application has many features and tools. Of course, most of them are free
 
 The table shows all the features that are included in the paid and free packages of OsmAnd and its price.
 
-|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd Lite Subscription | OsmAnd Premium Subscription |
+|    | OsmAnd Free   | OsmAnd+ (OsmAnd Maps) | OsmAnd Basic Subscription | OsmAnd Premium Subscription |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
-| **Purchase** | - | One-Time, use forever | Subscription for 1 month / 3 months / 1 year | Subscription for 1 month / 1 year |
-| **Price** | 0€ | 19.99€  | 1.99€ / 3.99€ / 7.99€ | 2.99€ / 29.99€|
+| **Purchase** | - | One-Time, use forever | Subscription for 1 year | Subscription for 1 month / 1 year |
+| **Price** | 0€ | 29.99€  | 14.99€ | 2.99€ / 29.99€|
 | Ad-free access | ✔ | ✔ | ✔ | ✔|
 | Early access to new features | - | - | - |✔ |
 | Offline vertor maps |  7 maps | ∞ | ∞ | ✔|
