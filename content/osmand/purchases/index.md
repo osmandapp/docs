@@ -78,31 +78,34 @@ To restore a purchase from **Amazon**, navigate through the app as though you we
 
 User can download {% data reusables.links.osmand-maps-app-store %}.
 
-### OsmAnd packages?
+### OsmAnd packages.
+
+In-app purchases in OsmAnd application.
 
 |    | Description   | Price |
 | :------------- | :------------- | :------------- |
-| All World maps | Download and upate maps of the region | 19.99€  |
-| Asia | Download and upate maps of the region  | 19.99€  |
-| Europe | Download and upate maps of the region  | 19.99€  |
-| Afrika | Download and upate maps of the region  | 19.99€  |
-| North America | Download and upate maps of the region  | 19.99€  |
-| Central America | Download and upate maps of the region  | 19.99€  |
-| South America | Download and upate maps of the region  | 19.99€  |
-| Contour lines | Download and upate maps of the region  | 19.99€  |
-| Wikipedia | Download and upate maps of the region  | 19.99€  |
-| Wikipedia | Download and upate maps of the region  | 19.99€  |
+| OsmAnd Full | Download and upate all worlds maps, nautical maps and terrain. | 39.99€  |
+| All World Maps | Download and upate all worlds maps. | 39.99€  |
+| Asia | Download and upate maps of the region  | 4.99€  |
+| Europe | Download and upate maps of the region  | 5.99€  |
+| Afrika | Download and upate maps of the region  | 4.99€  |
+| North America | Download and upate maps of the region  | 5.99€  |
+| Central America | Download and upate maps of the region  | 4.99€  |
+| South America | Download and upate maps of the region  | 4.99€  |
+| Contour lines | Download and upate terrain maps.  | 3.99€  |
+| Wikipedia | Wikipedia files for offline using.  | 0.99€  |
+| Nautical maps | Download and upate nautical.  | 19.99€  |
 
 ### Free and Paid features
 
-|    | OsmAnd Free   | OsmAnd map package | OsmAnd Lite Subscription | OsmAnd Premium Subscription |
+|    | OsmAnd Free   | OsmAnd map package | OsmAnd Basic | OsmAnd Premium |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
-| **Purchase** | - | One-Time, use forever | Subscription for 1 month / 3 months / 1 year | Subscription for 1 month / 1 year |
-| **Price** | 0€ | 19.99€  | 1.99€ / 3.99€ / 7.99€ | 2.99€ / 29.99€|
+| **Purchase** | - | **One-Time**, use forever | **Subscription** for 1 year | **Subscription** for 1 month / 1 year |
+| **Price** | 0€ | 0.99€ - 39.99€  | 7.99€ | 2.99€ / 29.99€|
 | Ad-free access | ✔ | ✔ | ✔ | ✔|
 | Early access to new features | - | - | - |✔ |
-| Offline vertor maps |  7 maps | ∞ | ∞ | ✔|
-| Maps update |  Map updates one time at a month (at first dates of a month). Update = map download!!! | Map updates one time at a month (at first dates of a month) | Frequent   map updates (up to once an hour) | ✔|
+| Offline vertor maps |  7 maps | ∞ | ∞ | ∞|
+| Maps update |  Map updates one time at a month (at first dates of a month). Update = map download!!! | Map updates one time at a month (at first dates of a month) | Map updates one time at a month (at first dates of a month) | Frequent   map updates (up to once an hour)|
 | Topo data (Contour lines and Terrain) | - | ✔ | ✔ |✔ |
 | Nautical depths | - | ✔ | ✔ | ✔|
 | Travel guides (Wikipedia and Wikivoyage | - | ✔ | ✔ | ✔|
@@ -120,9 +123,10 @@ User can download {% data reusables.links.osmand-maps-app-store %}.
 | OsmAnd Tracker | ✔ | ✔ | ✔ | ✔|
 | Export/import app profile | ✔ | ✔ | ✔ |✔ |
 
-> **_Note:_** Use the same Apple ID to restore your purchases.
+### Restore purchases
 
-<!-- > **_Note:_** User can control all purchases and subscription from Apple account. b <br> -->
+Use the same Apple ID to restore your purchases.
+
 {% note %}
 User can control all purchases and subscription from Apple account.
 {% endnote %}
