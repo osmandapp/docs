@@ -20,20 +20,20 @@ For Android devices you can download the free version and buy the full version i
 | App OsmAnd Free | ✔ | ✔ | ✔ |
 | App OsmAnd+  | ✔ | ✔ | - |
 | In-app OsmAnd Maps | ✔ | ✔ | ✔ |
-| Subscription OsmAnd Basic | ✔ | - | ✔ |
+| Subscription OsmAnd Maps | ✔ | - | ✔ |
 | Subscription OsmAnd Premium | ✔ | - | ✔ |
 
 ### What difference between purchases?
 
 **OsmAnd+** is a separate application in [Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus&hl=en&gl=US) and [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC). You can add it to [the Family Library in Google Play](https://support.google.com/googleplay/answer/7007852?hl=en).
 
-**OsmAnd Unlimited** is in-app purchase for OsmAnd free version in [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_2?dchild=1&qid=1617119144&refinements=p_4%3AOsmAnd&s=mobile-apps&search-type=ss&sr=1-2), [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss).
+**OsmAnd Maps** is in-app purchase for OsmAnd free version in [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_2?dchild=1&qid=1617119144&refinements=p_4%3AOsmAnd&s=mobile-apps&search-type=ss&sr=1-2), [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss).
 
 {% note %}
-OsmAnd+ and OsmAnd Unlimited have the same functionality.
+OsmAnd+ and OsmAnd Maps have the same functionality.
 {% endnote %}
 
-**OsmAnd live** is a subscription, available for OsmAnd apllications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023&hl=en&gl=US) and [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss).
+**OsmAnd Basic** is a subscription, available for OsmAnd apllications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023&hl=en&gl=US) and [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss).
 
 ### Free and Paid features
 
@@ -44,11 +44,11 @@ The table shows all the features that are included in the paid and free packages
 |    | OsmAnd Free   | OsmAnd+ (OsmAnd Maps) | OsmAnd Basic Subscription | OsmAnd Premium Subscription |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
 | **Purchase** | - | One-Time, use forever | Subscription for 1 year | Subscription for 1 month / 1 year |
-| **Price** | 0€ | 29.99€  | 14.99€ | 2.99€ / 29.99€|
+| **Price** | 0€ | 39.99€  | 7.99€ | 2.99€ / 29.99€|
 | Ad-free access | ✔ | ✔ | ✔ | ✔|
 | Early access to new features | - | - | - |✔ |
-| Offline vertor maps |  7 maps | ∞ | ∞ | ✔|
-| Maps update |  Map updates one time at a month (at first dates of a month). Update = map download!!! | Map updates one time at a month (at first dates of a month) | Frequent   map updates (up to once an hour) | ✔|
+| Offline vertor maps |  7 maps | ∞ | ∞ | ∞ |
+| Maps update |  Map updates one time at a month (at first dates of a month). Update = map download!!! | Map updates one time at a month (at first dates of a month) | Map updates one time at a month (at first dates of a month) | Frequent   map updates (up to once an hour)|
 | Topo data (Contour lines and Terrain) | - | ✔ | ✔ |✔ |
 | Nautical depths | - | ✔ | ✔ | ✔|
 | Travel guides (Wikipedia and Wikivoyage | - | ✔ | ✔ | ✔|
