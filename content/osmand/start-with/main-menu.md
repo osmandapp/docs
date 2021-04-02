@@ -1,6 +1,6 @@
 ---
 title: "Main menu"
-intro: "Introduction of Main menus like Drawer and Concepts"
+intro: "Introduction of Main menus like Drawer and Concepts ( Android only)"
 versions: '*'
 ---
 {% data variables.android-values.ui_customization %}  menu helps to customize the quantity of items in "Drawer", "Configure map" and "Contex Menu".
