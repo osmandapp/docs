@@ -25,7 +25,7 @@ Gives an opportunity to add action that will be frequently used. It can be:
 | {% data variables.android-values.quick_action_map_style %}    | -  |  Android/iOS  | -  |
 | {% data variables.ios-values.toggle_public_transport %}    |-   | Android/iOS   | -  |
 | {% data variables.ios-values.quick_action_showhide_mapillary_title %}    | -  | Android/iOS   | -  |   
-|{% data variables.android-values. %}    | -  |  Android | -  |   
+|{% data variables.android-values.quick_action_show_hide_title.coordinates %}    | -  |  Android | -  |   
 | {% data variables.android-values. %}    | -  | Android  | -  |  
 |  {% data variables.ios-values.change_map_source %}   | -  | iOS  |  - |  
 | {% data variables.ios-values.change_map_overlay %}   | -  | iOS  | -  |   
