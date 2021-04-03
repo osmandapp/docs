@@ -44,7 +44,7 @@ The table shows all the features that are included in the paid and free packages
 |    | OsmAnd Free   | OsmAnd+ (OsmAnd Maps) | OsmAnd Basic | OsmAnd Premium |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
 | **Purchase** | - | **One-Time**, use forever | **Subscription** for 1 year | **Subscription** for 1 month / 1 year |
-| **Price** | 0€ | 39.99€  | 7.99€ | 2.99€ / 29.99€|
+| **Price** | 0€ | 9.99€  | 7.99€ | 2.99€ / 9.99€|
 | Ad-free access | ✔ | ✔ | ✔ | ✔|
 | Early access to new features | - | - | - |✔ |
 | Offline vertor maps |  7 maps | ∞ | ∞ | ∞ |
@@ -84,8 +84,8 @@ In-app purchases in OsmAnd application.
 
 |    | Description   | Price |
 | :------------- | :------------- | :------------- |
-| OsmAnd Full | Download and upate all worlds maps, nautical maps and terrain. | 39.99€  |
-| All World Maps | Download and upate all worlds maps. | 39.99€  |
+| OsmAnd Full | Download and upate all worlds maps, nautical maps and terrain. | 9.99€  |
+| All World Maps | Download and upate all worlds maps. | 9.99€  |
 | Asia | Download and upate maps of the region  | 4.99€  |
 | Europe | Download and upate maps of the region  | 5.99€  |
 | Afrika | Download and upate maps of the region  | 4.99€  |
@@ -101,7 +101,7 @@ In-app purchases in OsmAnd application.
 |    | OsmAnd Free   | OsmAnd map package | OsmAnd Basic | OsmAnd Premium |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
 | **Purchase** | - | **One-Time**, use forever | **Subscription** for 1 year | **Subscription** for 1 month / 1 year |
-| **Price** | 0€ | 0.99€ - 39.99€  | 7.99€ | 2.99€ / 29.99€|
+| **Price** | 0€ | 0.99€ - 9.99€  | 7.99€ | 2.99€ / 9.99€|
 | Ad-free access | ✔ | ✔ | ✔ | ✔|
 | Early access to new features | - | - | - |✔ |
 | Offline vertor maps |  7 maps | ∞ | ∞ | ∞|
