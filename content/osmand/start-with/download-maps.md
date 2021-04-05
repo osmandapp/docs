@@ -32,12 +32,12 @@ To download a map of a certain area user can zoom in the World map. The notifica
 
 > NOTE: This dialog can be turned on or off  in {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.osmand_settings %} → {% data variables.android-values.dialogs_and_notifications_title %}
 
-### Click on the World map to download the actual region 
+### Click on the World map to download the actual region
 
 The map of a certain area can be downloaded by tapping on the map. OsmAnd will offer to download the map of the chosen area. At the bottom of the screen, the button with the name of the area on it will be shown.
 
 ![Tap on the map download region](/assets/images/settings/tap_on_the_map_download_region.png)
 
-## Prepared maps
+<!-- ## Prepared maps
 
-Users can make their own maps using **OsmAnd Map Creator**.  Prepare the maps on your PC and transfer them to the "OsmAnd" folder on your device. You might need to restart the app afterward.
+Users can make their own maps using **OsmAnd Map Creator**.  Prepare the maps on your PC and transfer them to the "OsmAnd" folder on your device. You might need to restart the app afterward.-->
