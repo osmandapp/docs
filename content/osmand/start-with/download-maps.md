@@ -11,8 +11,7 @@ When the app is launching for the first time, the User can see the suggestion to
 
 > NOTE: For offline use, you need to preload necessary maps. OsmAnd uses .obf file format for the maps.
 
-There are two main map types you can download.
-
+<!-- There are two main map types you can download. -->
 ## Vector maps (preferred solution)
 
 All "vector" maps in OsmAnd have native format. They are 10%  compacter than tiles and allows zooming without losing detail or resolution. For slow devices zooming out to "overview" levels takes more time and CPU.
@@ -33,8 +32,12 @@ To download a map of a certain area user can zoom in the World map. The notifica
 
 > NOTE: This dialog can be turned on or off  in {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.osmand_settings %} → {% data variables.android-values.dialogs_and_notifications_title %}
 
-### Click on the actual region on the World map
+### Click on the World map to download the actual region 
 
 The map of a certain area can be downloaded by tapping on the map. OsmAnd will offer to download the map of the chosen area. At the bottom of the screen, the button with the name of the area on it will be shown.
 
 ![Tap on the map download region](/assets/images/settings/tap_on_the_map_download_region.png)
+
+## Prepared maps
+
+Users can make their own maps using **OsmAnd Map Creator**.  Prepare the maps on your PC and transfer them to the "OsmAnd" folder on your device. You might need to restart the app afterward.
