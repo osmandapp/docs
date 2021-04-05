@@ -34,16 +34,23 @@ OsmAnd+ and OsmAnd Unlimited have the same functionality.
 
 **OsmAnd live** is a subscription, available for OsmAnd apllications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023&hl=en&gl=US) and [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss).
 
+### Prices
+
+In the list, there is information about prices of OsmAnd product for the Europe region. For other regions, prices are equivalent to local currencies.
+
+|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live for OsmAnd Free| OsmAnd live for OsmAnd+|
+| :------------- | :------------- | :------------- | :------------- |  :------------- | 
+| **Purchase** | - | **One-Time**, use forever | **Subscription** for 1 month / 3 months / 1 year | **Subscription** for 1 month / 3 months / 1 year |
+| **Price** | 0€ | 19.99€  |  1.99€ / 3.99€ / 7.99€  |  1.49€ / 2.99€ / 5.99€ | 
+
 ### Free and Paid features
 
 OsmAnd application has many features and tools. Of course, most of them are free. 
 
 The table shows all the features that are included in the paid and free packages of OsmAnd and its price.
 
-|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live |
+|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live Subscription |
 | :------------- | :------------- | :------------- | :------------- | 
-| **Purchase** | - | **One-Time**, use forever | **Subscription** for 1 month / 3 months / 1 year |
-| **Price** | 0€ | 19.99€  | OsmAnd Free: 1.99€ / 3.99€ / 7.99€  OsmAnd+: 1.49€ / 2.99€ / 5.99€ | 
 | Ad-free access | ✔ | ✔ | ✔ |
 | Offline vertor maps |  7 maps | ∞ | ∞ |
 | Maps update |  Map updates one time at a month (at first dates of a month). Update = map download!!! | Map updates one time at a month (at first dates of a month) | Frequent   map updates (up to once an hour) |
@@ -76,17 +83,20 @@ To restore a purchase from **Amazon**, navigate through the app as though you we
 
 User can download {% data reusables.links.osmand-maps-app-store %}.
 
-### OsmAnd packages.
+### Prices
+
 
 In-app purchases in OsmAnd application:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.purchases %}
 
+In lists, there is information about prices of OsmAnd product for the Europe region. For other regions, prices are equivalent to local currencies.
+
 |    | Description   | Price |
 | :------------- | :------------- | :------------- |
 | {% data variables.ios-values.product_title_sea_depth_contours %} | {% data variables.ios-values.product_desc_sea_depth_contours %} | 2.29€  |
-| {% data variables.ios-values.product_title_wiki %} | {% data variables.ios-values.product_desc_ext_wiki %} | 0€  |
-| {% data variables.ios-values.product_title_srtm %} | {% data variables.ios-values.product_desc_ext_srtm %} | 5.49€  |
+| {% data variables.ios-values.product_title_wiki %} | Get information about points of interest from Wikipedia. | 0€  |
+| {% data variables.ios-values.product_title_srtm %} | This plugin provides contour lines, hillshade and slopes, which can be displayed in OsmAnd offline maps. Contour lines provide the information about heights of the area while hillshade and slopes are their visualization. See the names of mountain peaks and specific features of terrain using this plugin. | 5.49€  |
 | {% data variables.ios-values.product_title_allworld %} | {% data variables.ios-values.product_desc_allworld %} | 12.99€  |
 | {% data variables.ios-values.product_title_russia %} | {% data variables.ios-values.product_desc_russia %} | 5.49€  |
 | {% data variables.ios-values.product_title_africa %} | {% data variables.ios-values.product_desc_africa %} | 5.49€  |
@@ -96,6 +106,16 @@ In-app purchases in OsmAnd application:
 | {% data variables.ios-values.product_title_centralamerica %} | {% data variables.ios-values.product_desc_centralamerica %} | 5.49€  |
 | {% data variables.ios-values.product_title_northamerica %} | {% data variables.ios-values.product_desc_northamerica %} | 6.99€  |
 | {% data variables.ios-values.product_title_southamerica %} | {% data variables.ios-values.product_desc_southamerica %} | 5.49€  |
+
+Subscription purchases in OsmAnd application:
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.maps %} → {% data variables.ios-values.osmand_live_title %}
+
+|  Period  | Description   | Price |
+| :------------- | :------------- | :------------- |
+| 1 month |Get unlimited hourly map updates and all features included from 1 month. | 1.99€  |
+| 3 months|Get unlimited hourly map updates and all features included from 3 months. | 3.99€   |
+| 1 year |Get unlimited hourly map updates and all features included from 1 year. | 7.99€   |
 
 ### Free and Paid features
 
