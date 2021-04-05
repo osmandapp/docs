@@ -19,21 +19,20 @@ For Android devices you can download the free version and buy the full version i
 | :------------- | :------------- | :------------- | :------------- |
 | App OsmAnd Free | ✔ | ✔ | ✔ |
 | App OsmAnd+  | ✔ | ✔ | - |
-| In-app OsmAnd Maps | ✔ | ✔ | ✔ |
-| Subscription OsmAnd Maps | ✔ | - | ✔ |
-| Subscription OsmAnd Premium | ✔ | - | ✔ |
+| In-app OsmAnd Unlimited | ✔ | ✔ | ✔ |
+| Subscription OsmAnd live | ✔ | - | ✔ |
 
 ### What difference between purchases?
 
 **OsmAnd+** is a separate application in [Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus&hl=en&gl=US) and [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC). You can add it to [the Family Library in Google Play](https://support.google.com/googleplay/answer/7007852?hl=en).
 
-**OsmAnd Maps** is in-app purchase for OsmAnd free version in [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_2?dchild=1&qid=1617119144&refinements=p_4%3AOsmAnd&s=mobile-apps&search-type=ss&sr=1-2), [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss).
+**OsmAnd Unlimited** is in-app purchase for OsmAnd free version in [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_2?dchild=1&qid=1617119144&refinements=p_4%3AOsmAnd&s=mobile-apps&search-type=ss&sr=1-2), [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss).
 
 {% note %}
-OsmAnd+ and OsmAnd Maps have the same functionality.
+OsmAnd+ and OsmAnd Unlimited have the same functionality.
 {% endnote %}
 
-**OsmAnd Basic** is a subscription, available for OsmAnd apllications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023&hl=en&gl=US) and [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss).
+**OsmAnd live** is a subscription, available for OsmAnd apllications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023&hl=en&gl=US) and [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss).
 
 ### Free and Paid features
 
@@ -41,30 +40,29 @@ OsmAnd application has many features and tools. Of course, most of them are free
 
 The table shows all the features that are included in the paid and free packages of OsmAnd and its price.
 
-|    | OsmAnd Free   | OsmAnd+ (OsmAnd Maps) | OsmAnd Basic | OsmAnd Premium |
-| :------------- | :------------- | :------------- | :------------- | :------------- |
-| **Purchase** | - | **One-Time**, use forever | **Subscription** for 1 year | **Subscription** for 1 month / 1 year |
-| **Price** | 0€ | 9.99€  | 7.99€ | 2.99€ / 9.99€|
-| Ad-free access | ✔ | ✔ | ✔ | ✔|
-| Early access to new features | - | - | - |✔ |
-| Offline vertor maps |  7 maps | ∞ | ∞ | ∞ |
-| Maps update |  Map updates one time at a month (at first dates of a month). Update = map download!!! | Map updates one time at a month (at first dates of a month) | Map updates one time at a month (at first dates of a month) | Frequent   map updates (up to once an hour)|
-| Topo data (Contour lines and Terrain) | - | ✔ | ✔ |✔ |
-| Nautical depths | - | ✔ | ✔ | ✔|
-| Travel guides (Wikipedia and Wikivoyage | - | ✔ | ✔ | ✔|
-| Offline and online navigation with turn-by-turn directions | ✔ | ✔ | ✔ |✔ |
-| Offline instant search | ✔ | ✔ | ✔ |✔ |
-| Trip recording | ✔ | ✔ | ✔ |✔ |
-| Export GPX tracks | ✔ | ✔ | ✔ |✔ |
-| Import GPX/KML tracks | ✔ | ✔ | ✔ |✔ |
-| "Plan a route" tool | ✔ | ✔ | ✔ |✔ |
-| "Map markers" tool | ✔ | ✔ | ✔ |✔ |
-| Online map sources | ✔ | ✔ | ✔ | ✔|
-| SQLitedb/mbtiles Map support | ✔ | ✔ | ✔ |✔ |
-| Favorite points (Bookmarks, waypoints) | ✔ | ✔ | ✔ |✔ |
-| Audio/pic/video points | ✔ | ✔ | ✔ |✔ |
-| OsmAnd Tracker | ✔ | ✔ | ✔ | ✔|
-| Export/import app profile | ✔ | ✔ | ✔ |✔ |
+|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live |
+| :------------- | :------------- | :------------- | :------------- | 
+| **Purchase** | - | **One-Time**, use forever | **Subscription** for 1 month / 3 months / 1 year |
+| **Price** | 0€ | 19.99€  | OsmAnd Free: 1.99€ / 3.99€ / 7.99€  OsmAnd+: 1.49€ / 2.99€ / 5.99€ | 
+| Ad-free access | ✔ | ✔ | ✔ |
+| Offline vertor maps |  7 maps | ∞ | ∞ |
+| Maps update |  Map updates one time at a month (at first dates of a month). Update = map download!!! | Map updates one time at a month (at first dates of a month) | Frequent   map updates (up to once an hour) |
+| Topo data (Contour lines and Terrain) | - | ✔ | ✔ |
+| Nautical depths | - | ✔ | ✔ |
+| Travel guides (Wikipedia and Wikivoyage | - | ✔ | ✔ |
+| Offline and online navigation with turn-by-turn directions | ✔ | ✔ | ✔ |
+| Offline instant search | ✔ | ✔ | ✔ |
+| Trip recording | ✔ | ✔ | ✔ |
+| Export GPX tracks | ✔ | ✔ | ✔ |
+| Import GPX/KML tracks | ✔ | ✔ | ✔ |
+| "Plan a route" tool | ✔ | ✔ | ✔ |
+| "Map markers" tool | ✔ | ✔ | ✔ |
+| Online map sources | ✔ | ✔ | ✔ | 
+| SQLitedb/mbtiles Map support | ✔ | ✔ | ✔ |
+| Favorite points (Bookmarks, waypoints) | ✔ | ✔ | ✔ |
+| Audio/pic/video points | ✔ | ✔ | ✔ |
+| OsmAnd Tracker | ✔ | ✔ | ✔ |
+| Export/import app profile | ✔ | ✔ | ✔ |
 
 ### Restore purchases
 
@@ -80,21 +78,24 @@ User can download {% data reusables.links.osmand-maps-app-store %}.
 
 ### OsmAnd packages.
 
-In-app purchases in OsmAnd application.
+In-app purchases in OsmAnd application:
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.purchases %}
 
 |    | Description   | Price |
 | :------------- | :------------- | :------------- |
-| OsmAnd Full | Download and upate all worlds maps, nautical maps and terrain. | 9.99€  |
-| All World Maps | Download and upate all worlds maps. | 9.99€  |
-| Asia | Download and upate maps of the region  | 4.99€  |
-| Europe | Download and upate maps of the region  | 5.99€  |
-| Afrika | Download and upate maps of the region  | 4.99€  |
-| North America | Download and upate maps of the region  | 5.99€  |
-| Central America | Download and upate maps of the region  | 4.99€  |
-| South America | Download and upate maps of the region  | 4.99€  |
-| Contour lines | Download and upate terrain maps.  | 3.99€  |
-| Wikipedia | Wikipedia files for offline using.  | 0.99€  |
-| Nautical maps | Download and upate nautical.  | 19.99€  |
+| {% data variables.ios-values.product_title_sea_depth_contours %} | {% data variables.ios-values.product_desc_sea_depth_contours %} | 2.29€  |
+| {% data variables.ios-values.product_title_wiki %} | {% data variables.ios-values.product_desc_ext_wiki %} | 0€  |
+| {% data variables.ios-values.product_title_srtm %} | {% data variables.ios-values.product_desc_ext_srtm %} | 5.49€  |
+| {% data variables.ios-values.product_title_allworld %} | {% data variables.ios-values.product_desc_allworld %} | 12.99€  |
+| {% data variables.ios-values.product_title_russia %} | {% data variables.ios-values.product_desc_russia %} | 5.49€  |
+| {% data variables.ios-values.product_title_africa %} | {% data variables.ios-values.product_desc_africa %} | 5.49€  |
+| {% data variables.ios-values.product_title_asia %} | {% data variables.ios-values.product_desc_asia %} | 5.49€  |
+| {% data variables.ios-values.product_title_australia %} | {% data variables.ios-values.product_desc_australia %} | 5.49€  |
+| {% data variables.ios-values.product_title_europe %} | {% data variables.ios-values.product_desc_europe %} | 6.99€  |
+| {% data variables.ios-values.product_title_centralamerica %} | {% data variables.ios-values.product_desc_centralamerica %} | 5.49€  |
+| {% data variables.ios-values.product_title_northamerica %} | {% data variables.ios-values.product_desc_northamerica %} | 6.99€  |
+| {% data variables.ios-values.product_title_southamerica %} | {% data variables.ios-values.product_desc_southamerica %} | 5.49€  |
 
 ### Free and Paid features
 
@@ -124,6 +125,8 @@ In-app purchases in OsmAnd application.
 | Export/import app profile | ✔ | ✔ | ✔ |✔ |
 
 ### Restore purchases
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.purchases %} → {% data variables.ios-values.restore_all_purchases %}
 
 Use the same Apple ID to restore your purchases.
 
