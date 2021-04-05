@@ -153,11 +153,6 @@ Use the same Apple ID to restore your purchases.
 User can control all purchases and subscription from Apple account.
 {% endnote %}
 
-There are 8 options to extend OsmAnd functions.
-To find them please use: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %}  
-
-> **_Note:_** It is highly recommended downloading nautical basemap to see the maps regardless of detailed map presence. To turn on Nautical charts, tap the map button and set map type to Nautical. 
-
 ## OsmAnd Live Subscription
 The OsmAnd Live subscription for (Android/iOS) has three periods: monthly, three months, yearly. This feature allows you to get unlimited download of all maps and get all the plug-ins for the subscription period. You also get the opportunity to frequently updated maps (hourly instead of monthly updates).
 
