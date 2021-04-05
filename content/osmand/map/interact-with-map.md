@@ -1,12 +1,13 @@
 ---
-title: "Interact with map"
+title: "
+General introduction information about the map and it’s content. Gestures, map orientation, and compass settings are described"
 intro: "Interact with map"
 versions: '*'
 ---
 
 
-Introduction about the map and what it includes. Explanation about coordinates, text size and zoom magnifier.
-Special words about my location / radius of my location. Shortly about map interaction pan, zoom, click.
+Introduction about the map and what it includes. Explanation about coordinates, text size, and zoom magnifier.
+Special words about my location/radius of my location. Shortly about map interaction pan, zoom, click.
 
 
 ## Gestures
