@@ -19,12 +19,13 @@ Preferences -> Accounts
 ```
 Press `+` button. You can log in with your AppleID (login and password from your iOS/macOS devices). Follow XCode instructions.
 
-For OsmAnd team members: send your AppleID login (email) to someone from OsmAnd ios team to adding you to developers list. When you'll get email with invite message activate it.
+For OsmAnd team members: send your AppleID login to someone from OsmAnd ios team to adding you to developers list. When you'll get email with invite message activate it.
 
 Close XCode.
 
-#### **4. Install additional tools.**
+#### **4. Install additional command-line tools.**
 ```
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 $ brew install svn
 $ sudo gem install cocoapods
 ```
@@ -95,6 +96,7 @@ $ ls /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolch
 Replace `{CLANG_VERSION}` in this command with your version and open file:
 ```
 $ sudo nano /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/{CLANG_VERSION}/include/ia32intrin.h
+
 example:
 $ sudo nano /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include/ia32intrin.h
 ```
@@ -112,6 +114,7 @@ Selet as target your device or as one of IOS simulators. But don't use default '
 
 Build the project (play button).
 
+#### **11. Troubleshooting.**
 In case of build erros you can press in XCode: 
 ```
 Product -> Clean build folder
