@@ -49,4 +49,5 @@ Users can create new navigation profiles based on default app profiles. It defin
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %}→ {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.new_profile %} → choose the profile from the list → {% data variables.ios-values.enter_profile_name %} → select {% data variables.ios-values.profile_appearance%} → {% data variables.ios-values.select_icon %} → {% data variables.ios-values.appearance_on_map %} → select {% data variables.ios-values.position_icon_at_rest %} → select {% data variables.ios-values.position_icon_while_moving %} → press {% data variables.ios-values.shared_string_save%} at the top right corner.
 
-## [{% data variables.android-values.general_settings_2 %}]
+## [ {% data variables.android-values.general_settings_2 %} ][]
+ [ General settings ]:{% data variables.android-values.general_settings_2 %}
