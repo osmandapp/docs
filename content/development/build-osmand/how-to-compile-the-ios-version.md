@@ -105,7 +105,7 @@ Comment this lines and save file.
 ```
 And run `$ ./prepare.sh` again.
 #### **9. Open osmand.xcworkspace in XCode.**
-#### *10. First build.**
+#### **10. First build.**
 Set the build target to `OsmAnd Maps`. (Near play/stop buttons)
 
 Selet as target your device or as one of IOS simulators. But don't use default 'Any IOS Device (arm64)'. 
