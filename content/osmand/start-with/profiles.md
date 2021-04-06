@@ -43,8 +43,10 @@ All this profiles can be configure.
 |   | {% data variables.android-values.reset_to_default%}   |  Android/iOS |  all |
 |   | {% data variables.android-values.profile_alert_delete_title%}  |  Android | all  |
 
-Users can create their navigation profiles based on default app profiles. It defines basic setup like widgets' visibility, speed and distance units. Other parameters can be configured.
+Users can create new navigation profiles based on default app profiles. It defines basic setup like widgets' visibility, speed and distance units. Other parameters can be configured.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.rendering_value_browse_map_name %} or any other profile that has been set before → {% data variables.android-values.new_profile %} → choose the profile from the list → add {% data variables.android-values.profile_name_hint%} → {% data variables.android-values.select_color%} → {% data variables.android-values.select_icon_profile_dialog_title %} → {% data variables.android-values.select_color%} → select {% data variables.android-values.select_map_icon %} → select {% data variables.android-values.select_navigation_icon %} → press {% data variables.android-values.shared_string_save  %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %}→ {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.new_profile %} → choose the profile from the list → {% data variables.ios-values.enter_profile_name %} → select {% data variables.ios-values.profile_appearance%} → {% data variables.ios-values.select_icon %} → {% data variables.ios-values.appearance_on_map %} → select {% data variables.ios-values.position_icon_at_rest %} → select {% data variables.ios-values.position_icon_while_moving %} → press {% data variables.ios-values.shared_string_save%} at the top right corner.
+
+## [General settings][{% data variables.android-values.general_settings_2 %}]
