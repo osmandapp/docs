@@ -12,7 +12,23 @@ Or in case of errors try to dowlnload and install it from Apple site:
 ```
 https://developer.apple.com/download/more/?name=for%20Xcode
 ```
-#### **3. Install CMake (exactly this version!):**
+#### **3. Log in into XCode account:**
+In case if you don't have Apple Developer account. Open XCode and go to preferences (via top menu)
+```
+Preferences -> Accounts 
+```
+Press `+` button. You can log in with your AppleID (login and password from your iOS/macOS devices). Follow XCode instructions.
+
+For OsmAnd team members: send your AppleID login (email) to someone from OsmAnd ios team to adding you to developers list. When you'll get email with invite message activate it.
+
+Close XCode.
+
+#### **4. Install additional tools.**
+```
+$ brew install svn
+$ sudo gem install cocoapods
+```
+#### **5. Install CMake (exactly this version!):**
 ```
 https://github.com/Kitware/CMake/releases/download/v3.11.2/cmake-3.11.2-Darwin-x86_64.dmg
 ```
@@ -32,11 +48,11 @@ Verify everything works:
 ```
 $ cmake --version
 ```
-#### **4. Create folder for OsmAnd repositories**
+#### **6. Create folder for OsmAnd repositories**
 ```
 $ mkdir OsmAnd && cd OsmAnd
 ```
-#### **5. Clone all OsmAnd repositories:**
+#### **7. Clone all OsmAnd repositories:**
 ```
 $ git clone https://github.com/osmandapp/OsmAnd-build.git build
 $ git clone https://github.com/osmandapp/OsmAnd-core.git core
@@ -46,7 +62,7 @@ $ git clone https://github.com/osmandapp/Osmand.git -b master android
 $ git clone https://github.com/osmandapp/OsmAnd-resources.git resources
 $ git clone https://github.com/osmandapp/osmandapp.github.io.git help
 ```
-#### **6. Run prepare.sh**
+#### **8. Run prepare.sh**
 ```
 $ cd ios
 $ ./prepare.sh
@@ -88,11 +104,13 @@ Comment this lines and save file.
 #define _bit_scan_reverse(A) __bsrd((A))
 ```
 And run `$ ./prepare.sh` again.
-#### **7. Open osmand.xcworkspace in XCode.**
-#### **8. First build.**
-Set the build target to `OsmAnd Maps`. 
+#### **9. Open osmand.xcworkspace in XCode.**
+#### *10. First build.**
+Set the build target to `OsmAnd Maps`. (Near play/stop buttons)
+
 Selet as target your device or as one of IOS simulators. But don't use default 'Any IOS Device (arm64)'. 
-Build the project.
+
+Build the project (play button).
 
 In case of build erros you can press in XCode: 
 ```
@@ -100,9 +118,13 @@ Product -> Clean build folder
 ```
 Then close XCode. 
 Delete `baked` and `binaries` folders in `OsmAnd` directory (if it already exists). 
+
 Delete XCode DerivedData folder:
 ```
 sudo rm -R ~/Library/Developer/Xcode/DerivedData/*
 ```
-Check that all repositories are up to date.
+Check that all repositories are up to date and on correct branches.
+
+Restart your computer. (Yes, it can help)
+
 Then run `$ ./prepare.sh` and try to build the project again.
