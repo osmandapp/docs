@@ -61,4 +61,4 @@ Users can create new navigation profiles based on default app profiles. It defin
  [General settings ][{% data variables.android-values.general_settings_2 %}]
  [General settings](#{% data variables.android-values.general_settings_2 %})
  {% link_data variables.android-values.general_settings_2 %}
- {% link-data variables.android-values.general_settings_2 %}
+ 
