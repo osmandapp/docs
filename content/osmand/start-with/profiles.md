@@ -62,7 +62,4 @@ Users can create new navigation profiles based on default app profiles. It defin
 | {% data variables.android-values.units_and_formats %}  |  {% data variables.android-values.driving_region %}   |  {% data variables.android-values.driving_region_automatic %}/ [list of regions](#list-of-regions)|   |
 
 
-### [list of regions]
-a
-a
-a
+### list of regions
