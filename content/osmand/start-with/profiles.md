@@ -55,7 +55,7 @@ Users can create new navigation profiles based on default app profiles. It defin
 | :------------- | :------------- | :------------- | :------------- |
 | {% data variables.android-values.shared_string_appearance %} | {% data variables.android-values.choose_osmand_theme %} | {% data variables.android-values.dark_theme %}/{% data variables.android-values.light_theme %} | Android  |
 |   | {% data variables.android-values.rotate_map_to_bearing %}  |  {% data variables.android-values.rotate_map_none_opt %}/ {% data variables.android-values.rotate_map_bearing_opt %}/ {% data variables.android-values.rotate_map_compass_opt %} |  Android/iOS  |
-|   |  {% data variables.android-values.always_center_position_on_map %}  | turn on and off and {% data variables.android-values.apply_to_all_profiles %}/ {% data variables.android-values.apply_to_current_profile %}/ {% data variables.android-values.discard_changes %}  | Android/iOS   |
+|   |  {% data variables.android-values.always_center_position_on_map %}  | turn on and off and {% data variables.android-values.apply_to_all_profiles %}/ Apply only to selected profile/ {% data variables.android-values.discard_changes %}  | Android/iOS   |
 |   |  {% data variables.android-values.map_screen_orientation %}  | {% data variables.android-values.map_orientation_portrait %}/ {% data variables.android-values.map_orientation_landscape %}/ {% data variables.android-values.map_orientation_default %}  |  Android |
 |   | {% data variables.android-values.screen_control %}   | {% data variables.android-values.screen_timeout %}/ {% data variables.android-values.turn_screen_on %}  |  Android |
 |   |   {% data variables.ios-values.allow_3D_view %} | turn on or off  |  iOS |
