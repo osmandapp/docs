@@ -1,8 +1,10 @@
 ---
 title: "Step by step installation"
-intro: "Step by step installation"
+intro: ""
 versions: '*'
 ---
+
+
 There is an opportunity to download OsmAnd for **Android** and **iOS**.
 
 For **Android** there is an option to download from [Google play store](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_3?dchild=1&keywords=osmand&qid=1616685559&sr=8-3).
