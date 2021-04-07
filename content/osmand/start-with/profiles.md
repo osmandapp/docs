@@ -27,7 +27,7 @@ All this profiles can be configure.
 |   | settings  | OS| profile |
 | :------------- | :------------- | :------------- | :------------- |
 | profile settings | {% data variables.android-values.general_settings_2 %} | Android/iOS | all  |
-|   | {% data variables.android-values.routing_settings_2 %}   |  Android/iOS | all except {% data variables.android-values.rendering_value_browse_map_name %}  |
+|   | {% data variables.android-values.routing_settings_2 %}   |  Android/iOS | all, except {% data variables.android-values.rendering_value_browse_map_name %}  |
 |   |  {% data variables.android-values.configure_map %}  |  Android/iOS  |  all |
 |   |  {% data variables.android-values.layer_map_appearance %} |  Android/iOS  |  all |
 |   | {% data variables.android-values.profile_appearance %}  | Android/iOS  |  all |
@@ -49,8 +49,13 @@ Users can create new navigation profiles based on default app profiles. It defin
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %}→ {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.new_profile %} → choose the profile from the list → {% data variables.ios-values.enter_profile_name %} → select {% data variables.ios-values.profile_appearance%} → {% data variables.ios-values.select_icon %} → {% data variables.ios-values.appearance_on_map %} → select {% data variables.ios-values.position_icon_at_rest %} → select {% data variables.ios-values.position_icon_while_moving %} → press {% data variables.ios-values.shared_string_save%} at the top right corner.
 
-## General settings
+## General settings for profile
 
 |  | settings  |configurations | OS |
 | :------------- | :------------- | :------------- | :------------- |
 | {% data variables.android-values.shared_string_appearance %} | {% data variables.android-values.choose_osmand_theme %} | {% data variables.android-values.dark_theme %}/{% data variables.android-values.light_theme %} | Android  |
+|   | {% data variables.android-values.rotate_map_to_bearing %}  |  {% data variables.android-values.rotate_map_none_opt %}/ {% data variables.android-values.rotate_map_bearing_opt %}/ {% data variables.android-values.rotate_map_compass_opt %} |  Android/iOS  |
+|   |  {% data variables.android-values.always_center_position_on_map %}  | turn on and off and {% data variables.android-values.apply_to_all_profiles %}/ {% data variables.android-values.apply_to_current_profile %}/ {% data variables.android-values.discard_changes %}  | Android/iOS   |
+|   |  {% data variables.android-values.map_screen_orientation %}  | {% data variables.android-values.map_orientation_portrait %}/ {% data variables.android-values.map_orientation_landscape %}/ {% data variables.android-values.map_orientation_default %}  |  Android |
+|   | {% data variables.android-values.screen_control %}   | {% data variables.android-values.screen_timeout %}/ {% data variables.android-values.turn_screen_on %}  |  Android |
+|   |   {% data variables.ios-values.allow_3D_view %} | turn on or off  |  iOS |
