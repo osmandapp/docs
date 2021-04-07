@@ -59,7 +59,20 @@ Users can create new navigation profiles based on default app profiles. It defin
 |   |  {% data variables.android-values.map_screen_orientation %}  | {% data variables.android-values.map_orientation_portrait %}/ {% data variables.android-values.map_orientation_landscape %}/ {% data variables.android-values.map_orientation_default %}  |  Android |
 |   | {% data variables.android-values.screen_control %}   | {% data variables.android-values.screen_timeout %}/ {% data variables.android-values.turn_screen_on %}  |  Android |
 |   |   {% data variables.ios-values.allow_3D_view %} | turn on or off  |  iOS |
-| {% data variables.android-values.units_and_formats %}  |  {% data variables.android-values.driving_region %}   |  {% data variables.android-values.driving_region_automatic %}/ [list of regions](#list-of-regions)|   |
+| {% data variables.android-values.units_and_formats %}  |  {% data variables.android-values.driving_region %}   |  {% data variables.android-values.driving_region_automatic %}/ [list of regions](#list-of-regions)|  Android/iOS    |
+|   |  {% data variables.android-values.coords_format %}  | [list of coordinate format](#list-of-coordinate-format)  |  Android/iOS |
+|   |   {% data variables.android-values.angular_measeurement %} | {% data variables.android-values.shared_string_degrees %} 180/ {% data variables.android-values.shared_string_degrees %} 360/ {% data variables.android-values.shared_string_milliradians %}    |Android/iOS   |
+|   |   {% data variables.android-values.default_speed_system %} |  [list of unit speed ](#list-of-unit-speed ) |Android/iOS     |
+| {% data variables.android-values.shared_string_other%}  |  {% data variables.android-values.use_volume_buttons_as_zoom %}  |  turn on or off ability to control the map zoom level using the volume buttons on the device  | Android  |
+|   |   {% data variables.android-values.use_kalman_filter_compass%}  | turn on or off ability to reduce noise in compass reading  (adds inertia)  | Android  |
+|   |   {% data variables.android-values.use_magnetic_sensor %}   |  turn on or off (highly recommended to use it for compass reading) | Android  |
+|   |  {% data variables.android-values.tap_on_map_to_hide_interface %}   |  turn on (a tap on the toggles the control buttons and widgets) or off  |  Android |
+|   |  {% data variables.android-values.do_not_use_animations %}  |  turn on and off and {% data variables.android-values.apply_to_all_profiles %}/ Apply only to selected profile/ {% data variables.android-values.discard_changes %} turn on and off and {% data variables.android-values.apply_to_all_profiles %}/ Apply only to selected profile/ {% data variables.android-values.discard_changes %}  |  Android |
+|   | {% data variables.android-values.do_not_use_animations %}  | {% data variables.android-values.sett_generic_ext_input %}/ {% data variables.android-values.sett_wunderlinq_ext_input %}/ {% data variables.android-values.sett_parrot_ext_input %}   | Android/iOS   |
 
 
 ### list of regions
+
+### list of coordinate format
+
+### list of unit speed
