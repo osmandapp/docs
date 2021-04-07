@@ -54,11 +54,3 @@ Users can create new navigation profiles based on default app profiles. It defin
 |  | settings  |configurations | OS |
 | :------------- | :------------- | :------------- | :------------- |
 | {% data variables.android-values.shared_string_appearance %} | {% data variables.android-values.choose_osmand_theme %} | {% data variables.android-values.dark_theme %}/{% data variables.android-values.light_theme %} | Android  |
-
-<!-- [ {% data variables.android-values.general_settings_2 %} ][] -->
- <!-- [ General settings ]:{% data variables.android-values.general_settings_2 %} -->
-[`General settings`](#{% data variables.android-values.general_settings_2 %})._
- [General settings ][{% data variables.android-values.general_settings_2 %}]
- [General settings](#{% data variables.android-values.general_settings_2 %})
- {% link_data variables.android-values.general_settings_2 %}
- 
