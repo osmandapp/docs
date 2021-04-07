@@ -41,7 +41,7 @@ Shows the distance from users current position to the marker.
 
 |    | Description    | State |  OS |
 | :------------- | :------------- | :------------- | :------------- |
-| {% data variables.android-values.active_markers %} | Specifies number of direction indicators| 1 - ∞ | Android/iOS  |
+| {% data variables.android-values.active_markers %} | Specifies number of direction indicators| 1 or 2 | Android/iOS  |
 |  {% data variables.android-values.show_direction %}  | Gives an option to activate and choose the way of displaying the distance to active markers | {% data variables.android-values.shared_string_topbar %} / {% data variables.android-values.shared_string_widgets %} | Android/iOS  |
 |  {% data variables.android-values.show_arrows_on_the_map %} |  Gives an option to activate and show one or two arrows that indicate the direction to the active markers | -  | Android/iOS  |
 |  {% data variables.android-values.show_guide_line%} | Gives an option to activate and show direction line from users position  to the active markers  | -  | Android/iOS  |
