@@ -1,6 +1,5 @@
 ---
-title: "
-General introduction information about the map and it’s content. Gestures, map orientation, and compass settings are described"
+title: "General introduction information about the map and it’s content. Gestures, map orientation, and compass settings are described"
 intro: "Interact with map"
 versions: '*'
 ---
