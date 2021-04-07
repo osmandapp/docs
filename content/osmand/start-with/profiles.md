@@ -59,3 +59,10 @@ Users can create new navigation profiles based on default app profiles. It defin
 |   |  {% data variables.android-values.map_screen_orientation %}  | {% data variables.android-values.map_orientation_portrait %}/ {% data variables.android-values.map_orientation_landscape %}/ {% data variables.android-values.map_orientation_default %}  |  Android |
 |   | {% data variables.android-values.screen_control %}   | {% data variables.android-values.screen_timeout %}/ {% data variables.android-values.turn_screen_on %}  |  Android |
 |   |   {% data variables.ios-values.allow_3D_view %} | turn on or off  |  iOS |
+| {% data variables.android-values.units_and_formats %}  |  {% data variables.android-values.driving_region %}   |  {% data variables.android-values.driving_region_automatic %}/ [list of regions]|   |
+
+
+### [list of regions]
+a
+a
+a
