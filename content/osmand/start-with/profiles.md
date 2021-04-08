@@ -86,11 +86,35 @@ Users can create new navigation profiles based on default app profiles. It defin
 |   |   {% data variables.android-values.use_magnetic_sensor %}   |  turn/or off (highly recommended to use it for compass reading) | Android  |
 |   |  {% data variables.android-values.tap_on_map_to_hide_interface %}   |  turn on/off (a tap on the toggles the control buttons and widgets) |  Android |
 |   |  {% data variables.android-values.do_not_use_animations %}  |  turn on/off and {% data variables.android-values.apply_to_all_profiles %}/ Apply only to selected profile/ {% data variables.android-values.discard_changes %}   |  Android |
-|   | {% data variables.android-values.do_not_use_animations %}  | {% data variables.android-values.sett_generic_ext_input %}/ {% data variables.android-values.sett_wunderlinq_ext_input %}/ {% data variables.android-values.sett_parrot_ext_input %}   | Android/iOS   |
-
+|   | {% data variables.android-values.do_not_use_animations %}  | {% data variables.android-values.sett_generic_ext_input %}/ {% data variables.android-values.sett_wunderlinq_ext_input %}/ {% data variables.android-values.sett_parrot_ext_input %}(Android only)   | Android/iOS   |
 
 ### list of regions
 
+|Region | {% data variables.android-values.right_side_navigation %} |{% data variables.android-values.left_side_navigation%} |
+| :------------- | :------------- | :------------- |
+| {% data variables.android-values.driving_region_europe_asia %} | {% data variables.android-values.si_km_m %} | - |
+|  {% data variables.android-values.driving_region_us %} | {% data variables.android-values.si_mi_feet %}  |  - |  
+|  {% data variables.android-values.driving_region_canada %} |  {% data variables.android-values.si_km_m %}  | -  |
+|  {% data variables.android-values.driving_region_uk %} |  - | {% data variables.android-values.si_mi_meter %} |  
+| {% data variables.android-values.driving_region_japan %}  | -   | {% data variables.android-values.si_km_m %} |  
+|  {% data variables.android-values.driving_region_australia %} |   - | {% data variables.android-values.si_km_m %} |  
+
 ### list of coordinate format
 
+| Type | {% data variables.android-values.shared_string_examplen %} | Note |
+| :------------- | :------------- | :------------- |
+| {% data variables.android-values.navigate_point_format_D %} | 49.41869° N, 8.67339° E | - |
+|  {% data variables.android-values.navigate_point_format_DM %} | 49°25.121'N, 08°40.403' E |  - |  
+|  {% data variables.android-values.navigate_point_format_DMS %} |  49°25'07.3"N, 08°40'24.2" E  | -  |
+|  {% data variables.android-values.navigate_point_format_utm %} |  32N 476311 5474052  | OsmAnd uses the UTM Standart, which is similar but not identical to the UTM NATO format. [Read more ](#https://en.m.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system )|  
+| {% data variables.android-values.navigate_point_format_mgrs %}  | 32U MV 76311 74052  |OsmAnd uses the MGRS, which is similar to the UTM NATO format. [Read more ](#https://en.m.wikipedia.org/wiki/Military_Grid_Reference_System) |  
+|  {% data variables.android-values.navigate_point_format_olc %} | 8FXCCM9F+F9 | -|  
+
 ### list of unit speed
+
+* {% data variables.android-values.si_kmh %}
+* {% data variables.android-values.si_mph %}
+* {% data variables.android-values.si_m_s %}
+* {% data variables.android-values.si_min_m %}
+* {% data variables.android-values.si_min_km %}
+* {% data variables.android-values.si_nm_h %}
