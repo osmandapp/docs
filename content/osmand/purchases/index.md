@@ -1,6 +1,6 @@
 ---
 title: Purchases
-intro: "OsmAnd app is available for Android and iOS systems. There are a great variety of features that OsmAnd offers. Most of them are available in a free version of the application. The paid OsmAnd services provide extended functionality."
+intro: "OsmAnd app is available for Android and iOS systems. There is a great variety of features that OsmAnd offers. Most of them are available in a free version of the application. The paid OsmAnd services provide extended functionality."
 versions: "*"
 ---
 
@@ -181,7 +181,7 @@ User can purchase OsmAnd using Google Play and App Store gift cards. Using this 
 * iOS.  All you have to do is enter the Appstore and install OsmAnd again. You can use it on as many devices as you want without the need to buy the app again. You may see the "Buy" button, but you won't have to pay: just press it to download the app without paying again.
 
 ## Get OsmAnd
-There are several possibilities to do that:
+There are several ways to do that:
  - {% data reusables.links.osmand-plus-google-play %}
  - {% data reusables.links.osmand-plus-amazon %}
  - {% data reusables.links.osmand-maps-app-store %}
