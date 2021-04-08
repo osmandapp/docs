@@ -83,8 +83,8 @@ Users can create new navigation profiles based on default app profiles. It defin
 |   |   {% data variables.android-values.default_speed_system %} |  [list of unit speed ](#list-of-unit-speed ) |Android/iOS     |
 | {% data variables.android-values.shared_string_other%}  |  {% data variables.android-values.use_volume_buttons_as_zoom %}  |  turn on or off ability to control the map zoom level using the volume buttons on the device  | Android  |
 |   |   {% data variables.android-values.use_kalman_filter_compass%}  | turn on/off an ability to reduce noise in compass reading  (adds inertia)  | Android  |
-|   |   {% data variables.android-values.use_magnetic_sensor %}   |  turn on or off (highly recommended to use it for compass reading) | Android  |
-|   |  {% data variables.android-values.tap_on_map_to_hide_interface %}   |  turn on (a tap on the toggles the control buttons and widgets) or off  |  Android |
+|   |   {% data variables.android-values.use_magnetic_sensor %}   |  turn/or off (highly recommended to use it for compass reading) | Android  |
+|   |  {% data variables.android-values.tap_on_map_to_hide_interface %}   |  turn on/off (a tap on the toggles the control buttons and widgets) |  Android |
 |   |  {% data variables.android-values.do_not_use_animations %}  |  turn on/off and {% data variables.android-values.apply_to_all_profiles %}/ Apply only to selected profile/ {% data variables.android-values.discard_changes %}   |  Android |
 |   | {% data variables.android-values.do_not_use_animations %}  | {% data variables.android-values.sett_generic_ext_input %}/ {% data variables.android-values.sett_wunderlinq_ext_input %}/ {% data variables.android-values.sett_parrot_ext_input %}   | Android/iOS   |
 
