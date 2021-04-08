@@ -6,12 +6,12 @@ versions: "*"
 
 ## Android 
 
-### Where download OsmAnd?
+### Where to download OsmAnd?
 
 For Android devices you can download the free version and buy the full version in the next services:
 
-- [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023&hl=en&gl=US)
-- [Amazon](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss)
+- [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023)
+- [Amazon](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd)
 - [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545)
 
 
@@ -26,13 +26,13 @@ For Android devices you can download the free version and buy the full version i
 
 **OsmAnd+** is a separate application in [Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus&hl=en&gl=US) and [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC). You can add it to [the Family Library in Google Play](https://support.google.com/googleplay/answer/7007852?hl=en).
 
-**OsmAnd Unlimited** is in-app purchase for OsmAnd free version in [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_2?dchild=1&qid=1617119144&refinements=p_4%3AOsmAnd&s=mobile-apps&search-type=ss&sr=1-2), [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss).
+**OsmAnd Unlimited** is an in-app purchase for OsmAnd free version in [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8), [Huawei AppStore](https://appgallery.huawei.com/#/app/C101486545).
 
 {% note %}
 OsmAnd+ and OsmAnd Unlimited have the same functionality.
 {% endnote %}
 
-**OsmAnd live** is a subscription, available for OsmAnd apllications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023&hl=en&gl=US) and [Huawei AppStore](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd&search-type=ss).
+**OsmAnd live** is a subscription, available for OsmAnd applications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023) and [Huawei AppStore](https://appgallery.huawei.com/#/app/C101486545).
 
 ### Prices
 
@@ -40,7 +40,7 @@ In the list, there is information about prices of OsmAnd product for the Europe 
 
 |    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live for OsmAnd Free| OsmAnd live for OsmAnd+|
 | :------------- | :------------- | :------------- | :------------- |  :------------- | 
-| **Purchase** | - | **One-Time**, use forever | **Subscription** for 1 month / 3 months / 1 year | **Subscription** for 1 month / 3 months / 1 year |
+| **Purchase** | - | **One-time**, use forever | **Subscription** for 1 month / 3 months / 1 year | **Subscription** for 1 month / 3 months / 1 year |
 | **Price** | 0€ | 19.99€  |  1.99€ / 3.99€ / 7.99€  |  1.49€ / 2.99€ / 5.99€ | 
 
 ### Free and Paid features
@@ -73,13 +73,13 @@ The table shows all the features that are included in the paid and free packages
 
 ### Restore purchases
 
-To restore a purchased app, just visit **Google Play** and reinstall it. if you've already purchased the app with your current Google account, you'll be able to redownload it on each app you use.
+To restore a purchased app, just visit **Google Play** and reinstall it. If you've already purchased the app with your current Google account, you'll be able to redownload it on each app you use.
 
 To restore a purchase from **Amazon**, navigate through the app as though you were going to purchase the feature again. At the point where you would ordinarily be charged, Amazon instead realizes that you've already purchased it in the past and activates it again for free.
 
 ## iOS
 
-### Where download OsmAnd?
+### Where to download OsmAnd?
 
 User can download {% data reusables.links.osmand-maps-app-store %}.
 
@@ -168,7 +168,7 @@ Join to OsmAnd Giveaway [here](https://osmand.net/#osmand_giveaway).
 
 ## Giftcards
 
-User can purchase OsmAnd using Google Play and App Store gift cards. Using this method does not imply sharing a credit card information to the service. Just purchase a gift card from a retailer on the list and redeem the code one Google Play and App store.
+User can purchase OsmAnd using Google Play and App Store gift cards. Using this method does not imply sharing a credit card information to the service. Just purchase a gift card from a retailer on the list and redeem the code one on Google Play and App store.
 - [Detailed guide on buying Google Play gift cards.](https://support.google.com/googleplay/answer/3422734?hl=en)
 - [Detailed guide on buying App store gift cards.](https://www.apple.com/shop/gift-cards)
 - You can also use [Amazon gift cards](https://www.amazon.com/gift-cards/b?ie=UTF8&node=2238192011). [Here's how to redeem them.](https://www.amazon.com/gp/help/customer/display.html?nodeId=201357470)
@@ -178,7 +178,7 @@ User can purchase OsmAnd using Google Play and App Store gift cards. Using this 
 
 ### New device / new account
 * Android. Just enter Google Play using the same account you used to buy OsmAnd, then find OsmAnd through Search and install it again. Make sure you install OsmAnd+ if you have bought it or install OsmAnd if you have bought in app.
-* iOS.  All you have to do is enter the Appstore and install OsmAnd again. You can use it on as many devices as you want without the need to buy the app again. You may see the "Buy" button, but you won't have to pay: just press it to download the app without paying again.
+* iOS. All you have to do is enter the App store and install OsmAnd again. You can use it on as many devices as you want without the need to buy the app again. You may see the "Buy" button, but you won't have to pay: just press it to download the app without paying again.
 
 ## Get OsmAnd
 There are several ways to do that:
