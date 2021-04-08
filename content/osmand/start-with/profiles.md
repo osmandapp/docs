@@ -140,7 +140,7 @@ In Navigation settings user can configure navigation parameters for profile.
 -->
 |  | settings  |configurations | OS |
 | :------------- | :------------- | :------------- | :------------- |
-| Navigation | {% data variables.android-values.nav_type_title %}| defines how the routes will be calculated. Choose [default navigation types ] (default-navigation-types) or import a modified routing file [routing.xml ](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)(only for Android). | Android/iOS   |
+| Navigation | {% data variables.android-values.nav_type_hint %}| defines how the routes will be calculated. Choose [default navigation types](default-navigation-types) or import a modified routing file [routing.xml ](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)(only for Android). | Android/iOS   |
 |   | {% data variables.android-values.route_parameters %}  |   |  Android/iOS  |
 |   |  {% data variables.android-values.screen_alerts %}  |   | Android/iOS   |
 |   |  {% data variables.android-values.voice_announces %}  |  |  Android/iOS   |
