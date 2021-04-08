@@ -28,6 +28,8 @@ All  profiles can be configure.
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.rapp_mode_default %} or any other profile that has been set before  → {% data variables.ios-values.configure_profile %} → {% data variables.ios-values.shared_string_enabled%} turn on or off
 
+>**Note**: For Android the profile can be changed in 'Configure profile' by tapping the relevant icon at the top right corner
+
 <!--
 |   | settings  | OS| profile |
 | :------------- | :------------- | :------------- | :------------- |
@@ -57,7 +59,6 @@ All  profiles can be configure.
 |   |  [Configure screen](#configure-screen)	 |  Android/iOS  |  all |
 |   | 	[Profile appearance](#profile-appearance)  | Android/iOS  |  all |
 |   | 	[UI Customization](#ui-customization)  |  Android  | all  |
-
 
 ## Creating new navigation profiles (custom profiles)
 
@@ -118,3 +119,44 @@ Users can create new navigation profiles based on default app profiles. It defin
 * {% data variables.android-values.si_min_m %}
 * {% data variables.android-values.si_min_km %}
 * {% data variables.android-values.si_nm_h %}
+
+
+## Navigation settings
+
+In Navigation settings user can configure navigation parameters for profile.
+
+>**Note**:  parameters change for different  Navigation types.
+
+<!--
+|  | settings  |configurations | OS |
+| :------------- | :------------- | :------------- | :------------- |
+| Navigation | {% data variables.android-values.nav_type_title %} |  | Android/iOS   |
+|   | {% data variables.android-values.route_parameters %}  |   |  Android/iOS  |
+|   |  {% data variables.android-values.screen_alerts %}  |   | Android/iOS   |
+|   |  {% data variables.android-values.voice_announces %}  |  |  Android/iOS   |
+|   | {% data variables.android-values.vehicle_parameters %}   | |  Android/iOS |
+| {% data variables.android-values.help_other_header %}| {% data variables.android-values.map_during_navigation_info %}  |  |   Android/iOS |
+|  |  {% data variables.android-values.animate_my_location %}   |  |  Android   |
+-->
+|  | settings  |configurations | OS |
+| :------------- | :------------- | :------------- | :------------- |
+| Navigation | {% data variables.android-values.nav_type_title %}| defines how the routes will be calculated. Choose [default navigation types ] (default-navigation-types) or import a modified routing file [routing.xml ](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)(only for Android). | Android/iOS   |
+|   | {% data variables.android-values.route_parameters %}  |   |  Android/iOS  |
+|   |  {% data variables.android-values.screen_alerts %}  |   | Android/iOS   |
+|   |  {% data variables.android-values.voice_announces %}  |  |  Android/iOS   |
+|   | {% data variables.android-values.vehicle_parameters %}   | |  Android/iOS |
+| {% data variables.android-values.help_other_header %}| {% data variables.android-values.map_during_navigation_info %}  |  |   Android/iOS |
+|  |  {% data variables.android-values.animate_my_location %}   |  |  Android   |
+
+### default navigation types
+
+|   Navigation type |  Description |
+| :------------- | :------------- |
+| {% data variables.android-values.rendering_value_bicycle_name %} |  |
+|{% data variables.android-values.app_mode_boat  %}   |    |  
+|{% data variables.android-values.rendering_value_car_name %}   |   |   
+| {% data variables.android-values.routing_profile_direct_to  %}  |    |  
+|{% data variables.android-values.rendering_value_pedestrian_name  %}   |   |  
+| {% data variables.android-values.app_mode_public_transport  %}  |   |   
+|  {% data variables.android-values.routing_profile_ski  %}  |    |   
+|  {% data variables.android-values.routing_profile_straightline %}  |  |   
