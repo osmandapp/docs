@@ -67,13 +67,13 @@ Users can create new navigation profiles based on default app profiles. It defin
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %}→ {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.new_profile %} → choose the profile from the list → {% data variables.ios-values.enter_profile_name %} → select {% data variables.ios-values.profile_appearance%} → {% data variables.ios-values.select_icon %} → {% data variables.ios-values.appearance_on_map %} → select {% data variables.ios-values.position_icon_at_rest %} → select {% data variables.ios-values.position_icon_while_moving %} → press {% data variables.ios-values.shared_string_save%} at the top right corner.
 
-## General settings 
+## General settings
 
 |  | settings  |configurations | OS |
 | :------------- | :------------- | :------------- | :------------- |
 | {% data variables.android-values.shared_string_appearance %} | {% data variables.android-values.choose_osmand_theme %} | {% data variables.android-values.dark_theme %}/{% data variables.android-values.light_theme %} | Android  |
 |   | {% data variables.android-values.rotate_map_to_bearing %}  |  {% data variables.android-values.rotate_map_none_opt %}/ {% data variables.android-values.rotate_map_bearing_opt %}/ {% data variables.android-values.rotate_map_compass_opt %} |  Android/iOS  |
-|   |  {% data variables.android-values.always_center_position_on_map %}  | turn on and off and {% data variables.android-values.apply_to_all_profiles %}/ Apply only to selected profile/ {% data variables.android-values.discard_changes %}  | Android/iOS   |
+|   |  {% data variables.android-values.always_center_position_on_map %}  | turn on/off and {% data variables.android-values.apply_to_all_profiles %}/ Apply only to selected profile/ {% data variables.android-values.discard_changes %}  | Android/iOS   |
 |   |  {% data variables.android-values.map_screen_orientation %}  | {% data variables.android-values.map_orientation_portrait %}/ {% data variables.android-values.map_orientation_landscape %}/ {% data variables.android-values.map_orientation_default %}  |  Android |
 |   | {% data variables.android-values.screen_control %}   | {% data variables.android-values.screen_timeout %}/ {% data variables.android-values.turn_screen_on %}  |  Android |
 |   |   {% data variables.ios-values.allow_3D_view %} | turn on or off  |  iOS |
@@ -82,10 +82,10 @@ Users can create new navigation profiles based on default app profiles. It defin
 |   |   {% data variables.android-values.angular_measeurement %} | {% data variables.android-values.shared_string_degrees %} 180/ {% data variables.android-values.shared_string_degrees %} 360/ {% data variables.android-values.shared_string_milliradians %}    |Android/iOS   |
 |   |   {% data variables.android-values.default_speed_system %} |  [list of unit speed ](#list-of-unit-speed ) |Android/iOS     |
 | {% data variables.android-values.shared_string_other%}  |  {% data variables.android-values.use_volume_buttons_as_zoom %}  |  turn on or off ability to control the map zoom level using the volume buttons on the device  | Android  |
-|   |   {% data variables.android-values.use_kalman_filter_compass%}  | turn on or off ability to reduce noise in compass reading  (adds inertia)  | Android  |
+|   |   {% data variables.android-values.use_kalman_filter_compass%}  | turn on/off an ability to reduce noise in compass reading  (adds inertia)  | Android  |
 |   |   {% data variables.android-values.use_magnetic_sensor %}   |  turn on or off (highly recommended to use it for compass reading) | Android  |
 |   |  {% data variables.android-values.tap_on_map_to_hide_interface %}   |  turn on (a tap on the toggles the control buttons and widgets) or off  |  Android |
-|   |  {% data variables.android-values.do_not_use_animations %}  |  turn on and off and {% data variables.android-values.apply_to_all_profiles %}/ Apply only to selected profile/ {% data variables.android-values.discard_changes %}   |  Android |
+|   |  {% data variables.android-values.do_not_use_animations %}  |  turn on/off and {% data variables.android-values.apply_to_all_profiles %}/ Apply only to selected profile/ {% data variables.android-values.discard_changes %}   |  Android |
 |   | {% data variables.android-values.do_not_use_animations %}  | {% data variables.android-values.sett_generic_ext_input %}/ {% data variables.android-values.sett_wunderlinq_ext_input %}/ {% data variables.android-values.sett_parrot_ext_input %}   | Android/iOS   |
 
 
