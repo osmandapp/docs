@@ -1,6 +1,6 @@
 ---
 title: Purchases
-intro: "OsmAnd app is available for Android and iOS systems. There are a great variety of features that OsmAnd offers. Most of them are available in a free version of the application. The paid OsmAnd services provide extended functionality."
+intro: "OsmAnd app is available for Android and iOS systems. There is a great variety of features that OsmAnd offers. Most of them are available in a free version of the application. The paid OsmAnd services provide extended functionality."
 versions: "*"
 ---
 
@@ -19,9 +19,8 @@ For Android devices you can download the free version and buy the full version i
 | :------------- | :------------- | :------------- | :------------- |
 | App OsmAnd Free | ✔ | ✔ | ✔ |
 | App OsmAnd+  | ✔ | ✔ | - |
-| In-app OsmAnd maps | ✔ | ✔ | ✔ |
-| Subscription OsmAnd Basic | ✔ | - | ✔ |
-| Subscription OsmAnd Premium | ✔ | - | ✔ |
+| In-app OsmAnd unlimited | ✔ | ✔ | ✔ |
+| Subscription OsmAnd live | ✔ | - | ✔ |
 
 ### What difference between purchases?
 
@@ -35,38 +34,46 @@ OsmAnd+ and OsmAnd Unlimited have the same functionality.
 
 **OsmAnd live** is a subscription, available for OsmAnd applications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023) and [Huawei AppStore](https://appgallery.huawei.com/#/app/C101486545).
 
+### Prices
+
+In the list, there is information about prices of OsmAnd product for the Europe region. For other regions, prices are equivalent to local currencies.
+
+|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live for OsmAnd Free | OsmAnd live for OsmAnd+ |
+| :------------- | :------------- | :------------- | :------------- |  :------------- | 
+| **Purchase** | - | **One-Time**, use forever | **Subscription** for 1 month / 3 months / 1 year | **Subscription** for 1 month / 3 months / 1 year |
+| **Price** | 0€ | 19.99€  |  1.99€ / 3.99€ / 7.99€  |  1.49€ / 2.99€ / 5.99€ |
+
 ### Free and Paid features
 
 OsmAnd application has many features and tools. Of course, most of them are free. 
 
 The table shows all the features that are included in the paid and free packages of OsmAnd and its price.
 
-|    | OsmAnd Free   | OsmAnd+ (OsmAnd Maps) | OsmAnd Basic Subscription | OsmAnd Premium Subscription |
-| :------------- | :------------- | :------------- | :------------- | :------------- |
-| **Purchase** | - | One-time, use forever | Subscription for 1 year | Subscription for 1 month / 1 year |
-| **Price** | 0€ | 29.99€  | 14.99€ | 2.99€ / 29.99€|
-| Ad-free access | ✔ | ✔ | ✔ | ✔ |
-| Early access to new features | - | - | - | ✔ |
-| Offline vector maps |  7 maps | ∞ | ∞ | ✔ |
-| Maps update |  Map updates one time at a month (at first dates of a month) | Map updates one time at a month (at first dates of a month) | Frequent map updates (up to once an hour) | ✔ |
-| Topo data (Contour lines and terrain) | - | ✔ | ✔ | ✔ |
-| Nautical depths | - | ✔ | ✔ | ✔ |
-| Travel guides (Wikipedia and Wikivoyage | - | ✔ | ✔ | ✔ |
-| Offline and online navigation with turn-by-turn directions | ✔ | ✔ | ✔ | ✔ |
-| Offline instant search | ✔ | ✔ | ✔ | ✔ |
-| Trip recording | ✔ | ✔ | ✔ | ✔ |
-| Export GPX tracks | ✔ | ✔ | ✔ | ✔ |
-| Import GPX/KML tracks | ✔ | ✔ | ✔ | ✔ |
-| "Plan a route" tool | ✔ | ✔ | ✔ | ✔ |
-| "Map markers" tool | ✔ | ✔ | ✔ | ✔ |
-| Online map sources | ✔ | ✔ | ✔ | ✔ |
-| SQLitedb/mbtiles Map support | ✔ | ✔ | ✔ | ✔ |
-| Favorite points (Bookmarks, waypoints) | ✔ | ✔ | ✔ | ✔ |
-| Audio/pic/video points | ✔ | ✔ | ✔ | ✔ |
-| OsmAnd Tracker | ✔ | ✔ | ✔ | ✔ |
-| Export/import app profile | ✔ | ✔ | ✔ | ✔ |
+|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live Subscription |
+| :------------- | :------------- | :------------- | :------------- | 
+| Ad-free access | ✔ | ✔ | ✔ |
+| Offline vector maps |  7 maps | ∞ | ∞ |
+| Maps update |  Map updates one time at a month (at first dates of a month) | Map updates one time at a month (at first dates of a month) | Frequent   map updates (up to once an hour) |
+| Topo data (Contour lines and Terrain) | - | ✔ | ✔ |
+| Nautical depths | - | ✔ | ✔ |
+| Travel guides (Wikipedia and Wikivoyage | - | ✔ | ✔ |
+| Offline and online navigation with turn-by-turn directions | ✔ | ✔ | ✔ |
+| Offline instant search | ✔ | ✔ | ✔ |
+| Trip recording | ✔ | ✔ | ✔ |
+| Export GPX tracks | ✔ | ✔ | ✔ |
+| Import GPX/KML tracks | ✔ | ✔ | ✔ |
+| "Plan a route" tool | ✔ | ✔ | ✔ |
+| "Map markers" tool | ✔ | ✔ | ✔ |
+| Online map sources | ✔ | ✔ | ✔ | 
+| SQLitedb/mbtiles Map support | ✔ | ✔ | ✔ |
+| Favorite points (Bookmarks, waypoints) | ✔ | ✔ | ✔ |
+| Audio/pic/video points | ✔ | ✔ | ✔ |
+| OsmAnd Tracker | ✔ | ✔ | ✔ |
+| Export/import app profile | ✔ | ✔ | ✔ |
 
-> **_Note:_** Updating a map consists in downloading it again.
+{% note %}
+Updating a map consists in downloading it again.
+{% endnote %}
 
 ### Restore purchases
 
@@ -80,115 +87,109 @@ To restore a purchase from **Amazon**, navigate through the app as though you we
 
 User can download {% data reusables.links.osmand-maps-app-store %}.
 
-### OsmAnd packages?
+### Prices
+
+In-app purchases in OsmAnd application:
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.purchases %}
+
+In lists, there is information about prices of OsmAnd product for the Europe region. For other regions, prices are equivalent to local currencies.
 
 |    | Description   | Price |
 | :------------- | :------------- | :------------- |
-| All World maps | Download and update maps of the region | 19.99€  |
-| Asia | Download and update maps of the region  | 19.99€  |
-| Europe | Download and update maps of the region  | 19.99€  |
-| Africa | Download and update maps of the region  | 19.99€  |
-| North America | Download and update maps of the region  | 19.99€  |
-| Central America | Download and update maps of the region  | 19.99€  |
-| South America | Download and update maps of the region  | 19.99€  |
-| Contour lines | Download and update maps of the region  | 19.99€  |
-| Wikipedia | Download and update maps of the region  | 19.99€  |
-| Wikipedia | Download and update maps of the region  | 19.99€  |
+| {% data variables.ios-values.product_title_sea_depth_contours %} | {% data variables.ios-values.product_desc_sea_depth_contours %} | 2.29€  |
+| {% data variables.ios-values.product_title_wiki %} | Get information about points of interest from Wikipedia. | 0€  |
+| {% data variables.ios-values.product_title_srtm %} | This plugin provides contour lines, hillshade and slopes, which can be displayed in OsmAnd offline maps. Contour lines provide the information about heights of the area while hillshade and slopes are their visualization. See the names of mountain peaks and specific features of terrain using this plugin. | 5.49€  |
+| {% data variables.ios-values.product_title_allworld %} | {% data variables.ios-values.product_desc_allworld %} | 12.99€  |
+| {% data variables.ios-values.product_title_russia %} | {% data variables.ios-values.product_desc_russia %} | 5.49€  |
+| {% data variables.ios-values.product_title_africa %} | {% data variables.ios-values.product_desc_africa %} | 5.49€  |
+| {% data variables.ios-values.product_title_asia %} | {% data variables.ios-values.product_desc_asia %} | 5.49€  |
+| {% data variables.ios-values.product_title_australia %} | {% data variables.ios-values.product_desc_australia %} | 5.49€  |
+| {% data variables.ios-values.product_title_europe %} | {% data variables.ios-values.product_desc_europe %} | 6.99€  |
+| {% data variables.ios-values.product_title_centralamerica %} | {% data variables.ios-values.product_desc_centralamerica %} | 5.49€  |
+| {% data variables.ios-values.product_title_northamerica %} | {% data variables.ios-values.product_desc_northamerica %} | 6.99€  |
+| {% data variables.ios-values.product_title_southamerica %} | {% data variables.ios-values.product_desc_southamerica %} | 5.49€  |
+
+Subscription purchases in OsmAnd application:
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.maps %} → {% data variables.ios-values.osmand_live_title %}
+
+|  Period  | Description | Price |
+| :------------- | :------------- | :------------- |
+| 1 month | Get unlimited hourly map updates and all features included from 1 month. | 1.99€ |
+| 3 months| Get unlimited hourly map updates and all features included from 3 months. | 3.99€ |
+| 1 year | Get unlimited hourly map updates and all features included from 1 year. | 7.99€  |
 
 ### Free and Paid features
 
-|    | OsmAnd Free   | OsmAnd map package | OsmAnd Lite Subscription | OsmAnd Premium Subscription |
-| :------------- | :------------- | :------------- | :------------- | :------------- |
-| **Purchase** | - | One-time, use forever | Subscription for 1 month / 3 months / 1 year | Subscription for 1 month / 1 year |
-| **Price** | 0€ | 19.99€ | 1.99€ / 3.99€ / 7.99€ | 2.99€ / 29.99€ |
-| Ad-free access | ✔ | ✔ | ✔ | ✔ |
-| Early access to new features | - | - | - | ✔ |
-| Offline vector maps |  7 maps | ∞ | ∞ | ✔ |
-| Maps update |  Map updates one time at a month (at first dates of a month) | Map updates one time at a month (at first dates of a month) | Frequent   map updates (up to once an hour) | ✔ |
-| Topo data (Contour lines and Terrain) | - | ✔ | ✔ | ✔ |
-| Nautical depths | - | ✔ | ✔ | ✔ |
-| Travel guides (Wikipedia and Wikivoyage | - | ✔ | ✔ | ✔ |
-| Offline and online navigation with turn-by-turn directions | ✔ | ✔ | ✔ | ✔ |
-| Offline instant search | ✔ | ✔ | ✔ | ✔ |
-| Trip recording | ✔ | ✔ | ✔ | ✔ |
-| Export GPX tracks | ✔ | ✔ | ✔ | ✔ |
-| Import GPX/KML tracks | ✔ | ✔ | ✔ | ✔ |
-| "Plan a route" tool | ✔ | ✔ | ✔ | ✔ |
-| "Map markers" tool | ✔ | ✔ | ✔ | ✔ |
-| Online map sources | ✔ | ✔ | ✔ | ✔ |
-| SQLitedb/mbtiles Map support | ✔ | ✔ | ✔ | ✔ |
-| Favorite points (Bookmarks, waypoints) | ✔ | ✔ | ✔ | ✔ |
-| Audio/pic/video points | ✔ | ✔ | ✔ | ✔ |
-| OsmAnd Tracker | ✔ | ✔ | ✔ | ✔ |
-| Export/import app profile | ✔ | ✔ | ✔ | ✔ |
+|    | OsmAnd Free   | OsmAnd map package | OsmAnd live subscription |
+| :------------- | :------------- | :------------- | :------------- |
+| Ad-free access | ✔ | ✔ | ✔ |
+| Offline vector maps |  5 maps | ∞ | ∞ |
+| Maps update |  Map updates one time at a month (at first dates of a month) |  ⁂ - Map updates one time at a month (at first dates of a month) | Frequent map updates (up to once an hour) |
+| Topo data (Contour lines and Terrain) | - | ⁂ | ✔ |
+| Nautical depths | - | ⁂ | ✔ |
+| Travel guides (Wikipedia) | - | ⁂ | ✔ |
+| Offline and online navigation with turn-by-turn directions | ✔ | ✔ | ✔ |
+| Offline instant search | ✔ | ✔ | ✔ |
+| Trip recording | ✔ | ✔ | ✔ |
+| Export GPX tracks | ✔ | ✔ | ✔ |
+| Import GPX/KML tracks | ✔ | ✔ | ✔ |
+| "Plan a route" tool | ✔ | ✔ | ✔ |
+| "Map markers" tool | ✔ | ✔ | ✔ |
+| Online map sources | ✔ | ✔ | ✔ |
+| SQLitedb/mbtiles Map support | ✔ | ✔ | ✔ |
+| Favorite points (Bookmarks, waypoints) | ✔ | ✔ | ✔ |
+| Audio/pic/video points | ✔ | ✔ | ✔ |
+| OsmAnd Tracker | ✔ | ✔ | ✔ |
+| Export/import app profile | ✔ | ✔ | ✔ |
 
-> **_Note:_** Updating a map consists in downloading it again.
-> **_Note:_** Use the same Apple ID to restore your purchases.
+⁂ - needed [purchase](/osmand/purchases#prices-1).
 
-<!-- > **_Note:_** User can control all purchases and subscription from Apple account. b <br> -->
+{% note %}
+Updating a map consists in downloading it again.
+{% endnote %}
+
+### Restore purchases
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.purchases %} → {% data variables.ios-values.restore_all_purchases %}
+
+Use the same Apple ID to restore your purchases.
+
 {% note %}
 User can control all purchases and subscription from Apple account.
 {% endnote %}
 
-There are 8 options to extend OsmAnd functions.
-To find them please use: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %}  
+## OsmAnd Live Subscription
 
+The OsmAnd Live subscription for (Android/iOS) has three periods: monthly, quarterly, yearly. This feature allows you to get unlimited download of all maps and get all the plug-ins for the subscription period. You also get the opportunity to frequently updated maps (hourly instead of monthly updates).
 
-|Options to extend OsmAnd functions:|   
-|------------|
-|*Get Unlimited access*: One-time payment that allows to get maps from 'All World' package. It means that user will have unlimited maps downloads and will get map updates every month.  |
-|![ IOS Unlimited access purchases](/assets/images/purchases/ios_unlim_access_purchase.png)|
-|*Subscribe to mail list*: Will give user an opportunity to get 3 EXTRA maps to download. The Subscriber will get information about the latest news and discounts. |
-|![ IOS Subscribtion to mail list](/assets/images/purchases/ios_subscribe_purchase.png)|
-|*Participate in Giveaways*: User will have an opportunity to participate in promo code [giveaways](https://osmand.net/giveaway). |
-|![ IOS Giveaways](/assets/images/purchases/ios_giveaway_purchase.png)|
-|*Get OsmAnd Live*: There are three variants: month, 3 months and yearly subscription. User will have an opportunity to get hourly maps updates, unlimited maps downloads, offline Wikipedia articles, Contour lines & Hillshade maps. |
-|![ IOS OsmAnd Live](/assets/images/purchases/ios_live_purchase.png)|
-|*Buy Nautical map*: They are available in the tab Plugins in the same menu. The Nautical Charts is a detailed graphical view of oceans, seas, coastal areas and rivers. The charts can contain various information like sailing routes, navigation lights, dangerous areas, areas where is not allowed to sailor dock, etc.  |
-|![ IOS Nautical map](/assets/images/purchases/ios_nautical_map.png)|
-|*Buy Wikipedia map*: They are available in the tab Plugins in the same menu. The Wikipedia maps are used to get information about points of interest (POI) or objects around from Wikipedia articles.   |
-|![ IOS Wikipedia map](/assets/images/purchases/ios_wikipedia_map.png)|
-|*Buy Contour lines*: They are available in the tab Plugins in the same menu. The Contour lines provide the information about heights of the area while hillshade is their visualization. User will be able to see names of mountain peaks and specific features of terrain. |
-|![ IOS Contour lines](/assets/images/purchases/ios_contour_lines.png)|
-|*Buy the map package*: They are available in the tab Purchases in the same menu. There are nine map packages: All World Maps, Russia, Africa, Asia, Australia, Europe, Central America, North America, South America. |
-|![ IOS map package](/assets/images/purchases/ios_map_package.png)|
-
-> **_Note:_** It is highly recommended to download nautical basemap to see the maps regardless of detailed map presence. To turn on Nautical charts, tap the map button and set map type to Nautical. <br>
-
-> **_Note:_** Wikipedia map should be charged by 0 dollar/euro price! <br>
-
-## Subscription
-The OsmAnd Live subscription for (Android/iOS) has three periods: monthly, three months, yearly. This feature allows you to get unlimited download of all maps and get all the plug-ins for the subscription period. You also get the opportunity to frequently updated maps (hourly instead of monthly updates).
-
-- iOS
-To get this feature, go to the {% data reusables.purchases.get-osmand-live-ios %}. You can stop the subscription at any time using the settings in your iTunes account.
-- Android
-*Explain how to start / stop / resume* subscription
-
-Also, everyone who gets OsmAnd Live automatically supports the volunteers who edit the map as the money supporters provide get distributed between those who edit the map. Read more about OsmAnd Live [here](https://www.osmand.net/osm_live) or learn how it works in detail [here](http://osmand.net/blog?id=osm-live).
+Also, everyone who gets OsmAnd Live automatically supports the volunteers who edit the map as the money supporters provide get distributed between those who edit the map. Read more about OsmAnd Live [here](http://osmbtc.org/).
 
 ## Giveaway
-Information about giveaway.
 
-## Giftcards
-User can purchase OsmAnd using Google Play and App store gift cards. Using this method does not imply sharing a credit card information to the service. Just purchase a gift card from a retailer on the list and redeem the code on Google Play and App store.
+We know that not everyone is able to purchase OsmAnd on Google Play/App Store due to various reasons, but many of you would still like to support the application by using it and spreading it around the world. We are proud of our community, so we have decided to give away OsmAnd licenses for free as a reward for your support. The number of promocodes we can provide is limited, so we will choose the winners based on the results of a small game that we have organized to make the whole process more entertaining.
+
+Read more about OsmAnd Giveaway [here](https://osmand.net/giveaway).
+
+Join to OsmAnd Giveaway [here](https://osmand.net/#osmand_giveaway).
+
+## Gift cards
+
+User can purchase OsmAnd using Google Play and App Store gift cards. Using this method does not imply sharing a credit card information to the service. Just purchase a gift card from a retailer on the list and redeem the code one Google Play and App store.
 - [Detailed guide on buying Google Play gift cards.](https://support.google.com/googleplay/answer/3422734)
 - [Detailed guide on buying App store gift cards.](https://www.apple.com/shop/gift-cards)
 - You can also use [Amazon gift cards](https://www.amazon.com/gift-cards/b?ie=UTF8&node=2238192011). [Here's how to redeem them.](https://www.amazon.com/gp/help/customer/display.html?nodeId=201357470)
 
 
 ## Common questions
-### New device / new account
-```
-- I uninstalled the app/I'm using a new device. Do I have to buy OsmAnd again?
-- No.
-```
-* Android. Just enter Google Play using the same account you used to buy OsmAnd, then find OsmAnd through Search and install it again. Make sure you install OsmAnd+ if you have bought it or install OsmAnd if you have bought in app.
-* iOS. All you have to do is enter the App store and install OsmAnd again. You can use it on as many devices as you want without the need to buy the app again. You may see the "Buy" button, but you won't have to pay: just press it to download the app without paying again.
 
+### New device / new account
+* Android. Just enter Google Play using the same account you used to buy OsmAnd, then find OsmAnd through Search and install it again. Make sure you install OsmAnd+ if you have bought it or install OsmAnd if you have bought in app.
+* iOS.  All you have to do is enter the App Store and install OsmAnd again. You can use it on as many devices as you want without the need to buy the app again. You may see the "Buy" button, but you won't have to pay: just press it to download the app without paying again.
 
 ## Get OsmAnd
-There are several possibilities to do that:
+There are several ways to do that:
  - {% data reusables.links.osmand-plus-google-play %}
  - {% data reusables.links.osmand-plus-amazon %}
  - {% data reusables.links.osmand-maps-app-store %}
