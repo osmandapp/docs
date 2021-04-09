@@ -4,7 +4,9 @@ intro: "Plan future routes and trips"
 versions: '*'
 ---
 
-The 'Plan route' tool allows you to measure distances on the map, create GPX tracks or add new segments to your own ones, to snap your track to the nearest available road with one of your navigation profiles.
+The 'Plan route' tool is a powerful feature of OsmAnd allows you to measure distances on the map, create GPX tracks or add new segments to your own ones, to snap your track to the nearest available road with one of your navigation profiles. Of course, it works offline.
+
+![Plan route](/assets/images/planroute/plan_route.png)
 
 ## Where find 'Plan route'
 
