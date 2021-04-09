@@ -11,18 +11,25 @@ The 'Plan route' tool is a powerful feature of OsmAnd allows you to measure dist
 | **Android**| **iOS** |
 | ![Plan route android](/assets/images/plan-route/plan-route-android.png) | ![Plan route ios](/assets/images/plan-route/plan-route-ios.png) |
 
-## Where find 'Plan route'
+## Where to find 'Plan route'
 
-'Plan route' tool in app menu:
+'Plan route' tool in the app menu:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plan_a_route %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plan_route %}
 
+## How to use 'Plan route'
+
+### Straight line
+
+### Create new GPX track
+
+### Modify existing GPX track
 
 
 
-
+## Useful links
 
 {% link_with_intro /create-route %}
 {% link_with_intro /travel-guides %}
