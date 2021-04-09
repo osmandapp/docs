@@ -9,6 +9,8 @@ Examples when address was find in another city: [1](https://github.com/osmandapp
 
 These issues are related to the algorithm of connecting cities to its boundaries in OpenStreetMap. It can be seen if you search for STREET or STREET + HOUSE without a city name, then a full-text search will find a house from another city.
 
+Also, has issues with search POI address. When POI address tag has (or hasn't) diacritic symbols ([example](https://github.com/osmandapp/OsmAnd/issues/10036): Rue André Chenier must be Rue André Chénier). The POI address tag value must match the spelling of the street name exactly.
+
 How to OsmAnd is finding a boundary (relation) to a specific city:
 - Boundary Relation should have following tags **boundary** (*administrative*, *postal_code*) and **place**.
   - Boundary should have a relation member **label**, **admin_centre** or **admin_center** pointing to a place-node.
