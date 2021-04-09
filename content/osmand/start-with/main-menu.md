@@ -1,8 +1,12 @@
 ---
 title: "Main menu"
-intro: "Introduction of Main menus like Drawer and Concepts ( Android only)."
+intro: "TODO: Introduction of Main menus like Drawer and Concepts"
 versions: '*'
 ---
+TODO
+- explain each item in the drawer with links if they are not present
+- explain how to configure items list in the drawer
+
 
 {% data variables.android-values.ui_customization %}  menu helps to customize the quantity of items in "Drawer", "Configure map" and "Contex Menu".
 
