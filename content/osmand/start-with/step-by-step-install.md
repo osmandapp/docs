@@ -21,5 +21,5 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 In case you need to reinstall the app, please make sure you have back up all your [Personal Data](/osmand/import-export) data such as Tracks and Favorites.
 
-### Nightly builds
-TODO.
+### Map & Directions
+TODO: Give location permissions / start first navigation / select voice navigation.
