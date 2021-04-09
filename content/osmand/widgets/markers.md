@@ -9,7 +9,7 @@ versions: '*'
 
 ![Map markers on the Top bar widget](/assets/images/widgets/map_markers_top_bar_widget.png)
 
-On the top bar widget you could see the distance and the direction to the marker from current location. It is possible to configure to see 1 or 2 top markers from the markers list in the widget.
+On the top bar widget you could see the distance and the direction to the marker from current location. It is possible to configure to see 1 or 2 top markers in the widget.
 
 | | |
 |------------|------------|

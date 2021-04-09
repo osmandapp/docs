@@ -4,25 +4,22 @@ intro: ""
 versions: '*'
 ---
 
+### Market Installations 
+OsmAnd is a mobile application available for **Android** and **iOS**. You can download it on most popular Application Stores.
 
-There is an opportunity to download OsmAnd for **Android** and **iOS**.
+**Android markets**: [Google play store](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_3?dchild=1&keywords=osmand&qid=1616685559&sr=8-3). More information about OsmAnd versions and paid services is available at [Purchases info](/osmand/purchases).  
 
-For **Android** there is an option to download from [Google play store](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_3?dchild=1&keywords=osmand&qid=1616685559&sr=8-3).
+**iOS**: [App store](https://apps.apple.com/us/app/osmand-maps-travel-navigate/id934850257).
 
-For **iOS** there is an option to download from [App store](https://apps.apple.com/us/app/osmand-maps-travel-navigate/id934850257).
+### Welcome to OsmAnd!
 
-For more information about OsmAnd versions and paid services with extended functionality see the [Purchases info](/osmand/purchases).
-
-After installation open OsmAnd and press '{% data variables.android-values.get_started %}'.
-
-**Welcome in OsmAnd!**
-
-It is important to download the maps. User can do it immediately or press the '{% data variables.android-values.shared_string_skip %}' button in the top right corner to download maps later.
+OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to download map of your region. If you skip maps download (via '{% data variables.android-values.shared_string_skip %}'), the application won't function correctly. So you will need to download maps later via Android / iOS -> Menu -> Maps download (TODO). OsmAnd might not detect your region to download correctly, so you can choose from the list.
 
 ![Download map info](/assets/images/settings/download_map_info.png)
 
-If the user gives OsmAnd permission to determine the location it will suggest maps to download for the current region. User can select another region if it is necessary.
+**Android storage**. On Android devices your might want to change where the maps stored, on shared storage, sdcard, etc. You can read more about it on [Storage](/osmand/start-with/storage).
 
-> **Note (for Android)**: It will be an announcement about data storage at the bottom of the screen. By default, OsmAnd uses  External storage, but the user can change it anytime. {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.osmand_settings %} → {% data variables.android-values.application_dir %} → {% data variables.android-values.change_data_storage_folder %}. For more information, click [Storage](/osmand/start-with/storage).
+In case you need to reinstall the app, please make sure you have back up all your [Personal Data](/osmand/import-export) data such as Tracks and Favorites.
 
-If you want to reinstall the app, please make sure you have back up all your data such as Tracks and Favorites.
+### Nightly builds
+TODO.
