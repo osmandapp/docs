@@ -7,7 +7,7 @@ versions: '*'
 
 ## Top bar widget (markers)  
 ![Map markers on the Top bar widget](/assets/images/widgets/map_markers_top_bar_widget.png)
-On the top bar widget you could see the distance and the direction to the marker from current location. It is possible to configure to see 1 or 2 markers in the widget.
+On the top bar widget you could see the distance and the direction to the marker from current location. It is possible to configure to see 1 or 2 top markers from the markers list in the widget.
 
 | | |
 |------------|------------|
@@ -41,9 +41,9 @@ All Markers appearance settings and widget settings are configurable via same me
 
 |    | Description    | State | 
 | :------------- | :------------- | :------------- |
-| {% data variables.android-values.active_markers %} | Specifies number of direction indicators| 1 or 2 | 
-|  {% data variables.android-values.show_direction %}  | Gives an option to activate and choose the way of displaying the distance to active markers | {% data variables.android-values.shared_string_topbar %} / {% data variables.android-values.shared_string_widgets %} | 
-|  {% data variables.android-values.show_arrows_on_the_map %} |  Gives an option to activate and show one or two arrows that indicate the direction to the active markers | -  | 
-|  {% data variables.android-values.show_guide_line%} | Gives an option to activate and show direction line from users position  to the active markers  | -  | 
-| {% data variables.android-values.one_tap_active %}  (**Android**)|  Gives an option to activate function to move marker to the top other active markers by tapping a marker. Without opening the context menu |  - | 
-| {% data variables.android-values.keep_passed_markers %}  (**Android**) | Gives an option to activate a function that will remain on the map a group of Favorites or FPS waypoints marked as 'Passed'. If the group is not active, the markers will disappear from the map.  | -  |
+| {% data variables.android-values.active_markers %} | Specifies a number of direction indicators| 1 or 2 | 
+|  {% data variables.android-values.show_direction %} | Specifies how direction indicators should be displayed | {% data variables.android-values.shared_string_topbar %} / {% data variables.android-values.shared_string_widgets %} | 
+|  {% data variables.android-values.show_arrows_on_the_map %} |  Displays arrows on the map to the top markers in case they are not part of the visible map | - |
+|  {% data variables.android-values.show_guide_line%} | Shows direction line from user location to the top markers  | - |
+| {% data variables.android-values.one_tap_active %}  (**Android**) |  Displays / switches marker in the widget by tapping on a marker on the map. |  - | 
+| {% data variables.android-values.keep_passed_markers %}  (**Android**) | Keep or hide inactive markers on the map, if a marker is part of the visible group of Favorites or GPX waypoints. | -  |
