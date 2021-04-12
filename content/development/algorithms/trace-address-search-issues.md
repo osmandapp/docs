@@ -5,7 +5,7 @@ versions: '*'
 
 ## Issue: street or house is found in another city 
 
-Examples when address was find in another city: [1](https://github.com/osmandapp/OsmAnd/issues/10679), [2](https://github.com/osmandapp/OsmAnd/issues/10677), [3](https://github.com/osmandapp/OsmAnd/issues/10699), [4](https://github.com/osmandapp/OsmAnd/issues/10921).
+Examples when address was find in another city: [10679](https://github.com/osmandapp/OsmAnd/issues/10679), [10677](https://github.com/osmandapp/OsmAnd/issues/10677), [10699](https://github.com/osmandapp/OsmAnd/issues/10699), [10921](https://github.com/osmandapp/OsmAnd/issues/10921).
 
 These issues are related to the algorithm of connecting cities to its boundaries in OpenStreetMap. It can be seen if you search for STREET or STREET + HOUSE without a city name, then a full-text search will find a house from another city.
 
@@ -16,6 +16,10 @@ How to OsmAnd is finding a boundary (relation) to a specific city:
   - Otherwise boundary relation is not used as a city boundary
 - Among boundaries the biggest is selected 
 - Ways of relation are the boundaries. Inner / outer ways are supported.
+
+### Exact name matching
+For OsmAnd Maps processing is important that street name exactly matches with or without diacritic symbols, with or without prefixes ([10036](https://github.com/osmandapp/OsmAnd/issues/10036): Rue André Chenier must be Rue André Chénier). The mismatch could lead that house will be 
+associated to another street or there will be street duplications in the city.
 
 ### Possible causes
 
@@ -42,3 +46,5 @@ Using Nominatim: You found - Wolności 223 Zabrze
 - Open nominatim and write Maciejów in search. Select a search result with administrative
 - You will see 20 (suburb / hamlet) in the Address Rank line.
 Be careful when choosing a locality in the search results. There may be duplicates or similar cities in other regions and countries.
+
+
