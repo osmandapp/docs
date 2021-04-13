@@ -141,7 +141,7 @@ In Navigation settings user can configure navigation parameters for profile.
 |  | settings  |configurations | OS |
 | :------------- | :------------- | :------------- | :------------- |
 | Navigation | {% data variables.android-values.nav_type_hint %}| defines how the routes will be calculated. Choose [default navigation types](default-navigation-types) or import a modified routing file [routing.xml ](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)(only for Android). | Android/iOS   |
-|   | {% data variables.android-values.route_parameters %}  |  [configure route parameters](configure-route-parameters) |  Android/iOS  |
+|   | {% data variables.android-values.route_parameters %}  |  gives a set of settings to [configure routing for selected profile](configure-routing-for-selected-profile )  |  Android/iOS  |
 |   |  {% data variables.android-values.screen_alerts %}  |   | Android/iOS   |
 |   |  {% data variables.android-values.voice_announces %}  |  |  Android/iOS   |
 |   | {% data variables.android-values.vehicle_parameters %}   | |  Android/iOS |
@@ -161,7 +161,7 @@ In Navigation settings user can configure navigation parameters for profile.
 |  {% data variables.android-values.routing_profile_ski  %}  |  Prefers hills, slopes, ski trails  |   
 |  {% data variables.android-values.routing_profile_straightline %}  |  Draws the straight line between start and finish points and redraw the strait line when users position changes. In case user deviate from the route during the navigation, this setting builds the shortest path from your current position to the calculated route with the maximum angle. |   
 
-### configure route parameters
+<!-- ### configure route parameters
 
 |  general| settings  |configurations | OS |
 | :------------- | :------------- | :------------- | :------------- |
@@ -172,3 +172,38 @@ In Navigation settings user can configure navigation parameters for profile.
 |   | {% data variables.android-values.vehicle_parameters %}   | |  Android/iOS |
 | {% data variables.android-values.help_other_header %}| {% data variables.android-values.map_during_navigation_info %}  |  |   Android/iOS |
 |  |  {% data variables.android-values.animate_my_location %}   |  |  Android   |
+-->
+
+### configure routing for selected profile
+<!--
+|  | Car  |Bicycle | On foot |
+| :------------- | :------------- | :------------- | :------------- |
+| Avoid roads (and road types)| turn on/off ({% data variables.android-values.routing_attr_avoid_toll_name %}/ {% data variables.android-values.routing_attr_avoid_unpaved_name %}/ {% data variables.android-values.routing_attr_avoid_ferries_name %}/ {% data variables.android-values.routing_attr_avoid_shuttle_train_name %}/ {% data variables.android-values.routing_attr_avoid_motorway_name%}/ {% data variables.android-values.routing_attr_avoid_borders_name %}/ {% data variables.android-values.routing_attr_avoid_ice_roads_fords_name %} ) | turn on/off ({% data variables.android-values.routing_attr_avoid_unpaved_name%}/ {% data variables.android-values.routing_attr_avoid_unpaved_name%}|  |
+
+-->
+| Route parameters | Car  |Bicycle | On foot |
+| :------------- | :------------- | :------------- | :------------- |
+| **Avoid roads (and road types)**|**turn on/off**|
+|  {% data variables.android-values.routing_attr_avoid_toll_name %} |  ✔  | -  | -  |   
+|{% data variables.android-values.routing_attr_avoid_unpaved_name %}   | ✔  |✔   | ✔  |  
+| {% data variables.android-values.routing_attr_avoid_ferries_name %}  | ✔  | ✔  | ✔  |   
+|{% data variables.android-values.routing_attr_avoid_shuttle_train_name %} |  ✔ |  - | -  |   
+|{% data variables.android-values.routing_attr_avoid_motorway_name%}   | ✔ | -  |  ✔ |  
+| {% data variables.android-values.routing_attr_avoid_borders_name %} |  ✔  |  ✔  |  - |  
+| {% data variables.android-values.routing_attr_avoid_ice_roads_fords_name %}  |  ✔ | -  |  - |   
+|  {% data variables.android-values.routing_attr_avoid_stairs_name %} | - | ✔ | ✔  |   
+|{% data variables.android-values.routing_attr_avoid_footways_name %}    | - |  ✔ | -  |  
+| {% data variables.android-values.routing_attr_avoid_sett_name %}   |  - | ✔  | -  |   
+| **Prefer...**|   **turn on/off**|  
+| {% data variables.android-values.routing_attr_driving_style_prefer_unpaved_name %}   |  ✔  |  - | -  |  
+|{% data variables.android-values.routing_attr_prefer_hiking_routes_name %}   | -  |  ✔  |  - |  
+| **{% data variables.android-values.routing_attr_allow_private_name %}** (allow access to private areas) | **turn on/off** |
+|   |✔   |✔ |✔ |
+|**{% data variables.android-values.routing_attr_height_obstacles_name%}** (routing could avoid strong uphills)    | **turn on/off**     |
+|   |  ✔  |||
+| **{% data variables.android-values.temporary_conditional_routing%}** (use road restrictions that are active now on the map)   |   **turn on/off**   |
+|   |  ✔ |||
+|**{% data variables.android-values.fast_route_mode%}** (enable to calculate fastest route or for fuel-saving route)  |   **turn on/off**  |
+|   |   |✔||
+| **{% data variables.android-values.routing_attr_driving_style_name%}**     | -  | {% data variables.android-values.routing_attr_driving_style_prefer_unpaved_name%}/  {% data variables.android-values.routing_attr_driving_style_safety_name%}/ {% data variables.android-values.routing_attr_driving_style_balance_name%}/  {% data variables.android-values.routing_attr_driving_style_speed_name%}| -  |
+|  **{% data variables.android-values.routing_attr_allow_motorway_name%}**    |  - | ✔  | -  |
