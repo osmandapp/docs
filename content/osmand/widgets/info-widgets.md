@@ -58,17 +58,19 @@ This widget shows battery level of your device.
 | Enable | {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %}  → {% data variables.android-values.map_widget_right %} → {% data variables.android-values.map_widget_battery %}  |
 | On Click | - |
 
-## Coordinates widget (Android)
+## Coordinates widget
 
 The widget is shown at the top of the screen. It shows the geographic coordinates of current geo-location.
 
-![Coordinates Android widget](/assets/images/widgets/coordinates_widget.png)
+![Coordinates widget](/assets/images/widgets/coordinates_widget.png)
 
 | | |
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %}  → {% data variables.android-values.map_widget_appearance_rem %} → {% data variables.android-values.coordinates %}  |
+|  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_appearance_rem %} → {% data variables.ios-values.coordinates_widget %} |
 | On Click | Copies the coordinates to the clipboard |
 | Format | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.units_and_formats %} → {% data variables.android-values.coordinates_format %} |
+|        | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.units_and_formats %} → {% data variables.ios-values.coords_format %} |
 
 ## GPS Info (Android)
 
