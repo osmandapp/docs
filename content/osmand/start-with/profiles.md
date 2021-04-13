@@ -141,22 +141,34 @@ In Navigation settings user can configure navigation parameters for profile.
 |  | settings  |configurations | OS |
 | :------------- | :------------- | :------------- | :------------- |
 | Navigation | {% data variables.android-values.nav_type_hint %}| defines how the routes will be calculated. Choose [default navigation types](default-navigation-types) or import a modified routing file [routing.xml ](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)(only for Android). | Android/iOS   |
-|   | {% data variables.android-values.route_parameters %}  |   |  Android/iOS  |
+|   | {% data variables.android-values.route_parameters %}  |  [configure route parameters](configure-route-parameters) |  Android/iOS  |
 |   |  {% data variables.android-values.screen_alerts %}  |   | Android/iOS   |
 |   |  {% data variables.android-values.voice_announces %}  |  |  Android/iOS   |
 |   | {% data variables.android-values.vehicle_parameters %}   | |  Android/iOS |
-| {% data variables.android-values.help_other_header %}| {% data variables.android-values.map_during_navigation_info %}  |  |   Android/iOS |
+| {% data variables.android-values.shared_string_other %}| {% data variables.android-values.map_during_navigation_info %}  |  |   Android/iOS |
 |  |  {% data variables.android-values.animate_my_location %}   |  |  Android   |
 
 ### default navigation types
 
 |   Navigation type |  Description |
 | :------------- | :------------- |
-| {% data variables.android-values.rendering_value_bicycle_name %} |  |
-|{% data variables.android-values.app_mode_boat  %}   |    |  
-|{% data variables.android-values.rendering_value_car_name %}   |   |   
-| {% data variables.android-values.routing_profile_direct_to  %}  |    |  
-|{% data variables.android-values.rendering_value_pedestrian_name  %}   |   |  
-| {% data variables.android-values.app_mode_public_transport  %}  |   |   
-|  {% data variables.android-values.routing_profile_ski  %}  |    |   
-|  {% data variables.android-values.routing_profile_straightline %}  |  |   
+| {% data variables.android-values.rendering_value_bicycle_name %} | Prefers cycling paths, tracks, cycle routes and footways.|
+|{% data variables.android-values.app_mode_boat  %}   |  Prefers waterways, rivers and water canals|  
+|{% data variables.android-values.rendering_value_car_name %}   |  Prefers motorways, highways and unpaved roads  |   
+| {% data variables.android-values.routing_profile_direct_to  %}  |  Draws the straight line between start and finish points. User can see a point projection that represents the distance to the end point on the line. The point on the line is a virtual point to show the distance (it is not a projection on the line) but a point that has the same distance as current location to the finish point  |  
+|{% data variables.android-values.rendering_value_pedestrian_name  %}   |  Prefers hiking routes, footways |  
+| {% data variables.android-values.app_mode_public_transport  %}  | Prefers car routes  |   
+|  {% data variables.android-values.routing_profile_ski  %}  |  Prefers hills, slopes, ski trails  |   
+|  {% data variables.android-values.routing_profile_straightline %}  |  Draws the straight line between start and finish points and redraw the strait line when users position changes. In case user deviate from the route during the navigation, this setting builds the shortest path from your current position to the calculated route with the maximum angle. |   
+
+### configure route parameters
+
+|  general| settings  |configurations | OS |
+| :------------- | :------------- | :------------- | :------------- |
+| Navigation | {% data variables.android-values.nav_type_title %} |  | Android/iOS   |
+|   | {% data variables.android-values.route_parameters %}  |   |  Android/iOS  |
+|   |  {% data variables.android-values.screen_alerts %}  |   | Android/iOS   |
+|   |  {% data variables.android-values.voice_announces %}  |  |  Android/iOS   |
+|   | {% data variables.android-values.vehicle_parameters %}   | |  Android/iOS |
+| {% data variables.android-values.help_other_header %}| {% data variables.android-values.map_during_navigation_info %}  |  |   Android/iOS |
+|  |  {% data variables.android-values.animate_my_location %}   |  |  Android   |
