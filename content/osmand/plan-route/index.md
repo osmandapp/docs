@@ -21,7 +21,7 @@ The 'Plan route' tool is a powerful feature of OsmAnd allows you to measure dist
 
 ## How to use 'Plan route'
 
-In the tool you can create new GPX route or open existing track. When you open 'Plan route' tool menu you find the next buttons - 
+In the tool you can create new GPX route or open existing track. When you open 'Plan route' tool menu you find the next buttons:
 
 | | |  |
 |------------|------------|------------|
@@ -31,10 +31,12 @@ In the tool you can create new GPX route or open existing track. When you open '
 | {% data variables.android-values.plan_route_import_track %} |  | Import GPX track from your device storage (only for Android)|
 | {% data variables.android-values.plan_route_last_edited %} | {% data variables.ios-values.plan_route_last_modified %} | Choose GPX track from last modified|
 
-
-### Straight line
-
 ### Create new GPX track
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plan_a_route %} → {% data variables.android-values.plan_route_create_new_route %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plan_route %} → {% data variables.ios-values.plan_route_create_new_route%}
+
 
 ### Modify existing GPX track
 
