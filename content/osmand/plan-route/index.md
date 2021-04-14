@@ -33,7 +33,7 @@ or to click to {% data variables.android-values.edit_track %} on context menu sc
 
 ![Plan route android_contextmenu](/assets/images/plan-route/plan-route-android-contextmenu.png)
 
-## How to use 'Plan route'
+## 'Plan route' menu
 
 In the tool you can create new GPX route or open existing track. When you open 'Plan route' tool menu you find the next buttons:
 
@@ -45,6 +45,29 @@ In the tool you can create new GPX route or open existing track. When you open '
 | {% data variables.android-values.plan_route_import_track %} |  | Import GPX track from your device storage (only for Android)|
 | {% data variables.android-values.plan_route_last_edited %} | {% data variables.ios-values.plan_route_last_modified %} | Choose GPX track from last modified|
 | ![Plan route android_choosemenu](/assets/images/plan-route/plan-route-android-choose-menu.png) | ![Plan route ios_choosemenu](/assets/images/plan-route/plan-route-ios-choosemenu.png) | |
+
+
+| | |
+|------------|------------|
+| **Android**| **iOS** |
+| ![Plan route android-screen](/assets/images/plan-route/plan-route-android-screen.png) | ![Plan route ios-screen](/assets/images/plan-route/plan-route-ios-screen.png) |
+
+- 1. {% data variables.android-values.shared_string_options %} menu.
+- 2. {% data variables.android-values.shared_string_add %} shaping points.
+- 3. back/forward - move along planning process steps.
+- 4. Points list and Graph (Android) list with distance, azimuth (for next point), points number.
+- 5. Button for choosing (application profile)[/osmand/start-with/profiles].
+- 6. Done button.
+- 7. Name of GPX route by default (Android).
+- 8. Close button.
+- 9. Widgets (Android) - (Configure map
+)[/osmand/widgets/map-buttons#configure-map], (Search)[/osmand/widgets/map-buttons#search], (Compass)[/osmand/widgets/map-buttons#compass].
+- 10. Widgets (Android) - (Informational widgets
+)[/osmand/widgets/info-widgets], (Navigational widgets
+)[/osmand/widgets/nav-widgets].
+- 11. Widgets - (My Location & Zoom)[/osmand/widgets/map-buttons#my-location--zoom].
+
+
 
 ### Create new GPX track
 
