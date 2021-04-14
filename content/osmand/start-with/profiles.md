@@ -183,7 +183,7 @@ In Navigation settings user can configure navigation parameters for profile.
 -->
 
 | Route parameters | Car | Bicycle | On foot | OS |
-| :------------- | :-------------: | :------------- | :-------------: | :------------- |
+| :------------- | :------------- | :------------- | :-------------: | :------------- |
 | **{% data variables.android-values.impassable_road %}** (and road types)|**turn on/off**|||Android/iOS |
 |{% data variables.android-values.routing_attr_avoid_toll_name %}| ✔ | - | - | |  
 |{% data variables.android-values.routing_attr_avoid_unpaved_name %}| ✔ | ✔ | ✔ | |
@@ -204,13 +204,13 @@ In Navigation settings user can configure navigation parameters for profile.
 |**{% data variables.android-values.routing_attr_height_obstacles_name %}** (routing could avoid strong uphills)| **turn on/off**     |||Android/iOS|
 |   |  | ✔|||
 |**{% data variables.android-values.temporary_conditional_routing %}** (use road restrictions that are active now on the map)|**turn on/off**|||Android/iOS|
-|   |  ✔ ||||
+|   |  ✔ |-|-||
 |**{% data variables.android-values.fast_route_mode %}** (enable to calculate fastest route or for fuel-saving route)|**turn on/off**||
 |   |   |✔|||
 | **{% data variables.android-values.routing_attr_driving_style_name %}** | - |{% data variables.android-values.routing_attr_driving_style_prefer_unpaved_name %}/  {% data variables.android-values.routing_attr_driving_style_safety_name %}/ {% data variables.android-values.routing_attr_driving_style_balance_name %}/  {% data variables.android-values.routing_attr_driving_style_speed_name %}| -  ||
 | **{% data variables.android-values.routing_attr_allow_motorway_name %}** | - | ✔ | - ||
-| **{% data variables.android-values.recalculate_route_in_deviation %}** (the route will be recalculated if the distance from the route to the current location is more then selected value)| **turn on/off**| Android/iOS |   
-|   | select the distance after witch the route will be recalculated   |   |   ||
+| **{% data variables.android-values.recalculate_route_in_deviation %}** (the route will be recalculated if the distance from the route to the current location is more then selected value)| **turn on/off**||| Android/iOS |   
+|   | select the distance after witch the route will be recalculated   |  - | -  ||
 <!--|**{% data variables.android-values.in_case_of_reverse_direction %}**|**enabled/disabled**| Android/iOS |
 |   | ✔   |   |   ||  
 |**{% data variables.ios-values.road_speeds %}** | set the min and max travel speed for roads on the route | iOS |
