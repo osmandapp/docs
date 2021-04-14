@@ -201,9 +201,9 @@ In Navigation settings user can configure navigation parameters for profile.
 | **{% data variables.android-values.routing_attr_short_way_name %}** (optimized shorter route for energy saving)| **turn on/off** ||| Android/iOS |
 |**{% data variables.android-values.routing_attr_allow_private_name %}** (allow access to private areas) | **turn on/off** |||Android/iOS |
 |   |✔   |✔ |✔ ||
-<!--|**{% data variables.android-values.routing_attr_height_obstacles_name %}** (routing could avoid strong uphills)| **turn on/off**     |||Android/iOS|
+|**{% data variables.android-values.routing_attr_height_obstacles_name %}** (routing could avoid strong uphills)| **turn on/off**     |||Android/iOS|
 |   |  | ✔|||
-|**{% data variables.android-values.temporary_conditional_routing %}** (use road restrictions that are active now on the map)|**turn on/off**|||Android/iOS|
+<!--|**{% data variables.android-values.temporary_conditional_routing %}** (use road restrictions that are active now on the map)|**turn on/off**|||Android/iOS|
 |   |  ✔ ||||
 |**{% data variables.android-values.fast_route_mode %}** (enable to calculate fastest route or for fuel-saving route)|**turn on/off**||
 |   |   |✔|||
