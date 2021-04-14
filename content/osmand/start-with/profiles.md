@@ -221,3 +221,4 @@ In Navigation settings user can configure navigation parameters for profile.
 |   | ✔  |   |   |   |   
 | **{% data variables.android-values.use_fast_recalculation %}** (recalculates only the initial part of the route, useful for long trips)|**enabled/disabled**| Android |
 |   |  ✔   |   |   |   |   
+-->
