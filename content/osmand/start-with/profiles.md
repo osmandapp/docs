@@ -218,10 +218,9 @@ In Navigation settings user can configure navigation parameters for profile.
 |   | ✔   | -  | -  ||  
 |**{% data variables.ios-values.road_speeds %}** | **set the min and max travel speed for the roads en route** | ||iOS |
 |   | ✔  | -  | -  |   |   
-|**{% data variables.android-values.use_live_routing %}** (enable navigation for OsmAnd Live changes)   |**enabled/disabled**|   Android     |
+|**{% data variables.android-values.use_live_routing %}** (enable navigation for OsmAnd Live changes)   |**enabled/disabled**|||   Android     |
 |   |  ✔ | -  | -  |   |  
-<!--|**{% data variables.android-values.use_two_phase_routing %}**|**enabled/disabled**| Android |
+|**{% data variables.android-values.use_two_phase_routing %}**|**enabled/disabled**||| Android |
 |   | ✔  |   |   |   |   
-| **{% data variables.android-values.use_fast_recalculation %}** (recalculates only the initial part of the route, useful for long trips)|**enabled/disabled**| Android |
+| **{% data variables.android-values.use_fast_recalculation %}** (recalculates only the initial part of the route, useful for long trips)|**enabled/disabled**| ||Android |
 |   |  ✔   |   |   |   |   
--->
