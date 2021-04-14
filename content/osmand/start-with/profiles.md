@@ -184,7 +184,7 @@ In Navigation settings user can configure navigation parameters for profile.
 
 | Route parameters | Car  |Bicycle | On foot | OS |
 | :------------- | :-------------: | :-------------: | :-------------: | :------------- |
-<!--| **Avoid roads (and road types)**|**turn on/off**|Android/iOS |
+| **Avoid roads** (and road types)|**turn on/off**|Android/iOS |
 |{% data variables.android-values.routing_attr_avoid_toll_name %}| ✔ | - | - | |  
 |{% data variables.android-values.routing_attr_avoid_unpaved_name %}| ✔ | ✔ | ✔ | |
 |{% data variables.android-values.routing_attr_avoid_ferries_name %}  | ✔  | ✔  | ✔  |  |
@@ -195,7 +195,7 @@ In Navigation settings user can configure navigation parameters for profile.
 |{% data variables.android-values.routing_attr_avoid_stairs_name %}| - | ✔ | ✔  |  |
 |{% data variables.android-values.routing_attr_avoid_footways_name %}| - |  ✔ | - | |  
 |{% data variables.android-values.routing_attr_avoid_sett_name %}| - | ✔ | - |  |
-| **Prefer...**| **turn on/off**| Android/iOS  |
+<!--| **Prefer...**| **turn on/off**| Android/iOS  |
 |{% data variables.android-values.routing_attr_driving_style_prefer_unpaved_name %}|  ✔  |  - | - | |  
 |{% data variables.android-values.routing_attr_prefer_hiking_routes_name %}| - |  ✔  | - |  |
 | **{% data variables.android-values.routing_attr_short_way_name %}** (optimized shorter route for energy saving)| **turn on/off** | Android/iOS |
