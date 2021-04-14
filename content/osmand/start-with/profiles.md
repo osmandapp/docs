@@ -182,45 +182,45 @@ In Navigation settings user can configure navigation parameters for profile.
 
 -->
 
-| Route parameters | Car | Bicycle | On foot | OS |
-| :------------- | :------------- | :------------- | :-------------: | :------------- |
-| ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.impassable_road %}** (and road types)|**turn on/off**|||Android/iOS |
-|{% data variables.android-values.routing_attr_avoid_toll_name %}| ✔ | - | - | |  
-|{% data variables.android-values.routing_attr_avoid_unpaved_name %}| ✔ | ✔ | ✔ | |
-|{% data variables.android-values.routing_attr_avoid_ferries_name %}  | ✔  | ✔  | ✔  |  |
-|{% data variables.android-values.routing_attr_avoid_shuttle_train_name %}|  ✔ |  - | -  | |   
-|{% data variables.android-values.routing_attr_avoid_motorway_name %} | ✔ | -  |  ✔ |  |
-|{% data variables.android-values.routing_attr_avoid_borders_name %}|  ✔  |  ✔  |  - | |
-|{% data variables.android-values.routing_attr_avoid_ice_roads_fords_name %}| ✔ | - | - | |   
-|{% data variables.android-values.routing_attr_avoid_stairs_name %}| - | ✔ | ✔  |  |
-|{% data variables.android-values.routing_attr_avoid_footways_name %}| - |  ✔ | - | |  
-|{% data variables.android-values.routing_attr_avoid_sett_name %}| - | ✔ | - |  |
-| **{% data variables.android-values.prefer_in_routing_title %}**| **turn on/off**|||Android/iOS  |
-|{% data variables.android-values.routing_attr_driving_style_prefer_unpaved_name %}|  ✔  |  - | - | |  
-|{% data variables.android-values.routing_attr_prefer_hiking_routes_name %}| - | - | ✔ |  |
-| **{% data variables.android-values.routing_attr_short_way_name %}** (optimized shorter route for energy saving)| **turn on/off** ||| Android/iOS |
+| Route parameters | Car | Bicycle | On foot |
+| :------------- | :------------- | :------------- | :-------------: |
+| ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.impassable_road %}** (and road types)|**turn on/off**|||
+|{% data variables.android-values.routing_attr_avoid_toll_name %}| ✔ | - | - |
+|{% data variables.android-values.routing_attr_avoid_unpaved_name %}| ✔ | ✔ | ✔ |
+|{% data variables.android-values.routing_attr_avoid_ferries_name %}  | ✔  | ✔  | ✔  | 
+|{% data variables.android-values.routing_attr_avoid_shuttle_train_name %}|  ✔ |  - | -  |    
+|{% data variables.android-values.routing_attr_avoid_motorway_name %} | ✔ | -  |  ✔ |  
+|{% data variables.android-values.routing_attr_avoid_borders_name %}|  ✔  |  ✔  |  - | 
+|{% data variables.android-values.routing_attr_avoid_ice_roads_fords_name %}| ✔ | - | - |   
+|{% data variables.android-values.routing_attr_avoid_stairs_name %}| - | ✔ | ✔  |  
+|{% data variables.android-values.routing_attr_avoid_footways_name %}| - |  ✔ | - |   
+|{% data variables.android-values.routing_attr_avoid_sett_name %}| - | ✔ | - |  
+| ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.prefer_in_routing_title %}**| **turn on/off**|||
+|{% data variables.android-values.routing_attr_driving_style_prefer_unpaved_name %}|  ✔  |  - | - |  
+|{% data variables.android-values.routing_attr_prefer_hiking_routes_name %}| - | - | ✔ |  
+|![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.routing_attr_short_way_name %}** (optimized shorter route for energy saving)| **turn on/off** |||
 |   | ✔   |  - | -  |   |
-|**{% data variables.android-values.routing_attr_allow_private_name %}** (allow access to private areas) | **turn on/off** |||Android/iOS |
+|![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.routing_attr_allow_private_name %}** (allow access to private areas) | **turn on/off** |||
 |   |✔   |✔ |✔ ||
-|**{% data variables.android-values.routing_attr_height_obstacles_name %}** (routing could avoid strong uphills)| **turn on/off**     |||Android/iOS|
-|   | - | {% data variables.android-values.routing_attr_relief_smoothness_factor_more_plains_name %}/ {% data variables.android-values.routing_attr_relief_smoothness_factor_plains_name %}/ {% data variables.android-values.routing_attr_relief_smoothness_factor_hills_name %}|✔||
-|**{% data variables.android-values.temporary_conditional_routing %}** (use road restrictions that are active now on the map)|**turn on/off**|||Android/iOS|
-|   |  ✔ |✔|✔||
-|**{% data variables.android-values.fast_route_mode %}** (enable to calculate fastest route or for fuel-saving route)|**turn on/off**|||Android|
-|   |  - |✔|✔||
-| **{% data variables.android-values.routing_attr_driving_style_name %}** |**choose from the list**  ||  |Android/iOS|
-|   |  - | {% data variables.android-values.routing_attr_driving_style_prefer_unpaved_name %}/  {% data variables.android-values.routing_attr_driving_style_safety_name %}/ {% data variables.android-values.routing_attr_driving_style_balance_name %}/  {% data variables.android-values.routing_attr_driving_style_speed_name %}  | -   |   |
-| **{% data variables.android-values.routing_attr_allow_motorway_name %}** | **turn on/off** |  |  |Android/iOS|
-|   | -  |  ✔ |  - |   |
-| **{% data variables.android-values.route_recalculation_dist_title %}** (the route will be recalculated if the distance from the route to the current location is more then selected value)| **turn on/off**||| Android/iOS |   
-|   | select the distance after witch the route will be recalculated   |  select the distance after witch the route will be recalculated   | select the distance after witch the route will be recalculated   |    |
-|**{% data variables.android-values.in_case_of_reverse_direction %}**|**enabled/disabled**||| Android/iOS |
-|   | ✔   | ✔  | ✔  ||  
-|**{% data variables.ios-values.road_speeds %}** | **set the min and max travel speed for the roads en route** | ||iOS |
-|   | ✔  | ✔  | ✔  |   |   
-|**{% data variables.android-values.use_live_routing %}** (enable navigation for OsmAnd Live changes)   |**enabled/disabled**|||   Android     |
-|   |  ✔ | ✔  | -  |   |  
-|**{% data variables.android-values.use_two_phase_routing %}**|**enabled/disabled**||| Android |
-|   | ✔  | ✔ | -  |   |   
-| **{% data variables.android-values.use_fast_recalculation %}** (recalculates only the initial part of the route, useful for long trips)|**enabled/disabled**| ||Android |
-|   |  ✔   |  ✔ |  ✔ |   |   
+|![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.routing_attr_height_obstacles_name %}** (routing could avoid strong uphills)| **turn on/off**     |||
+|   | - | {% data variables.android-values.routing_attr_relief_smoothness_factor_more_plains_name %}/ {% data variables.android-values.routing_attr_relief_smoothness_factor_plains_name %}/ {% data variables.android-values.routing_attr_relief_smoothness_factor_hills_name %}|✔|
+|![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.temporary_conditional_routing %}** (use road restrictions that are active now on the map)|**turn on/off**|||
+|   |  ✔ |✔|✔|
+|![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.fast_route_mode %}** (enable to calculate fastest route or for fuel-saving route)|**turn on/off**|||
+|   |  - |✔|✔|
+| ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.routing_attr_driving_style_name %}** |**choose from the list**  ||  |
+|   |  - | {% data variables.android-values.routing_attr_driving_style_prefer_unpaved_name %}/  {% data variables.android-values.routing_attr_driving_style_safety_name %}/ {% data variables.android-values.routing_attr_driving_style_balance_name %}/  {% data variables.android-values.routing_attr_driving_style_speed_name %}  | -   |   
+| ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.routing_attr_allow_motorway_name %}** | **turn on/off** |  |  |
+|   | -  |  ✔ |  - |   
+|![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.route_recalculation_dist_title %}** (the route will be recalculated if the distance from the route to the current location is more then selected value)| **turn on/off**|||   
+|   | select the distance after witch the route will be recalculated   |  select the distance after witch the route will be recalculated   | select the distance after witch the route will be recalculated   |   
+|![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.in_case_of_reverse_direction %}**|**enabled/disabled**||| 
+|   | ✔   | ✔  | ✔  |  
+|![icon-ios](/assets/images/site/icon-ios.png) **{% data variables.ios-values.road_speeds %}** | **set the min and max travel speed for the roads en route** | ||
+|   | ✔  | ✔  | ✔  |     
+|![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.use_live_routing %}** (enable navigation for OsmAnd Live changes)   |**enabled/disabled**|||   
+|   |  ✔ | ✔  | -  |     
+|![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.use_two_phase_routing %}**|**enabled/disabled**||| 
+|   | ✔  | ✔ | -  |    
+|![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.use_fast_recalculation %}** (recalculates only the initial part of the route, useful for long trips)|**enabled/disabled**| ||
+|   |  ✔   |  ✔ |  ✔ |     
