@@ -44,7 +44,7 @@ In the tool you can create new GPX route or open existing track. When you open '
 | {% data variables.android-values.plan_route_open_existing_track %} | {% data variables.ios-values.plan_route_open_existing_track%} | Open existing GPX track from OsmAnd track folder|
 | {% data variables.android-values.plan_route_import_track %} |  | Import GPX track from your device storage (only for Android)|
 | {% data variables.android-values.plan_route_last_edited %} | {% data variables.ios-values.plan_route_last_modified %} | Choose GPX track from last modified|
-| ![Plan route android_choosemenu](/assets/images/plan-route/plan-route-android-choosemenu.png) | ![Plan route ios_choosemenu](/assets/images/plan-route/plan-route-ios-choosemenu.png) | |
+| ![Plan route android_choosemenu](/assets/images/plan-route/plan-route-android-choose-menu.png) | ![Plan route ios_choosemenu](/assets/images/plan-route/plan-route-ios-choosemenu.png) | |
 
 ### Create new GPX track
 
