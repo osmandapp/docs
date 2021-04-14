@@ -213,7 +213,7 @@ In Navigation settings user can configure navigation parameters for profile.
 | **{% data variables.android-values.routing_attr_allow_motorway_name %}** | **turn on/off** |  |  |Android/iOS|
 |   | -  |  ✔ |  - |   |
 | **{% data variables.android-values.route_recalculation_dist_title %}** (the route will be recalculated if the distance from the route to the current location is more then selected value)| **turn on/off**||| Android/iOS |   
-|   | select the distance after witch the route will be recalculated   |  select the distance after witch the route will be recalculated   | select the distance after witch the route will be recalculated   |  select the distance after witch the route will be recalculated    ||
+|   | select the distance after witch the route will be recalculated   |  select the distance after witch the route will be recalculated   | select the distance after witch the route will be recalculated   |    |
 |**{% data variables.android-values.in_case_of_reverse_direction %}**|**enabled/disabled**||| Android/iOS |
 |   | ✔   | ✔  | ✔  ||  
 |**{% data variables.ios-values.road_speeds %}** | **set the min and max travel speed for the roads en route** | ||iOS |
