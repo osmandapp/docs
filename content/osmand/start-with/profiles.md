@@ -198,16 +198,16 @@ In Navigation settings user can configure navigation parameters for profile.
 | **Prefer...**| **turn on/off**|||Android/iOS  |
 |{% data variables.android-values.routing_attr_driving_style_prefer_unpaved_name %}|  ✔  |  - | - | |  
 |{% data variables.android-values.routing_attr_prefer_hiking_routes_name %}| - |  ✔  | - |  |
-| **{% data variables.android-values.routing_attr_short_way_name %}** (optimized shorter route for energy saving)| **turn on/off** | Android/iOS |
-<!--|**{% data variables.android-values.routing_attr_allow_private_name %}** (allow access to private areas) | **turn on/off** |Android/iOS |
+| **{% data variables.android-values.routing_attr_short_way_name %}** (optimized shorter route for energy saving)| **turn on/off** ||| Android/iOS |
+|**{% data variables.android-values.routing_attr_allow_private_name %}** (allow access to private areas) | **turn on/off** |||Android/iOS |
 |   |✔   |✔ |✔ ||
-|**{% data variables.android-values.routing_attr_height_obstacles_name %}** (routing could avoid strong uphills)| **turn on/off**     |Android/iOS|
+|**{% data variables.android-values.routing_attr_height_obstacles_name %}** (routing could avoid strong uphills)| **turn on/off**     |||Android/iOS|
 |   |  | ✔|||
-|**{% data variables.android-values.temporary_conditional_routing %}** (use road restrictions that are active now on the map)|**turn on/off**|Android/iOS|
+|**{% data variables.android-values.temporary_conditional_routing %}** (use road restrictions that are active now on the map)|**turn on/off**|||Android/iOS|
 |   |  ✔ ||||
 |**{% data variables.android-values.fast_route_mode% }** (enable to calculate fastest route or for fuel-saving route)|**turn on/off**||
 |   |   |✔|||
-| **{% data variables.android-values.routing_attr_driving_style_name %}** | - |{% data variables.android-values.routing_attr_driving_style_prefer_unpaved_name %}/  {% data variables.android-values.routing_attr_driving_style_safety_name %}/ {% data variables.android-values.routing_attr_driving_style_balance_name %}/  {% data variables.android-values.routing_attr_driving_style_speed_name %}| -  ||
+<!--| **{% data variables.android-values.routing_attr_driving_style_name %}** | - |{% data variables.android-values.routing_attr_driving_style_prefer_unpaved_name %}/  {% data variables.android-values.routing_attr_driving_style_safety_name %}/ {% data variables.android-values.routing_attr_driving_style_balance_name %}/  {% data variables.android-values.routing_attr_driving_style_speed_name %}| -  ||
 | **{% data variables.android-values.routing_attr_allow_motorway_name %}** | - | ✔ | - ||
 | **{% data variables.android-values.recalculate_route_in_deviation %}** (the route will be recalculated if the distance from the route to the current location is more then selected value)| **turn on/off**| Android/iOS |   
 |   | select the distance after witch the route will be recalculated   |   |   ||
