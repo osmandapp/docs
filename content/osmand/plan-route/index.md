@@ -8,8 +8,6 @@ The 'Plan route' tool is a powerful feature of OsmAnd allows you to measure dist
 
 The route is many strings between points. Strings can be straight lines or routes of chosen navigation profiles. The sum of all these points and strings is a route, that can be saved, imported, or modified. 
 
-The 'Plan route' can be switched on:
-
 | | |
 |------------|------------|
 | **Android**| **iOS** |
@@ -17,11 +15,25 @@ The 'Plan route' can be switched on:
 
 ## Where to find 'Plan route'
 
-'Plan route' tool in the app menu:
+The 'Plan route' can be switched on:
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plan_a_route %}
+- Main menu
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plan_route %}
+| | |
+|------------|------------|
+| **Android**| **iOS** |
+| {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plan_a_route %} | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plan_route %} |
+| ![Plan route android_menu](/assets/images/plan-route/plan-route-android-menu.png) | ![Plan route ios_menu](/assets/images/plan-route/plan-route-ios-menu.png) |
+
+- Track contex menu (Android)
+
+{% data variables.android-values.shared_string_options %} → {% data variables.android-values.edit_track %}
+
+or to click to {% data variables.android-values.edit_track %} on context menu screen:
+
+![Plan route android_contextmenu](/assets/images/plan-route/plan-route-android-contextmenu.png)
+
+
 
 ## How to use 'Plan route'
 
