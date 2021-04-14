@@ -38,12 +38,12 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 | | |  |
 |------------|------------|------------|
-| **Android**| **iOS** |Description|
-| {% data variables.android-values.plan_route_create_new_route %} | {% data variables.ios-values.plan_route_create_new_route %} | Create new GPX route |
-| {% data variables.android-values.plan_route_open_existing_track %} | {% data variables.ios-values.plan_route_open_existing_track%} | Open existing GPX track from OsmAnd track folder|
-| {% data variables.android-values.plan_route_import_track %} |  | Import GPX track from your device storage (only for Android)|
-| {% data variables.android-values.plan_route_last_edited %} | {% data variables.ios-values.plan_route_last_modified %} | Choose GPX track from last modified|
-| ![Plan route android_choosemenu](/assets/images/plan-route/plan-route-android-choose-menu.png) | ![Plan route ios_choosemenu](/assets/images/plan-route/plan-route-ios-choosemenu.png) | |
+| **Android**| **iOS** |
+| **{% data variables.android-values.plan_route_create_new_route %}** - create new GPX route | **{% data variables.ios-values.plan_route_create_new_route %}** - create new GPX route |
+| **{% data variables.android-values.plan_route_open_existing_track %}** - open existing GPX track from OsmAnd track folder. | **{% data variables.ios-values.plan_route_open_existing_track%}** - open existing GPX track from OsmAnd track folder. |
+| **{% data variables.android-values.plan_route_import_track %}** - import GPX track from your device storage |  |
+| **{% data variables.android-values.plan_route_last_edited %}** - choose GPX track from last modified. | **{% data variables.ios-values.plan_route_last_modified %}** - choose GPX track from last modified. | 
+| ![Plan route android_choosemenu](/assets/images/plan-route/plan-route-android-choose-menu.png) | ![Plan route ios_choosemenu](/assets/images/plan-route/plan-route-ios-choosemenu.png) |
 
 ## 'Plan route' main screen
 
