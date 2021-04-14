@@ -199,6 +199,7 @@ In Navigation settings user can configure navigation parameters for profile.
 |{% data variables.android-values.routing_attr_driving_style_prefer_unpaved_name %}|  ✔  |  - | - | |  
 |{% data variables.android-values.routing_attr_prefer_hiking_routes_name %}| - |  ✔  | - |  |
 | **{% data variables.android-values.routing_attr_short_way_name %}** (optimized shorter route for energy saving)| **turn on/off** ||| Android/iOS |
+|   | ✔   |  - | -  |   |
 |**{% data variables.android-values.routing_attr_allow_private_name %}** (allow access to private areas) | **turn on/off** |||Android/iOS |
 |   |✔   |✔ |✔ ||
 |**{% data variables.android-values.routing_attr_height_obstacles_name %}** (routing could avoid strong uphills)| **turn on/off**     |||Android/iOS|
@@ -214,10 +215,10 @@ In Navigation settings user can configure navigation parameters for profile.
 | **{% data variables.android-values.recalculate_route_in_deviation %}** (the route will be recalculated if the distance from the route to the current location is more then selected value)| **turn on/off**||| Android/iOS |   
 |   | select the distance after witch the route will be recalculated   |  - | -  ||
 |**{% data variables.android-values.in_case_of_reverse_direction %}**|**enabled/disabled**| Android/iOS |
-|   | ✔   |   |   ||  
-<!--|**{% data variables.ios-values.road_speeds %}** | set the min and max travel speed for roads on the route | iOS |
-|   | ✔  |   |   |   |   
-|**{% data variables.android-values.use_live_routing %}** (enable navigation for OsmAnd Live changes)   |**enabled/disabled**|   Android     |
+|   | ✔   | -  | -  ||  
+|**{% data variables.ios-values.road_speeds %}** | set the min and max travel speed for roads on the route | iOS |
+|   | ✔  | -  | -  |   |   
+<!--|**{% data variables.android-values.use_live_routing %}** (enable navigation for OsmAnd Live changes)   |**enabled/disabled**|   Android     |
 |   |  ✔ |   |   |   |  
 |**{% data variables.android-values.use_two_phase_routing %}**|**enabled/disabled**| Android |
 |   | ✔  |   |   |   |   
