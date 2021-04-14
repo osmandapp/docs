@@ -181,6 +181,7 @@ In Navigation settings user can configure navigation parameters for profile.
 | Avoid roads (and road types)| turn on/off ({% data variables.android-values.routing_attr_avoid_toll_name %}/ {% data variables.android-values.routing_attr_avoid_unpaved_name %}/ {% data variables.android-values.routing_attr_avoid_ferries_name %}/ {% data variables.android-values.routing_attr_avoid_shuttle_train_name %}/ {% data variables.android-values.routing_attr_avoid_motorway_name%}/ {% data variables.android-values.routing_attr_avoid_borders_name %}/ {% data variables.android-values.routing_attr_avoid_ice_roads_fords_name %} ) | turn on/off ({% data variables.android-values.routing_attr_avoid_unpaved_name%}/ {% data variables.android-values.routing_attr_avoid_unpaved_name%}|  |
 
 -->
+<!--
 | Route parameters | Car  |Bicycle | On foot | OS |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
 | **Avoid roads (and road types)**|**turn on/off**|Android/iOS |
