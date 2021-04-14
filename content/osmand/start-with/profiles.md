@@ -213,9 +213,9 @@ In Navigation settings user can configure navigation parameters for profile.
 |   | -  |  ✔ |  - |   |
 | **{% data variables.android-values.recalculate_route_in_deviation %}** (the route will be recalculated if the distance from the route to the current location is more then selected value)| **turn on/off**||| Android/iOS |   
 |   | select the distance after witch the route will be recalculated   |  - | -  ||
-<!--|**{% data variables.android-values.in_case_of_reverse_direction %}**|**enabled/disabled**| Android/iOS |
+|**{% data variables.android-values.in_case_of_reverse_direction %}**|**enabled/disabled**| Android/iOS |
 |   | ✔   |   |   ||  
-|**{% data variables.ios-values.road_speeds %}** | set the min and max travel speed for roads on the route | iOS |
+<!--|**{% data variables.ios-values.road_speeds %}** | set the min and max travel speed for roads on the route | iOS |
 |   | ✔  |   |   |   |   
 |**{% data variables.android-values.use_live_routing %}** (enable navigation for OsmAnd Live changes)   |**enabled/disabled**|   Android     |
 |   |  ✔ |   |   |   |  
