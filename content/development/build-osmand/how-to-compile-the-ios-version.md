@@ -57,10 +57,10 @@ Comment out ```__bsfd```, ```__bsrd``` lines and save file.
 8. Open osmand.xcworkspace in XCode
 9. First build.
   Set the build target to `OsmAnd Maps`. (Near play/stop buttons). Selet as target your device or as one of IOS simulators. But don't use default 'Any IOS Device (arm64)'. Build the project (play button).
-10. Troubleshooting
-- In case of build erros you can press in XCode: ```Product -> Clean build folder```
-- Close XCode.  Delete `baked` and `binaries` folders in `OsmAnd` directory (if it already exists). 
-- Delete XCode DerivedData folder: ``` sudo rm -R ~/Library/Developer/Xcode/DerivedData/* ```
-- Check that all repositories are up to date and on correct branches.
-- Restart your computer. (Yes, it can help). 
-- Then run `$ ./prepare.sh` and try to build the project again.
+10. Troubleshooting.
+  - In case of build erros you can press in XCode: ```Product -> Clean build folder```
+  - Close XCode.  Delete `baked` and `binaries` folders in `OsmAnd` directory (if it already exists). 
+  - Delete XCode DerivedData folder: ``` sudo rm -R ~/Library/Developer/Xcode/DerivedData/* ```
+  - Check that all repositories are up to date and on correct branches.
+  - Restart your computer. (Yes, it can help). 
+  - Then run `$ ./prepare.sh` and try to build the project again.
