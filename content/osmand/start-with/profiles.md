@@ -9,16 +9,16 @@ There are few profile types set by default in OsmAnd.
 
 |   Profile type |  OS |
 | :------------- | :------------- |
-| {% data variables.android-values.rendering_value_browse_map_name %} | Android/iOS |
-|{% data variables.android-values.routing_engine_vehicle_type_driving  %}   | Android/iOS   |  
-|{% data variables.android-values.activity_type_cycling_name  %}   | Android/iOS   |   
-| {% data variables.android-values.routing_engine_vehicle_type_walking  %}  |   Android/iOS |  
-|{% data variables.android-values.app_mode_public_transport  %}   |  Android/iOS |  
-| {% data variables.android-values.routing_engine_vehicle_type_truck  %}  | Android  |   
-|  {% data variables.android-values.app_mode_motorcycle  %}  |  Android  |   
-|  {% data variables.android-values.app_mode_boat %}  | Android/iOS  |   
-| {% data variables.android-values.app_mode_aircraft %}  |  Android/iOS |  
-| {% data variables.android-values.app_mode_skiing %}   |  Android/iOS |   
+| {% data variables.android-values.rendering_value_browse_map_name %} | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png)  |
+|{% data variables.android-values.routing_engine_vehicle_type_driving  %}   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png)    |  
+|{% data variables.android-values.activity_type_cycling_name  %}   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png)    |   
+| {% data variables.android-values.routing_engine_vehicle_type_walking  %}  |   ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png)  |  
+|{% data variables.android-values.app_mode_public_transport  %}   |  ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png)  |  
+| {% data variables.android-values.routing_engine_vehicle_type_truck  %}  | ![icon-android](/assets/images/site/icon-android.png)  |   
+|  {% data variables.android-values.app_mode_motorcycle  %}  |  ![icon-android](/assets/images/site/icon-android.png)  |   
+|  {% data variables.android-values.app_mode_boat %}  | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png)   |   
+| {% data variables.android-values.app_mode_aircraft %}  |  ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png)  |  
+| {% data variables.android-values.app_mode_skiing %}   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png)  |   
 
 ## Profile settings
 
@@ -51,14 +51,14 @@ All  profiles can be configure.
 |   | {% data variables.android-values.profile_alert_delete_title%}  |  Android | all  |
 
 -->
-|   | settings  | OS| profile |
-| :------------- | :------------- | :------------- | :------------- |
-| Profile settings | [General settings](#general-settings) | Android/iOS | all  |
-|   | [Navigation settings](#navigation-settings)	  |  Android/iOS | all, except {% data variables.android-values.rendering_value_browse_map_name %}  |
-|   |  [Configure map](#configure-map)	 |  Android/iOS  |  all |
-|   |  [Configure screen](#configure-screen)	 |  Android/iOS  |  all |
-|   | 	[Profile appearance](#profile-appearance)  | Android/iOS  |  all |
-|   | 	[UI Customization](#ui-customization)  |  Android  | all  |
+|   | settings  |  profile |
+| :------------- | :------------- |  :------------- |
+| Profile settings | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) [General settings](#general-settings) |  all  |
+|   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) [Navigation settings](#navigation-settings)	  |  all, except {% data variables.android-values.rendering_value_browse_map_name %}  |
+|   |  ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) [Configure map](#configure-map)	 |    all |
+|   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) [Configure screen](#configure-screen)	 |   all |
+|   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png)	[Profile appearance](#profile-appearance)  |  all |
+|   | ![icon-android](/assets/images/site/icon-android.png)	[UI Customization](#ui-customization)  |  all  |
 
 ## Creating new navigation profiles (custom profiles)
 
@@ -70,24 +70,24 @@ Users can create new navigation profiles based on default app profiles. It defin
 
 ## General settings
 
-|  | settings  |configurations | OS |
-| :------------- | :------------- | :------------- | :------------- |
-| {% data variables.android-values.shared_string_appearance %} | {% data variables.android-values.choose_osmand_theme %} | {% data variables.android-values.dark_theme %}/{% data variables.android-values.light_theme %} | Android  |
-|   | {% data variables.android-values.rotate_map_to_bearing %}  |  {% data variables.android-values.rotate_map_none_opt %}/ {% data variables.android-values.rotate_map_bearing_opt %}/ {% data variables.android-values.rotate_map_compass_opt %} |  Android/iOS  |
-|   |  {% data variables.android-values.always_center_position_on_map %}  | turn on/off and {% data variables.android-values.apply_to_all_profiles %}/ Apply only to selected profile/ {% data variables.android-values.discard_changes %}  | Android/iOS   |
-|   |  {% data variables.android-values.map_screen_orientation %}  | {% data variables.android-values.map_orientation_portrait %}/ {% data variables.android-values.map_orientation_landscape %}/ {% data variables.android-values.map_orientation_default %}  |  Android |
-|   | {% data variables.android-values.screen_control %}   | {% data variables.android-values.screen_timeout %}/ {% data variables.android-values.turn_screen_on %}  |  Android |
-|   |   {% data variables.ios-values.allow_3D_view %} | turn on or off  |  iOS |
-| {% data variables.android-values.units_and_formats %}  |  {% data variables.android-values.driving_region %}   |  {% data variables.android-values.driving_region_automatic %}/ [list of regions](#list-of-regions)|  Android/iOS    |
-|   |  {% data variables.android-values.coords_format %}  | [list of coordinate format](#list-of-coordinate-format)  |  Android/iOS |
-|   |   {% data variables.android-values.angular_measeurement %} | {% data variables.android-values.shared_string_degrees %} 180/ {% data variables.android-values.shared_string_degrees %} 360/ {% data variables.android-values.shared_string_milliradians %}    |Android/iOS   |
-|   |   {% data variables.android-values.default_speed_system %} |  [list of unit speed ](#list-of-unit-speed ) |Android/iOS     |
-| {% data variables.android-values.shared_string_other%}  |  {% data variables.android-values.use_volume_buttons_as_zoom %}  |  turn on or off ability to control the map zoom level using the volume buttons on the device  | Android  |
-|   |   {% data variables.android-values.use_kalman_filter_compass%}  | turn on/off an ability to reduce noise in compass reading  (adds inertia)  | Android  |
-|   |   {% data variables.android-values.use_magnetic_sensor %}   |  turn/or off (highly recommended to use it for compass reading) | Android  |
-|   |  {% data variables.android-values.tap_on_map_to_hide_interface %}   |  turn on/off (a tap on the toggles the control buttons and widgets) |  Android |
-|   |  {% data variables.android-values.do_not_use_animations %}  |  turn on/off and {% data variables.android-values.apply_to_all_profiles %}/ Apply only to selected profile/ {% data variables.android-values.discard_changes %}   |  Android |
-|   | {% data variables.android-values.do_not_use_animations %}  | {% data variables.android-values.sett_generic_ext_input %}/ {% data variables.android-values.sett_wunderlinq_ext_input %}/ {% data variables.android-values.sett_parrot_ext_input %}(Android only)   | Android/iOS   |
+|  | settings  |configurations |
+| :------------- | :------------- | :------------- |
+| {% data variables.android-values.shared_string_appearance %} |![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.choose_osmand_theme %} | {% data variables.android-values.dark_theme %}/{% data variables.android-values.light_theme %} |
+|   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.rotate_map_to_bearing %}  |  {% data variables.android-values.rotate_map_none_opt %}/ {% data variables.android-values.rotate_map_bearing_opt %}/ {% data variables.android-values.rotate_map_compass_opt %} |  
+|   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.always_center_position_on_map %}  | turn on/off and {% data variables.android-values.apply_to_all_profiles %}/ Apply only to selected profile/ {% data variables.android-values.discard_changes %}  |
+|   | ![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.map_screen_orientation %}  | {% data variables.android-values.map_orientation_portrait %}/ {% data variables.android-values.map_orientation_landscape %}/ {% data variables.android-values.map_orientation_default %}  |  
+|   | ![icon-android](/assets/images/site/icon-android.png){% data variables.android-values.screen_control %}   | {% data variables.android-values.screen_timeout %}/ {% data variables.android-values.turn_screen_on %}  |
+|   |  ![icon-ios](/assets/images/site/icon-ios.png) {% data variables.ios-values.allow_3D_view %} | turn on or off  |   
+| {% data variables.android-values.units_and_formats %}  | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.driving_region %}   |  {% data variables.android-values.driving_region_automatic %}/ [list of regions](#list-of-regions)|  
+|   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.coords_format %}  | [list of coordinate format](#list-of-coordinate-format)  |
+|   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png)  {% data variables.android-values.angular_measeurement %} | {% data variables.android-values.shared_string_degrees %} 180/ {% data variables.android-values.shared_string_degrees %} 360/ {% data variables.android-values.shared_string_milliradians %}    |
+|   |  ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.default_speed_system %} |  [list of unit speed ](#list-of-unit-speed ) |
+| {% data variables.android-values.shared_string_other%}  | ![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.use_volume_buttons_as_zoom %}  |  turn on or off ability to control the map zoom level using the volume buttons on the device  |
+|   | ![icon-android](/assets/images/site/icon-android.png)  {% data variables.android-values.use_kalman_filter_compass%}  | turn on/off an ability to reduce noise in compass reading  (adds inertia)  |
+|   |  ![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.use_magnetic_sensor %}   |  turn/or off (highly recommended to use it for compass reading) |
+|   | ![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.tap_on_map_to_hide_interface %}   |  turn on/off (a tap on the toggles the control buttons and widgets) |  
+|   | ![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.do_not_use_animations %}  |  turn on/off and {% data variables.android-values.apply_to_all_profiles %}/ Apply only to selected profile/ {% data variables.android-values.discard_changes %}   |
+|   |![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.do_not_use_animations %}  | {% data variables.android-values.sett_generic_ext_input %}/ {% data variables.android-values.sett_wunderlinq_ext_input %}/ {% data variables.android-values.sett_parrot_ext_input %}(Android only)   |
 
 ### list of regions
 
@@ -138,15 +138,15 @@ In Navigation settings user can configure navigation parameters for profile.
 | {% data variables.android-values.help_other_header %}| {% data variables.android-values.map_during_navigation_info %}  |  |   Android/iOS |
 |  |  {% data variables.android-values.animate_my_location %}   |  |  Android   |
 -->
-|  | settings  |configurations | OS |
-| :------------- | :------------- | :------------- | :------------- |
-| Navigation | {% data variables.android-values.nav_type_hint %}| defines how the routes will be calculated. Choose [default navigation types](default-navigation-types) or import a modified routing file [routing.xml ](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)(only for Android). | Android/iOS   |
-|   | {% data variables.android-values.route_parameters %}  |  gives a set of settings to [configure routing for selected profile](configure-routing-for-selected-profile )  |  Android/iOS  |
-|   |  {% data variables.android-values.screen_alerts %}  |   | Android/iOS   |
-|   |  {% data variables.android-values.voice_announces %}  |  |  Android/iOS   |
-|   | {% data variables.android-values.vehicle_parameters %}   | |  Android/iOS |
-| {% data variables.android-values.shared_string_other %}| {% data variables.android-values.map_during_navigation_info %}  |  |   Android/iOS |
-|  |  {% data variables.android-values.animate_my_location %}   |  |  Android   |
+|  | settings  |configurations |
+| :------------- | :------------- | :------------- |
+| Navigation | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.nav_type_hint %}| defines how the routes will be calculated. Choose [default navigation types](default-navigation-types) or import a modified routing file [routing.xml ](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)(only for Android). |
+|   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.route_parameters %}  |  gives a set of settings to [configure routing for selected profile](configure-routing-for-selected-profile )  |
+|   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.screen_alerts %}  |   |
+|   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.voice_announces %}  |  |  
+|   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.vehicle_parameters %}   | |  
+|![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.shared_string_other %}| {% data variables.android-values.map_during_navigation_info %}  |  |   
+|  | ![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.animate_my_location %}   |  |  
 
 ### default navigation types
 
@@ -187,10 +187,10 @@ In Navigation settings user can configure navigation parameters for profile.
 | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.impassable_road %}** (and road types)|**turn on/off**|||
 |{% data variables.android-values.routing_attr_avoid_toll_name %}| ✔ | - | - |
 |{% data variables.android-values.routing_attr_avoid_unpaved_name %}| ✔ | ✔ | ✔ |
-|{% data variables.android-values.routing_attr_avoid_ferries_name %}  | ✔  | ✔  | ✔  | 
+|{% data variables.android-values.routing_attr_avoid_ferries_name %}  | ✔  | ✔  | ✔  |
 |{% data variables.android-values.routing_attr_avoid_shuttle_train_name %}|  ✔ |  - | -  |    
 |{% data variables.android-values.routing_attr_avoid_motorway_name %} | ✔ | -  |  ✔ |  
-|{% data variables.android-values.routing_attr_avoid_borders_name %}|  ✔  |  ✔  |  - | 
+|{% data variables.android-values.routing_attr_avoid_borders_name %}|  ✔  |  ✔  |  - |
 |{% data variables.android-values.routing_attr_avoid_ice_roads_fords_name %}| ✔ | - | - |   
 |{% data variables.android-values.routing_attr_avoid_stairs_name %}| - | ✔ | ✔  |  
 |{% data variables.android-values.routing_attr_avoid_footways_name %}| - |  ✔ | - |   
@@ -214,13 +214,13 @@ In Navigation settings user can configure navigation parameters for profile.
 |   | -  |  ✔ |  - |   
 |![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.route_recalculation_dist_title %}** (the route will be recalculated if the distance from the route to the current location is more then selected value)| **turn on/off**|||   
 |   | select the distance after witch the route will be recalculated   |  select the distance after witch the route will be recalculated   | select the distance after witch the route will be recalculated   |   
-|![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.in_case_of_reverse_direction %}**|**enabled/disabled**||| 
+|![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.in_case_of_reverse_direction %}**|**enabled/disabled**|||
 |   | ✔   | ✔  | ✔  |  
 |![icon-ios](/assets/images/site/icon-ios.png) **{% data variables.ios-values.road_speeds %}** | **set the min and max travel speed for the roads en route** | ||
 |   | ✔  | ✔  | ✔  |     
 |![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.use_live_routing %}** (enable navigation for OsmAnd Live changes)   |**enabled/disabled**|||   
 |   |  ✔ | ✔  | -  |     
-|![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.use_two_phase_routing %}**|**enabled/disabled**||| 
+|![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.use_two_phase_routing %}**|**enabled/disabled**|||
 |   | ✔  | ✔ | -  |    
 |![icon-android](/assets/images/site/icon-android.png) **{% data variables.android-values.use_fast_recalculation %}** (recalculates only the initial part of the route, useful for long trips)|**enabled/disabled**| ||
 |   |  ✔   |  ✔ |  ✔ |     
