@@ -140,7 +140,7 @@ In Navigation settings user can configure navigation parameters for profile.
 -->
 |  | settings  |configurations |
 | :------------- | :------------- | :------------- |
-| Navigation | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.nav_type_hint %}| defines how the routes will be calculated. Choose [default navigation types](default-navigation-types) or import a modified routing file [routing.xml ](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)(only for Android). |
+| Navigation | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.nav_type_hint %}| defines how the routes will be calculated. Choose [default navigation types](osmand/start-with/profiles#default-navigation-types) or import a modified routing file [routing.xml ](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)(only for Android). |
 |   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.route_parameters %}  |  gives a set of settings to [configure routing for selected profile](configure-routing-for-selected-profile )  |
 |   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.screen_alerts %}  |   |
 |   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.voice_announces %}  |  |  
