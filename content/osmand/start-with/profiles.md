@@ -145,7 +145,7 @@ In Navigation settings user can configure navigation parameters for profile.
 |   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.screen_alerts %}  |   |
 |   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.voice_announces %}  |  |  
 |   | ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.vehicle_parameters %}   | |  
-|![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.shared_string_other %}| {% data variables.android-values.map_during_navigation_info %}  |  |   
+| {% data variables.android-values.shared_string_other %}| ![icon-ios](/assets/images/site/icon-ios.png)![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.map_during_navigation_info %}  |  |   
 |  | ![icon-android](/assets/images/site/icon-android.png) {% data variables.android-values.animate_my_location %}   |  |  
 
 ### default navigation types
