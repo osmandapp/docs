@@ -19,14 +19,14 @@ For Android devices you can download the free version and buy the full version i
 | :------------- | :------------- | :------------- | :------------- |
 | App OsmAnd Free | ✔ | ✔ | ✔ |
 | App OsmAnd+  | ✔ | ✔ | - |
-| In-app OsmAnd Unlimited | ✔ | ✔ | ✔ |
+| In-app OsmAnd Unlimited | ✔ | - | - |
 | Subscription OsmAnd live | ✔ | - | ✔ |
 
 ### What difference between purchases?
 
 **OsmAnd+** is a separate application in [Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus&hl=en&gl=US) and [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC). You can add it to [the Family Library in Google Play](https://support.google.com/googleplay/answer/7007852?hl=en).
 
-**OsmAnd Unlimited** is an in-app purchase for OsmAnd free version in [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8), [Huawei AppStore](https://appgallery.huawei.com/#/app/C101486545).
+**OsmAnd Unlimited** is an in-app purchase for OsmAnd free version in [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8), [Huawei AppStore](https://appgallery.huawei.com/#/app/C101486545). All features and the price is the same as for **OsmAnd+**.
 
 {% note %}
 OsmAnd+ and OsmAnd Unlimited have the same functionality.
