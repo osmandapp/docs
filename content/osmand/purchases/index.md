@@ -41,7 +41,8 @@ In the list, there is information about prices of OsmAnd product for the Europe 
 |    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live for OsmAnd Free| OsmAnd live for OsmAnd+|
 | :------------- | :------------- | :------------- | :------------- |  :------------- | 
 | **Purchase** | - | **One-time**, use forever | **Subscription** for 1 month / 3 months / 1 year | **Subscription** for 1 month / 3 months / 1 year |
-| **Price** | 0€ | 19.99€  |  1.99€ / 3.99€ / 7.99€  |  1.49€ / 2.99€ / 5.99€ | 
+| **Price EUR** | 0€ | 19.99€  |  1.99€ / 3.99€ / 7.99€  |  1.49€ / 2.99€ / 5.99€ | 
+| **Price USD** | 0$ | 19.99$  |  1.99$ / 3.99$ / 7.99$  |  1.49$ / 2.99$ / 5.99$ | 
 
 ### Free and Paid features
 
@@ -97,15 +98,15 @@ In lists, there is information about prices of OsmAnd product for the Europe reg
 | {% data variables.ios-values.product_title_sea_depth_contours %} | {% data variables.ios-values.product_desc_sea_depth_contours %} | 2.29€  |
 | {% data variables.ios-values.product_title_wiki %} | Get information about points of interest from Wikipedia. | 0€  |
 | {% data variables.ios-values.product_title_srtm %} | This plugin provides contour lines, hillshade and slopes, which can be displayed in OsmAnd offline maps. Contour lines provide the information about heights of the area while hillshade and slopes are their visualization. See the names of mountain peaks and specific features of terrain using this plugin. | 5.49€  |
-| {% data variables.ios-values.product_title_allworld %} | {% data variables.ios-values.product_desc_allworld %} | 12.99€  |
-| {% data variables.ios-values.product_title_russia %} | {% data variables.ios-values.product_desc_russia %} | 5.49€  |
-| {% data variables.ios-values.product_title_africa %} | {% data variables.ios-values.product_desc_africa %} | 5.49€  |
-| {% data variables.ios-values.product_title_asia %} | {% data variables.ios-values.product_desc_asia %} | 5.49€  |
-| {% data variables.ios-values.product_title_australia %} | {% data variables.ios-values.product_desc_australia %} | 5.49€  |
-| {% data variables.ios-values.product_title_europe %} | {% data variables.ios-values.product_desc_europe %} | 6.99€  |
-| {% data variables.ios-values.product_title_centralamerica %} | {% data variables.ios-values.product_desc_centralamerica %} | 5.49€  |
-| {% data variables.ios-values.product_title_northamerica %} | {% data variables.ios-values.product_desc_northamerica %} | 6.99€  |
-| {% data variables.ios-values.product_title_southamerica %} | {% data variables.ios-values.product_desc_southamerica %} | 5.49€  |
+| {% data variables.ios-values.product_title_allworld %} | {% data variables.ios-values.product_desc_allworld %} | 12.99€ / 12.99$  |
+| {% data variables.ios-values.product_title_russia %} | {% data variables.ios-values.product_desc_russia %} | 5.49€  / 5.49$ |
+| {% data variables.ios-values.product_title_africa %} | {% data variables.ios-values.product_desc_africa %} | 5.49€ / 5.49$ |
+| {% data variables.ios-values.product_title_asia %} | {% data variables.ios-values.product_desc_asia %} | 5.49€ / 5.49$ |
+| {% data variables.ios-values.product_title_australia %} | {% data variables.ios-values.product_desc_australia %} | 5.49€ / 5.49$  |
+| {% data variables.ios-values.product_title_europe %} | {% data variables.ios-values.product_desc_europe %} | 6.99€ / 6.99$ |
+| {% data variables.ios-values.product_title_centralamerica %} | {% data variables.ios-values.product_desc_centralamerica %} | 5.49€ / 5.49$  |
+| {% data variables.ios-values.product_title_northamerica %} | {% data variables.ios-values.product_desc_northamerica %} | 6.99€  / 6.99$ |
+| {% data variables.ios-values.product_title_southamerica %} | {% data variables.ios-values.product_desc_southamerica %} | 5.49€ / 5.49$ |
 
 Subscription purchases in OsmAnd application:
 
@@ -113,9 +114,9 @@ Subscription purchases in OsmAnd application:
 
 |  Period  | Description   | Price |
 | :------------- | :------------- | :------------- |
-| 1 month |Get unlimited hourly map updates and all features included from 1 month. | 1.99€  |
-| 3 months|Get unlimited hourly map updates and all features included from 3 months. | 3.99€   |
-| 1 year |Get unlimited hourly map updates and all features included from 1 year. | 7.99€   |
+| 1 month |Get unlimited hourly map updates and all features included from 1 month. | 1.99€  / 1.99$ |
+| 3 months|Get unlimited hourly map updates and all features included from 3 months. | 3.99€ / 3.99$  |
+| 1 year |Get unlimited hourly map updates and all features included from 1 year. | 7.99€ / 7.99$ |
 
 ### Free and Paid features
 
