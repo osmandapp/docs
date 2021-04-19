@@ -1,10 +1,10 @@
 ---
-title: "Step by step installation"
+title: "Step by step"
 intro: ""
 versions: '*'
 ---
 
-### Market Installations 
+### Install OsmAnd
 OsmAnd is a mobile application available for **Android** and **iOS**. You can download it on most popular Application Stores.
 
 **Android markets**: [Google play store](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_3?dchild=1&keywords=osmand&qid=1616685559&sr=8-3). More information about OsmAnd versions and paid services is available at [Purchases info](/osmand/purchases).  
@@ -21,5 +21,9 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 In case you need to reinstall the app, please make sure you have back up all your [Personal Data](/osmand/import-export) data such as Tracks and Favorites.
 
-### Map & Directions
-TODO: Give location permissions / start first navigation / select voice navigation.
+### Browse Map
+TODO: Browse map Give location permissions 
+### Search
+TODO: Search by address / name
+### Start Navigation
+TODO: Give location permissions / select voice navigation.
