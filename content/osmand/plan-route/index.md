@@ -96,6 +96,7 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 ### Points list and graph
 
+| | |  |
 |------------|------------|------------------|
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) | Description |
 | Click to "Points" button or to points list| Click to the open icon on the points list | In Points menu we can delete points (click to "Delete" button neare choosed point) or change order of it (move a line of choosed point to up or below). |
