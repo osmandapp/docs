@@ -32,7 +32,9 @@ or to click to {% data variables.android-values.edit_track %} on context menu sc
 
 ![Plan route android_contextmenu](/assets/images/plan-route/plan-route-android-contextmenu.png)
 
-## 'Plan route' menu
+## 'Plan route' 
+
+### Menu
 
 In the tool you can create new GPX route or open existing track. When you open 'Plan route' tool menu you find the next buttons:
 
@@ -45,8 +47,7 @@ In the tool you can create new GPX route or open existing track. When you open '
 | **{% data variables.android-values.plan_route_last_edited %}** - choose GPX track from last modified. | **{% data variables.ios-values.plan_route_last_modified %}** - choose GPX track from last modified. | 
 | ![Plan route android_choosemenu](/assets/images/plan-route/plan-route-android-choose-menu.png) | ![Plan route ios_choosemenu](/assets/images/plan-route/plan-route-ios-choosemenu.png) |
 
-## 'Plan route' main screen
-
+### Main screen
 
 | | |
 |------------|------------|
@@ -78,7 +79,7 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 **11.** Widgets - [My Location & Zoom](/osmand/widgets/map-buttons#my-location--zoom).
 
-## Route line
+### Route line
 
 | | |
 |------------|------------|
@@ -93,12 +94,9 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 **4.** Straight line and target point.
 
-## Points list and graph
+### Points list and graph
 
-
-
-| | |  |
-|------------|------------|----------------------------|
+|------------|------------|------------------|
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) | Description |
 | Click to "Points" button or to points list| Click to the open icon on the points list | In Points menu we can delete points (click to "Delete" button neare choosed point) or change order of it (move a line of choosed point to up or below). |
 | ![Plan route android-pointslist](/assets/images/plan-route/plan-route-pointslist-android.png) | ![Plan route ios-pointslist](/assets/images/plan-route/plan-route-pointslist-ios.png) | |
@@ -106,7 +104,7 @@ In the tool you can create new GPX route or open existing track. When you open '
 | ![Plan route android-graph](/assets/images/plan-route/plan-route-graph-android.png) |  | |
 
 
-### Drawing a route
+## Drawing a route
 
 Start drawing a route:
 
