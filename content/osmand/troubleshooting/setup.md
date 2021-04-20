@@ -11,6 +11,7 @@ versions: '*'
 
 ## Purchases
 ### How to restore purchases?
+- What does mean 7 free maps?
 
 ## Plugins
 
