@@ -78,9 +78,22 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 **11.** Widgets - [My Location & Zoom](/osmand/widgets/map-buttons#my-location--zoom).
 
+## Route line, Points list and graph
 
+| | |
+|------------|------------|
+| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
+| ![Plan route android-routeline](/assets/images/plan-route/plan-route-routeline-android.png) | ![Plan route ios-screen](/assets/images/plan-route/plan-route-routeline-ios.png) |
 
-### Create new GPX track
+**1.** Profile icon (Android).
+
+**2.** Shaping point - basic point building the route.
+
+**3.** Calculated route segment between shaping points. Colors of your choosed application profiles (Android) or last choosed (iOS).
+
+**4.** Straight line and target point.
+
+### Drawing a route
 
 Start drawing a route:
 
@@ -113,12 +126,14 @@ Choose how to connect the points, by a straight line, or calculate a route betwe
 
 {% data variables.android-values.next_segment %} - {% data variables.android-values.route_between_points_next_segment_button_desc %}
 
-When you use two or more application profiles for your route:
+ - When you use two or more application profiles for your route:
 
 | | |
 |------------|------------|
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
 | ![Plan route android-screen](/assets/images/plan-route/plan-route-segments-android.png) | ![Plan route ios-screen](/assets/images/plan-route/plan-route-segments-ios.png) |
+
+- Click to Done button for save your route like GPX file.
 
 
 ### Modify existing GPX track
