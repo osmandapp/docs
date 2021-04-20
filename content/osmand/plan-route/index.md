@@ -101,7 +101,7 @@ Straight line is useful for simple distance measurement, azimuth info or for are
 
 For ![icon-android](/assets/images/site/icon-android.png) we can modify routing parameters for choosed app profile by clicking to settings icon ![icon-settings](/assets/images/plan-route/icon-settings.png) on the profile button.
 
-![app-settings](/assets/images/plan-route/app-set.png)
+![app-settings](/assets/images/plan-route/plan-route-app-set.png)
 
 
 
