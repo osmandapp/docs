@@ -78,20 +78,33 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 **11.** Widgets - [My Location & Zoom](/osmand/widgets/map-buttons#my-location--zoom).
 
-## Route line, Points list and graph
+## Route line
 
 | | |
 |------------|------------|
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
 | ![Plan route android-routeline](/assets/images/plan-route/plan-route-routeline-android.png) | ![Plan route ios-screen](/assets/images/plan-route/plan-route-routeline-ios.png) |
 
-**1.** Profile icon (Android).
+**1.** Profile icon (Android). It's mean that this segment was built by this profile routing.
 
 **2.** Shaping point - basic point building the route.
 
 **3.** Calculated route segment between shaping points. Colors of your choosed application profiles (Android) or last choosed (iOS).
 
 **4.** Straight line and target point.
+
+## Points list and graph
+
+
+
+| | |
+|------------|------------|------------|
+| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) | Description |
+| Click to "Points" button or to points list| Click to the open icon on the points list | In Points menu we can delete points (click to "Delete" button neare choosed point) or change order of it (move a line of choosed point to up or below). |
+| ![Plan route android-pointslist](/assets/images/plan-route/plan-route-pointslist-android.png) | ![Plan route ios-pointslist](/assets/images/plan-route/plan-route-pointslist-ios.png) | |
+| Click to "Graph" button| - | View of the graph of a route with Overwiew, Altitude, Slope, Road type, Surface, Steepness. |
+| ![Plan route android-graph](/assets/images/plan-route/plan-route-graph-android.png) |  | |
+
 
 ### Drawing a route
 
@@ -107,6 +120,8 @@ Choose how to draw:
 ![Plan route straight_line](/assets/images/plan-route/plan-route-straight-line.png)
 
 Straight line is useful for simple distance measurement, azimuth info or for areas not covered by routing data (off-road and off-path areas).
+
+- Click to Add button for adding shaping points or just click to the screen.
 
 - Click to the profile button for choosing application profile. The route will be calculated between points by routing of your profile.
 
