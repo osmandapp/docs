@@ -99,10 +99,26 @@ Straight line is useful for simple distance measurement, azimuth info or for are
 
 ![Plan route app_button](/assets/images/plan-route/plan-route-app-button.png)
 
-For ![icon-android](/assets/images/site/icon-android.png) we can modify routing parameters for choosed app profile by clicking to settings icon ![icon-settings](/assets/images/plan-route/icon-settings.png) on the profile button.
+For ![icon-android](/assets/images/site/icon-android.png) we can modify routing parameters for choosed app profile by clicking to settings icon ![icon-settings](/assets/images/plan-route/icon-settings.png) on the profile button:
 
 ![app-settings](/assets/images/plan-route/plan-route-app-set.png)
 
+- Choose two or more application profiles for creating the route. Click to the application button:
+
+ ![Plan route app_choosing](/assets/images/plan-route/plan-route-app-choosing.png) 
+
+Choose how to connect the points, by a straight line, or calculate a route between them as specified:
+
+{% data variables.android-values.whole_track %} - {% data variables.android-values.route_between_points_whole_track_button_desc %}
+
+{% data variables.android-values.next_segment %} - {% data variables.android-values.route_between_points_next_segment_button_desc %}
+
+When you use two or more application profiles for your route:
+
+| | |
+|------------|------------|
+| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
+| ![Plan route android-screen](/assets/images/plan-route/plan-route-segments-android.png) | ![Plan route ios-screen](/assets/images/plan-route/plan-route-segments-ios.png) |
 
 
 ### Modify existing GPX track
