@@ -8,8 +8,8 @@ versions: '*'
 
 ### How to recover data?
 ### How to copy my favorites and tracks to the new device?
--The easiest way is to export profile with all needed information. Menu->Configure profile->Export profile->select data that you want to export.
--Also, you can backup all your data from the previous device if you copy the folder specified in Settings - OsmAnd Settings - Data storage folder (by default it's Android/data/net.osmand.plus). Then, simply paste all the contents of this folder back to the Data storage folder directory.
+- The easiest way is to export profile with all needed information. Menu->Configure profile->Export profile->select data that you want to export.
+- Also, you can backup all your data from the previous device if you copy the folder specified in Settings - OsmAnd Settings - Data storage folder (by default it's Android/data/net.osmand.plus). Then, simply paste all the contents of this folder back to the Data storage folder directory.
 ## Purchases
 ### How to restore purchases?
 - For iOS: Please open OsmAnd go to Menu > Maps & Resources > Purchases tab > tap 'Restore All Purchases' button > enter your Apple ID.
