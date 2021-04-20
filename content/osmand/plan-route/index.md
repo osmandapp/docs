@@ -61,7 +61,7 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 **4.** Points list and Graph (Android) list with distance, azimuth (for next point), points number.
 
-**5.** Button for choosing [application profile](/osmand/start-with/profiles).
+**5.** Profile button for choosing [application profile](/osmand/start-with/profiles).
 
 **6.** Done button - finish and save GPX route.
 
@@ -82,9 +82,27 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 ### Create new GPX track
 
+Start drawing a route:
+
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plan_a_route %} → {% data variables.android-values.plan_route_create_new_route %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plan_route %} → {% data variables.ios-values.plan_route_create_new_route%}
+
+Choose how to draw:
+- By default **straight line** - only plain line stretches between shaping points:
+
+![Plan route straight_line](/assets/images/plan-route/plan-route-straight-line.png)
+
+Straight line is useful for simple distance measurement, azimuth info or for areas not covered by routing data (off-road and off-path areas).
+
+- Click to the profile button for choosing application profile. The route will be calculated between points by routing of your profile.
+
+![Plan route app_button](/assets/images/plan-route/plan-route-app-button.png)
+
+For ![icon-android](/assets/images/site/icon-android.png) we can modify routing parameters for choosed app profile by clicking to settings icon ![icon-settings](/assets/images/site/icon-settings.png) on the profile button.
+
+![app-settings](/assets/images/site/app-set.png)
+
 
 
 ### Modify existing GPX track
