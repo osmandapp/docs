@@ -38,8 +38,8 @@ or to click to {% data variables.android-values.edit_track %} on context menu sc
 
 In the tool you can create new GPX route or open existing track. When you open 'Plan route' tool menu you find the next buttons:
 
-| | |  |
-|------------|------------|------------|
+| | |
+|------------|------------|
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
 | **{% data variables.android-values.plan_route_create_new_route %}** - create new GPX route | **{% data variables.ios-values.plan_route_create_new_route %}** - create new GPX route |
 | **{% data variables.android-values.plan_route_open_existing_track %}** - open existing GPX track from OsmAnd track folder. | **{% data variables.ios-values.plan_route_open_existing_track%}** - open existing GPX track from OsmAnd track folder. |
