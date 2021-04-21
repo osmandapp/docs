@@ -73,7 +73,7 @@ In the tool you can create new GPX route or open existing track. When you open '
 **9.** Widgets (Android) - [Configure map
 ](/osmand/widgets/map-buttons#configure-map), [Search](/osmand/widgets/map-buttons#search), [Compass](/osmand/widgets/map-buttons#compass).
 
-**10.** Widgets (Android) - {Informational widgets
+**10.** Widgets (Android) - [Informational widgets
 ](/osmand/widgets/info-widgets), [Navigational widgets
 ](/osmand/widgets/nav-widgets).
 
@@ -98,7 +98,7 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 | | |
 |------------|------------|
-| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) | Description |
+| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
 | **1.Click to "Points" button or to points list.**| **1.Click to the open icon on the points list.** | 
 |Description:|In Points menu we can delete points (click to "Delete" button neare choosed point) or change order of it (move a line of choosed point to up or below).|
 | ![Plan route android-pointslist](/assets/images/plan-route/plan-route-pointslist-android.png) | ![Plan route ios-pointslist](/assets/images/plan-route/plan-route-pointslist-ios.png) |
