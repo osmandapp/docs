@@ -94,16 +94,16 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 **4.** Straight line and target point.
 
-### Points list and graph
+### Points list and Graph
 
 | | |
 |------------|------------|
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
 | **1.Click to "Points" button or to points list.**| **1.Click to the open icon &#710 on the points list.** | 
-|Description: | In Points menu we can delete points (click to "Delete" button neare choosed point) or change order of it (move a line of choosed point to up or below). |
+|Description: | ADD info! In Points menu we can delete points (click to "Delete" button neare choosed point) or change order of it (move a line of choosed point to up or below).  |
 | ![Plan route android-pointslist](/assets/images/plan-route/plan-route-pointslist-android.png) | ![Plan route ios-pointslist](/assets/images/plan-route/plan-route-pointslist-ios.png) |
 | **2.Click to "Graph" button.**| - |
-|Description:|View of the graph of a route with Overwiew, Altitude, Slope, Road type, Surface, Steepness. |
+|Description:| ADD info!  View of the graph of a route with Overwiew, Altitude, Slope, Road type, Surface, Steepness. |
 | ![Plan route android-graph](/assets/images/plan-route/plan-route-graph-android.png) |  |
 
 ## Creating a route
@@ -156,6 +156,11 @@ For ![icon-ios](/assets/images/site/icon-ios.png) all segments have color of las
 |------------|------------|
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
 | ![Plan route android-screen](/assets/images/plan-route/plan-route-segments-android.png) | ![Plan route ios-screen](/assets/images/plan-route/plan-route-segments-ios.png) |
+
+### Actions of Points list and Graph
+
+- Points list actions
+- Graph actions (Android)
 
 ### Saving a route
 
