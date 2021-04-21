@@ -13,7 +13,7 @@ The route is many strings between points. Strings can be straight lines or route
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
 | ![Plan route android](/assets/images/plan-route/plan-route-android.png) | ![Plan route ios](/assets/images/plan-route/plan-route-ios.png) |
 
-## Where to find 'Plan route'
+## Open 'Plan route'
 
 The 'Plan route' can be switched on:
 
@@ -34,7 +34,7 @@ or to click to {% data variables.android-values.edit_track %} on context menu sc
 
 ## 'Plan route' 
 
-### Menu
+### Main menu
 
 In the tool you can create new GPX route or open existing track. When you open 'Plan route' tool menu you find the next buttons:
 
@@ -58,7 +58,7 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 **2.** {% data variables.android-values.shared_string_add %} shaping points.
 
-**3.** back/forward - move along planning process steps.
+**3.** Back/forward - move along planning process steps.
 
 **4.** Points list and Graph (Android) list with distance, azimuth (for next point), points number.
 
@@ -106,13 +106,15 @@ In the tool you can create new GPX route or open existing track. When you open '
 |Description:|View of the graph of a route with Overwiew, Altitude, Slope, Road type, Surface, Steepness. |
 | ![Plan route android-graph](/assets/images/plan-route/plan-route-graph-android.png) |  |
 
-## Drawing a route
+## Creating a route
 
-Start drawing a route:
+Start creating a route:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plan_a_route %} → {% data variables.android-values.plan_route_create_new_route %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plan_route %} → {% data variables.ios-values.plan_route_create_new_route%}
+
+### Drawing a line
 
 Choose how to draw:
 - By default **straight line** - only plain line stretches between shaping points:
@@ -123,7 +125,10 @@ Straight line is useful for simple distance measurement, azimuth info or for are
 
 - Click to "Add" button for adding shaping points or just click to the screen.
 
+### Drawing a route
+
 - Click to the profile button for choosing application profile. The route will be calculated between points by routing of your profile.
+- Click to "Add" button for adding shaping points or just click to the screen.
 
 ![Plan route app_button](/assets/images/plan-route/plan-route-app-button.png)
 
@@ -131,7 +136,7 @@ For ![icon-android](/assets/images/site/icon-android.png) we can modify routing 
 
 ![app-settings](/assets/images/plan-route/plan-route-app-set.png)
 
-- Choose two or more application profiles for creating the route. Click to the application button:
+- Choose two or more application profiles for creating a route. Click to the application button:
 
  ![Plan route app_choosing](/assets/images/plan-route/plan-route-app-choosing.png) 
 
@@ -152,7 +157,13 @@ For ![icon-ios](/assets/images/site/icon-ios.png) all segments have color of las
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
 | ![Plan route android-screen](/assets/images/plan-route/plan-route-segments-android.png) | ![Plan route ios-screen](/assets/images/plan-route/plan-route-segments-ios.png) |
 
-- "Options" menu.
+### Saving a route
+
+- Click to Done button for save your route like GPX file.
+
+My places menu...
+
+## "Options" menu
 
 
 | | |
@@ -169,12 +180,19 @@ For ![icon-ios](/assets/images/site/icon-ios.png) all segments have color of las
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
 | ![Plan route android-options](/assets/images/plan-route/plan-route-options-android.png) | ![Plan route ios-options](/assets/images/plan-route/plan-route-options-ios.png) |
 
-- Click to Done button for save your route like GPX file.
 
 
-### Modify existing GPX track
+## Modify existing GPX track
 
+Snap your track to the nearest allowed road with one of your application profiles to use this option:
 
+- Open
+- Choose app profile
+- Choose treshold distance
+- Calculation
+- Apply
+- The result
+- Done and save
 
 ## Useful links
 
