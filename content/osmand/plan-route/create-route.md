@@ -184,6 +184,9 @@ My places menu...
 
 ## Modify existing GPX track
 
+### Modify GPX track
+
+### Snap to roads
 Snap your track to the nearest allowed road with one of your application profiles to use this option:
 
 - Open
