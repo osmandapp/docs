@@ -122,7 +122,7 @@ Choose how to draw:
 
 Straight line is useful for simple distance measurement, azimuth info or for areas not covered by routing data (off-road and off-path areas).
 
-- Click to Add button for adding shaping points or just click to the screen.
+- Click to "Add" button for adding shaping points or just click to the screen.
 
 - Click to the profile button for choosing application profile. The route will be calculated between points by routing of your profile.
 
@@ -144,10 +144,29 @@ Choose how to connect the points, by a straight line, or calculate a route betwe
 
  - When you use two or more application profiles for your route:
 
+For ![icon-android](/assets/images/site/icon-android.png) each segment has a profile icon and color of the application profile which using for calculated route between shaping points.
+
+For ![icon-ios](/assets/images/site/icon-ios.png) all segments have color of last using application profile for calculated route.
+
 | | |
 |------------|------------|
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
 | ![Plan route android-screen](/assets/images/plan-route/plan-route-segments-android.png) | ![Plan route ios-screen](/assets/images/plan-route/plan-route-segments-ios.png) |
+
+- "Options" menu.
+
+
+| | |
+|------------|------------|
+|Parameter|Description|
+| 1. {% data variables.android-values.route_between_points %} | Show choosing application profile. By clicking - application profile menu ADD Link |
+| 2. {% data variables.android-values.plan_route_add_new_segment %} or {% data variables.ios-values.track_new_segment %} | Drawing new segments which not connect with the previous.  |
+| 3. {% data variables.android-values.shared_string_save_changes %} | Saving all changes.??? |
+| 4. {% data variables.android-values.save_as_new_track %} | Save drawn route like GPX track. |
+| 5. {% data variables.android-values.add_to_a_track %} | Add drawn route to a choosing GPX track. |
+| 6. {% data variables.android-values.get_directions %} |Start navigation from your position to the finish point using a drawn route.|
+| 7. {% data variables.android-values.reverse_route %} | Reverse a drawn route. |
+| 8. {% data variables.android-values.shared_string_clear_all %} | Clear all shaping points.  |
 
 - Click to Done button for save your route like GPX file.
 
