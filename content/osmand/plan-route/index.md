@@ -167,6 +167,8 @@ For ![icon-ios](/assets/images/site/icon-ios.png) all segments have color of las
 | 6. {% data variables.android-values.get_directions %} |Start navigation from your position to the finish point using a drawn route.|
 | 7. {% data variables.android-values.reverse_route %} | Reverse a drawn route. |
 | 8. {% data variables.android-values.shared_string_clear_all %} | Clear all shaping points.  |
+| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
+| ![Plan route android-options](/assets/images/plan-route/plan-route-options-android.png) | ![Plan route ios-options](/assets/images/plan-route/plan-route-options-ios.png) |
 
 - Click to Done button for save your route like GPX file.
 
