@@ -96,14 +96,12 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 ### Points list and graph
 
-In Points menu we can delete points (click to "Delete" button neare choosed point) or change order of it (move a line of choosed point to up or below).
 
 | | |
 |------------|------------|
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
-| **1.Click to "Points" button or to points list.**| **1.Click to the open icon on the points list.** | 
-|Description:| |
-| ![Plan route android-pointslist](/assets/images/plan-route/plan-route-pointslist-android.png) | ![Plan route ios-pointslist](/assets/images/plan-route/plan-route-pointslist-ios.png) |
+| **1.Click to "Points" button or to points list.**| **1.Click to the open icon U+02C6 on the points list.** | 
+|Description: | In Points menu we can delete points (click to "Delete" button neare choosed point) or change order of it (move a line of choosed point to up or below). |
 | **2.Click to "Graph" button.**| - |
 |Description:|View of the graph of a route with Overwiew, Altitude, Slope, Road type, Surface, Steepness. |
 | ![Plan route android-graph](/assets/images/plan-route/plan-route-graph-android.png) |  |
