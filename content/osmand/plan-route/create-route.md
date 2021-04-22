@@ -166,6 +166,8 @@ For ![icon-ios](/assets/images/site/icon-ios.png) all segments have color of las
 
 - Click to Done button for save your route like GPX file.
 
+![Plan route android-save](/assets/images/plan-route/plan-route-animation.gif)
+
 My places menu...
 
 ## "Options" menu
