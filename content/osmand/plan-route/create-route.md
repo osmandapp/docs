@@ -96,6 +96,7 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 ### Points list and Graph
 
+
 | | |
 |------------|------------|
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
@@ -105,6 +106,20 @@ In the tool you can create new GPX route or open existing track. When you open '
 | **2.Click to "Graph" button.**| - |
 |Description:| ADD info!  View of the graph of a route with Overwiew, Altitude, Slope, Road type, Surface, Steepness. |
 | ![Plan route android-graph](/assets/images/plan-route/plan-route-graph-android.png) |  |
+
+
+
+| | |
+|------------|------------|
+| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
+| **1.Click to a point from points list**| **1.Click to a point from points list** | 
+|**Description:** | Open Point menu  |
+|**Actions in Point menu:** | 1. Point info (Number of point, Distance, Speed...)  |
+|| 2. Move point  |
+|| 3. Add point after  |
+|| 4. Add point before  |
+| **2.Click to Graph**| - |
+|**Description:**| Connect point in the graph with point on the map |
 
 ## Creating a route
 
