@@ -1,6 +1,6 @@
 ---
 title: "Step by step"
-intro: "First steps with OsmAnd Setup"
+intro: "First steps with OsmAnd. "
 versions: '*'
 ---
 
