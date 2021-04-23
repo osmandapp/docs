@@ -8,11 +8,11 @@ versions: '*'
 
 ### How to recover data?
 ### How to copy my favorites and tracks to the new device?
-- The easiest way is to export profile with all needed information. Menu->Configure profile->Export profile->select data that you want to export.
+- The easiest way is to export profile with all needed information. Menu → Configure profile → Export profile → select data that you want to export.
 - Also, you can backup all your data from the previous device if you copy the folder specified in Settings - OsmAnd Settings - Data storage folder (by default it's Android/data/net.osmand.plus). Then, simply paste all the contents of this folder back to the Data storage folder directory.
 ## Purchases
 ### How to restore purchases?
-- For iOS: Please open OsmAnd go to Menu > Maps & Resources > Purchases tab > tap 'Restore All Purchases' button > enter your Apple ID.
+- For iOS: Please open OsmAnd go to Menu → Maps & Resources → Purchases tab → tap 'Restore All Purchases' button > enter your Apple ID.
 - For Android: Please open your Google Play app using the same email you used when purchasing OsmAnd. Enter 'OsmAnd+' or OsmAnd free (if you want to restore OsmAnd Unlimited) to the search field and install the app. You won't have to pay again, all paid function should be available by default. If that is not the case, please go to your device's Settings > Apps > 'Google Play' and clear the cache. Then restart the app and try again.
 ### How can I identify that OsmAnd Unlimited is active?
 Please, go to 'Download maps' menu and press on the map counter. (The field that says 'Free version. X downloads left'.) If OsmAnd Unlimited is active it should display you the amount of memory device left.
