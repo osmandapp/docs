@@ -46,7 +46,7 @@ Map orientation could be changed in Profile settings:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.map_settings_appearance %} → {% data variables.ios-values.rotate_map_to_bearing %}
 
-## Extra compass settings (Android)
+### Extra compass settings (Android)
 
 - ** Use Kalman filter (Android)** - smoothen rotation of the map with a slower rotation animation though it introduces a small delay (< 1 second) till:  
 
