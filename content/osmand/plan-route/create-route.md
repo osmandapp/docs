@@ -117,7 +117,7 @@ Actions in Point menu (by clicking to a point in Points list):
 
 | | |
 |------------|------------|
-| **1.Click to a point from points list** (![icon-android](/assets/images/site/icon-android.png) ![icon-ios](/assets/images/site/icon-ios.png): | Open Point menu| 
+| **1.Click to a point from points list** ![icon-android](/assets/images/site/icon-android.png) ![icon-ios](/assets/images/site/icon-ios.png): | Open Point menu| 
 |**Actions in Point menu:** |   |
 |1. Point info | Showed Number of point, Distance, Speed, Altitude |
 |2. {% data variables.ios-values.move_point %}|  {% data variables.ios-values.move_point_descr %} |
