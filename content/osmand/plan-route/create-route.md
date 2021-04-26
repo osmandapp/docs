@@ -36,7 +36,7 @@ or to click to {% data variables.android-values.edit_track %} on context menu sc
 
 ### Main menu
 
-In the tool you can create new GPX route or open existing track. When you open 'Plan route' tool menu you find the next buttons:
+In the tool you can create new GPX route or open and modify existing track. When you open 'Plan route' tool menu you find the next buttons:
 
 | | |
 |------------|------------|
@@ -49,18 +49,20 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 ### Main screen
 
+At the main screen of the tool there are next elements:
+
 | | |
 |------------|------------|
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
 | ![Plan route android-screen](/assets/images/plan-route/plan-route-android-screen.png) | ![Plan route ios-screen](/assets/images/plan-route/plan-route-ios-screen.png) |
 
-**1.** {% data variables.android-values.shared_string_options %} menu.
+**1.** [{% data variables.android-values.shared_string_options %}](/osmand/plan-route/create-route#options-menu) menu.
 
-**2.** {% data variables.android-values.shared_string_add %} shaping points.
+**2.** {% data variables.android-values.shared_string_add %} button for shaping points.
 
 **3.** Back/forward - move along planning process steps.
 
-**4.** Points list and Graph (Android) list with distance, azimuth (for next point), points number.
+**4.** [Points list and Graph (Android) list](/osmand/plan-route/create-route#points-list-and-graph) with distance, azimuth (for next point), points number.
 
 **5.** Profile button for choosing [application profile](/osmand/start-with/profiles).
 
@@ -81,6 +83,8 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 ### Route line
 
+The Route line shows an [automatically generated road or straight route](/osmand/plan-route/create-route#creating-a-route) which you can save like GPX-track.
+
 | | |
 |------------|------------|
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
@@ -88,7 +92,7 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 **1.** Profile icon (Android). It's mean that this segment was built by this profile routing.
 
-**2.** Shaping point - basic point building the route.
+**2.** Shaping points - basic points building the route.
 
 **3.** Calculated route segment between shaping points. Colors of your choosed application profiles (Android) or last choosed (iOS).
 
@@ -96,18 +100,20 @@ In the tool you can create new GPX route or open existing track. When you open '
 
 ### Points list and Graph
 
+Actions with Points list and Graph:
 
 | | |
 |------------|------------|
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
 | **1.Click to "Points" button or to points list.**| **1.Click to the open icon &#710 on the points list.** | 
-|Description: | ADD info! In Points menu we can delete points (click to "Delete" button neare choosed point) or change order of it (move a line of choosed point to up or below).  |
+|Description: | Each point has information about distance and azimuth for a new making route, and additional altitude and the speed information for recorded GPX track. In Points menu we can delete points (click to "Delete" button neare choosed point) or change order of it (move a line of choosed point to up or below). Click to point menu opens Point menu. |
 | ![Plan route android-pointslist](/assets/images/plan-route/plan-route-pointslist-android.png) | ![Plan route ios-pointslist](/assets/images/plan-route/plan-route-pointslist-ios.png) |
 | **2.Click to "Graph" button.**| - |
-|Description:| ADD info!  View of the graph of a route with Overwiew, Altitude, Slope, Road type, Surface, Steepness. |
+|Description:| Click to graph shows information about point and its location on the route. View of the graph of a route with Overview, Altitude, Slope, Road type, Surface, Steepness. |
 | ![Plan route android-graph](/assets/images/plan-route/plan-route-graph-android.png) |  |
 
 
+Actions in Points menu:
 
 | | |
 |------------|------------|
