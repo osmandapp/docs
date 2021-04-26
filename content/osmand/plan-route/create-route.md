@@ -106,26 +106,30 @@ Actions with Points list and Graph:
 |------------|------------|
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
 | **1.Click to "Points" button or to points list.**| **1.Click to the open icon &#710 on the points list.** | 
-|Description: | Each point has information about distance and azimuth for a new making route, and additional altitude and the speed information for recorded GPX track. In Points menu we can delete points (click to "Delete" button neare choosed point) or change order of it (move a line of choosed point to up or below). Click to point menu opens Point menu. |
 | ![Plan route android-pointslist](/assets/images/plan-route/plan-route-pointslist-android.png) | ![Plan route ios-pointslist](/assets/images/plan-route/plan-route-pointslist-ios.png) |
+|Description: | Each point has information about distance and azimuth for a new making route, and additional altitude and the speed information for recorded GPX track. In Points menu we can delete points (click to "Delete" button neare choosed point) or change order of it (move a line of choosed point to up or below). Clicking to a point opens Point menu. |
 | **2.Click to "Graph" button.**| - |
-|Description:| Click to graph shows information about point and its location on the route. View of the graph of a route with Overview, Altitude, Slope, Road type, Surface, Steepness. |
 | ![Plan route android-graph](/assets/images/plan-route/plan-route-graph-android.png) |  |
+|Description:| Click to graph shows information about point and its location on the route. View of the graph of a route with Overview, Altitude, Slope, Road type, Surface, Steepness. |
 
 
-Actions in Points menu:
+Actions in Point menu (by clicking to a point in Points list):
 
 | | |
 |------------|------------|
-| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
-| **1.Click to a point from points list**| **1.Click to a point from points list** | 
-|**Description:** | Open Point menu  |
-|**Actions in Point menu:** | 1. Point info (Number of point, Distance, Speed...)  |
-|| 2. Move point  |
-|| 3. Add point after  |
-|| 4. Add point before  |
-| **2.Click to Graph**| - |
-|**Description:**| Connect point in the graph with point on the map |
+| **1.Click to a point from points list** (![icon-android](/assets/images/site/icon-android.png) ![icon-ios](/assets/images/site/icon-ios.png): | Open Point menu| 
+|**Actions in Point menu:** |   |
+|1. Point info | Showed Number of point, Distance, Speed, Altitude |
+|2. {% data variables.ios-values.move_point %}|  {% data variables.ios-values.move_point_descr %} |
+|3. {% data variables.ios-values.add_after %}|  {% data variables.ios-values.move_point_descr %} |
+|4. {% data variables.ios-values.add_before %}|  {% data variables.ios-values.move_point_descr %} |
+|5. {% data variables.ios-values.trim_before %}|   |
+|6. {% data variables.ios-values.trim_after %}|  |
+| 7. {% data variables.ios-values.split_before %}|   |
+|8. {% data variables.ios-values.split_after %}|  |
+| 9. {% data variables.ios-values.change_route_type_before %}|  |
+|10. {% data variables.ios-values.change_route_type_after %}|   |
+|11. {% data variables.ios-values.delete_point %}|   |
 
 ## Creating a route
 
