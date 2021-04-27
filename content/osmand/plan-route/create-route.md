@@ -213,16 +213,42 @@ In 'Options' menu you can make next actions with your route:
 
 ### Modify GPX track
 
-### Snap to roads
-Snap your track to the nearest allowed road with one of your application profiles to use this option:
+'Plan route' tool allows to modify existing GPX track. You can make any actions with your tracks.
 
-- Open
-- Choose app profile
-- Choose treshold distance
-- Calculation
-- Apply
-- The result
-- Done and save
+Open any GPX track for modifing it:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plan_a_route %} → {% data variables.android-values.plan_route_open_existing_track %} or {% data variables.android-values.plan_route_import_track %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plan_route %} → {% data variables.ios-values.plan_route_open_existing_track %}
+
+In [Points list](/osmand/plan-route/create-route#points-list-and-graph) there is information about quantity of points and a track distance.
+
+| | |
+|------------|------------|
+| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
+| ![Plan route modify-track-android](/assets/images/plan-route/plan-route-modify-track-android.png)| ![Plan route modify-track-ios](/assets/images/plan-route/plan-route-modify-track-ios.png) |
+
+You can make all actions with points in [Points list](/osmand/plan-route/create-route#points-list-and-graph) and [Point menu](/osmand/plan-route/create-route#actions-of-point-menu): delete, change order, move and etc.
+
+For [Graph (Android)](/osmand/plan-route/create-route#points-list-and-graph) you can see actual information for a GPX track: Altitude, Slope, Speed.
+
+In ['Options' menu](/osmand/plan-route/create-route#options-menu) is available all actions for GPX track too: add new segment, reverse route, directions etc.
+
+
+### Snap to roads
+
+For example, you have recorded track. 'Plan route' tool allows snapping your track to the nearest allowed road with one of your application profiles.
+
+For using this option you need to open your track by 'Plan route' tool:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plan_a_route %} → {% data variables.android-values.plan_route_open_existing_track %} or {% data variables.android-values.plan_route_import_track %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plan_route %} → {% data variables.ios-values.plan_route_open_existing_track %}
+
+Next, choose needed application profile for snapping your track to the nearest road. For this you need to click [Profile button](/osmand/plan-route/create-route#main-screen) or choose in ['Options' menu](/osmand/plan-route/create-route#options-menu) {% data variables.android-values.route_between_points %}. For Android you can set {% data variables.android-values.threshold_distance %} parameter.
+
+After calculating new route you click [Done button](/osmand/plan-route/create-route#main-screen) for saving new GPX track which snapping to roads.
+
 
 ## Useful links
 
