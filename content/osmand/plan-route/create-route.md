@@ -215,7 +215,7 @@ In 'Options' menu you can make next actions with your route:
 
 'Plan route' tool allows to modify existing GPX track. You can make any actions with your tracks.
 
-Open any GPX track for modifing it:
+[Open any GPX track(/osmand/plan-route/create-route#modify-gpx-track) for modifing it:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plan_a_route %} → {% data variables.android-values.plan_route_open_existing_track %} or {% data variables.android-values.plan_route_import_track %}
 
@@ -249,9 +249,12 @@ Next, choose needed application profile for snapping your track to the nearest r
 
 After calculating new route you click [Done button](/osmand/plan-route/create-route#main-screen) for saving new GPX track which snapping to roads.
 
+| | |
+|------------|------------|
+| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
+| ![Plan route snap-road-android](/assets/images/plan-route/plan-route-snap-android.gif)| ![Plan route snap-road-ios](/assets/images/plan-route/plan-route-snap-ios.gif) |
 
 ## Useful links
 
-{% link_with_intro /create-route %}
 {% link_with_intro /travel-guides %}
 
