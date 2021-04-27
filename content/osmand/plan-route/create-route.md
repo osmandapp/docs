@@ -100,17 +100,16 @@ The Route line shows an [automatically generated road or straight route](/osmand
 
 ### Points list and Graph
 
-Actions with Points list and Graph:
+Open Points list and Graph:
 
 | | |
 |------------|------------|
-| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
-| **1.Click to "Points" button or to points list.**| **1.Click to the open icon &#710 on the points list.** | 
+| **1.Click to "Points" button or to points list.** ![icon-android](/assets/images/site/icon-android.png) | **1.Click to the open icon &#710 on the points list.** ![icon-ios](/assets/images/site/icon-ios.png) | 
 | ![Plan route android-pointslist](/assets/images/plan-route/plan-route-pointslist-android.png) | ![Plan route ios-pointslist](/assets/images/plan-route/plan-route-pointslist-ios.png) |
-|Description: | Each point has information about distance and azimuth for a new making route, and additional altitude and the speed information for recorded GPX track. In Points menu we can delete points (click to "Delete" button neare choosed point) or change order of it (move a line of choosed point to up or below). Clicking to a point opens Point menu. |
-| **2.Click to "Graph" button.**| - |
+|Description: | Each point has information about distance and azimuth for a new making route, and additional altitude and the speed information for recorded GPX track. In Points menu we can delete points (click to "Delete" button neare choosed point) or change order of it (move a line of choosed point to up or below). [Clicking to a point opens Point menu](/osmand/plan-route/create-route#actions-of-points-list-and-graph). |
+| **2.Click to "Graph" button.** ![icon-android](/assets/images/site/icon-android.png)| - |
 | ![Plan route android-graph](/assets/images/plan-route/plan-route-graph-android.png) |  |
-|Description:| Click to graph shows information about point and its location on the route. View of the graph of a route with Overview, Altitude, Slope, Road type, Surface, Steepness. |
+|Description:| [Click to graph](/osmand/plan-route/create-route#actions-of-points-list-and-graph) shows information about point and its location on the route. View of the graph of a route with Overview, Altitude, Slope, Road type, Surface, Steepness. |
 
 ## Creating a route
 
@@ -131,7 +130,7 @@ Straight line is useful for simple distance measurement, azimuth info or for are
 
 - Click to "Add" button for adding shaping points or just click to the screen.
 
-**Note**: {% data variables.android-values.message_need_calculate_route_before_show_graph %}
+**Note**: Overview data available only on roads, calculate a route using ["Route between points”](/osmand/plan-route/create-route#drawing-a-route) to see graphs.
 
 ### Drawing a route
 
@@ -160,7 +159,7 @@ for ![icon-android](/assets/images/site/icon-android.png) each segment has [a pr
 
 for ![icon-ios](/assets/images/site/icon-ios.png) all segments have [color of last using application profile](/osmand/plan-route/create-route#route-line) for calculated route.
 
-### Actions of Points list and Graph
+### Actions of Point menu
 
 Actions in Point menu (by clicking to a point in [Points list](/osmand/plan-route/create-route#points-list-and-graph)):
 
@@ -186,10 +185,15 @@ Actions in Point menu (by clicking to a point in [Points list](/osmand/plan-rout
 
 ![Plan route android-save](/assets/images/plan-route/plan-route-animation.gif)
 
-My places menu...
+Find your track in My Places menu:
+
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.show_gpx %}
+
+
 
 ## 'Options' menu
 
+In 'Options' menu you can make next actions with your route:
 
 | | |
 |------------|------------|
@@ -204,8 +208,6 @@ My places menu...
 | 8. {% data variables.android-values.shared_string_clear_all %} | Clear all shaping points.  |
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
 | ![Plan route android-options](/assets/images/plan-route/plan-route-options-android.png) | ![Plan route ios-options](/assets/images/plan-route/plan-route-options-ios.png) |
-
-
 
 ## Modify existing GPX track
 
