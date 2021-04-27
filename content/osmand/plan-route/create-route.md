@@ -113,7 +113,7 @@ Open Points list and Graph:
 
 ## Creating a route
 
-Start creating a route:
+[Start creating a route](/osmand/plan-route/create-route#main-menu):
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plan_a_route %} → {% data variables.android-values.plan_route_create_new_route %}
 
@@ -134,16 +134,16 @@ Straight line is useful for simple distance measurement, azimuth info or for are
 
 ### Drawing a route
 
-- Click to the profile button for choosing application profile. The route will be calculated between points by routing of your profile.
-- Click to "Add" button for adding shaping points or just click to the screen.
+- Click to [the Profile button](/osmand/plan-route/create-route#main-screen) for choosing application profile. The route will be calculated between points by routing of your profile.
+- Click to ["Add" button](/osmand/plan-route/create-route#main-screen) for adding shaping points or just click to the screen.
 
 ![Plan route app_button](/assets/images/plan-route/plan-route-app-button.png)
 
-For ![icon-android](/assets/images/site/icon-android.png) we can modify routing parameters for choosed app profile by clicking to settings icon ![icon-settings](/assets/images/plan-route/icon-settings.png) on the profile button:
+For ![icon-android](/assets/images/site/icon-android.png) we can modify routing parameters for choosed app profile by clicking to settings icon ![icon-settings](/assets/images/plan-route/icon-settings.png) on the Profile button:
 
 ![app-settings](/assets/images/plan-route/plan-route-app-set.png)
 
-- Choose two or more application profiles for creating a route. Click to the application button:
+- Choose two or more application profiles for creating a route. Click to [the Profile button](/osmand/plan-route/create-route#main-screen):
 
  ![Plan route app_choosing](/assets/images/plan-route/plan-route-app-choosing.png) 
 
@@ -245,7 +245,7 @@ For using this option you need to open your track by 'Plan route' tool:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plan_route %} → {% data variables.ios-values.plan_route_open_existing_track %}
 
-Next, choose needed application profile for snapping your track to the nearest road. For this you need to click [Profile button](/osmand/plan-route/create-route#main-screen) or choose in ['Options' menu](/osmand/plan-route/create-route#options-menu) {% data variables.android-values.route_between_points %}. For Android you can set {% data variables.android-values.threshold_distance %} parameter.
+Next, choose needed application profile for snapping your track to the nearest road. For this you need to click [Profile button](/osmand/plan-route/create-route#main-screen) or choose in ['Options' menu](/osmand/plan-route/create-route#options-menu) → {% data variables.android-values.route_between_points %}. For Android you can set {% data variables.android-values.threshold_distance %} parameter.
 
 After calculating new route you click [Done button](/osmand/plan-route/create-route#main-screen) for saving new GPX track which snapping to roads.
 
