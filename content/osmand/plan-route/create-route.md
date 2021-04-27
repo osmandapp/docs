@@ -112,25 +112,6 @@ Actions with Points list and Graph:
 | ![Plan route android-graph](/assets/images/plan-route/plan-route-graph-android.png) |  |
 |Description:| Click to graph shows information about point and its location on the route. View of the graph of a route with Overview, Altitude, Slope, Road type, Surface, Steepness. |
 
-
-Actions in Point menu (by clicking to a point in Points list):
-
-| | |
-|------------|------------|
-| **1.Click to a point from points list** ![icon-android](/assets/images/site/icon-android.png) ![icon-ios](/assets/images/site/icon-ios.png): | Open Point menu| 
-|**Actions in Point menu:** |   |
-|1. Point info | Showed Number of point, Distance, Speed, Altitude |
-|2. {% data variables.ios-values.move_point %}|  {% data variables.ios-values.move_point_descr %} |
-|3. {% data variables.ios-values.add_after %}|  {% data variables.ios-values.move_point_descr %} |
-|4. {% data variables.ios-values.add_before %}|  {% data variables.ios-values.move_point_descr %} |
-|5. {% data variables.ios-values.trim_before %}|   |
-|6. {% data variables.ios-values.trim_after %}|  |
-| 7. {% data variables.ios-values.split_before %}|   |
-|8. {% data variables.ios-values.split_after %}|  |
-| 9. {% data variables.ios-values.change_route_type_before %}|  |
-|10. {% data variables.ios-values.change_route_type_after %}|   |
-|11. {% data variables.ios-values.delete_point %}|   |
-
 ## Creating a route
 
 Start creating a route:
@@ -149,6 +130,8 @@ Choose how to draw:
 Straight line is useful for simple distance measurement, azimuth info or for areas not covered by routing data (off-road and off-path areas).
 
 - Click to "Add" button for adding shaping points or just click to the screen.
+
+**Note**: {% data variables.android-values.message_need_calculate_route_before_show_graph %}
 
 ### Drawing a route
 
@@ -173,19 +156,29 @@ Choose how to connect the points, by a straight line, or calculate a route betwe
 
  - When you use two or more application profiles for your route:
 
-For ![icon-android](/assets/images/site/icon-android.png) each segment has a profile icon and color of the application profile which using for calculated route between shaping points.
+for ![icon-android](/assets/images/site/icon-android.png) each segment has [a profile icon and color](/osmand/plan-route/create-route#route-line) of the application profile which using for calculated route between shaping points;
 
-For ![icon-ios](/assets/images/site/icon-ios.png) all segments have color of last using application profile for calculated route.
-
-| | |
-|------------|------------|
-| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
-| ![Plan route android-screen](/assets/images/plan-route/plan-route-segments-android.png) | ![Plan route ios-screen](/assets/images/plan-route/plan-route-segments-ios.png) |
+for ![icon-ios](/assets/images/site/icon-ios.png) all segments have [color of last using application profile](/osmand/plan-route/create-route#route-line) for calculated route.
 
 ### Actions of Points list and Graph
 
-- Points list actions
-- Graph actions (Android)
+Actions in Point menu (by clicking to a point in [Points list](/osmand/plan-route/create-route#points-list-and-graph)):
+
+| | |
+|------------|------------|
+| **1.Click to a point from points list** ![icon-android](/assets/images/site/icon-android.png) ![icon-ios](/assets/images/site/icon-ios.png): | Open Point menu| 
+|**Actions in Point menu:** |   |
+|1. Point info | Showed Number of point, Distance, Speed, Altitude |
+|2. {% data variables.ios-values.move_point %}|  {% data variables.ios-values.move_point_descr %} |
+|3. {% data variables.ios-values.add_after %}|  {% data variables.ios-values.move_point_descr %} |
+|4. {% data variables.ios-values.add_before %}|  {% data variables.ios-values.move_point_descr %} |
+|5. {% data variables.ios-values.trim_before %}|   |
+|6. {% data variables.ios-values.trim_after %}|  |
+| 7. {% data variables.ios-values.split_before %}|   |
+|8. {% data variables.ios-values.split_after %}|  |
+| 9. {% data variables.ios-values.change_route_type_before %}|  |
+|10. {% data variables.ios-values.change_route_type_after %}|   |
+|11. {% data variables.ios-values.delete_point %}|   |
 
 ### Saving a route
 
@@ -195,7 +188,7 @@ For ![icon-ios](/assets/images/site/icon-ios.png) all segments have color of las
 
 My places menu...
 
-## "Options" menu
+## 'Options' menu
 
 
 | | |
