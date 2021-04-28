@@ -13,7 +13,7 @@ The route is many strings between points. Strings can be straight lines or route
 | ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
 | ![Plan route android](/assets/images/plan-route/plan-route-android.png) | ![Plan route ios](/assets/images/plan-route/plan-route-ios.png) |
 
-## Open 'Plan route'
+## Opening 'Plan route'
 
 The 'Plan route' can be switched on:
 
