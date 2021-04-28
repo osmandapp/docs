@@ -1,8 +1,6 @@
 ---
 title:  Interact with map
 intro: "The map is the basis for the entire navigation system work. Knowledge of the main interface can greatly facilitate the interaction with the map. Zoom, main map buttons, and different gestures will help you better navigate the map."
-
-"General introduction information about the map and it’s content. Gestures, map orientation, and compass settings are described"
 versions: '*'
 ---
 
