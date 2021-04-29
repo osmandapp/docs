@@ -6,7 +6,7 @@ versions: '*'
 
 ![Quick action widget](/assets/images/widgets/quick_action_widget.png)
 
-## Configure quick action
+## Configure quick actions list
 ![Quick action edit action](/assets/images/widgets/quick_action_edit_action.png)
 
 | | |

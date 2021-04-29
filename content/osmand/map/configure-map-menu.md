@@ -9,14 +9,14 @@ versions: '*'
 - **{% data variables.android-values.recording_context_menu_show %}** or **{% data variables.ios-values.map_settings_show %}**, in this part we set parameters of Overlay/Underlay layers, points for visualisation its on the map. 
 - **{% data variables.android-values.map_widget_map_rendering %} for Android** or **{% data variables.ios-values.map_settings_type %}, {% data variables.ios-values.map_settings_style %}, {% data variables.ios-values.map_settings_overunder %}, {% data variables.ios-values.language %} for iOS**, in the second part we change parameters of offline vector map.
 
-<!-- ![Configure map](/assets/images/map/configure-map.png)
+![Configure map](/assets/images/map/configure-map.png)
 
 **Note:** In order to change screen information (widgets, icons) you can set parametres in [{% data variables.android-values.layer_map_appearance %}](/osmand/widgets/general).
 
 
-## Menu content
+## Menu
 
-- **"{% data variables.android-values.shared_string_show %}"**:
+### {% data variables.android-values.shared_string_show %}
    - [Favorites, POI overlay, POI overlay labels](/osmand/map/point-layers-on-map)
    - [Map markers](/osmand/map/point-layers-on-map)
    - [Transport](/osmand/map/map-styles-and-parameters#transport)
@@ -27,7 +27,7 @@ versions: '*'
    - [Contour lines](/osmand/map/contour-lines-hillshade)
    - [Terrain](/osmand/map/contour-lines-hillshade)
    
-- **"{% data variables.android-values.map_widget_map_rendering %}"**:
+### {% data variables.android-values.map_widget_map_rendering %}
    - [Map style](/osmand/map/map-styles-and-parameters#default-map-styles)
    - [Map mode](/osmand/map/map-styles-and-parameters#map-mode)
    - [Map magnifier](/osmand/map/map-styles-and-parameters#map-magnifier)
