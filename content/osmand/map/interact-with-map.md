@@ -1,6 +1,6 @@
 ---
 title:  Interact with map
-intro: "The map is the basis for the entire navigation system work. Knowledge of the main interface can greatly facilitate the interaction with the map. Zoom, main map buttons, and different gestures will help you better navigate the map."
+intro: "Map interaction is certain actions that help users to better navigate the map. Gestures as zoom in and zoom out, map buttons, help you to faster move on the main interface."
 versions: '*'
 ---
 
@@ -11,21 +11,17 @@ Gestures are an important part of navigation that helps to facilitate using OsmA
 |Process |Actions|
 |:------------|:---------------|
 |**Moving the map**|Tap on the screen and move finger on the map|
-|**Zoom in the map**|Double tapping on the map with one finger| 
-||Double tapping on the map and then swiping up|
-||Moving two fingers backwards from each other|
-|**Zoom out the map**|Double tapping on the map with two fingers|
-||Double tapping on the map and then swiping down|
-||Moving two fingers towards each other|
+|**Zoom in the map**|Double tapping on the map with one finger / Double tapping on the map and then swiping up / Moving two fingers backwards from each other| 
+|**Zoom out the map**|Double tapping on the map with two fingers / Double tapping on the map and then swiping down / Moving two fingers towards each other|
 |**Rotate the map**|Tap two fingers on the map and rotate|
 |**3D view** (available only for iOS)|Two fingers on the map and then swiping up or down|
 ---
-title: "Map buttons"
-intro: "Map buttons such as Zoom buttons, Search, Direction, Compass, My Location and Menu represent main controls on the map."
-versions: '*'
----
 
-## My Location & Zoom
+## Map buttons
+
+Map buttons such as Zoom buttons, Search, Direction, Compass, My Location and Menu represent main controls on the map.
+
+### My Location & Zoom
 
 ![Configure screen menu](/assets/images/widgets/location_zoom_buttons.png)
 
@@ -47,7 +43,7 @@ Keep in mind that during navigation zoom can be controlled by **Auto zoom settin
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.map_behavior %} → {% data variables.ios-values.auto_zoom_map %}
 
-## Directions
+### Directions
 
 ![Directions button allows](/assets/images/widgets/directions_button_allows.png)
 
@@ -58,25 +54,25 @@ Keep in mind that during navigation zoom can be controlled by **Auto zoom settin
 - Default blue icon - the route is built, but navigation has not started yet. A dialog with route information will appear by click.
 - Blue arrow icon - the route is built and navigation has started. A dialog with route information will appear by click.
 
-## Configure Map
+### Configure Map
 
 ![Configure Map](/assets/images/widgets/configure_map.png)
 
 **Configure Map** button allows to access to [Configure Map menu](/osmand/map/configure-map-menu). Icon on it indicates [Current app profile](/osmand/start-with/profiles).
 
-## Main menu
+### Main menu
 
 ![Main menu button](/assets/images/widgets/main_menu_button.png)
 
 **Main menu** button allows to access to [all features](/osmand/main-menu) of the application. In navigation mode this button is not visible by default. It appears after a short tap on the map.
 
-## Search
+### Search
 
 ![Search button](/assets/images/widgets/search_button.png)
 
 Search button buttons provides quick access from the map to [search capabilities](/osmand/search/).
 
-## Compass
+### Compass
 
 ![Compass widget](/assets/images/widgets/compass_widget.png)
 
