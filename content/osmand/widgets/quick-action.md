@@ -4,7 +4,6 @@ intro: "Quick action widget allows to configure a special panel with user-define
 versions: '*'
 ---
 
-
 ![Quick action widget](/assets/images/widgets/quick_action_widget.png)
 
 ## Configure quick action
@@ -56,7 +55,7 @@ Gives an opportunity to add action that will be frequently used. It can be:
 | {% data variables.android-values.quick_action_add_destination %} | yyyyyyyy |
 | {% data variables.ios-values.add_destination %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_remove_next_destination %} | yyyyyyyy |
-| {% data variables.android-values.quick_action_add_first_intermediate | yyyyyyyy |
+| {% data variables.android-values.quick_action_add_first_intermediate %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_replace_destination %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_auto_zoom %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_start_stop_navigation %} | yyyyyyyy |
