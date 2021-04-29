@@ -1,6 +1,6 @@
 ---
 title:  Interact with map
-intro: "Map interaction is certain actions that help users to better navigate the map. Gestures as zoom in and zoom out, map buttons, contribute to faster move on the main interface."
+intro: "This article explains how to interact with map using buttons and gestures, so you could pan, rotate and zoom in/out the map. There are many ways how the map could be rotated automatically (by compass / by bearing / manually) and also there are nuances with different kind of zooms."
 versions: '*'
 ---
 
@@ -14,12 +14,17 @@ Gestures are an important part of navigation that helps to facilitate using OsmA
 |**Zoom in the map**|Double tapping on the map with one finger / Double tapping on the map and then swiping up / Moving two fingers backwards from each other| 
 |**Zoom out the map**|Double tapping on the map with two fingers / Double tapping on the map and then swiping down / Moving two fingers towards each other|
 |**Rotate the map**|Tap two fingers on the map and rotate|
-|**3D view** (available only for iOS)|Two fingers on the map and then swiping up or down|
----
+|**3D view** (only iOS)**|Two fingers on the map and then swiping up or down|
+----------
+
 
 ## Map buttons
 
 Map buttons such as Zoom buttons, Search, Direction, Compass, My Location and Menu represent main controls on the map.
+
+### Disable all animations (Android)
+
+### Zoom magnifier
 
 ### My Location & Zoom
 
