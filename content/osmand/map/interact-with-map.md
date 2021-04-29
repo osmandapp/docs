@@ -42,7 +42,7 @@ Keep in mind that during navigation zoom can be controlled by **Auto zoom settin
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.map_during_navigation %} → {% data variables.ios-values.auto_zoom_map %}
 
 ## Map magnifier
-Here we need to add some description.
+Map magnifier is a special way to magnify the map, it allows to see the text bigger for raster maps or to see more or less details for the same scale - [Read more](/osmand/map/map-styles-and-parameters#map-magnifier).
 
 ## Map orientation & Compass
 
@@ -68,12 +68,15 @@ Map orientation could be changed in Profile settings:
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.map_settings_appearance %} → {% data variables.ios-values.rotate_map_to_bearing %}
 
 ### Rotate map by bearing
-If rotate map by bearing is enabled, then the map will be oriented, so that head looking view will be strictly above (higher) my location icon on the map. Without movement the map won't be rotated. In this mode the center of the map will be located slightly below the center of the device. It allows seeing more map information ahead of your movement which is usable in navigation mode. It can be disabled by setting ({% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings%} → {% data variables.android-values.shared_string_profiles %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.always_center_position_on_map %}, {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.always_center_position_on_map %}).
+If rotate map by bearing is enabled, then the map will be oriented, so that head looking view will be strictly above (higher) my location icon on the map. Without movement the map won't be rotated. In this mode the center of the map will be located slightly below the center of the device. It allows seeing more map information ahead of your movement which is usable in the navigation mode. It can be disabled by a setting 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings%} → {% data variables.android-values.shared_string_profiles %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.always_center_position_on_map %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.always_center_position_on_map %}
 
 ## Settings
 
 ### Disable all animations (Android)
-You can disable all map animations during map change (gestures and buttons) in Settings {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → ...
+You can disable all map animations during map change (gestures and buttons) in Settings {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings%} → {% data variables.android-values.shared_string_profiles %} → {% data variables.android-values.general_settings_2 %} → 
+{% data variables.android-values.do_not_use_animations %}.
 
 ### Extra compass settings (Android)
 
