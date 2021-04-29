@@ -8,7 +8,7 @@ versions: '*'
 
 ![Configure screen menu](/assets/images/widgets/location_zoom_buttons.png)
 
-My location & zoom buttons control the map display. You can read more in [Interact with map](/osmand/interact-with-map#my-location--zoom) article.
+My location & zoom buttons control the map display. You can read more in [Interact with map](/osmand/map/interact-with-map#my-location--zoom) article.
 
 ## Directions
 
@@ -43,7 +43,7 @@ Search button buttons provides quick access from the map to [search capabilities
 
 ![Compass widget](/assets/images/widgets/compass_widget.png)
 
-Compass widget indicates how map is oriented on the device screen and top arrow / red arrow points where the north of map is located. It also shows the current **[Map orientation mode](/osmand/map/interact-with-map#map-orientation)**. Clicking on the compass will cycle through all Map orientation modes.
+Compass widget indicates how map is oriented on the device screen and top arrow / red arrow points where the north of map is located. It also shows the current **[Map orientation mode](/osmand/map/interact-with-map#map-orientation--compass)**. Clicking on the compass will cycle through all Map orientation modes.
 
 **Configure visibility**
 

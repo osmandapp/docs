@@ -19,7 +19,7 @@ Gestures are important part of the map navigation.
 
 Slide animations could be disabled with special [setting](#disable-all-animations-android).
 
-### My Location & Zoom
+## My Location & Zoom
 
 ![Configure screen menu](/assets/images/widgets/location_zoom_buttons.png)
 
@@ -37,14 +37,14 @@ Slide animations could be disabled with special [setting](#disable-all-animation
 
 Keep in mind that during navigation zoom can be controlled by **Auto zoom setting**:
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.application_profiles%} → {% data variables.android-values.routing_settings_2 %} → {% data variables.map_during_navigation_info %} → {% data variables.android-values.auto_zoom_map %}  
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.application_profiles%} → {% data variables.android-values.routing_settings_2 %} → {% data variables.android-values.map_during_navigation_info %} → {% data variables.android-values.auto_zoom_map %}  
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.map_behavior %} → {% data variables.ios-values.auto_zoom_map %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.map_during_navigation %} → {% data variables.ios-values.auto_zoom_map %}
 
-### Map magnifier
+## Map magnifier
 Here we need to add some description.
 
-### Map orientation & Compass
+## Map orientation & Compass
 
 ![Compass widget](/assets/images/widgets/compass_widget.png)
 
