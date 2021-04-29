@@ -1,6 +1,6 @@
 ---
 title:  Interact with map
-intro: "This article explains how to interact with map using buttons and gestures, so you could pan, rotate and zoom in/out the map. There are many ways how the map could be rotated automatically (by compass / by bearing / manually) and also there are nuances with different kind of zooms."
+intro: "This article explains how to interact with map using buttons and gestures, so you could pan, rotate and zoom in/out the map. There are differents ways how the map could be rotated manually or automatically by compass or by bearing and also there are nuances with different kind of zooms."
 versions: '*'
 ---
 
@@ -8,13 +8,14 @@ versions: '*'
 
 Gestures are an important part of navigation that helps to facilitate using OsmAnd.
 
-|Process |Actions|
+| Map Action | Gesture|
 |:------------|:---------------|
-|**Moving the map**|Tap on the screen and move finger on the map|
-|**Zoom in the map**|Double tapping on the map with one finger / Double tapping on the map and then swiping up / Moving two fingers backwards from each other| 
-|**Zoom out the map**|Double tapping on the map with two fingers / Double tapping on the map and then swiping down / Moving two fingers towards each other|
-|**Rotate the map**|Tap two fingers on the map and rotate|
-|**3D view** (only iOS)**|Two fingers on the map and then swiping up or down|
+|**Move / Pan**| Press on the map with **one** finger and move around. |
+|**Move with animations**| Swipe the map with **one** finger |
+|**Zoom in**|	• Double tapping on the map with one finger <br> • Double tapping on the map and then swiping up <br> • Moving two fingers backwards from each other| 
+|**Zoom out**|Double tapping on the map with two fingers / Double tapping on the map and then swiping down / Moving two fingers towards each other|
+|**Rotate**|Tap two fingers on the map and rotate|
+|**Tilt** - 3D (only iOS) |Two fingers on the map and then swiping up or down|
 ----------
 
 
