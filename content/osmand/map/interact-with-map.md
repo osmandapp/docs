@@ -42,7 +42,7 @@ Keep in mind that during navigation zoom can be controlled by **Auto zoom settin
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.map_during_navigation %} → {% data variables.ios-values.auto_zoom_map %}
 
 ## Map magnifier
-Map magnifier is a special way to magnify the map, it allows to see the text bigger for raster maps or to see more or less details for the same scale - [Read more](/osmand/map/map-styles-and-parameters#map-magnifier).
+Map magnifier is a special way to magnify the map. Essentially it works as a magnifying glass for paper maps, it allows to see the text bigger for raster maps or to see more or less details for the same scale - [Read more](/osmand/map/map-styles-and-parameters#map-magnifier).
 
 ## Map orientation & Compass
 
