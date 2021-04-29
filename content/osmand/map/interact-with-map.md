@@ -1,6 +1,6 @@
 ---
 title:  Interact with map
-intro: "Map interaction is certain actions that help users to better navigate the map. Gestures as zoom in and zoom out, map buttons, help you to faster move on the main interface."
+intro: "Map interaction is certain actions that help users to better navigate the map. Gestures as zoom in and zoom out, map buttons, contribute to faster move on the main interface."
 versions: '*'
 ---
 
