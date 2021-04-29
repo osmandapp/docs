@@ -17,13 +17,13 @@ versions: '*'
 | Remove actions |  {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %}. The bin icon on the left will delete the action and the line icon on the right can edit the action.     |
 |   | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %}. The pen icon in the top-right corner will give the user an opportunity to delete the action. The plus symbol in the top-right corner gives an option to add new actions to the list. Swiping up and down on the three vertical lines in the editing menu will give you an opportunity to move action along the list. |
 | Click |  Open Quick action menu.   |
-| Note   | The Quick action widget can be moved to the other part of the screen with long tap. By default, it is on the left bottom corner. |
+| Note | The Quick action widget can be moved to the other part of the screen with long tap. By default, it is on the left bottom corner. |
 
 
 ## Quick actions types
 Gives an opportunity to add action that will be frequently used. It can be:
 
-| Name | Action | 
+| Name | Action |
 |:-------------|:-------------|
 | **{% data variables.android-values.quick_action_add_create_items %}** | |
 | {% data variables.android-values.quick_action_add_favorite %} | xxx |
@@ -54,7 +54,7 @@ Gives an opportunity to add action that will be frequently used. It can be:
 | {% data variables.android-values.quick_action_navigation_voice %} | yyyyyyyy |
 | {% data variables.android-values.context_menu_item_directions_from %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_add_destination %} | yyyyyyyy |
-| {% data variables.ios-values.add_destination%} | yyyyyyyy |
+| {% data variables.ios-values.add_destination %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_remove_next_destination %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_add_first_intermediate | yyyyyyyy |
 | {% data variables.android-values.quick_action_replace_destination %} | yyyyyyyy |
