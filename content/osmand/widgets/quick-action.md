@@ -23,9 +23,8 @@ versions: '*'
 ## Quick actions types
 Gives an opportunity to add action that will be frequently used. It can be:
 
-  
 | Name | Action | 
-| :------------- | :------------- |
+|:-------------|:-------------|
 | **{% data variables.android-values.quick_action_add_create_items %}** | |
 | {% data variables.android-values.quick_action_add_favorite %} | xxx |
 | {% data variables.android-values.quick_action_add_gpx %} | xxx |
@@ -39,7 +38,7 @@ Gives an opportunity to add action that will be frequently used. It can be:
 | {% data variables.ios-values.show_hide_gpx %} | xxxxxxxx |
 | {% data variables.ios-values.toggle_poi %} | xxxxxxxx |
 | {% data variables.android-values.quick_action_map_style %} | xxxxxxxx |
-| {% data variables.ios-values.toggle_public_transport | xxxxxxxx |
+| {% data variables.ios-values.toggle_public_transport %}| xxxxxxxx |
 | {% data variables.ios-values.quick_action_showhide_mapillary_title %} | xxxxxxxx |
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.coordinates_widget %} | xxxxxxxx |
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.shared_string_terrain %} | xxxxxxxx |
