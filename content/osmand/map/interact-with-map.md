@@ -6,32 +6,24 @@ versions: '*'
 
 ## Gestures
 
-Gestures are an important part of navigation that helps to facilitate using OsmAnd.
+Gestures are important part of the map navigation.
 
-| Map Action | Gesture|
+| Map Action | Gesture |
 |:------------|:---------------|
-|**Move / Pan**| Press on the map with **one** finger and move around. |
-|**Move with animations**| Swipe the map with **one** finger |
-|**Zoom in**|	• Double tapping on the map with one finger <br> • Double tapping on the map and then swiping up <br> • Moving two fingers backwards from each other| 
-|**Zoom out**|Double tapping on the map with two fingers / Double tapping on the map and then swiping down / Moving two fingers towards each other|
-|**Rotate**|Tap two fingers on the map and rotate|
-|**Tilt** - 3D (only iOS) |Two fingers on the map and then swiping up or down|
-----------
+|**Move**| Press on the map with **one** finger and move around |
+|**Slide**| Swipe the map with **one** finger |
+|**Zoom in**| • Double tap on the map with **one** finger <br> • Double tap on the map with **one** finger and then swipe up <br> • Pinch with **two** fingers |
+|**Zoom out**| • Double tap on the map with **two** fingers <br> • Double tap on the map with **one** finger and then swipe down <br> •  Pinch with **two** fingers |
+|**Rotate**| Press with **two** fingers on the map and rotate |
+|**Tilt** - 3D (only iOS) | Press with **two** fingers on the map and then swipe up or down |
 
-
-## Map buttons
-
-Map buttons such as Zoom buttons, Search, Direction, Compass, My Location and Menu represent main controls on the map.
-
-### Disable all animations (Android)
-
-### Zoom magnifier
+Slide animations could be disabled with special [setting](#disable-all-animations-android).
 
 ### My Location & Zoom
 
 ![Configure screen menu](/assets/images/widgets/location_zoom_buttons.png)
 
-**My location** is a circle button that shows whether the center of the map is synchronized with "my location" (geolocation of the device). It is also known as "Where am I?". Generally in navigation, the map is synced with device location, and there are no needs to move the map constantly. In this case, the button is hidden and will be activated when the map and 'my location' will go out of sync by user gesture. The app will try to find the device location and show it on the map at the center of the screen when the user clicks on it ( iOS will switch to the 3D mode when the user clicks twice on it).
+**My location** is a circle button that shows whether the center of the map is synchronized with "my location" (geolocation of the device). It is also known as "Where am I?". Generally in navigation, the map is synced with device location, and there are no needs to move the map constantly. In this case, the button is hidden and will be activated when the map and 'my location' will go out of sync by user gesture. The app will try to find the device location and show it on the map at the center of the screen when the user clicks on it ( iOS will switch to the 3D mode when the user click twice on it).
 
 **My location** button has following indicative states:
 - Full blue icon - location is found but it is not synchronized with map
@@ -39,7 +31,7 @@ Map buttons such as Zoom buttons, Search, Direction, Compass, My Location and Me
 - Grey icon - location has not found yet
 - Arrow icon (iOS) - 3D mode is switched on
 
-**Long tap** on **My location** opens the Context menu, so user can share own location.
+**Long tap** on **My location** opens Context menu, so user can share own location.
 
 **Zoom buttons** are always visible next to **My Location** and allow to control map zoom level. Changing zoom level doesn't change map synchronization with location. **Long tap** on **Zoom buttons** opens Map magnifier dialog and allows to change map detailing.
 
@@ -49,36 +41,10 @@ Keep in mind that during navigation zoom can be controlled by **Auto zoom settin
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.map_behavior %} → {% data variables.ios-values.auto_zoom_map %}
 
-### Directions
+### Map magnifier
+Here we need to add some description.
 
-![Directions button allows](/assets/images/widgets/directions_button_allows.png)
-
-**Directions** button allows to [chart a route](/osmand/navigation) and [start navigation](/osmand/navigation). In navigation mode this button is not visible by default and it appears after a short tap on the map.
-
-**Directions** button has 3 different indicative states:
-- Default grey icon - the route has not been built yet. A dialog to build a new route will appear by click.
-- Default blue icon - the route is built, but navigation has not started yet. A dialog with route information will appear by click.
-- Blue arrow icon - the route is built and navigation has started. A dialog with route information will appear by click.
-
-### Configure Map
-
-![Configure Map](/assets/images/widgets/configure_map.png)
-
-**Configure Map** button allows to access to [Configure Map menu](/osmand/map/configure-map-menu). Icon on it indicates [Current app profile](/osmand/start-with/profiles).
-
-### Main menu
-
-![Main menu button](/assets/images/widgets/main_menu_button.png)
-
-**Main menu** button allows to access to [all features](/osmand/main-menu) of the application. In navigation mode this button is not visible by default. It appears after a short tap on the map.
-
-### Search
-
-![Search button](/assets/images/widgets/search_button.png)
-
-Search button buttons provides quick access from the map to [search capabilities](/osmand/search/).
-
-### Compass
+### Map orientation & Compass
 
 ![Compass widget](/assets/images/widgets/compass_widget.png)
 
@@ -104,6 +70,13 @@ Map orientation could be changed in Profile settings:
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile%} → {% data variables.android-values.general_settings_2 %}  → {% data variables.android-values.rotate_map_to_bearing %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.map_settings_appearance %} → {% data variables.ios-values.rotate_map_to_bearing %}
+
+
+
+## Settings
+
+### Disable all animations (Android)
+You can disable all map animations during map change (gestures and buttons) in Settings {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → ...
 
 ### Extra compass settings (Android)
 
