@@ -7,6 +7,7 @@ versions: '*'
 ![Quick action widget](/assets/images/widgets/quick_action_widget.png)
 
 ## Configure quick actions list
+### Enable wiget
 To use the Quick Actions feature, you have to enable this widget on the home screen.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} 
