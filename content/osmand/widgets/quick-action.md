@@ -1,18 +1,20 @@
 ---
 title: "Quick action"
-intro: "Quick action widget allows to configure a special panel with user-defined actions, so they could be quickly accessed and perform some routine automations."
+intro: "Quick Actions Widget is an additional customizable panel that allows you to make access to all frequently used actions faster and more convenient."
 versions: '*'
 ---
 
 ![Quick action widget](/assets/images/widgets/quick_action_widget.png)
 
 ## Configure quick actions list
+To use the Quick Actions feature, you have to enable the Quick Actions widget on the home screen.
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} 
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %}
+
 ![Quick action edit action](/assets/images/widgets/quick_action_edit_action.png)
 
 | | |
 |------------|------------|
-| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} |
-|   | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} |
 | Remove actions |  {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %}. The bin icon on the left will delete the action and the line icon on the right can edit the action.     |
 |   | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %}. The pen icon in the top-right corner will give the user an opportunity to delete the action. The plus symbol in the top-right corner gives an option to add new actions to the list. Swiping up and down on the three vertical lines in the editing menu will give you an opportunity to move action along the list. |
 | Click |  Open Quick action menu.   |
