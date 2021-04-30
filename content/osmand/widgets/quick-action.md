@@ -14,7 +14,7 @@ In order to use the Quick Actions button you need to enable this widget on the h
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %}
 
-By default, the Quick action button will appear on the right corner (above the Map magnifier). But it can be moved to the other part of the screen with long tap. 
+By default, the Quick action button will appear on the right corner (above the zoom button). But it can be moved to the other part of the screen by long tap. 
 
 To open Quick action menu click on it.
 
