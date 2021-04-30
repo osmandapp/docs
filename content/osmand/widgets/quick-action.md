@@ -23,7 +23,7 @@ There are two ways to add items to the Quick actions list:
 - Menu → Configure screen → Quick action → &#8230;&#124; → Add action
 - On the map click on the Quick action icon → Add action
 
-![Quick action enable widget](/assets/images/widgets/enable_quick_action.jpg)
+![Quick action enable widget](/assets/images/widgets/quick_action_enable_widget.png)
 ![Quick action edit action](/assets/images/widgets/quick_action_edit_action.png)
 
 In order to remove items from Quick actions widget:
