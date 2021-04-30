@@ -32,7 +32,7 @@ To remove Quick actions widget:
 
 ## Quick actions types
 
-| Name | Action |
+| Name | Discription|
 |:-------------|:-------------|
 | **{% data variables.android-values.quick_action_add_create_items %}** | |
 | {% data variables.android-values.quick_action_add_favorite %} | xxx |
@@ -61,8 +61,8 @@ To remove Quick actions widget:
 | {% data variables.android-values.context_menu_item_directions_from %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_add_destination %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_add_first_intermediate %} | yyyyyyyy |
-| {% data variables.android-values.quick_action_remove_next_destination %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_replace_destination %} | yyyyyyyy |
+| {% data variables.android-values.quick_action_remove_next_destination %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_auto_zoom %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_start_stop_navigation %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_resume_pause_navigation %} | yyyyyyyy |
