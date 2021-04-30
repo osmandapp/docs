@@ -19,7 +19,7 @@ By default, the Quick action widget will appear on the left bottom corner. But i
 To open Quick action menu click on it.
 
 ### Creat Quick action list
-There is two ways to customize Quick actions:
+There is two ways to add items to the Quick actions list: 
 - Menu → Configure screen → Quick action → &#8230;&#124; → Add action
 - On the map click on the Quick action icon → Add action
 
@@ -31,14 +31,12 @@ To remove Quick actions widget:
 - {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %}. The pen icon in the top-right corner will give the user an opportunity to delete the action. The plus symbol in the top-right corner gives an option to add new actions to the list. Swiping up and down on the three vertical lines in the editing menu will give you an opportunity to move action along the list.
 
 ## Quick actions types
-Gives an opportunity to add action that will be frequently used. It can be:
 
 | Name | Action |
 |:-------------|:-------------|
 | **{% data variables.android-values.quick_action_add_create_items %}** | |
 | {% data variables.android-values.quick_action_add_favorite %} | xxx |
 | {% data variables.android-values.quick_action_add_gpx %} | xxx |
-| {% data variables.ios-values.add_gpx_waypoint %} | xxx |
 | {% data variables.android-values.quick_action_add_marker %} | xxx |
 | {% data variables.android-values.quick_action_add_parking %} | xxx |
 | {% data variables.android-values.quick_action_add_poi %} | xxx |
@@ -47,26 +45,23 @@ Gives an opportunity to add action that will be frequently used. It can be:
 | {% data variables.ios-values.toggle_fav %} | xxxxxxxx |
 | {% data variables.ios-values.show_hide_gpx %} | xxxxxxxx |
 | {% data variables.ios-values.toggle_poi %} | xxxxxxxx |
-| {% data variables.android-values.quick_action_map_style %} | xxxxxxxx |
 | {% data variables.ios-values.toggle_public_transport %}| xxxxxxxx |
 | {% data variables.ios-values.quick_action_showhide_mapillary_title %} | xxxxxxxx |
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.coordinates_widget %} | xxxxxxxx |
+| {% data variables.ios-values.toggle_contour_lines %} | xxxxxxxx |
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.shared_string_terrain %} | xxxxxxxx |
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.osm_notes %} | xxxxxxxx |
+| {% data variables.android-values.quick_action_map_style %} | xxxxxxxx |
 | {% data variables.ios-values.change_map_source %} | xxxxxxxx |
 | {% data variables.ios-values.change_map_overlay %} | xxxxxxxx |
 | {% data variables.ios-values.change_map_underlay %} | xxxxxxxx |
-| {% data variables.ios-values.day_mode %} | xxxxxxxx |
-| {% data variables.ios-values.toggle_contour_lines %} | xxxxxxxx |
-| {% data variables.ios-values.toggle_hillshade %} | xxxxxxxx |
 | **{% data variables.android-values.quick_action_add_navigation %}**  | |
 | {% data variables.android-values.quick_action_day_night_switch_mode %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_navigation_voice %} | yyyyyyyy |
 | {% data variables.android-values.context_menu_item_directions_from %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_add_destination %} | yyyyyyyy |
-| {% data variables.ios-values.add_destination %} | yyyyyyyy |
-| {% data variables.android-values.quick_action_remove_next_destination %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_add_first_intermediate %} | yyyyyyyy |
+| {% data variables.android-values.quick_action_remove_next_destination %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_replace_destination %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_auto_zoom %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_start_stop_navigation %} | yyyyyyyy |
