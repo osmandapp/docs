@@ -32,7 +32,7 @@ To remove Quick actions widget:
 
 ## Quick actions types
 
-| Name | Discription|
+| Name | Actions |
 |:-------------|:-------------|
 | **{% data variables.android-values.quick_action_add_create_items %}** | |
 | {% data variables.android-values.quick_action_add_favorite %} | xxx |
@@ -42,13 +42,12 @@ To remove Quick actions widget:
 | {% data variables.android-values.quick_action_add_poi %} | xxx |
 | {% data variables.android-values.quick_action_add_osm_bug %} | xxx |
 | **{% data variables.android-values.quick_action_add_configure_map %}** | |
-| {% data variables.ios-values.toggle_fav %} |Tapping the action button will show or hide the favourite points on the map |
-| {% data variables.ios-values.show_hide_gpx %} | xxxxxxxx |
-| {% data variables.ios-values.toggle_poi %} | xxxxxxxx |
-| {% data variables.ios-values.toggle_public_transport %}| xxxxxxxx |
-| {% data variables.ios-values.quick_action_showhide_mapillary_title %} | xxxxxxxx |
-| {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.coordinates_widget %} | xxxxxxxx |
-| {% data variables.ios-values.toggle_contour_lines %} | xxxxxxxx |
+| {% data variables.ios-values.toggle_fav %} | Display the favourite points on the map |
+| {% data variables.ios-values.show_hide_gpx %} | Display selected tracks on the map |
+| {% data variables.ios-values.toggle_poi %} | Display selected POI categories on the map |
+| {% data variables.ios-values.toggle_public_transport %}| Display public transport on the map |
+| {% data variables.ios-values.quick_action_showhide_mapillary_title %} | Display Mapillary layer on the map |
+| {% data variables.ios-values.toggle_contour_lines %} | allows to show or hide contour lines on the map |
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.shared_string_terrain %} | xxxxxxxx |
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.osm_notes %} | xxxxxxxx |
 | {% data variables.android-values.quick_action_map_style %} | xxxxxxxx |
