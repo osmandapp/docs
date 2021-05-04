@@ -1,6 +1,6 @@
 ---
 title: "Configure Map (Map)"
-intro: "OsmAnd gives you great possibilities for using the maps. You can customize them, download different types of maps and even edit them! This menu contains settings that allow you to include additional information on the map, show the terrain, additional layers from raster online maps, your Favorite points, GPX-tracks and much more."
+intro: "OsmAnd gives great possibilities for using the maps. Typically maps needs to be configured for your needs, so you could highlight Favorite points, Navigation markers or special Points of Interests on the map. You could also make visible specific routes or 3rd party GPX files, plus you might need to overlay your maps with relief information or satellite imagery. All configurations related to the map and what's attached to the map is present in Configure Map menu."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
@@ -37,11 +37,10 @@ versions: '*'
    - [Hide](/osmand/map/map-styles-and-parameters#hide)
    - [Routes](/osmand/map/map-styles-and-parameters#routes)
    
-## UI Customization
+## UI Customization (Android)
    
-In order to reorder or hide items from the {% data variables.android-values.configure_map %}:
+You can reorder or hide items from the {% data variables.android-values.configure_map %} per selected profile.
    
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.ui_customization %} → {% data variables.android-values.configure_map %} 
-   
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.configure_profile %}   
-  
+
+![Configure map items ](/assets/images/settings/configure_map_items.png)
