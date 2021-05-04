@@ -3,6 +3,7 @@ title: "{% data variables.android-values.audionotes_plugin_name %}"
 intro: "Making memorable notes is one of the main pleasures of traveling"
 versions: '*'
 ---
+{% data reusables.general.article-not-complete %}
 
 Making memorable notes is one of the main pleasures of traveling. With OsmAnd Audio/video notes plugin, you can add media right to the map to watch it later. Want your pictures to be added to the locations they were made at? Easy. Need a comfortable video recorder? No problem. Want to make an audio note and link it to the location? Problem solved.
 

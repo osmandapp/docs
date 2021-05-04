@@ -4,7 +4,6 @@ intro: "Map markers are selected points marked as flags on the map. The addition
 versions: '*'
 ---
 
-
 ## Top bar widget (markers)  
 
 ![Map markers on the Top bar widget](/assets/images/widgets/map_markers_top_bar_widget.png)

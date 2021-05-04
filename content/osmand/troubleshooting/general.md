@@ -4,7 +4,7 @@ intro: "General issues related to various OsmAnd's features"
 versions: '*'
 ---
 
-
+{% data reusables.general.article-not-complete %}
 ## Battery consumption
 Some information about batttery consumption in general.
 

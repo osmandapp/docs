@@ -3,7 +3,7 @@ title: Navigation
 intro: "Most typical issues encountered in navigation mode"
 versions: '*'
 ---
-
+{% data reusables.general.article-not-complete %}
 ## Route calculation
 ### Route calculation is slow 
 Should we add content here? If yes, we need to update it.

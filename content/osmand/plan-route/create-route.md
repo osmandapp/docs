@@ -3,7 +3,7 @@ title: "{% data variables.android-values.plan_a_route %}"
 intro: "Plan future routes and trips"
 versions: '*'
 ---
-
+{% data reusables.general.article-not-complete %}
 The **'Plan route'** tool is a powerful feature of OsmAnd allows you to measure distances on the map, create GPX tracks or add new segments to your own ones, to snap your track to the nearest available road with one of your navigation profiles. Of course, it works offline and available for Android and iOS versions of OsmAnd.
 
 The route is many strings between points. Strings can be straight lines or routes of chosen navigation profiles. The sum of all these points and strings is a route, that can be saved, imported, or modified. 
@@ -64,7 +64,7 @@ At the main screen of the tool there are the next elements:
 
 **4.** [Points list and Graph (Android) list](/osmand/plan-route/create-route#points-list-and-graph).
 
-**5.** 'Profile' button for choosing [application profile](/osmand/start-with/profiles).
+**5.** 'Profile' button for choosing [application profile](/osmand/personal/profiles).
 
 **6.** 'Done' button - finish and save GPX route.
 

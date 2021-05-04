@@ -3,7 +3,7 @@ title: "Quick action"
 intro: "Quick Actions Widget is an additional customizable panel that allows you to make access to all frequently used actions faster and more convenient."
 versions: '*'
 ---
-
+{% data reusables.general.article-not-complete %}
 ![Quick action widget](/assets/images/widgets/quick_action_widget.png)
 
 ## Configure quick actions list

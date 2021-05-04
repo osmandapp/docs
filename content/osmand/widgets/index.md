@@ -5,6 +5,7 @@ versions: '*'
 ---
 
 <!-- ![Widgets](/assets/images/widgets/general_widgets.png) -->
+{% data reusables.general.article-not-complete %}
 
 {% link_with_intro /configure-screen %}
 {% link_with_intro /map-buttons %}

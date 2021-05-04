@@ -3,7 +3,7 @@ title: Setup
 intro: "Most typical issues encountered during application setup"
 versions: '*'
 ---
-
+{% data reusables.general.article-not-complete %}
 ## Initial setup 
 
 ### How to recover data?

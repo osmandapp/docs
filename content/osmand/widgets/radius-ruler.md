@@ -3,7 +3,7 @@ title: "Radius-ruler and Ruler"
 intro: "Radius-ruler tool helps to determine the radius around the selected point on the map via displaying distance-circles on the map. Distance by tap tool helps to calculate the distance between selected points to find the shortest distance. The Ruler tool displays scale. "
 versions: '*'
 ---
-
+{% data reusables.general.article-not-complete %}
 ![Radius-ruler screen](/assets/images/widgets/radius_ruler_screen.png)
 
 ## Radius-ruler widget

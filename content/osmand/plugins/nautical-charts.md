@@ -3,7 +3,7 @@ title: "{% data variables.android-values.plugin_nautical_name %}"
 intro: "Detailed graphical representation of oceans, seas, coastal areas and rivers."
 versions: '*'
 ---
-
+{% data reusables.general.article-not-complete %}
 ### What is Nautical Chart?
 Nautical Chart is a detailed graphical representation of oceans, seas, coastal areas and rivers.
 

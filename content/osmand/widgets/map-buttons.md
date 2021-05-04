@@ -4,6 +4,8 @@ intro: "Map buttons such as Zoom buttons, Search, Direction, Compass, My Locatio
 versions: '*'
 ---
 
+{% data reusables.general.article-not-complete %}
+
 ## My Location & Zoom
 
 ![Configure screen menu](/assets/images/widgets/location_zoom_buttons.png)
@@ -25,7 +27,7 @@ My location & zoom buttons control the map display. You can read more in [Intera
 
 ![Configure Map](/assets/images/widgets/configure_map.png)
 
-**Configure Map** button allows to access to [Configure Map menu](/osmand/map/configure-map-menu). Icon on it indicates [Current app profile](/osmand/start-with/profiles).
+**Configure Map** button allows to access to [Configure Map menu](/osmand/map/configure-map-menu). Icon on it indicates [Current app profile](/osmand/personal/profiles).
 
 ## Main menu
 

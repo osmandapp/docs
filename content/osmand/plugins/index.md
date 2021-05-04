@@ -3,7 +3,7 @@ title: "{% data variables.android-values.plugins_screen %}"
 intro: "Plugins activate advanced settings and additional functionality."
 versions: '*'
 ---
-
+{% data reusables.general.article-not-complete %}
 
 {% link_with_intro /online-maps %}
 {% link_with_intro /contour-lines %}

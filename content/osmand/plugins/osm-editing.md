@@ -3,7 +3,7 @@ title: "{% data variables.android-values.osm_settings %}"
 intro: "Make contributions to OpenStreetMap."
 versions: '*'
 ---
-
+{% data reusables.general.article-not-complete %}
 ![OpenStretMap editing](/assets/images/plugins/placeholder-intro.png)
 
 {% data variables.android-values.osm_editing %} plugin allows you to make contributions to OpenStreetMap, a global community aimed at creating a comprehensive map of the world and providing up-to date open-source data to every user.

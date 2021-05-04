@@ -3,7 +3,7 @@ title: Ski-maps
 intro: "Full map of ski pistes, ski lift markers and even colored lines indicating the complexity of each track."
 versions: '*'
 ---
-
+{% data reusables.general.article-not-complete %}
 ![Trip recording](/assets/images/plugins/placeholder-intro.png)
 
 

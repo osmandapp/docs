@@ -19,7 +19,7 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 ![Download map info](/assets/images/settings/download_map_info.png)
 
-**Android storage**. On Android devices your might want to change where the maps stored, on shared storage, sdcard, etc. You can read more about it on [Storage](/osmand/start-with/storage).
+**Android storage**. On Android devices your might want to change where the maps stored, on shared storage, sdcard, etc. You can read more about it on [Storage](/osmand/personal/storage).
 
 In case you need to reinstall the app, please make sure you have back up all your [Personal Data](/osmand/import-export) data such as Tracks and Favorites.
 

@@ -3,7 +3,7 @@ title: "Navigational widgets"
 intro: "Navigational widgets are enabled during navigation to display information such as distance, arrival or left time, next turns, bearing, current street name, lanes information, max speed, approaching alerts, POIs, waypoints."
 versions: '*'
 ---
-
+{% data reusables.general.article-not-complete %}
 
 ![Navigational widgets all](/assets/images/widgets/navigational_widgets_all.png)
 
