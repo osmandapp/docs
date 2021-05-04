@@ -1,1 +1,0 @@
-[OsmAnd on HUAWEI AppGallery](https://appgallery.huawei.com/#/app/C101486545)

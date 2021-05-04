@@ -3,7 +3,7 @@ title: "Main menu"
 intro: "TODO: Introduction of Main menus like Drawer and Concepts"
 versions: '*'
 ---
-**_This article is incomplete & needs to be reviewed_**
+{% data reusables.general.article-not-complete %}
 
 - explain each item in the drawer with links if they are not present
 - explain how to configure items list in the drawer

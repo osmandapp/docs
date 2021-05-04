@@ -3,7 +3,7 @@ title: "Download maps"
 intro: "Download maps"
 versions: '*'
 ---
-**_This article is incomplete & needs to be reviewed_**
+{% data reusables.general.article-not-complete %}
 
 When the app is launching for the first time, the User can see the suggestion to download the map. That lets the OsmAnd determine the user's location and suggests downloading the current region map. It is possible to select another region or skip downloading by clicking 'Skip' in the top-right corner.
 

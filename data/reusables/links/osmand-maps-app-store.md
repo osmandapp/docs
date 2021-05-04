@@ -1,1 +1,0 @@
-[OsmAnd Maps on Apple App Store](https://apps.apple.com/us/app/osmand-maps-travel-navigate/id934850257)

@@ -3,7 +3,7 @@ title: "Application profiles"
 intro: "Application profiles"
 versions: '*'
 ---
-**_This article is incomplete & needs to be reviewed_**
+{% data reusables.general.article-not-complete %}
 
 ## Profile types
 

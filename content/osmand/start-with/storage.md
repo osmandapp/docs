@@ -4,9 +4,11 @@ intro: How to configure, access and change data storage for maps, tracks and oth
 versions: '*'
 ---
 
+{% data reusables.general.article-not-complete %}
+
 - Favorite backups
 - Folder structure (iOS / Android)
-- 
+
 
 ## Data storage folder
 Memory name | Permission access
