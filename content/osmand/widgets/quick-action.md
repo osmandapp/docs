@@ -69,12 +69,12 @@ In order to remove items from Quick actions widget:
 | {% data variables.ios-values.change_map_underlay %} | Allows you to create a list of the frequently used underlay maps. You can add to one button a few underlay maps or make separately each button for each map. If you turn on 'Show on an interim dialog' will be available to select what underlay map display now. If turn off  'Show on an interim dialog' while tapping on the Quick action button underlay maps will change in order.  |
 | **{% data variables.android-values.quick_action_add_navigation %}**  | |
 | {% data variables.android-values.quick_action_day_night_switch_mode %} | A toggle between day and night modes |
-| {% data variables.android-values.quick_action_navigation_voice %} | A toggle to diable or enable voice guidance during navigation |
-| {% data variables.android-values.context_menu_item_directions_from %} | Allows to make the screen center the point of departure|
-| {% data variables.android-values.quick_action_add_destination %} | |
-| {% data variables.android-values.quick_action_add_first_intermediate %} | Allows to add a first intermediate point at the screen centre location  |
+| {% data variables.android-values.quick_action_navigation_voice %} | A toggle that allows you mute or unmute voice guidance during navigation |
+| {% data variables.android-values.context_menu_item_directions_from %} | Allows to make the screen center as the point of departure|
+| {% data variables.android-values.quick_action_add_destination %} | Allows to make the screen center as the endpoint |
+| {% data variables.android-values.quick_action_add_first_intermediate %} | Allows to make the screen center as the first intermediate point |
 | {% data variables.android-values.quick_action_replace_destination %} | yyyyyyyy |
-| {% data variables.android-values.quick_action_remove_next_destination %} | yyyyyyyy |
+| {% data variables.android-values.quick_action_remove_next_destination %} | This button will be active only if you select a destinayion. Allows you to recalculate the route or finish navigation   |
 | {% data variables.android-values.quick_action_auto_zoom %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_start_stop_navigation %} | yyyyyyyy |
 | {% data variables.android-values.quick_action_resume_pause_navigation %} | yyyyyyyy |
