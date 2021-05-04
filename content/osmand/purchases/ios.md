@@ -1,6 +1,6 @@
 ---
 title: "iOS purchases"
-intro: "iOS purchases / subscriptions"
+intro: "Detailed information about purchases on iOS: subscriptions vs in app, prices, paid features."
 versions: '*'
 ---
 

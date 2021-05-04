@@ -1,6 +1,6 @@
 ---
 title: "Android purchases"
-intro: "Android purchases / subscriptions"
+intro: "Detailed information about purchases on Android: markets to install, subscriptions vs in app, prices, paid features."
 versions: '*'
 ---
 
