@@ -29,7 +29,7 @@ There are 2 ways to add items to the Quick actions list:
 - Menu → Configure screen → Quick action → &#8230;&#124; → Add action (The plus symbol also gives an option to add new actions to the list)
 - On the map click on the Quick action icon → Add action
 
-First you need to select [type of the action](#quick-actions-types) and then you could change its name and parameters, some action types have own parameters. Every action should have a unique name.
+First you need to select [type of the action](#quick-actions-types) and then you could change its name and parameters ([See below](#quick-actions-types) which parameters could be configured for each action type). Every action should have a unique name.
 
 ### Reorder actions
 {% data reusables.general.image-needs-to-be-updated %}
@@ -38,6 +38,8 @@ Quick action panel has only **6 slots** for actions per screen. However you coul
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → Hold & Drag selected action up and down by the icon (three vertical lines) in the list
 
+{% data variables.product.android_button_seq %} Open Quick action menu  → Long tap on 'Add action' → Hold & Drag selected action up and down by the icon (three vertical lines) in the list
+
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} → Click Edit (Pencil icon) → Hold & Drag selected action up and down by the icon (three vertical lines) in the list → Done
 
 ### Edit / Remove action
@@ -45,18 +47,21 @@ Quick action panel has only **6 slots** for actions per screen. However you coul
 
 There are several ways how to access Quick Action to edit or delete it:
 
-- Open via Edit actions list
+ - Open via Edit actions list
 
     {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %}
-    
+
     {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %}
+
  - Long tap on the action 
+
     Open Quick action menu → Long tap on the action (short tap to execute the action)
+
  - Bulk delete
 
-    {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → Tap on the bin icon on the right top corner → Select actions → Select multiple actions → Delete
+    {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → Click Delete (Bin icon on the right top corner) → Select actions → Delete
 
-    {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} → Click Edit (Pencil icon) → Select multiple actions → Delete
+    {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} → Click Edit (Pencil icon on the right top corner) → Select actions → Delete
  
 
 ## Quick actions types
@@ -64,7 +69,7 @@ There are several ways how to access Quick Action to edit or delete it:
 | Name | Actions |
 |:-------------|:-------------|
 | **{% data variables.android-values.quick_action_add_create_items %}** | |
-| {% data variables.android-values.quick_action_add_favorite %} | xxx |
+| {% data variables.android-values.quick_action_add_favorite %} | Adds favorite to a selected (center) point of the map. <br> **Show an interim dialog**: displays confirmation dialog <br> **Group**: adds favorite to a selected group <br> **Color**: adds favorite with a preselected color <br> **Name**: adds favorite with a given name prefix  |
 | {% data variables.android-values.quick_action_add_gpx %} | xxx |
 | {% data variables.android-values.quick_action_add_marker %} | xxx |
 | {% data variables.android-values.quick_action_add_parking %} | xxx |
