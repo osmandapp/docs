@@ -8,21 +8,23 @@ versions: '*'
 
 ## Install OsmAnd
 
-For Android devices you can download the free version and buy the full version in the next services:
+For Android devices you can download the free and paid application on the following markets:
+- [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023)
+- [Amazon](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd)
+- [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545)
 
 - [OsmAnd Google Play](https://play.google.com/store/apps/details?id=net.osmand)
 - [OsmAnd+ Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus)
 - [OsmAnd Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8)
 - [OsmAnd+ Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC/)
 - [OsmAnd Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545)
-
-
 |  App  | Google Play   | Amazon | Huawei AppGallery | Free / Paid |
-| :------------- | :------------- | :------------- | :------------- |
-| App OsmAnd  | ✔ | ✔ | ✔ | Free |
-| App OsmAnd+  | ✔ | ✔ | - | Paid |
+| :------------- | :------------- | :------------- | :------------- | :------------- |
+| OsmAnd  | [✔ OsmAnd](https://play.google.com/store/apps/details?id=net.osmand) | [✔ OsmAnd](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8) | [✔ OsmAnd]((https://appgallery.huawei.com/#/app/C101486545)) | Free |
+| OsmAnd+  | [✔ OsmAnd+](https://play.google.com/store/apps/details?id=net.osmand.plus) |  [OsmAnd+ Amazon](✔ https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC/) | - | Paid |
 
 | Purchase  | Google Play  | Amazon | Huawei AppGallery | App |
+| :------------- | :------------- | :------------- | :------------- | :------------- |
 | In-app OsmAnd Unlimited | ✔ | - | - | OsmAnd |
 | Subscription OsmAnd Live | ✔ | - | ✔ | OsmAnd / OsmAnd+ |
 
