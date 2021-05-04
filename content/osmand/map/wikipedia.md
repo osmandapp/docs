@@ -3,6 +3,7 @@ title: "Wikipedia"
 intro: "In travel, it is very useful when Wikipedia is always with you and offline on the map. Here we tell you how to display wikipedia articles on the map."
 versions: '*'
 ---
+{% data reusables.general.article-not-complete %}
 
 [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) is a free, multilingual open-collaborative online encyclopedia created and maintained by a community of volunteer editors using a wiki-based editing system. 
 

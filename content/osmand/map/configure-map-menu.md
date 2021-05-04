@@ -3,7 +3,7 @@ title: "Configure Map (Map)"
 intro: "OsmAnd gives you great possibilities for using the maps. You can customize them, download different types of maps and even edit them! This menu contains settings that allow you to include additional information on the map, show the terrain, additional layers from raster online maps, your Favorite points, GPX-tracks and much more."
 versions: '*'
 ---
-
+{% data reusables.general.article-not-complete %}
 
 **{% data variables.android-values.configure_map %}** menu (Android) or **{% data variables.ios-values.map_settings_map %}** menu (iOS) contains two sections menu:
 - **{% data variables.android-values.recording_context_menu_show %}** or **{% data variables.ios-values.map_settings_show %}**, in this part we set parameters of Overlay/Underlay layers, points for visualisation its on the map. 
