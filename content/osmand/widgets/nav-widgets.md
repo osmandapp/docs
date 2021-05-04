@@ -102,8 +102,7 @@ The widget shows the lanes you have to drive during a navigation with [distance 
 
 The widget shows alerts on the screen during navigation
 
-{% data variables.android-values.screen_alerts_descr %}
-
+Warnings are displayed in the lower left corner during navigation.
 
 ![Alert information widgets](/assets/images/widgets/alert_information_widget.png)
 
