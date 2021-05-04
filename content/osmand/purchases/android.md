@@ -6,41 +6,46 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
-## Where to download OsmAnd?
+## Install OsmAnd
 
 For Android devices you can download the free version and buy the full version in the next services:
 
-- [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023)
-- [Amazon](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd)
-- [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545)
+- [OsmAnd Google Play](https://play.google.com/store/apps/details?id=net.osmand)
+- [OsmAnd+ Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus)
+- [OsmAnd Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8)
+- [OsmAnd+ Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC/)
+- [OsmAnd Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545)
 
 
-|    | Google Play   | Amazon | Huawei AppGallery |
+|  App  | Google Play   | Amazon | Huawei AppGallery | Free / Paid |
 | :------------- | :------------- | :------------- | :------------- |
-| App OsmAnd Free | ✔ | ✔ | ✔ |
-| App OsmAnd+  | ✔ | ✔ | - |
-| In-app OsmAnd Unlimited | ✔ | - | - |
-| Subscription OsmAnd live | ✔ | - | ✔ |
+| App OsmAnd  | ✔ | ✔ | ✔ | Free |
+| App OsmAnd+  | ✔ | ✔ | - | Paid |
 
-## What difference between purchases?
+| Purchase  | Google Play  | Amazon | Huawei AppGallery | App |
+| In-app OsmAnd Unlimited | ✔ | - | - | OsmAnd |
+| Subscription OsmAnd Live | ✔ | - | ✔ | OsmAnd / OsmAnd+ |
 
-**OsmAnd+** is a separate application in [Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus&hl=en&gl=US) and [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC). You can add it to [the Family Library in Google Play](https://support.google.com/googleplay/answer/7007852?hl=en).
+## Difference between purchases
+
+{% note %}
+OsmAnd+ and OsmAnd Unlimited are fully equivalent.
+{% endnote %}
+
+**OsmAnd+** is a separate paid application available on [Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus) and [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC). You can add it to [the Family Library in Google Play](https://support.google.com/googleplay/answer/7007852?hl=en).
 
 **OsmAnd Unlimited** is an in-app purchase for OsmAnd free version in [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8), [Huawei AppStore](https://appgallery.huawei.com/#/app/C101486545). All features and the price is the same as for **OsmAnd+**.
 
-{% note %}
-OsmAnd+ and OsmAnd Unlimited have the same functionality.
-{% endnote %}
 
-**OsmAnd live** is a subscription, available for OsmAnd applications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023) and [Huawei AppStore](https://appgallery.huawei.com/#/app/C101486545).
+**OsmAnd Live** is a subscription, available for OsmAnd applications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023) and [Huawei AppStore](https://appgallery.huawei.com/#/app/C101486545).
 
 ## Prices
 
-In the list, there is information about prices of OsmAnd product for the Europe region. For other regions, prices are equivalent to local currencies.
+In the list, there is information about prices of OsmAnd product for the US and Europe region. For other regions, prices are equivalent to local currencies.
 
-|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live for OsmAnd Free| OsmAnd live for OsmAnd+|
+|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd Live for OsmAnd | OsmAnd Live for OsmAnd+|
 | :------------- | :------------- | :------------- | :------------- |  :------------- | 
-| **Purchase** | - | **One-time**, use forever | **Subscription** for 1 month / 3 months / 1 year | **Subscription** for 1 month / 3 months / 1 year |
+| **Purchase** | - | **One-time**, use forever | **Subscription** for 1 / 3 / 12 months | **Subscription** for 1 / 3 / 12 months |
 | **Price EUR** | 0€ | 19.99€  |  1.99€ / 3.99€ / 7.99€  |  1.49€ / 2.99€ / 5.99€ | 
 | **Price USD** | 0$ | 19.99$  |  1.99$ / 3.99$ / 7.99$  |  1.49$ / 2.99$ / 5.99$ | 
 
