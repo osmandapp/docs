@@ -1,6 +1,6 @@
 ---
 title: "Quick action"
-intro: "Quick Actions Widget is an additional customizable panel that makes access to all frequently used actions faster and more convenient."
+intro: "Quick Actions Widget is an additional customizable panel that allows you in two clicks activate all frequently used actions."
 versions: '*'
 ---
 
@@ -25,7 +25,7 @@ There are two ways to add items to the Quick actions list:
 
 ![Quick action edit action](/assets/images/widgets/quick_action_edit_action.png)
 
-When you select the action you should assign a name. By default, it will be named as a chosen category but you can rename it. Another way to rename is to click on the Quick action widget then with a long tap select the needed item and will appear editing menu.
+When you select the action you should assign a name. By default, it will be named as a chosen category but you can rename it. Another way to rename is to click on the Quick action widget then with a long tap select the needed item and rename in editing menu that will appear .
 
 Сhange the order of items in a list:
 
@@ -36,12 +36,12 @@ When you select the action you should assign a name. By default, it will be name
 In order to remove items from Quick actions widget:
 
 - 1 {% data variables.product.android_button_seq %}
-- 1.1 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → The bin icon on the left
-- 1.2 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → Tap on the bin icon on the right top corner → Select actions that you would like to delete11
-- 1.3 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → At the very bottom is available 'Delete all' button
-- 1.4 Open Quick action menu → Long tap on the action → The bin icon on the right top corner
+ - 1.1 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → The bin icon on the left
+ - 1.2 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → Tap on the bin icon on the right top corner → Select actions that you would like to delete11
+ - 1.3 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → At the very bottom is available 'Delete all' button
+ - 1.4 Open Quick action menu → Long tap on the action → The bin icon on the right top corner
 - 2 {% data variables.product.ios_button_seq %} 
-- 2.1 {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} → The pen icon in the top-right corner
+ - 2.1 {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} → The pen icon in the top-right corner
 
 ## Quick actions types
 
@@ -55,18 +55,18 @@ In order to remove items from Quick actions widget:
 | {% data variables.android-values.quick_action_add_poi %} | xxx |
 | {% data variables.android-values.quick_action_add_osm_bug %} | xxx |
 | **{% data variables.android-values.quick_action_add_configure_map %}** | |
-| {% data variables.ios-values.toggle_fav %} | Allows to display the favourite points on the map |
-| {% data variables.ios-values.show_hide_gpx %} | Allows to display selected tracks on the map |
-| {% data variables.ios-values.toggle_poi %} | Allows to display selected POI categories on the map |
-| {% data variables.ios-values.toggle_public_transport %}| Allows to display public transport on the map |
-| {% data variables.ios-values.quick_action_showhide_mapillary_title %} | Display Mapillary layer on the map |
-| {% data variables.ios-values.toggle_contour_lines %} | Allows to show or hide contour lines on the map |
+| {% data variables.ios-values.toggle_fav %} | Allows to show or hide the favourite points on the map (that selected on the My places → Favorits as Visible) |
+| {% data variables.ios-values.show_hide_gpx %} | Allows to show or hide the last opened track on the map|
+| {% data variables.ios-values.toggle_poi %} | Allows to selected POI categories that you want to display on the map. It is possible to select multiply categories in one button or set separately each button for each category|
+| {% data variables.ios-values.toggle_public_transport %}| Allows displaying public transport on the map. When you click on this button for the first time you need to choose what type of public transport would you like to display |
+| {% data variables.ios-values.quick_action_showhide_mapillary_title %} | Allows to display Mapillary layer on the map |
+| {% data variables.ios-values.toggle_contour_lines %} | Allows show or hide contour lines on the map |
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.shared_string_terrain %} | Allows to display terrian layer on the map |
-| {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.osm_notes %} | Allows to add the comment and display it on the map |
-| {% data variables.android-values.quick_action_map_style %} | Allows to add map styles that could be immediately selected |
-| {% data variables.ios-values.change_map_source %} | Allows to add map source that could be immediately selected  |
-| {% data variables.ios-values.change_map_overlay %} | Allows to add overlay map that could be immediately selected |
-| {% data variables.ios-values.change_map_underlay %} | Allows to add underlay map that could be immediately selected |
+| {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.osm_notes %} | Allows to display on the map all exist notes |
+| {% data variables.android-values.quick_action_map_style %} | Allows you to create a list of the frequently used map styles. You can add to one button a few map styles or make separately each button for each map style. If you turn on 'Show on an interim dialog' will be available to select what map display now. If turn off  'Show on an interim dialog' while tapping on the Quick action button map styles will change in order.  |
+| {% data variables.ios-values.change_map_source %} | Allows you to create a list of the frequently used map source. You can add to one button a few map sources or make separately each button for each map source. If you turn on 'Show on an interim dialog' will be available to select what map source display now. If turn off  'Show on an interim dialog' while tapping on the Quick action button map source will change in order.  |
+| {% data variables.ios-values.change_map_overlay %} | Allows you to create a list of the frequently used overlay maps. You can add to one button a few overlay maps or make separately each button for each map. If you turn on 'Show on an interim dialog' will be available to select what overlay map display now. If turn off  'Show on an interim dialog' while tapping on the Quick action button overlay maps will change in order. |
+| {% data variables.ios-values.change_map_underlay %} | Allows you to create a list of the frequently used underlay maps. You can add to one button a few underlay maps or make separately each button for each map. If you turn on 'Show on an interim dialog' will be available to select what underlay map display now. If turn off  'Show on an interim dialog' while tapping on the Quick action button underlay maps will change in order.  |
 | **{% data variables.android-values.quick_action_add_navigation %}**  | |
 | {% data variables.android-values.quick_action_day_night_switch_mode %} | A toggle between day and night modes |
 | {% data variables.android-values.quick_action_navigation_voice %} | A toggle to diable or enable voice guidance during navigation |
