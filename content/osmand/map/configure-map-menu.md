@@ -1,41 +1,43 @@
 ---
-title: "Configure Map (Map)"
-intro: "OsmAnd gives great possibilities for using the maps. Typically maps needs to be configured for your needs, so you could highlight Favorite points, Navigation markers or special Points of Interests on the map. You could also make visible specific routes or 3rd party GPX files, plus you might need to overlay your maps with relief information or satellite imagery. All configurations related to the map and what's attached to the map is present in Configure Map menu."
+title: "Configure Map"
+intro: "OsmAnd gives great possibilities for using the maps. Typically maps needs to be configured for your needs, so you could highlight Favorite points, Navigation markers or special Points of Interests on the map. You could also make visible specific routes or 3rd party GPX files, plus you might need to overlay the map with relief information or satellite imagery. All visible map information could be configured via Configure Map menu."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-**{% data variables.android-values.configure_map %}** menu (Android) or **{% data variables.ios-values.map_settings_map %}** menu (iOS) contains two sections menu:
-- **{% data variables.android-values.recording_context_menu_show %}** or **{% data variables.ios-values.map_settings_show %}**, in this part we set parameters of Overlay/Underlay layers, points for visualisation its on the map. 
-- **{% data variables.android-values.map_widget_map_rendering %} for Android** or **{% data variables.ios-values.map_settings_type %}, {% data variables.ios-values.map_settings_style %}, {% data variables.ios-values.map_settings_overunder %}, {% data variables.ios-values.language %} for iOS**, in the second part we change parameters of offline vector map.
+**{% data variables.android-values.configure_map %}** menu divides into 2 categories:
+- [Map style parameters](#map-style-parameters) - **{% data variables.android-values.map_widget_map_rendering %}** or **{% data variables.ios-values.map_settings_style %}** groups all parameters that allow to change how the main map is displayed.
+- [Map layers](#map-layers). These layers allow to put information on top (or under) of the main map layer but it doesn't change the display of the map itself.
+
 
 ![Configure map](/assets/images/map/configure-map.png)
 
 **Note:** In order to change screen information (widgets, icons) you can set parametres in [{% data variables.android-values.layer_map_appearance %}](/osmand/widgets/general).
 
+## Map Layers
+   - [Favorites](/osmand/map/point-layers-on-map) - display favorites.
+   - [POI](/osmand/map/point-layers-on-map) - display points of interests of selected categories.
+   - [Map markers](/osmand/map/point-layers-on-map) - display markers.
+   - [Overlay labels](/osmand/map/point-layers-on-map) - overlay names of POI, favorites next to them.
+   - [Transport](/osmand/map/map-styles-and-parameters#transport) - display public transport routes.
+   - [Tracks](/osmand/map/tracks-on-map) - display tracks.
+   - [Map sources](/osmand/map/online-raster-maps#select-map-as-main--underlay--overlay-layer) - select underlay / main source and overlay map with transparency levels.
+   - [Street level imagery](/osmand/map/street-level-imagery) - display points highlighted with available street-level imagery.
+   - [Wikipedia](/osmand/map/wikipedia) - highlight wikipedia articles linked with map.
+   - [Contour lines](/osmand/map/contour-lines-hillshade) - display depth or height contour lines.
+   - [Terrain](/osmand/map/contour-lines-hillshade) - display raster slope or hillshade information.
+   - [Other plugin layers](/osmand/plugins) - some plugins could contribute own layers.
 
-## Menu
-
-### {% data variables.android-values.shared_string_show %}
-   - [Favorites, POI overlay, POI overlay labels](/osmand/map/point-layers-on-map)
-   - [Map markers](/osmand/map/point-layers-on-map)
-   - [Transport](/osmand/map/map-styles-and-parameters#transport)
-   - [Tracks](/osmand/map/tracks-on-map)
-   - [Map sources](/osmand/map/online-raster-maps#select-map-as-main--underlay--overlay-layer)
-   - [Street level imagery](/osmand/map/street-level-imagery)
-   - [Wikipedia](/osmand/map/wikipedia)
-   - [Contour lines](/osmand/map/contour-lines-hillshade)
-   - [Terrain](/osmand/map/contour-lines-hillshade)
-   
-### {% data variables.android-values.map_widget_map_rendering %}
-   - [Map style](/osmand/map/map-styles-and-parameters#default-map-styles)
-   - [Map mode](/osmand/map/map-styles-and-parameters#map-mode)
-   - [Map magnifier](/osmand/map/map-styles-and-parameters#map-magnifier)
-   - [Text size](/osmand/map/map-styles-and-parameters#text-size)
-   - [Map slanguage](/osmand/map/map-styles-and-parameters#map-language)
-   - [Details](/osmand/map/map-styles-and-parameters#details)
-   - [Hide](/osmand/map/map-styles-and-parameters#hide)
-   - [Routes](/osmand/map/map-styles-and-parameters#routes)
+## Map style parameters
+Map style parameters are dependent on the main map style be displayed on the map. You can read more about it in [Map Styles article](/osmand/map/map-styles-and-parameters).
+   - [Map style](/osmand/map/map-styles-and-parameters#default-map-styles) - OsmAnd (City), Topo, Nautical and others.
+   - [Map mode](/osmand/map/map-styles-and-parameters#map-mode) - select to browse map or to run a navigation.
+   - [Map magnifier](/osmand/map/map-styles-and-parameters#map-magnifier) - more or less detailed map display.
+   - [Text size](/osmand/map/map-styles-and-parameters#text-size) - increase or decrease text size on the map.
+   - [Map language](/osmand/map/map-styles-and-parameters#map-language) - select preferred language displayed on the map.
+   - [Details](/osmand/map/map-styles-and-parameters#details) - highlight specific objects .
+   - [Hide](/osmand/map/map-styles-and-parameters#hide) - hide specific objects.
+   - [Routes](/osmand/map/map-styles-and-parameters#routes) - highlight specific routes and their symbols.
    
 ## UI Customization (Android)
    
