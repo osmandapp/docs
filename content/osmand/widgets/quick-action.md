@@ -64,7 +64,7 @@ There are several ways how to access Quick Action to edit or delete it:
     {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} → Click Edit (Pencil icon on the right top corner) → Select actions → Delete
  
 
-## Quick actions types
+## Quick action types
 
 ### {% data variables.android-values.quick_action_add_create_items %}
 | Action | Description |
