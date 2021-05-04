@@ -20,8 +20,8 @@ For Android devices you can download the free and paid application on the follow
 - [OsmAnd Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545)
 |  App  | Google Play   | Amazon | Huawei AppGallery | Free / Paid |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
-| OsmAnd  | [✔ OsmAnd](https://play.google.com/store/apps/details?id=net.osmand) | [✔ OsmAnd](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8) | [✔ OsmAnd]((https://appgallery.huawei.com/#/app/C101486545)) | Free |
-| OsmAnd+  | [✔ OsmAnd+](https://play.google.com/store/apps/details?id=net.osmand.plus) |  [OsmAnd+ Amazon](✔ https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC/) | - | Paid |
+| OsmAnd  | [✔ Install](https://play.google.com/store/apps/details?id=net.osmand) | [✔ Install](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8) | [✔ Install]((https://appgallery.huawei.com/#/app/C101486545)) | Free |
+| OsmAnd+  | [✔ Install](https://play.google.com/store/apps/details?id=net.osmand.plus) |  [✔ Install](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC/) | - | Paid |
 
 | Purchase  | Google Play  | Amazon | Huawei AppGallery | App |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
@@ -36,10 +36,9 @@ OsmAnd+ and OsmAnd Unlimited are fully equivalent.
 
 **OsmAnd+** is a separate paid application available on [Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus) and [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC). You can add it to [the Family Library in Google Play](https://support.google.com/googleplay/answer/7007852?hl=en).
 
-**OsmAnd Unlimited** is an in-app purchase for OsmAnd free version in [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8), [Huawei AppStore](https://appgallery.huawei.com/#/app/C101486545). All features and the price is the same as for **OsmAnd+**.
+**OsmAnd Unlimited** is an in-app purchase for OsmAnd free version on [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US). All features and the price is the same as for **OsmAnd+**.
 
-
-**OsmAnd Live** is a subscription, available for OsmAnd applications in [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023) and [Huawei AppStore](https://appgallery.huawei.com/#/app/C101486545).
+**OsmAnd Live** is a subscription, available for OsmAnd applications on [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023) and [Huawei AppStore](https://appgallery.huawei.com/#/app/C101486545).
 
 ## Prices
 
@@ -57,14 +56,15 @@ OsmAnd application has many features and tools. Of course, most of them are free
 
 The table shows all the features that are included in the paid and free packages of OsmAnd and its price.
 
-|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd live Subscription |
+|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd Live Subscription |
 | :------------- | :------------- | :------------- | :------------- | 
 | Ad-free access | ✔ | ✔ | ✔ |
-| Offline vertor maps |  7 maps | ∞ | ∞ |
-| Maps update |  Map updates one time at a month (at first dates of a month). Update = map download!!! | Map updates one time at a month (at first dates of a month) | Frequent   map updates (up to once an hour) |
+| Maps download | 7 maps (including updates) | ∞ | ∞ |
+| Maps update | Once a month (limited to 7 downloads) | Once a month | Every hour |
 | Topo data (Contour lines and Terrain) | - | ✔ | ✔ |
 | Nautical depths | - | ✔ | ✔ |
-| Travel guides (Wikipedia and Wikivoyage | - | ✔ | ✔ |
+| Wikipedia articles | - | ✔ | ✔ |
+| Travel guides (Wikivoyage) | - | ✔ | ✔ |
 | Offline and online navigation with turn-by-turn directions | ✔ | ✔ | ✔ |
 | Offline instant search | ✔ | ✔ | ✔ |
 | Trip recording | ✔ | ✔ | ✔ |
