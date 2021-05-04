@@ -79,18 +79,16 @@ There are several ways how to access Quick Action to edit or delete it:
 || **{% data variables.android-values.quick_action_add_configure_map %}** |
 | {% data variables.ios-values.toggle_fav %} | Show or hide the favourite points on the map. |
 | {% data variables.ios-values.show_hide_gpx %} | Show or hide the last visible tracks on the map. |
-| {% data variables.ios-values.toggle_poi %} | Enable or disable POI layer with selected categories.
- <br> - **POI Categories**: allows to select multiple categories
- <br> Note: Action will replace previously selected categories, if POI layer was active before.   |
-| {% data variables.ios-values.toggle_public_transport %} | Enable or disable public transport map layer.  <br> - **Transport type** (on first click): select one or many options from 'Transport stops', 'Bus, trolleybus, shuttle routes', 'Tram and train routes', 'Subway routes' |
+| {% data variables.ios-values.toggle_poi %} | Enable or disable POI layer with selected categories. <br> - **POI Categories**: allows to select multiple categories <br> Note: Action will replace previously selected categories, if POI layer was active before.   |
+| {% data variables.ios-values.toggle_public_transport %} | Enable or disable public transport map layer. <br> - **Transport type** (on first click): select one or many options from 'Transport stops', 'Bus, trolleybus, shuttle routes', 'Tram and train routes', 'Subway routes' |
 | {% data variables.ios-values.quick_action_showhide_mapillary_title %} <br> [Plugin](/osmand/plugins/mapillary) | Display or hide Mapillary layer on the map |
-| {% data variables.ios-values.toggle_contour_lines %} <br> [Plugin](/osmand/plugins/contour-lines) | Display or hide contour lines on the map |
-| {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.shared_string_terrain %} | Allows to display terrian layer on the map |
-| {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.osm_notes %} | Allows to display on the map all exist notes |
 | {% data variables.android-values.quick_action_map_style %} | Allows you to create a list of the frequently used map styles. You can add to one button a few map styles or make separately each button for each map style. If you turn on 'Show on an interim dialog' will be available to select what map display now. If turn off  'Show on an interim dialog' while tapping on the Quick action button map styles will change in order.  |
 | {% data variables.ios-values.change_map_source %} | Allows you to create a list of the frequently used map source. You can add to one button a few map sources or make separately each button for each map source. If you turn on 'Show on an interim dialog' will be available to select what map source display now. If turn off  'Show on an interim dialog' while tapping on the Quick action button map source will change in order.  |
 | {% data variables.ios-values.change_map_overlay %} | Allows you to create a list of the frequently used overlay maps. You can add to one button a few overlay maps or make separately each button for each map. If you turn on 'Show on an interim dialog' will be available to select what overlay map display now. If turn off  'Show on an interim dialog' while tapping on the Quick action button overlay maps will change in order. |
 | {% data variables.ios-values.change_map_underlay %} | Allows you to create a list of the frequently used underlay maps. You can add to one button a few underlay maps or make separately each button for each map. If you turn on 'Show on an interim dialog' will be available to select what underlay map display now. If turn off  'Show on an interim dialog' while tapping on the Quick action button underlay maps will change in order.  |
+| {% data variables.ios-values.toggle_contour_lines %} <br> [Plugin](/osmand/plugins/contour-lines) | Display or hide contour lines on the map |
+| {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.shared_string_terrain %} <br> [Plugin](/osmand/plugins/contour-lines) | Display and hide terrain layer on the map |
+| {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.osm_notes %} <br> [Plugin](/osmand/plugins/osm-editing) | Allows to display on the map all OSM notes |
 || **{% data variables.android-values.quick_action_add_navigation %}**  |
 | {% data variables.android-values.quick_action_day_night_switch_mode %} | A toggle between day and night modes |
 | {% data variables.android-values.quick_action_navigation_voice %} | A toggle that allows you mute or unmute voice guidance during navigation |
