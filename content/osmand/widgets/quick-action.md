@@ -66,7 +66,7 @@ There are several ways how to access Quick Action to edit or delete it:
 
 ## Quick actions types
 
-### **{% data variables.android-values.quick_action_add_create_items %}** |
+### {% data variables.android-values.quick_action_add_create_items %}
 | Action | Description |
 |:-------------|:-------------|
 | {% data variables.android-values.quick_action_add_favorite %} | Adds favorite to a selected (center) map location. <br> - **Show an interim dialog**: displays confirmation dialog <br> - **Group**: adds favorite to a selected group <br> - **Color**: adds favorite with a preselected color <br> - **Name**: adds favorite with a given name prefix  |
@@ -77,7 +77,7 @@ There are several ways how to access Quick Action to edit or delete it:
 | {% data variables.android-values.quick_action_add_osm_bug %} <br> [Plugin](/osmand/plugins/osm-editing) | Adds [OSM Note](https://wiki.openstreetmap.org/wiki/Notes)  <br> - **Show an interim dialog**: displays confirmation dialog <br> - **Message**: adds default message to the note |
 | Add media note <br> [Android Plugin](osmand/plugins/audio-video-notes) | Starts audio / photo / video note recording  for a selected (center) map location. |
 
-### **{% data variables.android-values.quick_action_add_configure_map %}**
+### {% data variables.android-values.quick_action_add_configure_map %}
 | Action | Description |
 |:-------------|:-------------|
 | {% data variables.ios-values.toggle_fav %} | Show or hide the favourite points on the map. |
@@ -93,7 +93,7 @@ There are several ways how to access Quick Action to edit or delete it:
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.shared_string_terrain %} <br> [Plugin](/osmand/plugins/contour-lines) | Display and hide terrain layer on the map |
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.osm_notes %} <br> [Plugin](/osmand/plugins/osm-editing) | Allows to display on the map all OSM notes |
 
-### **{% data variables.android-values.quick_action_add_navigation %}**
+### {% data variables.android-values.quick_action_add_navigation %}
 
 | Action | Description |
 |:-------------|:-------------|
@@ -108,5 +108,10 @@ There are several ways how to access Quick Action to edit or delete it:
 | {% data variables.android-values.quick_action_start_stop_navigation %} | Start navigation (if there is a destination point present) or stop navigation |
 | {% data variables.android-values.quick_action_resume_pause_navigation %} | Pause / Resume navigation |
 | {% data variables.android-values.change_application_profile %} | Create a list of application profiles and cycle through them.  <br> - **Show an interim dialog**: displays dialog with profiles list <br> - **Do not show an interim dialog**: profiles will be changed by defined order. <br> - **Note**: you could have 1 action with multiple profiles or many actions with 1 profile. |
-|| **{% data variables.android-values.layer_map_appearance %}**  |
+
+
+### {% data variables.android-values.layer_map_appearance %}
+
+| Action | Description |
+|:-------------|:-------------|
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.coordinates_widget %} | Show and hide coordinates widget |
