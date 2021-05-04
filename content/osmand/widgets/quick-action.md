@@ -66,9 +66,9 @@ There are several ways how to access Quick Action to edit or delete it:
 
 ## Quick actions types
 
-| Name | Actions |
+### **{% data variables.android-values.quick_action_add_create_items %}** |
+| Action | Description |
 |:-------------|:-------------|
-|| **{% data variables.android-values.quick_action_add_create_items %}** |
 | {% data variables.android-values.quick_action_add_favorite %} | Adds favorite to a selected (center) map location. <br> - **Show an interim dialog**: displays confirmation dialog <br> - **Group**: adds favorite to a selected group <br> - **Color**: adds favorite with a preselected color <br> - **Name**: adds favorite with a given name prefix  |
 | {% data variables.android-values.quick_action_add_gpx %} | Adds new Track waypoint to currently recording track. <br> - **Show an interim dialog**: displays confirmation dialog <br> - **Group**: adds favorite to a selected group <br> - **Color**: adds favorite with a preselected color <br> - **Name**: adds favorite with a given name prefix  |
 | {% data variables.android-values.quick_action_add_marker %} | Adds marker to a selected (center) map location. |
@@ -76,7 +76,10 @@ There are several ways how to access Quick Action to edit or delete it:
 | {% data variables.android-values.quick_action_add_poi %} <br> [Plugin](/osmand/plugins/osm-editing) | Adds POI to a selected (center) map location map (same as context menu action). <br> - **Show an interim dialog**: displays confirmation dialog <br> - **POI type** (optional): preselect OSM type <br> - **Tag/Value** (multiple): add [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Map_Features) tags / values |
 | {% data variables.android-values.quick_action_add_osm_bug %} <br> [Plugin](/osmand/plugins/osm-editing) | Adds [OSM Note](https://wiki.openstreetmap.org/wiki/Notes)  <br> - **Show an interim dialog**: displays confirmation dialog <br> - **Message**: adds default message to the note |
 | Add media note <br> [Android Plugin](osmand/plugins/audio-video-notes) | Starts audio / photo / video note recording  for a selected (center) map location. |
-|| **{% data variables.android-values.quick_action_add_configure_map %}** |
+
+### **{% data variables.android-values.quick_action_add_configure_map %}**
+| Action | Description |
+|:-------------|:-------------|
 | {% data variables.ios-values.toggle_fav %} | Show or hide the favourite points on the map. |
 | {% data variables.ios-values.show_hide_gpx %} | Show or hide the last visible tracks on the map. |
 | {% data variables.ios-values.toggle_poi %} | Enable or disable POI layer with selected categories. <br> - **POI Categories**: allows to select multiple categories <br> Note: Action will replace previously selected categories, if POI layer was active before.   |
@@ -89,7 +92,11 @@ There are several ways how to access Quick Action to edit or delete it:
 | {% data variables.ios-values.toggle_contour_lines %} <br> [Plugin](/osmand/plugins/contour-lines) | Display or hide contour lines on the map |
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.shared_string_terrain %} <br> [Plugin](/osmand/plugins/contour-lines) | Display and hide terrain layer on the map |
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.osm_notes %} <br> [Plugin](/osmand/plugins/osm-editing) | Allows to display on the map all OSM notes |
-|| **{% data variables.android-values.quick_action_add_navigation %}**  |
+
+### **{% data variables.android-values.quick_action_add_navigation %}**
+
+| Action | Description |
+|:-------------|:-------------|
 | {% data variables.android-values.quick_action_day_night_switch_mode %} | Switche between day and night map modes |
 | {% data variables.android-values.quick_action_navigation_voice %} | Mute or unmute voice guidance during navigation |
 | {% data variables.android-values.context_menu_item_directions_from %} | Mark a selected (center) map location as a point of departure |
