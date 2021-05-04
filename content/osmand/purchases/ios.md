@@ -45,9 +45,9 @@ Here is detailed information about all in apps with prices for US / Europe regio
 | :------------- | :------------- | :------------- |
 | {% data variables.ios-values.product_title_sea_depth_contours %} | {% data variables.ios-values.product_desc_sea_depth_contours %} | 2.29€ / 1.99$   |
 | {% data variables.ios-values.product_title_wiki %} | Offline Wikipedia articles on the map | 0€ / 0$  |
-| {% data variables.ios-values.product_title_srtm %} | Offline Contour lines, hillshade and slopes displayed on OsmAnd offline maps. Contour lines provide the information about heights of the area while hillshade and slopes are their visualization. See the names of mountain peaks and specific features of terrain using this plugin. | 5.49€ / 4.99$  |
-| | | |
-| {% data variables.ios-values.product_title_allworld %} | {% data variables.ios-values.product_desc_allworld %} | 12.99€ / 11.99$  |
+| {% data variables.ios-values.product_title_srtm %} | Offline Contour lines, hillshade and slopes displayed on OsmAnd offline maps. | 5.49€ / 4.99$  |
+| | | 
+| {% data variables.ios-values.product_title_allworld %} | Unlimited map downloads & updates worldwide | 12.99€ / 11.99$  |
 | {% data variables.ios-values.product_title_russia %} | {% data variables.ios-values.product_desc_russia %} | 5.49€  / 4.99$ |
 | {% data variables.ios-values.product_title_africa %} | {% data variables.ios-values.product_desc_africa %} | 5.49€ / 4.99$ |
 | {% data variables.ios-values.product_title_asia %} | {% data variables.ios-values.product_desc_asia %} | 5.49€ / 4.99$ |
