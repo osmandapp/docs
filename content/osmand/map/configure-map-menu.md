@@ -11,8 +11,9 @@ versions: '*'
 
 ![Configure map](/assets/images/map/configure-map.png)
 
-**Note:** In order to change screen information (widgets, icons) you can set parametres in [{% data variables.android-values.layer_map_appearance %}](/osmand/widgets/general).
-**Note:** Configure map settings are [profile dependent](/osmand/personal/profiles)
+**Notes:** 
+- In order to change screen information (widgets, icons) you can set parametres in [{% data variables.android-values.layer_map_appearance %}](/osmand/widgets/general)
+- Configure map settings are [profile dependent](/osmand/personal/profiles)
 
 ## Map Layers
    - [Favorites](/osmand/map/point-layers-on-map) - display favorites points.

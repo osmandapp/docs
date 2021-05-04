@@ -5,13 +5,12 @@ versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
+- Make similar description of Main menu to [Configure map menu](/osmand/map/configure-map-menu)
 - explain each item in the drawer with links if they are not present
 - explain how to configure items list in the drawer
 
 
-{% data variables.android-values.ui_customization %}  menu helps to customize the quantity of items in "Drawer", "Configure map" and "Contex Menu".
-
-## Drawer
+## UI Customization (Android)
 
 It is a menu where the user can reorder or hide items from the Drawer, to see hidden items from the menu, copy the list of items from the another profile and reset to default settings.
 
@@ -26,24 +25,3 @@ The items that was moved to the bin would be moved to the section 'Hidden' below
 
 ![Drawer menu hidden items ](/assets/images/settings/drawer_menu_hidden_items.png)
 
-> NOTE: All settings will apply to the 'Browse map' profile by default. User can reset settings to default or copy from another profile.
-
-## Configure map
-
-It is a menu where the user can reorder or hide items from the 'Configure map', to see hidden items from the menu, copy the list of items from the another profile and reset to default settings.
-
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.ui_customization %} → {% data variables.android-values.configure_map%}
-
-![Configure map items ](/assets/images/settings/configure_map_items.png)
-
-> NOTE: All settings will apply to the 'Browse map' profile by default. User can reset settings to default or copy from another profile.
-
-## Context menu actions
-
-It is a menu where the user can reorder or hide items from the 'Context menu actions', to see hidden items from the menu, copy the list of items from the another profile and reset to default settings.
-
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.ui_customization %} → {% data variables.android-values.context_menu_actions %}
-
-![Context menu actions items ](/assets/images/settings/context_menu_actions_items.png)
-
-> NOTE: All settings will apply to the 'Browse map' profile by default. User can reset settings to default or copy from another profile.
