@@ -9,6 +9,7 @@ versions: '*'
 - [Map layers](#map-layers). These layers allow to put information on top (or under) of the main map layer but it doesn't change the display of the map itself.
 
 {% data reusables.general.image-needs-to-be-updated %}
+
 ![Configure map](/assets/images/map/configure-map.png)
 
 **Notes:** 
