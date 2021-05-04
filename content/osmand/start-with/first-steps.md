@@ -1,5 +1,5 @@
 ---
-title: "Step by step"
+title: "First steps"
 intro: "First steps with OsmAnd. "
 versions: '*'
 ---
@@ -22,6 +22,18 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 **Android storage**. On Android devices your might want to change where the maps stored, on shared storage, sdcard, etc. You can read more about it on [Storage](/osmand/start-with/storage).
 
 In case you need to reinstall the app, please make sure you have back up all your [Personal Data](/osmand/import-export) data such as Tracks and Favorites.
+
+
+### Permissions
+{% data reusables.general.article-not-complete %}
+
+Sign out icon {% octicon("sign-out") %} in text.
+Now try overflow menu &#xe802; - here.
+
+-   **Camera/voice recording** - this is only used by [the Audio/Video notes plugin (for Android version only)](https://osmand.net/features/audio-video-notes-plugin). This feature is optional and by default disabled (it can be enabled in the Plugin Manager). It allows to quickly create location-related audio/video notes during a trip.
+-   **GPS/Network access/SD card** are natural requirements for this application.
+-   **Billing permission** - even though the free application doesn't have any in app purchases, it was introduced to get them in and the last moment inapp was excluded. There is no reason to remove that in app because it will be needed to go through long procedure of extending permissions again.
+
 
 ### Browse Map
 TODO: Browse map Give location permissions 

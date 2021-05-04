@@ -1,6 +1,6 @@
 ---
 title: "Main menu"
-intro: "TODO: Introduction of Main menus like Drawer and Concepts"
+intro: "Introduction of Main menus like Drawer and Concepts"
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}

@@ -8,10 +8,11 @@ versions: '*'
 
 {% link_with_intro /favourites %}
 {% link_with_intro /markers %}
-{% link_with_intro /profiles %}
 {% link_with_intro /maps %}
+{% link_with_intro /profiles %}
 {% link_with_intro /global-settings %}
 {% link_with_intro /import-export %}
+{% link_with_intro /storage %}
 
 ## * OSM Edits
 ## * Audio Video notes 
