@@ -1,9 +1,8 @@
 ---
 title: "Configure Map"
-intro: "OsmAnd gives great possibilities for using the maps. Typically maps needs to be configured for your needs, so you could highlight Favorite points, Navigation markers or special Points of Interests on the map. You could also make visible specific routes or 3rd party GPX files, plus you might need to overlay the map with relief information or satellite imagery. All visible map information could be configured via Configure Map menu."
+intro: "OsmAnd gives great possibilities for using the maps. Typically maps needs to be configured for your needs, so you could highlight Favorite points, Navigation markers or special Points of Interests on the map. You could also make visible specific routes or 3rd party GPX files and you could overlay the map with relief information or satellite imagery. All visible map information is configurable via Configure Map menu."
 versions: '*'
 ---
-{% data reusables.general.article-not-complete %}
 
 **{% data variables.android-values.configure_map %}** menu divides into 2 categories:
 - [Map style parameters](#map-style-parameters) - **{% data variables.android-values.map_widget_map_rendering %}** or **{% data variables.ios-values.map_settings_style %}** groups all parameters that allow to change how the main map is displayed.
@@ -13,20 +12,21 @@ versions: '*'
 ![Configure map](/assets/images/map/configure-map.png)
 
 **Note:** In order to change screen information (widgets, icons) you can set parametres in [{% data variables.android-values.layer_map_appearance %}](/osmand/widgets/general).
+**Note:** Configure map settings are [profile dependent](/osmand/personal/profiles)
 
 ## Map Layers
-   - [Favorites](/osmand/map/point-layers-on-map) - display favorites.
+   - [Favorites](/osmand/map/point-layers-on-map) - display favorites points.
    - [POI](/osmand/map/point-layers-on-map) - display points of interests of selected categories.
-   - [Map markers](/osmand/map/point-layers-on-map) - display markers.
-   - [Overlay labels](/osmand/map/point-layers-on-map) - overlay names of POI, favorites next to them.
-   - [Transport](/osmand/map/map-styles-and-parameters#transport) - display public transport routes.
-   - [Tracks](/osmand/map/tracks-on-map) - display tracks.
-   - [Map sources](/osmand/map/online-raster-maps#select-map-as-main--underlay--overlay-layer) - select underlay / main source and overlay map with transparency levels.
-   - [Street level imagery](/osmand/map/street-level-imagery) - display points highlighted with available street-level imagery.
-   - [Wikipedia](/osmand/map/wikipedia) - highlight wikipedia articles linked with map.
+   - [Map markers](/osmand/map/point-layers-on-map) - display map markers.
+   - [Overlay labels](/osmand/map/point-layers-on-map) - show names of points, favorites on the map.
+   - [Transport](/osmand/map/map-styles-and-parameters#transport) - show public transport stops.
+   - [Tracks](/osmand/map/tracks-on-map) - display imported, planned or recorded tracks over the map.
+   - [Map sources](/osmand/map/online-raster-maps#select-map-as-main--underlay--overlay-layer) - select underlay / main source / overlay map with transparency levels.
+   - [Street level imagery](/osmand/map/street-level-imagery) - display points with available street-level imagery.
+   - [Wikipedia](/osmand/map/wikipedia) - highlight wikipedia articles linked to the map.
    - [Contour lines](/osmand/map/contour-lines-hillshade) - display depth or height contour lines.
    - [Terrain](/osmand/map/contour-lines-hillshade) - display raster slope or hillshade information.
-   - [Other plugin layers](/osmand/plugins) - some plugins could contribute own layers.
+   - [Other plugin layers](/osmand/plugins) - many plugins add own layers with extra information.
 
 ## Map style parameters
 Map style parameters are dependent on the main map style be displayed on the map. You can read more about it in [Map Styles article](/osmand/map/map-styles-and-parameters).
