@@ -4,8 +4,6 @@ intro: "Map buttons such as Zoom buttons, Search, Direction, Compass, My Locatio
 versions: '*'
 ---
 
-{% data reusables.general.article-not-complete %}
-
 ## My Location & Zoom
 
 ![Configure screen menu](/assets/images/widgets/location_zoom_buttons.png)
