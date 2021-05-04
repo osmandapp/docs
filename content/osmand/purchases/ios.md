@@ -10,7 +10,6 @@ User can download {% data reusables.links.osmand-maps-app-store %}.
 
 ## Prices
 
-
 In-app purchases in OsmAnd application:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.purchases %}
