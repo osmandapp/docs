@@ -4,8 +4,6 @@ intro: "Android purchases / subscriptions"
 versions: '*'
 ---
 
-{% data reusables.general.article-not-complete %}
-
 ## Install OsmAnd
 
 For Android devices you can download the free and paid application on the following markets:
@@ -38,7 +36,7 @@ OsmAnd+ and OsmAnd Unlimited are fully equivalent.
 
 ## Prices
 
-In the list, there is information about prices of OsmAnd product for the US and Europe region. For other regions, prices are equivalent to local currencies.
+In the list, there is information about prices of OsmAnd product for the US and Europe region. For other regions, prices are equivalent in local currencies.
 
 |    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd Live for OsmAnd | OsmAnd Live for OsmAnd+|
 | :------------- | :------------- | :------------- | :------------- |  :------------- | 
@@ -56,7 +54,7 @@ The table shows all the features that are included in the paid and free packages
 | :------------- | :------------- | :------------- | :------------- | 
 | Ad-free access | ✔ | ✔ | ✔ |
 | Maps download | 7 maps (including updates) | ∞ | ∞ |
-| Maps update | Once a month (limited to 7 downloads) | Once a month | Every hour |
+| Maps update | Once a month  (15 days delay) <br>* limited to 7 downloads | Once a month (15 days delay) | Every hour (no delay) |
 | Topo data (Contour lines and Terrain) | - | ✔ | ✔ |
 | Nautical depths | - | ✔ | ✔ |
 | Wikipedia articles | - | ✔ | ✔ |

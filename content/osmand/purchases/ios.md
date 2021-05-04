@@ -4,23 +4,49 @@ intro: "iOS purchases / subscriptions"
 versions: '*'
 ---
 
-## Where to download OsmAnd?
+## Install OsmAnd on iOS
 
-User can download {% data reusables.links.osmand-maps-app-store %}.
+You can download the app via {% data reusables.links.osmand-maps-app-store %}.
+
+
+## Free and Paid features
+
+⁂ - needed [purchase](#prices).
+
+|    | OsmAnd Free   | OsmAnd In-App | OsmAnd Live subscription |
+| :------------- | :------------- | :------------- | :------------- |
+| Ad-free access | ✔ | ✔ | ✔ |
+| Map downloads |  5 maps (including updates) | ⁂ | ∞ |
+| Maps update |  Once a month (with 15 days delay) <br> * limited to 5 downloads |  ⁂ - Once a month (with 15 days delay) | Every hour (no delay) |
+| Topo data (Contour lines and Terrain) | - | ⁂ | ✔ |
+| Nautical depths | - | ⁂ | ✔ |
+| Travel guides (Wikipedia) | - | ⁂ | ✔ |
+| Offline and online navigation with turn-by-turn directions | ✔ | ✔ | ✔ |
+| Offline instant search | ✔ | ✔ | ✔ |
+| Trip recording | ✔ | ✔ | ✔ |
+| Export GPX tracks | ✔ | ✔ | ✔ |
+| Import GPX/KML tracks | ✔ | ✔ | ✔ |
+| "Plan a route" tool | ✔ | ✔ | ✔ |
+| "Map markers" tool | ✔ | ✔ | ✔ |
+| Online map sources | ✔ | ✔ | ✔ |
+| SQLitedb/mbtiles Map support | ✔ | ✔ | ✔ |
+| Favorite points (Bookmarks, waypoints) | ✔ | ✔ | ✔ |
+| Export/Import app profile | ✔ | ✔ | ✔ |
 
 ## Prices
 
-In-app purchases in OsmAnd application:
+OsmAnd is a free application with in app purchases. You can access purchases menu via:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.purchases %}
 
-In lists, there is information about prices of OsmAnd product for the Europe region. For other regions, prices are equivalent to local currencies.
+Here is detailed information about all in apps with prices for US / Europe region. For other regions, prices are equivalent in local currencies.
 
-|    | Description   | Price |
+|  Purchase  | Description   | Price |
 | :------------- | :------------- | :------------- |
 | {% data variables.ios-values.product_title_sea_depth_contours %} | {% data variables.ios-values.product_desc_sea_depth_contours %} | 2.29€ / 1.99$   |
-| {% data variables.ios-values.product_title_wiki %} | Get information about points of interest from Wikipedia. | 0€ / 0$  |
-| {% data variables.ios-values.product_title_srtm %} | This plugin provides contour lines, hillshade and slopes, which can be displayed in OsmAnd offline maps. Contour lines provide the information about heights of the area while hillshade and slopes are their visualization. See the names of mountain peaks and specific features of terrain using this plugin. | 5.49€ / 4.99$  |
+| {% data variables.ios-values.product_title_wiki %} | Offline Wikipedia articles on the map | 0€ / 0$  |
+| {% data variables.ios-values.product_title_srtm %} | Offline Contour lines, hillshade and slopes displayed on OsmAnd offline maps. Contour lines provide the information about heights of the area while hillshade and slopes are their visualization. See the names of mountain peaks and specific features of terrain using this plugin. | 5.49€ / 4.99$  |
+| | | |
 | {% data variables.ios-values.product_title_allworld %} | {% data variables.ios-values.product_desc_allworld %} | 12.99€ / 11.99$  |
 | {% data variables.ios-values.product_title_russia %} | {% data variables.ios-values.product_desc_russia %} | 5.49€  / 4.99$ |
 | {% data variables.ios-values.product_title_africa %} | {% data variables.ios-values.product_desc_africa %} | 5.49€ / 4.99$ |
@@ -41,31 +67,6 @@ Subscription purchases in OsmAnd application:
 | 3 months|Get unlimited hourly map updates and all features included from 3 months. | 3.99€ / 3.99$  |
 | 1 year |Get unlimited hourly map updates and all features included from 1 year. | 7.99€ / 7.49$ |
 
-## Free and Paid features
-
-⁂ - needed [purchase](/osmand/purchases#prices-1).
-
-|    | OsmAnd Free   | OsmAnd map package | OsmAnd live subscription |
-| :------------- | :------------- | :------------- | :------------- |
-| Ad-free access | ✔ | ✔ | ✔ |
-| Offline vertor maps |  5 maps | ∞ | ∞ |
-| Maps update |  Map updates one time at a month (at first dates of a month). Update = map download!!! |  ⁂ - Map updates one time at a month (at first dates of a month) | Frequent map updates (up to once an hour) |
-| Topo data (Contour lines and Terrain) | - | ⁂ | ✔ |
-| Nautical depths | - | ⁂ | ✔ |
-| Travel guides (Wikipedia) | - | ⁂ | ✔ |
-| Offline and online navigation with turn-by-turn directions | ✔ | ✔ | ✔ |
-| Offline instant search | ✔ | ✔ | ✔ |
-| Trip recording | ✔ | ✔ | ✔ |
-| Export GPX tracks | ✔ | ✔ | ✔ |
-| Import GPX/KML tracks | ✔ | ✔ | ✔ |
-| "Plan a route" tool | ✔ | ✔ | ✔ |
-| "Map markers" tool | ✔ | ✔ | ✔ |
-| Online map sources | ✔ | ✔ | ✔ |
-| SQLitedb/mbtiles Map support | ✔ | ✔ | ✔ |
-| Favorite points (Bookmarks, waypoints) | ✔ | ✔ | ✔ |
-| Audio/pic/video points | ✔ | ✔ | ✔ |
-| OsmAnd Tracker | ✔ | ✔ | ✔ |
-| Export/import app profile | ✔ | ✔ | ✔ |
 
 ## Restore purchases
 
