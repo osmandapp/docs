@@ -2,6 +2,7 @@
 title: Permissions
 versions: '*'
 ---
+**_This article is incomplete & needs to be reviewed_**
 Sign out icon {% octicon("sign-out") %} in text.
 Now try overflow menu &#xe802; - here.
 

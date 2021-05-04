@@ -4,6 +4,8 @@ intro: "First steps with OsmAnd. "
 versions: '*'
 ---
 
+**_This article is incomplete & needs to be reviewed_**
+
 ### Install OsmAnd
 OsmAnd is a mobile application available for **Android** and **iOS**. You can download it on most popular Application Stores.
 

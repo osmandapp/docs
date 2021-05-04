@@ -3,7 +3,8 @@ title: "Main menu"
 intro: "TODO: Introduction of Main menus like Drawer and Concepts"
 versions: '*'
 ---
-TODO
+**_This article is incomplete & needs to be reviewed_**
+
 - explain each item in the drawer with links if they are not present
 - explain how to configure items list in the drawer
 

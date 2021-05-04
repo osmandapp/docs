@@ -3,6 +3,8 @@ title: "Download maps"
 intro: "Download maps"
 versions: '*'
 ---
+**_This article is incomplete & needs to be reviewed_**
+
 When the app is launching for the first time, the User can see the suggestion to download the map. That lets the OsmAnd determine the user's location and suggests downloading the current region map. It is possible to select another region or skip downloading by clicking 'Skip' in the top-right corner.
 
 > NOTE: The "Mini world overview map"  will be downloaded by default. We recommend downloading the "World overview map". This basic map allows user to view regions and countries.

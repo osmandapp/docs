@@ -3,6 +3,8 @@ title: "Application profiles"
 intro: "Application profiles"
 versions: '*'
 ---
+**_This article is incomplete & needs to be reviewed_**
+
 ## Profile types
 
 There are few profile types set by default in OsmAnd.

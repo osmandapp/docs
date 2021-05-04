@@ -3,7 +3,6 @@ title: Create Offline Raster & Vector Maps
 versions: '*'
 intro: With OsmAndMapCreator there are many ways how to create and customize Raster & Vector maps for your needs. 
 ---
-**_This article is incomplete & needs to be reviewed_**
 
 ## OsmAndMapCreator
 [**OsmAndMapCreator**](https://wiki.openstreetmap.org/wiki/OsmAndMapCreator) can be used to create any maps supported by OsmAnd yourself. You can download latest version from [website](https://download.osmand.net/latest-night-build/OsmAndMapCreator-main.zip). OsmAndMapCreator has UI capabilities to create raster & vector maps. To create vector map you will need OSM file (`*.pbf, *.osm.gz, *.osm.bz2`) and to create online sqlite map file you will need a `base tile url`.
@@ -62,8 +61,8 @@ All extra parameters could be found in the code in case they are not documented 
 | `--keep-only-sea-objects` | Removes object that are not part of ocean / see, it's used to produce nautical map |
 | `--ram-process` | Specifies that creation will be using RAM SQlite DB instead of disk - [more information](#ram-to-process-maps). |
 | `--srtm=<FOLDER>` | Specifies folder with TIF-DEM images, so information about height & slope will be encoded into roads |
-| `--rendering-types=<FILE>` | rendering_types.xml location with rules & OSM tags needs to be encoded in OBF - [more information](#customize-osm-tags). |
-| `--poi-types=<FILE>` | poi_types.xml location with rules & OSM tags needs to be encoded in OBF for POI - [more information](#customize-osm-tags). |
+| `--rendering-types=<FILE>` | rendering_types.xml location with rules & OSM tags needs to be encoded in OBF - [more information](#custom-vector-map-tags). |
+| `--poi-types=<FILE>` | poi_types.xml location with rules & OSM tags needs to be encoded in OBF for POI - [more information](#custom-vector-map-tags). |
 | `--extra-relations=<FILE>` | OSM file with polygons like Low Emission Zones which tags should be propagated to the ways. |
 
 
@@ -94,17 +93,22 @@ Example: for a 250MB *.osm.pbf* a \~4.5GB *nodes.tmp.odb* file will be generated
 ### Custom vector map (tags)
 
 **_This article is incomplete & needs to be reviewed_**
-- Rendering types xml
-- POI types xml
+OsmAnd rendering and POI search relies on information written to [OBF](/development/osmand-file-formats/osmand-obf). It has different structure than other OSM formats and optimized for mobile usage. You can inspect the contents using [Binary Inspector](/development/map-creation/how-to-inspect-an-obf). 3 Most important parts of OBF file are
+
+- **Map section** used for Map Rendering defined by [Rendering types](https://github.com/osmandapp/OsmAnd-resources/blob/master/obf_creation/rendering_types.xml)
+- **POI section** used for POI search and Object information defined by [POI types](https://github.com/osmandapp/OsmAnd-resources/blob/master/poi/poi_types.xml)
+- **Routing section** used for Routing defined by [Routing types](https://github.com/osmandapp/OsmAnd-resources/blob/master/obf_creation/rendering_types.xml) - same file as rendering types but has own section `<category name="routing"> - routing_type`. 
+
+`rendering_types.xml` and `poi_types.xml` could be overridden during map creation process in OsmAndMapCreator UI settings or as command line parameters `--rendering-types=<path>`, `--poi-types==<path>` to `utilities.sh generate-obf` (packaged with OsmAndMapCreator).
+
+- Main map object type (`<type tag="abandoned:highway" value="track" minzoom="13"/>`) is registered per OSM entity (node or way or multipolygon). There could be many main types registered per 1 entity (i.e. road + tram + route_bus), tag `order` will sort types within entity.
+- Additional map object type (`<type tag="service" value="driveway" minzoom="13" additional="true"/>`) is additional information attached for OSM entity, so in case OSM entity is not registered with main type it won't be stored inside OBF. Usually it stores information to display extra features like color, smoothness.
+- Text map object type (`<type tag="int_ref" additional="text" minzoom="1" order="32"/>`), stores text information about object so it could be later displayed on the map
+- `entity_convert` represents simple tag transformation scripts (`<entity_convert pattern="tag_transform" from_tag="bridge" if_tag1="highway" if_value1="proposed" routing="no"/>`). It is often used to combine tags into specific types, so it's easier to display with custom rendering style. Also it allows to give region specific tag transformation and allows to have different features rendering per country.
+- Relation tag propagation. OsmAnd doesn't index relation objects (except multipolygons - stored as area objects) but it allows to propagate, push tags from relation onto members. Obviously 1 member could have multiple parent relations and tags conflicts are possible. OsmAnd supports 3 ways to deal with conflicts: 1) combine all tags as long comma-separated line (good for rendering bus route names as a long string on the way - `nameTags`, `namePrefix`), 2) sort values and keep the highest value (good for rendering routes local vs international - `relationGroupSort`, `additionalTags`, `additionalNamePrefix`), 3) generates unique tags for each relation (not used for now but stores information without loss - `relationGroupNameTags`, `relationGroupAdditionalTags`, `relationGroupPrefix`). **More information** you can find in [Rendering types](https://github.com/osmandapp/OsmAnd-resources/blob/master/obf_creation/rendering_types.xml).
 
 
-It is possible to create a customized OBF file with specific (own) vector data (hiking paths, speed cams, transport routes debug way info), and adjust the renderer to display it.
-OsmAndMapCreator can process only OSM files (osm-xml, bz2, pbf). However the set of tags can be custom. To specify what tags/values need to be indexed by Creator please download and change [this](https://github.com/osmandapp/OsmAnd-resources/blob/master/obf_creation/rendering_types.xml) file. OsmAndMapCreator has an option to use custom rendering\_types.xml in the settings. Once file is created you can double check that data is present by utility binaryInspector with `-vmap` argument. This utility is packaged with OsmAndMapCreator.
-
-Once the .obf file is ready you can create custom rendering file to display missing attributes. There is a [default rendering style](https://github.com/osmandapp/OsmAnd-resources/blob/master/rendering_styles/default.render.xml) which contains all information about rendering. It is good to have a look at it but it is very hard to open/edit it and understand. More convenient way to create your own rendering style is to create style that depends (inherits) default style. A good example of custom rendering style you can find [here](https://github.com/osmandapp/OsmAnd-resources/blob/master/rendering_styles/Winter-and-ski.render.xml.).
-
-Currently OsmAndMapCreator doesn't support relation tagging. So you need to manually copy all tags from relations (like route color) to way tags by script.
-
+**Read more**: usually custom vector maps combined with [custom rendering style](/development/osmand-file-formats/osmand-rendering-style).
 
 ## Raster maps (advanced)
 

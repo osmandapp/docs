@@ -3,7 +3,7 @@ title: Import / Export data (Migration)
 intro: How to import and export all personal and custom data between different devices
 versions: '*'
 ---
-
+**_This article is incomplete & needs to be reviewed_**
 
 # Reinstall 
 Please note that most versions of Android also remove an app's data folder when you uninstall an app (or when in Android's App manager settings you tap 'Clear data' to reset the app settings to default). If no precaution is taken, this will for OsmAnd mean you **lose all downloaded maps as well as any stored Favorites, GPX tracks, etc.(!)**
