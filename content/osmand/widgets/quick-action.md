@@ -1,39 +1,42 @@
 ---
-title: "Quick action"
-intro: "Quick Actions Widget is an additional customizable panel that allows you in two clicks activate all frequently used actions."
+title: "Quick Action"
+intro: "Quick Action Widget is a quick access button on the map with frequently used actions accessible 'just in 2 clicks'."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
 ![Quick action widget](/assets/images/widgets/quick_action_widget.png)
 
-## Configure quick actions list
-### Enable widget
-In order to use the Quick Actions button you need to enable this widget on the home screen.
+## Enable widget
+In order to use the Quick Actions button you need to enable this widget first.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} 
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %}
 
-By default, the Quick action button will appear on the right corner (above the zoom button). But it can be moved to the other part of the screen by long tap on it. 
+By default the Quick action button will appear on the right corner (above the zoom buttons), but it can be moved to the any part of the screen by long tap on it. 
 
-To open Quick action menu click on it.
+To open Quick action menu just press on the button.
 
-### Create Quick action list
+## Edit actions list
+
+### Add new actions
 There are two ways to add items to the Quick actions list: 
 - Menu → Configure screen → Quick action → &#8230;&#124; → Add action (The plus symbol also gives an option to add new actions to the list)
 - On the map click on the Quick action icon → Add action
 
 ![Quick action edit action](/assets/images/widgets/quick_action_edit_action.png)
 
-When you select the action you should assign a name. By default, it will be named as a chosen category but you can rename it. Another way to rename is to click on the Quick action widget then with a long tap select the needed item and rename in editing menu that will appear .
+First you need to select type of the action and then you could change its name and parameters, some action types have own parameters. Every action should have a unique name.
 
-Сhange the order of items in a list:
+### Reorder actions
+In order to hange the order of items in a list:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → Hold the lines on the right, allows you to move items along the list
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} → Swiping up and down on the three vertical lines in the editing menu will allow you to move the action along the list.
 
+### Edit / Remove actions
 In order to remove items from Quick actions widget:
 
 - 1 {% data variables.product.android_button_seq %}
