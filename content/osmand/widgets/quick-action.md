@@ -8,6 +8,7 @@ versions: '*'
 ![Quick action widget](/assets/images/widgets/quick_action_widget.png)
 
 ## Enable widget
+{% data reusables.general.image-needs-to-be-updated %}
 In order to use the Quick Actions button you need to enable this widget first.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} 
@@ -20,23 +21,25 @@ To open Quick action menu just press on the button.
 
 ## Edit actions list
 
-### Add new actions
+### Add new action
+{% data reusables.general.image-needs-to-be-updated %}
 There are 2 ways to add items to the Quick actions list: 
 - Menu → Configure screen → Quick action → &#8230;&#124; → Add action (The plus symbol also gives an option to add new actions to the list)
 - On the map click on the Quick action icon → Add action
 
-![Quick action edit action](/assets/images/widgets/quick_action_edit_action.png)
-
-First you need to select type of the action and then you could change its name and parameters, some action types have own parameters. Every action should have a unique name.
+First you need to select [type of the action](#quick-actions-types) and then you could change its name and parameters, some action types have own parameters. Every action should have a unique name.
 
 ### Reorder actions
+{% data reusables.general.image-needs-to-be-updated %}
 Quick action panel has only **6 slots** for actions per screen. However you could have multiple screens and actions are grouped by the specified order. In order to change the order of items:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → Hold & Drag selected action up and down by the icon (three vertical lines) in the list
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} → Click Edit (Pencil icon) → Hold & Drag selected action up and down by the icon (three vertical lines) in the list → Done
 
-### Edit / Remove actions
+### Edit / Remove action
+{% data reusables.general.image-needs-to-be-updated %}
+
 There are several ways how to access Quick Action to edit or delete it:
 
 - Open via Edit actions list
