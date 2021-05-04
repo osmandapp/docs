@@ -13,14 +13,10 @@ For Android devices you can download the free and paid application on the follow
 - [Amazon](https://www.amazon.com/s?i=mobile-apps&rh=p_4%3AOsmAnd)
 - [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545)
 
-- [OsmAnd Google Play](https://play.google.com/store/apps/details?id=net.osmand)
-- [OsmAnd+ Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus)
-- [OsmAnd Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8)
-- [OsmAnd+ Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC/)
-- [OsmAnd Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545)
+
 |  App  | Google Play   | Amazon | Huawei AppGallery | Free / Paid |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
-| OsmAnd  | [✔ Install](https://play.google.com/store/apps/details?id=net.osmand) | [✔ Install](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8) | [✔ Install]((https://appgallery.huawei.com/#/app/C101486545)) | Free |
+| OsmAnd  | [✔ Install](https://play.google.com/store/apps/details?id=net.osmand) | [✔ Install](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8) | [✔ Install](https://appgallery.huawei.com/#/app/C101486545) | Free |
 | OsmAnd+  | [✔ Install](https://play.google.com/store/apps/details?id=net.osmand.plus) |  [✔ Install](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC/) | - | Paid |
 
 | Purchase  | Google Play  | Amazon | Huawei AppGallery | App |
