@@ -169,7 +169,7 @@ There are two distances information near POI/Favorite icon. Top info is the dist
 
 ![Street name POIs widget_android](/assets/images/widgets/street_name_poi_widget_android.png)
 
-**iOS**: in addition to the distance from the nearest route point, the side of the route where POI/Favorite is located is also shown. 
+**iOS**: in addition to the distance from the nearest route point, the side (left or right) of the route where POI/Favorite is located is also shown. 
 
 ![Street name POIs widget_ios](/assets/images/widgets/street_name_poi_widget_ios.png)
 
