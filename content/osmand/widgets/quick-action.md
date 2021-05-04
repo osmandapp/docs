@@ -21,7 +21,7 @@ To open Quick action menu just press on the button.
 ## Edit actions list
 
 ### Add new actions
-There are two ways to add items to the Quick actions list: 
+There are 2 ways to add items to the Quick actions list: 
 - Menu → Configure screen → Quick action → &#8230;&#124; → Add action (The plus symbol also gives an option to add new actions to the list)
 - On the map click on the Quick action icon → Add action
 
@@ -30,22 +30,24 @@ There are two ways to add items to the Quick actions list:
 First you need to select type of the action and then you could change its name and parameters, some action types have own parameters. Every action should have a unique name.
 
 ### Reorder actions
-In order to hange the order of items in a list:
+Quick action panel has only **6 slots** for actions per screen. However you could have multiple screens and actions are grouped by the specified order. In order to change the order of items:
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → Hold the lines on the right, allows you to move items along the list
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → Hold & Drag selected action up and down by the icon (three vertical lines) in the list
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} → Swiping up and down on the three vertical lines in the editing menu will allow you to move the action along the list.
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} → Click Edit (Pencil icon) → Hold & Drag selected action up and down by the icon (three vertical lines) in the list → Done
 
 ### Edit / Remove actions
-In order to remove items from Quick actions widget:
+There are several ways how to access Quick Action to edit or delete it:
 
-- 1 {% data variables.product.android_button_seq %}
- - 1.1 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → The bin icon on the left
- - 1.2 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → Tap on the bin icon on the right top corner → Select actions that you would like to delete11
- - 1.3 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → At the very bottom is available 'Delete all' button
- - 1.4 Open Quick action menu → Long tap on the action → The bin icon on the right top corner
-- 2 {% data variables.product.ios_button_seq %} 
- - 2.1 {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} → The pen icon in the top-right corner
+- Open via Edit actions list
+ {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %}
+ {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %}
+ - Long tap on the action 
+  Open Quick action menu → Long tap on the action (short tap to execute the action)
+ - Bulk delete
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → Tap on the bin icon on the right top corner → Select actions → Select multiple actions → Delete
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} → Click Edit (Pencil icon) → Select multiple actions → Delete
+ 
 
 ## Quick actions types
 
