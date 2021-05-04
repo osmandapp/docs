@@ -33,7 +33,7 @@ You can download the app via {% data reusables.links.osmand-maps-app-store %}.
 | Favorite points (Bookmarks, waypoints) | ✔ | ✔ | ✔ |
 | Export/Import app profile | ✔ | ✔ | ✔ |
 
-## Prices
+## In-App Purchases
 
 OsmAnd is a free application with in app purchases. You can access purchases menu via:
 
@@ -57,15 +57,16 @@ Here is detailed information about all in apps with prices for US / Europe regio
 | {% data variables.ios-values.product_title_northamerica %} | {% data variables.ios-values.product_desc_northamerica %} | 6.99€  / 5.99$ |
 | {% data variables.ios-values.product_title_southamerica %} | {% data variables.ios-values.product_desc_southamerica %} | 5.49€ / 4.99$ |
 
-Subscription purchases in OsmAnd application:
+## Subscription
+**OsmAnd Live** subscription includes all features could be bought via in apps + quick map updates (up to 1 hour vs normal once a month).
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.maps %} → {% data variables.ios-values.osmand_live_title %}
 
-|  Period  | Description   | Price |
-| :------------- | :------------- | :------------- |
-| 1 month |Get unlimited hourly map updates and all features included from 1 month. | 1.99€  / 1.99$ |
-| 3 months|Get unlimited hourly map updates and all features included from 3 months. | 3.99€ / 3.99$  |
-| 1 year |Get unlimited hourly map updates and all features included from 1 year. | 7.99€ / 7.49$ |
+|  Period  | Price |
+| :------------- | :------------- |
+| 1 month | 1.99€  / 1.99$ |
+| 3 months | 3.99€ / 3.99$  |
+| 1 year |  7.99€ / 7.49$ |
 
 
 ## Restore purchases
