@@ -144,13 +144,13 @@ The widget shows warnings about your maneuvers with a picture of maneuver and [d
 
 ## Street name
 
-The widget shows street names or road names (highway shield) for maneuver during navigation.
+The widget shows street names or roads (highway shield), as well as a scheme of the maneuver during navigation.
 
-When driving along a street or highway, the widget shows the name or designation of the current street with a blue arrow.
+When driving along a street or highway, the widget shows the name or designation of the current street (road) with a blue arrow.
 
 ![Street name POIs widget_2](/assets/images/widgets/street_name_widget_2.png)
 
-When maneuvering, the widget shows the scheme of the maneuver and the name (designation) of the street where to turn.
+When maneuvering, the widget shows the scheme of the maneuver and the name (designation) of the street (road) where to turn.
 
 ![Street name POIs widget](/assets/images/widgets/street_name_widget.png)
 
