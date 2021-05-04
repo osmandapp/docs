@@ -72,10 +72,10 @@ There are several ways how to access Quick Action to edit or delete it:
 | {% data variables.android-values.quick_action_add_favorite %} | Adds favorite to a selected (center) point of the map. <br> - **Show an interim dialog**: displays confirmation dialog <br> - **Group**: adds favorite to a selected group <br> - **Color**: adds favorite with a preselected color <br> - **Name**: adds favorite with a given name prefix  |
 | {% data variables.android-values.quick_action_add_gpx %} | Adds new Track waypoint to currently recording track. <br> - **Show an interim dialog**: displays confirmation dialog <br> - **Group**: adds favorite to a selected group <br> - **Color**: adds favorite with a preselected color <br> - **Name**: adds favorite with a given name prefix  |
 | {% data variables.android-values.quick_action_add_marker %} | Adds marker to a selected (center) point of the map. |
-| {% data variables.android-values.quick_action_add_parking %} | Adds/Replaces parking to a selected (center) point of the map. |
-| {% data variables.android-values.quick_action_add_poi %} | xxx |
-| {% data variables.android-values.quick_action_add_osm_bug %} | xxx |
-| New photo/video/audio note (Android) | xxx |
+| {% data variables.android-values.quick_action_add_parking %} <br> * Parking plugin | Adds parking to a selected (center) point of the map. Old parking position is deleted. |
+| {% data variables.android-values.quick_action_add_poi %} <br> * OSM Editing plugin | Adds POI to a selected (center) point of the map (same as context menu action). <br> - **Show an interim dialog**: displays confirmation dialog <br> - |
+| {% data variables.android-values.quick_action_add_osm_bug %} <br> * OSM Editing plugin | xxx |
+| New photo/video/audio note <br> * Media notes plugin (Android) | xxx |
 | **{% data variables.android-values.quick_action_add_configure_map %}** | |
 | {% data variables.ios-values.toggle_fav %} | Allows to show or hide the favourite points on the map (that selected on the My places → Favorits as Visible) |
 | {% data variables.ios-values.show_hide_gpx %} | Allows to show or hide the last opened track on the map|
