@@ -81,25 +81,25 @@ There are several ways how to access Quick Action to edit or delete it:
 | {% data variables.ios-values.show_hide_gpx %} | Show or hide the last visible tracks on the map. |
 | {% data variables.ios-values.toggle_poi %} | Enable or disable POI layer with selected categories. <br> - **POI Categories**: allows to select multiple categories <br> Note: Action will replace previously selected categories, if POI layer was active before.   |
 | {% data variables.ios-values.toggle_public_transport %} | Enable or disable public transport map layer. <br> - **Transport type** (on first click): select one or many options from 'Transport stops', 'Bus, trolleybus, shuttle routes', 'Tram and train routes', 'Subway routes' |
-| {% data variables.ios-values.change_map_source %} | Create a list of map sources and cycle through them.  <br> - **Show an interim dialog**: displays dialog with maps list <br> **Without dialog** - map sources will change by defined  order. <br> Note: you could have 1 action with multiple map sources or many actions with 1 map source. |
-| {% data variables.ios-values.change_map_overlay %} | Create a list of map sources as map overlay and cycle through them. <br> Works similar to **{% data variables.ios-values.change_map_source %}** (see above) |
-| {% data variables.ios-values.change_map_underlay %} |  Create a list of map sources as map underlay and cycle through them. <br> Works similar to **{% data variables.ios-values.change_map_source %}** (see above)  |
-| {% data variables.android-values.quick_action_map_style %} | Create a list of map styles for vector maps and cycle through them. <br> Works similar to **{% data variables.ios-values.change_map_source %}** (see above) |
+| {% data variables.ios-values.change_map_source %} | Create a list of map sources and cycle through them.  <br> - **Show an interim dialog**: displays dialog with maps list <br> - **Do not show an interim dialog**: map sources will be changed by defined  order. <br> - **Note**: you could have 1 action with multiple map sources or many actions with 1 map source. |
+| {% data variables.ios-values.change_map_overlay %} | Create a list of map sources as map overlay and cycle through them. <br> Note: works similar to **{% data variables.ios-values.change_map_source %}** (see above) |
+| {% data variables.ios-values.change_map_underlay %} |  Create a list of map sources as map underlay and cycle through them. <br> Note: works similar to **{% data variables.ios-values.change_map_source %}** (see above)  |
+| {% data variables.android-values.quick_action_map_style %} | Create a list of map styles for vector maps and cycle through them. <br> Note: works similar to **{% data variables.ios-values.change_map_source %}** (see above) |
 | {% data variables.ios-values.quick_action_showhide_mapillary_title %} <br> [Plugin](/osmand/plugins/mapillary) | Display or hide Mapillary layer on the map |
 | {% data variables.ios-values.toggle_contour_lines %} <br> [Plugin](/osmand/plugins/contour-lines) | Display or hide contour lines on the map |
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.shared_string_terrain %} <br> [Plugin](/osmand/plugins/contour-lines) | Display and hide terrain layer on the map |
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.osm_notes %} <br> [Plugin](/osmand/plugins/osm-editing) | Allows to display on the map all OSM notes |
 || **{% data variables.android-values.quick_action_add_navigation %}**  |
-| {% data variables.android-values.quick_action_day_night_switch_mode %} | A toggle between day and night modes |
-| {% data variables.android-values.quick_action_navigation_voice %} | A toggle that allows you mute or unmute voice guidance during navigation |
-| {% data variables.android-values.context_menu_item_directions_from %} | Allows to make the screen center as the point of departure|
-| {% data variables.android-values.quick_action_add_destination %} | Allows to make the screen center as the endpoint |
-| {% data variables.android-values.quick_action_add_first_intermediate %} | Allows to make the screen center as the first intermediate point |
-| {% data variables.android-values.quick_action_replace_destination %} | yyyyyyyy |
-| {% data variables.android-values.quick_action_remove_next_destination %} | This button will be active only if you select a destinayion. Allows you to recalculate the route or finish navigation   |
-| {% data variables.android-values.quick_action_auto_zoom %} | yyyyyyyy |
-| {% data variables.android-values.quick_action_start_stop_navigation %} | yyyyyyyy |
-| {% data variables.android-values.quick_action_resume_pause_navigation %} | yyyyyyyy |
-| {% data variables.android-values.change_application_profile %} | yyyyyyyy |
+| {% data variables.android-values.quick_action_day_night_switch_mode %} | Switche between day and night map modes |
+| {% data variables.android-values.quick_action_navigation_voice %} | Mute or unmute voice guidance during navigation |
+| {% data variables.android-values.context_menu_item_directions_from %} | Mark a selected (center) map location as a point of departure |
+| {% data variables.android-values.quick_action_add_destination %} | Add a selected (center) map location as a destination. Previous destination becomes last intermediate point.  |
+| {% data variables.android-values.quick_action_add_first_intermediate %} | Add a selected (center) map location as first intermediate point. Previous destination stays the same. |
+| {% data variables.android-values.quick_action_replace_destination %} | Set / Replace a selected (center) map location as a destination. Previous destination is deleted. |
+| {% data variables.android-values.quick_action_remove_next_destination %} | Remove next intermediate point, if present, otherwise removes destination and displays finish navigation dialog. Action is inactive if you don't have any destination. |
+| {% data variables.android-values.quick_action_auto_zoom %} | Enable or disable map auto zoom during navigation |
+| {% data variables.android-values.quick_action_start_stop_navigation %} | Start navigation (if there is a destination point present) or stop navigation |
+| {% data variables.android-values.quick_action_resume_pause_navigation %} | Pause / Resume navigation |
+| {% data variables.android-values.change_application_profile %} | Create a list of application profiles and cycle through them.  <br> - **Show an interim dialog**: displays dialog with profiles list <br> - **Do not show an interim dialog**: profiles will be changed by defined order. <br> - **Note**: you could have 1 action with multiple profiles or many actions with 1 profile. |
 || **{% data variables.android-values.layer_map_appearance %}**  |
 | {% data variables.android-values.quick_action_show_hide_title %} {% data variables.android-values.coordinates_widget %} | Show and hide coordinates widget |
