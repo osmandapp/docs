@@ -30,11 +30,18 @@ In order to remove items from Quick actions widget:
 <ul>
 <li>{% data variables.product.android_button_seq %} 
 <ul> 
-<li>{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %}. The bin icon on the left will allows to delete the action</li>
+<li>{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → The bin icon on the left will allows to delete the action</li>
 <li>{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → Tap on the bin icon on the right top corner → Select actions that you would like to delete</li>
 <li>{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → At the very bottom is available 'Delete all' button</li>
 <li>Open Quick action menu → Long tap on the action → The bin icon on the right top corner allows to delete action</li>
-- {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %}. The pen icon in the top-right corner will allows you to delete the action. 
+</ul>
+</li>
+<li>{% data variables.product.ios_button_seq %} 
+<ul>
+<li>{% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %}. The pen icon in the top-right corner will allows you to delete the action</li>
+</ul>
+</li>
+</ul>
 
 ## Quick actions types
 
