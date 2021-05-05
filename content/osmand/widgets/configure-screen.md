@@ -1,6 +1,6 @@
 ---
 title: "Configure Screen"
-intro: "Configure screen button gives an opportunity to customize items visibility on the map screen. This menu allows you to enable Quick action, the widgets on the right and left panels and the remaining elements."
+intro: "Configure screen button gives an opportunity to customize items visibility on the map screen. This menu allows you to enable Quick action, the widgets and remaining elements."
 versions: '*'
 ---
 
@@ -39,12 +39,12 @@ Most of the widgets could be configured as:
  - [Speed](/osmand/widgets/info-widgets#speed) - shows your current speed detected by GPS-sensor.
  - [Speed limit](/osmand/widgets/nav-widgets#speed-limit) - shows a speed limit for a current road.
  - [Altitude](/osmand/widgets/info-widgets#altitude) - shows the height above sea level of current geolocation. 
- - [GPS info](/osmand/widgets/info-widgets#gps-info-android) - shows a number of satellites that a device detects and uses at that moment (Android).
+ - [GPS info](/osmand/widgets/info-widgets#gps-info-android)(Android) - shows a number of satellites that a device detects and uses at that moment.
  - [Trip recording](/osmand/widgets/info-widgets#-trip-recording-widget) - provides quick access to start / stop track recording.
  - [Current time](/osmand/widgets/info-widgets#current-time) - shows current time from a device.
  - [Battery level](/osmand/widgets/info-widgets#battery-level) - shows battery level of the device.
  - [Radius ruller](/osmand/widgets/radius-ruler) - shows distance between users location and inner point of the 'Radius-ruler' tool distance-circles on the map. 
- - [FPS debug info](/osmand/widgets/info-widgets#-fps-info-android) - investigate how fast map & map elements are showed & refreshed (Android).
+ - [FPS debug info](/osmand/widgets/info-widgets#-fps-info-android) (Android) - investigate how fast map & map elements are showed & refreshed.
 
 ### Widget on the left panel
  - [Compass](/osmand/widgets/map-buttons#compass) -  indicates how map is oriented on the device screen.
