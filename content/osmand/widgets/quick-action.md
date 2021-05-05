@@ -3,7 +3,6 @@ title: "Quick Action"
 intro: "Quick Action Widget is a quick access button on the map with frequently used actions accessible 'just in 2 clicks'."
 versions: '*'
 ---
-{% data reusables.general.article-not-complete %}
 
 ![Quick action widget](/assets/images/widgets/quick_action_widget.png)
 
