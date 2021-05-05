@@ -7,13 +7,25 @@ versions: '*'
 
 ![Navigational widgets all](/assets/images/widgets/navigational_widgets_all.png)
 
-## Relative / magnetic bearing
+## Active and passive navigation
 
-The widget shows relative or magnetic bearing in angular unit ({% data variables.android-values.shared_string_degrees %} 180, {% data variables.android-values.shared_string_degrees %} 360, {% data variables.android-values.shared_string_milliradians %}).
+Navigational widgets are mostly used with **active** or **passive** navigation with navigational profiles, so they are not available in **Browse Map** profile. 
 
-[Relative bearing](https://en.wikipedia.org/wiki/Bearing_(angle)#Relative) refers to the angle between the craft's forward direction and the location of another object. For example, an object relative bearing of 0 degrees would be dead ahead; an object relative bearing 180 degrees would be behind.
+**Active** navigation requires to set a destination, calculate the route (Directions) and start navigation (Go), not necessary with voice guidance. All navigational widgets support that type of navigation.
 
-[Magnetic bearing](https://en.wikipedia.org/wiki/Bearing_(angle)#Absolute) is measured in relation to magnetic north, using the direction toward the magnetic north pole (in northeastern Canada) as a reference point.
+**Passive** navigation doesn't require to have å destination point set and works automatically once you switch to any navigational profile, for example 'Driving'. In that case application will try to determine which road you are following and display extra information about it i.e. name, lanes info, max speed available. Please note that this approach is quite unreliable and doesn't support all features.
+
+
+## Bearing
+
+Bearing widget shows relative or magnetic bearing in angular unit ({% data variables.android-values.shared_string_degrees %} 180, {% data variables.android-values.shared_string_degrees %} 360, {% data variables.android-values.shared_string_milliradians %}).
+
+Bearing requires to have a **target point** selected. In case you have **destination** or **first intermediate point** (if present) selected for navigation, it will be used as a target point. Otherwise, **top selected marker** will be used.
+
+[Magnetic bearing](https://en.wikipedia.org/wiki/Bearing_(angle)#Absolute) is the clockwise angle between north and an object observed from your location. So, if you start moving by compass, that the compass value equals to Magnetic bearing value, you will reach the target point. For example, if Magnetic bearing is 0, then you need move strictly to the North to reach target point.
+
+[Relative bearing](https://en.wikipedia.org/wiki/Bearing_(angle)#Relative) refers to the angle between the forward direction and the target point. **Forward direction** is a direction of your movement taken from GPS-device or head of device orientation (GPS-compass) in case you stand still. For example, an object relative bearing of 0 degrees would be straight ahead; an object relative bearing 180 degrees would be straight behind.
+
 
 ![Relative Magnetic bearing widget](/assets/images/widgets/relative_magnetic_bearing_widget.png)
 
@@ -60,9 +72,9 @@ The widget shows navigation {% data variables.android-values.access_arrival_time
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.access_arrival_time %} or {% data variables.ios-values.map_widget_time %}|
 | Click | Changes between "Arrival time" to "Time to go" and vice versa. |  
 
-## Intermediate arrival time or Intermediate time
+## Intermediate arrival time
 
-The widget shows {% data variables.android-values.access_intermediate_arrival_time %} or {% data variables.android-values.map_widget_intermediate_time %} of navigation to the intermediate point.
+Intermediate arrival time or Intermediate time widget shows {% data variables.android-values.access_intermediate_arrival_time %} or {% data variables.android-values.map_widget_intermediate_time %} of navigation to the intermediate point.
 
 ![Intermediate Arrival time Time widget](/assets/images/widgets/intermediate_arrival_time_and_time_widget.png)
 
@@ -72,7 +84,7 @@ The widget shows {% data variables.android-values.access_intermediate_arrival_ti
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.access_intermediate_arrival_time %} or {% data variables.ios-values.map_widget_intermediate_time %}|
 | Click | Changes between "Intermediate arrival time" to "Intermediate time" and vice versa. |  
 
-## Speed limit
+### Speed limit
 
 The widget shows a speed limit for a current road.
 
@@ -96,7 +108,7 @@ The widget shows the lanes you have to drive during a navigation with [distance 
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_appearance_rem %} →  {% data variables.android-values.show_lanes  %} |
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_appearance_rem %} → {% data variables.ios-values.show_lanes %} |
 
-## Alert information
+## Alert widget
 
 The widget shows alerts on the screen during navigation
 
@@ -113,7 +125,7 @@ There is an option to turn on and turn off the alerts such as: {% data variables
 | Distance of showing | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %} →  {% data variables.android-values.voice_announces %} →  {% data variables.android-values.announcement_time_title %}|
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.voice_announces %} → {% data variables.ios-values.arrival_distance %} |
 
-**List with all Alerts in OsmAnd.**
+### Alert types 
 
 | | |    |
 |------------|------------|------------|
@@ -157,7 +169,7 @@ When maneuvering, the widget shows the scheme of the maneuver and the name (desi
 | Enable  |{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_appearance_rem %} →  {% data variables.android-values.map_widget_top_text %} |
 |  |For {% data variables.product.ios_button_seq %} always showed |
 
-## POIs/Favorites
+## Approach POIs/Favorites
 
 The widget shows (Points of interest) POI and Favorites along the route.
 

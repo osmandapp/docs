@@ -23,15 +23,15 @@ Most of the widgets could be configured as:
 - [Quick action](/osmand/widgets/quick-action) - is a button that gives quick access to frequently used actions.
 
 ### Right panel widgets
- - [Intermediate destination](/osmand/widgets/nav-widgets#intermediate-destination) - shows current distance to the nearest intermediate navigation point.
+ - [Relative or Magnetic bearing](/osmand/widgets/nav-widgets#bearing) - shows relative or magnetic bearing.
  - [Destination](/osmand/widgets/nav-widgets#destination) - shows current distance to the finish point.
- - [Intermediate arrival time](/osmand/widgets/nav-widgets#intermediate-arrival-time-or-intermediate-time) - shows Intermediate arrival time or Intermediate time of navigation to the intermediate point.
- - [Arrival time](/osmand/widgets/nav-widgets#arrival-time-or-time-to-go) - shows the time when you will approach the destination or if you switch to the time to go it will display the total time left.
- - [Relative bearing](/osmand/widgets/nav-widgets#relative--magnetic-bearing) - shows relative or magnetic bearing.
+ - [Intermediate destination](/osmand/widgets/nav-widgets#intermediate-destination) - shows current distance to the first intermediate navigation point (if present).
+ - [Arrival time](/osmand/widgets/nav-widgets#arrival-time-or-time-to-go) - shows arrival time or time left to complete navigation i.e. reach the final destination point.
+ - [Intermediate arrival time](/osmand/widgets/nav-widgets#intermediate-arrival-time) - shows arrival time or the time left to reach first intermediate navigation point (if present). 
  - [Speed](/osmand/widgets/info-widgets#speed) - shows your current speed detected by GPS-sensor.
- - [Speed limit](/osmand/widgets/nav-widgets#speed-limit) - shows a speed limit for a current road.
+ - [Speed limit](/osmand/widgets/nav-widgets#speed-limit) - shows speed limit for the current following road.
  - [Altitude](/osmand/widgets/info-widgets#altitude) - shows the height above sea level of current geolocation. 
- - [GPS info](/osmand/widgets/info-widgets#gps-info-android) (Android) - shows a number of satellites that a device detects and uses at that moment.
+ - [GPS info](/osmand/widgets/info-widgets#gps-info-android) (Android) - shows a number of satellites that device detects and uses at that moment.
  - [Current time](/osmand/widgets/info-widgets#current-time) - shows current time from your device.
  - [Battery level](/osmand/widgets/info-widgets#battery-level) - shows battery level of your device.
  - [Radius ruler](/osmand/widgets/radius-ruler) - shows distance between users location and inner point of the 'Radius-ruler' tool distance-circles on the map. 
@@ -42,13 +42,13 @@ Most of the widgets could be configured as:
 
 ### Left panel widgets
  - [Next turns](/osmand/widgets/nav-widgets#next-turns) - shows info about next maneuvers and distance to it.
- - [Alert info](/osmand/widgets/nav-widgets#alert-information) - shows traffic alerts during navigation.
+ - [Alert info](/osmand/widgets/nav-widgets#alert-widget) - shows traffic alerts during navigation.
  - [Compass](/osmand/widgets/map-buttons#compass) - indicates how the map is oriented on the device screen.
 
 ### Remaining elements
-- [Street name](/osmand/widgets/nav-widgets#street-name) combined with [Approach POI](/osmand/widgets/nav-widgets#poisfavorites) -
+- [Street name](/osmand/widgets/nav-widgets#street-name) combined with [Approach POI](/osmand/widgets/nav-widgets#approach-pois-favorites) - displays street name of the current or next following road, displays information about approaching POI / favourites along the road.
 - [Coordinates widget](/osmand/widgets/info-widgets#coordinates-widget) -  shows the geographic coordinates of current geolocation (appears on the top bar).
-- [Distance by tap](/osmand/widgets/radius-ruler#distance-by-tap-tool)- an option to measure the distance from your position to the selected point.
+- [Distance by tap](/osmand/widgets/radius-ruler#distance-by-tap-tool) - gives options to measure the distance from your position to the selected point.
 - [Map markers](/osmand/widgets/markers) - shows a directional line from your position to the active marker locations (could be on the top bar or on the right widget panel).
 - Transparent widgets - makes transparent the background of the navigation and information widgets.  
 - [Lanes](/osmand/widgets/nav-widgets#lanes) - shows the lanes you have to drive during a navigation with distance to a maneuver.
