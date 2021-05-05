@@ -17,12 +17,18 @@ The widget shows relative or magnetic bearing in angular unit ({% data variables
 
 ![Relative Magnetic bearing widget](/assets/images/widgets/relative_magnetic_bearing_widget.png)
 
-- **Enable**:
+- **Enable** magnetic or relative bearing:
+
     {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} → {% data variables.android-values.map_widget_bearing %} or {% data variables.android-values.map_widget_magnetic_bearing %}  
+
     {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.map_widget_magnetic_bearing %} or {% data variables.ios-values.map_widget_bearing %}
-- **Format**: 
+
+- **Format** supports different angular units:
+    
     {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.units_and_formats %} → {% data variables.android-values.angular_measeurement %} 
+
     {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.units_and_formats %} → {% data variables.ios-values.angular_units %} 
+
 - **Click**: Changes between  Relative bearing or Magnetic bearing (with "M"). 
 
 ## Destination
