@@ -6,11 +6,7 @@ versions: '*'
 
 ![Configure screen menu](/assets/images/widgets/configure_screen_menu.png)
 
-In order to customize widgets visibility you need to access Configure screen menu.
-
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} 
-
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.shared_string_menu %} → {% data variables.ios-values.layer_map_appearance %} 
+In order to customize widgets visibility you need to access **Configure screen** menu via [Main menu](/osmand/start-with/main-menu).
 
 Most of the widgets could be configured as:
 * Show – widget is visible on the map screen

@@ -4,13 +4,14 @@ intro: "OsmAnd gives great possibilities for using the maps. Typically maps need
 versions: '*'
 ---
 
+{% data reusables.general.image-needs-to-be-updated %}
+
+![Configure map](/assets/images/map/configure-map.png)
+
 **{% data variables.android-values.configure_map %}** menu divides into 2 categories:
 - [Map style parameters](#map-style-parameters) - **{% data variables.android-values.map_widget_map_rendering %}** or **{% data variables.ios-values.map_settings_style %}** groups all parameters that allow to change how the main map is displayed.
 - [Map layers](#map-layers). These layers allow to put information on top (or under) of the main map layer but it doesn't change the display of the map itself.
 
-{% data reusables.general.image-needs-to-be-updated %}
-
-![Configure map](/assets/images/map/configure-map.png)
 
 **Notes:** 
 - In order to change screen information (widgets, icons) you can set parametres in [{% data variables.android-values.layer_map_appearance %}](/osmand/widgets/general)
