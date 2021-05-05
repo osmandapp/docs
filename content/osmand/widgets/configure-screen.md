@@ -39,7 +39,7 @@ Most of the widgets could be configured as:
  - [Speed](/osmand/widgets/info-widgets#speed) - shows your current speed detected by GPS-sensor.
  - [Speed limit](/osmand/widgets/nav-widgets#speed-limit) - shows a speed limit for a current road.
  - [Altitude](/osmand/widgets/info-widgets#altitude) - shows the height above sea level of current geolocation. 
- - [GPS info](/osmand/widgets/info-widgets#gps-info-android)(Android) - shows a number of satellites that a device detects and uses at that moment.
+ - [GPS info](/osmand/widgets/info-widgets#gps-info-android) (Android) - shows a number of satellites that a device detects and uses at that moment.
  - [Trip recording](/osmand/widgets/info-widgets#-trip-recording-widget) - provides quick access to start / stop track recording.
  - [Current time](/osmand/widgets/info-widgets#current-time) - shows current time from a device.
  - [Battery level](/osmand/widgets/info-widgets#battery-level) - shows battery level of the device.
