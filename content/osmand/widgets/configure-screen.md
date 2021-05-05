@@ -26,6 +26,7 @@ Most of the widgets could be configured as:
 ![Collapsible widget states](/assets/images/widgets/collapsible_widget_states.png)
 
 ## Configure screen menu
+
 ### Quick action
 - [Quick action](/osmand/widgets/quick-action) - is a button that gives quick access to frequently used actions.
 ### Widgets on the right panel
