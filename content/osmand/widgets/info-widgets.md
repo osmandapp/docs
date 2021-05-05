@@ -23,7 +23,7 @@ Altitude widget shows the height above sea level of current geolocation. **Andro
 
 ## Current time
 
-This widget shows current time from a device.
+This widget shows current time from your device.
 
 ![Current time widget](/assets/images/widgets/current_time_widget.png)
 
@@ -74,7 +74,7 @@ The widget is shown at the top of the screen. It shows the geographic coordinate
 
 ## GPS Info (Android)
 
-GPS (Global Positioning System) info widget shows a number of satellites that a device detects and uses at that moment. It could be used to check GPS-status in case of a bad GPS-signal.
+GPS (Global Positioning System) info widget shows a number of satellites that device detects and uses at that moment. It could be used to check GPS-status in case of a bad GPS-signal.
 
 ![GPS Info Android widget](/assets/images/widgets/gps_info_widget.png)
 
