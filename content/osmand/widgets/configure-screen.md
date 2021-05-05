@@ -1,6 +1,6 @@
 ---
 title: "Configure Screen"
-intro: "Configure screen button gives an opportunity to customize items visibility on the map screen. This menu allows you to enable Quick action, turn on the widgets on the right and left panels, set up the remaining elements."
+intro: "Configure screen button gives an opportunity to customize items visibility on the map screen. This menu allows you to enable Quick action, the widgets on the right and left panels and the remaining elements."
 versions: '*'
 ---
 
@@ -25,9 +25,10 @@ Most of the widgets could be configured as:
 
 ![Collapsible widget states](/assets/images/widgets/collapsible_widget_states.png)
 
-## Quick action
+## Configure screen menu
+### Quick action
 - [Quick action](/osmand/widgets/quick-action) - is a button that gives quick access to frequently used actions.
-## Widgets on the right panel
+### Widgets on the right panel
  - [Parking](/osmand/widgets/info-widgets#-parking-widget) - shows distance from the current position to the parking place.
  - [Intermediate destination](/osmand/widgets/nav-widgets#intermediate-destination) - shows current distance to the nearest intermediate navigation point.
  - [Destination](/osmand/widgets/nav-widgets#destination) - shows current distance to the finish point.
@@ -44,10 +45,10 @@ Most of the widgets could be configured as:
  - [Radius ruller](/osmand/widgets/radius-ruler) - shows distance between users location and inner point of the 'Radius-ruler' tool distance-circles on the map. 
  - [FPS debug info](/osmand/widgets/info-widgets#-fps-info-android) - investigate how fast map & map elements are showed & refreshed (Android).
 
-## Widget on the left panel
+### Widget on the left panel
  - [Compass](/osmand/widgets/map-buttons#compass) -  indicates how map is oriented on the device screen.
 
-## Remaining elements
+### Remaining elements
 - [Coordinates widget](/osmand/widgets/info-widgets#coordinates-widget) -  shows the geographic coordinates of current geolocation (appears on the top bar).
 - Distance by tap - an option to measure the distance from your position to the selected point.
 - [Map markers](/osmand/widgets/markers) - shows a directional line from your position to the active marker locations (could be on the top bar or on the right widget panel).
