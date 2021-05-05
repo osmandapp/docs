@@ -10,7 +10,7 @@ Most of informational widgets stack together in the right column.
 
 ## Altitude
 
-Altitude widget shows the height above sea level of current gelocation. **Android:** on some devices altitude is not displayed correctly due to missing correction of Earth-geoid, you can download it via: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_downloads %} → {% data variables.android-values.world_maps %} → {% data variables.android-values.index_item_world_altitude_correction %}.
+Altitude widget shows the height above sea level of current geolocation. **Android:** on some devices altitude is not displayed correctly due to missing correction of Earth-geoid, you can download it via: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_downloads %} → {% data variables.android-values.world_maps %} → {% data variables.android-values.index_item_world_altitude_correction %}.
 
 ![Altitude widget](/assets/images/widgets/altitude_widget.png)
 
