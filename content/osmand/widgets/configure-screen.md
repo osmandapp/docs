@@ -53,7 +53,7 @@ Most of the widgets could be configured as:
 - [Coordinates widget](/osmand/widgets/info-widgets#coordinates-widget) -  shows the geographic coordinates of current geolocation (appears on the top bar).
 - Distance by tap - an option to measure the distance from your position to the selected point.
 - [Map markers](/osmand/widgets/markers) - shows a directional line from your position to the active marker locations (could be on the top bar or on the right widget panel).
-- Transparent widget  
+- Transparent widget - makes transparent the background of the navigation and information widgets.  
 - [Lanes](/osmand/widgets/nav-widgets#lanes) - shows the lanes you have to drive during a navigation with distance to a maneuver.
 
 ### [Read more information about each widget individually.](/osmand/widgets)
