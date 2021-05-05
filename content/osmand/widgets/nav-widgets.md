@@ -22,7 +22,7 @@ Bearing widget shows relative or magnetic bearing in angular unit ({% data varia
 
 Bearing requires to have a **target point** selected. In case you have **destination** or **first intermediate point** (if present) selected for navigation, it will be used as a target point. Otherwise, **top selected marker** will be used.
 
-[Magnetic bearing](https://en.wikipedia.org/wiki/Bearing_(angle)#Absolute) is the clockwise angle between north and an object observed from your location. So, if you start moving by compass, that the compass value equals to Magnetic bearing value, you will reach the target point. For example, if Magnetic bearing is 0, then you need move strictly to the North to reach target point.
+[Magnetic bearing](https://en.wikipedia.org/wiki/Bearing_(angle)#Absolute) is the clockwise angle between north and a target point observed from your location. So, if you start moving by compass, that the compass value equals to Magnetic bearing value, you will reach the target point. For example, if Magnetic bearing is 0, then you need move strictly to the North to reach target point.
 
 [Relative bearing](https://en.wikipedia.org/wiki/Bearing_(angle)#Relative) refers to the angle between the forward direction and the target point. **Forward direction** is a direction of your movement taken from GPS-device or head of device orientation (GPS-compass) in case you stand still. For example, an object relative bearing of 0 degrees would be straight ahead; an object relative bearing 180 degrees would be straight behind.
 
@@ -33,73 +33,67 @@ Bearing requires to have a **target point** selected. In case you have **destina
 |------------|------------|
 | Enable | Magnetic or relative bearing: <br>  {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} → {% data variables.android-values.map_widget_bearing %} or {% data variables.android-values.map_widget_magnetic_bearing %}  <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.map_widget_magnetic_bearing %} or {% data variables.ios-values.map_widget_bearing %} |
 | Format | Supports different angular units: <br>  {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.units_and_formats %} → {% data variables.android-values.angular_measeurement %} <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.units_and_formats %} → {% data variables.ios-values.angular_units %} 
-| Click | Changes between  Relative bearing or Magnetic bearing (with "M") |
+| On Click | Changes between  Relative bearing or Magnetic bearing (with "M") |
 
 
 ## Destination
 
-The widget shows current distance to the navigation finish point.
+Destination widget shows the distance left to the last destination point by following the calculated route. 
 
 ![Destination widget](/assets/images/widgets/destination_widget.png)
 
 | | |
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.route_descr_destination %} <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.map_widget_distance%} |
-| Click | Moves the map to a finish point. |    
+| On Click | Moves the map to a destination point. |    
 
 ## Intermediate destination
 
-The widget shows current distance to the nearest intermediate navigation point.
+Intermediate Destination widget shows the distance left to the first intermediate point by following the calculated route. Once intermediate points is passed, the distance will be updated to the next intermediate point. If there is no intermediate points, widget is not displayed.
 
 ![Intermediate destination widget](/assets/images/widgets/intermediate_destination_widget.png)
 
 | | |
 |------------|------------|
-| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.map_widget_intermediate_distance %} |
-|  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.map_widget_intermediate_distance %}|
-| Click | If the user has one intermediate point, the map will move to the intermediate point. |
-|       | If the user has more than two intermediate points, the Destination list with all points will open. |
+| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.map_widget_intermediate_distance %} <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.map_widget_intermediate_distance %}|
+| On Click | 1 intermediate point - move the map to the intermediate point, <br> 2 or more intermediate points - opens Destinations list menu. |
 
 ## Arrival time or Time to go
 
-The widget shows navigation {% data variables.android-values.access_arrival_time %} or {% data variables.android-values.map_widget_time %}.
+The widget shows {% data variables.android-values.access_arrival_time %} or {% data variables.android-values.map_widget_time %} to complete navigation. Time is constantly updated during navigation and it is equal to the route time from the current location. For example, if you stop moving, "Time to go" will stay constant and "Arrival time" = "Time to go" + "Current time".
 
 ![Arrival time Time to go widget](/assets/images/widgets/arrival_time_time_to_go_widget.png)
 
 | | |
 |------------|------------|
-| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.access_arrival_time %} or {% data variables.android-values.map_widget_time %}   |
-|  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.access_arrival_time %} or {% data variables.ios-values.map_widget_time %}|
-| Click | Changes between "Arrival time" to "Time to go" and vice versa. |  
+| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.access_arrival_time %} or {% data variables.android-values.map_widget_time %}  <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.access_arrival_time %} or {% data variables.ios-values.map_widget_time %}|
+| On Click | Changes between "Arrival time" to "Time to go" and vice versa. |  
 
 ## Intermediate arrival time
 
-Intermediate arrival time or Intermediate time widget shows {% data variables.android-values.access_intermediate_arrival_time %} or {% data variables.android-values.map_widget_intermediate_time %} of navigation to the intermediate point.
+Intermediate arrival time or Intermediate time widget shows {% data variables.android-values.access_intermediate_arrival_time %} or {% data variables.android-values.map_widget_intermediate_time %} of navigation to the first intermediate point. Once intermediate points is passed, the time will be updated to the next intermediate point. If there is no intermediate points, widget is not displayed.
 
 ![Intermediate Arrival time Time widget](/assets/images/widgets/intermediate_arrival_time_and_time_widget.png)
 
 | | |
 |------------|------------|
-| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.access_intermediate_arrival_time %} or {% data variables.android-values.map_widget_intermediate_time %}   |
-|  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.access_intermediate_arrival_time %} or {% data variables.ios-values.map_widget_intermediate_time %}|
-| Click | Changes between "Intermediate arrival time" to "Intermediate time" and vice versa. |  
+| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.access_intermediate_arrival_time %} or {% data variables.android-values.map_widget_intermediate_time %}  <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.access_intermediate_arrival_time %} or {% data variables.ios-values.map_widget_intermediate_time %}|
+| On  Click | Changes between "Intermediate arrival time" to "Intermediate time" and vice versa. |  
 
 ### Speed limit
 
-The widget shows a speed limit for a current road.
-
-Speed limit data from [OpenStreetMap project](http://openstreetmap.org/).
+Speed limit widget shows a speed limit for a current driving road. It works in passive and active navigation mode. The data is taken from [OpenStreetMap project](https://wiki.openstreetmap.org/wiki/Key:maxspeed).
 
 ![Speed limit widget](/assets/images/widgets/speed_limit_widget.png)
 
 | |
 |------------|------------|
-| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.map_widget_max_speed %}  |
-|  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.map_widget_max_speed %}|
+| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.map_widget_max_speed %} <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.map_widget_max_speed %}|
+| On  Click | - |
 
 ## Lanes
 
-The widget shows the lanes you have to drive during a navigation with [distance to a maneuver](/development/algorithms/voice-prompt-triggering).
+The widget shows the lanes you have to drive during a navigation with [distance to a maneuver](/development/algorithms/voice-prompt-triggering). With passive navigation, the widget displays lanes layout for current driving road. The data is taken from [OpenStreetMap project](https://wiki.openstreetmap.org/wiki/Key:turn).
 
 ![Lanes widgets](/assets/images/widgets/lanes_widget.png)
 
@@ -107,6 +101,7 @@ The widget shows the lanes you have to drive during a navigation with [distance 
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_appearance_rem %} →  {% data variables.android-values.show_lanes  %} |
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_appearance_rem %} → {% data variables.ios-values.show_lanes %} |
+| On  Click | - |
 
 ## Alert widget
 
@@ -149,8 +144,8 @@ The widget shows warnings about your maneuvers with a picture of maneuver and [d
 
 | | |
 |------------|------------|
-| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_left %} → {% data variables.android-values.map_widget_next_turn %}, {% data variables.android-values.map_widget_next_turn_small %}, {% data variables.android-values.map_widget_next_next_turn %}|
-|  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_left %} → {% data variables.ios-values.map_widget_next_turn %}, {% data variables.ios-values.map_widget_next_turn_small %}, {% data variables.ios-values.map_widget_next_next_turn %} |
+| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_left %} → {% data variables.android-values.map_widget_next_turn %}, {% data variables.android-values.map_widget_next_turn_small %}, {% data variables.android-values.map_widget_next_next_turn %} <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_left %} → {% data variables.ios-values.map_widget_next_turn %}, {% data variables.ios-values.map_widget_next_turn_small %}, {% data variables.ios-values.map_widget_next_next_turn %} |
+| On  Click | Speaks next maneuver and distance to it, if voice guidance is turned on |
 
 ## Street name
 

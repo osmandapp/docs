@@ -46,7 +46,7 @@ Most of the widgets could be configured as:
  - [Compass](/osmand/widgets/map-buttons#compass) - indicates how the map is oriented on the device screen.
 
 ### Remaining elements
-- [Street name](/osmand/widgets/nav-widgets#street-name) combined with [Approach POI](/osmand/widgets/nav-widgets#approach-pois-favorites) - displays street name of the current or next following road, displays information about approaching POI / favourites along the road.
+- [Street name](/osmand/widgets/nav-widgets#street-name) combined with [Approach POI](/osmand/widgets/nav-widgets#approach-poisfavorites) - displays street name of the current or next following road, displays information about approaching POI / favourites along the road.
 - [Coordinates widget](/osmand/widgets/info-widgets#coordinates-widget) -  shows the geographic coordinates of current geolocation (appears on the top bar).
 - [Distance by tap](/osmand/widgets/radius-ruler#distance-by-tap-tool) - gives options to measure the distance from your position to the selected point.
 - [Map markers](/osmand/widgets/markers) - shows a directional line from your position to the active marker locations (could be on the top bar or on the right widget panel).
