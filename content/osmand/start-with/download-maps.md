@@ -67,5 +67,5 @@ The one of the option to download map is tap on the map and hold. In the bottom 
 
 ## Download created by yourself map
 
-There is a posibities to create your own map using With OsmAndMapCreator. [Read more](/development/map-creation/create-offline-maps-yourself)
+There is a posibities to download createed by yourself map using OsmAndMapCreator. [Read more](/development/map-creation/create-offline-maps-yourself)
 
