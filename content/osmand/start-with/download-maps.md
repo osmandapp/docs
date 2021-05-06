@@ -1,9 +1,11 @@
 ---
 title: "Download maps"
-intro: "Download maps is a nessecarily action for using map and navigation. It is possible to download more or less detailed map, in different styles and parameters but the main thihg it should be saved in your device. It is important to note that without downloaded map the navigation will not work correctly."
+intro: "Download maps is a nessecarily action for further using map and navigation. In OsmAnd is possible to download more or less detailed maps, with different parameters and styles but the main thing is all maps should be saved in your device or SD memory."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
+
+## First steps in map downloading
 
 When the app is launching for the first time,  appears a suggestion  to download the map. This allows OsmAnd to determine location of the device  and will offer you to download the current region map. It is possible to select another region or skip downloading by clicking 'Skip' in the top-right corner.
 
@@ -19,7 +21,7 @@ There are two main map types you can use: vector and raster.
 
 In order to use navigation conveniently and quickly in offline mode, we recommend downloading vector maps.
 
-## How to use vector maps
+## How to download vector maps
 
 All "vector" maps in OsmAnd have native format. They are compact and allows  easily zooming without losing detail or resolution. 
 
@@ -63,7 +65,7 @@ The one of the option to download map is tap on the map and hold. In the bottom 
 
 ![Tap on the map download region](/assets/images/settings/tap_on_the_map_download_region.png)
 
-### Download by yourself created map
+## Download created by yourself map
 
 There is a posibities to create your own map using With OsmAndMapCreator. [Read more](/development/map-creation/create-offline-maps-yourself)
 
