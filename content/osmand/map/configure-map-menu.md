@@ -45,8 +45,8 @@ Map style parameters are dependent on the main map style be displayed on the map
    
 ## UI Customization (Android)
    
-You can reorder or hide items from the {% data variables.android-values.configure_map %} per selected profile.
+You can reorder or hide items from the {% data variables.android-values.configure_map %} per selected profile, reset to default or copy from another profile.
    
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.ui_customization %} → {% data variables.android-values.configure_map %} 
 
-![Configure map items ](/assets/images/settings/configure_map_items.png)
+![Configure map items ](/assets/images/settings/configure-screen-ui-customization.png)
