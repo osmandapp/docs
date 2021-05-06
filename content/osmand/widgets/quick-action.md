@@ -7,7 +7,6 @@ versions: '*'
 ![Quick action widget](/assets/images/widgets/quick_action_widget.png)
 
 ## Enable widget
-{% data reusables.general.image-needs-to-be-updated %}
 
 In order to use the Quick Actions button you need to enable this widget first.
 
@@ -33,11 +32,15 @@ To open Quick action menu just press on the button.
 ## Edit actions list
 
 ### Add new action
-{% data reusables.general.image-needs-to-be-updated %}
 
 There are 2 ways to add items to the Quick actions list: 
-- Menu → Configure screen → Quick action → &#8230;&#124; → Add action 
-- Open Quick action menu → Add action
+- Menu → Configure screen → Quick action → &#8230;&#124; → Add action(+) 
+- Click "Quick action" button → "Quick action" menu → Add action
+
+| | |
+|------------|------------|
+|**Android**  | **iOS** |
+| ![Quick action widget_android_add](/assets/images/widgets/quick_action_widget_android_add.png) | ![Quick action widget_ios_add](/assets/images/widgets/quick_action_widget_ios_add.png) |
 
 First you need to select [type of the action](#quick-actions-types) and then you could change its name and parameters ([See below](#quick-actions-types) which parameters could be configured for each action type). Every action should have a unique name.
 
@@ -51,6 +54,11 @@ Quick action panel has only **6 slots** for actions per screen. However you coul
 {% data variables.product.android_button_seq %} Open Quick action menu  → Long tap on 'Add action' → Hold & Drag selected action up and down by the icon (three vertical lines) in the list
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} → Click Edit (Pencil icon) → Hold & Drag selected action up and down by the icon (three vertical lines) in the list → Done
+
+| | |
+|------------|------------|
+|**Android**  | **iOS** |
+| ![Quick action widget_android_order](/assets/images/widgets/quick_action_widget_android_order.png) | ![Quick action widget_ios_order](/assets/images/widgets/quick_action_widget_ios_order.png) |
 
 ### Edit / Remove action
 {% data reusables.general.image-needs-to-be-updated %}
