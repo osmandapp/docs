@@ -4,8 +4,6 @@ intro: "OsmAnd gives great possibilities for using the maps. Typically maps need
 versions: '*'
 ---
 
-{% data reusables.general.image-needs-to-be-updated %}
-
 | | |
 |------------|------------|
 | **Android** | **iOS** |
