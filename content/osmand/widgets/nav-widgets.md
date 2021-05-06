@@ -91,32 +91,39 @@ Speed limit widget shows a speed limit for a current driving road. It works in p
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.map_widget_max_speed %} <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.map_widget_max_speed %}|
 | On  Click | - |
 
-## Maneuvre Distance, Color, Trigger time
-Information about [next turns](/development/algorithms/voice-prompt-triggering)
-
-| Name | Color | ~ Trigger Time | Street name | 
-|----|-------|------| 
-| [Close by](/development/algorithms/voice-prompt-triggering#turn-now) | Green | 5 seconds | Next street name |
-| [Approaching](/development/algorithms/voice-prompt-triggering#turn-now) | Yellow | 20 seconds | Next street name |
-| [Distant](/development/algorithms/voice-prompt-triggering#turn-now) | Grey | > 100 seconds | Current street name |
-
-
 ## Next turns
 
-The widget shows information about your next turn with a picture of maneuver and distance to it.
+The widget shows information about your next turn with a picture of maneuver and distance to it. There are 2 variants of **next turn** widget (small and big) and **2nd next turn** which is enabled if turn within approaching distance.
 
 ![Next turns widget](/assets/images/widgets/next_turns_widget.png)
+
+Trigger display time, color is related to the voice navigation prompts and related to the time left to reach maneuvre. So color indication, distance & turn visualization could be used instead of voice navigation.
+
+|  Name |  Prompt type | Color | ~ Trigger Time | 
+|-----|----|-------|------| 
+| Close by | [Turn now](/development/algorithms/voice-prompt-triggering#trigger-behavior) | Green | 5 seconds | 
+| Approaching| [Turn in X m](/development/algorithms/voice-prompt-triggering#trigger-behavior) | Yellow | 20 seconds |
+| Distant | [Prepare to turn](/development/algorithms/voice-prompt-triggering#trigger-behavior) | Grey | > 100 seconds | 
+
+
 
 | | |
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_left %} → {% data variables.android-values.map_widget_next_turn %}, {% data variables.android-values.map_widget_next_turn_small %}, {% data variables.android-values.map_widget_next_next_turn %} <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_left %} → {% data variables.ios-values.map_widget_next_turn %}, {% data variables.ios-values.map_widget_next_turn_small %}, {% data variables.ios-values.map_widget_next_next_turn %} |
-| On  Click | Speaks next maneuver and distance to it, if voice guidance is turned on |
+| On  Click | Speaks out next maneuver and distance to it, if voice guidance is turned on |
 
 ## Lanes
 
-The widget shows the lanes you have to drive during a navigation with [distance to a maneuver](/development/algorithms/voice-prompt-triggering). With passive navigation, the widget displays lanes layout for current driving road. The data is taken from [OpenStreetMap project](https://wiki.openstreetmap.org/wiki/Key:turn).
+Lanes widget shows the current road lanes layout and highlights lanes to drive with active navigation. With passive navigation, the widget displays lanes layout for current driving road. The data is taken from [OpenStreetMap project](https://wiki.openstreetmap.org/wiki/Key:turn).
 
 ![Lanes widgets](/assets/images/widgets/lanes_widget.png)
+
+Display time, color is related to the voice navigation prompts and related to the time left to reach maneuvre.
+
+|  Name |  Prompt type | Color | ~ Trigger Time | 
+|-----|----|-------|------| 
+| Close by | [Turn now](/development/algorithms/voice-prompt-triggering#trigger-behavior) | Green | 5 seconds | 
+| Approaching| [Turn in X m](/development/algorithms/voice-prompt-triggering#trigger-behavior) | Yellow | 20 seconds |
 
 | | |
 |------------|------------|
@@ -126,13 +133,11 @@ The widget shows the lanes you have to drive during a navigation with [distance 
 
 ## Alert widget
 
-The widget shows alerts on the screen during navigation
-
-Warnings are displayed in the lower left corner during navigation.
+Alert widget combines multiple type of alerts that are displayed in the lower left corner during navigation.
 
 ![Alert information widgets](/assets/images/widgets/alert_information_widget.png)
 
-There is an option to turn on and turn off the alerts such as: {% data variables.android-values.show_traffic_warnings %}, {% data variables.android-values.show_pedestrian_warnings %}, {% data variables.android-values.show_cameras %}, {% data variables.android-values.show_tunnels %}. Other alerts are always active by default.
+There are options to turn on and off specific alerts such as: {% data variables.android-values.show_traffic_warnings %}, {% data variables.android-values.show_pedestrian_warnings %}, {% data variables.android-values.show_cameras %}, {% data variables.android-values.show_tunnels %}. Other alerts are active by default, if alert widget is enabled. For speed limit alert, you could configure *{% data variables.android-values.speed_limit_exceed %}* within voice prompts to relate vehicle speed with GPS-speed more precisely.
 
 | | |
 |------------|------------|
