@@ -1,22 +1,27 @@
 ---
 title: "Download maps"
-intro: "Download maps"
+intro: "This is an option to use the map of the required territory. You can download more or less detailed map, in different styles and parameters. But have downloaded map is a must have. It is important to note that without saved map the navigation will not work correctly."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-When the app is launching for the first time, the User can see the suggestion to download the map. That lets the OsmAnd determine the user's location and suggests downloading the current region map. It is possible to select another region or skip downloading by clicking 'Skip' in the top-right corner.
+When the app is launching for the first time,  appears a suggestion  to download the map. This allows OsmAnd to determine location of the device  and will offer you to download the current region map. It is possible to select another region or skip downloading by clicking 'Skip' in the top-right corner.
 
-> NOTE: The "Mini world overview map"  will be downloaded by default. We recommend downloading the "World overview map". This basic map allows user to view regions and countries.
+> NOTE: The "Mini world overview map"  will be downloaded by default. We recommend downloading the "World overview map". This is a basic map that allows you to view regions and countries.
 
 ![Download map](/assets/images/settings/download_map.png)
 
-> NOTE: For offline use, you need to preload necessary maps. OsmAnd uses .obf file format for the maps.
+> NOTE: In order to use maps in offline mode, you need to preload required maps. OsmAnd use  maps  in .obf  format.
 
-<!-- There are two main map types you can download. -->
-## Vector maps (preferred solution)
+There are two main map types you can use: vector and raster:
+- Vector maps is a database of points, lines and polygons which collectively make up all the features on the map. This map format is relatively small in size and easy to download and convenient for offline use.
+- Raster map is a  electronic map image made up of a set number of pixels. This type of maps is more voluminous, requires a longer download and cannot always be used offline. More details can be found in the [Online / Offline Raster Maps](/osmand/map/online-raster-maps) section. 
 
-All "vector" maps in OsmAnd have native format. They are 10%  compacter than tiles and allows zooming without losing detail or resolution. For slow devices zooming out to "overview" levels takes more time and CPU.
+In order to use navigation conveniently and quickly  in offline mode, we recommend downloading offline maps.
+
+## How to use vector maps
+
+All "vector" maps in OsmAnd have native format. They are compact and allows  easily zooming without losing detail or resolution. 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %}
 
