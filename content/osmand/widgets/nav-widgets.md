@@ -80,7 +80,7 @@ Intermediate arrival time or Intermediate time widget shows {% data variables.an
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.access_intermediate_arrival_time %} or {% data variables.android-values.map_widget_intermediate_time %}  <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.access_intermediate_arrival_time %} or {% data variables.ios-values.map_widget_intermediate_time %}|
 | On  Click | Changes between "Intermediate arrival time" to "Intermediate time" and vice versa. |  
 
-### Speed limit
+## Speed limit
 
 Speed limit widget shows a speed limit for a current driving road. It works in passive and active navigation mode. The data is taken from [OpenStreetMap project](https://wiki.openstreetmap.org/wiki/Key:maxspeed).
 
@@ -90,6 +90,27 @@ Speed limit widget shows a speed limit for a current driving road. It works in p
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} →  {% data variables.android-values.map_widget_max_speed %} <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.map_widget_max_speed %}|
 | On  Click | - |
+
+## Maneuvre Distance, Color, Trigger time
+Information about [next turns](/development/algorithms/voice-prompt-triggering)
+
+| Name | Color | ~ Trigger Time | Street name | 
+|----|-------|------| 
+| [Close by](/development/algorithms/voice-prompt-triggering#turn-now) | Green | 5 seconds | Next street name |
+| [Approaching](/development/algorithms/voice-prompt-triggering#turn-now) | Yellow | 20 seconds | Next street name |
+| [Distant](/development/algorithms/voice-prompt-triggering#turn-now) | Grey | > 100 seconds | Current street name |
+
+
+## Next turns
+
+The widget shows information about your next turn with a picture of maneuver and distance to it.
+
+![Next turns widget](/assets/images/widgets/next_turns_widget.png)
+
+| | |
+|------------|------------|
+| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_left %} → {% data variables.android-values.map_widget_next_turn %}, {% data variables.android-values.map_widget_next_turn_small %}, {% data variables.android-values.map_widget_next_next_turn %} <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_left %} → {% data variables.ios-values.map_widget_next_turn %}, {% data variables.ios-values.map_widget_next_turn_small %}, {% data variables.ios-values.map_widget_next_next_turn %} |
+| On  Click | Speaks next maneuver and distance to it, if voice guidance is turned on |
 
 ## Lanes
 
@@ -136,16 +157,6 @@ There is an option to turn on and turn off the alerts such as: {% data variables
 |{% data variables.android-values.traffic_warning_border_control %}| [Hazard symbols or warning symbols](https://en.wikipedia.org/wiki/Hazard_symbol) are recognisable symbols designed to warn about hazardous or dangerous materials, locations, or objects, including electric currents, poisons, and radioactivity. | ![Alert warnings_hazard widgets](/assets/images/widgets/warnings_hazard.png)  ![Alert warnings_hazard_us widgets](/assets/images/widgets/warnings_hazard_us.png) |
 |{% data variables.android-values.traffic_warning_payment %}| This warning indicates that a toll booth for a toll road is ahead.   ![Alert toll_booth widgets](/assets/images/widgets/ex_toll_booth.png) | ![Alert speed_limit widgets](/assets/images/widgets/warnings_limit.png) |
 
-## Next turns
-
-The widget shows warnings about your maneuvers with a picture of maneuver and [distance](/development/algorithms/voice-prompt-triggering) to it.
-
-![Next turns widget](/assets/images/widgets/next_turns_widget.png)
-
-| | |
-|------------|------------|
-| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_left %} → {% data variables.android-values.map_widget_next_turn %}, {% data variables.android-values.map_widget_next_turn_small %}, {% data variables.android-values.map_widget_next_next_turn %} <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_left %} → {% data variables.ios-values.map_widget_next_turn %}, {% data variables.ios-values.map_widget_next_turn_small %}, {% data variables.ios-values.map_widget_next_next_turn %} |
-| On  Click | Speaks next maneuver and distance to it, if voice guidance is turned on |
 
 ## Street name
 
