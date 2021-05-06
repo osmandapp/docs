@@ -97,9 +97,15 @@ The widget shows information about your next turn with a picture of maneuver and
 
 ![Next turns widget](/assets/images/widgets/next_turns_widget.png)
 
+| | |
+|------------|------------|
+| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_left %} → {% data variables.android-values.map_widget_next_turn %}, {% data variables.android-values.map_widget_next_turn_small %}, {% data variables.android-values.map_widget_next_next_turn %} <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_left %} → {% data variables.ios-values.map_widget_next_turn %}, {% data variables.ios-values.map_widget_next_turn_small %}, {% data variables.ios-values.map_widget_next_next_turn %} |
+| On  Click | Speaks out next maneuver and distance to it, if voice guidance is turned on |
+
+
 Trigger display time, color is related to the voice navigation prompts and related to the time left to reach maneuvre. So color indication, distance & turn visualization could be used instead of voice navigation.
 
-|  Name |  Prompt type | Color | ~ Trigger Time | 
+| Distance |  Prompt type | Color | ~ Trigger Time | 
 |-----|----|-------|------| 
 | Close by | [Turn now](/development/algorithms/voice-prompt-triggering#trigger-behavior) | Green | 5 seconds | 
 | Approaching| [Turn in X m](/development/algorithms/voice-prompt-triggering#trigger-behavior) | Yellow | 20 seconds |
@@ -107,29 +113,25 @@ Trigger display time, color is related to the voice navigation prompts and relat
 
 
 
-| | |
-|------------|------------|
-| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_left %} → {% data variables.android-values.map_widget_next_turn %}, {% data variables.android-values.map_widget_next_turn_small %}, {% data variables.android-values.map_widget_next_next_turn %} <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_left %} → {% data variables.ios-values.map_widget_next_turn %}, {% data variables.ios-values.map_widget_next_turn_small %}, {% data variables.ios-values.map_widget_next_next_turn %} |
-| On  Click | Speaks out next maneuver and distance to it, if voice guidance is turned on |
-
 ## Lanes
 
 Lanes widget shows the current road lanes layout and highlights lanes to drive with active navigation. With passive navigation, the widget displays lanes layout for current driving road. The data is taken from [OpenStreetMap project](https://wiki.openstreetmap.org/wiki/Key:turn).
 
 ![Lanes widgets](/assets/images/widgets/lanes_widget.png)
 
-Display time, color is related to the voice navigation prompts and related to the time left to reach maneuvre.
-
-|  Name |  Prompt type | Color | ~ Trigger Time | 
-|-----|----|-------|------| 
-| Close by | [Turn now](/development/algorithms/voice-prompt-triggering#trigger-behavior) | Green | 5 seconds | 
-| Approaching| [Turn in X m](/development/algorithms/voice-prompt-triggering#trigger-behavior) | Yellow | 20 seconds |
-
 | | |
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_appearance_rem %} →  {% data variables.android-values.show_lanes  %} |
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_appearance_rem %} → {% data variables.ios-values.show_lanes %} |
 | On  Click | - |
+
+Display time, color is related to the voice navigation prompts and related to the time left to reach maneuvre.
+
+|  Name |  Prompt type | Color | ~ Trigger Time | 
+|-----|----|-------|------| 
+| Close by | [Turn now](/development/algorithms/voice-prompt-triggering#trigger-behavior) | Green | 5 seconds | 
+| Approaching | [Turn in X m](/development/algorithms/voice-prompt-triggering#trigger-behavior) | Yellow | 20 seconds |
+
 
 ## Alert widget
 
@@ -139,16 +141,16 @@ Alert widget combines multiple type of alerts that are displayed in the lower le
 
 There are options to turn on and off specific alerts such as: {% data variables.android-values.show_traffic_warnings %}, {% data variables.android-values.show_pedestrian_warnings %}, {% data variables.android-values.show_cameras %}, {% data variables.android-values.show_tunnels %}. Other alerts are active by default, if alert widget is enabled. For speed limit alert, you could configure *{% data variables.android-values.speed_limit_exceed %}* within voice prompts to relate vehicle speed with GPS-speed more precisely.
 
+Most of alerts are displayed and announced within 15 seconds, same as [Passing waypoint / favorite / POI](/development/algorithms/voice-prompt-triggering#trigger-behavior).
+
 | | |
 |------------|------------|
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %} →  {% data variables.android-values.screen_alerts  %} |
 |  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.screen_alerts %} |
-| Distance of showing | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %} →  {% data variables.android-values.voice_announces %} →  {% data variables.android-values.announcement_time_title %}|
-|  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.voice_announces %} → {% data variables.ios-values.arrival_distance %} |
 
 ### Alert types 
 
-| | |    |
+| | | |
 |------------|------------|------------|
 |Name|Description|Icon|
 |{% data variables.android-values.show_traffic_warnings %}| [Traffic calming](https://en.wikipedia.org/wiki/Traffic_calming) uses physical design and other measures to improve safety for motorists, pedestrians and cyclists. | ![Alert traffic calming widgets](/assets/images/widgets/warnings_traffic_calming.png)  ![Alert traffic calming us widgets](/assets/images/widgets/warnings_traffic_calming_us.png)|
@@ -165,7 +167,7 @@ There are options to turn on and off specific alerts such as: {% data variables.
 
 ## Street name
 
-The widget shows street names or roads (highway shield), as well as a scheme of the maneuver during navigation.
+Street name widget shows **current street name** with straight location arrow or **next street name** with the maneuver has to be completed. Street name typically consists of highway shield, [name](https://wiki.openstreetmap.org/wiki/Key:name), [ref](https://wiki.openstreetmap.org/wiki/Key:ref), [internation ref](https://wiki.openstreetmap.org/wiki/Key:int_ref), [destination](https://wiki.openstreetmap.org/wiki/Key:destination). Switch between current street name to the next street name happens when you approach the maneuver location (~20 seconds), same as '[Turn in X m](/development/algorithms/voice-prompt-triggering#trigger-behavior)' voice prompt.
 
 When driving along a street or highway, the widget shows the name or designation of the current street (road) with a blue arrow.
 
@@ -175,29 +177,26 @@ When maneuvering, the widget shows the scheme of the maneuver and the name (desi
 
 ![Street name POIs widget](/assets/images/widgets/street_name_widget.png)
 
-| |
+| | |
 |------------|------------|
-| Enable  |{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_appearance_rem %} →  {% data variables.android-values.map_widget_top_text %} |
-|  |For {% data variables.product.ios_button_seq %} always showed |
+| Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_appearance_rem %} →  {% data variables.android-values.map_widget_top_text %} <br> {% data variables.product.ios_button_seq %} always active |
+| On Click | - | 
 
 ## Approach POIs/Favorites
 
-The widget shows (Points of interest) POI and Favorites along the route.
-
-There are two distances information near POI/Favorite icon. Top info is the distance to the nearest point on your route, down info is the distance from the nearest route point to POI/Favorite.
+Approach POIs/Favorites/Waypoints  widget is combined with [Street name](#street-name) and displays approaching and passing Points of interest, Waypoints of followed track, Favorites along the route. It displays name, icon of the point and 2 distances: **route distance** and **deviation distance**. **Route distance** (top) displayes how much distance needs to be covered by following route, **deviation distance** is a straight distance from the closest route point to the point itself.
 
 **Android**:
 
 ![Street name POIs widget_android](/assets/images/widgets/street_name_poi_widget_android.png)
 
-**iOS**: in addition to the distance from the nearest route point, the side (left or right) of the route where POI/Favorite is located is also shown. 
+**iOS**: in addition to the distance from the nearest route point, the side (left or right) of the route where point is located is also shown. 
 
 ![Street name POIs widget_ios](/assets/images/widgets/street_name_poi_widget_ios.png)
 
 | |
 |------------|------------|
-| Enable  |{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.get_directions %} → {% data variables.android-values.shared_string_settings %} →  {% data variables.android-values.show_along_the_route %} →  {% data variables.android-values.points_of_interests %}, {% data variables.android-values.shared_string_my_favorites %}, {% data variables.android-values.way_alarms %} |
-| Enable  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → Start navigation with one or more intermediate destination → pencil button |
+| Enable  |{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.get_directions %} → {% data variables.android-values.shared_string_settings %} →  {% data variables.android-values.show_along_the_route %} →  {% data variables.android-values.points_of_interests %}, {% data variables.android-values.shared_string_my_favorites %}, {% data variables.android-values.way_alarms %} <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → Start navigation → pencil button |
 
 ## Read Next
 
