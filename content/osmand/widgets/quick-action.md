@@ -17,7 +17,18 @@ In order to use the Quick Actions button you need to enable this widget first.
 
 By default the Quick action button will appear on the right corner (above the zoom buttons), but it can be moved to the any part of the screen by long tap on it. 
 
+| | |
+|------------|------------|
+|First appearing  | ![Quick action widget_view](/assets/images/widgets/quick_action_widget_view.png) |
+|Long tap and moving  | ![Quick action widget_tap](/assets/images/widgets/quick_action_widget_tap.png) |
+|New place  | ![Quick action widget_move](/assets/images/widgets/quick_action_widget_move.png) |
+
 To open Quick action menu just press on the button.
+
+| | |
+|------------|------------|
+|**Android**  | **iOS** |
+| ![Quick action widget_android](/assets/images/widgets/quick_action_widget_android.png) | ![Quick action widget_ios](/assets/images/widgets/quick_action_widget_ios.png) |
 
 ## Edit actions list
 
