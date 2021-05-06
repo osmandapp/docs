@@ -6,7 +6,10 @@ versions: '*'
 
 {% data reusables.general.image-needs-to-be-updated %}
 
-![Configure map](/assets/images/map/configure-map.png)
+| | |
+|------------|------------|
+| **Android** | **iOS** |
+| ![Configure map_android](/assets/images/map/configure-map-android.png) | ![Configure map_ios](/assets/images/map/configure-map-ios.png) |
 
 **{% data variables.android-values.configure_map %}** menu divides into 2 categories:
 - [Map style parameters](#map-style-parameters) - **{% data variables.android-values.map_widget_map_rendering %}** or **{% data variables.ios-values.map_settings_style %}** groups all parameters that allow to change how the main map is displayed.
