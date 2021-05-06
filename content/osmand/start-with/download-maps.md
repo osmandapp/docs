@@ -51,7 +51,7 @@ In order to download new maps or see already downloaded you need to:
 
 ![Download maps regions ](/assets/images/settings/download_maps_regions.png)
 
-### Download map via Zoom in the World map (Android)
+### Download map via 'Zoom in' the World map (Android)
 
 It is available to download a map of a certain area using zoom in the World map. The notification "Download detailed map, to view the area" will appear at the top bar. Press the button to download and the map will automatically appear in {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %}
 
