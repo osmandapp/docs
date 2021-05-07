@@ -27,7 +27,7 @@ versions: '*'
    - [Tracks](/osmand/map/tracks-on-map) - display imported, planned or recorded tracks over the map.
    - [Map sources](/osmand/map/online-raster-maps#select-map-as-main--underlay--overlay-layer) - select underlay / main source / overlay map with transparency levels.
    - [Street level imagery](/osmand/map/street-level-imagery) - display points with available street-level imagery.
-   - [Wikipedia](/osmand/map/wikipedia) - highlight wikipedia articles linked to the map.
+   - [Wikipedia](/osmand/plugins/wikipedia) - highlight wikipedia articles linked to the map.
    - [Contour lines](/osmand/map/contour-lines-hillshade) - display depth or height contour lines.
    - [Terrain](/osmand/map/contour-lines-hillshade) - display raster slope or hillshade information.
    - [Other plugin layers](/osmand/plugins) - many plugins add own layers with extra information.
@@ -39,7 +39,7 @@ Map style parameters are dependent on the main map style be displayed on the map
    - [Map magnifier](/osmand/map/map-styles-and-parameters#map-magnifier) - more or less detailed map display.
    - [Text size](/osmand/map/map-styles-and-parameters#text-size) - increase or decrease text size on the map.
    - [Map language](/osmand/map/map-styles-and-parameters#map-language) - select preferred language displayed on the map.
-   - [Details](/osmand/map/map-styles-and-parameters#details) - highlight specific objects .
+   - [Details](/osmand/map/map-styles-and-parameters#details) - highlight specific objects.
    - [Hide](/osmand/map/map-styles-and-parameters#hide) - hide specific objects.
    - [Routes](/osmand/map/map-styles-and-parameters#routes) - highlight specific routes and their symbols.
    

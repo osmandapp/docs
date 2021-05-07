@@ -90,7 +90,9 @@ Winter and ski style is designed to help you navigate winter sports locations: y
 Map legend is a visual explanation of the symbols used on the map. It typically includes a sample of each symbol (point, line, or area), and a short description of what the symbol means. For example, a short segment of a blue sinuous line may be labeled 'rivers'.
 Map legend of OsmAnd maps you can find [here](https://osmand.net/help-online/map-legend/).
 
-## Parameters of Map rendering
+## Contour Lines
+
+## Configure Map Style
 
 ### Map mode
 
