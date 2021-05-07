@@ -1,6 +1,6 @@
 ---
 title: "Map Context menu"
-intro: "This article describes how to select objects on map, open context menu with long or short tap to get detailed information about POI, to navigate from / to the point and to perform certain actions"
+intro: "How to select an object on the map, open context menu with long or short tap, get detailed information about point of intereset, navigate from and to the point and perform other actions"
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
@@ -21,4 +21,4 @@ It is a menu where the user can reorder or hide items from the 'Context menu act
 
 ![Context menu actions items ](/assets/images/settings/context_menu_actions_items.png)
 
-> NOTE: All settings will apply to the 'Browse map' profile by default. User can reset settings to default or copy from another profile.
+ All settings will apply to the 'Browse map' profile by default. User can reset settings to default or copy from another profile.
