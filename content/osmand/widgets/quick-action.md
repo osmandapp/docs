@@ -1,6 +1,6 @@
 ---
 title: "Quick Action"
-intro: "Quick Action Widget is a quick access button on the map with frequently used actions accessible 'just in 2 clicks'."
+intro: "Quick Action Widget is a configurable quick access button on the map with selected actions accessible 'just in 2 clicks'."
 versions: '*'
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Marker widgets"
-intro: "Map markers are selected points marked as flags on the map. The additional information about them could be displayed as widgets on the map screen."
+intro: "Map markers are selected points marked as flags on the map. They provide useful information for direct-point-navigation on the map screen."
 versions: '*'
 ---
 

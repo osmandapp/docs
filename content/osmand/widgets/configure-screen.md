@@ -1,6 +1,6 @@
 ---
 title: "Configure Screen"
-intro: "Configure screen is a menu that allows to configure what widgets will be displayed over the map. It allows you to enable and configure Quick action, Navigation widgets,  and remaining elements."
+intro: "Configure screen is a menu that allows to configure what widgets will be displayed over the map. It allows you to enable and configure Quick action, Informational & Navigational widgets  and other elements."
 versions: '*'
 ---
 
