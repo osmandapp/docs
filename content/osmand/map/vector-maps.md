@@ -92,6 +92,11 @@ Map legend of OsmAnd maps you can find [here](https://osmand.net/help-online/map
 
 ## Contour Lines
 
+{% data reusables.general.article-not-complete %}
+
+- Reference to plugin
+- Description of map style parameters and in which style they are present
+
 
 ## Configure Map Style
 

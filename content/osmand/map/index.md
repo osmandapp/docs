@@ -8,14 +8,14 @@ versions: '*'
 {% link_with_intro /interact-with-map %}
 {% link_with_intro /map-context-menu %}
 {% link_with_intro /configure-map-menu %}
-{% link_with_intro /point-layers-on-map %}
-{% link_with_intro /tracks-on-map %}
 {% link_with_intro /raster-maps %}
 {% link_with_intro /vector-maps %}
+{% link_with_intro /point-layers-on-map %}
+{% link_with_intro /tracks-on-map %}
 {% link_with_intro /public-transport %}
 
 # Map Related
 - Contour lines 
 - Hillshade
-- {% link_with_intro ../plugins/mapillary %}
-- {% link_with_intro ../plugins/wikipedia %}
+- Mapillary (Street-level imagery plugin)
+- Wikipedia (plugin / points overlay)
