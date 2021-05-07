@@ -129,7 +129,7 @@ http://osmand.net/add-tile-source?name=TEST&url_template=http://h0.ortho.tiles.v
 |[URL]|template=http://h0.ortho.tiles.virtualearth.net/tiles/h{q}.jpg?g=45|
 |[Zoom levels]|min_zoom=9max_zoom=20|
 
-You find added Online map in the list of [Main / Underlay / Overlay layer](/osmand/map/online-raster-maps#select-map-as-main--underlay--overlay-layer) menu.
+You find added Online map in the list of [Main / Underlay / Overlay layer](#select-map-as-main--underlay--overlay-layer) menu.
 
 ## Manage raster maps
 Raster maps can take a significant amount of disk space, so you might need to regularly check it. For large datasets, it's recommended to use 'SQLite raster source' cause it will store all tiles in 1 large file (sqlite database). 

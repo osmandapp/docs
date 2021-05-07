@@ -23,7 +23,7 @@ Memory name | Permission access
 
 ## Copy raster map package created on PC 
 
-Map package can be saved in two formats: [SQ Lite and Metainfo](/osmand/map/online-raster-maps#sqlite-vs-metainfo-sources).
+Map package can be saved in two formats: [SQ Lite and Metainfo](/osmand/map/raster-maps#sqlite-vs-metainfo-sources).
 
 Next, you need to move your map package file(s) to OsmAnd-tiles directory:
 

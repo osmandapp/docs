@@ -1,5 +1,5 @@
 ---
-title: "Map styles and parameters"
+title: "Vector maps (styles)"
 intro: "OsmAnd provides a huge range of map styles for many activities like cycling, hiking, riding by car or snowmobile, etc. We name it Map style or Map rendering. Set parameters for Map rendering you can see more details on the map or hide some details. You can create your own map style OsmAnd. Choose your style or make it yourself and enjoy your trip."
 versions: '*'
 ---
@@ -91,6 +91,7 @@ Map legend is a visual explanation of the symbols used on the map. It typically 
 Map legend of OsmAnd maps you can find [here](https://osmand.net/help-online/map-legend/).
 
 ## Contour Lines
+
 
 ## Configure Map Style
 
@@ -198,7 +199,7 @@ In OsmAnd  we can choose special rendering for these needed:
 
 ### Hide
 
-Sometimes we need to hide objects on the map for better vision. For example to hide water during using [Underlay layer of Satellite online maps](/osmand/map/online-raster-maps#select-map-as-main--underlay--overlay-layer).
+Sometimes we need to hide objects on the map for better vision. For example to hide water during using [Underlay layer of Satellite online maps](/osmand/map/raster-maps#select-map-as-main--underlay--overlay-layer).
 In order to hide some objects on the map you can choose them in this menu:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.shared_string_hide %} 
@@ -208,7 +209,7 @@ In order to hide some objects on the map you can choose them in this menu:
 |Parameter          |Description        
 |:------------|:---------------|
 |{% data variables.android-values.rendering_attr_noAdminboundaries_name %}| Hide regional boundaries inside of countries, but state boundaries are visible. |
-|{% data variables.android-values.rendering_attr_noPolygons_name %}|Hide all polygons of natural objects, special function for [Underlay/Overlay layer](/osmand/map/online-raster-maps#change-layer-parameters-transparency).  |
+|{% data variables.android-values.rendering_attr_noPolygons_name %}|Hide all polygons of natural objects, special function for [Underlay/Overlay layer](/osmand/map/raster-maps#change-layer-parameters-transparency).  |
 |{% data variables.android-values.rendering_attr_hideBuildings_name %}|Hide all polygons of buildings. |
 |{% data variables.android-values.rendering_attr_hideWaterPolygons_name %}|Hide all polygons of water (seas, lakes, reservoirs and etc.)  |
 |{% data variables.android-values.rendering_attr_hideHouseNumbers_name %}|Hide house numbers on the map.  |
