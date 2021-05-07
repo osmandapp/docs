@@ -1,6 +1,6 @@
 ---
-title: "Online / Offline Raster Maps"
-intro: "OsmAnd Raster maps is an extensive addition to the offline OpenStreetMap vector maps the application uses by default. Raster maps allow to combine different map sources with Vector Maps. For example, useful Hillshade / Slope information could be displayed as a raster layer. You can display an overlay of hiking routes, live rain maps, live traffic data and an underlay of satellite imagery mixing with semi-transparent base vector map. You can also switch default maps to online web raster tiles."
+title: "Raster Maps (Online / Offline)"
+intro: "Raster maps is an extensive addition to the offline OpenStreetMap vector maps the application uses by default. Raster maps allow to combine different map sources with Vector Maps. For example, useful Hillshade / Slope information could be displayed as a raster layer. You can display an overlay of hiking routes, live rain maps, live traffic data and an underlay of satellite imagery mixing with semi-transparent base vector map. You can also switch default maps to online web raster tiles."
 versions: '*'
 ---
 

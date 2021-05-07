@@ -1,6 +1,6 @@
 ---
 title: "Configure Map"
-intro: "OsmAnd gives great possibilities for using the maps. Typically maps needs to be configured for your needs, so you could highlight Favorite points, Navigation markers or special Points of Interests on the map. You could also make visible specific routes or 3rd party GPX files and you could overlay the map with relief information or satellite imagery. All visible map information is configurable via Configure Map menu."
+intro: "OsmAnd gives great possibilities for using the maps. 'Configure map' menu is a central place where you could configure for your needs, i.e. highlight Favorite points, Navigation markers or special Points of Interests on the map; display specific routes or 3rd party GPX files; overlay the map with relief information, satellite imagery or any other available raster map; display public transport information and change the map style."
 versions: '*'
 ---
 

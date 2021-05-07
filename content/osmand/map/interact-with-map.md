@@ -1,6 +1,6 @@
 ---
 title:  Interact with map
-intro: "This article explains how to interact with map using buttons and gestures, so you could pan, rotate and zoom in/out the map. There are differents ways how the map could be rotated manually or automatically by compass or by bearing and also there are nuances with different kind of zooms."
+intro: "How to interact with map using buttons and gestures, so you could pan, rotate and zoom in/out the map, how to rotate the map manually or automatically by compass or by bearing and how to change zoom scale."
 versions: '*'
 ---
 

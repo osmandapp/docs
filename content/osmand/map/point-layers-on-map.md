@@ -1,5 +1,5 @@
 ---
-title: "Points"
+title: "Points (Layers)"
 intro: "On map you could display points such as Favorites, POI, Markers, Wikipedia, Search results, Audio Video Notes, OSM Edits"
 versions: '*'
 ---

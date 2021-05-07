@@ -1,5 +1,5 @@
 ---
-title: "Public transport"
+title: "Public transport (Layers)"
 intro: "Explore public transport routes / stops"
 versions: '*'
 ---
