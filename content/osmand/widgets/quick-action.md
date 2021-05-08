@@ -79,6 +79,8 @@ There are several ways how to access Quick Action to edit or delete it:
 
     {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} → Click Edit (Pencil icon on the right top corner) → Select actions → Delete
  
+| | |
+|------------|------------| 
 |**Android**  | **iOS** |
 | ![Quick action widget_android_del](/assets/images/widgets/quick_action_widget_android_del.png) | ![Quick action widget_ios_del](/assets/images/widgets/quick_action_widget_ios_del.png) |
 
