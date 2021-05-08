@@ -7,13 +7,25 @@ versions: '*'
 
 ## Select objects on map
 
+In OsmAnd there are two scenario how to use click on the map and choose 
+
+By order to select an object on the map just short tap on it. In OsmAnd we can select an object which has [a node](https://wiki.openstreetmap.org/wiki/Node).
+
+Long tap on the map shows Address of nearest place, coordinates of a point, online photos, distance and direction (Android)
+
 ## Detailed information
+
+Detailed information shows ...
 
 ## Actions
 
+Actions in the table
+
 ### Navigation 
 
-## Customize context menu (advanced)
+Button "Directions"
+
+## Customize context menu (Android, advanced)
 
 It is a menu where the user can reorder or hide items from the 'Context menu actions', to see hidden items from the menu, copy the list of items from the another profile and reset to default settings.
 
