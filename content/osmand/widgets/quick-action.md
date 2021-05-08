@@ -35,17 +35,22 @@ To open Quick action menu just press on the button.
 
 There are 2 ways to add items to the Quick actions list: 
 - Menu → Configure screen → Quick action → &#8230;&#124; → Add action(+) 
-- Click "Quick action" button → "Quick action" menu → Add action
 
 | | |
 |------------|------------|
 |**Android**  | **iOS** |
 | ![Quick action widget_android_add](/assets/images/widgets/quick_action_widget_android_add.png) | ![Quick action widget_ios_add](/assets/images/widgets/quick_action_widget_ios_add.png) |
 
+- Click "Quick action" button → "Quick action" menu → Add action
+
+| | |
+|------------|------------|
+|**Android**  | **iOS** |
+| ![Quick action widget_android_add2](/assets/images/widgets/quick_action_widget_android_add2.png) | ![Quick action widget_ios_add2](/assets/images/widgets/quick_action_widget_ios_add2.png) |
+
 First you need to select [type of the action](#quick-actions-types) and then you could change its name and parameters ([See below](#quick-actions-types) which parameters could be configured for each action type). Every action should have a unique name.
 
 ### Reorder actions
-{% data reusables.general.image-needs-to-be-updated %}
 
 Quick action panel has only **6 slots** for actions per screen. However you could have multiple screens and actions are grouped by the specified order. In order to change the order of items:
 
