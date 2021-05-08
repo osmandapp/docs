@@ -66,26 +66,22 @@ Quick action panel has only **6 slots** for actions per screen. However you coul
 | ![Quick action widget_android_order](/assets/images/widgets/quick_action_widget_android_order.png) | ![Quick action widget_ios_order](/assets/images/widgets/quick_action_widget_ios_order.png) |
 
 ### Edit / Remove action
-{% data reusables.general.image-needs-to-be-updated %}
 
 There are several ways how to access Quick Action to edit or delete it:
 
- - Open via Edit actions list
-
-    {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %}
-
-    {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %}
-
- - Long tap on the action 
+ - Long tap on the action (Android)
 
     Open Quick action menu → Long tap on the action (short tap to execute the action)
 
- - Bulk delete
+ - Delete via "Edit actions" list
 
     {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.configure_screen_quick_action %} → Click Delete (Bin icon on the right top corner) → Select actions → Delete
 
     {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.configure_screen_quick_action %} → Click Edit (Pencil icon on the right top corner) → Select actions → Delete
  
+|**Android**  | **iOS** |
+| ![Quick action widget_android_del](/assets/images/widgets/quick_action_widget_android_del.png) | ![Quick action widget_ios_del](/assets/images/widgets/quick_action_widget_ios_del.png) |
+
 
 ## Quick action types
 
