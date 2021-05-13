@@ -13,7 +13,7 @@ Taping to the map in OsmAnd we can select an object or point on the map and open
 |:------------|:---------------|
 |**Short tap**| Selected only an object which has [a node](https://wiki.openstreetmap.org/wiki/Node) with showing name and address of an object, distance and direction from current location to an object. Icon: showed POI icon on Point Context menu. |
 |Android:![Context menu short_tap_Android](/assets/images/map/map_context_menu_short_tap_android.png) | iOS:![Context menu short_tap_iOS](/assets/images/map/map_context_menu_short_tap_ios.png)  |
-|**Long tap**| Selected geographical point with info about address of nearest place, distance and direction from current location to this point. Icon: showed Location icon on Point Context menu. |
+|**Long tap**| Selected geographical point with info about address of the nearest place, distance and direction (Android) from current location to this point. Icon: showed Location icon on Point Context menu. |
 |Android:![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) | iOS:![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)  |
 
 
