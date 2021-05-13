@@ -87,7 +87,7 @@ There are multiple ways how to add new raster map, copy it from another device, 
 Here are the main methods how to add new raster map source which is not defined in OsmAnd yet:
 - Copy a raster map to a **tiles** subfolder of [base osmand storage](/osmand/start-with/storage) (Android).
 - Open ready to use *.sqlitedb* file with OsmAnd.
-- Import package with prepared online maps from another OsmAnd application as a special **osf package** via [Import / export functionality](/personal/import-export).
+- Import package with prepared online maps from another OsmAnd application as a special **osf package** via [Import / export functionality](/osmand/personal/import-export).
 - Create new online map source on a mobile device itself.
 - Prepare a magic URL with online map source parameters and open it with OsmAnd.
 
