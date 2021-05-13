@@ -7,17 +7,13 @@ versions: '*'
 
 ## Select objects on map
 
-In OsmAnd there are two scenario how to use click on the map and choose 
-
-By order to select an object on the map just short tap on it. In OsmAnd we can select an object which has [a node](https://wiki.openstreetmap.org/wiki/Node).
-
-Long tap on the map shows Address of nearest place, coordinates of a point, online photos, distance and direction from current location.
+Taping to the map in OsmAnd we can select an object or point on the map and open Point Context menu. There are two actions of tap: short and long.
 
 | |  |
 |:------------|:---------------|
-|**Short tap**| Selected only an object which has [a node](https://wiki.openstreetmap.org/wiki/Node). Icon: showed POI icon on context menu. |
+|**Short tap**| Selected only an object which has [a node](https://wiki.openstreetmap.org/wiki/Node) with showing name and address of an object, distance and direction from current location to an object. Icon: showed POI icon on Point Context menu. |
 |Android:![Context menu short_tap_Android](/assets/images/map/map_context_menu_short_tap_android.png) | iOS:![Context menu short_tap_iOS](/assets/images/map/map_context_menu_short_tap_ios.png)  |
-|**Long tap**| Showed address of nearest place, coordinates of a point, online photos, distance and direction from current location. Icon: showed Location icon on context menu. |
+|**Long tap**| Selected geographical point with info about address of nearest place, distance and direction from current location to this point. Icon: showed Location icon on Point Context menu. |
 |Android:![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) | iOS:![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)  |
 
 
