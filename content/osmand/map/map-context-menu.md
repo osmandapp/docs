@@ -11,7 +11,15 @@ In OsmAnd there are two scenario how to use click on the map and choose
 
 By order to select an object on the map just short tap on it. In OsmAnd we can select an object which has [a node](https://wiki.openstreetmap.org/wiki/Node).
 
-Long tap on the map shows Address of nearest place, coordinates of a point, online photos, distance and direction (Android)
+Long tap on the map shows Address of nearest place, coordinates of a point, online photos, distance and direction from current location.
+
+| |  |
+|:------------|:---------------|
+|**Short tap**| Selected only an object which has [a node](https://wiki.openstreetmap.org/wiki/Node). Icon: showed POI icon on context menu. |
+|Android:![Context menu short_tap_Android](/assets/images/map/map_context_menu_short_tap_android.png) | iOS:[Context menu short_tap_iOS](/assets/images/map/map_context_menu_short_tap_ios.png)  |
+|**Long tap**| Showed address of nearest place, coordinates of a point, online photos, distance and direction from current location. Icon: showed Location icon on context menu. |
+|Android:![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) | iOS:[Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)  |
+
 
 ## Detailed information
 
