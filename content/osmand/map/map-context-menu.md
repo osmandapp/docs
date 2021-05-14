@@ -24,13 +24,25 @@ Click to "Details" button on Context point menu or move up Context point menu fo
 |Detail | Description |
 |:------------|:---------------|
 |Android:![Context menu details_Android](/assets/images/map/map_context_menu_details_android.png) | iOS:![Context menu details_iOS](/assets/images/map/map_context_menu_details_ios.png)  |
-|**Long tap**| Selected geographical point with info about address of the nearest place, distance and direction (Android) from current location to this point. Icon: showed Location icon on Point Context menu. |
-|Android:![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) | iOS:![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)  |
-
+|Tag info| Additional info about an object: telefon, website, POI type, work time, height, .... |
+|Nearby Wikipedia articles| Anothers Wikipedia articles |
+|Nearby POI| POI |
+|OSM link| Object link to OSM: https://www.openstreetmap.org/node... or https://www.openstreetmap.org/way... |
+|Coordinates info| Geographical coordinates of an object |
+|Online photos| Photos from Mappillary, OpenPlaceReviews, Wikimedia |
 
 ## Actions
 
-Actions in the table
+Actions on Context Point menu
+
+|Detail | Description |
+|:------------|:---------------|
+|Add|  |
+|Share| |
+|Map marker|  |
+|Actions| additional menu of actions |
+|Directons from|  |
+|Search nearby| |
 
 ### Navigation 
 
