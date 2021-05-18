@@ -13,7 +13,7 @@ Taping to the map in OsmAnd we can select an object or point on the map and open
 |:------------|:---------------|
 |**Short tap**| Selected only an object which has [a node](https://wiki.openstreetmap.org/wiki/Node) or [a way](https://wiki.openstreetmap.org/wiki/Way) with showing name and address of an object, distance and direction from current location to an object. Icon: showed POI icon on Point Context menu. |
 |Android:![Context menu short_tap_Android](/assets/images/map/map_context_menu_short_tap_android.png) | iOS:![Context menu short_tap_iOS](/assets/images/map/map_context_menu_short_tap_ios.png)  |
-|**Long tap**| Selected geographical point with info about address of the nearest place, distance and direction (Android) from current location to this point. Icon: showed Location icon on Point Context menu. |
+|**Long tap**| Selected geographical point with info about address of the nearest place, distance and direction from current location to this point. Icon: showed Location icon on Point Context menu. |
 |Android:![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) | iOS:![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)  |
 
 
@@ -23,13 +23,13 @@ Click to "Details" button on Context point menu or move up Context point menu fo
 
 |Detail | Description |
 |:------------|:---------------|
+|[Tag info](https://taginfo.openstreetmap.org/)| Additional information about an object: telefon, website, POI type, work time, height, .... Click to description for opening full information, copy to buffer, open website link and others. |
+|[{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia)| Anothers Wikipedia articles nearby chosen point. Click to description for opening Wikipedia POIs list and the button {% data variables.android-values.shared_string_show_on_map %} for showing another Wikipedia POIs.|
+|[{% data variables.android-values.speak_poi %}](https://wiki.openstreetmap.org/wiki/Points_of_interest)| Anothers POIs nearby chosen point. Click to description for opening POIs list and the button {% data variables.android-values.shared_string_show_on_map %} for showing another POIs near chosen point. |
+|OSM link| Object link to 0penStreetMap source: https://www.openstreetmap.org/node... or https://www.openstreetmap.org/way... |
+|Coordinates info| Geographical coordinates of an object. Click to the description for opening coordinates types with copy it to buffer.|
+|Online photos| Photos from [Mappillary](/osmand/plugins/mapillary), [OpenPlaceReviews](/osmand/plugins/openplacereviews), [Wikimedia](https://www.wikimedia.org/) sources. Click to image for opening image resource. |
 |Android:![Context menu details_Android](/assets/images/map/map_context_menu_details_android.png) | iOS:![Context menu details_iOS](/assets/images/map/map_context_menu_details_ios.png)  |
-|Tag info| Additional info about an object: telefon, website, POI type, work time, height, .... |
-|Nearby Wikipedia articles| Anothers Wikipedia articles |
-|Nearby POI| POI |
-|OSM link| Object link to OSM: https://www.openstreetmap.org/node... or https://www.openstreetmap.org/way... |
-|Coordinates info| Geographical coordinates of an object |
-|Online photos| Photos from Mappillary, OpenPlaceReviews, Wikimedia |
 
 ## Actions
 
