@@ -41,8 +41,8 @@ Actions on Context Point menu are...
 |{% data variables.android-values.shared_string_share %}| Opening {% data variables.android-values.share_menu_location %} menu. For iOS: you can send URL of the point location to your contacts. For Android: sendig URL of the point location to your contacts, coping URL of the point location in buffer, {% data variables.android-values.copy_address %}, {% data variables.android-values.copy_poi_name %}, {% data variables.android-values.copy_coordinates %}, opening point in others applications, making {% data variables.android-values.shared_string_qr_code %}. |
 |{% data variables.android-values.shared_string_marker %}| Activating [Map marker](/osmand/personal/markers) in chosen point. |
 |{% data variables.android-values.shared_string_actions %}| Opening hidden buttons of actions menu. |
-|Directons from|  |
-|Search nearby| |
+|Directons from| Navigation function |
+|Search nearby| Searching function |
 
 ### Navigation 
 
