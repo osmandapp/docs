@@ -41,8 +41,13 @@ Actions on Context Point menu are...
 |{% data variables.android-values.shared_string_share %}| Opening {% data variables.android-values.share_menu_location %} menu. For iOS: you can send URL of the point location to your contacts. For Android: sendig URL of the point location to your contacts, coping URL of the point location in buffer, {% data variables.android-values.copy_address %}, {% data variables.android-values.copy_poi_name %}, {% data variables.android-values.copy_coordinates %}, opening point in others applications, making {% data variables.android-values.shared_string_qr_code %}. |
 |{% data variables.android-values.shared_string_marker %}| Activating [Map marker](/osmand/personal/markers) in chosen point. |
 |{% data variables.android-values.shared_string_actions %}| Opening hidden buttons of actions menu. |
-|Directons from| Navigation function |
-|Search nearby| Searching function |
+|{% data variables.android-values.context_menu_item_directions_from %}| Making the chosen point like Start point for navigation. |
+|{% data variables.android-values.context_menu_item_search %}| Open seach menu and start seaching near the chosen point.|
+|{% data variables.android-values.context_menu_item_add_parking_point %}| Make the chosen point like [Parking position](/osmand/plugins/parking). |
+|{% data variables.android-values.context_menu_item_add_waypoint %}| Open tracks list for making the point like a waypoint for the chosen track.|
+|{% data variables.android-values.context_menu_item_create_poi %}| [Add POI in chosen place on OpenStreetMap](/osmand/plugins/osm-editing).|
+|{% data variables.android-values.context_menu_item_open_note %}| [ Edit POI of OpenStreetMap data](/osmand/plugins/osm-editing).|
+
 
 ### Navigation 
 
