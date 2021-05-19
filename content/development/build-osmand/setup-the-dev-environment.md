@@ -15,6 +15,7 @@ You can also use only git and checkout the following git repositories to correct
 * Folder **help** - git repo **[osmandapp.github.io](https://github.com/osmandapp/osmandapp.github.io.git)**
 * Folder **android** - git repo **[Osmand](https://github.com/osmandapp/Osmand.git)**
 * Folder **core-legacy** - git repo **[OsmAnd-core-legacy](https://github.com/osmandapp/OsmAnd-core-legacy.git)**
+* Folder **build** - git repo **[OsmAnd-build](https://github.com/osmandapp/OsmAnd-build.git)**
 * Folder **docs** - git repo **[docs](https://github.com/osmandapp/docs.git)**
 
 
