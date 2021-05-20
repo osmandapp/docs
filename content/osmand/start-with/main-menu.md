@@ -1,6 +1,6 @@
 ---
 title: "Main menu"
-intro: "The main menu is a list of features available to use in the application."
+intro: "The 'Main menu' is a primary list of options available to use in the application. It contains profile configuration, features, settings."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
@@ -9,28 +9,42 @@ versions: '*'
 - explain each item in the drawer with links if they are not present
 - explain how to configure items list in the drawer
 
-## Navigation profiles
-In this section is available to manage navigation profiles. 
-- When you press on the arrows on the top appears the list of your accessible profiles. By tapping on the Manage opens the edit menu where you can select what navigation profiles should be displayed.
-- When you press on the Configure profile text you are entering into the profile settings.
+The Main menu icon &#8801; is located on the left bottom corner of the Map screen. In navigation mode this button is not visible by default. It appears after a short tap on the map. 
 
-## Main features
-- Map markers
-- My places
-- Search
-- Trip recording
-- Directions
-- Configure map
-- Download maps
-- OsmAnd Live
-- Travel guides (Beta)
-- Plan route
+| | |
+|------------|------------|
+| **Android** | **iOS** |
+|add picture|add picture|
 
-## Additional menu
-- Configure screen
-- Plugins
+**Main menu** divides into 3 parts:
+- [Profiles menu] ()
+- Features
 - Settings
-- Help
+
+## Profiles menu
+In this section is available to manage navigation [profiles](osmand/personal/profiles). 
+- When you press on gray 'arrow' on the top bar appears the list of [profile types](osmand/personal/profiles#profile-types). 
+- When you press on the 'Configure profile' text, entering the [profile settings](osmand/personal/profiles#profile-settings) menu.
+
+## Features
+| | | |
+|------------|------------|------------|
+|Name|Description|Contains|
+|[Map markers](osmand/widgets/markers)|Selected points marked as flags on the map|Two kind of list view (as list and as groups), history, more|
+|My places|------------|------------|
+|Search|------------|------------|
+|Trip recording|------------|------------|
+|Directions|------------|------------|
+|Configure map|------------|------------|
+|Download maps|------------|------------|
+|Travel guides (Beta)|----------|------------|
+|Plan route|------------|------------|
+
+## Settings
+- [Configure screen](osmand/widgets/configure-screen) - is a menu that allows to configure what widgets will be displayed over the map
+- [Plugins](osmand/plugins) - is a list of additional functionality
+- [Settings](write separately settings description)
+- [Help] (write help page description)
 
 ## UI Customization (Android)
 
