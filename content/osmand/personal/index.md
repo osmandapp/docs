@@ -6,7 +6,7 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
-{% link_with_intro /favourites %}
+{% link_with_intro /myplaces %}
 {% link_with_intro /markers %}
 {% link_with_intro /maps %}
 {% link_with_intro /profiles %}
