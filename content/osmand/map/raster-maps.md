@@ -76,6 +76,8 @@ You can set the base map transparency for your layer and whether display the tra
 - It is not needed to switch between maps if use multiple regions happens automatically
 - Only Hillashade or Terrain is supported as 4th layer, though they could be combined if you use one of the maps as underlay or overlay
 
+![Terrain layers](/assets/images/plugins/online-maps/terrain_layers.png)
+
 ### Change layer parameters (transparency)
 In order to mix raster map layers better, you can change layer transparency (by using a screen slider) and also you can change vector map style (hide polygons), so the underlay layers will 
 be more visible, especially useful for satellite imagery.
