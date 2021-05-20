@@ -1,6 +1,6 @@
 ---
 title: "Main menu"
-intro: "The 'Main menu' is a primary list of options available to use in the application. It contains profile configuration, features, settings."
+intro: "'Main menu' is a primary list of options available to use in the application. It provides quick access to the profile configuration, features, and general settings."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
@@ -9,38 +9,35 @@ versions: '*'
 - explain each item in the drawer with links if they are not present
 - explain how to configure items list in the drawer -->
 
-The Main menu icon &#8801; is located on the left bottom corner of the Map screen. In navigation mode this button is not visible by default. It appears after a short tap on the map. 
+The Main menu icon '&#8801;' is located on the left bottom corner of the Map screen. In navigation mode this button is not visible by default. It appears after a short tap on the map. 
 
 | | |
 |------------|------------|
 | **Android** | **iOS** |
 |add picture|add picture|
 
-**Main menu** divides into 3 parts:
-- [Profiles menu] ()
-- Features
-- Settings
+## Main menu components
 
-## Profiles menu
+### Profiles menu
 In this section is available to manage navigation [profiles](osmand/personal/profiles). 
 - When you press on gray 'arrow' on the top bar appears the list of [profile types](osmand/personal/profiles#profile-types). 
 - When you press on the 'Configure profile' text, entering the [profile settings](osmand/personal/profiles#profile-settings) menu.
 
-## Features
+### Features
 | | | |
-|------------|------------|------------|
+|----------|------------|------------|
 |Name|Description|Contains|
-|[Map markers](osmand/widgets/markers)|Selected points marked as flags on the map|Two kind of list view (as list and as groups), history, more|
+|[Map markers](osmand/widgets/markers)|Selected points marked as flags on the map|• List <br>  • Groups <br>  • History <br>  • More|
 |My places|------------|------------|
-|Search|------------|------------|
-|Trip recording|------------|------------|
-|Directions|------------|------------|
-|Configure map|------------|------------|
-|Download maps|------------|------------|
-|Travel guides (Beta)|----------|------------|
-|Plan route|------------|------------|
+|[Search](osmand/search)|------------|------------|
+|[Trip recording](osmand/plugins/trip-recording)|Is a tool that allows to record all movements into track using phone's GPS|-------|
+|[Directions](osmand/widgets/map-buttons#directions)|Directions button allows to build a route and start navigation|------------|
+|[Configure map](osmand/map/configure-map-menu)|Is a menu that allows configuring map view|------------|
+|[Download maps](osmand/start-with/download-maps)|Is a menu that contains all files that could be downloaded|------------|
+|[Travel guides (Beta)](osmand/plan-route/travel-guides)|Is a tool that allows you to be guided by Wikivoyage for your trip|------------|
+|[Plan route](9osmand/plan-route/create-route)|Is a tool that allows to measure distances on the map, create GPX tracks or add new segments to your own ones, to snap your track to the nearest available road with one of your navigation profiles|------------|
 
-## Settings
+### General settings
 - [Configure screen](osmand/widgets/configure-screen) - is a menu that allows to configure what widgets will be displayed over the map
 - [Plugins](osmand/plugins) - is a list of additional functionality
 - [Settings](write separately settings description)
