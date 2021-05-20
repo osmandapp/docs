@@ -1,6 +1,6 @@
 ---
 title: "Main menu"
-intro: "'Main menu' is a primary list of options available to use in the application. It provides quick access to the profile configuration, features, and general settings."
+intro: "'Main menu' is a primary list of options available to use in the application. It provides quick access to the profile configuration, features and general settings."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
@@ -16,32 +16,35 @@ The [Main menu](/osmand/widgets/map-buttons#main-menu) icon '&#8801;' is located
 | **Android** | **iOS** |
 |add picture|add picture|
 
-## Main menu components (Drawer)
-
-### Profiles menu
-In this section is available to manage navigation [profiles](/osmand/personal/profiles). 
-- When you press on gray 'arrow' on the top bar appears the list of [profile types](/osmand/personal/profiles#profile-types). 
-- When you press on the 'Configure profile' text, entering the [profile settings](/osmand/personal/profiles#profile-settings) menu.
+## Main menu (Drawer)
 
 ### Features
-| | | |
-|----------|------------|------------|
-|**Name**|**Description**|**Contains**|
-|[Map markers](/osmand/widgets/markers)|Is a tool that allows to mark place on the map|• List <br>  • Groups <br>  • History <br>  • More|
-|My places|Is a menu that by default includes Favorites and tracks and in addition can have folders of audio/video notes and openstreetmap (if such plugins are turned on)|------------|
-|[Search](/osmand/search)|Is a tool that allows you to find the place or object that has been marked on the map|------------|
-|[Trip recording](/osmand/plugins/trip-recording)|Is a tool that allows to record all movements into track using phone's GPS|-------|
-|[Directions](/osmand/widgets/map-buttons#directions)|Directions button allows to build a route and start navigation|------------|
-|[Configure map](/osmand/map/configure-map-menu)|Is a menu that allows configuring map view|------------|
-|[Download maps](/osmand/start-with/download-maps)|Is a menu that contains all files that could be downloaded|------------|
-|[Travel guides (Beta)](/osmand/plan-route/travel-guides)|Is a tool that allows you to use for your trip Wikivoyage guide|------------|
-|[Plan route](/osmand/plan-route/create-route)|Is a tool that allows to measure distances on the map, create GPX tracks or add new segments to your own ones, to snap your track to the nearest available road with one of your navigation profiles|------------|
+- [Map markers](/osmand/widgets/markers) - Is a tool that allows to mark place on the map|• List <br>  • Groups <br>  • History <br>  • More
+- [My places](//osmand/personal/myplaces) - Is a menu that by default includes Favorites and tracks and in addition can have folders of audio/video notes and openstreetmap (if such plugins are turned on) 
+- [Search](/osmand/search) - Is a tool that allows you to find the place or object that has been marked on the map 
+- [Directions](/osmand/widgets/map-buttons#directions) - Directions button allows to build a route and start navigation
+- [Configure map](/osmand/map/configure-map-menu) - Is a menu that allows configuring map view
+- [Download maps](/osmand/start-with/download-maps) - Is a menu that contains all files that could be downloaded 
+- [Travel guides (Beta)](/osmand/plan-route/travel-guides) - Is a tool that allows you to use for your trip Wikivoyage guide 
+- [Plan route](/osmand/plan-route/create-route) - Is a tool that allows to measure distances on the map, create GPX tracks or add new segments to your own ones, to snap your track to the nearest available road with one of your navigation profiles
+- [* Trip recording](/osmand/plugins/trip-recording) - Is a tool that allows to record all movements into track using phone's GPS 
 
-### General settings
+### Settings
 - [Configure screen](/osmand/widgets/configure-screen) - is a menu that allows to configure what widgets will be displayed over the map
 - [Plugins](/osmand/plugins) - is a list of additional functionality
-- [Settings](write separately settings description)
-- [Help] (write help page description)
+- [Settings](/osmand/personal/global-settings) (write separately settings description)
+- Help - ... 
+
+
+### Active Profile
+Main menu provides quick access to switch and [customize profile](/osmand/personal/profiles). Main purpose of profiles to have different application look & feel for navigation. Though you could use it to customize screen & widgets and switch profiles for different view purposes. All [settings](/osmand/personal/profiles) are configured separetely for each profile.
+
+.... Screenshot ...
+- Switch
+- Select
+- Configure
+- Manage
+
 
 ## UI Customization (Android)
 
