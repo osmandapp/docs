@@ -14,7 +14,7 @@ When the app is launching for the first time,  appears a suggestion  to download
 ![Download map](/assets/images/settings/download_map.png)
 
 There are two main map types you can use: vector and raster.
-- [Vector maps](/osmand/start-with/download-maps#how-to-download-vector-maps) is a database of points, lines and polygons which collectively make up all the features on the map. This map format is relatively small in size and easy to download and convenient for offline use.
+- [Vector maps](osmand/map/vector-maps) is a database of points, lines and polygons which collectively make up all the features on the map. This map format is relatively small in size and easy to download and convenient for offline use.
 - [Raster map](/osmand/map/raster-maps) is a  electronic map image made up of a set number of pixels. This type of maps is more voluminous, requires a longer download and cannot always be used offline. 
 
 In order to use navigation conveniently and quickly in offline mode, we recommend downloading vector maps.
