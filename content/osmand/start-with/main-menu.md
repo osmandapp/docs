@@ -46,7 +46,7 @@ Main menu provides quick access to switch and [customize profile](/osmand/person
 - Manage
 
 
-## UI Customization (Android)
+## Customize (Android Advanced)
 
 It is a menu where the user can reorder or hide items from the Drawer, to see hidden items from the menu, copy the list of items from the another profile and reset to default settings.
 
