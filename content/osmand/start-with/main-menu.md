@@ -5,9 +5,9 @@ versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-- Make similar description of Main menu to [Configure map menu](/osmand/map/configure-map-menu)
+<!-- - Make similar description of Main menu to [Configure map menu](/osmand/map/configure-map-menu)
 - explain each item in the drawer with links if they are not present
-- explain how to configure items list in the drawer
+- explain how to configure items list in the drawer -->
 
 The Main menu icon &#8801; is located on the left bottom corner of the Map screen. In navigation mode this button is not visible by default. It appears after a short tap on the map. 
 
