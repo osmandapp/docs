@@ -3,7 +3,6 @@ title: "Download maps"
 intro: "Download maps is a nessecarily action for further using map and navigation in offline mode. Maps can be downloaded both through the list in the main menu and by clicking on the needed territory on the map."
 versions: '*'
 ---
-{% data reusables.general.article-not-complete %}
 
 Application is not properly functional without offline maps which are not distributed within application. Even though application supports [Vector maps](/osmand/map/vector-maps) and  [Raster map](/osmand/map/raster-maps), it is highly recommend to start with Offline Vector Maps to get all features properly functioning such as [Search](/osmand/search), [Navigation](//osmand/navigation),  [Context menu](/osmand/map/map-context-menu). 
 
@@ -35,16 +34,21 @@ This screen has certain features:
 
 ![Download maps regions](/assets/images/settings/download_maps_regions.png)
 
-## Download - Select on World map
+## Download - Map Context menu
 
-One of the option to download map is to tap on the map and hold. In the bottom part of the screen will appear an banner with suggestion to download map of this area.
+One of the option to download map is via World map and [Map Context menu](/osmand/map/map-context-menu). You can open Context menu by clicking on the Label, for example city name, or by long tap on the map, or by searching City via Search. Context menu will have a suggestion of the smallest region to download.
 
 ![Tap on the map download region](/assets/images/settings/tap_on_the_map_download_region.png)
 
-## Download - Map Zoom in (Android)
-It is available to download a map of a certain area using zoom in the World map. The notification "Download detailed map, to view the area" will appear at the top bar. Press the button to download and the map will automatically appear in {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %}
+## Download / Manage - World Map (Android)
+{% data reusables.general.article-not-complete %}
 
-![Zoom in download map Android ](/assets/images/settings/zoom_in_download_map_android.png)
+Yellow / Green areas on low level zooms.
+
+## Download - Map Zoom in (Android)
+It is possible to download a map of a certain area just by zooming in on the World map. A notification "Download detailed map, to view the area" will appear at the top bar.
+
+![Zoom in to download map Android](/assets/images/settings/zoom_in_download_map_android.png)
 
 **Note**: This dialog can be turned off  in {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.osmand_settings %} → {% data variables.android-values.dialogs_and_notifications_title %}
 
