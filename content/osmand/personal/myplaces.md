@@ -1,6 +1,6 @@
 ---
-title: "Favourites"
-intro: "Favourites"
+title: "My Places"
+intro: "My Places"
 versions: '*'
 ---
 
