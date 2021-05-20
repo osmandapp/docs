@@ -31,7 +31,7 @@ My location & zoom buttons control the map display. You can read more in [Intera
 
 ![Main menu button](/assets/images/widgets/main_menu_button.png)
 
-[Main menu](/osmand/starts-with/main-menu) button allows to access to [all features](/osmand/main-menu) of the application. In navigation mode this button is not visible by default. It appears after a short tap on the map.
+[Main menu](/osmand/start-with/main-menu) button allows to access to [all features](/osmand/main-menu) of the application. In navigation mode this button is not visible by default. It appears after a short tap on the map.
 
 ## Search
 
