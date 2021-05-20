@@ -5,7 +5,7 @@ versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-Application is not properly functional without offline maps which are not distributed within application. Even though application supports [Vector maps](osmand/map/vector-maps) and  [Raster map](/osmand/map/raster-maps), it is highly recommend to start with Offline Vector Maps to get all features properly functioning such as [! Search !](/osmand/todo), [! Navigation!](/osmand/todo),  [! Context menu !](/osmand/todo). 
+Application is not properly functional without offline maps which are not distributed within application. Even though application supports [Vector maps](osmand/map/vector-maps) and  [Raster map](/osmand/map/raster-maps), it is highly recommend to start with Offline Vector Maps to get all features properly functioning such as [Search](/osmand/search), [Navigation](//osmand/navigation),  [Context menu](/osmand/map/map-context-menu). 
 
 ## Download - First Screen
 
