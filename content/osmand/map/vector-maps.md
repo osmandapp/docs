@@ -94,9 +94,13 @@ Map legend of OsmAnd maps you can find [here](https://osmand.net/help-online/map
 
 {% data reusables.general.article-not-complete %}
 
-- Reference to plugin
-- Description of map style parameters and in which style they are present
+Contour lines are additional vector data that represent elevation above sea level. [You need to enable Contour lines Plugin, download the data for your region and configure the display](/osmand/plugins/contour-lines).
 
+This feature is paid, so you need [to purchase the appropriate package or subscription](/osmand/purchases).
+
+Contour lines are available for all map styles and modes. For find full description and settings read our article about [Contour lines plugin](/osmand/plugins/contour-lines).
+
+![Contour lines map style](/assets/images/map/contour_lines.png)
 
 ## Configure Map Style
 
