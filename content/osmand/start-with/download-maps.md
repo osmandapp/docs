@@ -5,22 +5,17 @@ versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-## First steps in map downloading
+Application is not properly functional without offline maps which are not distributed within application. Even though application supports [Vector maps](osmand/map/vector-maps) and  [Raster map](/osmand/map/raster-maps), it is highly recommend to start with Offline Vector Maps to get all features properly functioning such as [! Search !](/osmand/todo), [! Navigation!](/osmand/todo),  [! Context menu !](/osmand/todo). 
 
-When the app is launching for the first time,  appears a suggestion  to download the map. This allows OsmAnd to determine location of the device  and will offer you to download the current region map. It is possible to select another region or skip downloading by clicking 'Skip' in the top-right corner.
+## Download - First Screen
 
-**Note**: The "Mini world overview map"  will be downloaded by default. We recommend downloading the "World overview map". This is a basic map that allows you to view all regions and countries.
+When the app is launched for the first time, it suggests to download the map based on your internet location. It could be not correctly detected in case you are using VPN and it's possible to select another map region.
+
+**Note** - World map. Old versions of OsmAnd (< 3.8) suggest to download World map, so you could browse the map on the planet level zoom. In new OsmAnd versions: small "Mini world overview map" is packaged inside. There is a bigger "World overview map" available to download which contains more details for the World-level map.
 
 ![Download map](/assets/images/settings/download_map.png)
 
-There are two main map types you can use: vector and raster.
-- [Vector maps](osmand/map/vector-maps) is a database of points, lines and polygons which collectively make up all the features on the map. This map format is relatively small in size and easy to download and convenient for offline use.
-- [Raster map](/osmand/map/raster-maps) is a  electronic map image made up of a set number of pixels. This type of maps is more voluminous, requires a longer download and cannot always be used offline. 
-
-In order to use navigation conveniently and quickly in offline mode, we recommend downloading vector maps.
-## How to download vector maps
-All "vector" maps in OsmAnd have native format. They are compact and allows  easily zooming without losing detail or resolution. 
-### Download map via Main menu
+## Download - Main menu
 In order to download new maps or see already downloaded you need to open Download map list:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %}
@@ -39,20 +34,20 @@ Download map menu includes:
 
 ![Download maps regions ](/assets/images/settings/download_maps_regions.png)
 
-### Download map via Zoom in the World map (Android)
+## Download - Select on World map
+
+The one of the option to download map is tap on the map and hold. In the bottom part of the screen will appear an banner with suggestion to download map of this area.
+
+![Tap on the map download region](/assets/images/settings/tap_on_the_map_download_region.png)
+
+## Download - Map Zoom in (Android)
 It is available to download a map of a certain area using zoom in the World map. The notification "Download detailed map, to view the area" will appear at the top bar. Press the button to download and the map will automatically appear in {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %}
 
 ![Zoom in download map Android ](/assets/images/settings/zoom_in_download_map_android.png)
 
 **Note**: This dialog can be turned off  in {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.osmand_settings %} → {% data variables.android-values.dialogs_and_notifications_title %}
 
-### Download actual region map by Clicking on the World map  
-
-The one of the option to download map is tap on the map and hold. In the bottom part of the screen will appear an banner with suggestion to download map of this area.
-
-![Tap on the map download region](/assets/images/settings/tap_on_the_map_download_region.png)
-
-## Download created by yourself map
+## Download - own map (Advanced)
 
 There is a possibility to download created by yourself (in OsmAnd Map Creator) map. [Read more](/development/map-creation/create-offline-maps-yourself)
 
