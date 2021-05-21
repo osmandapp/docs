@@ -35,10 +35,10 @@ Most of the widgets could be configured as:
  - [Current time](/osmand/widgets/info-widgets#current-time) - shows current time from your device.
  - [Battery level](/osmand/widgets/info-widgets#battery-level) - shows battery level of your device.
  - [Radius ruler](/osmand/widgets/radius-ruler) - shows distance between users location and inner point of the 'Radius-ruler' tool distance-circles on the map. 
- - [Parking](/osmand/widgets/info-widgets#-parking-widget) - shows distance from the current position to the parking place.
- - [Trip recording](/osmand/widgets/info-widgets#-trip-recording-widget) - provides quick access to start / stop track recording.
- - [Mapillary](/osmand/widgets/info-widgets#-mapillary-widget) - provides quick access to Mapillary app to add Street-Level-Imagery.
- - [FPS debug info](/osmand/widgets/info-widgets#-fps-info-android) (Android) - investigate how fast map & map elements are showed & refreshed.
+ - [* Parking](/osmand/widgets/info-widgets#-parking-widget) - shows distance from the current position to the parking place.
+ - [* Trip recording](/osmand/widgets/info-widgets#-trip-recording-widget) - provides quick access to start / stop track recording.
+ - [* Mapillary](/osmand/widgets/info-widgets#-mapillary-widget) - provides quick access to Mapillary app to add Street-Level-Imagery.
+ - [* FPS debug info](/osmand/widgets/info-widgets#-fps-info-android) (Android) - investigate how fast map & map elements are showed & refreshed.
 
 ### Left panel widgets
  - [Next turns](/osmand/widgets/nav-widgets#next-turns) - shows info about next maneuvers and distance to it.

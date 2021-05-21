@@ -66,28 +66,35 @@ You can set the base map transparency for your layer and whether display the tra
 
 ![Configure underlay / overlay iOS](/assets/images/plugins/online-maps/config-underlay-overlay-ios.png)
 
-## Hillshade / Slope
-
-{% data reusables.general.article-not-complete %}
-
-- Hillshade / Slope are raster offline maps and displayed as special 4th map layer - Terrain.
-- Hillshade / Slope maps are part of the plugin (read more) 
-- These maps generated from 1 huge raster map and split into multiple regions for easier downloads.
-- It is not needed to switch between maps if use multiple regions happens automatically
-- Only Hillashade or Terrain is supported as 4th layer, though they could be combined if you use one of the maps as underlay or overlay
-
 ### Change layer parameters (transparency)
 In order to mix raster map layers better, you can change layer transparency (by using a screen slider) and also you can change vector map style (hide polygons), so the underlay layers will 
 be more visible, especially useful for satellite imagery.
 
+## Hillshade / Slope
+
+{% data reusables.general.article-not-complete %}
+
+Hillshade / Slope are raster offline maps that are displayed as a special 4th map layer - Terrain. These maps are created from 1 huge raster map and divided into several regions for easy loading. It is not needed to switch between maps if use multiple regions happens automatically. Only Hillashade or Terrain is supported as 4th layer, though they could be combined if you use one of [the maps as underlay or overlay](/osmand/map/raster-maps#select-map-as-main--underlay--overlay-layer).
+
+![Terrain layers](/assets/images/plugins/online-maps/terrain_two_layers.png)
+
+To download and install Hillshade / Slope Maps, you need to enable [Contour lines plugin]((/osmand/plugins/contour-lines)). This feature is paid, check out our [paid packages and subscriptions](/osmand/purchases).
+
+**Configuring the display options for Hillshade / Slope layer**
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_terrain %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.shared_string_terrain %}
+
+![Terrain layers](/assets/images/plugins/online-maps/terrain_layers.png)
 
 ## Prepare / copy raster maps to device
 There are multiple ways how to add new raster map, copy it from another device, prepare it on PC and predownloaded tiles to be used offline. For example, you can create your own map package on PC by using special software as [MOBAC, OsmAndMapCreator and etc](/development/map-creation). Typically raster maps are distributed as files with *.sqlitedb* extension. 
 
 Here are the main methods how to add new raster map source which is not defined in OsmAnd yet:
-- Copy a raster map to a **tiles** subfolder of [base osmand storage](/osmand/start-with/storage) (Android).
+- Copy a raster map to a **tiles** subfolder of [base osmand storage](/osmand/personal/storage) (Android).
 - Open ready to use *.sqlitedb* file with OsmAnd.
-- Import package with prepared online maps from another OsmAnd application as a special **osf package** via [Import / export functionality](/personal/import-export).
+- Import package with prepared online maps from another OsmAnd application as a special **osf package** via [Import / export functionality](/osmand/personal/import-export).
 - Create new online map source on a mobile device itself.
 - Prepare a magic URL with online map source parameters and open it with OsmAnd.
 
