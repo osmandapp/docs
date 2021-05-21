@@ -66,22 +66,21 @@ You can set the base map transparency for your layer and whether display the tra
 
 ![Configure underlay / overlay iOS](/assets/images/plugins/online-maps/config-underlay-overlay-ios.png)
 
-## Hillshade / Slope
-
-{% data reusables.general.article-not-complete %}
-
-- Hillshade / Slope are raster offline maps and displayed as special 4th map layer - Terrain.
-- Hillshade / Slope maps are part of the plugin (read more) 
-- These maps generated from 1 huge raster map and split into multiple regions for easier downloads.
-- It is not needed to switch between maps if use multiple regions happens automatically
-- Only Hillashade or Terrain is supported as 4th layer, though they could be combined if you use one of the maps as underlay or overlay
-
-![Terrain layers](/assets/images/plugins/online-maps/terrain_layers.png)
-
 ### Change layer parameters (transparency)
 In order to mix raster map layers better, you can change layer transparency (by using a screen slider) and also you can change vector map style (hide polygons), so the underlay layers will 
 be more visible, especially useful for satellite imagery.
 
+## Hillshade / Slope
+
+{% data reusables.general.article-not-complete %}
+
+Hillshade / Slope are raster offline maps that are displayed as a special 4th map layer - Terrain. These maps are created from 1 huge raster map and divided into several regions for easy loading. It is not needed to switch between maps if use multiple regions happens automatically. Only Hillashade or Terrain is supported as 4th layer, though they could be combined if you use one of [the maps as underlay or overlay](/osmand/map/raster-maps#select-map-as-main--underlay--overlay-layer).
+
+![Terrain layers](/assets/images/plugins/online-maps/terrain_two_layers.png)
+
+To download and install Hillshade / Slope Maps, you need to enable [Contour lines plugin]((/osmand/plugins/contour-lines)). This feature is paid, check out our [paid packages and subscriptions](/osmand/purchases).
+
+![Terrain layers](/assets/images/plugins/online-maps/terrain_layers.png)
 
 ## Prepare / copy raster maps to device
 There are multiple ways how to add new raster map, copy it from another device, prepare it on PC and predownloaded tiles to be used offline. For example, you can create your own map package on PC by using special software as [MOBAC, OsmAndMapCreator and etc](/development/map-creation). Typically raster maps are distributed as files with *.sqlitedb* extension. 
