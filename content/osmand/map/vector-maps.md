@@ -99,6 +99,10 @@ This feature is paid, so you need [to purchase the appropriate package or subscr
 
 Contour lines are available for all map styles and modes. For find full description and settings read our article about [Contour lines plugin](/osmand/plugins/contour-lines).
 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.index_srtm_ele %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.product_title_srtm %}
+
 ![Contour lines map style](/assets/images/map/contour_lines.png)
 
 ## Configure Map Style
