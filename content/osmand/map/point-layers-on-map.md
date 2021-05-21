@@ -21,6 +21,12 @@ How to create and modify Favorite read [here](/osmand/personal/myplaces).
 
 ![Favotires layer](/assets/images/map/favorites_layer.png)
 
+**In order to shown POI overlay labels (Favorites name)**
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_amenity_label %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.layer_amenity_label %}
+
 ## Points of interest (POIs) on the map
 
 [A point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) is a specific point location that someone may find useful or interesting. [Data of POI](https://wiki.openstreetmap.org/wiki/Points_of_interest) is from OpenStreetMap project.
@@ -38,7 +44,11 @@ In OsmAnd each type of POI has own icon and color. [Zoom level](/osmand/map/vect
 
 ![POI layer](/assets/images/map/poi_layer.png)
 
-If you want to cho
+**In order to shown POI overlay (Selected POI type)**
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.poi_overlay %}
 
 
 ## Search results on the map
