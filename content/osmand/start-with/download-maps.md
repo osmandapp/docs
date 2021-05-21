@@ -46,7 +46,7 @@ One way to download the map is to zoom out the World map and by short tap select
 
 ![Short tap on the World map allows to download region map](/assets/images/settings/Download map_World map.png)
 
-**Note**:In low zoom level map that you select to download will be highlighted yellow color and maps that already downloaded will be highlited by green.
+**Note**:At low zoom level, map selected to download will be highlighted in yellow and maps that already downloaded will be highlighted in green.
 
 ## Download - Map Zoom in (Android)
 It is possible to download a map of a certain area just by zooming in on the World map. A notification "Download detailed map, to view the area" will appear at the top bar.
