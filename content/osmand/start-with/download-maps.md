@@ -42,11 +42,11 @@ One of the option to download map is via World map and [Map Context menu](/osman
 
 ## Download / Manage - World Map (Android)
 
-Zoom out the World map and by short tap select the area that should be downloaded. Selected area will highlight in yellow and on the bottom will appear a panel with the name of the region and an offer to download it or choose other maps.
+One way to download the map is to zoom out the World map and by short tap select the region to download. This area will be highlighted in yellow and on the bottom will appear a panel with the name of the region and an offer to download it or choose other maps.
 
 ![Short tap on the World map allows to download region map](/assets/images/settings/Download map_World map.png)
 
-**Note**:** In low zoom level map that you select to download will be highlighted yellow color and maps that already downloaded will be highlited by green.**
+**Note**:In low zoom level map that you select to download will be highlighted yellow color and maps that already downloaded will be highlited by green.
 
 ## Download - Map Zoom in (Android)
 It is possible to download a map of a certain area just by zooming in on the World map. A notification "Download detailed map, to view the area" will appear at the top bar.
