@@ -80,7 +80,7 @@ Hillshade / Slope are raster offline maps that are displayed as a special 4th ma
 
 To download and install Hillshade / Slope Maps, you need to enable [Contour lines plugin]((/osmand/plugins/contour-lines)). This feature is paid, check out our [paid packages and subscriptions](/osmand/purchases).
 
-Configuring the display options for Hillshade / Slope layer -
+**Configuring the display options for Hillshade / Slope layer**
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_terrain %}
 
