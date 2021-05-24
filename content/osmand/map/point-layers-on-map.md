@@ -27,6 +27,8 @@ How to create and modify Favorite read [here](/osmand/personal/myplaces).
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.layer_amenity_label %}
 
+![Favotire labels layer](/assets/images/map/favorite_labels_layer.png)
+
 ## Points of interest (POIs) on the map
 
 [A point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) is a specific point location that someone may find useful or interesting. [Data of POI](https://wiki.openstreetmap.org/wiki/Points_of_interest) is from OpenStreetMap project.
@@ -43,6 +45,10 @@ POIs have many types, some example:
 In OsmAnd each type of POI has own icon and color. [Zoom level](/osmand/map/vector-maps#details) and style for POIs are different for some [map styles](/osmand/map/vector-maps#default-map-styles).
 
 ![POI layer](/assets/images/map/poi_layer.png)
+
+Just to do short tap to POI for opening [Map Context menu](/osmand/map/map-context-menu#select-objects-on-map) and finding tag name, POI name and other useful information about POI.
+
+![POI info menu](/assets/images/map/poi_info_menu.png)
 
 **In order to shown POI overlay (Selected POI type)**
 
