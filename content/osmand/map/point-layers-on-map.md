@@ -21,6 +21,8 @@ How to create and modify Favorite read [here](/osmand/personal/myplaces).
 
 ![Favotires layer](/assets/images/map/favorites_layer.png)
 
+Favorites are shown from zoom level 6 on the map.
+
 **In order to shown POI overlay labels (Favorites name)**
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_amenity_label %}
@@ -56,7 +58,7 @@ Just to do short tap to POI for opening [Map Context menu](/osmand/map/map-conte
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.poi_overlay %}
 
-Chosen categories of POIs show from zoom 9 on the map and have orange circle. 
+Chosen categories of POIs show from zoom level 9 on the map and have an orange circle. 
 
 ![POI overlay](/assets/images/map/poi_overlay.png)
 
@@ -68,6 +70,8 @@ User can [make own POI categories filters](/osmand/search/custom-poi-search) for
 - Description favorites on the map
 - Description POI on the map
 - Description Search results on the map
+
+
 # Plugins 
 - Description Wikipedia  on the map + Link to Wikipedia plugin
 - Description Audio / Video results on the map + link
