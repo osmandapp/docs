@@ -56,6 +56,12 @@ Just to do short tap to POI for opening [Map Context menu](/osmand/map/map-conte
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.poi_overlay %}
 
+Chosen categories of POIs show from zoom 9 on the map and have orange circle. 
+
+![POI overlay](/assets/images/map/poi_overlay.png)
+
+User can [make own POI categories filters](/osmand/search/custom-poi-search) for choosing and showing it on the map.
+
 
 ## Search results on the map
 
