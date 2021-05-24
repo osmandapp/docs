@@ -89,10 +89,10 @@ Click to "Show POI in the map" for showing POIs on the map.
 
 Click to "X" for switch off orange POI icons on the map.
 
-Read more about Searchin function [here](/osmand/search).
+Read more about Searching feature [here](/osmand/search).
 
 
-## Plugins 
+## Points of Plugins 
 
 - Description Wikipedia  on the map + Link to Wikipedia plugin
 - Description Audio / Video results on the map + link
@@ -107,7 +107,7 @@ Wikipedia feature has its own POIs on the map that has a full description for of
 
 # Audio / Video notes on the map
 
-Audio / Video notes are user's made points on the map. Read about this feature [here](/osmand/plugins/audio-video-notes).
+Audio / Video notes are user's made points with audio/photo/video data on the map. Read about this feature [here](/osmand/plugins/audio-video-notes).
 
 ![AV POI](/assets/images/map/av_poi.png)
 
