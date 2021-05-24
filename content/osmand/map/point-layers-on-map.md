@@ -71,13 +71,13 @@ User can [make own POI categories filters](/osmand/search/custom-poi-search) for
 - Description POI on the map
 - Description Search results on the map
 
-# Search results Favorite on the map
+### Search results Favorite on the map
 
 For searching Favorites on the map you need to click to [Search button](/osmand/widgets/map-buttons#search) on the screen. After writing Favorite name you see search results below . Clicking to chosen Favorite opens [Map Context menu](/osmand/map/map-context-menu) of Favorite.
 
 ![Favorite search](/assets/images/map/favorite_search.png)
 
-# Search results POI on the map
+### Search results POI on the map
 
 For searching POIs on the map you need to click to [Search button](/osmand/widgets/map-buttons#search) on the screen. Next you need to write name for searching, after than you can see searching results below.
 
@@ -99,25 +99,25 @@ Read more about Searching feature [here](/osmand/search).
 - Description osm edits on the map + link
 - Description osm notes on the map + link
 
-# Wikipedia on the map
+### Wikipedia on the map
 
 Wikipedia feature has its own POIs on the map that has a full description for offline use. Read more how to download and use the Wikipedia feature in OsmAnd [here](osmand/plugins/wikipedia).
 
 ![Wikipedia POI](/assets/images/map/wikipedia_poi.png)
 
-# Audio / Video notes on the map
+### Audio / Video notes on the map
 
 Audio / Video notes are user's made points with audio/photo/video data on the map. Read about this feature [here](/osmand/plugins/audio-video-notes).
 
 ![AV POI](/assets/images/map/av_poi.png)
 
-# OSM edit points on the map
+### OSM edit points on the map
 
 OSM edit points are user's made POIs for adding its for [OpenStreetMap project](https://www.openstreetmap.org/). Read about this feature [here](/osmand/plugins/osm-editing).
 
 ![OSM edit POI](/assets/images/map/osm_edit_poi.png)
 
-# OSM note points on the map
+### OSM note points on the map
 
 OSM note points are user's made POIs for reporting issue about POI in [OpenStreetMap project](https://www.openstreetmap.org/). Read about this feature [here](/osmand/plugins/osm-editing#how-to-report-a-mistake).
 
