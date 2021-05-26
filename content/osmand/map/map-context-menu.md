@@ -47,9 +47,8 @@ In the table below there are all "Actions" of "Map Context menu" for chosen poin
 |{% data variables.android-values.context_menu_item_add_waypoint %}| Opening tracks list for making the point like a waypoint for the chosen track.|
 |{% data variables.android-values.context_menu_item_create_poi %}| [Adding POI in chosen place on OpenStreetMap](/osmand/plugins/osm-editing).|
 |{% data variables.android-values.context_menu_item_open_note %}| [Editing POI of OpenStreetMap data](/osmand/plugins/osm-editing).|
-
-
-
+|{% data variables.android-values.shared_string_download_map %}| [Downloading tiles of a raster map for offline using](/osmand/map/raster-maps#download--update-tiles).|
+|{% data variables.android-values.update_tile %}| [Updating tiles of a raster map ](/osmand/map/raster-maps#download--update-tiles).|
 |{% data variables.android-values.change_markers_position %} (Android)| [Moving the map marker to new location](/osmand/personal/markers).|
 |{% data variables.android-values.recording_context_menu_arecord %} (Android)| [Making audio point on the map](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map).|
 |{% data variables.android-values.recording_context_menu_vrecord%} (Android)| [Making video point on the map](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map).|
