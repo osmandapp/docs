@@ -33,7 +33,7 @@ Click to "Details" button on Map Context point menu or move up Map Context point
 
 ## Actions
 
-Actions on Map Context menu are...
+In the table below there are all "Actions" of "Map Context menu" for chosen point on the map. 
 
 |Detail | Description |
 |:------------|:---------------|
