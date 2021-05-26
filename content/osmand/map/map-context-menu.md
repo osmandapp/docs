@@ -5,21 +5,21 @@ versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-## Select objects on map
+## Select objects on the map
 
-Taping to the map in OsmAnd we can select an object or point on the map and open Point Context menu. There are two actions of tap: short and long.
+Taping to the map in OsmAnd we can select an object or point on the map and open Map Context menu. There are two actions of tap: short and long.
 
 | |  |
 |:------------|:---------------|
-|**Short tap**| Selected only an object which has [a node](https://wiki.openstreetmap.org/wiki/Node) or [a way](https://wiki.openstreetmap.org/wiki/Way) with showing name and address of an object, distance and direction from current location to an object. Icon: showed POI icon on Point Context menu. |
+|**Short tap**| Selected only an object which has [a node](https://wiki.openstreetmap.org/wiki/Node) or [a way](https://wiki.openstreetmap.org/wiki/Way) with showing name and address of an object, distance and direction from current location to an object. Icon: showed POI icon on Map Context menu. |
 |Android:![Context menu short_tap_Android](/assets/images/map/map_context_menu_short_tap_android.png) | iOS:![Context menu short_tap_iOS](/assets/images/map/map_context_menu_short_tap_ios.png)  |
-|**Long tap**| Selected geographical point with info about address of the nearest place, distance and direction from current location to this point. Icon: showed Location icon on Point Context menu. |
+|**Long tap**| Selected geographical point with info about address of the nearest place, distance and direction from current location to this point. Icon: showed Location icon on Map Context menu. |
 |Android:![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) | iOS:![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)  |
 
 
 ## Detailed information
 
-Click to "Details" button on Context point menu or move up Context point menu for opening Detailed information.
+Click to "Details" button on Map Context point menu or move up Map Context point menu for opening Detailed information.
 
 |Detail | Description |
 |:------------|:---------------|
@@ -33,7 +33,7 @@ Click to "Details" button on Context point menu or move up Context point menu fo
 
 ## Actions
 
-Actions on Context Point menu are...
+Actions on Map Context menu are...
 
 |Detail | Description |
 |:------------|:---------------|
@@ -42,11 +42,17 @@ Actions on Context Point menu are...
 |{% data variables.android-values.shared_string_marker %}| Activating [Map marker](/osmand/personal/markers) in chosen point. |
 |{% data variables.android-values.shared_string_actions %}| Opening hidden buttons of actions menu. |
 |{% data variables.android-values.context_menu_item_directions_from %}| Making the chosen point like Start point for navigation. |
-|{% data variables.android-values.context_menu_item_search %}| Open seach menu and start seaching near the chosen point.|
-|{% data variables.android-values.context_menu_item_add_parking_point %}| Make the chosen point like [Parking position](/osmand/plugins/parking). |
-|{% data variables.android-values.context_menu_item_add_waypoint %}| Open tracks list for making the point like a waypoint for the chosen track.|
-|{% data variables.android-values.context_menu_item_create_poi %}| [Add POI in chosen place on OpenStreetMap](/osmand/plugins/osm-editing).|
-|{% data variables.android-values.context_menu_item_open_note %}| [ Edit POI of OpenStreetMap data](/osmand/plugins/osm-editing).|
+|{% data variables.android-values.context_menu_item_search %}| Opening seach menu and start seaching near the chosen point.|
+|{% data variables.android-values.context_menu_item_add_parking_point %}| Making the chosen point like [Parking position](/osmand/plugins/parking). |
+|{% data variables.android-values.context_menu_item_add_waypoint %}| Opening tracks list for making the point like a waypoint for the chosen track.|
+|{% data variables.android-values.context_menu_item_create_poi %}| [Adding POI in chosen place on OpenStreetMap](/osmand/plugins/osm-editing).|
+|{% data variables.android-values.context_menu_item_open_note %}| [Editing POI of OpenStreetMap data](/osmand/plugins/osm-editing).|
+|{% data variables.android-values.change_markers_position %} (Android)| [Moving the map marker to new location](/osmand/personal/markers).|
+|{% data variables.android-values.recording_context_menu_arecord %} (Android)| [Making audio point on the map](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map).|
+|{% data variables.android-values.recording_context_menu_vrecord%} (Android)| [Making video point on the map](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map).|
+|{% data variables.android-values.recording_context_menu_precord %} (Android)| [Making photo point on the map](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map).|
+|{% data variables.android-values.plan_a_route %} (Android)| [Opening "Plan a route" tool with chosen first point](/osmand/plan-route/create-route).|
+|{% data variables.android-values.avoid_road %} (Android)| [Adding avoid point for navigation](/osmand/navigation/route-navigation).|
 
 
 ### Navigation 
