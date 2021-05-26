@@ -47,6 +47,9 @@ In the table below there are all "Actions" of "Map Context menu" for chosen poin
 |{% data variables.android-values.context_menu_item_add_waypoint %}| Opening tracks list for making the point like a waypoint for the chosen track.|
 |{% data variables.android-values.context_menu_item_create_poi %}| [Adding POI in chosen place on OpenStreetMap](/osmand/plugins/osm-editing).|
 |{% data variables.android-values.context_menu_item_open_note %}| [Editing POI of OpenStreetMap data](/osmand/plugins/osm-editing).|
+
+
+
 |{% data variables.android-values.change_markers_position %} (Android)| [Moving the map marker to new location](/osmand/personal/markers).|
 |{% data variables.android-values.recording_context_menu_arecord %} (Android)| [Making audio point on the map](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map).|
 |{% data variables.android-values.recording_context_menu_vrecord%} (Android)| [Making video point on the map](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map).|
@@ -64,10 +67,12 @@ For building a route to chosen point from your location you need to click the bu
 
 ## Customize context menu (Android, advanced)
 
-It is a menu where the user can reorder or hide items from the 'Context menu actions', to see hidden items from the menu, copy the list of items from the another profile and reset to default settings.
+It is a menu where the user can reorder or hide items from the 'Context menu actions', to see hidden items from the menu, copy the list of items from the another profile and reset to default settings. 
+
+Android users can reset to default configuration of the Context menu or copy configuration of the Context menu from another profile.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.ui_customization %} → {% data variables.android-values.context_menu_actions %}
 
-![Context menu actions items ](/assets/images/settings/context_menu_actions_items.png)
+![Context menu actions items ](/assets/images/map/customize_actions_menu.png)
 
- All settings will apply to the 'Browse map' profile by default. User can reset settings to default or copy from another profile.
+ 
