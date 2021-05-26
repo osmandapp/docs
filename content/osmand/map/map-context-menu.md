@@ -10,7 +10,7 @@ versions: '*'
 Taping to the map in OsmAnd we can select an object or point on the map and open Map Context menu. There are two actions of tap: short and long.
 
 | |  |
-|:------------|:---------------|
+|:---------------|:---------------|
 |**Short tap**| Selected only an object which has [a node](https://wiki.openstreetmap.org/wiki/Node) or [a way](https://wiki.openstreetmap.org/wiki/Way) with showing name and address of an object, distance and direction from current location to an object. Icon: showed POI icon on Map Context menu. |
 |Android:![Context menu short_tap_Android](/assets/images/map/map_context_menu_short_tap_android.png) | iOS:![Context menu short_tap_iOS](/assets/images/map/map_context_menu_short_tap_ios.png)  |
 |**Long tap**| Selected geographical point with info about address of the nearest place, distance and direction from current location to this point. Icon: showed Location icon on Map Context menu. |
@@ -22,7 +22,7 @@ Taping to the map in OsmAnd we can select an object or point on the map and open
 Click to "Details" button on Map Context point menu or move up Map Context point menu for opening Detailed information.
 
 |Detail | Description |
-|:------------|:---------------|
+|:---------------|:---------------|
 |[Tag info](https://taginfo.openstreetmap.org/)| Additional information about an object: telefon, website, POI type, work time, height, .... Click to description for opening full information, copy to buffer, open website link and others. |
 |[{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia)| Anothers Wikipedia articles nearby chosen point. Click to description for opening Wikipedia POIs list and the button {% data variables.android-values.shared_string_show_on_map %} for showing another Wikipedia POIs.|
 |[{% data variables.android-values.speak_poi %}](https://wiki.openstreetmap.org/wiki/Points_of_interest)| Anothers POIs nearby chosen point. Click to description for opening POIs list and the button {% data variables.android-values.shared_string_show_on_map %} for showing another POIs near chosen point. |
@@ -36,7 +36,7 @@ Click to "Details" button on Map Context point menu or move up Map Context point
 In the table below there are all "Actions" of "Map Context menu" for chosen point on the map. 
 
 |Detail | Description |
-|:------------|:---------------|
+|:---------------|:---------------|
 |{% data variables.android-values.favourites_context_menu_add %}| [Opening {% data variables.android-values.favourites_context_menu_add %} menu and creating new favorite](/osmand/personal/favourites).  |
 |{% data variables.android-values.shared_string_share %}| Opening {% data variables.android-values.share_menu_location %} menu. For iOS: you can send URL of the point location to your contacts. For Android: sendig URL of the point location to your contacts, coping URL of the point location in buffer, {% data variables.android-values.copy_address %}, {% data variables.android-values.copy_poi_name %}, {% data variables.android-values.copy_coordinates %}, opening point in others applications, making {% data variables.android-values.shared_string_qr_code %}. |
 |{% data variables.android-values.shared_string_marker %}| Activating [Map marker](/osmand/personal/markers) in chosen point. |
