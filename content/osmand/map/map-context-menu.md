@@ -7,6 +7,9 @@ versions: '*'
 
 ## Open context menu 
 
+
+### Select an object (short tap)
+
 In order to call Context menu you should tap on the object or place on the Map. There are two types of action: by short tap, by long tap.
 
 - **Short tap** - is selecting only an object that has [a node](https://wiki.openstreetmap.org/wiki/Node) or [a way](https://wiki.openstreetmap.org/wiki/Way). In the context menu shows the POI name, address, distance and direction from the current position and  POI icon (how it marked on the map). 
@@ -15,16 +18,25 @@ In order to call Context menu you should tap on the object or place on the Map. 
 |:-------------:|:--------------:|
 |![Context menu short_tap_Android](/assets/images/map/map_context_menu_short_tap_android.png) | ![Context menu short_tap_iOS](/assets/images/map/map_context_menu_short_tap_ios.png) |
 
+
+### Select any point (long tap)
 - **Long tap** - is selecting a geographical point. In the context menu shows address, distance and direction from the current position and as icon is the location mark. 
 
 | |  |
 |:---------------|:---------------|
 |Android:![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) | iOS:![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)  |
 
+## Object information
+|Android|iOS|
+|-|-|
+|![Context menu details_Android](/assets/images/map/map_context_menu_details_android.png) | ![Context menu details_iOS](/assets/images/map/map_context_menu_details_ios.png)|
 
-## Detailed information
+
+## Details
 
 In order to gain more details about object you need to click on the "Details" button in the Context menu or move this panel up. 
+
+
 
 |**Detail** | **Description** |
 |:---------------|:---------------|
@@ -34,10 +46,16 @@ In order to gain more details about object you need to click on the "Details" bu
 |OSM link| Object link to 0penStreetMap source: https://www.openstreetmap.org/node... or https://www.openstreetmap.org/way... |
 |Coordinates info| Geographical coordinates of an object. Click to the description for opening coordinates types with copy it to buffer.|
 |Online photos| Photos from [Mappillary](/osmand/plugins/mapillary), [OpenPlaceReviews](/osmand/plugins/openplacereviews), [Wikimedia](https://www.wikimedia.org/) sources. Click to image for opening image resource. |
-|Android:![Context menu details_Android](/assets/images/map/map_context_menu_details_android.png) | iOS:![Context menu details_iOS](/assets/images/map/map_context_menu_details_ios.png)  |
 
 ## Actions
 
+### Directions
+
+### Share
+
+### Search
+
+### * Create POI
 In the table below there are all "Actions" of "Map Context menu" for chosen point on the map. 
 
 |Detail | Description |
