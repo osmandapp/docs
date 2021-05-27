@@ -1,19 +1,19 @@
 ---
 title: "First steps"
-intro: "First steps with OsmAnd. "
+intro: "This section is helping you to begin with OsmAnd. It includes information about  app installation, necessarily downloading and permission"
 versions: '*'
 ---
 
 {% data reusables.general.article-not-complete %}
 
-### Install OsmAnd
+## Install OsmAnd
 OsmAnd is a mobile application available for **Android** and **iOS**. You can download it on most popular Application Stores.
 
 **Android markets**: [Google play store](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_3?dchild=1&keywords=osmand&qid=1616685559&sr=8-3). More information about OsmAnd versions and paid services is available at [Purchases info](/osmand/purchases).  
 
 **iOS**: [App store](https://apps.apple.com/us/app/osmand-maps-travel-navigate/id934850257).
 
-### Welcome to OsmAnd!
+## Welcome to OsmAnd!
 
 OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to download map of your region. If you skip maps download (via '{% data variables.android-values.shared_string_skip %}'), the application won't function correctly. So you will need to download maps later via Android / iOS -> Menu -> Maps download (TODO). OsmAnd might not detect your region to download correctly, so you can choose from the list.
 
@@ -24,7 +24,7 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 In case you need to reinstall the app, please make sure you have back up all your [Personal Data](/osmand/import-export) data such as Tracks and Favorites.
 
 
-### Permissions
+## Permissions
 {% data reusables.general.article-not-complete %}
 
 Sign out icon {% octicon("sign-out") %} in text.
