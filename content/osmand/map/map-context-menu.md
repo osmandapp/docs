@@ -5,7 +5,7 @@ versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-## Call the context menu 
+## Open context menu 
 
 In order to call Context menu you should tap on the object or place on the Map. There are two types of action: by short tap, by long tap.
 
