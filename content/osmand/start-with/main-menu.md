@@ -3,8 +3,6 @@ title: "Main menu"
 intro: "'Main menu' is a primary list of options available to use in the application. It provides quick access to the profile configuration, features and global settings."
 versions: '*'
 ---
-{% data reusables.general.article-not-complete %}
-
 
 The [Main menu](/osmand/widgets/map-buttons#main-menu) icon '&#8801;' is located on the left bottom corner of the Map screen. In navigation mode this button is not visible by default. It appears after a short tap on the map. 
 
