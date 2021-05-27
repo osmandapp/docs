@@ -18,10 +18,10 @@ For showing or not [GPX-tracks](/osmand/personal/myplaces) on the map.
 
 | Android | iOS |
 | :---: | :---: |
-|  | |
+| ![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) |![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) |
 
+How to start recording and to change GPX-track appearance for chosen GPX-track read [here](/osmand/plugins/trip-recording).
 
-
-
+How to create own GPX-track by "Plan a route" tool read [here](/osmand/plan-route).
 
 ## Routes on the map
