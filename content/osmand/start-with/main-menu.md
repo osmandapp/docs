@@ -35,11 +35,7 @@ Main menu provides quick access to switch and [customize profile](/osmand/person
 
 ![profile_menu](/assets/images/menu/profile_menu.png)
 
-In this menu you can:
-- Select profile.
-- Switch between profiles.
-- Configure profile.
-- Manage profile.
+In this menu you can **switch** active profile, **configure** (change settings) for active profile or **manage** all application profiles.
 
 
 ### Customize (Android Advanced)
