@@ -1,11 +1,11 @@
 ---
 title: "Map Context menu"
-intro: "'Map Context menu' provides information of selected objects on the map and allows to share, to edit, to move or to navigate to this place."
+intro: "'Map Context menu' provides information of selected object on the map and allows to share, to edit, to move or to navigate to this place."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-## Open context menu 
+## Context menu 
 
 
 ### Select an object (short tap)
@@ -26,13 +26,16 @@ In order to call Context menu you should tap on the object or place on the Map. 
 |:---------------|:---------------|
 |Android:![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) | iOS:![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)  |
 
-## Object information
-|Android|iOS|
-|-|-|
-|![Context menu details_Android](/assets/images/map/map_context_menu_details_android.png) | ![Context menu details_iOS](/assets/images/map/map_context_menu_details_ios.png)|
+### Hide context menu
+
+### Object information
 
 
 ## Details
+
+|Android|iOS|
+|-|-|
+|![Context menu details_Android](/assets/images/map/map_context_menu_details_android.png) | ![Context menu details_iOS](/assets/images/map/map_context_menu_details_ios.png)|
 
 In order to gain more details about object you need to click on the "Details" button in the Context menu or move this panel up. 
 
