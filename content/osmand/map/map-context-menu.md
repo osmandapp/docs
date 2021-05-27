@@ -11,7 +11,8 @@ In order to call Context menu you should tap on the object or place on the Map. 
 
 - **Short tap** - is selecting only an object that has [a node](https://wiki.openstreetmap.org/wiki/Node) or [a way](https://wiki.openstreetmap.org/wiki/Way). In the context menu shows the POI name, address, distance and direction from the current position and  POI icon (how it marked on the map). 
 
-
+<table><tr><th>Android</th><th>iOS</th></tr><td>![Context menu short_tap_Android](/assets/images/map/map_context_menu_short_tap_android.png)</td>
+  <td>![Context menu short_tap_iOS](/assets/images/map/map_context_menu_short_tap_ios.png)</td></tr></table>
 | |  |
 |:---------------|:---------------|
 |Android:![Context menu short_tap_Android](/assets/images/map/map_context_menu_short_tap_android.png) | iOS:![Context menu short_tap_iOS](/assets/images/map/map_context_menu_short_tap_ios.png)  |
