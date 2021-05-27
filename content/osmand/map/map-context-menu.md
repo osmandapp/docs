@@ -22,7 +22,7 @@ In order to call Context menu you should tap on the object or place on the Map. 
 |Android:![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) | iOS:![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)  |
 
 
-## Details about object
+## Detailed information
 
 In order to gain more details about object you need to click on the "Details" button in the Context menu or move this panel up. 
 
