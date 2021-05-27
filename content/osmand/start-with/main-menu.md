@@ -42,7 +42,7 @@ In this menu you can:
 - Manage profile.
 
 
-## Customize (Android Advanced)
+### Customize (Android Advanced)
 
 It is a menu where the user can reorder or hide items from the Drawer, to see hidden items from the menu, copy the list of items from the another profile and reset to default settings.
 
