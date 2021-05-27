@@ -4,8 +4,8 @@ intro: "'Configure map' menu is a central place where you could configure map di
 versions: '*'
 ---
 
-| **Android** | **iOS** |
-|:------------:|:------------:|
+| Android | iOS |
+| :---: | :---: |
 | ![Configure map_android](/assets/images/map/configure-map-android.png) | ![Configure map_ios](/assets/images/map/configure-map-ios.png) |
 
 **{% data variables.android-values.configure_map %}** menu divides into 2 categories:
