@@ -1,30 +1,35 @@
 ---
 title: "Map Context menu"
-intro: "How to select an object on the map, open context menu with long or short tap, get detailed information about point of intereset, navigate from and to the point and perform other actions"
+intro: "'Context menu' is a menu of options that appears on map interaction such as press on places or the objects. The context menu offers the available choices of actions or information related to the selected object."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-## Select objects on the map
+## Call the context menu 
 
-Taping to the map in OsmAnd we can select an object or point on the map and open Map Context menu. There are two actions of tap: short and long.
+In order to call Context menu you should tap on the object or place on the Map. There are two types of action: by short tap, by long tap.
+
+- **Short tap** - is selecting only an object that has [a node](https://wiki.openstreetmap.org/wiki/Node) or [a way](https://wiki.openstreetmap.org/wiki/Way). In the context menu shows the POI name, address, distance and direction from the current position and  POI icon (how it marked on the map). 
 
 | |  |
 |:---------------|:---------------|
-|**Short tap**| Selected only an object which has [a node](https://wiki.openstreetmap.org/wiki/Node) or [a way](https://wiki.openstreetmap.org/wiki/Way) with showing name and address of an object, distance and direction from current location to an object. Icon: showed POI icon on Map Context menu. |
 |Android:![Context menu short_tap_Android](/assets/images/map/map_context_menu_short_tap_android.png) | iOS:![Context menu short_tap_iOS](/assets/images/map/map_context_menu_short_tap_ios.png)  |
-|**Long tap**| Selected geographical point with info about address of the nearest place, distance and direction from current location to this point. Icon: showed Location icon on Map Context menu. |
+
+- **Long tap** - is selecting a geographical point. In the context menu shows address, distance and direction from the current position and as icon is the location mark. 
+
+| |  |
+|:---------------|:---------------|
 |Android:![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) | iOS:![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)  |
 
 
-## Detailed information
+## Details about object
 
-Click to "Details" button on Map Context point menu or move up Map Context point menu for opening Detailed information.
+In order to gain more details about object you need to click on the "Details" button in the Context menu or move this panel up. 
 
-|Detail | Description |
+|**Detail** | **Description** |
 |:---------------|:---------------|
-|[Tag info](https://taginfo.openstreetmap.org/)| Additional information about an object: telefon, website, POI type, work time, height, .... Click to description for opening full information, copy to buffer, open website link and others. |
-|[{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia)| Anothers Wikipedia articles nearby chosen point. Click to description for opening Wikipedia POIs list and the button {% data variables.android-values.shared_string_show_on_map %} for showing another Wikipedia POIs.|
+|[Tag info](https://taginfo.openstreetmap.org/)| Additional information about the object: phone number, website, POI type, work time, height... Click on the description for opening full information, copy to buffer, open website link and others. |
+|[{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia)| Nearby Wikipedia articles. Click the description for opening Wikipedia POIs list and the button '{% data variables.android-values.shared_string_show_on_map %}' for showing another Wikipedia POIs.|
 |[{% data variables.android-values.speak_poi %}](https://wiki.openstreetmap.org/wiki/Points_of_interest)| Anothers POIs nearby chosen point. Click to description for opening POIs list and the button {% data variables.android-values.shared_string_show_on_map %} for showing another POIs near chosen point. |
 |OSM link| Object link to 0penStreetMap source: https://www.openstreetmap.org/node... or https://www.openstreetmap.org/way... |
 |Coordinates info| Geographical coordinates of an object. Click to the description for opening coordinates types with copy it to buffer.|
