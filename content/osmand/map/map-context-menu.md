@@ -1,6 +1,6 @@
 ---
 title: "Map Context menu"
-intro: "'Context menu' is a menu of options that appears on map interaction such as press on places or objects. The context menu offers the available choices of actions or information related to the selected object."
+intro: "'Map Context menu' provides information of selected objects on the map and allows to share, to edit, to move or to navigate to this place."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
