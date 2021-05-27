@@ -8,10 +8,7 @@ versions: '*'
 
 The [Main menu](/osmand/widgets/map-buttons#main-menu) icon '&#8801;' is located on the left bottom corner of the Map screen. In navigation mode this button is not visible by default. It appears after a short tap on the map. 
 
-| | |
-|------------|------------|
-| **Android** | **iOS** |
-|![Main menu Android](/assets/images/menu/main_menu_Android.png)|![Main menu iOS](/assets/images/menu/main_menu_iOS.png)|
+![Main menu](/assets/images/menu/Main_menu.png)
 
 ## Main menu (Drawer)
 
@@ -32,17 +29,17 @@ The [Main menu](/osmand/widgets/map-buttons#main-menu) icon '&#8801;' is located
 - [Settings](/osmand/personal/global-settings) - Is a menu that allows configuring main app parameters.
 - Help - Is a menu that provides quick access to a detailed explanation of the feature,  information about the app version and allows to fast contact the development team.
 
-### Active Profile
+### Active Profile (Android)
 
 Main menu provides quick access to switch and [customize profile](/osmand/personal/profiles). Main purpose of profiles to have different application look & fill for navigation. Though you could use it to customize screen & widgets and switch profiles for different view purposes. All [settings](/osmand/personal/profiles) are configured separately for each profile.
 
 ![profile_menu](/assets/images/menu/profile_menu.png)
 
-.... Screenshot ...
-- Switch
-- Select
-- Configure
-- Manage
+In this menu you can:
+- Select profile.
+- Switch between profiles.
+- Configure profile.
+- Manage profile.
 
 
 ## Customize (Android Advanced)
