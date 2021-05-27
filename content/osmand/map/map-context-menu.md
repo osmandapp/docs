@@ -5,18 +5,6 @@ versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-{% android %}
-
-![Context menu short_tap_Android](/assets/images/map/map_context_menu_short_tap_android.png)
-
-{% endandroid %}
-
-{% ios %}
-
-![Context menu short_tap_iOS](/assets/images/map/map_context_menu_short_tap_ios.png) 
-
-{% endios %}
-
 ## Open context menu 
 
 In order to call Context menu you should tap on the object or place on the Map. There are two types of action: by short tap, by long tap.
