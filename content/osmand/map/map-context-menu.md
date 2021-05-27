@@ -80,14 +80,7 @@ In the table below there are all "Actions" of "Map Context menu" for chosen poin
 |{% data variables.android-values.avoid_road %} (Android)| [Adding avoid point for navigation](/osmand/navigation/route-navigation).|
 
 
-## Navigation 
-
-For building a route to chosen point from your location you need to click the button [{% data variables.android-values.get_directions %}](/osmand/navigation/route-navigation) of "Map Context menu". In [Navigation menu](/osmand/navigation/route-navigation) you can choose [an application profile](/osmand/navigation), create your route and click the button {% data variables.android-values.shared_string_control_start %} for starting navigation to the chosen point.
-
-![Navigation to point](/assets/images/map/navigation_to_poi.png)
-
-
-## Customize context menu (Android, advanced)
+## Customize (Android advanced)
 
 It is a menu where the user can reorder or hide items from the 'Context menu actions', to see hidden items from the menu, copy the list of items from the another profile and reset to default settings. 
 
