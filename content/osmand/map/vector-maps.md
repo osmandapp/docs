@@ -92,9 +92,9 @@ Map legend of OsmAnd maps you can find [here](https://osmand.net/help-online/map
 
 ## Contour Lines
 
-Contour lines are represented as vector maps that as displayed as elevation lines. You need to enable [Contour lines Plugin](/osmand/plugins/contour-lines), download the data for your region and configure the display. Feature is not enabled by default and need to be [purchased first](/osmand/purchases).
+Contour lines are represented as vector maps that are displayed as elevation lines. You need to enable [Contour lines Plugin](/osmand/plugins/contour-lines), download the data for your region and configure the display. Feature is not enabled by default and need to be [purchased first](/osmand/purchases).
 
-Contour lines are available for all map styles and modes.  Configuring the display options for Contour lines -
+Contour lines are available for all map styles and modes and could be configured via [Contour lines Menu](/osmand/plugins/contour-lines#contour-lines-settings).
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.index_srtm_ele %}
 
