@@ -5,17 +5,17 @@ versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-{% windows %}
+{% android %}
 
 ![Context menu short_tap_Android](/assets/images/map/map_context_menu_short_tap_android.png)
 
-{% endwindows %}
+{% endandroid %}
 
-{% mac %}
+{% ios %}
 
 ![Context menu short_tap_iOS](/assets/images/map/map_context_menu_short_tap_ios.png) 
 
-{% endmac %}
+{% endios %}
 
 ## Open context menu 
 
