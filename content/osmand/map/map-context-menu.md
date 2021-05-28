@@ -44,10 +44,10 @@ All actions available in the Context menu have been divided into **Main** and **
 
 **Main actions**:
 - Add favorite - allows adding a selected point to the favorites list.
-- Marker - put marker on the selected point.
+- [Marker](/osmand/personal/markers) - put marker on the selected point.
 - Share - allows sharing a selected point with another user.
-- Details - provide you with more information about the selected point.
-- Directions - allows you to plan route from your location to the selected point (or reverse) by clicking the 'Direction' button
+- [Details](/osmand/map/map-context-menu#details) - provide you with more information about the selected point.
+- [Directions](/osmand/widgets/map-buttons#directions) - allows you to plan route from your location to the selected point (or reverse) by clicking the 'Direction' button
 
 **Additional actions**:
 - {% data variables.android-values.context_menu_item_directions_from %} - makes the chosen point as departure point for navigation.
