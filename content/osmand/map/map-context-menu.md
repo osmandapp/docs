@@ -30,14 +30,14 @@ In order to gain more details about object you need to click on the "Details" bu
 ![Context menu details_Android](/assets/images/map/map_context_menu_details_android.png) 
 ![Context menu details_iOS](/assets/images/map/map_context_menu_details_ios.png)
 
-|**Detail** | **Description** |
-|:---------------|:---------------|
-|[Tag info](https://taginfo.openstreetmap.org/)| Additional information about the object: <br> * phone number <br> *  website <br> * POI type <br> * opening hours <br> * height... <br><br> Click on the description for opening full information, copy to buffer, open website link and others. |
-|[{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia)| Nearby Wikipedia articles. Click the description for opening Wikipedia POIs list and the button '{% data variables.android-values.shared_string_show_on_map %}' for showing another Wikipedia POIs.|
-|[{% data variables.android-values.speak_poi %}](https://wiki.openstreetmap.org/wiki/Points_of_interest)| Anothers POIs nearby chosen point. Click to description for opening POIs list and the button {% data variables.android-values.shared_string_show_on_map %} for showing another POIs near chosen point. |
-|OSM link| Object link to 0penStreetMap source: https://www.openstreetmap.org/node... or https://www.openstreetmap.org/way... |
-|Coordinates info| Geographical coordinates of an object. Click to the description for opening coordinates types with copy it to buffer.|
-|Online photos| Photos from [Mappillary](/osmand/plugins/mapillary), [OpenPlaceReviews](/osmand/plugins/openplacereviews), [Wikimedia](https://www.wikimedia.org/) sources. Click to image for opening image resource. |
+|**Detail** | **Description** | **Image** |
+|:---------------|:---------------|:---------------|
+|[Tag info](https://taginfo.openstreetmap.org/)| Additional information about the object: <br> * phone number <br> *  website <br> * POI type <br> * opening hours <br> * height... <br><br> Click on the description for opening full information, copy to buffer, open website link and others. ||
+|[{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia)| Nearby Wikipedia articles. Click the description for opening Wikipedia POIs list and the button '{% data variables.android-values.shared_string_show_on_map %}' for showing another Wikipedia POIs.||
+|[{% data variables.android-values.speak_poi %}](https://wiki.openstreetmap.org/wiki/Points_of_interest)| Anothers POIs nearby chosen point. Click to description for opening POIs list and the button {% data variables.android-values.shared_string_show_on_map %} for showing another POIs near chosen point. ||
+|OSM link| Object link to 0penStreetMap source: https://www.openstreetmap.org/node... or https://www.openstreetmap.org/way... ||
+|Coordinates info| Geographical coordinates of an object. Click to the description for opening coordinates types with copy it to buffer.||
+|Online photos| Photos from [Mappillary](/osmand/plugins/mapillary), [OpenPlaceReviews](/osmand/plugins/openplacereviews), [Wikimedia](https://www.wikimedia.org/) sources. Click to image for opening image resource. ||
 
 ## Actions
 All actions available in the Context menu have been divided into **Main** and **additional** (hidden in the Actions button).
@@ -60,12 +60,12 @@ All actions available in the Context menu have been divided into **Main** and **
 - {% data variables.android-values.plan_a_route %} (Android ?) - opens ["Plan a route"](/osmand/plan-route/create-route) tool and select chosen point as the beginning of the route.
 - {% data variables.android-values.avoid_road %} (Android ?) - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
 
-### Objects action
+### Buttons
 
 - Restore marker
 - Mark marker as passed
-- Download map
-- Update map
+- Download map vector
+- Update map vector
 
 ###  Online Maps
 
@@ -78,12 +78,12 @@ All actions available in the Context menu have been divided into **Main** and **
 - {% data variables.android-values.recording_context_menu_precord %} - makes a [photo point](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on the map.
 
 ### * OSM Editing (Android)
-- {% data variables.android-values.poi_context_menu_modify %}  - allows to edit information of POI via [OpenStreetMap editing plugin](/osmand/plugins/osm-editing) to OSM data.
-- {% data variables.android-values.poi_context_menu_delete %}  - allows to edit information of POI via [OpenStreetMap editing plugin](/osmand/plugins/osm-editing) to OSM data.
-- {% data variables.android-values.context_menu_item_open_note %} - allows to add [OSM note](/osmand/plugins/osm-editing) for OSM community.
+- [{% data variables.android-values.poi_context_menu_modify %}](/osmand/plugins/osm-editing)  - edits information of POI.
+- [{% data variables.android-values.poi_context_menu_delete %}](/osmand/plugins/osm-editing)  - deletes OpenStreetMap POI.
+- [{% data variables.android-values.context_menu_item_open_note %}](/osmand/plugins/osm-editing) - adds [OSM note](https://wiki.openstreetmap.org/wiki/Notes) for to OpenStreetMap.
 
 ### * Parking point
-- {% data variables.android-values.context_menu_item_add_parking_point %} - makes the chosen point as [Parking position](/osmand/plugins/parking).
+- [{% data variables.android-values.context_menu_item_add_parking_point %}](/osmand/plugins/parking) - makes or edits the chosen point as parking position.
 
 
 ## Customize (Android advanced)
