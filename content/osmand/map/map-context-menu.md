@@ -42,61 +42,32 @@ In order to gain more details about object you need to click on the "Details" bu
 ## Actions
 All actions available in the Context menu have been divided into **Main** and **additional** (hidden in the Actions button).
 
-**Main actions**:
+### Main 
 - Add favorite - allows adding a selected point to the favorites list.
 - [Marker](/osmand/personal/markers) - put marker on the selected point.
 - Share - allows sharing a selected point with another user.
 - [Details](/osmand/map/map-context-menu#details) - provide you with more information about the selected point.
 - [Directions](/osmand/widgets/map-buttons#directions) - allows you to plan route from your location to the selected point (or reverse) by clicking the 'Direction' button
 
-**Additional actions**:
+### Additional
 - {% data variables.android-values.context_menu_item_directions_from %} - makes the chosen point as departure point for navigation.
 - {% data variables.android-values.context_menu_item_search %} - open seach menu and allows to seaching near the chosen point.
-- {% data variables.android-values.change_markers_position %} (Android) - allows to move the [map marker](/osmand/personal/markers) to new location.
+- {% data variables.android-values.change_markers_position %} (Android ?) - allows to move the [map marker](/osmand/personal/markers) to new location.
+- {% data variables.android-values.context_menu_item_add_waypoint %} - allows make selected point to a track as a waypoint.
+- {% data variables.android-values.plan_a_route %} (Android ?) - opens ["Plan a route"](/osmand/plan-route/create-route) tool and select chosen point as the beginning of the route.
+- {% data variables.android-values.avoid_road %} (Android ?) - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
+
+### * Audio-Video actions (Android)
 - {% data variables.android-values.recording_context_menu_arecord %} (Android) - allows to make [audio notes](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with audio icon).
 - {% data variables.android-values.recording_context_menu_vrecord%} (Android) - allows to make [video note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with video icon).
 - {% data variables.android-values.recording_context_menu_precord %} (Android) - allows to make [photo point](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on the map.
-- Modify POI - allows to edit information of POI via [OpenStreetMap editing plugin](/osmand/plugins/osm-editing) to OSM data.
+### * OSM Editing  (Android)
+- {% data variables.android-values.poi_context_menu_modify %}  - allows to edit information of POI via [OpenStreetMap editing plugin](/osmand/plugins/osm-editing) to OSM data.
+- {% data variables.android-values.poi_context_menu_delete %}  - allows to edit information of POI via [OpenStreetMap editing plugin](/osmand/plugins/osm-editing) to OSM data.
 - {% data variables.android-values.context_menu_item_open_note %} - allows to add [OSM note](/osmand/plugins/osm-editing) for OSM community.
-- {% data variables.android-values.context_menu_item_add_waypoint %} - allows make selected point to a track as a waypoint.
+
+### * Parking point
 - {% data variables.android-values.context_menu_item_add_parking_point %} - allows to make the chosen point as [Parking position](/osmand/plugins/parking).
-- {% data variables.android-values.plan_a_route %} (Android) - opens ["Plan a route"](/osmand/plan-route/create-route) tool and select chosen point as the beginning of the route.
-- {% data variables.android-values.avoid_road %} (Android) - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
-
-<!-- ### Directions
-You can easily get a route from your location to the selected point (or reverse) by clicking the 'Direction' button in the context menu. 
-
-
-### Share
-You can share a selected point or object with another user by simply tap on the share icon in the Context menu.
-### Search
-
-### * Create POI
-
-
-In the table below there are all "Actions" of "Map Context menu" for chosen point on the map. 
-
-|Detail | Description |
-|:---------------|:---------------|
-|{% data variables.android-values.favourites_context_menu_add %}| [Opening {% data variables.android-values.favourites_context_menu_add %} menu and creating new favorite](/osmand/personal/favourites).  |
-|{% data variables.android-values.shared_string_share %}| Opening {% data variables.android-values.share_menu_location %} menu. For iOS: you can send URL of the point location to your contacts. For Android: sendig URL of the point location to your contacts, coping URL of the point location in buffer, {% data variables.android-values.copy_address %}, {% data variables.android-values.copy_poi_name %}, {% data variables.android-values.copy_coordinates %}, opening point in others applications, making {% data variables.android-values.shared_string_qr_code %}. |
-|{% data variables.android-values.shared_string_marker %}| Activating [Map marker](/osmand/personal/markers) in chosen point. |
-|{% data variables.android-values.shared_string_actions %}| Opening hidden buttons of actions menu. |
-|{% data variables.android-values.context_menu_item_directions_from %}| Making the chosen point like Start point for navigation. |
-|{% data variables.android-values.context_menu_item_search %}| Opening seach menu and start seaching near the chosen point.|
-|{% data variables.android-values.context_menu_item_add_parking_point %}| Making the chosen point like [Parking position](/osmand/plugins/parking). |
-|{% data variables.android-values.context_menu_item_add_waypoint %}| Opening tracks list for making the point like a waypoint for the chosen track.|
-|{% data variables.android-values.context_menu_item_create_poi %}| [Adding POI in chosen place on OpenStreetMap](/osmand/plugins/osm-editing).|
-|{% data variables.android-values.context_menu_item_open_note %}| [Editing POI of OpenStreetMap data](/osmand/plugins/osm-editing).|
-|{% data variables.android-values.shared_string_download_map %}| [Downloading tiles of a raster map for offline using](/osmand/map/raster-maps#download--update-tiles).|
-|{% data variables.android-values.update_tile %}| [Updating tiles of a raster map ](/osmand/map/raster-maps#download--update-tiles).|
-|{% data variables.android-values.change_markers_position %} (Android)| [Moving the map marker to new location](/osmand/personal/markers).|
-|{% data variables.android-values.recording_context_menu_arecord %} (Android)| [Making audio point on the map](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map).|
-|{% data variables.android-values.recording_context_menu_vrecord%} (Android)| [Making video point on the map](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map).|
-|{% data variables.android-values.recording_context_menu_precord %} (Android)| [Making photo point on the map](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map).|
-|{% data variables.android-values.plan_a_route %} (Android)| [Opening "Plan a route" tool with chosen first point](/osmand/plan-route/create-route).|
-|{% data variables.android-values.avoid_road %} (Android)| [Adding avoid point for navigation](/osmand/navigation/route-navigation).|-->
-
 
 ## Customize (Android advanced)
 
