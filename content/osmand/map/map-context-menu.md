@@ -22,7 +22,9 @@ Context menu will appear  when you hold  the any point on the Map with **long ta
 
 ### Hide context menu
 
-To hide the context menu, just click on any place on the map.
+To hide the context menu:
+- Click on any empty place (to not open menu once again) on the map
+- Drag down by the top of menu 
 
 ## Details
 In order to gain more details about object you need to click on the "Details" button in the Context menu or move this panel up. 
