@@ -30,6 +30,16 @@ In order to gain more details about object you need to click on the "Details" bu
 ![Context menu details_Android](/assets/images/map/map_context_menu_details_android.png) 
 ![Context menu details_iOS](/assets/images/map/map_context_menu_details_ios.png)
 
+### Coordinates 
+
+### Object info
+
+### Nearby Wikipedia
+
+### Nearby POIs
+
+### Online photos 
+
 |**Detail** | **Description** | **Image** |
 |:---------------|:---------------|:---------------|
 |[Tag info](https://taginfo.openstreetmap.org/)| Additional information about the object: <br> * phone number <br> *  website <br> * POI type <br> * opening hours <br> * height... <br><br> Click on the description for opening full information, copy to buffer, open website link and others. ||
@@ -43,6 +53,34 @@ In order to gain more details about object you need to click on the "Details" bu
 All actions available in the Context menu have been divided into **Main** and **additional** (hidden in the Actions button).
 
 **Here will be an image**.
+
+### Add / Edit Favorite
+
+### Add / Edit Marker
+
+- Restore marker
+- Mark marker as passed
+- Add / Edit Marker
+
+### Share
+
+### Directions To / From 
+
+### Plan a route
+
+### Avoid road
+
+### Add track waypoint
+
+### Search
+
+### Change position (Move)
+
+### Update / Download Online Maps
+
+### Update / Download Vector Maps
+
+
 
 ### Main 
 
