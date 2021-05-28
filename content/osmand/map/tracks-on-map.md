@@ -1,6 +1,6 @@
 ---
 title: "Tracks and Routes (Layers)"
-intro: "On map you could display your GPX-tracks and routes from OSM data."
+intro: "On the map, a user can display GPX-tracks and navigation routes."
 versions: '*'
 ---
 
