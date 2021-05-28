@@ -32,7 +32,7 @@ In order to gain more details about object you need to click on the "Details" bu
 
 |**Detail** | **Description** |
 |:---------------|:---------------|
-|[Tag info](https://taginfo.openstreetmap.org/)| Additional information about the object: phone number, website, POI type, work time, height... Click on the description for opening full information, copy to buffer, open website link and others. |
+|[Tag info](https://taginfo.openstreetmap.org/)| Additional information about the object: <br> * phone number <br> *  website <br> * POI type <br> * opening hours <br> * height... <br><br> Click on the description for opening full information, copy to buffer, open website link and others. |
 |[{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia)| Nearby Wikipedia articles. Click the description for opening Wikipedia POIs list and the button '{% data variables.android-values.shared_string_show_on_map %}' for showing another Wikipedia POIs.|
 |[{% data variables.android-values.speak_poi %}](https://wiki.openstreetmap.org/wiki/Points_of_interest)| Anothers POIs nearby chosen point. Click to description for opening POIs list and the button {% data variables.android-values.shared_string_show_on_map %} for showing another POIs near chosen point. |
 |OSM link| Object link to 0penStreetMap source: https://www.openstreetmap.org/node... or https://www.openstreetmap.org/way... |
