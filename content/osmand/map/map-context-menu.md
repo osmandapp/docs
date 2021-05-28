@@ -52,7 +52,6 @@ All actions available in the Context menu have been divided into **Main** and **
 - [{% data variables.android-values.get_directions %}](/osmand/widgets/map-buttons#directions) - allows you to plan route from your location to the selected point (or reverse) by clicking the 'Direction' button
 - [Details / {% data variables.android-values.shared_string_show_details %} ](/osmand/map/map-context-menu#details) - provide you with more information about the selected point.
 
-
 ### Additional
 - {% data variables.android-values.context_menu_item_directions_from %} - makes the chosen point as departure point for navigation.
 - {% data variables.android-values.context_menu_item_search %} - opens seach menu and searches near the chosen point.
@@ -61,18 +60,31 @@ All actions available in the Context menu have been divided into **Main** and **
 - {% data variables.android-values.plan_a_route %} (Android ?) - opens ["Plan a route"](/osmand/plan-route/create-route) tool and select chosen point as the beginning of the route.
 - {% data variables.android-values.avoid_road %} (Android ?) - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
 
-### * Audio-Video actions (Android)
+### Objects action
+
+- Restore marker
+- Mark marker as passed
+- Download map
+- Update map
+
+###  Online Maps
+
+- Update map
+- Download map
+
+### * Audio-Video (Android)
 - {% data variables.android-values.recording_context_menu_arecord %} - makes a [audio note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with audio icon).
 - {% data variables.android-values.recording_context_menu_vrecord%} - makes a [video note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with video icon).
 - {% data variables.android-values.recording_context_menu_precord %} - makes a [photo point](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on the map.
 
-### * OSM Editing  (Android)
+### * OSM Editing (Android)
 - {% data variables.android-values.poi_context_menu_modify %}  - allows to edit information of POI via [OpenStreetMap editing plugin](/osmand/plugins/osm-editing) to OSM data.
 - {% data variables.android-values.poi_context_menu_delete %}  - allows to edit information of POI via [OpenStreetMap editing plugin](/osmand/plugins/osm-editing) to OSM data.
 - {% data variables.android-values.context_menu_item_open_note %} - allows to add [OSM note](/osmand/plugins/osm-editing) for OSM community.
 
 ### * Parking point
 - {% data variables.android-values.context_menu_item_add_parking_point %} - makes the chosen point as [Parking position](/osmand/plugins/parking).
+
 
 ## Customize (Android advanced)
 
