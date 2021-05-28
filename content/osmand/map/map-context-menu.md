@@ -55,7 +55,7 @@ All actions available in the Context menu have been divided into **Main** and **
 ### Additional
 - {% data variables.android-values.context_menu_item_directions_from %} - makes the chosen point as departure point for navigation.
 - {% data variables.android-values.context_menu_item_search %} - opens seach menu and searches near the chosen point.
-- {% data variables.android-values.change_markers_position %} (Android ?) - moves the [map marker](/osmand/personal/markers) to new location.
+- {% data variables.android-values.change_markers_position %} (Android ?) - moves selected Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint  to another location.
 - {% data variables.android-values.context_menu_item_add_waypoint %} - makes selected point to a track as a waypoint.
 - {% data variables.android-values.plan_a_route %} (Android ?) - opens ["Plan a route"](/osmand/plan-route/create-route) tool and select chosen point as the beginning of the route.
 - {% data variables.android-values.avoid_road %} (Android ?) - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
