@@ -15,7 +15,7 @@ versions: '*'
 {% link_with_intro /public-transport %}
 
 # Map Related  (put links)
-- Contour lines 
-- Hillshade
-- Mapillary (Street-level imagery plugin)
-- Wikipedia (plugin / points overlay)
+- [Contour lines](/osmand/plugins/contour-lines)
+- [Hillshade](/osmand/plugins/contour-lines#terrain-settings)
+- [Mapillary (Street-level imagery plugin)](/osmand/plugins/mapillary)
+- [Wikipedia (plugin / points overlay)](/osmand/plugins/wikipedia)
