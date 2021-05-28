@@ -164,7 +164,7 @@ In order to clear map tiles cache you need to do next:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.local_indexes_cat_tile %} → choose online maps →  &#xe802; → {% data variables.android-values.clear_tile_data %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_installed %} → {% data variables.ios-values.online_raster_maps %} → i → {% data variables.ios-values.shared_string_clear_cache %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %} → {% data variables.ios-values.online_raster_maps %} → i → {% data variables.ios-values.shared_string_clear_cache %}
 
 ### Download / update tiles
 If you want to access raster maps offline, you might need to predownload tiles. It's possible to do on a mobile device though be aware that some services might block a large batch download. Same feature can be used to update already downloaded tiles for selected areas, otherwise OsmAnd will continue display tiles that are already stored in the cache. 
