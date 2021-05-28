@@ -24,9 +24,6 @@ Context menu will appear  when you hold  the any point on the Map with **long ta
 
 To hide the context menu, just click on any place on the map.
 
-### Object information
-
-
 ## Details
 In order to gain more details about object you need to click on the "Details" button in the Context menu or move this panel up. 
 
@@ -43,9 +40,33 @@ In order to gain more details about object you need to click on the "Details" bu
 |Online photos| Photos from [Mappillary](/osmand/plugins/mapillary), [OpenPlaceReviews](/osmand/plugins/openplacereviews), [Wikimedia](https://www.wikimedia.org/) sources. Click to image for opening image resource. |
 
 ## Actions
+All actions available in the Context menu have been divided into **Main** and **additional** (hidden in the Actions button).
 
-### Directions
+**Main actions**:
+- Add favorite - allows adding a selected point to the favorites list.
+- Marker - put marker on the selected point.
+- Share - allows sharing a selected point with another user.
+- Details - provide you with more information about the selected point.
+- Directions - allows you to plan route from your location to the selected point (or reverse) by clicking the 'Direction' button
+
+**Additional actions**:
+- {% data variables.android-values.context_menu_item_directions_from %} - makes the chosen point as Start point for navigation.
+- {% data variables.android-values.context_menu_item_search %} - open seach menu and allows to seaching near the chosen point.
+- {% data variables.android-values.change_markers_position %} (Android) - allows to move the [map marker](/osmand/personal/markers) to new location.
+- {% data variables.android-values.recording_context_menu_arecord %} (Android) - allows to make [audio notes] (/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with audio icon).
+- {% data variables.android-values.recording_context_menu_vrecord%} (Android) - allows to make [video note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with video icon).
+- {% data variables.android-values.recording_context_menu_precord %} (Android) - allows to Make [photo point](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on the map.
+- Modify POI
+- Open OSM Note
+- Add track waypoint
+- Mark as parking locattion
+- Plan route
+- Avoid route
+
+<!-- ### Directions
 You can easily get a route from your location to the selected point (or reverse) by clicking the 'Direction' button in the context menu. 
+
+
 ### Share
 You can share a selected point or object with another user by simply tap on the share icon in the Context menu.
 ### Search
@@ -74,7 +95,7 @@ In the table below there are all "Actions" of "Map Context menu" for chosen poin
 |{% data variables.android-values.recording_context_menu_vrecord%} (Android)| [Making video point on the map](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map).|
 |{% data variables.android-values.recording_context_menu_precord %} (Android)| [Making photo point on the map](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map).|
 |{% data variables.android-values.plan_a_route %} (Android)| [Opening "Plan a route" tool with chosen first point](/osmand/plan-route/create-route).|
-|{% data variables.android-values.avoid_road %} (Android)| [Adding avoid point for navigation](/osmand/navigation/route-navigation).|
+|{% data variables.android-values.avoid_road %} (Android)| [Adding avoid point for navigation](/osmand/navigation/route-navigation).|-->
 
 
 ## Customize (Android advanced)
