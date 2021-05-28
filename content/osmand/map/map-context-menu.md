@@ -56,7 +56,7 @@ All actions available in the Context menu have been divided into **Main** and **
 - {% data variables.android-values.recording_context_menu_arecord %} (Android) - allows to make [audio notes](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with audio icon).
 - {% data variables.android-values.recording_context_menu_vrecord%} (Android) - allows to make [video note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with video icon).
 - {% data variables.android-values.recording_context_menu_precord %} (Android) - allows to make [photo point](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on the map.
-- Modify POI {% data variables.android-values.context_menu_item_create_poi %} - allows to edit information of POI via [OpenStreetMap editing plugin](/osmand/plugins/osm-editing).
+- Modify POI - allows to edit information of POI via [OpenStreetMap editing plugin](/osmand/plugins/osm-editing).
 - {% data variables.android-values.context_menu_item_open_note %} - allows to add [OSM note](/osmand/plugins/osm-editing) for OSM community.
 - {% data variables.android-values.context_menu_item_add_waypoint %} - allows make selected point to a track as a waypoint.
 - {% data variables.android-values.context_menu_item_add_parking_point %} - allows to make the chosen point as [Parking position](/osmand/plugins/parking).
