@@ -33,23 +33,27 @@ In order to gain more details about object you need to click on the "Details" bu
 ![Context menu details_iOS](/assets/images/map/map_context_menu_details_ios.png)
 
 ### Coordinates 
-
+ Geographical coordinates of an object. Click to the description for opening coordinates types with copy it to buffer.
+ 
 ### Object info
+
+[Tag info](https://taginfo.openstreetmap.org/) Additional information about the object: <br> * phone number <br> *  website <br> * POI type <br> * opening hours <br> * height... <br><br> Click on the description for opening full information, copy to buffer, open website link and others. 
 
 ### Nearby Wikipedia
 
+[{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia) Nearby Wikipedia articles. Click the description for opening Wikipedia POIs list and the button '{% data variables.android-values.shared_string_show_on_map %}' for showing another Wikipedia POIs.
+
 ### Nearby POIs
+
+[{% data variables.android-values.speak_poi %}](https://wiki.openstreetmap.org/wiki/Points_of_interest)| Anothers POIs nearby chosen point. Click to description for opening POIs list and the button {% data variables.android-values.shared_string_show_on_map %} for showing another POIs near chosen point.
+
+### OSM link
+
+Object link to 0penStreetMap source: https://www.openstreetmap.org/node... or https://www.openstreetmap.org/way... 
 
 ### Online photos 
 
-|**Detail** | **Description** | **Image** |
-|:---------------|:---------------|:---------------|
-|[Tag info](https://taginfo.openstreetmap.org/)| Additional information about the object: <br> * phone number <br> *  website <br> * POI type <br> * opening hours <br> * height... <br><br> Click on the description for opening full information, copy to buffer, open website link and others. ||
-|[{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia)| Nearby Wikipedia articles. Click the description for opening Wikipedia POIs list and the button '{% data variables.android-values.shared_string_show_on_map %}' for showing another Wikipedia POIs.||
-|[{% data variables.android-values.speak_poi %}](https://wiki.openstreetmap.org/wiki/Points_of_interest)| Anothers POIs nearby chosen point. Click to description for opening POIs list and the button {% data variables.android-values.shared_string_show_on_map %} for showing another POIs near chosen point. ||
-|OSM link| Object link to 0penStreetMap source: https://www.openstreetmap.org/node... or https://www.openstreetmap.org/way... ||
-|Coordinates info| Geographical coordinates of an object. Click to the description for opening coordinates types with copy it to buffer.||
-|Online photos| Photos from [Mappillary](/osmand/plugins/mapillary), [OpenPlaceReviews](/osmand/plugins/openplacereviews), [Wikimedia](https://www.wikimedia.org/) sources. Click to image for opening image resource. ||
+Photos from [Mappillary](/osmand/plugins/mapillary), [OpenPlaceReviews](/osmand/plugins/openplacereviews), [Wikimedia](https://www.wikimedia.org/) sources. Click to image for opening image resource. 
 
 ## Actions
 All actions available in the Context menu have been divided into **Main** and **additional** (hidden in the Actions button).
@@ -58,59 +62,49 @@ All actions available in the Context menu have been divided into **Main** and **
 
 ### Add / Edit Favorite
 
+- [{% data variables.android-values.add_edit_favorite %}](/osmand/personal/myplaces)  - adds a selected point to the favorites list.
+- 
 ### Add / Edit Marker
 
 - Restore marker
 - Mark marker as passed
-- Add / Edit Marker
+- [{% data variables.android-values.shared_string_marker %} / {% data variables.android-values.edit_map_marker %}](/osmand/personal/markers) - put marker on the selected point.
 
 ### Share
 
+- **{% data variables.android-values.shared_string_share %}** - shares a selected point with another user
+
 ### Directions To / From 
 
+- [{% data variables.android-values.get_directions %}](/osmand/widgets/map-buttons#directions) - allows you to plan route from your location to the selected point (or reverse) by clicking the 'Direction' button
+- {% data variables.android-values.context_menu_item_directions_from %} - makes the chosen point as departure point for navigation.
+
 ### Plan a route
+- {% data variables.android-values.plan_a_route %} (Android ?) - opens ["Plan a route"](/osmand/plan-route/create-route) tool and select chosen point as the beginning of the route.
 
 ### Avoid road
+- {% data variables.android-values.avoid_road %} (Android ?) - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
 
 ### Add track waypoint
 
+- {% data variables.android-values.context_menu_item_add_waypoint %} - makes selected point to a track as a waypoint.
+
 ### Search
 
+- {% data variables.android-values.context_menu_item_search %} - opens seach menu and searches near the chosen point.
+
 ### Change position (Move)
+- {% data variables.android-values.change_markers_position %} - moves selected Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint  to another location.
 
 ### Update / Download Online Maps
 
-### Update / Download Vector Maps
-
-
-
-### Main 
-
-- [{% data variables.android-values.add_edit_favorite %}](/osmand/personal/myplaces)  - adds a selected point to the favorites list.
-- [{% data variables.android-values.shared_string_marker %} / {% data variables.android-values.edit_map_marker %}](/osmand/personal/markers) - put marker on the selected point.
-- **{% data variables.android-values.shared_string_share %}** - shares a selected point with another user
-- [{% data variables.android-values.get_directions %}](/osmand/widgets/map-buttons#directions) - allows you to plan route from your location to the selected point (or reverse) by clicking the 'Direction' button
-- [Details / {% data variables.android-values.shared_string_show_details %} ](/osmand/map/map-context-menu#details) - provide you with more information about the selected point.
-
-### Additional
-- {% data variables.android-values.context_menu_item_directions_from %} - makes the chosen point as departure point for navigation.
-- {% data variables.android-values.context_menu_item_search %} - opens seach menu and searches near the chosen point.
-- {% data variables.android-values.change_markers_position %} (Android ?) - moves selected Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint  to another location.
-- {% data variables.android-values.context_menu_item_add_waypoint %} - makes selected point to a track as a waypoint.
-- {% data variables.android-values.plan_a_route %} (Android ?) - opens ["Plan a route"](/osmand/plan-route/create-route) tool and select chosen point as the beginning of the route.
-- {% data variables.android-values.avoid_road %} (Android ?) - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
-
-### Buttons
-
-- Restore marker
-- Mark marker as passed
-- Download map vector
-- Update map vector
-
-###  Online Maps
-
 - Update map
 - Download map
+
+### Update / Download Vector Maps
+
+- Download map vector
+- Update map vector
 
 ### * Audio-Video (Android)
 - {% data variables.android-values.recording_context_menu_arecord %} - makes a [audio note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with audio icon).
