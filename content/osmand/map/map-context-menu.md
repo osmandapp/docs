@@ -6,37 +6,32 @@ versions: '*'
 {% data reusables.general.article-not-complete %}
 
 ## Context menu 
-
+In order to open Context menu you should tap on the object or place on the Map. There are two types of action: by short tap, by long tap.
 
 ### Select an object (short tap)
+Context menu will appear when you **short tap** on the marked object on the Map. In this case context menu provides you with the information of the POI name, icon (how it marked on the map),  address, distance and direction from the current position.
 
-In order to call Context menu you should tap on the object or place on the Map. There are two types of action: by short tap, by long tap.
-
-- **Short tap** - is selecting only an object that has [a node](https://wiki.openstreetmap.org/wiki/Node) or [a way](https://wiki.openstreetmap.org/wiki/Way). In the context menu shows the POI name, address, distance and direction from the current position and  POI icon (how it marked on the map). 
-
+**Note**: This only applies to objects that have [a node](https://wiki.openstreetmap.org/wiki/Node) or [a way](https://wiki.openstreetmap.org/wiki/Way).
 
 ![Context menu Android](/assets/images/map/map_context_menu_short_tap_android.png)  ![Context menu iOS](/assets/images/map/map_context_menu_short_tap_ios.png) 
 
-
 ### Select any point (long tap)
-- **Long tap** - is selecting a geographical point. In the context menu shows address, distance and direction from the current position and as icon is the location mark. 
+Context menu will appear  when you hold  the any point on the Map with **long tap**. In this case context menu provides you with the information of georraphical point address , distance and direction from the current position and as icon is the location mark. 
 
 ![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) ![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)  |
 
 ### Hide context menu
 
+To hide the context menu, just click on any place on the map.
+
 ### Object information
 
 
 ## Details
-
-|Android|iOS|
-|-|-|
-|![Context menu details_Android](/assets/images/map/map_context_menu_details_android.png) | ![Context menu details_iOS](/assets/images/map/map_context_menu_details_ios.png)|
-
 In order to gain more details about object you need to click on the "Details" button in the Context menu or move this panel up. 
 
-
+![Context menu details_Android](/assets/images/map/map_context_menu_details_android.png) 
+![Context menu details_iOS](/assets/images/map/map_context_menu_details_ios.png)
 
 |**Detail** | **Description** |
 |:---------------|:---------------|
@@ -50,12 +45,14 @@ In order to gain more details about object you need to click on the "Details" bu
 ## Actions
 
 ### Directions
-
+You can easily get a route from your location to the selected point (or reverse) by clicking the 'Direction' button in the context menu. 
 ### Share
-
+You can share a selected point or object with another user by simply tap on the share icon in the Context menu.
 ### Search
 
 ### * Create POI
+
+
 In the table below there are all "Actions" of "Map Context menu" for chosen point on the map. 
 
 |Detail | Description |
