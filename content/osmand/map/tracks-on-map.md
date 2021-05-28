@@ -10,6 +10,10 @@ versions: '*'
 
 Track is [user data](/osmand/personal/myplaces) that showed [recorded](/osmand/plugins/trip-recording) or [planning trip](/osmand/plan-route). 
 
+| Android | iOS |
+| :--- | :--- |
+| ![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) |![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) |
+
 For showing or not [GPX-tracks](/osmand/personal/myplaces) on the map.
 
 **1. {% data variables.android-values.configure_map %} menu**
@@ -34,15 +38,30 @@ For showing or not [GPX-tracks](/osmand/personal/myplaces) on the map.
 | Click to a track on the map → Tap on the "Eye" button  or {% data variables.android-values.shared_string_menu %}  → {% data variables.android-values.shared_string_show_on_map %} |  |
 |   ![Eye button Android](/assets/images/map/eye_button_android.png) |  |
 
+## Routes on the map
+
+The route is a line on the map that shows a user's creating trip. In OsmAnd users create a route by [Navigation function](/osmand/navigation).
+
 | Android | iOS |
 | :--- | :--- |
-| ![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) |![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) |
+| ![Route on the map Android](/assets/images/map/route_layer_android.png) |![Route on the map iOS](/assets/images/map/route_layer_ios.png) |
 
-How to start recording and to change GPX-track appearance for chosen GPX-track read [here](/osmand/plugins/trip-recording).
+### Customize route line (Android)
 
-How to create own GPX-track by "Plan a route" tool read [here](/osmand/plan-route).
+In OsmAnd for Android, [a user can customize](/osmand/personal/profiles) route line: color and width.
 
-## Routes on the map
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.profile_appearance %} → {% data variables.android-values.customize_route_line %}
+
+![Route Customization Android](/assets/images/map/route_custom_android.png)
+
+
+## Read more
+
+- [Configure map menu](/osmand/map/configure-map-menu).
+  
+- [Trip recording](/osmand/plugins/trip-recording).
+  
+-[Plan a route](/osmand/plan-route) tool.
 
 
 
