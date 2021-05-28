@@ -7,7 +7,7 @@ versions: '*'
 
 ## Public transport layer on the map
 
-Detailed info about public transport on the map read [here](/osmand/map/vector-maps#transport).
+Detailed info about Public transport layer on the map read [here](/osmand/map/vector-maps#transport).
 
 
 | Android | iOS |
