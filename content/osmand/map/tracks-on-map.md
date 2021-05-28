@@ -27,11 +27,11 @@ For showing or not [GPX-tracks](/osmand/personal/myplaces) on the map.
 |   {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_files %} → &#xe802; → {% data variables.android-values.shared_string_show_on_map %}  or "Map" button for choosing multiple tracks  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → &#8250; → {% data variables.ios-values.map_settings_show %} or "Layer" button for choosing multiple tracks  |
 |   ![Tracks my places Android](/assets/images/map/tracks_myplaces_android.png) | ![Tracks menu iOS](/assets/images/map/tracks_myplaces_ios.png) |
 
-**3. Context track menu**
+**3. Context track menu (Android)**
 
 | Android | iOS |
 | :--- | :--- |
-| Click to a track on the map → Tap on the "Eye" button   |  |
+| Click to a track on the map → Tap on the "Eye" button  or {% data variables.android-values.shared_string_menu %}  → {% data variables.android-values.shared_string_show_on_map %} |  |
 |   ![Eye button Android](/assets/images/map/eye_button_android.png) |  |
 
 | Android | iOS |
