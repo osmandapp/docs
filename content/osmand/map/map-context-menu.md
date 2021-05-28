@@ -42,12 +42,16 @@ In order to gain more details about object you need to click on the "Details" bu
 ## Actions
 All actions available in the Context menu have been divided into **Main** and **additional** (hidden in the Actions button).
 
+**Here will be an image**.
+
 ### Main 
-- Add favorite - allows adding a selected point to the favorites list.
-- [Marker](/osmand/personal/markers) - put marker on the selected point.
-- Share - allows sharing a selected point with another user.
+
+- [{% data variables.android-values.add_edit_favorite %}](/osmand/personal/myplaces)  - allows adding a selected point to the favorites list.
+- {% data variables.android-values.shared_string_share %} - sharing a selected point with another user
+- [{% data variables.android-values.edit_map_marker %}](/osmand/personal/markers) - put marker on the selected point.
+- [{% data variables.android-values.get_directions %}](/osmand/widgets/map-buttons#directions) - allows you to plan route from your location to the selected point (or reverse) by clicking the 'Direction' button
 - [Details](/osmand/map/map-context-menu#details) - provide you with more information about the selected point.
-- [Directions](/osmand/widgets/map-buttons#directions) - allows you to plan route from your location to the selected point (or reverse) by clicking the 'Direction' button
+
 
 ### Additional
 - {% data variables.android-values.context_menu_item_directions_from %} - makes the chosen point as departure point for navigation.
