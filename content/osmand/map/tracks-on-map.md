@@ -61,7 +61,7 @@ In OsmAnd for Android, [a user can customize](/osmand/personal/profiles) route l
   
 - [Trip recording](/osmand/plugins/trip-recording).
   
--[Plan a route](/osmand/plan-route) tool.
+- [Plan a route](/osmand/plan-route) tool.
 
 
 
