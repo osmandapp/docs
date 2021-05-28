@@ -147,7 +147,7 @@ In order to change tile format you can choose {% data variables.android-values.s
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.local_indexes_cat_tile %} → choose online maps →  &#xe802; → {% data variables.android-values.shared_string_edit %} → {% data variables.android-values.storage_format %} → {% data variables.android-values.sqlite_db_file %} / {% data variables.android-values.one_image_per_tile %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_installed %} → {% data variables.ios-values.online_raster_maps %} → i → {% data variables.ios-values.shared_string_edit %} → {% data variables.ios-values.res_source_format %} → {% data variables.ios-values.res_source_sqlite %} / {% data variables.ios-values.res_source_one_per_tile %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %} → {% data variables.ios-values.online_raster_maps %} → i → {% data variables.ios-values.shared_string_edit %} → {% data variables.ios-values.res_source_format %} → {% data variables.ios-values.res_source_sqlite %} / {% data variables.ios-values.res_source_one_per_tile %}
 
 
 ### Clear raster map cache
@@ -156,7 +156,7 @@ Tiles are saved in the cache during usage of Online Raster maps as Main / Overla
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.local_indexes_cat_tile %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_installed %} → {% data variables.ios-values.online_raster_maps %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %} → {% data variables.ios-values.online_raster_maps %}
 
 ![Online sources list](/assets/images/plugins/online-maps/online-sources-list.png)
 
