@@ -39,6 +39,8 @@ OsmAnd is a free application with in app purchases. You can access purchases men
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.purchases %}
 
+You can add in-app purchases to [the Family Sharing - Apple](https://support.apple.com/en-us/HT201088).
+
 Here is detailed information about all in apps with prices for US / Europe region. For other regions, prices are equivalent in local currencies.
 
 |  Purchase  | Description   | Price |
