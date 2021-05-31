@@ -72,7 +72,7 @@ In the Context menu you can find geographical coordinates of an object. In order
 
 ### OSM link
 
-Via OpenStreetMap link you can go to the OpenStreetMap website to find more information about the pbject: https://www.openstreetmap.org/node or https://www.openstreetmap.org/way
+OpenStreetMap link provides you the access to the OpenStreetMap website to get more information about the object: https://www.openstreetmap.org/node or https://www.openstreetmap.org/way
 ![OSM link](/assets/images/map/context_menu_OSM_link.png)
 
 ### Online photos 
