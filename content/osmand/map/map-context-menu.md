@@ -33,7 +33,7 @@ In order to gain more details about object you need to click on the "Details" bu
 ![Context menu details_iOS](/assets/images/map/map_context_menu_details_ios.png)
  
 ### Object info
-If you press the details button or move the Context menu panel up appears the [Tag info](https://taginfo.openstreetmap.org/) about the object. This info could be copied to the  buffer by a tap on it:
+If you press the details button or move the Context menu panel up appears the [Tag info](https://taginfo.openstreetmap.org/) about the object. This info could be copied to the  buffer by tap on it:
 - Website
 - Working hours
 - Height
@@ -43,14 +43,14 @@ If you press the details button or move the Context menu panel up appears the [T
 - Access for the wheelchairs
 - Wikipedia article
 - Nearby Wikipedia articles
-- Nearby POI 'name'
+- Nearby POI
 - OpenStreetMap link
 - Coordinates
 - Online photo
 - etc.
 
 ### Coordinates 
-In the Context menu you can find geographical coordinates of an object. In order to see the coordinates you should click to the description for opening coordinates types. To copy it to the buffer, you should tap on it. There are 7 kinds of available coordinates and 1 link. You can select any of it to display or copy. For example:
+In the Context menu you can find geographical coordinates of an object. In order to see the coordinates you should click on the description for opening coordinates types. To copy it to the buffer, you should tap on it. There are 7 kinds of available coordinates and 1 link. You can select any of it to display or copy:
 
 1. DD: 50.44186 30.50986
 2. DDD.DDDDD: 50.44186° N, 30.50986° E
@@ -58,15 +58,16 @@ In the Context menu you can find geographical coordinates of an object. In order
 4. DDD MM SS.S: 50°26′30.7″ N, 30°30′35.5″ E
 5. UTM Standard: 36N 323190 5590723
 6. MGRS: 36U UA 23190 90723
-7. Link: https://osmand.net/go?lat=50.44185613313574&lon=30.509859323501587&z=17.
+7. OLC: 9G2GCGR5+PW
+8. Link: https://osmand.net/go?lat=50.44185613313574&lon=30.509859323501587&z=17.
 
 ### Nearby Wikipedia
 
 [{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia) - click the description for opening Wikipedia POIs list and the button '{% data variables.android-values.shared_string_show_on_map %}' for showing another Wikipedia POIs.
 
-**Note**:[{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia) will appear only if you previously downloaded Wikipedia articles for the area.
+**Note**: [{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia) will appear only if you previously downloaded Wikipedia articles for the area.
 
-![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia_articles_list.png) 
+![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia_articles_list.png)
 ![Wikipedia article](/assets/images/map/map_context_menu_Wikipedia_article.png)
 
 ### Nearby POIs
@@ -82,7 +83,6 @@ In the Contex menu you can find OpenStreetMap link: https://www.openstreetmap.or
 Photos from [Mappillary](/osmand/plugins/mapillary), [OpenPlaceReviews](/osmand/plugins/openplacereviews), [Wikimedia](https://www.wikimedia.org/) sources. Click to image for opening image resource. 
 
 ## Actions
-All actions available in the Context menu have been divided into **Main** and **additional** (hidden in the Actions button).
 
 **Here will be an image**.
 
