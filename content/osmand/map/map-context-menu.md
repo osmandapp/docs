@@ -33,7 +33,7 @@ In order to gain more details about object you need to click on the "Details" bu
 ![Context menu details_iOS](/assets/images/map/map_context_menu_details_ios.png)
  
 ### Object info
-If you press the details button or move the Context menu panel up, additional information or [Tag info](https://taginfo.openstreetmap.org/) about the object appears. This info could be copied to the  buffer by a tap on it:
+If you press the details button or move the Context menu panel up appears the [Tag info](https://taginfo.openstreetmap.org/) about the object. This info could be copied to the  buffer by a tap on it:
 - Website
 - Working hours
 - Height
