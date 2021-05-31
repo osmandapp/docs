@@ -52,8 +52,10 @@ If you press the details button or move the Context menu panel up appears the [T
 In the Context menu you can find geographical coordinates of an object. In order to see the coordinates you should click on the description for opening coordinates types. To copy it to the buffer, you should tap on it. There are 7 kinds of available coordinates and 1 link. You can select any of it to display or copy:
 
 | | |
+|------|------|
 |Coordinates|Example|
-|• DD: 50.44186 30.50986 <br> • DDD.DDDDD: 50.44186° N, 30.50986° E <br> • DDD MM.MMM: 50°26.511′ N, 30°30.592′ E <br> • DDD MM.MMM: 50°26.511′ N, 30°30.592′ E <br> • DDD MM.MMM: 50°26.511′ N, 30°30.592′ E <br> • DDD MM SS.S: 50°26′30.7″ N, 30°30′35.5″ E <br> • UTM Standard: 36N 323190 5590723 <br> • UTM Standard: 36N 323190 5590723 <br> • MGRS: 36U UA 23190 90723 <br> • OLC: 9G2GCGR5+PW <br> • Link: https://osmand.net/go?lat=50.44185613313574&lon=30.509859323501587&z=17|![Coordinates](/assets/images/map/map_context_menu_Coordinates.png)|
+|• Decimal degrees (DD) <br> • DDD.DDDDD <br> • DDD MM.MMM <br> • DDD MM.MMM <br> • DDD MM.MMM <br> • DDD MM SS.S <br> • UTM Standard <br> • UTM Standard:  <br> • MGRS <br> • OLC <br> • Link|![Coordinates](/assets/images/map/map_context_menu_Coordinates.png)|
+
 
 ### Nearby Wikipedia
 
@@ -79,6 +81,7 @@ Photos from [Mappillary](/osmand/plugins/mapillary), [OpenPlaceReviews](/osmand/
 ![Online photo](/assets/images/map/context_menu_Online_photo.png)
 
 ## Actions
+
 
 ![Context menu Actions](/assets/images/map/context_menu_Actions.png)
 
