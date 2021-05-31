@@ -13,11 +13,13 @@ Context menu will appear when you **short tap** on the marked object on the Map.
 
 **Note**: Selectable map objects are OpenStreetMap [node](https://wiki.openstreetmap.org/wiki/Node) or [way](https://wiki.openstreetmap.org/wiki/Way).
 
+*** Align screenshots ***
 ![Context menu Android](/assets/images/map/map_context_menu_short_tap_android.png)  ![Context menu iOS](/assets/images/map/map_context_menu_short_tap_ios.png) 
 
 ### Select any point (long tap)
 Context menu will appear when you hold at any point on the Map with **long tap**. In this case context menu provides you the information of geographical point address, distance and direction from your current position. 
 
+*** Align screenshots ***
 ![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) ![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)
 
 ### Hide context menu
@@ -29,6 +31,7 @@ To hide the context menu:
 ## Details
 In order to gain more details about object you need to click on the "Details" button in the Context menu or move the panel up. 
 
+*** Split screenshot ***
 ![Context menu](/assets/images/map/Context_menu.png)
  
 ### Object info
@@ -39,9 +42,9 @@ In order to gain more details about object you need to click on the "Details" bu
 - Nearby POI
 - Public Transport routes (on transport stops)
 - OpenStreetMap link
-- Wikipedia article
+- Article image / description
 - Online photos
-- [OpenStreetMap Details](https://taginfo.openstreetmap.org/)
+- [OpenStreetMap Details](https://wiki.openstreetmap.org/wiki/Map_features)
     - [Alternative names](https://wiki.openstreetmap.org/wiki/Names)
     - [Website](https://wiki.openstreetmap.org/wiki/Key:website)
     - [Phone number](https://wiki.openstreetmap.org/wiki/Key:contact)
@@ -52,30 +55,34 @@ In order to gain more details about object you need to click on the "Details" bu
     - etc.
 
 ### Coordinates 
-In the Context menu you can find geographical coordinates of an object. If you expand this section, you will see location in various geo formats and shareable OsmAnd Link. If you click on any item it will be automatically copied to the clipboard. With OsmAnd Web Link you can send location to any device and it will be automatically recognized by OsmAnd.
+In the Context menu you can find geographical coordinates of an object. If you expand this section, you will see location in various geo formats and shareable OsmAnd Link. If you click on any item it will be automatically copied to the clipboard. 
 
 |Coordinates format||
 |------|------|
-|• Decimal degrees (DD) <br> • DDD.DDDDD <br> • DDD MM.MMM <br> • DDD MM.MMM <br> • DDD MM.MMM <br> • DDD MM SS.S <br> • [UTM Standard](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system)  <br> • [MGRS](https://en.wikipedia.org/wiki/Military_Grid_Reference_System) <br> • [Open Location Code](https://en.wikipedia.org/wiki/Open_Location_Code) <br> • [OsmAnd Web Link](https://osmand.net/go.html) |![Coordinates](/assets/images/map/map_context_menu_Coordinates.png)|
+|• DDD.DDDDD (Plain Decimal Degress) <br> • DDD.DDDDD (N/S, E/W comma) <br> • DDD MM.MMM <br> • DDD MM SS.S <br> • [UTM Standard](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system)  <br> • [MGRS](https://en.wikipedia.org/wiki/Military_Grid_Reference_System) <br> • [Open Location Code](https://en.wikipedia.org/wiki/Open_Location_Code) <br> • [OsmAnd Web Link](https://osmand.net/go.html) |![Coordinates](/assets/images/map/map_context_menu_Coordinates.png)|
 
+With OsmAnd Web Link you can send location to any device and it will be automatically recognized by OsmAnd.
 
-### Nearby Wikipedia
+### Nearby POIs/ Wikipedia
 
-[{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia) - click the description for opening Wikipedia POIs list and the button '{% data variables.android-values.shared_string_show_on_map %}' for showing another Wikipedia POIs.
+[{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia) displays nearby Wikipedia articles or Points of Interest with '{% data variables.android-values.shared_string_show_on_map %}' and '{% data variables.android-values.search_more %}' to display and search all other POI & wikipedia articles.
 
-**Note**: [{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia) will appear only if you previously downloaded Wikipedia articles for the area.
+**Note**: [{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia) will appear only if you previously downloaded special maps with Wikipedia articles for this area.
+
+*** Update screenshot ***
 
 ![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia.png)
 
-### Nearby POIs
-
-[{% data variables.android-values.speak_poi %}](https://wiki.openstreetmap.org/wiki/Points_of_interest) - click the description for opening POIs list and the button {% data variables.android-values.shared_string_show_on_map %} for showing another POIs near chosen point
-
-![Nearby POI](/assets/images/map/context_menu_Nearby_POI.png)
-
 ### Public Transport Routes
 
-### OSM link
+{% data reusables.general.article-not-complete %}
+
+### Article image / description
+
+![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia.png)
+{% data reusables.general.article-not-complete %}
+
+### OpenStreetMap link
 
 OpenStreetMap link provides you the access to the OpenStreetMap website where you can find more information about the object: https://www.openstreetmap.org/node or https://www.openstreetmap.org/way.
 
