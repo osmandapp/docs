@@ -33,29 +33,30 @@ In order to gain more details about object you need to click on the "Details" bu
  
 ### Object info
  This panel includes additional information about the object. This info could be copied to the buffer by tap on it. Additional information about object includes:
-- Website link.
-- Working hours.
-- Height.
-- Phone number.
-- Alternative name/ Historical name/ Old name/ Build name.
-- Fee (if the entrance can be paid).
-- Access for the wheelchairs.
-- Wikipedia article.
-- Nearby Wikipedia articles.
-- Nearby POI.
-- OpenStreetMap link.
-- Coordinates.
-- Online photo.
-- etc.
 
-[Tag info](https://taginfo.openstreetmap.org/)
+- Coordinates
+- Nearby Wikipedia articles
+- Nearby POI
+- Public Transport routes (on transport stops)
+- OpenStreetMap link
+- Wikipedia article
+- Online photos
+- [OpenStreetMap Details](https://taginfo.openstreetmap.org/)
+    - [Alternative names](https://wiki.openstreetmap.org/wiki/Names)
+    - [Website](https://wiki.openstreetmap.org/wiki/Key:website)
+    - [Phone number](https://wiki.openstreetmap.org/wiki/Key:contact)
+    - [Working hours](https://wiki.openstreetmap.org/wiki/Key:opening_hours)
+    - [Fee](https://wiki.openstreetmap.org/wiki/Key:fee)
+    - [Accessibility](https://wiki.openstreetmap.org/wiki/Key:wheelchair)
+    - [Width](https://wiki.openstreetmap.org/wiki/Key:width) / [Height](https://wiki.openstreetmap.org/wiki/Key:height)
+    - etc.
 
 ### Coordinates 
-In the Context menu you can find geographical coordinates of an object. In order to see the coordinates you should click on the description for opening coordinates types. To copy it to the buffer, you should tap on it. There are 7 kinds of available coordinates and 1 link. You can select any of it to display or copy:
+In the Context menu you can find geographical coordinates of an object. If you expand this section, you will see location in various geo formats and shareable OsmAnd Link. If you click on any item it will be automatically copied to the clipboard. With OsmAnd Web Link you can send location to any device and it will be automatically recognized by OsmAnd.
 
 |Coordinates format||
 |------|------|
-|• Decimal degrees (DD) <br> • DDD.DDDDD <br> • DDD MM.MMM <br> • DDD MM.MMM <br> • DDD MM.MMM <br> • DDD MM SS.S <br> • UTM Standard  <br> • MGRS <br> • OLC <br> • Link|![Coordinates](/assets/images/map/map_context_menu_Coordinates.png)|
+|• Decimal degrees (DD) <br> • DDD.DDDDD <br> • DDD MM.MMM <br> • DDD MM.MMM <br> • DDD MM.MMM <br> • DDD MM SS.S <br> • [UTM Standard](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system)  <br> • [MGRS](https://en.wikipedia.org/wiki/Military_Grid_Reference_System) <br> • [Open Location Code](https://en.wikipedia.org/wiki/Open_Location_Code) <br> • [OsmAnd Web Link](https://osmand.net/go.html) |![Coordinates](/assets/images/map/map_context_menu_Coordinates.png)|
 
 
 ### Nearby Wikipedia
