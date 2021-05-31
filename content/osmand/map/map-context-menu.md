@@ -32,21 +32,23 @@ In order to gain more details about object you need to click on the "Details" bu
 ![Context menu](/assets/images/map/Context_menu.png)
  
 ### Object info
-If you press the details button or move the Context menu panel up appears the [Tag info](https://taginfo.openstreetmap.org/) about the object. This info could be copied to the  buffer by tap on it:
-- Website
-- Working hours
-- Height
-- Phone number
-- Alternative name/ Historical name/ Old name/ Build name
-- Fee (if the entrance can be paid)
-- Access for the wheelchairs
-- Wikipedia article
-- Nearby Wikipedia articles
-- Nearby POI
-- OpenStreetMap link
-- Coordinates
-- Online photo
+ This panel includes additional information about the object. This info could be copied to the buffer by tap on it. Additional information about object includes:
+- Website link.
+- Working hours.
+- Height.
+- Phone number.
+- Alternative name/ Historical name/ Old name/ Build name.
+- Fee (if the entrance can be paid).
+- Access for the wheelchairs.
+- Wikipedia article.
+- Nearby Wikipedia articles.
+- Nearby POI.
+- OpenStreetMap link.
+- Coordinates.
+- Online photo.
 - etc.
+
+[Tag info](https://taginfo.openstreetmap.org/)
 
 ### Coordinates 
 In the Context menu you can find geographical coordinates of an object. In order to see the coordinates you should click on the description for opening coordinates types. To copy it to the buffer, you should tap on it. There are 7 kinds of available coordinates and 1 link. You can select any of it to display or copy:
@@ -62,6 +64,7 @@ In the Context menu you can find geographical coordinates of an object. In order
 [{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia) - click the description for opening Wikipedia POIs list and the button '{% data variables.android-values.shared_string_show_on_map %}' for showing another Wikipedia POIs.
 
 **Note**: [{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia) will appear only if you previously downloaded Wikipedia articles for the area.
+
 ![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia.png)
 
 ### Nearby POIs
@@ -72,16 +75,19 @@ In the Context menu you can find geographical coordinates of an object. In order
 
 ### OSM link
 
-OpenStreetMap link provides you the access to the OpenStreetMap website to get more information about the object: https://www.openstreetmap.org/node or https://www.openstreetmap.org/way
+OpenStreetMap link provides you the access to the OpenStreetMap website where you can find more information about the object: https://www.openstreetmap.org/node or https://www.openstreetmap.org/way.
+
 ![OSM link](/assets/images/map/context_menu_OSM_link.png)
 
 ### Online photos 
 
-Photos from [Mappillary](/osmand/plugins/mapillary), [OpenPlaceReviews](/osmand/plugins/openplacereviews), [Wikimedia](https://www.wikimedia.org/) sources. Click to image for opening image resource. 
+In this section, you can view photos of the object from different sources. Such as [Mappillary](/osmand/plugins/mapillary), [OpenPlaceReviews](/osmand/plugins/openplacereviews), [Wikimedia](https://www.wikimedia.org/). Click to image for opening image resource. 
+
 ![Online photo](/assets/images/map/context_menu_Online_photo.png)
 
 ## Actions
 
+It is a set of specific manipulations that can be performed on a point or object. This menu has been divided into two parts. One of them is visible on the main screen and another one is hidden to activate it you need to press the 'Actions' button.
 
 ![Context menu Actions](/assets/images/map/context_menu_Actions.png)
 
