@@ -39,6 +39,7 @@ In order to gain more details about object you need to click on the "Details" bu
 - Nearby Wikipedia articles
 - Nearby POI
 - Public Transport routes (on transport stops)
+- Favorites / Track Points from the same group
 - OpenStreetMap link
 - Article image / description
 - Online photos
@@ -63,7 +64,7 @@ With OsmAnd Web Link you can send location to any device and it will be automati
 
 ### Nearby POIs/ Wikipedia
 
-[{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia) displays nearby Wikipedia articles or Points of Interest with '{% data variables.android-values.shared_string_show_on_map %}' and '{% data variables.android-values.search_more %}' to display and search all other POI & wikipedia articles.
+These sections displays nearby Wikipedia articles or Points of Interest with '{% data variables.android-values.shared_string_show_on_map %}' and '{% data variables.android-values.search_more %}' to display and search all other POI & wikipedia articles.
 
 **Note**: [{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia) will appear only if you previously downloaded special maps with Wikipedia articles for this area.
 
@@ -75,26 +76,35 @@ With OsmAnd Web Link you can send location to any device and it will be automati
 
 {% data reusables.general.article-not-complete %}
 
+### Favorites / Track Points from the group
+
+{% data reusables.general.article-not-complete %}
+
 ### Article image / description
 
-![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia.png)
 {% data reusables.general.article-not-complete %}
+![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia.png)
+
 
 ### OpenStreetMap link
 
-OpenStreetMap link provides you the access to the OpenStreetMap website where you can find more information about the object: https://www.openstreetmap.org/node or https://www.openstreetmap.org/way.
+OpenStreetMap link provides direct link to the OpenStreetMap object where you can find complete information about it (https://www.openstreetmap.org/node or https://www.openstreetmap.org/way).
+
+*** Split screenshot ***
 
 ![OSM link](/assets/images/map/context_menu_OSM_link.png)
 
 ### Online photos 
 
-In this section, you can view photos of the object from different sources. Such as [Mappillary](/osmand/plugins/mapillary), [OpenPlaceReviews](/osmand/plugins/openplacereviews), [Wikimedia](https://www.wikimedia.org/). Click to image for opening image resource. 
+In this section, you can view photos of the object from different sources web sources. Such as [Mapillary](/osmand/plugins/mapillary) - takes the best and the closest photos from Street-Level view, [OpenPlaceReviews](/osmand/plugins/openplacereviews) - takes photos associated with this object, [Wikimedia](https://www.wikimedia.org/) - takes urls from OpenStreetMap tags **image**, **wikimedia**. Click on the image to open in full size.
 
 ![Online photo](/assets/images/map/context_menu_Online_photo.png)
 
 ## Actions
 
-It is a set of specific manipulations that can be performed on a point or object. This menu has been divided into two parts. One of them is visible on the main screen and another one is hidden to activate it you need to press the 'Actions' button.
+It is a set of specific manipulations that can be performed on a point or object. This menu is split into two parts: visible section consists of maximum 3 actions and other actions are accessible by 'Actions' button. You can customize the order of actions in [General settings](#customize-android-advanced).
+
+*** Update screenshot ***
 
 ![Context menu Actions](/assets/images/map/context_menu_Actions.png)
 
