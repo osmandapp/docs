@@ -6,19 +6,19 @@ versions: '*'
 {% data reusables.general.article-not-complete %}
 
 ## Context menu 
-In order to open Context menu you should tap on the object or place on the Map. There are two types of action: by short tap, by long tap.
+In order to open Context menu you should tap on the object on the Map. There are two types of map contet menu: selecting an object - by short tap, selecting any precise point on the map - by long tap.
 
 ### Select an object (short tap)
-Context menu will appear when you **short tap** on the marked object on the Map. In this case context menu provides you with the information of the POI name, icon (how it marked on the map),  address, distance and direction from the current position.
+Context menu will appear when you **short tap** on the marked object on the Map. In this case context menu provides you the information of the object name & icon (how it is marked on the map),  address, distance and direction from your current position. By this method you can select POI, Favorite, Transport stop, Marker or Map Object.
 
-**Note**: This only applies to objects that have [a node](https://wiki.openstreetmap.org/wiki/Node) or [a way](https://wiki.openstreetmap.org/wiki/Way).
+**Note**: Selectable map objects are OpenStreetMap [node](https://wiki.openstreetmap.org/wiki/Node) or [way](https://wiki.openstreetmap.org/wiki/Way).
 
 ![Context menu Android](/assets/images/map/map_context_menu_short_tap_android.png)  ![Context menu iOS](/assets/images/map/map_context_menu_short_tap_ios.png) 
 
 ### Select any point (long tap)
-Context menu will appear  when you hold  the any point on the Map with **long tap**. In this case context menu provides you with the information of georraphical point address , distance and direction from the current position and as icon is the location mark. 
+Context menu will appear when you hold at any point on the Map with **long tap**. In this case context menu provides you the information of geographical point address, distance and direction from your current position. 
 
-![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) ![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)  |
+![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) ![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)
 
 ### Hide context menu
 
@@ -27,7 +27,7 @@ To hide the context menu:
 - Drag down by the top of menu 
 
 ## Details
-In order to gain more details about object you need to click on the "Details" button in the Context menu or move this panel up. 
+In order to gain more details about object you need to click on the "Details" button in the Context menu or move the panel up. 
 
 ![Context menu](/assets/images/map/Context_menu.png)
  
@@ -53,10 +53,9 @@ In order to gain more details about object you need to click on the "Details" bu
 ### Coordinates 
 In the Context menu you can find geographical coordinates of an object. In order to see the coordinates you should click on the description for opening coordinates types. To copy it to the buffer, you should tap on it. There are 7 kinds of available coordinates and 1 link. You can select any of it to display or copy:
 
-| | |
+|Coordinates format||
 |------|------|
-|Coordinates|Example|
-|• Decimal degrees (DD) <br> • DDD.DDDDD <br> • DDD MM.MMM <br> • DDD MM.MMM <br> • DDD MM.MMM <br> • DDD MM SS.S <br> • UTM Standard <br> • UTM Standard:  <br> • MGRS <br> • OLC <br> • Link|![Coordinates](/assets/images/map/map_context_menu_Coordinates.png)|
+|• Decimal degrees (DD) <br> • DDD.DDDDD <br> • DDD MM.MMM <br> • DDD MM.MMM <br> • DDD MM.MMM <br> • DDD MM SS.S <br> • UTM Standard  <br> • MGRS <br> • OLC <br> • Link|![Coordinates](/assets/images/map/map_context_menu_Coordinates.png)|
 
 
 ### Nearby Wikipedia
@@ -72,6 +71,8 @@ In the Context menu you can find geographical coordinates of an object. In order
 [{% data variables.android-values.speak_poi %}](https://wiki.openstreetmap.org/wiki/Points_of_interest) - click the description for opening POIs list and the button {% data variables.android-values.shared_string_show_on_map %} for showing another POIs near chosen point
 
 ![Nearby POI](/assets/images/map/context_menu_Nearby_POI.png)
+
+### Public Transport Routes
 
 ### OSM link
 
