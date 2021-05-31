@@ -13,13 +13,11 @@ Context menu will appear when you **short tap** on the marked object on the Map.
 
 **Note**: Selectable map objects are OpenStreetMap [node](https://wiki.openstreetmap.org/wiki/Node) or [way](https://wiki.openstreetmap.org/wiki/Way).
 
-*** Align screenshots ***
 ![Context menu Android](/assets/images/map/map_context_menu_short_tap_android.png)  ![Context menu iOS](/assets/images/map/map_context_menu_short_tap_ios.png) 
 
 ### Select any point (long tap)
 Context menu will appear when you hold at any point on the Map with **long tap**. In this case context menu provides you the information of geographical point address, distance and direction from your current position. 
 
-*** Align screenshots ***
 ![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) ![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)
 
 ### Hide context menu
