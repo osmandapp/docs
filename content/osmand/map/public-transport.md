@@ -42,6 +42,16 @@ For Android version, some of tag can be useful for search filter. For example "B
 
 **Routes list**
 
+In Routes list there are all public transport routes for chosen public stop and nearby routes within 150m.
+
+Each public transport route has next information: color shield with the route number, route number with ending stations, type icon of public transport, distance to public stop for nearby routes (within 150m.).
+
+| Android | iOS |
+| :---: | :---: |
+| ![Public transport Routes Android](/assets/images/map/pt_routes_android.png) | ![Public transport Routes iOS](/assets/images/map/pt_routes_ios.png) |
+
+
+
 
 
 
