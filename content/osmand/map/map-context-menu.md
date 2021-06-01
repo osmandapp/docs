@@ -109,7 +109,7 @@ It is a set of specific manipulations that can be performed on a point or object
 
 ### Add / Edit Favorite
 
-In the context menu there are options to **add** or **edit** the selected point / object to the favorites list. 
+In the context menu there are options to **add** or **edit** the selected point / object to the [favorites list](/osmand/personal/myplaces). 
 - In order to **add**, you need to select a point / object, click on the 'Star' icon (with signature Add) and enter all the necessary information. 
 - In order to **edit** information about favorite point you need to turn on 'Show on the map' (Menu → Me places → Favorites) then press on it and in the Context menu instead of 'Star' icon will appear 'Pensil icon' (with signature Edit).
 
@@ -117,12 +117,24 @@ In the context menu there are options to **add** or **edit** the selected point 
 
 ### Add / Edit Marker
 
-- Restore marker
-- Mark marker as passed
+It is possible to mark a point or object in order to make it easier to plan navigation using the marked point. To do this, you just need to click on the point and put flag on this place. The context menu will display the name of the marker, the distance from your current position and the "marker passed" and "make active" buttons.
+- 'Mark passed' is deactivate marker from the map and relocate it to the History.
+- 'Make active' is turned this marker to the active status and makes visible (on the top panel) information about the name of the marker and distance from your current position.
+- Restore marker - is an additional option in the Map marker menu to return passed marker from the history list to the active Marker list.
+
 - [{% data variables.android-values.shared_string_marker %} / {% data variables.android-values.edit_map_marker %}](/osmand/personal/markers) - put marker on the selected point.
 
 ### Share
 
+The app provides the opportunity to share your location in a variety of ways. To see all options to share location you need to select point then on the Context menu press share and select the best way for it. 
+All options to share your location: 
+- Send - you can send it like a message via any messenger or cloud service.
+- Copy - all information about the location (name of the street, coordinates and link) will be copied to the clipboard 
+- Copy address - only address will copy to the clipboard (name of the street, house number if it marked and city name)
+- Copy location/POI name - if you press on the POI icon the name of the POI will be copied, if you press on any other point of the map address will be copied to the clipboard.
+- Copy coordinates - allows copying only coordinates of the selected point  to the clipboard
+- geo- give you an opportunity to open a location via any Map app
+- QR-code - allows generating your location in QR-code, you can scan it or share  another user
 - **{% data variables.android-values.shared_string_share %}** - shares a selected point with another user
 
 ### Directions To / From 
