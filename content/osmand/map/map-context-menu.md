@@ -105,7 +105,6 @@ It is a set of specific manipulations that can be performed on a point or object
 
 *** Update screenshot ***
 
-![Context menu Actions](/assets/images/map/context_menu_Actions.png)
 
 ### Add / Edit Favorite
 
