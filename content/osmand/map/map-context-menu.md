@@ -82,6 +82,7 @@ These sections displays nearby Wikipedia articles or Points of Interest with '{%
 ### Article image / description
 
 {% data reusables.general.article-not-complete %}
+
 ![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia.png)
 
 
@@ -107,6 +108,10 @@ It is a set of specific manipulations that can be performed on a point or object
 
 
 ### Add / Edit Favorite
+
+In the context menu there are options to **add** or **edit** the selected point / object to the favorites list. 
+- In order to **add**, you need to select a point / object, click on the 'Star' icon (with signature Add) and enter all the necessary information. 
+- In order to **edit** information about favorite point you need to turn on 'Show on the map' (Menu → Me places → Favorites) then press on it and in the Context menu instead of 'Star' icon will appear 'Pensil icon' (with signature Edit).
 
 - [{% data variables.android-values.add_edit_favorite %}](/osmand/personal/myplaces)  - adds a selected point to the favorites list.
 
