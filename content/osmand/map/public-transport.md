@@ -38,7 +38,7 @@ For Android version, some of tag can be useful for search filter. For example "B
 
 | Android | iOS |
 | :---: | :---: |
-| ![Public transport Route menu details Android](/assets/images/map/pt_routemenu_details_android.png) | ![Public transport Route menu iOS](/assets/images/map//assets/images/map/pt_routemenu_details_ios.png) |
+| ![Public transport Route menu details Android](/assets/images/map/pt_routemenu_details_android.png) | ![Public transport Route menu iOS](/assets/images/map/pt_routemenu_details_ios.png) |
 
 **Routes list**
 
