@@ -70,6 +70,8 @@ Where you can click to a public stop name for moving to it on the map. Chosen pu
 | :---: | :---: |
 | ![Public transport Route list Android](/assets/images/map/pt_route_list_android.png) | ![Public transport Route list iOS](/assets/images/map/pt_route_list_ios.png) |
 
+Clicking to {% data variables.android-values.get_directions %} button build navigation route from your location to chosen Public stop.
+
 
 
 
