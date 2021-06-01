@@ -1,11 +1,11 @@
 ---
-title: "Public transport (Layers)"
+title: "Public transport"
 intro: "Explore public transport routes / stops on the map."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-## Public transport layer on the map
+## Transport Stops (Layer)
 
 Detailed info about Public transport layer on the map read [here](/osmand/map/vector-maps#transport).
 
@@ -16,22 +16,19 @@ Detailed info about Public transport layer on the map read [here](/osmand/map/ve
 |{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_category_transport %} → &#8230 → Choosing types of categories for displayed: {% data variables.android-values.rendering_attr_transportStops_name %}; {% data variables.android-values.rendering_attr_publicTransportMode_name %}; {% data variables.android-values.rendering_attr_tramTrainRoutes_name %}; {% data variables.android-values.rendering_attr_subwayMode_name %} | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.rendering_category_transport %} → &#8230 → Choosing types of categories for displayed: {% data variables.ios-values.rendering_attr_publicTransportMode_name %}; {% data variables.ios-values.rendering_attr_subwayMode_name %}; {% data variables.ios-values.rendering_attr_tramTrainRoutes_name %}; {% data variables.ios-values.rendering_attr_transportStops_name %}  |
 |   ![Public transport layer Android](/assets/images/map/pt_layer_android.png) | ![Public transport layer iOS](/assets/images/map/pt_layer_ios.png) |
 
-## Public transport Route (Menu)
+## Transport Routes (Context menu)
 
 Clicking on a point {% data variables.android-values.rendering_attr_transportStops_name %} on the map opens Public transport Routes information in Map Context menu.
 
 Here we can find the name of public stop, an icon of public transport type for this stop, a shield with number of Public transport Routes and with different shield colors for each transport types(red for bus, blue for tramp, purple for trolleybus, color line for subway), nearest routes within 150m, directions and distance to the stop.
 
-| Android | iOS |
-| :---: | :---: |
-| ![Public transport Route menu Android](/assets/images/map/pt_routemenu_android.png) | ![Public transport Route menu iOS](/assets/images/map/pt_routemenu_ios.png) |
-
+![Public transport Route menu Android](/assets/images/map/pt_routemenu_android.png) ![Public transport Route menu iOS](/assets/images/map/pt_routemenu_ios.png)
 
 Clicking to {% data variables.android-values.rendering_category_details %} button or [Slide](/osmand/map/interact-with-map#gestures) up Context menu opens list of Routes (Nearby routes within 150m. too) and Public transport stop description.
 
 Clicking to a shield of Public transport Route opens Route information menu.
 
-### Public transport stop description
+### Transport stop description
 
 In the description, there is full information from [point tag of Public transport platform](https://wiki.openstreetmap.org/wiki/Tag:public_transport%3Dplatform). For example, the name of stop, operator name, covered or not, coordinates of the stop, online photos, link to the point in OpenStreetMap and etc.
 
@@ -40,7 +37,7 @@ For Android version, some of tag can be useful for search filter. For example "B
 
 ![Public transport Route menu details Android](/assets/images/map/pt_routemenu_details_android.png) ![Public transport Route menu iOS](/assets/images/map/pt_routemenu_details_ios.png)
 
-### Routes list
+### Transport Routes List 
 
 In Routes list there are all public transport routes for chosen public stop and nearby routes within 150m.
 
@@ -48,7 +45,7 @@ Each public transport route has next information: color shield with the route nu
 
 ![Public transport Routes Android](/assets/images/map/pt_routes_android.png) ![Public transport Routes iOS](/assets/images/map/pt_routes_ios.png) 
 
-### Route information menu
+### Browse Route Stops
 
 Clicking to one of the Public transport route in Route list (or clicking to a shield of Public transport Route) opens Route information menu and shows all route with public stops on the map.  
 
@@ -61,15 +58,12 @@ Clicking to {% data variables.android-values.rendering_category_details %} butto
 
 Where you can click to a public stop name for moving to it on the map. Chosen public stop has position icon on this list.
 
-| Android | iOS |
-| :---: | :---: |
-| ![Public transport Route list Android](/assets/images/map/pt_route_list_android.png) | ![Public transport Route list iOS](/assets/images/map/pt_route_list_ios.png) |
+![Public transport Route list Android](/assets/images/map/pt_route_list_android.png) ![Public transport Route list iOS](/assets/images/map/pt_route_list_ios.png) 
 
 Clicking to {% data variables.android-values.get_directions %} button build navigation route from your location to chosen Public stop.
 
 ## Read more
 
-- [Vector maps](osmand/map/vector-maps)
-  
+- [Vector maps](osmand/map/vector-maps) 
 - [Public transport navigation](/osmand/navigation/public-transport-navigation)
   
