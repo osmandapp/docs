@@ -1,12 +1,12 @@
 ---
-title: "Tracks and Routes (Layers)"
+title: "Tracks and Routes"
 intro: "On the map, a user can display GPX-tracks and navigation routes."
 versions: '*'
 ---
 
 {% data reusables.general.article-not-complete %}
 
-## Tracks on the map
+## Tracks on the map (Layers)
 
 Track is [user data](/osmand/personal/myplaces) that showed [recorded](/osmand/plugins/trip-recording) or [planning trip](/osmand/plan-route). 
 
@@ -31,7 +31,7 @@ For showing or not [GPX-tracks](/osmand/personal/myplaces) on the map.
 |   {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_files %} → &#xe802; → {% data variables.android-values.shared_string_show_on_map %}  or "Map" button for choosing multiple tracks  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → &#8250; → {% data variables.ios-values.map_settings_show %} or "Layer" button for choosing multiple tracks  |
 |   ![Tracks my places Android](/assets/images/map/tracks_myplaces_android.png) | ![Tracks menu iOS](/assets/images/map/tracks_myplaces_ios.png) |
 
-**3. Context track menu (Android)**
+## Context Track menu (Android)
 
 | Android | iOS |
 | :--- | :--- |
@@ -54,7 +54,6 @@ In OsmAnd for Android, [a user can customize](/osmand/personal/profiles) route l
 
 ![Route Customization Android](/assets/images/map/route_custom_android.png)
 
-
 ## Read more
 
 - [Configure map menu](/osmand/map/configure-map-menu).
@@ -62,7 +61,3 @@ In OsmAnd for Android, [a user can customize](/osmand/personal/profiles) route l
 - [Trip recording](/osmand/plugins/trip-recording).
   
 - [Plan a route](/osmand/plan-route) tool.
-
-
-
-
