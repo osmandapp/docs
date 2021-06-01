@@ -20,6 +20,12 @@ Context menu will appear when you hold at any point on the Map with **long tap**
 
 ![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) ![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)
 
+### Select route (short tap)
+
+[Ref](/osmand/map/tracks-on-map) to track article.
+
+{% data reusables.general.article-not-complete %}
+
 ### Hide context menu
 
 To hide the context menu:
