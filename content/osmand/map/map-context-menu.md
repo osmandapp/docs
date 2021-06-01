@@ -29,8 +29,6 @@ To hide the context menu:
 ## Details
 In order to gain more details about object you need to click on the "Details" button in the Context menu or move the panel up. 
 
-*** Split screenshot ***
-
 ![Context menu Android](/assets/images/map/context_menu_Android.png) ![Context menu iOS](/assets/images/map/context_menu_iOS.png)
  
 ### Object info
