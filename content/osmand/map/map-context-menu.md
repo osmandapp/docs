@@ -35,7 +35,8 @@ In order to gain more details about object you need to click on the "Details" bu
 
 ![Context menu Android](/assets/images/map/context_menu_Android.png) ![Context menu iOS](/assets/images/map/context_menu_iOS.png)
  
-### Object info
+**Object info**
+
  This panel includes additional information about the object. This info could be copied to the buffer by tap on it. Additional information about object includes:
 
 - [Coordinates](/osmand/map/map-context-menu#coordinates)
@@ -56,7 +57,7 @@ In order to gain more details about object you need to click on the "Details" bu
     - [Width](https://wiki.openstreetmap.org/wiki/Key:width) / [Height](https://wiki.openstreetmap.org/wiki/Key:height)
     - etc.
 
-#### Coordinates 
+### Coordinates 
 In the Context menu you can find geographical coordinates of an object. If you expand this section, you will see location in various geo formats and shareable OsmAnd Link. If you click on any item it will be automatically copied to the clipboard. 
 
 |Coordinates format||
@@ -65,7 +66,7 @@ In the Context menu you can find geographical coordinates of an object. If you e
 
 With OsmAnd Web Link you can send location to any device and it will be automatically recognized by OsmAnd.
 
-#### Nearby POIs/ Wikipedia
+### Nearby POIs/ Wikipedia
 
 These sections displays nearby Wikipedia articles or Points of Interest with '{% data variables.android-values.shared_string_show_on_map %}' and '{% data variables.android-values.search_more %}' to display and search all other POI & wikipedia articles.
 
@@ -75,21 +76,21 @@ These sections displays nearby Wikipedia articles or Points of Interest with '{%
 
 ![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia.png)
 
-#### Public Transport Routes
+### Public Transport Routes
 
 {% data reusables.general.article-not-complete %}
 
-#### Favorites / Track Points from the group
+### Favorites / Track Points from the group
 
 {% data reusables.general.article-not-complete %}
 
-#### Article image / description
+### Article image / description
 
 {% data reusables.general.article-not-complete %}
 
 ![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia.png)
 
-#### OpenStreetMap link
+### OpenStreetMap link
 
 OpenStreetMap link provides direct link to the OpenStreetMap object where you can find complete information about it (https://www.openstreetmap.org/node or https://www.openstreetmap.org/way).
 
@@ -97,7 +98,7 @@ OpenStreetMap link provides direct link to the OpenStreetMap object where you ca
 
 ![OSM link](/assets/images/map/context_menu_OSM_link.png)
 
-#### Online photos 
+### Online photos 
 
 In this section, you can view photos of the object from different sources web sources. Such as [Mapillary](/osmand/plugins/mapillary) - takes the best and the closest photos from Street-Level view, [OpenPlaceReviews](/osmand/plugins/openplacereviews) - takes photos associated with this object, [Wikimedia](https://www.wikimedia.org/) - takes urls from OpenStreetMap tags **image**, **wikimedia**. Click on the image to open in full size.
 
