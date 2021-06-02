@@ -90,9 +90,11 @@ This is a list of all points in one group for a [Favorite](/osmand/map/point-lay
 
 ### Article image / description
 
-{% data reusables.general.article-not-complete %}
+This part contains a part of the description from [Wikipedia article](/osmand/plugins/wikipedia), [Favorite or Waypoint description](/osmand/personal/favorites), by clicking you can open full description.
 
-![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia.png)
+For[ Audio / Video notes](/osmand/plugins/audio-video-notes), an image is displayed; when you click on the image, it opens in the editor.
+
+![Description list](/assets/images/map/description_list_android.png) ![Image list](/assets/images/map/image_list_android.png)
 
 ### OpenStreetMap link
 
