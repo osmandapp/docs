@@ -78,13 +78,15 @@ Clicking to 'Nearby POIs/ Wikipedia articles' opens a points list (Wikipedia and
 
 ### Public Transport Routes
 
-A short tap to Public transport stop opens Map Context menu of Transport routes. Information about Public transport Context menu read [here](/osmand/map/public-transport#transport-routes-context-menu).
+Shown info about Public transport routes for chosen Transport stop. Information about Public transport Context menu and actions with it read [here](/osmand/map/public-transport#transport-routes-context-menu).
 
-![Public transport Route menu Android](/assets/images/map/pt_routemenu_android.png) ![Public transport Route menu iOS](/assets/images/map/pt_routemenu_ios.png)
+![Public transport Routes Android](/assets/images/map/pt_routes_android.png) ![Public transport Routes iOS](/assets/images/map/pt_routes_ios.png) 
 
 ### Favorites / Track Points from the group
 
-{% data reusables.general.article-not-complete %}
+This is a list of all points in one group for a [Favorite](/osmand/map/point-layers-on-map#favorites-on-the-map) or Waypoint. By clicking, the entire list of points of one group expands, when clicking on a point from the list, the map moves to the selected point.
+
+![Favorite list](/assets/images/map/favorite_list_android.png) ![Favorite list full](/assets/images/map/favorite_list_full_android.png) 
 
 ### Article image / description
 
