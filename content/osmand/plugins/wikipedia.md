@@ -67,11 +67,11 @@ In OsmAnd for Android, you can select languages for Wikipedia articles on the ma
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.shared_string_wikipedia %} → {% data variables.android-values.shared_string_language %}
 
-![Wikipedia language - Android](/assets/images/map/map-wikipedia-language-android.png)
+![Wikipedia language - iOS](/assets/images/map/map-wikipedia-language-ios.png)
 
 In OsmAnd for iOS, you can click on Wikipedia POI on the map, click to description and select an available language for Wikipedia article.
 
-![Wikipedia language - iOS](/assets/images/map/map-wikipedia-language-ios.png)
+![Wikipedia language - Android](/assets/images/map/map-wikipedia-language-android.png)
 
 Enjoy Wikipedia on the map in your trip.
 
