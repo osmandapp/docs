@@ -35,7 +35,7 @@ In order to gain more details about object you need to click on the "Details" bu
 
 ![Context menu Android](/assets/images/map/context_menu_Android.png) ![Context menu iOS](/assets/images/map/context_menu_iOS.png)
  
-**Object info**
+### Object info
 
  This panel includes additional information about the object. This info could be copied to the buffer by tap on it. Additional information about object includes:
 
@@ -61,24 +61,26 @@ In order to gain more details about object you need to click on the "Details" bu
 In the Context menu you can find geographical coordinates of an object. If you expand this section, you will see location in various geo formats and shareable OsmAnd Link. If you click on any item it will be automatically copied to the clipboard. 
 
 |Coordinates format||
-|------|------|
+|:------|:------|
 |• DDD.DDDDD (Plain Decimal Degress) <br> • DDD.DDDDD (N/S, E/W comma) <br> • DDD MM.MMM <br> • DDD MM SS.S <br> • [UTM Standard](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system)  <br> • [MGRS](https://en.wikipedia.org/wiki/Military_Grid_Reference_System) <br> • [Open Location Code](https://en.wikipedia.org/wiki/Open_Location_Code) <br> • [OsmAnd Web Link](https://osmand.net/go.html) |![Coordinates](/assets/images/map/map_context_menu_Coordinates.png)|
 
-With OsmAnd Web Link you can send location to any device and it will be automatically recognized by OsmAnd.
+With OsmAnd Web Link you can send location to any device and it will be automatically recognized by OsmAnd (for example: https://osmand.net/go?lat=-49.306051764139475&lon=69.13371469678623&z=10).
 
 ### Nearby POIs/ Wikipedia
 
-These sections displays nearby Wikipedia articles or Points of Interest with '{% data variables.android-values.shared_string_show_on_map %}' and '{% data variables.android-values.search_more %}' to display and search all other POI & wikipedia articles.
+These sections displays nearby [Wikipedia articles](/osmand/plugins/wikipedia) or [Points of Interest](/osmand/map/point-layers-on-map#points-of-interest-pois-on-the-map) with '{% data variables.android-values.shared_string_show_on_map %}' and '{% data variables.android-values.search_more %}' to display and [search](/osmand/search/search-poi) all other POI & Wikipedia articles.
 
-**Note**: [{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia) will appear only if you previously downloaded special maps with Wikipedia articles for this area.
+Clicking to 'Nearby POIs/ Wikipedia articles' opens a points list (Wikipedia and POIs). A tap to one of these points from a point list moves the map to this point (POI or Wikipedia) with the opening point Map Context menu.
 
-*** Update screenshot ***
+**Note**: [{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia) will appear only if you previously downloaded special maps with [Wikipedia articles for this area](/osmand/plugins/wikipedia#download-wikipedia).
 
-![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia.png)
+![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia.png) ![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia_1.png)
 
 ### Public Transport Routes
 
-{% data reusables.general.article-not-complete %}
+A short tap to Public transport stop opens Map Context menu of Transport routes. Information about Public transport Context menu read [here](/osmand/map/public-transport#transport-routes-context-menu).
+
+![Public transport Route menu Android](/assets/images/map/pt_routemenu_android.png) ![Public transport Route menu iOS](/assets/images/map/pt_routemenu_ios.png)
 
 ### Favorites / Track Points from the group
 
