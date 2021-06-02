@@ -62,13 +62,13 @@ In this menu there are two additional buttons '{% data variables.android-values.
 
 ![Public transport Route Info Android](/assets/images/map/pt_route_info_android.png)  ![Public transport Route Info iOS](/assets/images/map/pt_route_info_ios.png) 
 
-Clicking to {% data variables.android-values.rendering_category_details %} button or [Slide](/osmand/map/interact-with-map#gestures) up Context menu opens list of all public stops for choosing route.
+Clicking to {% data variables.android-values.rendering_category_details %} button or [Slide](/osmand/map/interact-with-map#gestures) up Context menu opens list of all stops for choosing route.
 
-In this list, you can switch between stations (switching will be also displayed on the map) by clicking on the name of the stop. Selected stop is marked as 'location' icon on the Routes list (instead of transport icon)
+In this list, you can switch between stations (switching will be also displayed on the map) by clicking on the name of the stop. Selected stop is marked as 'location' icon on the Routes list (instead of transport icon).
 
 ![Public transport Route list Android](/assets/images/map/pt_route_list_android.png) ![Public transport Route list iOS](/assets/images/map/pt_route_list_ios.png) 
 
-When you click {% data variables.android-values.get_directions %} button application creat route from your current location to the selected station.
+If you click {% data variables.android-values.get_directions %} button you will get a route from your current location to the selected Public Transport Station.
 
 ## Read more
 
