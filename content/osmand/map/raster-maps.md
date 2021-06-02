@@ -72,15 +72,13 @@ be more visible, especially useful for satellite imagery.
 
 ## Hillshade / Slope
 
-{% data reusables.general.article-not-complete %}
-
 Hillshade / Slope are raster offline maps that are displayed as a special map layer - Terrain (2nd overlay). These maps are created from 1 source (global planet file) and divided into regions, but it is not needed to switch between maps cause it's been merged automatically. You can exclusively select Hillshade and Terrain layer, though you could be combined if you use [as underlay or overlay](#select-map-as-main--underlay--overlay-layer).
 
 ![Terrain layers](/assets/images/plugins/online-maps/terrain_two_layers.png)
 
 To download and install Hillshade / Slope Maps, you need to [purchase](/osmand/purchases) / enable [Contour lines plugin](/osmand/plugins/contour-lines). 
 
-**Configuring the display options for Hillshade / Slope layer**
+Configure display options:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_terrain %}
 
