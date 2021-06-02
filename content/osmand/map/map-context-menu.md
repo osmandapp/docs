@@ -20,11 +20,9 @@ Context menu will appear when you hold at any point on the Map with **long tap**
 
 ![Context menu long_tap_Android](/assets/images/map/map_context_menu_long_tap_android.png) ![Context menu long_tap_iOS](/assets/images/map/map_context_menu_long_tap_ios.png)
 
-### Select route (short tap)
+### Select route (short tap for Android)
 
-[Ref](/osmand/map/tracks-on-map) to track article.
-
-{% data reusables.general.article-not-complete %}
+Short tap to a GPX-track on the map  opens [Context track menu](/osmand/map/tracks-on-map#context-track-menu-android).
 
 ### Hide context menu
 
