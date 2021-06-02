@@ -78,7 +78,7 @@ Hillshade / Slope are raster offline maps that are displayed as a special map la
 
 ![Terrain layers](/assets/images/plugins/online-maps/terrain_two_layers.png)
 
-To download and install Hillshade / Slope Maps, you need to enable / purchase [Contour lines plugin](/osmand/plugins/contour-lines). 
+To download and install Hillshade / Slope Maps, you need to [purchase](/osmand/purchases) / enable [Contour lines plugin](/osmand/plugins/contour-lines). 
 
 **Configuring the display options for Hillshade / Slope layer**
 
