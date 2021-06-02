@@ -1,6 +1,6 @@
 ---
 title: "Public transport"
-intro: "Public transport is an additional layer that allows you to display public transport routes and stops on the map, check information about the transport types and create navigation using Public transport navigation profile."
+intro: "Public transport is an additional layer that allows you to display public transport routes and stops on the map, check information about the transport types and create navigation."
 versions: '*'
 ---
 (Explore public transport routes / stops on the map.)
