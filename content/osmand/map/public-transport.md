@@ -58,7 +58,7 @@ Each Route in the list has such information: color shield with the route number,
 
 If you click on the Route from the Route list or click on a shield in the Context menu on the map will display the route of this transport with all stops. In the Context menu will display the name of the stop, number of the transport route and the name of the start and end stops.
 
-In this menu there are two additional buttons '{% data variables.android-values.shared_string_previous %}' and '{% data variables.android-values.shared_string_next %}' for moving and view neighbor stops. By switching between stops you can see the name of the neighbor stop, number of the route and names of the start and end stops.
+In this menu there are two additional buttons '{% data variables.android-values.shared_string_previous %}' and '{% data variables.android-values.shared_string_next %}' for moving between neighbor stops. By switching between stops you can see the name of the neighbor stop, number of the route and names of the start and end stops.
 
 ![Public transport Route Info Android](/assets/images/map/pt_route_info_android.png)  ![Public transport Route Info iOS](/assets/images/map/pt_route_info_ios.png) 
 
