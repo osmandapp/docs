@@ -26,12 +26,12 @@ Context menu includes information about the name of transport stop, an icon, a s
 
 ### Details
 
-Clicking to {% data variables.android-values.rendering_category_details %} button or [Slide](/osmand/map/interact-with-map#gestures) up Context menu opens panel with additional information about the station. It includes:
+Clicking to {% data variables.android-values.rendering_category_details %} button or [Slide](/osmand/map/interact-with-map#gestures) up Context menu opens panel with additional information about the Public transport station. This menu includes:
 - List of the routes
-- Nearby routes (within 150 m)
+- List of the nearby routes (within 150 m)
 - Bench
-- Covered
-- Wheelchair accessability
+- Cover
+- Wheelchair accessibility
 - Operator name
 - Coordinates
 - Online photos
@@ -41,21 +41,21 @@ Clicking to {% data variables.android-values.rendering_category_details %} butto
 
 ([point tag of Public transport platform](https://wiki.openstreetmap.org/wiki/Tag:public_transport%3Dplatform).)
 
-In the Android version, some tags can be helpful for search filters. For example, if you enter in the search area "Bench" then "Yes" you can see in the list the names of the stops that have bench or you can press 'Show on the map' and [all object with this tag will be shown on the map](/osmand/map/point-layers-on-map#search-results-poi-on-the-map).
+In the Android version, some tags can be helpful for search filters. For example, if you enter in the search area "Bench" then "Yes" you can see the list  the stops that have bench if you press 'Show on the map' all object with this tag will be [shown on the map](/osmand/map/point-layers-on-map#search-results-poi-on-the-map).
 
 ![Public transport Route menu details Android](/assets/images/map/pt_routemenu_details_android.png) ![Public transport Route menu iOS](/assets/images/map/pt_routemenu_details_ios.png)
 
-If you click on the Public transport shield on the map will display the route of this transport with all stops. In the Context menu will display the name of the stop,  number of the transport route and the name of the start and end stops.
-
 ### Transport Routes List 
 
-In Routes list there are all public transport routes for chosen public stop and nearby routes within 150m.
+In the Routes list, there are all public transport routes that approach via selected stop and nearby routes (within 150m).
 
 Each public transport route has next information: color shield with the route number, route number with ending stations, type icon of public transport, distance to public stop for nearby routes (within 150m.).
 
 ![Public transport Routes Android](/assets/images/map/pt_routes_android.png) ![Public transport Routes iOS](/assets/images/map/pt_routes_ios.png) 
 
 ### Browse Route Stops
+
+If you click on the Public transport shield on the map will display the route of this transport with all stops. In the Context menu will display the name of the stop,  number of the transport route and the name of the start and end stops.
 
 Clicking to one of the Public transport route in Route list (or clicking to a shield of Public transport Route) opens Route information menu and shows all route with public stops on the map.  
 
