@@ -12,7 +12,7 @@ Detailed info about Public transport map layer read [here](/osmand/map/vector-ma
 | Android | iOS |
 | :--- | :--- |
 | Enable/Disable Public transport layer.| Enable/Disable Public transport layer. |
-|{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_category_transport %} → &#8230 → CChoose transport categories for displaying: {% data variables.android-values.rendering_attr_transportStops_name %}; {% data variables.android-values.rendering_attr_publicTransportMode_name %}; {% data variables.android-values.rendering_attr_tramTrainRoutes_name %}; {% data variables.android-values.rendering_attr_subwayMode_name %} | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.rendering_category_transport %} → &#8230 → Choose transport categories for displaying: {% data variables.ios-values.rendering_attr_publicTransportMode_name %}; {% data variables.ios-values.rendering_attr_subwayMode_name %}; {% data variables.ios-values.rendering_attr_tramTrainRoutes_name %}; {% data variables.ios-values.rendering_attr_transportStops_name %}  |
+|{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_category_transport %} → &#8230 → Choose transport categories for displaying: {% data variables.android-values.rendering_attr_transportStops_name %}; {% data variables.android-values.rendering_attr_publicTransportMode_name %}; {% data variables.android-values.rendering_attr_tramTrainRoutes_name %}; {% data variables.android-values.rendering_attr_subwayMode_name %} | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.rendering_category_transport %} → &#8230 → Choose transport categories for displaying: {% data variables.ios-values.rendering_attr_publicTransportMode_name %}; {% data variables.ios-values.rendering_attr_subwayMode_name %}; {% data variables.ios-values.rendering_attr_tramTrainRoutes_name %}; {% data variables.ios-values.rendering_attr_transportStops_name %}  |
 |   ![Public transport layer Android](/assets/images/map/pt_layer_android.png) | ![Public transport layer iOS](/assets/images/map/pt_layer_ios.png) |
 
 ## Transport Routes (Context menu)
@@ -26,7 +26,18 @@ Context menu includes information about the name of transport stop, an icon, a s
 
 ### Details
 
-Clicking to {% data variables.android-values.rendering_category_details %} button or [Slide](/osmand/map/interact-with-map#gestures) up Context menu opens list of Routes (includes nearby routes) and Public transport stop description. For example, the name of the stop, operator name, covered or not, coordinates of the stop, online photos, link to the point in OpenStreetMap and etc.
+Clicking to {% data variables.android-values.rendering_category_details %} button or [Slide](/osmand/map/interact-with-map#gestures) up Context menu opens panel with additional information about the station. It includes:
+- List of the routes
+- Nearby routes (within 150 m)
+- Bench
+- Covered
+- Wheelchair accessability
+- Operator name
+- Coordinates
+- Online photos
+- OpenStreetMap link
+- etc.
+
 
 ([point tag of Public transport platform](https://wiki.openstreetmap.org/wiki/Tag:public_transport%3Dplatform).)
 
