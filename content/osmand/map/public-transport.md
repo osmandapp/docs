@@ -20,7 +20,7 @@ Detailed info about Public transport map layer read [here](/osmand/map/vector-ma
 
 On the map when you click on the '{% data variables.android-values.rendering_category_transport %}' icon opens Context menu that displays information about Public transport Routes.
 
-Context menu includes information about the name of the stop, an icon, a colored shield for each transport types (red for bus, blue for the tram, purple for trolleybus, color line for subway) and number of Public transport Routes, nearest routes (within 150m), directions and distance to the stop.
+Context menu includes information about the name of the stop, an icon, a colored shield for each transport types (red for bus, blue for the tram, purple for trolleybus, color line for subway) and number of Public transport Routes in the shield, nearest routes (within 150m), directions and distance to the stop.
 
 ![Public transport Route menu Android](/assets/images/map/pt_routemenu_android.png) ![Public transport Route menu iOS](/assets/images/map/pt_routemenu_ios.png)
 
