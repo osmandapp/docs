@@ -48,8 +48,6 @@ Public transport stop provides extra details comparing to standard OpenStreetMap
 
 ### Routes 
 
-**Cut and align screenshots by top** 
-
 ![Public transport Routes Android](/assets/images/map/pt_routes_android.png) ![Public transport Routes iOS](/assets/images/map/pt_routes_ios.png) 
 
 Transport Routes are all public transport routes that approach via selected stop and nearby routes (within 150m). Routes information is taken from [OpenStreetMap data](https://wiki.openstreetmap.org/wiki/Public_transport) such as ref, name, colour and type.
@@ -63,9 +61,7 @@ Transport Routes are all public transport routes that approach via selected stop
 
 ### Browse Route
 
-**Update screenshot ios**
-
-![Public transport Route list Android](/assets/images/map/pt_route_list_android.png)  ![Public transport Route Info iOS](/assets/images/map/pt_route_info_ios.png) 
+![Public transport Route list Android](/assets/images/map/pt_route_list_android.png)  ![Public transport Route list Android](/assets/images/map/pt_route_list_ios.png) 
 
 You can enter Browse Route menu by **clicking on a shield** or **selecting a route** from the routes list. After that you can browse between stops by clicking  '{% data variables.android-values.shared_string_previous %}' and '{% data variables.android-values.shared_string_next %}'. Stop info will be updated in the menu and stop will be located on the map.
 
