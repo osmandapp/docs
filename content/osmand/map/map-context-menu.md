@@ -88,13 +88,11 @@ This is a list of all points in one group for a [Favorite](/osmand/map/point-lay
 
 ![Favorite list](/assets/images/map/favorite_list_android.png) ![Favorite list full](/assets/images/map/favorite_list_full_android.png) 
 
-### Article image / description
+### Article description
 
-This part contains a part of the description from [Wikipedia article](/osmand/plugins/wikipedia), [Favorite or Waypoint description](/osmand/personal/favorites), by clicking you can open full description.
+This part contains a part of the description from [Wikipedia article](/osmand/plugins/wikipedia), [Favorite](/osmand/personal/favorites) or Waypoint description, by clicking you can open full description.
 
-For[ Audio / Video notes](/osmand/plugins/audio-video-notes), an image is displayed; when you click on the image, it opens in the editor.
-
-![Description list](/assets/images/map/description_list_android.png) ![Image list](/assets/images/map/image_list_android.png)
+![Description list](/assets/images/map/description_list_android.png) 
 
 ### OpenStreetMap link
 
@@ -110,15 +108,23 @@ In this section, you can view photos of the object from different sources web so
 
 ![Online photo](/assets/images/map/context_menu_Online_photo.png)
 
+### * Audio/Video Note
+
+**Update text**
+For [Audio / Video notes](/osmand/plugins/audio-video-notes), an image is displayed; when you click on the image, it opens in the editor.
+
+![Image list](/assets/images/map/image_list_android.png)
+
 ## Actions
 
 It is a set of specific manipulations that can be performed on a point or object. This menu is split into two parts: visible section consists of maximum 3 actions and other actions are accessible by 'Actions' button. You can customize the order of actions in [General settings](#customize-android-advanced).
 
-*** Update screenshot ***
+**Add screenshot**
 
 
 ### Add / Edit Favorite
 
+**Add screenshot**
 In the context menu there are options to **add** or **edit** the selected point / object to the [favorites list](/osmand/personal/myplaces). 
 - In order to **add**, you need to select a point / object, click on the 'Star' icon (with signature Add) and enter all the necessary information. 
 - In order to **edit** information about favorite point you need to turn on 'Show on the map' (Menu → Me places → Favorites) then press on it and in the Context menu instead of 'Star' icon will appear 'Pensil icon' (with signature Edit).
@@ -126,7 +132,7 @@ In the context menu there are options to **add** or **edit** the selected point 
 - [{% data variables.android-values.add_edit_favorite %}](/osmand/personal/myplaces)  - adds a selected point to the favorites list.
 
 ### Add / Edit Marker
-
+**Add screenshot**
 It is possible to mark a point or object in order to make it easier to plan navigation using the marked point. To do this, you just need to click on the point and put flag on this place. The context menu will display the name of the marker, the distance from your current position and the "marker passed" and "make active" buttons.
 - 'Mark passed' is deactivate marker from the map and relocate it to the History.
 - 'Make active' is turned this marker to the active status and makes visible (on the top panel) information about the name of the marker and distance from your current position.
@@ -135,7 +141,7 @@ It is possible to mark a point or object in order to make it easier to plan navi
 - [{% data variables.android-values.shared_string_marker %} / {% data variables.android-values.edit_map_marker %}](/osmand/personal/markers) - put marker on the selected point.
 
 ### Share
-
+**Add screenshot**
 The app provides the opportunity to share your location in a variety of ways. To see all options to share location you need to select point then on the Context menu press share and select the best way for it. 
 All options to share your location: 
 - Send - you can send it like a message via any messenger or cloud service.
@@ -148,7 +154,7 @@ All options to share your location:
 - **{% data variables.android-values.shared_string_share %}** - shares a selected point with another user
 
 ### Directions To / From 
-
+**Add screenshot**
 - [{% data variables.android-values.get_directions %}](/osmand/widgets/map-buttons#directions) - allows you to plan route from your location to the selected point (or reverse) by clicking the 'Direction' button
 - {% data variables.android-values.context_menu_item_directions_from %} - makes the chosen point as departure point for navigation.
 
