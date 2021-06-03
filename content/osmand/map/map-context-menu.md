@@ -134,7 +134,9 @@ In the context menu there are options to **add** or **edit** the selected point 
 - [{% data variables.android-values.add_edit_favorite %}](/osmand/personal/myplaces)  - adds a selected point to the favorites list.
 
 ### Add / Edit Marker
-**Add screenshot**
+
+![Add Edit marker action Android](/assets/images/map/add_marker_android.png) ![Add Edit marker action iOS](/assets/images/map/add_marker_ios.png)
+
 It is possible to mark a point or object in order to make it easier to plan navigation using the marked point. To do this, you just need to click on the point and put flag on this place. The context menu will display the name of the marker, the distance from your current position and the "marker passed" and "make active" buttons.
 - 'Mark passed' is deactivate marker from the map and relocate it to the History.
 - 'Make active' is turned this marker to the active status and makes visible (on the top panel) information about the name of the marker and distance from your current position.
