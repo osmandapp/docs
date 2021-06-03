@@ -98,9 +98,7 @@ This part contains a part of the description from [Wikipedia article](/osmand/pl
 
 OpenStreetMap link provides direct link to the OpenStreetMap object where you can find complete information about it (https://www.openstreetmap.org/node or https://www.openstreetmap.org/way).
 
-*** Split screenshot ***
-
-![OSM link](/assets/images/map/context_menu_OSM_link.png)
+![OSM link](/assets/images/map/context_menu_OSM_link.png) ![OSM link](/assets/images/map/context_menu_OSM_link_1.png)
 
 ### Online photos 
 
