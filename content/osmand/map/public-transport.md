@@ -67,11 +67,12 @@ Transport Routes are all public transport routes that approach via selected stop
 ### Browse Route
 
 **Update screenshot ios**
+
 ![Public transport Route list Android](/assets/images/map/pt_route_list_android.png)  ![Public transport Route Info iOS](/assets/images/map/pt_route_info_ios.png) 
 
-When you click on the Route from the list or on a shield, Browse Route menu will display with route stops, so you can browse between stops by clicking  '{% data variables.android-values.shared_string_previous %}' and '{% data variables.android-values.shared_string_next %}'. Once you switch between stops, its name will be updated in the context menu and stop will be located on the map.
+You can enter Browse Route menu by **clicking on a shield** or **selecting a route** from the routes list. After that you can browse between stops by clicking  '{% data variables.android-values.shared_string_previous %}' and '{% data variables.android-values.shared_string_next %}'. Stop info will be updated in the menu and stop will be located on the map.
 
-You can see full list of stops by clicking {% data variables.android-values.rendering_category_details %}. Currently selected stop is marked with 'location' icon on the Routes list.
+You can see the full list of stops by clicking {% data variables.android-values.rendering_category_details %}. Currently selected stop is marked with 'location' icon on the Routes list.
 
 **Note**: If you click {% data variables.android-values.get_directions %} button you will get a route from your current location to the selected Public Transport Station.
 
