@@ -137,25 +137,31 @@ In the context menu there are options to **add** or **edit** the selected point 
 
 ![Add Edit marker action Android](/assets/images/map/add_marker_android.png) ![Add Edit marker action iOS](/assets/images/map/add_marker_ios.png)
 
-It is possible to mark a point or object in order to make it easier to plan navigation using the marked point. To do this, you just need to click on the point and put flag on this place. The context menu will display the name of the marker, the distance from your current position and the "marker passed" and "make active" buttons.
-- 'Mark passed' is deactivate marker from the map and relocate it to the History.
-- 'Make active' is turned this marker to the active status and makes visible (on the top panel) information about the name of the marker and distance from your current position.
-- Restore marker - is an additional option in the Map marker menu to return passed marker from the history list to the active Marker list.
-
+It is possible to mark a point or object in order to make it easier to plan navigation using the marked point. To do this, you just need to click on the point and put flag on this place. The context menu will display the name of the marker, the distance from your current position (Android) and the "marker passed" and "make active" buttons (Android).
+- 'Mark passed' is deactivate marker from the map and relocate it to the History (Android).
+- 'Make active' is turned this marker to the active status and makes visible (on the top panel) information about the name of the marker and distance from your current position (Android).
+- Restore marker - is an additional option in the Map marker menu to return passed marker from the history list to the active Marker list (Android).
+- Dismiss - is deactivate marker from the map and relocate it to the History (iOS). 
 - [{% data variables.android-values.shared_string_marker %} / {% data variables.android-values.edit_map_marker %}](/osmand/personal/markers) - put marker on the selected point.
 
 ### Share
-**Add screenshot**
+
+![Share action Android](/assets/images/map/action_share_android.png) ![Share action iOS](/assets/images/map/action_share_ios.png)
+
 The app provides the opportunity to share your location in a variety of ways. To see all options to share location you need to select point then on the Context menu press share and select the best way for it. 
 All options to share your location: 
+- **{% data variables.android-values.shared_string_share %}** - shares a selected point with another user.
 - Send - you can send it like a message via any messenger or cloud service.
-- Copy - all information about the location (name of the street, coordinates and link) will be copied to the clipboard 
-- Copy address - only address will copy to the clipboard (name of the street, house number if it marked and city name)
-- Copy location/POI name - if you press on the POI icon the name of the POI will be copied, if you press on any other point of the map address will be copied to the clipboard.
-- Copy coordinates - allows copying only coordinates of the selected point  to the clipboard
-- geo- give you an opportunity to open a location via any Map app
-- QR-code - allows generating your location in QR-code, you can scan it or share  another user
-- **{% data variables.android-values.shared_string_share %}** - shares a selected point with another user
+- Copy - all information about the location (name of the street, coordinates and link) will be copied to the clipboard.
+- Copy address (Android) - only address will copy to the clipboard (name of the street, house number if it marked and city name).
+- Copy location/POI name (Android) - if you press on the POI icon the name of the POI will be copied, if you press on any other point of the map address will be copied to the clipboard.
+- Copy coordinates (Android) - allows copying only coordinates of the selected point  to the clipboard.
+- geo (Android)- give you an opportunity to open a location via any Map app.
+- QR-code (Android) - allows generating your location in QR-code, you can scan it or share  another user.
+- Save Image (iOS) - you save a screenshot of your map with a selected point in your device gallery.
+- Assign to Contact (iOS) - you make an icon for chosen contact from the map screenshot.
+- Print (iOS) - you open Printer Options for printing the map screenshot.
+- Save to files (iOS) - you save the map screenshot in iCloud Drive or storage of your device.
 
 ### Directions To / From 
 **Add screenshot**
