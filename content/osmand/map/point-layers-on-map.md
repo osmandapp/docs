@@ -1,5 +1,5 @@
 ---
-title: "Points (Overlay layer)"
+title: "Points on the map"
 intro: "On map you could display points such as Favorites, POI, Markers, Wikipedia, Search results, Audio Video Notes, OSM Edits"
 versions: '*'
 ---
@@ -76,7 +76,7 @@ Chosen categories of POIs show from zoom level 9 on the map and have an orange c
 
 **Note**: you can make your own [POI categories filters](/osmand/search/custom-poi-search) for choosing and showing it on the map.
 
-## Search results on the map
+## Search results
 
 - Description favorites on the map
 - Description POI on the map
