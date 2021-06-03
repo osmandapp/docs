@@ -4,8 +4,6 @@ intro: "Public transport is an additional layer that allows you to display trans
 versions: '*'
 ---
 
-{% data reusables.general.article-not-complete %}
-
 ## Transport Stops (Layer)
 
 Enable/Disable Public transport layer:
