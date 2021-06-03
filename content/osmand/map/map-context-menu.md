@@ -92,7 +92,7 @@ This is a list of all points in one group for a [Favorite](/osmand/map/point-lay
 
 This part contains a part of the description from [Wikipedia article](/osmand/plugins/wikipedia), [Favorite](/osmand/personal/favorites) or Waypoint description, by clicking you can open full description.
 
-![Description list](/assets/images/map/description_list_android.png) 
+![Description list](/assets/images/map/description_list_android.png) ![Description list](/assets/images/map/description_list_ios.png)
 
 ### OpenStreetMap link
 
