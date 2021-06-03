@@ -104,14 +104,17 @@ OpenStreetMap link provides direct link to the OpenStreetMap object where you ca
 
 In this section, you can view photos of the object from different sources web sources. Such as [Mapillary](/osmand/plugins/mapillary) - takes the best and the closest photos from Street-Level view, [OpenPlaceReviews](/osmand/plugins/openplacereviews) - takes photos associated with this object, [Wikimedia](https://www.wikimedia.org/) - takes urls from OpenStreetMap tags **image**, **wikimedia**. Click on the image to open in full size.
 
-![Online photo](/assets/images/map/context_menu_Online_photo.png)
+![Online photo Mapillary](/assets/images/map/context_menu_Online_photo.png) ![Online photo wikimedia](/assets/images/map/context_menu_Online_photo_1.png)
 
 ### * Audio/Video Note
 
-**Update text**
-For [Audio / Video notes](/osmand/plugins/audio-video-notes), an image is displayed; when you click on the image, it opens in the editor.
+[Audio / Video notes](/osmand/plugins/audio-video-notes) have additional information on Details Menu and buttons (Delete, Play, Show) in Context menu. 
 
-![Image list](/assets/images/map/image_list_android.png)
+For Image notes in Details Menu, an image is displayed; when you click on an image, it opens in the editor. There is information about date and time of making note. In Context menu, there are 'Show' and 'Delete' buttons for opening an image in the editor or delete it.
+
+For Audio/Video notes in Details Menu, there is information about date and time of making note. In Context menu, there are 'Play' and 'Delete' buttons for playing an note in the editor or delete it.
+ 
+![Image list](/assets/images/map/image_list_android.png) ![Video list](/assets/images/map/video_list_android.png)
 
 ## Actions
 
