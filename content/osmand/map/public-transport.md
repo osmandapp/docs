@@ -28,12 +28,18 @@ Choose between 1 or more transport categories for displaying:
 
 ![Public transport Route menu Android](/assets/images/map/pt_routemenu_android.png) ![Public transport Route menu iOS](/assets/images/map/pt_routemenu_ios.png)
 
-On the map when you click on the '{% data variables.android-values.rendering_category_transport %}' icon opens Context menu that displays information about Public transport Routes.
-
-Context menu includes information about the name of the stop, an icon, a colored shield for each transport types (red for bus, blue for the tram, purple for trolleybus, color line for subway) and number of Public transport Routes in the shield, nearest routes (within 150m), directions and distance to the stop.
-
-- List of the routes
+To open Transport menu, you can click on the the transport icon. It displays:
+- Public transport coloured Shields (**clickable**)
+- List of the routes stopping on that stop
 - List of the nearby routes (within 150 m)
+- Name of the stop and other [details](#transport-stop-details)
+
+**Shield color**:
+- Subway - own color line 
+- Railway - brown
+- Bus and other  - red
+- Tram - blue,
+- Trolleybus - purple
 
 
 ### Transport Stop details
