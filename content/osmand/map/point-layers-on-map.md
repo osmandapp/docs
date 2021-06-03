@@ -33,7 +33,7 @@ You can turn on display Favorite names: {% data variables.android-values.shared_
 
 ## Points of interest (POI)
 
-[A point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) is a specific point that marked on the map. POI represents interesting or useful places and objects.[POI data](https://wiki.openstreetmap.org/wiki/Points_of_interest) have been taken from the OpenStreetMap project.
+[A point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) is specific interesting or useful places and objects that have been marked on the map. [POI data](https://wiki.openstreetmap.org/wiki/Points_of_interest) have been taken from the OpenStreetMap project.
 
 ### POI categories and types
 There are many types of POI. For example: 
