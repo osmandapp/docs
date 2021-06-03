@@ -76,6 +76,15 @@ Chosen categories of POIs show from zoom level 9 on the map and have an orange c
 
 **Note**: you can make your own [POI categories filters](/osmand/search/custom-poi-search) for choosing and showing it on the map.
 
+
+## Markers
+
+????
+
+## Track points
+
+Redirect to track article
+
 ## Search results
 
 - Description favorites on the map
