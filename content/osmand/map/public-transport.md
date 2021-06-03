@@ -35,9 +35,6 @@ To open Transport menu, you can click on the the transport icon. It displays:
 
 ### Transport Stop details
 
-**Cut android screenshot*
-**Update ios screenshot** 
-
 ![Public transport Route menu details Android](/assets/images/map/pt_routemenu_details_android.png) ![Public transport Route menu iOS](/assets/images/map/pt_routemenu_details_ios.png)
 
 Public transport stop provides extra details comparing to standard OpenStreetMap object [menu](/osmand/map/map-context-menu#details):
