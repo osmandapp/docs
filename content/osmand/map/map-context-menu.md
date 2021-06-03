@@ -125,7 +125,8 @@ It is a set of specific manipulations that can be performed on a point or object
 
 ### Add / Edit Favorite
 
-**Add screenshot**
+![Add Edit favorite action Android](/assets/images/map/add_favorite_android.png) ![Add Edit favorite action iOS](/assets/images/map/add_favorite_ios.png)
+
 In the context menu there are options to **add** or **edit** the selected point / object to the [favorites list](/osmand/personal/myplaces). 
 - In order to **add**, you need to select a point / object, click on the 'Star' icon (with signature Add) and enter all the necessary information. 
 - In order to **edit** information about favorite point you need to turn on 'Show on the map' (Menu → Me places → Favorites) then press on it and in the Context menu instead of 'Star' icon will appear 'Pensil icon' (with signature Edit).
