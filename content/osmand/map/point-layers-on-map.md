@@ -47,7 +47,7 @@ There are many types of POI. For example:
 
 Each POI type in OsmAnd assigned a specific icon and color. POIs' [zoom level](/osmand/map/vector-maps#details) and design could be different in some [map styles](/osmand/map/vector-maps#default-map-styles).
 
-![POI layer](/assets/images/map/poi_layer.png)
+![POI layer](/assets/images/map/poi_layer.png) ![POI layer topo style](/assets/images/map/poi_layer_topo_style.png)
 
 In order to see information about POI you need to make a [short tap](/osmand/map/map-context-menu#select-an-object-short-tap) on the POI icon. The [Context menu](/osmand/map/map-context-menu) will provide you with information about POI:
 - Name
@@ -82,7 +82,7 @@ Chosen categories of POIs show from zoom level 9 on the map and have an orange c
 - Description POI on the map
 - Description Search results on the map
 
-### Favorites search results
+### Favorites search result
 
 You can search and display on the map your favorite points.
 
