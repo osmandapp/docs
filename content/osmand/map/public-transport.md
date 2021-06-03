@@ -30,17 +30,8 @@ Choose between 1 or more transport categories for displaying:
 
 To open Transport menu, you can click on the the transport icon. It displays:
 - Public transport coloured Shields (**clickable**)
-- List of the routes stopping on that stop
-- List of the nearby routes (within 150 m)
+- [List of the routes](#routes) stopping on that stop or nearby (within 150 m)
 - Name of the stop and other [details](#transport-stop-details)
-
-**Shield color**:
-- Subway - own color line 
-- Railway - brown
-- Bus and other  - red
-- Tram - blue,
-- Trolleybus - purple
-
 
 ### Transport Stop details
 
@@ -58,21 +49,27 @@ Public transport stop provides extra details comparing to standard OpenStreetMap
 **Note**: you can filter stops by certain criteria. For example, expand & click on "Bench" / "Yes" and you can see the list of stops with benches. Also they could be [shown on the map](/osmand/map/point-layers-on-map#search-results-poi-on-the-map).
 
 
-### Routes List 
-
-In the Transport Routes list are all public transport routes that approach via selected stop and nearby routes (within 150m).
-
-Each Route in the list has such information: color shield with the route number, route number, name of the selected station and end station,  public transport type icon and name, distance to the stop for nearby routes (within 150m).
+### Routes 
 
 ![Public transport Routes Android](/assets/images/map/pt_routes_android.png) ![Public transport Routes iOS](/assets/images/map/pt_routes_ios.png) 
 
+Transport Routes are all public transport routes that approach via selected stop and nearby routes (within 150m). Routes information is taken from [OpenStreetMap data](https://wiki.openstreetmap.org/wiki/Public_transport) such as ref, name, colour and type.
+
+**Shield color**:
+- Subway - own color line 
+- Railway - brown
+- Bus and other - red
+- Tram - blue
+- Trolleybus - purple
+
 ### Browse Route
+
+![Public transport Route Info Android](/assets/images/map/pt_route_info_android.png)  ![Public transport Route Info iOS](/assets/images/map/pt_route_info_ios.png) 
 
 If you click on the Route from the Route list or click on a shield in the Context menu on the map will display the route of this transport with all stops. In the Context menu will display the name of the stop, number of the transport route and the name of the start and end stops.
 
 In this menu there are two additional buttons '{% data variables.android-values.shared_string_previous %}' and '{% data variables.android-values.shared_string_next %}' for moving between neighbor stops. By switching between stops you can see the name of the neighbor stop, number of the route and names of the start and end stops.
 
-![Public transport Route Info Android](/assets/images/map/pt_route_info_android.png)  ![Public transport Route Info iOS](/assets/images/map/pt_route_info_ios.png) 
 
 Clicking to {% data variables.android-values.rendering_category_details %} button or [Slide](/osmand/map/interact-with-map#gestures) up Context menu opens list of all stops for choosing route.
 
