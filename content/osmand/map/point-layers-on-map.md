@@ -19,11 +19,11 @@ Detailed information on how to create and modify Favorite you can read [here](/o
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.favorites %}
 
-**Note**: you can select what favorites you would like to display on the map. Menu → My places → Favorites → Show on the map selected folder.
+**Note**: you can select what favorites you would like to display on the map. 
+Menu → My places → Favorites → Show on the map selected folder.
+Favorites are become visible on the map from zoom level 6.
 
 ![Favotires layer](/assets/images/map/favorites_layer.png)
-
-Favorites are shown from zoom level 6 on the map.
 
 You can turn on display Favorite names: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_amenity_label %}
 
@@ -31,18 +31,19 @@ You can turn on display Favorite names: {% data variables.android-values.shared_
 
 ## Points of interest (POI)
 
-[A point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) is a specific point (place or object) that marked on the map and could be useful or interesting.  [POI data] (https://wiki.openstreetmap.org/wiki/Points_of_interest) has taken from the OpenStreetMap project.
+[A point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) is a specific point that marked on the map. POI represents interesting or useful places and objects.[POI data](https://wiki.openstreetmap.org/wiki/Points_of_interest) have been taken from the OpenStreetMap project.
 
+### POI categories and types
 There are many types of POI. For example: 
 
-? - Churches, schools, town halls, distinctive buildings
+- Churches, schools, town halls, distinctive buildings
 - Post offices, shops, postboxes, telephone boxes
 - Pubs (pub names are useful when navigating by map)
 - Car parks and lay-bys (and whether free or not)
 - Speed cameras
-- Tourist attractions?
+- Tourist attractions
 
-Each POI type in OsmAnd assigned a specific icon and color. POIs' [zoom level](/osmand/map/vector-maps#details) and design could be different for some [map styles](/osmand/map/vector-maps#default-map-styles).
+Each POI type in OsmAnd assigned a specific icon and color. POIs' [zoom level](/osmand/map/vector-maps#details) and design could be different in some [map styles](/osmand/map/vector-maps#default-map-styles).
 
 ![POI layer](/assets/images/map/poi_layer.png)
 
@@ -52,7 +53,16 @@ In order to see information about POI you need to make a [short tap](/osmand/map
 - Distance from your current position
 - Icon
 
-**In order to shown POI overlay (Selected POI type)**
+### Configure POI visibility 
+
+You can find two kinds of POI in OsmAnd:
+-  Default POI - is multicolored circles with specific signs inside that always visible on the map and could be manually hidden. [Hide](/osmand/map/vector-maps#hide)
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.shared_string_hide %} 
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_hide %}
+
+- Customized POI - is orange circles that appear only when you Configure  POI types displaying. 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}
 
