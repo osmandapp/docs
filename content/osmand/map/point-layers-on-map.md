@@ -29,7 +29,7 @@ Favorites are become visible on the map from zoom level 6.
 
 You can turn on display Favorite names: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_amenity_label %}
 
-![Favotire labels layer](/assets/images/map/favorite_labels_layer.png) ?
+![Favotire labels layer](/assets/images/map/favorite_labels_layer.png) 
 
 ## Points of interest (POI)
 
