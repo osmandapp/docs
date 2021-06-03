@@ -58,13 +58,13 @@ In order to see information about POI you need to make a [short tap](/osmand/map
 ### Configure POI visibility 
 
 You can find two kinds of POI in OsmAnd:
--  Default POI - is multicolored circles with specific signs inside that always visible on the map and could be manually hidden. [Hide](/osmand/map/vector-maps#hide)
+-  Default POI - are multicolored circles with specific signs inside that always visible on the map and could be manually hidden. [Hide](/osmand/map/vector-maps#hide)
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.shared_string_hide %} 
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_hide %}
 
-- Customized POI - is orange circles that appear only when you Configure  POI types displaying. 
+- Customized POI - are orange circles that appear as an overlay on the map only when you select what  POI types should be displaying. 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}
 
@@ -74,8 +74,7 @@ Chosen categories of POIs show from zoom level 9 on the map and have an orange c
 
 ![POI overlay](/assets/images/map/poi_overlay.png)
 
-User can [make own POI categories filters](/osmand/search/custom-poi-search) for choosing and showing it on the map.
-
+**Note**: you can make your own [POI categories filters](/osmand/search/custom-poi-search) for choosing and showing it on the map.
 
 ## Search results on the map
 
