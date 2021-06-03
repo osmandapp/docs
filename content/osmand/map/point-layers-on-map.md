@@ -1,56 +1,56 @@
 ---
-title: "Points (Layers)"
+title: "Points (Overlay layer)"
 intro: "On map you could display points such as Favorites, POI, Markers, Wikipedia, Search results, Audio Video Notes, OSM Edits"
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-## Favorites on the map
+## Favorites
 
-Favorites are user's customized points that were added on the map. Favorite points have [GPX-format](/development/osmand-file-formats/osmand-gpx).
+Favorites are points marked by user on the map. Favorite points have [GPX-format](/development/osmand-file-formats/osmand-gpx).
 
-For adding Favorite on the map you need to make long tap on the map or short tap on any [ways](https://wiki.openstreetmap.org/wiki/Way) or [node](https://wiki.openstreetmap.org/wiki/Node) and choose [{% data variables.android-values.shared_string_actions %} -> {% data variables.android-values.favourites_context_menu_add %}](/osmand/map/map-context-menu#actions). 
+In order to mark point as favorite you need to make long tap on the map or short tap on any [ways](https://wiki.openstreetmap.org/wiki/Way) or [node](https://wiki.openstreetmap.org/wiki/Node) and in the [Context menu](/osmand/map/map-context-menu) choose [{% data variables.android-values.shared_string_actions %} -> {% data variables.android-values.favourites_context_menu_add %}](/osmand/map/map-context-menu#actions). 
 
-How to create and modify Favorite read [here](/osmand/personal/myplaces).
+Detailed information on how to create and modify Favorite you can read [here](/osmand/personal/myplaces).
 
-**For showing Favorites on the map ** 
+### Configure favorites visibility
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.favorites_item %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.favorites %}
 
+**Note**: you can select what favorites you would like to display on the map. Menu → My places → Favorites → Show on the map selected folder.
+
 ![Favotires layer](/assets/images/map/favorites_layer.png)
 
 Favorites are shown from zoom level 6 on the map.
 
-**In order to shown POI overlay labels (Favorites name)**
+You can turn on display Favorite names: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_amenity_label %}
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_amenity_label %}
+![Favotire labels layer](/assets/images/map/favorite_labels_layer.png) ?
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.layer_amenity_label %}
+## Points of interest (POI)
 
-![Favotire labels layer](/assets/images/map/favorite_labels_layer.png)
+[A point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) is a specific point (place or object) that marked on the map and could be useful or interesting.  [POI data] (https://wiki.openstreetmap.org/wiki/Points_of_interest) has taken from the OpenStreetMap project.
 
-## Points of interest (POIs) on the map
+There are many types of POI. For example: 
 
-[A point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) is a specific point location that someone may find useful or interesting. [Data of POI](https://wiki.openstreetmap.org/wiki/Points_of_interest) is from OpenStreetMap project.
-
-POIs have many types, some example:
-
-- Churches, schools, town halls, distinctive buildings
+? - Churches, schools, town halls, distinctive buildings
 - Post offices, shops, postboxes, telephone boxes
 - Pubs (pub names are useful when navigating by map)
 - Car parks and lay-bys (and whether free or not)
 - Speed cameras
-- Tourist attractions
+- Tourist attractions?
 
-In OsmAnd each type of POI has own icon and color. [Zoom level](/osmand/map/vector-maps#details) and style for POIs are different for some [map styles](/osmand/map/vector-maps#default-map-styles).
+Each POI type in OsmAnd assigned a specific icon and color. POIs' [zoom level](/osmand/map/vector-maps#details) and design could be different for some [map styles](/osmand/map/vector-maps#default-map-styles).
 
 ![POI layer](/assets/images/map/poi_layer.png)
 
-Just to do short tap to POI for opening [Map Context menu](/osmand/map/map-context-menu#select-objects-on-map) and finding tag name, POI name and other useful information about POI.
-
-![POI info menu](/assets/images/map/poi_info_menu.png)
+In order to see information about POI you need to make a [short tap](/osmand/map/map-context-menu#select-an-object-short-tap) on the POI icon. The [Context menu](/osmand/map/map-context-menu) will provide you with information about POI:
+- Name
+- Address
+- Distance from your current position
+- Icon
 
 **In order to shown POI overlay (Selected POI type)**
 
