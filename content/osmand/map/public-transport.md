@@ -44,22 +44,18 @@ To open Transport menu, you can click on the the transport icon. It displays:
 
 ### Transport Stop details
 
+**Cut android screenshot** 
 **Update ios screenshot** 
 
 ![Public transport Route menu details Android](/assets/images/map/pt_routemenu_details_android.png) ![Public transport Route menu iOS](/assets/images/map/pt_routemenu_details_ios.png)
 
-Clicking to {% data variables.android-values.rendering_category_details %} button or [Slide](/osmand/map/interact-with-map#gestures) up Context menu opens panel with additional information about the Public transport station. This menu includes:
-
-- Bench
-- Cover
+Public transport stop provides extra details comparing to standard OpenStreetMap object [menu](/osmand/map/map-context-menu#details):
+- Bench presence
+- Cover presence
 - Wheelchair accessibility
 - Operator name
-- Coordinates
-- Online photos
-- OpenStreetMap link
-- etc.
 
-In the Android version, some tags can be helpful for search filters. For example, if you enter in the search area "Bench" then "Yes" you can see the list  the stops that have bench if you press 'Show on the map' all object with this tag will be [shown on the map](/osmand/map/point-layers-on-map#search-results-poi-on-the-map).
+**Note**: you can filter stops by certain criteria. For example, expand & click on "Bench" / "Yes" and you can see the list of stops with benches. Also they could be [shown on the map](/osmand/map/point-layers-on-map#search-results-poi-on-the-map).
 
 
 ### Routes List 
