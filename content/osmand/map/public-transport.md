@@ -1,20 +1,28 @@
 ---
 title: "Public transport"
-intro: "Public transport is an additional layer that allows you to display public transport routes and stops on the map, check information about the transport types and create navigation."
+intro: "Public transport is an additional layer that allows you to display transport routes and stops on the map, to check detailed information about them and to navigate."
 versions: '*'
 ---
-(Explore public transport routes / stops on the map.)
+
 {% data reusables.general.article-not-complete %}
 
 ## Transport Stops (Layer)
 
-Detailed info about Public transport map layer read [here](/osmand/map/vector-maps#transport).
+![Public transport layer Android](/assets/images/map/pt_layer_android.png) ![Public transport layer iOS](/assets/images/map/pt_layer_ios.png) 
 
-| Android | iOS |
-| :--- | :--- |
-| Enable/Disable Public transport layer.| Enable/Disable Public transport layer. |
-|{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_category_transport %} → &#8230 → Choose transport categories for displaying: {% data variables.android-values.rendering_attr_transportStops_name %}; {% data variables.android-values.rendering_attr_publicTransportMode_name %}; {% data variables.android-values.rendering_attr_tramTrainRoutes_name %}; {% data variables.android-values.rendering_attr_subwayMode_name %} | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.rendering_category_transport %} → &#8230 → Choose transport categories for displaying: {% data variables.ios-values.rendering_attr_publicTransportMode_name %}; {% data variables.ios-values.rendering_attr_subwayMode_name %}; {% data variables.ios-values.rendering_attr_tramTrainRoutes_name %}; {% data variables.ios-values.rendering_attr_transportStops_name %}  |
-|   ![Public transport layer Android](/assets/images/map/pt_layer_android.png) | ![Public transport layer iOS](/assets/images/map/pt_layer_ios.png) |
+Enable/Disable Public transport layer:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_category_transport %} → &#8230
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.rendering_category_transport %} → &#8230
+
+Choose transport categories for displaying:
+- {% data variables.android-values.rendering_attr_transportStops_name %}
+- {% data variables.android-values.rendering_attr_publicTransportMode_name %}
+- {% data variables.android-values.rendering_attr_tramTrainRoutes_name %}
+- {% data variables.android-values.rendering_attr_subwayMode_name %}
+
+[Read more](/osmand/map/vector-maps#transport) about how transport is displayed on the map.
 
 ## Transport Routes (Context menu)
 
