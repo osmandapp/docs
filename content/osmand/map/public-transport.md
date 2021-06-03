@@ -51,6 +51,8 @@ Public transport stop provides extra details comparing to standard OpenStreetMap
 
 ### Routes 
 
+**Cut and align screenshots by top** 
+
 ![Public transport Routes Android](/assets/images/map/pt_routes_android.png) ![Public transport Routes iOS](/assets/images/map/pt_routes_ios.png) 
 
 Transport Routes are all public transport routes that approach via selected stop and nearby routes (within 150m). Routes information is taken from [OpenStreetMap data](https://wiki.openstreetmap.org/wiki/Public_transport) such as ref, name, colour and type.
@@ -66,18 +68,13 @@ Transport Routes are all public transport routes that approach via selected stop
 
 ![Public transport Route Info Android](/assets/images/map/pt_route_info_android.png)  ![Public transport Route Info iOS](/assets/images/map/pt_route_info_ios.png) 
 
-If you click on the Route from the Route list or click on a shield in the Context menu on the map will display the route of this transport with all stops. In the Context menu will display the name of the stop, number of the transport route and the name of the start and end stops.
+When you click on the Route from the list or on a shield, Browse Route menu will display with route stops, so you can browse between stops by clicking  '{% data variables.android-values.shared_string_previous %}' and '{% data variables.android-values.shared_string_next %}'. Once you switch between stops, its name will be updated in the context menu and stop will be located on the map.
 
-In this menu there are two additional buttons '{% data variables.android-values.shared_string_previous %}' and '{% data variables.android-values.shared_string_next %}' for moving between neighbor stops. By switching between stops you can see the name of the neighbor stop, number of the route and names of the start and end stops.
+You can see full list of stops by clicking {% data variables.android-values.rendering_category_details %}. Currently selected stop is marked with 'location' icon on the Routes list.
 
+![Public transport Route list Android](/assets/images/map/pt_route_list_android.png) 
 
-Clicking to {% data variables.android-values.rendering_category_details %} button or [Slide](/osmand/map/interact-with-map#gestures) up Context menu opens list of all stops for choosing route.
-
-In this list, you can switch between stations (switching will be also displayed on the map) by clicking on the name of the stop. Selected stop is marked as 'location' icon on the Routes list (instead of transport icon).
-
-![Public transport Route list Android](/assets/images/map/pt_route_list_android.png) ![Public transport Route list iOS](/assets/images/map/pt_route_list_ios.png) 
-
-If you click {% data variables.android-values.get_directions %} button you will get a route from your current location to the selected Public Transport Station.
+**Note**: If you click {% data variables.android-values.get_directions %} button you will get a route from your current location to the selected Public Transport Station.
 
 ## Read more
 
