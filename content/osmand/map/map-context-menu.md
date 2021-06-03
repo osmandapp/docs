@@ -106,21 +106,21 @@ In this section, you can view photos of the object from different sources web so
 
 ![Online photo Mapillary](/assets/images/map/context_menu_Online_photo.png) ![Online photo wikimedia](/assets/images/map/context_menu_Online_photo_1.png)
 
-### * Audio/Video Note
+### * Audio/Video Note (Android)
 
 [Audio / Video notes](/osmand/plugins/audio-video-notes) have additional information on Details Menu and buttons (Delete, Play, Show) in Context menu. 
 
-For Image notes in Details Menu, an image is displayed; when you click on an image, it opens in the editor. There is information about date and time of making note. In Context menu, there are 'Show' and 'Delete' buttons for opening an image in the editor or delete it.
+For Image notes in Details Menu, an image is displayed; when you click on an image, it opens in the editor. There is information about date and time of making note. In Context menu, there are 'Show' and 'Delete' buttons for opening an image in the editor or delete it; data and time of making a note; type of a note (photo).
 
-For Audio/Video notes in Details Menu, there is information about date and time of making note. In Context menu, there are 'Play' and 'Delete' buttons for playing an note in the editor or delete it.
+For Audio/Video notes in Details Menu, there is information about date and time of making note. In Context menu, there are 'Play' and 'Delete' buttons for playing a note in the editor or delete it; data and time of making a note; type of a note (video, audio).
  
 ![Image list](/assets/images/map/image_list_android.png) ![Video list](/assets/images/map/video_list_android.png)
 
 ## Actions
 
-It is a set of specific manipulations that can be performed on a point or object. This menu is split into two parts: visible section consists of maximum 3 actions and other actions are accessible by 'Actions' button. You can customize the order of actions in [General settings](#customize-android-advanced).
+It is a set of specific manipulations that can be performed on a point or object. This menu is split into two parts: visible section consists of maximum 3 actions and other actions are accessible by 'Actions' button. You can customize (Android) the order of actions in [General settings](#customize-android-advanced).
 
-**Add screenshot**
+![Actions menus](/assets/images/map/actions_menus_android.png) ![Video list](/assets/images/map/actions_menus_ios.png)
 
 
 ### Add / Edit Favorite
