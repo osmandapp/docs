@@ -76,7 +76,7 @@ Chosen categories of POIs show from zoom level 9 on the map and have an orange c
 
 **Note**: you can make your own [POI categories filters](/osmand/search/custom-poi-search) for choosing and showing it on the map.
 
-## Search points on the map
+## Search results on the map
 
 - Description favorites on the map
 - Description POI on the map
@@ -110,32 +110,32 @@ Click to "X" for switch off orange POI icons on the map.
 Read more about Searching feature [here](/osmand/search).
 
 
-## Points of Plugins 
+**WIP Points of Plugins (delete)**
 
 - Description Wikipedia  on the map + Link to Wikipedia plugin
 - Description Audio / Video results on the map + link
 - Description osm edits on the map + link
 - Description osm notes on the map + link
 
-### Wikipedia on the map
+## * Wikipedia points
 
 Wikipedia feature has its own POIs on the map that has a full description for offline use. Read more how to download and use the Wikipedia feature in OsmAnd [here](osmand/plugins/wikipedia).
 
 ![Wikipedia POI](/assets/images/map/wikipedia_poi.png)
 
-### Audio / Video notes on the map
+## * Audio / Video points
 
 Audio / Video notes are user's made points with audio/photo/video data on the map. Read about this feature [here](/osmand/plugins/audio-video-notes).
 
 ![AV POI](/assets/images/map/av_poi.png)
 
-### OSM edit points on the map
+## * OSM edit points 
 
 OSM edit points are user's made POIs for adding its for [OpenStreetMap project](https://www.openstreetmap.org/). Read about this feature [here](/osmand/plugins/osm-editing).
 
 ![OSM edit POI](/assets/images/map/osm_edit_poi.png)
 
-### OSM note points on the map
+## * OSM notes 
 
 OSM note points are user's made POIs for reporting issue about POI in [OpenStreetMap project](https://www.openstreetmap.org/). Read about this feature [here](/osmand/plugins/osm-editing#how-to-report-a-mistake).
 
