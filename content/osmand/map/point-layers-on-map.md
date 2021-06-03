@@ -20,7 +20,9 @@ Detailed information on how to create and modify Favorite you can read [here](/o
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.favorites %}
 
 **Note**: you can select what favorites you would like to display on the map. 
+
 Menu → My places → Favorites → Show on the map selected folder.
+
 Favorites are become visible on the map from zoom level 6.
 
 ![Favotires layer](/assets/images/map/favorites_layer.png)
