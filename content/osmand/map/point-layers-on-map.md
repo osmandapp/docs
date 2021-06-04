@@ -53,7 +53,9 @@ There are two kinds of POI in OsmAnd:
 - Standard
 - Customizable
 
- They are identical in functionality and information availability. The only difference is that **standard POI** is set by default and may be partially displayed on the map depending on the style and rendering. You can turn off their display on the map by [hiding](/osmand/map/vector-maps#hide) them in the Configure map.
+They are identical in functionality and information availability. The only difference is that standard POI is set by default and may be partially displayed on the map depending on the style and rendering. 
+
+**Standard POI** has multicolored circles and could be [hidden](/osmand/map/vector-maps#hide) on the map in the {% data variables.android-values.configure_map %} menu.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.shared_string_hide %} 
 
