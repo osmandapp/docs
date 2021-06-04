@@ -32,6 +32,8 @@ Tap on the map where the new POI has to be placed. Press on **{% data variables.
 Note: you can see your new POI on OsmAnd map after one hour after added it to OSM project if you have {% link /osmand/purchases/osmand-live-android %}.
 {% endnote %}
 
+### How to modify POI
+
 ### How to upload GPX track
 You can add the tracks you've made to {% data reusables.links.osm %}. To do that, turn the [Trip recording plugin](http://osmand.net/features?id=trip-recording-plugin) on, record a track, and then go to _My places-> Tracks-> press the ![OpenStretMap editing](/assets/images/icons/android/ic_action_export.svg) button_. Choose the required track and click _Yes_. You can change description, tags or visibility of the track. 
 
