@@ -7,26 +7,27 @@ versions: '*'
 
 ## Favorites
 
-Favorites are points marked by user on the map. Favorite points have [GPX-format](/development/osmand-file-formats/osmand-gpx).
+[Favorites](/osmand/personal/favorites) are points marked by user on the map. By default they marked as yellow star, but they could be edit to any other icons and colors.
 
-In order to mark point as favorite you need to make long tap on the map or short tap on any [ways](https://wiki.openstreetmap.org/wiki/Way) or [node](https://wiki.openstreetmap.org/wiki/Node) and in the [Context menu](/osmand/map/map-context-menu) choose [{% data variables.android-values.shared_string_actions %} -> {% data variables.android-values.favourites_context_menu_add %}](/osmand/map/map-context-menu#actions). 
-
-Detailed information on how to create and modify Favorite you can read [here](/osmand/personal/myplaces).
-
-### Configure favorites visibility
+Enable/ disable favorites on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.favorites_item %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.favorites %}
-
-**Note**: you can select what favorites you would like to display on the map. 
-
-Menu → My places → Favorites → Show on the map selected folder.
-
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.favorites %}.
 Favorites are become visible on the map from zoom level 6.
+
+**Note**: When you turn on favorites in the Сonfigure map will be displayed all points that have been marked as 'Show on the map'. 
+
+In order to select what folder of favorites should be displayed you need to go to:
+
+[Menu](/osmand/start-with/main-menu) → [My places](/osmand/personal/myplaces) → [Favorites](/osmand/personal/favorites) → Select folder and press 'Show on the map'.
 
 ![Favotires layer](/assets/images/map/favorites_layer.png)
 
+In order to display the name of the Favorite point you need to turn it on in the Configure map:
+
+ Menu → Configure map → POI overlay labels
+ 
 You can turn on display Favorite names: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_amenity_label %}
 
 ![Favotire labels layer](/assets/images/map/favorite_labels_layer.png) 
