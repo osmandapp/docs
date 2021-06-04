@@ -172,8 +172,14 @@ It is possible to create navigation To/From chosen point on the map using Action
 - [{% data variables.android-values.get_directions %}](/osmand/widgets/map-buttons#directions) - allows you to plan route from your location to the selected point (or reverse) by clicking the 'Direction' button.
 - {% data variables.android-values.context_menu_item_directions_from %} - makes the chosen point as departure point for navigation.
 
-### Plan a route
-- {% data variables.android-values.plan_a_route %} (Android ?) - opens ["Plan a route"](/osmand/plan-route/create-route) tool and select chosen point as the beginning of the route.
+### Search nearby
+
+Quick search near chosen point. 
+
+- {% data variables.android-values.context_menu_item_search %} - opens seach menu and searches near the chosen point.
+
+### Parking point
+- [{% data variables.android-values.context_menu_item_add_parking_point %}](/osmand/plugins/parking) - makes or edits the chosen point as parking position.
 
 ### Avoid road
 - {% data variables.android-values.avoid_road %} (Android ?) - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
@@ -182,9 +188,6 @@ It is possible to create navigation To/From chosen point on the map using Action
 
 - {% data variables.android-values.context_menu_item_add_waypoint %} - makes selected point to a track as a waypoint.
 
-### Search
-
-- {% data variables.android-values.context_menu_item_search %} - opens seach menu and searches near the chosen point.
 
 ### Change position (Move)
 - {% data variables.android-values.change_markers_position %} - moves selected Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint  to another location.
@@ -199,6 +202,10 @@ It is possible to create navigation To/From chosen point on the map using Action
 - Download map vector
 - Update map vector
 
+### * Plan a route (Android)
+
+- {% data variables.android-values.plan_a_route %} (Android ?) - opens ["Plan a route"](/osmand/plan-route/create-route) tool and select chosen point as the beginning of the route.
+
 ### * Audio-Video (Android)
 - {% data variables.android-values.recording_context_menu_arecord %} - makes a [audio note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with audio icon).
 - {% data variables.android-values.recording_context_menu_vrecord%} - makes a [video note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with video icon).
@@ -208,9 +215,6 @@ It is possible to create navigation To/From chosen point on the map using Action
 - [{% data variables.android-values.poi_context_menu_modify %}](/osmand/plugins/osm-editing)  - edits information of POI.
 - [{% data variables.android-values.poi_context_menu_delete %}](/osmand/plugins/osm-editing)  - deletes OpenStreetMap POI.
 - [{% data variables.android-values.context_menu_item_open_note %}](/osmand/plugins/osm-editing) - adds [OSM note](https://wiki.openstreetmap.org/wiki/Notes) for to OpenStreetMap.
-
-### * Parking point
-- [{% data variables.android-values.context_menu_item_add_parking_point %}](/osmand/plugins/parking) - makes or edits the chosen point as parking position.
 
 
 ## Customize (Android advanced)
