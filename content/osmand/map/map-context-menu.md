@@ -138,10 +138,10 @@ In the context menu there are options to **add** or **edit** the selected point 
 ![Add Edit marker action Android](/assets/images/map/add_marker_android.png) ![Add Edit marker action iOS](/assets/images/map/add_marker_ios.png)
 
 It is possible to mark a point or object in order to make it easier to plan navigation using the marked point. To do this, you just need to click on the point and put flag on this place. The context menu will display the name of the marker, the distance from your current position (Android) and the "marker passed" and "make active" buttons (Android).
-- 'Mark passed' is deactivate marker from the map and relocate it to the History (Android).
-- 'Make active' is turned this marker to the active status and makes visible (on the top panel) information about the name of the marker and distance from your current position (Android).
-- Restore marker - is an additional option in the Map marker menu to return passed marker from the history list to the active Marker list (Android).
-- Dismiss - is deactivate marker from the map and relocate it to the History (iOS). 
+- 'Mark passed' (Android) is deactivate marker from the map and relocate it to the History.
+- 'Make active' (Android) is turned this marker to the active status and makes visible (on the top panel) information about the name of the marker and distance from your current position.
+- Restore marker (Android) - is an additional option in the Map marker menu to return passed marker from the history list to the active Marker list.
+- Dismiss (iOS) - is deactivate marker from the map and relocate it to the History. 
 - [{% data variables.android-values.shared_string_marker %} / {% data variables.android-values.edit_map_marker %}](/osmand/personal/markers) - put marker on the selected point.
 
 ### Share
@@ -164,8 +164,12 @@ All options to share your location:
 - Save to files (iOS) - you save the map screenshot in iCloud Drive or storage of your device.
 
 ### Directions To / From 
-**Add screenshot**
-- [{% data variables.android-values.get_directions %}](/osmand/widgets/map-buttons#directions) - allows you to plan route from your location to the selected point (or reverse) by clicking the 'Direction' button
+
+![Directions Android](/assets/images/map/action_directions_android.png) ![Directions iOS](/assets/images/map/action_directions_ios.png)
+
+It is possible to create navigation To/From chosen point on the map using Actions of Map Context menu.
+
+- [{% data variables.android-values.get_directions %}](/osmand/widgets/map-buttons#directions) - allows you to plan route from your location to the selected point (or reverse) by clicking the 'Direction' button.
 - {% data variables.android-values.context_menu_item_directions_from %} - makes the chosen point as departure point for navigation.
 
 ### Plan a route
