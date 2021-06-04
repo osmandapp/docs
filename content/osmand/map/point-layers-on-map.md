@@ -49,10 +49,11 @@ Each POI type in OsmAnd assigned a specific icon and color. POIs' [zoom level](/
 
 You can find detailed information about the POI in the [Context menu](/osmand/map/map-context-menu) that appears after a [short tap](/osmand/map/map-context-menu#select-an-object-short-tap) on the point.
 
-### Configure POI visibility 
+There are two kinds of POI in OsmAnd:
+- Standard
+- Customizable
 
-You can find two kinds of POI in OsmAnd:
--  Default POI - are multicolored circles with specific signs inside that always visible on the map and could be manually hidden. [Hide](/osmand/map/vector-maps#hide)
+ They are identical in functionality and information availability. The only difference is that **standard POI** is set by default and may be partially displayed on the map depending on the style and rendering. You can turn off their display on the map by [hiding](/osmand/map/vector-maps#hide) them in the Configure map.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.shared_string_hide %} 
 
