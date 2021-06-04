@@ -75,7 +75,15 @@ Chosen categories of POIs show from zoom level 9 on the map and have an orange c
 
 ## Markers
 
-????
+Map [markers](/osmand/personal/markers) are selected points marked as flags on the map. 
+
+Enable/ disable markers on the map:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_markers_item %} 
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_markers %}.
+
+![Map markers Android](/assets/images/map/map_markers_Android.png)
 
 ## Track points
 
