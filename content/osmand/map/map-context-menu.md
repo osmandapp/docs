@@ -167,39 +167,91 @@ All options to share your location:
 
 ![Directions Android](/assets/images/map/action_directions_android.png) ![Directions iOS](/assets/images/map/action_directions_ios.png)
 
-It is possible to create navigation To/From chosen point on the map using Actions of Map Context menu.
+It is possible to create navigation To/From chosen point on the map using next Actions of Map Context menu.
 
 - [{% data variables.android-values.get_directions %}](/osmand/widgets/map-buttons#directions) - allows you to plan route from your location to the selected point (or reverse) by clicking the 'Direction' button.
 - {% data variables.android-values.context_menu_item_directions_from %} - makes the chosen point as departure point for navigation.
 
 ### Search nearby
 
-Quick search near chosen point. 
+
+
+For [starting seach](/osmand/search) near chosen point you need to use next Action. 
 
 - {% data variables.android-values.context_menu_item_search %} - opens seach menu and searches near the chosen point.
 
 ### Add Parking
 
+
+
+To designate the selected point as [a parking position](/osmand/plugins/parking).
+
 - [{% data variables.android-values.context_menu_item_add_parking_point %}](/osmand/plugins/parking) - makes or edits the chosen point as parking position.
 
 ### Add track waypoint
 
+
+
+In order to make chosen point like a waypoint for [a track from a visible tracks list](/osmand/map/tracks-on-map#tracks-on-the-map-layers).
+
 - {% data variables.android-values.context_menu_item_add_waypoint %} - makes selected point to a track as a waypoint.
+
+### Create / Modify POI
+
+
+
+In OsmAnd user can create POI in the chosen place and modify chosen POI. For this user need to enable ['OpenStreetMap editing' plugin](/osmand/plugins/osm-editing). All modified or creating data keep saved on [OpenStreetMap](https://www.openstreetmap.org/).
+
+{% data variables.android-values.context_menu_item_create_poi %} - allows [to create POI](/osmand/plugins/osm-editing#how-to-add-poi) in a chosen point.
+
+{% data variables.android-values.poi_context_menu_modify %} - allows [to modify chosen POI](/osmand/plugins/osm-editing#how-to-modify-poi).
+
+### Open OSM Note
+
+
+
+An user can report about the mistakes on the map to [OpenStreetMap](https://www.openstreetmap.org/). For adding [OSM Note](/osmand/plugins/osm-editing#how-to-report-a-mistake) in a chosen point, an user need to enable ['OpenStreetMap editing' plugin](/osmand/plugins/osm-editing). 
+
+- [{% data variables.android-values.context_menu_item_open_note %}](/osmand/plugins/osm-editing) - adds [OSM note](https://wiki.openstreetmap.org/wiki/Notes) for to [OpenStreetMap](https://www.openstreetmap.org/).
+
+### Update / Download Online Maps
+
+
+
+Action is for download and update online maps (tiles). Full instruction about it read [here](/osmand/map/raster-maps#download--update-tiles). 
+
+- {% data variables.android-values.shared_string_download_map %} - allows downloading online map (tiles) in the buffer for using in offline.
+- {% data variables.android-values.update_tile %} - allows udating online map (tiles).
+
+
+
+### Update / Download Vector Maps
+
+
+Action allows [updating or downloading OsmAnd maps (vector and terrain)](/osmand/start-with/download-maps) by clicking to the map  using special buttons on Map Context menu. 
+
+For **Android** clicking on the map for Zoom 3-7. There is next information in the Map Context menu: name, type and size of a choosing map data.:
+
+- {% data variables.android-values.shared_string_download %} - allows to download a map of selected region.
+- {% data variables.android-values.shared_string_update %} - allows to update a map of selected region.
+- {% data variables.android-values.live_update %} - starts to update [a live map](osmand/personal) of selected region.
+- {% data variables.android-values.download_select_map_types %} - opens the dialogue for choosing any data like [terrain maps](/osmand/plugins/contour-lines#terrain-settings), [contour lines](/osmand/plugins/contour-lines#contour-lines-settings), [wikipedia](/osmand/plugins/wikipedia) of selected region for download.
+
+Clicking to '{% data variables.android-values.rendering_category_details %}' button opens additional information about a map and a region of download: type and size of a map, link to a countre (region) wikipedia page, creating day of a map, population of a country.
+
+
+
+
+For **iOS**, there is button for downloading a map of region in Map context menu. By clickig to this button start to download a map.
 
 ### Avoid road
 - {% data variables.android-values.avoid_road %} (Android ?) - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
 
-### Add track waypoint
 
-- {% data variables.android-values.context_menu_item_add_waypoint %} - makes selected point to a track as a waypoint.
 
 ### * Change marker position (Android)
 - {% data variables.android-values.change_markers_position %} - moves selected Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint  to another location.
 
-### Update / Download Online Maps
-
-- Update map
-- Download map
 
 ### Update / Download Vector Maps
 
@@ -215,10 +267,7 @@ Quick search near chosen point.
 - {% data variables.android-values.recording_context_menu_vrecord%} - makes a [video note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with video icon).
 - {% data variables.android-values.recording_context_menu_precord %} - makes a [photo point](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on the map.
 
-### * OSM Editing (Android)
-- [{% data variables.android-values.poi_context_menu_modify %}](/osmand/plugins/osm-editing)  - edits information of POI.
-- [{% data variables.android-values.poi_context_menu_delete %}](/osmand/plugins/osm-editing)  - deletes OpenStreetMap POI.
-- [{% data variables.android-values.context_menu_item_open_note %}](/osmand/plugins/osm-editing) - adds [OSM note](https://wiki.openstreetmap.org/wiki/Notes) for to OpenStreetMap.
+
 
 
 ## Customize (Android advanced)
