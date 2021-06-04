@@ -31,9 +31,8 @@ Enable/disable favorites name on the map:
 
 ## Points of interest (POI)
 
-[A point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) is specific interesting or useful places and objects that have been marked on the map. [POI data](https://wiki.openstreetmap.org/wiki/Points_of_interest) have been taken from the OpenStreetMap project.
+A [point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) is specific points that have been marked on the map as interesting or useful places/objects. [POI data](https://wiki.openstreetmap.org/wiki/Points_of_interest) has been taken from the OpenStreetMap project.
 
-### POI categories and types
 There are many types of POI. For example: 
 
 - Churches, schools, town halls, distinctive buildings
@@ -42,16 +41,13 @@ There are many types of POI. For example:
 - Car parks and lay-bys (and whether free or not)
 - Speed cameras
 - Tourist attractions
+- etc.
 
 Each POI type in OsmAnd assigned a specific icon and color. POIs' [zoom level](/osmand/map/vector-maps#details) and design could be different in some [map styles](/osmand/map/vector-maps#default-map-styles).
 
 ![POI layer](/assets/images/map/poi_layer.png) ![POI layer topo style](/assets/images/map/poi_layer_topo_style.png)
 
-In order to see information about POI you need to make a [short tap](/osmand/map/map-context-menu#select-an-object-short-tap) on the POI icon. The [Context menu](/osmand/map/map-context-menu) will provide you with information about POI:
-- Name
-- Address
-- Distance from your current position
-- Icon
+You can find detailed information about the POI in the [Context menu](/osmand/map/map-context-menu) that appears after a [short tap](/osmand/map/map-context-menu#select-an-object-short-tap) on the point.
 
 ### Configure POI visibility 
 
