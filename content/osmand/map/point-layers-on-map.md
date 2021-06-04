@@ -53,15 +53,17 @@ There are two kinds of POI in OsmAnd:
 - Standard
 - Customizable
 
-They are identical in functionality and information availability. The only difference is that standard POI is set by default and may be partially displayed on the map depending on the style and rendering. 
+They are identical in functionality and information availability. The only difference is that **standard** POI is set by default and may be partially displayed on the map depending on the style and rendering, **customizable**  POI is configurable POI types that display on the map as an overlay layer.
 
-**Standard POI** has multicolored circles and could be [hidden](/osmand/map/vector-maps#hide) on the map in the {% data variables.android-values.configure_map %} menu.
+Standard POI has multicolored circles and could be [hidden](/osmand/map/vector-maps#hide) on the map in the {% data variables.android-values.configure_map %} menu.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.shared_string_hide %} 
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_hide %}
 
-- Customized POI - are orange circles that appear as an overlay on the map only when you select what  POI types should be displaying. 
+Customized POI - has orange circles that appear as an overlay on the map only when you select what  POI types should be displaying. 
+
+**Note**: you can make your own [POI categories filters](/osmand/search/custom-poi-search) for choosing and showing it on the map.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}
 
@@ -70,9 +72,6 @@ They are identical in functionality and information availability. The only diffe
 Chosen categories of POIs show from zoom level 9 on the map and have an orange circle. 
 
 ![POI overlay](/assets/images/map/poi_overlay.png)
-
-**Note**: you can make your own [POI categories filters](/osmand/search/custom-poi-search) for choosing and showing it on the map.
-
 
 ## Markers
 
