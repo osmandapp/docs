@@ -23,7 +23,7 @@ Favorites are become visible on the map from zoom level 6.
 
 ![Favotires layer](/assets/images/map/favorites_layer.png)
 
-**Note**: In order to display the name of the Favorite point you need to turn it on in the Configure map:
+Enable/disable favorites name on the map:
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_amenity_label %}
 
