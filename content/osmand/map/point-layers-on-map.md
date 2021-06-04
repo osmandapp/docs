@@ -116,7 +116,7 @@ The first seacrch result is categories, next - nearest POIs.
 
 Click to "Show POI in the map" for showing POIs on the map.
 
-![POI search](/assets/images/map/poi_search.png)
+![POI search](/assets/images/map/poi_search.png) ![POI search result](/assets/images/map/poi_search_result.png)
 
 Click to "X" for switch off orange POI icons on the map.
 
