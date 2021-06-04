@@ -129,7 +129,7 @@ It is a set of specific manipulations that can be performed on a point or object
 
 In the context menu there are options to **add** or **edit** the selected point / object to the [favorites list](/osmand/personal/myplaces). 
 - In order to **add**, you need to select a point / object, click on the 'Star' icon (with signature Add) and enter all the necessary information. 
-- In order to **edit** information about favorite point you need to turn on 'Show on the map' (Menu → Me places → Favorites) then press on it and in the Context menu instead of 'Star' icon will appear 'Pensil icon' (with signature Edit).
+- In order to **edit** information about favorite point you need to turn on 'Show on the map' (Menu → Me places → Favorites) then press on it and in the Context menu instead of 'Star' icon will appear 'Pancil icon' (with signature Edit).
 
 - [{% data variables.android-values.add_edit_favorite %}](/osmand/personal/myplaces)  - adds a selected point to the favorites list.
 
@@ -178,8 +178,13 @@ Quick search near chosen point.
 
 - {% data variables.android-values.context_menu_item_search %} - opens seach menu and searches near the chosen point.
 
-### Parking point
+### Add Parking
+
 - [{% data variables.android-values.context_menu_item_add_parking_point %}](/osmand/plugins/parking) - makes or edits the chosen point as parking position.
+
+### Add track waypoint
+
+- {% data variables.android-values.context_menu_item_add_waypoint %} - makes selected point to a track as a waypoint.
 
 ### Avoid road
 - {% data variables.android-values.avoid_road %} (Android ?) - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
@@ -188,8 +193,7 @@ Quick search near chosen point.
 
 - {% data variables.android-values.context_menu_item_add_waypoint %} - makes selected point to a track as a waypoint.
 
-
-### Change position (Move)
+### * Change marker position (Android)
 - {% data variables.android-values.change_markers_position %} - moves selected Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint  to another location.
 
 ### Update / Download Online Maps
