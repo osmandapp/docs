@@ -15,11 +15,11 @@ Enable/ disable favorites on the map:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.favorites %}.
 
-Favorites are become visible on the map from zoom level 6. When you turn on favorites in the Сonfigure map will be displayed all points that have been marked as 'Show on the map'. 
+ When you turn on favorites in the Сonfigure map will be displayed all points that have been marked as 'Show on the map'. In order to select what folder of favorites should be displayed you need to go to:
 
-In order to select what folder of favorites should be displayed you need to go to:
+{% data variables.android-values.shared_string_menu %} → My places  → Favorites → Select folder and press 'Show on the map'.
 
-[Menu](/osmand/start-with/main-menu) → [My places](/osmand/personal/myplaces) → [Favorites](/osmand/personal/favorites) → Select folder and press 'Show on the map'.
+Favorites are become visible on the map from zoom level 6.
 
 ![Favotires layer](/assets/images/map/favorites_layer.png)
 
