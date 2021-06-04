@@ -83,7 +83,7 @@ Enable/ disable markers on the map:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_markers %}.
 
-![Map markers Android](/assets/images/map/map_markers_Android.png)
+![Map markers Android](/assets/images/map/map_markers_Android.png) ![Map markers iOS](/assets/images/map/map_markers_iOS.png)
 
 ## Track points
 
