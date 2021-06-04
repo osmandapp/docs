@@ -15,9 +15,7 @@ Enable/ disable favorites on the map:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.favorites %}.
 
-Favorites are become visible on the map from zoom level 6.
-
-**Note**: When you turn on favorites in the Сonfigure map will be displayed all points that have been marked as 'Show on the map'. 
+Favorites are become visible on the map from zoom level 6. When you turn on favorites in the Сonfigure map will be displayed all points that have been marked as 'Show on the map'. 
 
 In order to select what folder of favorites should be displayed you need to go to:
 
