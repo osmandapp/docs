@@ -63,15 +63,15 @@ Standard POI has multicolored circles and could be [hidden](/osmand/map/vector-m
 
 Customized POI - has orange circles that appear as an overlay on the map only when you select what  POI types should be displaying. 
 
-**Note**: you can make your own [POI categories filters](/osmand/search/custom-poi-search) for choosing and showing it on the map.
-
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.poi_overlay %}
 
-Chosen categories of POIs show from zoom level 9 on the map and have an orange circle. 
+Chosen categories of POIs show from zoom level 9 on the map and have an orange circle.
 
-![POI overlay](/assets/images/map/poi_overlay.png)
+**Note**: you can make your own [POI categories filters](/osmand/search/custom-poi-search) for choosing and showing it on the map.
+
+![POI overlay Android](/assets/images/map/poi_overlay_Android.png) ![POI overlay iOS](/assets/images/map/poi_overlay_iOS.png)
 
 ## Markers
 
