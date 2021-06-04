@@ -75,7 +75,7 @@ Chosen categories of POIs show from zoom level 9 on the map and have an orange c
 
 ## Markers
 
-Map [markers](/osmand/personal/markers) are selected points marked as flags on the map. 
+[Map markers](/osmand/personal/markers) are selected points marked as flags on the map. 
 
 Enable/ disable markers on the map:
 
