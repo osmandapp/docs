@@ -250,6 +250,8 @@ In order to make chosen point like a waypoint for [a track from a visible tracks
 
 ### * Create / Modify POI
 
+![Action POI Android](/assets/images/map/action_poi_android.png) ![Action POI iOS](/assets/images/map/action_poi_ios.png)
+
 In OsmAnd user can create POI in the chosen place and modify chosen POI. For this user need to enable ['OpenStreetMap editing' plugin](/osmand/plugins/osm-editing). All modified or creating data keep saved on [OpenStreetMap](https://www.openstreetmap.org/).
 
 {% data variables.android-values.context_menu_item_create_poi %} - allows [to create POI](/osmand/plugins/osm-editing#how-to-add-poi) in a chosen point.
@@ -258,6 +260,8 @@ In OsmAnd user can create POI in the chosen place and modify chosen POI. For thi
 
 ### * Open OSM Note
 
+![Action Note Android](/assets/images/map/action_note_android.png) ![Action Note iOS](/assets/images/map/action_note_ios.png)
+
 An user can report about the mistakes on the map to [OpenStreetMap](https://www.openstreetmap.org/). For adding [OSM Note](/osmand/plugins/osm-editing#how-to-report-a-mistake) in a chosen point, an user need to enable ['OpenStreetMap editing' plugin](/osmand/plugins/osm-editing). 
 
 - [{% data variables.android-values.context_menu_item_open_note %}](/osmand/plugins/osm-editing) - adds [OSM note](https://wiki.openstreetmap.org/wiki/Notes) for to [OpenStreetMap](https://www.openstreetmap.org/).
@@ -265,6 +269,7 @@ An user can report about the mistakes on the map to [OpenStreetMap](https://www.
 
 ### * Audio-Video (Android)
 
+![Action Audio-Video Android](/assets/images/map/action_av_note_android.png)
 
 Assign selected point as audio/video/photo point.
 
