@@ -174,20 +174,36 @@ It is possible to create navigation To/From chosen point on the map using next A
 
 ### Search nearby
 
+
+
 For [starting seach](/osmand/search) near chosen point you need to use next Action. 
 
 - {% data variables.android-values.context_menu_item_search %} - opens seach menu and searches near the chosen point.
 
 
 ### Avoid road
-- {% data variables.android-values.avoid_road %} (Android ?) - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
+
+
+
+This action adds a point on the road which would be avoided during routing. The routing algorithm of OsmAnd won't build a route through this point.
+
+- {% data variables.android-values.avoid_road %} - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
 
 ### Change objects position
+
+
+
+This action allows you to change the location for your points (Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint). Click to this action for choose point and move your screen for new location.
+
 - {% data variables.android-values.change_markers_position %} - moves selected Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint  to another location.
 
 ### Plan a route
 
-- {% data variables.android-values.plan_a_route %} (Android ?) - opens ["Plan a route"](/osmand/plan-route/create-route) tool and select chosen point as the beginning of the route.
+
+
+Opens ['Plan a route'](/osmand/plan-route/create-route) tool with the selected point as the first point.
+
+- {% data variables.android-values.plan_a_route %} - opens ["Plan a route"](/osmand/plan-route/create-route) tool and select chosen point as the beginning of a route.
 
 ### Update / Download Online Maps
 
@@ -238,9 +254,13 @@ In OsmAnd user can create POI in the chosen place and modify chosen POI. For thi
 An user can report about the mistakes on the map to [OpenStreetMap](https://www.openstreetmap.org/). For adding [OSM Note](/osmand/plugins/osm-editing#how-to-report-a-mistake) in a chosen point, an user need to enable ['OpenStreetMap editing' plugin](/osmand/plugins/osm-editing). 
 
 - [{% data variables.android-values.context_menu_item_open_note %}](/osmand/plugins/osm-editing) - adds [OSM note](https://wiki.openstreetmap.org/wiki/Notes) for to [OpenStreetMap](https://www.openstreetmap.org/).
-- 
+
 
 ### * Audio-Video (Android)
+
+
+Assign selected point as audio/video/photo point.
+
 - {% data variables.android-values.recording_context_menu_arecord %} - makes a [audio note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with audio icon).
 - {% data variables.android-values.recording_context_menu_vrecord%} - makes a [video note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with video icon).
 - {% data variables.android-values.recording_context_menu_precord %} - makes a [photo point](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on the map.
