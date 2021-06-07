@@ -87,6 +87,9 @@ Enable/ disable markers on the map:
 
 ## Track points
 
+One type of the points are track waypoints. 
+
+[Track article](/osmand/map/tracks-on-map)
 Redirect to track article
 
 ## Search results
@@ -94,19 +97,6 @@ Redirect to track article
 - Description favorites on the map
 - Description POI on the map
 - Description Search results on the map
-
-### Favorites search result
-
-You can search and display on the map your favorite points.
-
-When you need to find  on the map point from your favorites, you need to:
-- Enable 'Show on the map' folder with a needed point inside.
-- Enter the name of the point in the search area
-- Select needed point from the list 
-
-(For searching Favorites on the map you need to click to [Search button](/osmand/widgets/map-buttons#search) on the screen. After writing Favorite name you see search results below . Clicking to chosen Favorite opens [Map Context menu](/osmand/map/map-context-menu) of Favorite.)
-
-![Favorite search](/assets/images/map/favorite_search.png) ![Favorite search result](/assets/images/map/favorite_search_result.png)
 
 ### Search results POI on the map
 
