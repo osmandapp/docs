@@ -198,7 +198,7 @@ This action allows you to change the location for your points (Marker, Favorite,
 
 ### Plan a route
 
-
+![Action Plan a route Android](/assets/images/map/action_plan_route_android.png)
 
 Opens ['Plan a route'](/osmand/plan-route/create-route) tool with the selected point as the first point.
 
@@ -206,12 +206,16 @@ Opens ['Plan a route'](/osmand/plan-route/create-route) tool with the selected p
 
 ### Update / Download Online Maps
 
+![Action Download online map Android](/assets/images/map/action_download_online_map_android.png) ![Action Download online map iOS](/assets/images/map/action_download_online_map_ios.png)
+
 Action is for download and update online maps (tiles). Full instruction about it read [here](/osmand/map/raster-maps#download--update-tiles). 
 
 - {% data variables.android-values.shared_string_download_map %} - allows downloading online map (tiles) in the buffer for using in offline.
 - {% data variables.android-values.update_tile %} - allows udating online map (tiles).
 
 ### Update / Download Vector Maps
+
+![Action Download vector map Android](/assets/images/map/action_download_vector_map_android.png) ![Action Download vector map iOS](/assets/images/map/action_download_vector_map_ios.png)
 
 Action allows [updating or downloading OsmAnd maps (vector and terrain)](/osmand/start-with/download-maps) by clicking to the map  using special buttons on Map Context menu. 
 
@@ -229,6 +233,8 @@ For **iOS**, there is button for downloading a map of region in Map context menu
 
 
 ### * Add Parking
+
+![Action Parking Android](/assets/images/map/action_parking_android.png) ![Action Parking iOS](/assets/images/map/action_parking_ios.png)
 
 To designate the selected point as [a parking position](/osmand/plugins/parking).
 
