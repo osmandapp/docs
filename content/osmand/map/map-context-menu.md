@@ -174,59 +174,29 @@ It is possible to create navigation To/From chosen point on the map using next A
 
 ### Search nearby
 
-
-
 For [starting seach](/osmand/search) near chosen point you need to use next Action. 
 
 - {% data variables.android-values.context_menu_item_search %} - opens seach menu and searches near the chosen point.
 
-### Add Parking
 
+### Avoid road
+- {% data variables.android-values.avoid_road %} (Android ?) - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
 
+### Change objects position
+- {% data variables.android-values.change_markers_position %} - moves selected Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint  to another location.
 
-To designate the selected point as [a parking position](/osmand/plugins/parking).
+### Plan a route
 
-- [{% data variables.android-values.context_menu_item_add_parking_point %}](/osmand/plugins/parking) - makes or edits the chosen point as parking position.
-
-### Add track waypoint
-
-
-
-In order to make chosen point like a waypoint for [a track from a visible tracks list](/osmand/map/tracks-on-map#tracks-on-the-map-layers).
-
-- {% data variables.android-values.context_menu_item_add_waypoint %} - makes selected point to a track as a waypoint.
-
-### Create / Modify POI
-
-
-
-In OsmAnd user can create POI in the chosen place and modify chosen POI. For this user need to enable ['OpenStreetMap editing' plugin](/osmand/plugins/osm-editing). All modified or creating data keep saved on [OpenStreetMap](https://www.openstreetmap.org/).
-
-{% data variables.android-values.context_menu_item_create_poi %} - allows [to create POI](/osmand/plugins/osm-editing#how-to-add-poi) in a chosen point.
-
-{% data variables.android-values.poi_context_menu_modify %} - allows [to modify chosen POI](/osmand/plugins/osm-editing#how-to-modify-poi).
-
-### Open OSM Note
-
-
-
-An user can report about the mistakes on the map to [OpenStreetMap](https://www.openstreetmap.org/). For adding [OSM Note](/osmand/plugins/osm-editing#how-to-report-a-mistake) in a chosen point, an user need to enable ['OpenStreetMap editing' plugin](/osmand/plugins/osm-editing). 
-
-- [{% data variables.android-values.context_menu_item_open_note %}](/osmand/plugins/osm-editing) - adds [OSM note](https://wiki.openstreetmap.org/wiki/Notes) for to [OpenStreetMap](https://www.openstreetmap.org/).
+- {% data variables.android-values.plan_a_route %} (Android ?) - opens ["Plan a route"](/osmand/plan-route/create-route) tool and select chosen point as the beginning of the route.
 
 ### Update / Download Online Maps
-
-
 
 Action is for download and update online maps (tiles). Full instruction about it read [here](/osmand/map/raster-maps#download--update-tiles). 
 
 - {% data variables.android-values.shared_string_download_map %} - allows downloading online map (tiles) in the buffer for using in offline.
 - {% data variables.android-values.update_tile %} - allows udating online map (tiles).
 
-
-
 ### Update / Download Vector Maps
-
 
 Action allows [updating or downloading OsmAnd maps (vector and terrain)](/osmand/start-with/download-maps) by clicking to the map  using special buttons on Map Context menu. 
 
@@ -240,33 +210,40 @@ For **Android** clicking on the map for Zoom 3-7. There is next information in t
 Clicking to '{% data variables.android-values.rendering_category_details %}' button opens additional information about a map and a region of download: type and size of a map, link to a countre (region) wikipedia page, creating day of a map, population of a country.
 
 
-
-
 For **iOS**, there is button for downloading a map of region in Map context menu. By clickig to this button start to download a map.
 
-### Avoid road
-- {% data variables.android-values.avoid_road %} (Android ?) - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
 
+### * Add Parking
 
+To designate the selected point as [a parking position](/osmand/plugins/parking).
 
-### * Change marker position (Android)
-- {% data variables.android-values.change_markers_position %} - moves selected Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint  to another location.
+- [{% data variables.android-values.context_menu_item_add_parking_point %}](/osmand/plugins/parking) - makes or edits the chosen point as parking position.
 
+### * Add Track waypoint
 
-### Update / Download Vector Maps
+In order to make chosen point like a waypoint for [a track from a visible tracks list](/osmand/map/tracks-on-map#tracks-on-the-map-layers).
 
-- Download map vector
-- Update map vector
+- {% data variables.android-values.context_menu_item_add_waypoint %} - makes selected point to a track as a waypoint.
 
-### * Plan a route (Android)
+### * Create / Modify POI
 
-- {% data variables.android-values.plan_a_route %} (Android ?) - opens ["Plan a route"](/osmand/plan-route/create-route) tool and select chosen point as the beginning of the route.
+In OsmAnd user can create POI in the chosen place and modify chosen POI. For this user need to enable ['OpenStreetMap editing' plugin](/osmand/plugins/osm-editing). All modified or creating data keep saved on [OpenStreetMap](https://www.openstreetmap.org/).
+
+{% data variables.android-values.context_menu_item_create_poi %} - allows [to create POI](/osmand/plugins/osm-editing#how-to-add-poi) in a chosen point.
+
+{% data variables.android-values.poi_context_menu_modify %} - allows [to modify chosen POI](/osmand/plugins/osm-editing#how-to-modify-poi).
+
+### * Open OSM Note
+
+An user can report about the mistakes on the map to [OpenStreetMap](https://www.openstreetmap.org/). For adding [OSM Note](/osmand/plugins/osm-editing#how-to-report-a-mistake) in a chosen point, an user need to enable ['OpenStreetMap editing' plugin](/osmand/plugins/osm-editing). 
+
+- [{% data variables.android-values.context_menu_item_open_note %}](/osmand/plugins/osm-editing) - adds [OSM note](https://wiki.openstreetmap.org/wiki/Notes) for to [OpenStreetMap](https://www.openstreetmap.org/).
+- 
 
 ### * Audio-Video (Android)
 - {% data variables.android-values.recording_context_menu_arecord %} - makes a [audio note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with audio icon).
 - {% data variables.android-values.recording_context_menu_vrecord%} - makes a [video note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with video icon).
 - {% data variables.android-values.recording_context_menu_precord %} - makes a [photo point](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on the map.
-
 
 
 
