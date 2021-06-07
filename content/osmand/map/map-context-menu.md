@@ -242,6 +242,8 @@ To designate the selected point as [a parking position](/osmand/plugins/parking)
 
 ### * Add Track waypoint
 
+![Action Waypoint Android](/assets/images/map/action_waypoint_android.png) ![Action Waypoint iOS](/assets/images/map/action_waypoint_ios.png)
+
 In order to make chosen point like a waypoint for [a track from a visible tracks list](/osmand/map/tracks-on-map#tracks-on-the-map-layers).
 
 - {% data variables.android-values.context_menu_item_add_waypoint %} - makes selected point to a track as a waypoint.
