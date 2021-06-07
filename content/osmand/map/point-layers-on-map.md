@@ -47,7 +47,7 @@ Enable / disable points of interest of **selected** type on the map:
 
 You can select one or many from standard OsmAnd POI types or make your own [POI filter](/osmand/search/custom-poi-search) and select it to display POI on the map.
 
-[Single POI Selection](/assets/images/map/single_selection_Android.png) [Multiple POI Selection](/assets/images/map/multiple_selection_Android.png)
+![Single POI Selection](/assets/images/map/single_selection_Android.png) ![Multiple POI Selection](/assets/images/map/multiple_selection_Android.png)
 
 **Android**: to switch between single and multiple POI selection click the lower left button.
 
@@ -71,7 +71,7 @@ Hide POIs from map style:
 
 ![Map markers Android](/assets/images/map/map_markers_Android.png) ![Map markers iOS](/assets/images/map/map_markers_iOS.png)
 
-Enable/ disable markers on the map:
+Enable / disable markers on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_markers_item %} 
 
@@ -81,62 +81,70 @@ Enable/ disable markers on the map:
 
 ## Track points
 
-One type of the points are track waypoints. 
+Track points (waypoints) are points that are part of Track (GPX) files. These points displayed automatically if track is displayed on the map. They look & could be configured similar to [Favorites](#favorites) - icon, names, color, shape.
 
-[Track article](/osmand/map/tracks-on-map)
-Redirect to track article
+![Track on map](/assets/images/map/track_point_on_map.png)
 
-## Search results
+[Read more](/osmand/map/tracks-on-map) about tracks on the map.
 
-- Description favorites on the map
-- Description POI on the map
-- Description Search results on the map
 
-### Search results POI on the map
+## Search results (POI)
 
-For searching POIs on the map you need to click to [Search button](/osmand/widgets/map-buttons#search) on the screen. Next you need to write name for searching, after than you can see searching results below.
-
-The first seacrch result is categories, next - nearest POIs.
-
-Click to "Show POI in the map" for showing POIs on the map.
+Search results could be displayed on the map as a special POI layer. During search click on a special row (**{% data variables.android-values.shared_string_show_on_map %}**) to display POIs on the map.
 
 ![POI search](/assets/images/map/poi_search.png) ![POI search result](/assets/images/map/poi_search_result.png)
 
-Click to "X" for switch off orange POI icons on the map.
+To switch off POIs, hit "X" on the top right corner.
 
-Read more about Searching feature [here](/osmand/search).
+Read more about [search](/osmand/search).
 
+## * Wikipedia (Android)
 
-**WIP Points of Plugins (delete)**
+Wikipedia is represented as a special POI type that has Wikipedia article attached to it. Wikipedia points could be displayed exactly the same as any other POI type via Search or {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}, though on Android there is special way to display and filter Wikipedia articles by **available languages**.
 
-- Description Wikipedia  on the map + Link to Wikipedia plugin
-- Description Audio / Video results on the map + link
-- Description osm edits on the map + link
-- Description osm notes on the map + link
+![Wikipedia POI](/assets/images/map/wikipedia_poi.png) [Screnshot to select language Wikipedia](/assets/images/map/wikipedia_poi_language.png)
 
-## * Wikipedia points
+Enable / disable wikipedia on the map:
 
-Wikipedia feature has its own POIs on the map that has a full description for offline use. Read more how to download and use the Wikipedia feature in OsmAnd [here](osmand/plugins/wikipedia).
+TODO 
 
-![Wikipedia POI](/assets/images/map/wikipedia_poi.png)
+[Read more](osmand/plugins/wikipedia) how to download and use the Wikipedia feature in OsmAnd.
 
 ## * Audio / Video points
 
-Audio / Video notes are user's made points with audio/photo/video data on the map. Read about this feature [here](/osmand/plugins/audio-video-notes).
+Audio / Video notes are user's made points with audio/photo/video data on the map. 
 
 ![AV POI](/assets/images/map/av_poi.png)
 
+Enable / disable points on the map:
+
+TODO 
+
+Read more about [Audio / Video notes](/osmand/plugins/audio-video-notes).
+
 ## * OSM edit points 
 
-OSM edit points are user's made POIs for adding its for [OpenStreetMap project](https://www.openstreetmap.org/). Read about this feature [here](/osmand/plugins/osm-editing).
+OSM edit points are user's made POIs for adding its for [OpenStreetMap project](https://www.openstreetmap.org/).
 
 ![OSM edit POI](/assets/images/map/osm_edit_poi.png)
 
+Enable / disable OSM edits on the map:
+
+TODO
+
+Read more about [OSM Editing](/osmand/plugins/osm-editing).
+
 ## * OSM notes 
 
-OSM note points are user's made POIs for reporting issue about POI in [OpenStreetMap project](https://www.openstreetmap.org/). Read about this feature [here](/osmand/plugins/osm-editing#how-to-report-a-mistake).
+OSM note points are user's made POIs for reporting issue about map data in [OpenStreetMap](https://www.openstreetmap.org/). 
 
-![OSM note POI](/assets/images/map/osm_note_poi.png)
+![OSM note POI](/assets/images/map/osm_note_poi.png) ![OSM note POI 2](/assets/images/map/osm_note_poi_2.png)
+
+Enable / disable OSM notes on the map:
+
+TODO 
+
+Read more about [OSM Editing](/osmand/plugins/osm-editing#how-to-report-a-mistake).
 
 ## Read more
   [Configure map menu](/osmand/map/configure-map-menu).
