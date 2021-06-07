@@ -7,27 +7,32 @@ versions: '*'
 
 ## Favorites
 
-[Favorites](/osmand/personal/favorites) are points marked by user on the map. By default they marked as yellow star, but they could be edit to any other icons and colors.
+[Favorites](/osmand/personal/favorites) are special points marked by user and by default displayed as yellow star. Though it could be customized with any color, shape and icon. They become visible on the map from zoom level 6.
 
-Enable/ disable favorites on the map:
-
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.favorites_item %}
-
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.favorites %}.
-
- When you turn on favorites in the Сonfigure map will be displayed all points that have been marked as 'Show on the map'. In order to select what folder of favorites should be displayed you need to go to:
-
-{% data variables.android-values.shared_string_menu %} → My places  → Favorites → Select folder and press 'Show on the map'.
-
-Favorites are become visible on the map from zoom level 6.
 
 ![Favotires layer](/assets/images/map/favorites_layer.png)
 
-Enable/disable favorites name on the map:
+Enable / disable favorites on the map:
 
-{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_amenity_label %}
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.favorites_item %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.favorites %}
+
+
+**Note** (Android): you could disable certain groups of favorites to be displayed on the map and during search:
+
+{% data variables.android-values.shared_string_menu %} → My places  → Favorites → Select folder and press 'Show on the map'.
+
+
+## Favorite / POI names
+
+By default favorites and point of interests are displayed without name to not clutter map with text. You can enable names in Configure Map settings:
 
 ![Favotire labels layer](/assets/images/map/favorite_labels_layer.png) 
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_amenity_label %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.layer_amenity_label %}.
 
 ## Points of interest (POI)
 
