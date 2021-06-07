@@ -18,9 +18,7 @@ Enable / disable favorites on the map:
 
 [Favorites](/osmand/personal/favorites) are special points marked by user and by default displayed as yellow star. Though it could be customized with any color, shape and icon. They become visible on the map from zoom level 6.
 
-**Note** (Android): you could disable certain groups of favorites to be displayed on the map and during search:
-
-{% data variables.android-values.shared_string_menu %} → My places  → Favorites → Select folder and press 'Show on the map'.
+**Note** (Android): you could disable certain groups of favorites to be displayed on the map and during search - {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %}  →  {% data variables.android-values.shared_string_favorites %} → Select folder and press '{% data variables.android-values.shared_string_show_on_map %}'.
 
 
 ## Favorite / POI names
@@ -79,8 +77,6 @@ Chosen categories of POIs show from zoom level 9 on the map and have an orange c
 
 ## Markers
 
-[Map markers](/osmand/personal/markers) are selected points marked as flags on the map. 
-
 Enable/ disable markers on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_markers_item %} 
@@ -88,6 +84,9 @@ Enable/ disable markers on the map:
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_markers %}.
 
 ![Map markers Android](/assets/images/map/map_markers_Android.png) ![Map markers iOS](/assets/images/map/map_markers_iOS.png)
+
+[Map markers](/osmand/personal/markers) are special points marked as flags on the map. You can customize their look & feel with **arrows** ( {% data variables.android-values.show_direction %} ) and **distance indication** ( {% data variables.android-values.show_arrows_on_the_map %} ). [Read more](/osmand/widgets/markers#configure-marker-widgets-and-marker-appearance).
+
 
 ## Track points
 
