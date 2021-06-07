@@ -229,7 +229,7 @@ For **Android** clicking on the map for Zoom 3-7. There is next information in t
 Clicking to '{% data variables.android-values.rendering_category_details %}' button opens additional information about a map and a region of download: type and size of a map, link to a countre (region) wikipedia page, creating day of a map, population of a country.
 
 
-For **iOS**, there is button for downloading a map of region in Map context menu. By clickig to this button start to download a map.
+For **iOS**, there is button for downloading a map of region in Map context menu. By clicking to this button start to download a map.
 
 
 ### * Add Parking
