@@ -174,16 +174,15 @@ It is possible to create navigation To/From chosen point on the map using next A
 
 ### Search nearby
 
+![Search action Android](/assets/images/map/action_search_android.png) ![Search action iOS](/assets/images/map/action_search_ios.png)
 
-
-For [starting seach](/osmand/search) near chosen point you need to use next Action. 
+For [starting search](/osmand/search) near chosen point you need to use next Action. 
 
 - {% data variables.android-values.context_menu_item_search %} - opens seach menu and searches near the chosen point.
 
-
 ### Avoid road
 
-
+![Avoid action Android](/assets/images/map/action_avoid_android.png)
 
 This action adds a point on the road which would be avoided during routing. The routing algorithm of OsmAnd won't build a route through this point.
 
@@ -191,7 +190,7 @@ This action adds a point on the road which would be avoided during routing. The 
 
 ### Change objects position
 
-
+![Action Change position Android](/assets/images/map/action_change_position_android.png) ![Action Change position iOS](/assets/images/map/action_change_position_ios.png)
 
 This action allows you to change the location for your points (Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint). Click to this action for choose point and move your screen for new location.
 
