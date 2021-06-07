@@ -7,16 +7,15 @@ versions: '*'
 
 ## Favorites
 
+[Favorites](/osmand/personal/favorites) are special points marked by user and by default displayed as yellow star. Though it could be customized with any color, shape and icon. They become visible on the map from the zoom level 6.
+
+![Favotires layer](/assets/images/map/favorites_layer.png)
+
 Enable / disable favorites on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.favorites_item %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.favorites %}
-
-![Favotires layer](/assets/images/map/favorites_layer.png)
-
-
-[Favorites](/osmand/personal/favorites) are special points marked by user and by default displayed as yellow star. Though it could be customized with any color, shape and icon. They become visible on the map from zoom level 6.
 
 **Note** (Android): you could disable certain groups of favorites to be displayed on the map and during search - {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %}  →  {% data variables.android-values.shared_string_favorites %} → Select folder and press '{% data variables.android-values.shared_string_show_on_map %}'.
 
@@ -25,14 +24,18 @@ Enable / disable favorites on the map:
 
 By default favorites and point of interests are displayed without name to not clutter map with text. You can enable names in Configure Map settings:
 
+![Favotire labels layer](/assets/images/map/favorite_labels_layer.png) 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_amenity_label %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.layer_amenity_label %}
 
-![Favotire labels layer](/assets/images/map/favorite_labels_layer.png) 
 
 ## Points of interest (POI)
+
+[Points of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) are specific points highlighted with an icon on the map. They represent interesting or useful places & objects and they are part of [Vector Maps](/osmand/map/vector-maps). Most prominent points of interest are displayed on the map automatically, though you could select specific type of POI (i.e. Restaurants) and they will be all highlighted on the map within an **orange circle** (from zoom level 9). You can find detailed information about point of interest in the [Context menu](/osmand/map/map-context-menu) that appears on a [short tap](/osmand/map/map-context-menu#select-an-object-short-tap) on the point.
+
+![POI overlay Android](/assets/images/map/poi_overlay_Android.png) ![POI overlay iOS](/assets/images/map/poi_overlay_iOS.png)
 
 Enable / disable points of interest of **selected** type on the map:
 
@@ -40,15 +43,19 @@ Enable / disable points of interest of **selected** type on the map:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.poi_overlay %}
 
-![POI overlay Android](/assets/images/map/poi_overlay_Android.png) ![POI overlay iOS](/assets/images/map/poi_overlay_iOS.png)
+### POI Types
 
-[Points of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) are specific points highlighted with an icon on the map. They represent interesting or useful places & objects and they are part of [Vector Maps](/osmand/map/vector-maps). Most prominent points of interest are displayed on the map automatically, though you could select specific type of POI (i.e. Restaurants) and they will be all highlighted on the map within an **orange circle** (from zoom level 9).
+You can select one or many from standard OsmAnd POI types or make your own [POI filter](/osmand/search/custom-poi-search) and select it to display POI on the map.
 
-**Note**: you can make your own [POI categories filters](/osmand/search/custom-poi-search) for choosing and showing it on the map.
+[Single POI Selection](/assets/images/map/single_selection_Android.png) [Multiple POI Selection](/assets/images/map/multiple_selection_Android.png)
 
-You can find detailed information about point of interest in the [Context menu](/osmand/map/map-context-menu) that appears after a [short tap](/osmand/map/map-context-menu#select-an-object-short-tap) on the point.
+**Android**: to switch between single and multiple POI selection click the lower left button.
 
 ### Map style POI
+
+Each POI type in OsmAnd assigned a specific icon and color. POIs' [zoom level](/osmand/map/vector-maps#details) and design could be different in some [map styles](/osmand/map/vector-maps#default-map-styles).
+
+![POI on map style](/assets/images/map/poi_layer.png) ![POI on topo style](/assets/images/map/poi_layer_topo_style.png)
 
 Hide POIs from map style:
 
@@ -56,14 +63,13 @@ Hide POIs from map style:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_hide %}
 
-![POI on map style](/assets/images/map/poi_layer.png) ![POI on topo style](/assets/images/map/poi_layer_topo_style.png)
-
-Each POI type in OsmAnd assigned a specific icon and color. POIs' [zoom level](/osmand/map/vector-maps#details) and design could be different in some [map styles](/osmand/map/vector-maps#default-map-styles).
-
-
 [Read more](/osmand/map/vector-maps#hide).
 
 ## Markers
+
+[Map markers](/osmand/personal/markers) are special points marked as flags on the map. You can customize their look & feel with **arrows** ({% data variables.android-values.show_arrows_on_the_map %}) and **distance indication** ({% data variables.android-values.show_direction %}). 
+
+![Map markers Android](/assets/images/map/map_markers_Android.png) ![Map markers iOS](/assets/images/map/map_markers_iOS.png)
 
 Enable/ disable markers on the map:
 
@@ -71,10 +77,7 @@ Enable/ disable markers on the map:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_markers %}.
 
-![Map markers Android](/assets/images/map/map_markers_Android.png) ![Map markers iOS](/assets/images/map/map_markers_iOS.png)
-
-[Map markers](/osmand/personal/markers) are special points marked as flags on the map. You can customize their look & feel with **arrows** ({% data variables.android-values.show_arrows_on_the_map %}) and **distance indication** ({% data variables.android-values.show_direction %}). [Read more](/osmand/widgets/markers#configure-marker-widgets-and-marker-appearance).
-
+[Read more](/osmand/widgets/markers#configure-marker-widgets-and-marker-appearance) about marker appearance.
 
 ## Track points
 
