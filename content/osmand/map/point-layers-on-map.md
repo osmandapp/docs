@@ -100,11 +100,11 @@ Read more about [search](/osmand/search).
 
 ## * Wikipedia (Android)
 
-Wikipedia is represented as a special POI type that has Wikipedia article attached to it. Wikipedia points could be displayed exactly the same as any other POI type via Search or {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}, though on Android there is special way to display and filter Wikipedia articles by **available languages**.
+OsmAnd has special Point of Interests indicated with 'W' logo and Wikipedia articles attacheted to it. These points could be displayed exactly as any other POI type via Search or {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}, though there is a special way to Wikipedia articles by **available languages**.
 
-![Wikipedia POI](/assets/images/map/wikipedia_poi.png) [Screnshot to select language Wikipedia](/assets/images/map/wikipedia_poi_language.png)
+![Wikipedia POI](/assets/images/map/wikipedia_poi.png) ![Select language Wikipedia](/assets/images/map/wikipedia_poi_language.png)
 
-Enable / disable wikipedia on the map:
+Enable / disable wikipedia articles on the map and filter by language:
 
 TODO 
 
@@ -116,7 +116,7 @@ Audio / Video notes are user's made points with audio/photo/video data on the ma
 
 ![AV POI](/assets/images/map/av_poi.png)
 
-Enable / disable points on the map:
+Enable / disable recording points on the map:
 
 TODO 
 
