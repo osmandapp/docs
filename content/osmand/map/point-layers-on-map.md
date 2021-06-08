@@ -26,7 +26,7 @@ By default favorites and point of interests are displayed without name to not cl
 
 ![Favotire labels layer](/assets/images/map/favorite_labels_layer.png) 
 
-Enable / disable favorites / POI names on the map:
+Enable / disable POI overlay labels on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_amenity_label %}
 
