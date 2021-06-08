@@ -8,7 +8,7 @@ The Metainfo format used in OsmAnd to store the tile layers preferences. In OsmA
 
 |Field|Spec and Purpose|
 |:----|:---------------|
-|"[url\_template]"|String. URL template to download tiles with zoom - {1}, x - {2} , y - {3}, server name - {rnd}|
+|"[url\_template]"|String. URL template to download tiles with zoom - {0}, x - {1} , y - {2}, server name - {rnd}. Watch the order of x / y, it could be different in url, example - http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{$z}/{$y}/{$x}. |
 |"[randoms]"|String. The names of the mirrors of server. Comma-separated. One of these values will randomly replace the placeholder {rdn} in "url" field.|
 |"[minzoom]"|Integer. Min zoom level. In regular format (OSM, Google maps).|
 |"[maxzoom]"|Integer. Max zoom level. In regular format (OSM, Google maps).|
