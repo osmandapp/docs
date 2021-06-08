@@ -102,17 +102,15 @@ OpenStreetMap link provides direct link to the OpenStreetMap object where you ca
 
 ### Online photos 
 
-In this section, you can view photos of the object from different sources web sources. Such as [Mapillary](/osmand/plugins/mapillary) - takes the best and the closest photos from Street-Level view, [OpenPlaceReviews](/osmand/plugins/openplacereviews) - takes photos associated with this object, [Wikimedia](https://www.wikimedia.org/) - takes urls from OpenStreetMap tags **image**, **wikimedia**. Click on the image to open in full size.
+In this section, you can view photos of the object from different sources web sources. Such as [Mapillary](/osmand/plugins/mapillary) - takes the best and the closest photos from Street-Level view, [OpenPlaceReviews](/osmand/plugins/openplacereviews) - takes photos associated with this object, [Wikimedia](https://www.wikimedia.org/) - takes urls from OpenStreetMap tags **image**, **wikimedia**. Click on the image to open in full size or [browse](/osmand/map/point-layers-on-map#street-level-imagery) street level photos.
 
-![Online photos context menu](/assets/images/map/context_menu_online_photos.png) ![Online photo wikimedia](/assets/images/map/context_menu_Online_photo_1.png)
+![Online photos context menu](/assets/images/map/context_menu_online_photo.png) ![Online photo wikimedia](/assets/images/map/context_menu_Online_photo_1.png)
 
 ### * Audio/Video Note (Android)
 
 [Audio / Video notes](/osmand/plugins/audio-video-notes) have additional information on Details Menu and buttons (Delete, Play, Show) in Context menu. 
 
-For Image notes in Details Menu, an image is displayed; when you click on an image, it opens in the editor. There is information about date and time of making note. In Context menu, there are 'Show' and 'Delete' buttons for opening an image in the editor or delete it; data and time of making a note; type of a note (photo).
-
-For Audio/Video notes in Details Menu, there is information about date and time of making note. In Context menu, there are 'Play' and 'Delete' buttons for playing a note in the editor or delete it; data and time of making a note; type of a note (video, audio).
+For Image notes in the Details Menu an image is displayed; when you click on the image it opens in the editor. There is information about the date and the time when note was made. In the Context menu, there are 'Show' and 'Delete' buttons to open an image in the editor or delete it.
  
 ![Image list](/assets/images/map/image_list_android.png) ![Video list](/assets/images/map/video_list_android.png)
 
@@ -127,7 +125,7 @@ It is a set of specific manipulations that can be performed on a point or object
 
 ![Add Edit favorite action Android](/assets/images/map/add_favorite_android.png) ![Add Edit favorite action iOS](/assets/images/map/add_favorite_ios.png)
 
-In the context menu there are options to **add** or **edit** the selected point / object to the [favorites list](/osmand/personal/myplaces). 
+In the context menu there are options to **add** or to **edit** the selected point / object to the [favorites list](/osmand/personal/myplaces). 
 - In order to **add**, you need to select a point / object, click on the 'Star' icon (with signature Add) and enter all the necessary information. 
 - In order to **edit** information about favorite point you need to turn on 'Show on the map' (Menu → Me places → Favorites) then press on it and in the Context menu instead of 'Star' icon will appear 'Pancil icon' (with signature Edit).
 
@@ -137,31 +135,32 @@ In the context menu there are options to **add** or **edit** the selected point 
 
 ![Add Edit marker action Android](/assets/images/map/add_marker_android.png) ![Add Edit marker action iOS](/assets/images/map/add_marker_ios.png)
 
-It is possible to mark a point or object in order to make it easier to plan navigation using the marked point. To do this, you just need to click on the point and put flag on this place. The context menu will display the name of the marker, the distance from your current position (Android) and the "marker passed" and "make active" buttons (Android).
-- 'Mark passed' (Android) is deactivate marker from the map and relocate it to the History.
-- 'Make active' (Android) is turned this marker to the active status and makes visible (on the top panel) information about the name of the marker and distance from your current position.
-- Restore marker (Android) - is an additional option in the Map marker menu to return passed marker from the history list to the active Marker list.
-- Dismiss (iOS) - is deactivate marker from the map and relocate it to the History. 
-- [{% data variables.android-values.shared_string_marker %} / {% data variables.android-values.edit_map_marker %}](/osmand/personal/markers) - put marker on the selected point.
+It is possible to mark a point or an object in order to make it easier to plan navigation. You just need to click on the 'flag' icon in the menu (Android), 'arrow' (iOS) - displays direction and distance to the selected point from your current location.
+
+Actions:
+- [{% data variables.android-values.shared_string_marker %} / {% data variables.android-values.edit_map_marker %}](/osmand/personal/markers) - puts a new marker on the selected point.
+- 'Mark passed' (Android) / Dismiss (iOS) - deactivates marker and puts it to the History.
+- 'Make active' (Android) - moves marker to the top position (on the top panel).
+- 'Restore marker' (Android) - moves marker from History to active list.
 
 ### Share
 
 ![Share action Android](/assets/images/map/action_share_android.png) ![Share action iOS](/assets/images/map/action_share_ios.png)
 
-The app provides the opportunity to share your location in a variety of ways. To see all options to share location you need to select point then on the Context menu press share and select the best way for it. 
+The app provides the opportunity to **{% data variables.android-values.shared_string_share %}** location in a variety of ways. You can also share your location by selecting 'your location' icon on the map.
+
 All options to share your location: 
-- **{% data variables.android-values.shared_string_share %}** - shares a selected point with another user.
-- Send - you can send it like a message via any messenger or cloud service.
-- Copy - all information about the location (name of the street, coordinates and link) will be copied to the clipboard.
-- Copy address (Android) - only address will copy to the clipboard (name of the street, house number if it marked and city name).
-- Copy location/POI name (Android) - if you press on the POI icon the name of the POI will be copied, if you press on any other point of the map address will be copied to the clipboard.
-- Copy coordinates (Android) - allows copying only coordinates of the selected point  to the clipboard.
-- geo (Android)- give you an opportunity to open a location via any Map app.
-- QR-code (Android) - allows generating your location in QR-code, you can scan it or share  another user.
-- Save Image (iOS) - you save a screenshot of your map with a selected point in your device gallery.
-- Assign to Contact (iOS) - you make an icon for chosen contact from the map screenshot.
-- Print (iOS) - you open Printer Options for printing the map screenshot.
-- Save to files (iOS) - you save the map screenshot in iCloud Drive or storage of your device.
+- Send - sends a message via messengers (name, address, coordinates and link) 
+- Copy - copies a message into clipboard (name, address, coordinates and link) 
+- Copy address (Android) - copies a message into clipboard (only address) 
+- Copy location/POI name (Android) - copies a message into clipboard (only name and coordinates) 
+- Copy coordinates (Android) - copies a message into clipboard (only coordinates) 
+- geo (Android) - opens local installed apps that support [geo url](https://developers.google.com/maps/documentation/urls/android-intents) 
+- QR-code (Android) - generates location in QR-code (link with your location)
+- Save Image (iOS) - saves a screenshot with map and selected point in the image gallery.
+- Assign to Contact (iOS) - makes an icon for chosen contact from the map screenshot.
+- Print (iOS) - opens Printer Options for printing the map screenshot.
+- Save to files (iOS) - saves the map screenshot in iCloud Drive or storage of your device.
 
 ### Directions To / From 
 
