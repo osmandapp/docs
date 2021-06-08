@@ -22,9 +22,11 @@ Enable / disable favorites on the map:
 
 ## Favorite / POI names
 
-By default favorites and point of interests are displayed without name to not clutter map with text. You can enable names in Configure Map settings:
+By default favorites and point of interests are displayed without name to not clutter map with text. You can enable names in {% data variables.android-values.shared_string_configure_map %}  settings.
 
 ![Favotire labels layer](/assets/images/map/favorite_labels_layer.png) 
+
+Enable / disable favorites / POI names on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_amenity_label %}
 
@@ -102,11 +104,13 @@ Read more about [search](/osmand/search).
 
 OsmAnd has special Point of Interests indicated with 'W' logo and Wikipedia articles attacheted to it. These points could be displayed exactly as any other POI type via Search or {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}, though there is a special way to Wikipedia articles by **available languages**.
 
-![Wikipedia POI](/assets/images/map/wikipedia_poi.png) ![Select language Wikipedia](/assets/images/map/wikipedia_poi_language.png)
+![Wikipedia on map](/assets/images/map/map-wikipedia-on-map.png) ![Wikipedia language - iOS](/assets/images/map/map-wikipedia-language-ios.png)
 
 Enable / disable wikipedia articles on the map and filter by language:
 
-TODO 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.shared_string_wikipedia %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.poi_overlay %} → {% data variables.ios-values.res_wiki %} 
 
 [Read more](osmand/plugins/wikipedia) how to download and use the Wikipedia feature in OsmAnd.
 
@@ -130,7 +134,9 @@ OSM edit points are user's made POIs for adding its for [OpenStreetMap project](
 
 Enable / disable OSM edits on the map:
 
-TODO
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.shared_string_osm_edits %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.poi_overlay %} → {% data variables.ios-values.res_osm_edits_title %} 
 
 Read more about [OSM Editing](/osmand/plugins/osm-editing).
 
@@ -138,11 +144,13 @@ Read more about [OSM Editing](/osmand/plugins/osm-editing).
 
 OSM note points are user's made POIs for reporting issue about map data in [OpenStreetMap](https://www.openstreetmap.org/). 
 
-![OSM note POI](/assets/images/map/osm_note_poi.png) ![OSM note POI 2](/assets/images/map/osm_note_poi_2.png)
+![OSM create note](/assets/images/map/osm_create_note.png) ![OSM note POI](/assets/images/map/osm_note_poi.png) 
 
 Enable / disable OSM notes on the map:
 
-TODO 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.shared_string_layer_osm_bugs %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.poi_overlay %} → {% data variables.ios-values.osm_notes_online_layer %} 
 
 Read more about [OSM Editing](/osmand/plugins/osm-editing#how-to-report-a-mistake).
 
