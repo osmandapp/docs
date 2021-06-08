@@ -3,7 +3,6 @@ title: "Points on the map"
 intro: "On map you could display points such as Favorites, POI, Markers, Wikipedia, Search results, Audio Video Notes, OSM Edits"
 versions: '*'
 ---
-{% data reusables.general.article-not-complete %}
 
 ## Favorites
 
@@ -58,7 +57,7 @@ You can select one or many from standard OsmAnd POI types or make your own [POI 
 Each POI type in OsmAnd assigned a specific icon and color. POIs' [zoom level](/osmand/map/vector-maps#details) and design could be different in some [map styles](/osmand/map/vector-maps#default-map-styles).
 
 ![POI on map style](/assets/images/map/poi_layer.png) ![POI on topo style](/assets/images/map/poi_layer_topo_style.png)
-
+f
 Hide POIs from map style:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.shared_string_hide %} 
@@ -102,7 +101,7 @@ Read more about [search](/osmand/search).
 
 ## * Wikipedia (Android)
 
-OsmAnd has special Point of Interests indicated with 'W' logo and Wikipedia articles attacheted to it. These points could be displayed exactly as any other POI type via Search or {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}, though there is a special way to Wikipedia articles by **available languages**.
+OsmAnd has special Point of Interests indicated with 'W' logo and Wikipedia articles attacheted to it. These points could be displayed exactly as any other POI type via Search or {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}, though there is a special way to filter Wikipedia articles by **available languages**.
 
 ![Wikipedia on map](/assets/images/map/map-wikipedia-on-map.png) ![Wikipedia language - iOS](/assets/images/map/map-wikipedia-language-ios.png)
 
