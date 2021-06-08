@@ -134,9 +134,9 @@ OSM edit points are user's made POIs for adding its for [OpenStreetMap project](
 
 Enable / disable OSM edits on the map:
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.shared_string_osm_edits %}
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.osm_edits %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.poi_overlay %} → {% data variables.ios-values.res_osm_edits_title %} 
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.osm_edits_title %} 
 
 Read more about [OSM Editing](/osmand/plugins/osm-editing).
 
