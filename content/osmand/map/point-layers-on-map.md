@@ -105,6 +105,8 @@ Read more about [search](/osmand/search).
 
 Information about Mapillary points / clicks and filters.
 
+![Online photo Mapillary](/assets/images/map/context_menu_Online_photo.png) 
+
 ## * Wikipedia (Android)
 
 OsmAnd has special Point of Interests indicated with 'W' logo and Wikipedia articles attacheted to it. These points could be displayed exactly as any other POI type via Search or {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}, though there is a special way to filter Wikipedia articles by **available languages**.
