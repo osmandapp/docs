@@ -110,13 +110,13 @@ Enable / disable wikipedia articles on the map and filter by language:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_wikipedia %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.res_wiki %} 
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.poi_overlay %} → {% data variables.ios-values.res_wiki %} 
 
 [Read more](osmand/plugins/wikipedia) how to download and use the Wikipedia feature in OsmAnd.
 
 ## * Audio / Video points (Android)
 
-Audio / Video notes are user's made points with audio/photo/video data on the map. 
+Audio / Video notes are user's made points with audio/photo/video data on the map. This type of points can be displayed only if [Audio / Video notes](/osmand/plugins/audio-video-notes) plugin is turned on.
 
 ![AV POI](/assets/images/map/av_poi.png)
 
@@ -142,7 +142,7 @@ Read more about [OSM Editing](/osmand/plugins/osm-editing).
 
 ## * OSM notes 
 
-OSM note points are user's made POIs for reporting issue about map data in [OpenStreetMap](https://www.openstreetmap.org/). 
+OSM note points are user's made POIs for reporting issue about map data in [OpenStreetMap](https://www.openstreetmap.org/). If you create new note it markes on the map as a green note, already created note displays as a red note. To display red notes you need to turn on [OSM notes (online)](/osmand/plugins/osm-editing#how-to-report-a-mistake) in the Configure map.
 
 ![OSM create note](/assets/images/map/osm_create_note.png) ![OSM note POI](/assets/images/map/osm_note_poi.png) 
 
