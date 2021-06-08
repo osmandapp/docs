@@ -141,7 +141,11 @@ Read more about [OSM Editing](/osmand/plugins/osm-editing).
 
 ## * OSM notes 
 
-OSM note points are user's made POIs for reporting issue about map data in [OpenStreetMap](https://www.openstreetmap.org/). If you create new note it markes on the map as a green note, already created note displays as a red note. To display red notes you need to turn on [OSM notes (online)](/osmand/plugins/osm-editing#how-to-report-a-mistake) in the Configure map.
+TODO more text about context menu with screenshots.
+
+OSM note points are user's made POIs for reporting issue about map data in [OpenStreetMap](https://www.openstreetmap.org/). New note (not uploaded to OpenStreetMap) is marked 
+
+If you create new note it markes on the map as a green note, already created note displays as a red note. To display red notes you need to turn on [OSM notes (online)](/osmand/plugins/osm-editing#how-to-report-a-mistake) in the Configure map.
 
 ![OSM create note](/assets/images/map/osm_create_note.png) ![OSM note POI](/assets/images/map/osm_note_poi.png) 
 
