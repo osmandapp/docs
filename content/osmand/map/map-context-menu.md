@@ -104,7 +104,7 @@ OpenStreetMap link provides direct link to the OpenStreetMap object where you ca
 
 In this section, you can view photos of the object from different sources web sources. Such as [Mapillary](/osmand/plugins/mapillary) - takes the best and the closest photos from Street-Level view, [OpenPlaceReviews](/osmand/plugins/openplacereviews) - takes photos associated with this object, [Wikimedia](https://www.wikimedia.org/) - takes urls from OpenStreetMap tags **image**, **wikimedia**. Click on the image to open in full size.
 
-![Online photo Mapillary](/assets/images/map/context_menu_Online_photo.png) ![Online photo wikimedia](/assets/images/map/context_menu_Online_photo_1.png)
+![Online photos context menu](/assets/images/map/context_menu_online_photos.png) ![Online photo wikimedia](/assets/images/map/context_menu_Online_photo_1.png)
 
 ### * Audio/Video Note (Android)
 
