@@ -4,6 +4,8 @@ intro: "On map you could display points such as Favorites, POI, Markers, Wikiped
 versions: '*'
 ---
 
+{% data reusables.general.article-not-complete %}
+
 ## Favorites
 
 [Favorites](/osmand/personal/favorites) are special points marked by user and by default displayed as yellow star. Though it could be customized with any color, shape and icon. They become visible on the map from the zoom level 6.
@@ -143,9 +145,7 @@ Read more about [OSM Editing](/osmand/plugins/osm-editing).
 
 TODO more text about context menu with screenshots.
 
-OSM note points are user's made POIs for reporting issue about map data in [OpenStreetMap](https://www.openstreetmap.org/). New note (not uploaded to OpenStreetMap) is marked 
-
-If you create new note it markes on the map as a green note, already created note displays as a red note. To display red notes you need to turn on [OSM notes (online)](/osmand/plugins/osm-editing#how-to-report-a-mistake) in the Configure map.
+OSM note points are user's made POIs for reporting issue about map data in [OpenStreetMap](https://www.openstreetmap.org/). New note (not uploaded to OpenStreetMap) is marked as green with '+', closed note is marked as green with 'v', open note is marked as red.
 
 ![OSM create note](/assets/images/map/osm_create_note.png) ![OSM note POI](/assets/images/map/osm_note_poi.png) 
 
