@@ -29,7 +29,7 @@ Favorites menu is a list of Favorites folders, functions buttons, searching.
 
 ### Searching
 
-The first is search function, where user can search needed favorites from all Favorites list. 
+The first is search function, where user can search needed Favorites from all Favorites list. 
 
 ![Searching menu Favorite android](/assets/images/personal/searching_favorites_menu_android.png)
 
@@ -39,11 +39,11 @@ Click to 'Magnifier' buttons opens seaching menu for Favorites, where user can s
 
 ### Folders list
 
-The second part is list of folders of Favorite groups. Folder of Favorite is one Favorite group.
+The second part is list of folders of Favorites groups. Folder of Favorites is one Favorites group.
 
 ![Favorites folders android](/assets/images/personal/favorites_folders_android.png)
 
-User can expand and collapse list of Favorite points for one group by clicking to a folder line or to "&#8743;", "&#8744;"  symbols. Each point from Favorite list has a name, distance and direction from your location.
+User can expand and collapse list of Favorite points for one group by clicking to a folder line or to '&#8743;', '&#8744;'  symbols. Each point from Favorite list has a name, distance and direction from your location.
 
 ![Favorites folders expand android](/assets/images/personal/favorites_folders_expand_android.png)
 
@@ -51,7 +51,7 @@ Click to any point from Favorite list opens [Map Context menu](/osmand/map/map-c
 
 ![Favorites context menu android](/assets/images/personal/favorites_context_menu_android.png)
 
-Click to "&#8942;" symbol opens special functions for a chosen Favorite folder.
+Click to '&#8942;' button opens special functions for a chosen Favorite folder.
 
 ![Favorites folder functions android](/assets/images/personal/favorites_folder_functions_android.png)
 
@@ -61,9 +61,9 @@ Functions for Favorite folder:
 - {% data variables.android-values.shared_string_show_on_map %} - showing or not Favorite points from the folder on the map.
 - {% data variables.android-values.shared_string_add_to_map_markers %} or {% data variables.android-values.remove_from_map_markers %}  - add or remove all Favorite points from a folder in [Map markers list](/osmand/personal/markers).
 - {% data variables.android-values.shared_string_share %} - sharing Favorite points with other users (like Favorites.gpx file).
-- Button {% data variables.android-values.shared_string_cancel %} - close this menu.
+- Button '{% data variables.android-values.shared_string_cancel %}' - close this menu.
 
-**Note**: "Personal" folder is a special folder for '{% data variables.android-values.favorite_home_category %}' and '{% data variables.android-values.work_button %}' points of [Navigation Context menu](/osmand/navigation). This folder doesn't have "&#8942;" button, because you can not change the parameters for this folder. 
+**Note**: "Personal" folder is a special folder for '{% data variables.android-values.favorite_home_category %}' and '{% data variables.android-values.work_button %}' points of [Navigation Context menu](/osmand/navigation). This folder doesn't have '&#8942;' button, because you can not change the parameters for this folder. 
 
 ![Favorites personal android](/assets/images/personal/favorites_personal_android.png)
 
