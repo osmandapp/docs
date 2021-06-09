@@ -44,7 +44,7 @@ One of the option to download map is via World map and [Map Context menu](/osman
 
 One way to download the map is to zoom out the World map and by short tap select the region to download. This area will be highlighted in yellow and on the bottom will appear a panel with the name of the region and an offer to download it or choose other maps.
 
-![Short tap on the World map allows to download region map](/assets/images/settings/download_region_map_via_World%20map.png)
+![Short tap on the World map allows to download region map](/assets/images/settings/download_region_map_via_worldmap.png)
 
 **Note**: At low zoom level map selected to download will be highlighted in yellow and maps that already downloaded will be highlighted in green, deactivated maps will be highlighted in orange. 'Deactivated' maps allow to speed up program in case you have many downloaded maps.
 
