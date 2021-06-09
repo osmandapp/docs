@@ -157,9 +157,7 @@ Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
 
 ## * OSM notes 
 
-TODO more text about context menu with screenshots.
-
-OSM note points are user's made POIs for reporting issue about map data in [OpenStreetMap](https://www.openstreetmap.org/). New note (not uploaded to OpenStreetMap) is marked as green with '+', closed note is marked as green with 'v', open note is marked as red.
+OSM note points are user's made POIs for reporting issue about map data in [OpenStreetMap](https://www.openstreetmap.org/). New note (not uploaded to OpenStreetMap) is marked as green with '+', closed note is marked as green with 'v', open note is marked as red.  You can customise zoom level to display note and select show or hide closed note.
 
 ![OSM notes](/assets/images/map/osm_note.png)
 
