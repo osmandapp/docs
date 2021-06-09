@@ -24,6 +24,8 @@ Context menu will appear when you hold at any point on the Map with **long tap**
 
 Short tap to a GPX-track on the map  opens [Context track menu](/osmand/map/tracks-on-map#context-track-menu-android).
 
+![Context track menu Android](/assets/images/map/context_track_menu_Android.png)
+
 ### Hide context menu
 
 To hide the context menu:
