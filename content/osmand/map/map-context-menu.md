@@ -170,18 +170,23 @@ All options to share your location:
 
 ![Directions Android](/assets/images/map/action_directions_android.png) ![Directions iOS](/assets/images/map/action_directions_ios.png)
 
-It is possible to create navigation To/From chosen point on the map using next Actions of Map Context menu.
+![Multiple Directions Android](/assets/images/map/action_multiple_directions_android.png)
 
-- [{% data variables.android-values.get_directions %}](/osmand/widgets/map-buttons#directions) - allows you to plan route from your location to the selected point (or reverse) by clicking the 'Direction' button.
-- {% data variables.android-values.context_menu_item_directions_from %} - makes the chosen point as departure point for navigation.
+In order to start navigation or route planning, you need to select destination first [{% data variables.android-values.get_directions %}](/osmand/widgets/map-buttons#directions). In case you already have a destination point, the menu will suggest you to replace the destnation point or to insert as another intermediate or start point. 
+
+It is also possible to select 'From' Destination first via Map context menu ({% data variables.android-values.context_menu_item_directions_from %}).
+
+**Note**: if you click "Start navigation" - 'From' point will be discarded as application enters in Navigation mode. In order to preserve a route, don't click "Start navigation" and swipe down "Route preparation" menu.
+
+Read more about [navigation](/osmand/navigation/route-navigation).
 
 ### Search nearby
 
 ![Search action Android](/assets/images/map/action_search_android.png) ![Search action iOS](/assets/images/map/action_search_ios.png)
 
-For [starting search](/osmand/search) near chosen point you need to use next Action. 
+Via this context menu action it is possible to search around specific location on the map. 
 
-- {% data variables.android-values.context_menu_item_search %} - opens seach menu and searches near the chosen point.
+Read more about [search](/osmand/search) functionality.
 
 ### Avoid road
 
@@ -191,51 +196,40 @@ This action adds a point on the road which would be avoided during routing. The 
 
 - {% data variables.android-values.avoid_road %} - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
 
-### Change objects position
+### Change object position
 
 ![Action Change position Android](/assets/images/map/action_change_position_android.png) ![Action Change position iOS](/assets/images/map/action_change_position_ios.png)
 
 ![Action Change position UI Android](/assets/images/map/action_change_position_ui_android.png)
 
-This action allows you to change the location for your points (Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint). Click to this action for choose point and move your screen for new location.
-
-- {% data variables.android-values.change_markers_position %} - moves selected Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint  to another location.
+Almost every created object by you is moveable i.e. Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint. Select first object on the map and then use '{% data variables.android-values.change_markers_position %}' to move it to a new location.
 
 ### Plan a route
 
 ![Action Plan a route Android](/assets/images/map/action_plan_route_android.png)
 
-Opens ['Plan a route'](/osmand/plan-route/create-route) tool with the selected point as the first point.
+You can start a route planning from a selected point via object context menu.
 
-- {% data variables.android-values.plan_a_route %} - opens ["Plan a route"](/osmand/plan-route/create-route) tool and select chosen point as the beginning of a route.
+Read more about ['Plan a route'](/osmand/plan-route/create-route) tool.
 
 ### Update / Download Online Maps
 
 ![Action Download online map Android](/assets/images/map/action_download_online_map_android.png) ![Action Download online map iOS](/assets/images/map/action_download_online_map_ios.png)
 
-Action is for download and update online maps (tiles). Full instruction about it read [here](/osmand/map/raster-maps#download--update-tiles). 
-
-- {% data variables.android-values.shared_string_download_map %} - allows downloading online map (tiles) in the buffer for using in offline.
-- {% data variables.android-values.update_tile %} - allows udating online map (tiles).
+To update or download online maps (tiles) at specific location, you can use object context menu: {% data variables.android-values.shared_string_download_map %} and {% data variables.android-values.update_tile %}. Please refer to [full instruction](/osmand/map/raster-maps#download--update-tiles). 
 
 ### Update / Download Vector Maps
 
 ![Action Download vector map Android](/assets/images/map/action_download_vector_map_android.png) ![Action Download vector map iOS](/assets/images/map/action_download_vector_map_ios.png)
 
-Action allows [updating or downloading OsmAnd maps (vector and terrain)](/osmand/start-with/download-maps) by clicking to the map  using special buttons on Map Context menu. 
+/assets/images/settings/download_region_map_via_worldmap.png
 
-For **Android** clicking on the map for Zoom 3-7. There is next information in the Map Context menu: name, type and size of a choosing map data.:
+In case there is no offline map present at selected location, for example map object menu was opened via Search or via specific Favorite, then the smallest possible map will be suggested to [download](/osmand/start-with/download-maps#download---map-context-menu).  
 
-- {% data variables.android-values.shared_string_download %} - allows to download a map of selected region.
-- {% data variables.android-values.shared_string_update %} - allows to update a map of selected region.
-- {% data variables.android-values.live_update %} - starts to update [a live map](osmand/personal) of selected region.
-- {% data variables.android-values.download_select_map_types %} - opens the dialogue for choosing any data like [terrain maps](/osmand/plugins/contour-lines#terrain-settings), [contour lines](/osmand/plugins/contour-lines#contour-lines-settings), [wikipedia](/osmand/plugins/wikipedia) of selected region for download.
+**Android**: If you have already [downloaded](/osmand/start-with/download-maps) OsmAnd maps (vector or terrain), it is possible to updated them via context 
+menu. You will need to select the region on the map first - click on any location on worldwide zoom 3-7. 
 
-Clicking to '{% data variables.android-values.rendering_category_details %}' button opens additional information about a map and a region of download: type and size of a map, link to a countre (region) wikipedia page, creating day of a map, population of a country.
-
-
-For **iOS**, there is button for downloading a map of region in Map context menu. By clicking to this button start to download a map.
-
+**Note**: if you have opened context menu for map region (region is higlighted), you will be able to see '{% data variables.android-values.rendering_category_details %}' about it: type and size of a map, link to a wikipedia page, language, population and other.
 
 ### * Add / Delete Parking point
 
