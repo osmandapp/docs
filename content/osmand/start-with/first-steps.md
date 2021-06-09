@@ -31,42 +31,45 @@ Our goal is to create fully functional Map-oriented application that could be us
 
 ## Actions Guide
 
-## How to download maps
+### How to download maps
 
 OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to download map of your region. If you want to download maps later, you can [do it](/osmand/start-with/download-maps) in many different ways.
 
 ![Download map](/assets/images/settings/download_map.png)
 
-## How to add personal data to maps
+### How to add personal data to maps
 
 OsmAnd supports many ways to customize map with your personal data such as [Tracks](/osmand/personal/tracks), [Markers](/osmand/personal/markers), [Favorites](/osmand/personal/favorites). 
 
 [Screenshots]().
 
-## How to browse & find point of interest
+### How to browse & find point of interest
 
 [Screenshots]().
 
-## How to search by address
+### How to search by address
 
 [Screenshots]().
 
-## How to start navigation
+### How to start navigation
 
 [Screenshots]().
 
-## How to record you trip
+### How to record you trip
 
 [Screenshots]().
 
-## How to configure map
+### How to configure map
 
 [Screenshots]().
 
-
-## How to plan a route
+### How to plan a route
 
 [Screenshots]().
+
+### Troubleshooting
+
+If you have a specific question, please check [Troubleshooting](/osmand/troubleshooting) to have it answered.
 
 ## Privacy
 
