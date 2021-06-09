@@ -103,11 +103,11 @@ Read more about [search](/osmand/search).
 
 ## Street-level imagery
 
-[Street-level imagery (Mapillary)](https://docs.osmand.net/en/main@latest/osmand/plugins/mapillary) are green points on the map. Street-view photos attached to these points. 
+[Street-level imagery (Mapillary)](https://docs.osmand.net/en/main@latest/osmand/plugins/mapillary) are green points on the map. Street-view photos attached to these points. You can create a filter and select what photos you would like to display on the map. In order to open street-view photo you need to press on the green point.
 
 ![Mapillary filter](/assets/images/map/mapillary_filter.png) ![Mapillary street view](/assets/images/map/mapillary_street-view.png)
 
-Enable / disable Mapillary on the map: 
+Enable / disable Street-level imagery on the map: 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.street_level_imagery %} 
 
