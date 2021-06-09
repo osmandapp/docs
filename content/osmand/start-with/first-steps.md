@@ -7,11 +7,13 @@ versions: '*'
 {% data reusables.general.article-not-complete %}
 
 ## Install OsmAnd
-OsmAnd is a mobile application for Maps and Navigation available for **Android** and **iOS**. You can download it on most popular Application Stores.
+OsmAnd is a mobile application for Maps and Navigation available for **Android** and **iOS**. You can download it on most popular Markets.
 
-**Android markets**: [Google play store](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_3?dchild=1&keywords=osmand&qid=1616685559&sr=8-3). More information about OsmAnd versions and paid services is available at [Purchases info](/osmand/purchases).  
+**Android markets**: [Google play store](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_3?dchild=1&keywords=osmand&qid=1616685559&sr=8-3). 
 
 **iOS**: [App store](https://apps.apple.com/us/app/osmand-maps-travel-navigate/id934850257).
+
+**[Read more](/osmand/purchases)** about OsmAnd versions and Purchases.  
 
 ## Welcome to OsmAnd!
 
@@ -24,7 +26,10 @@ Our goal is to create fully functional Map-oriented application that could be us
 - Fully customize how the [map looks](/osmand/map/configure-map-menu) and what [widgets](/osmand/widgets) are displayed on it.
 - Navigate [by boat](/osmand/navigation/boat-navigation), [by a given track](/osmand/navigation/gpx-navigation), [by public transport](/osmand/navigation/public-transport-navigation) and [offroad](/osmand/navigation/markers-navigation).
 - Everything works in **Offline Mode**!
-- And don't forget to contribute to [OpenStreetMap](https://www.openstreetmap.org/) with [OSM Editing Plugin](/osmand/plugins/osm-editing)
+- And don't forget to contribute to [OpenStreetMap](https://www.openstreetmap.org/) with [OSM Editing Plugin](/osmand/plugins/osm-editing).
+
+
+## Actions Guide
 
 ## How to download maps
 
@@ -58,13 +63,19 @@ OsmAnd supports many ways to customize map with your personal data such as [Trac
 
 [Screenshots]().
 
+
+## How to plan a route
+
+[Screenshots]().
+
 ## Privacy
 
-It is an [open source](https://github.com/osmandapp/osmand), ads-free / tracker-free privacy focused application . In order to preserve maximum privacy, OsmAnd offers Offline maps as a first place, so no interaction, geo information is leaked from your device. We are very attentive to what data is collected and what data is transferred by network, you can read more in our [Privacy policy](https://osmand.net/help-online/privacy-policy). 
+It is an [open source](https://github.com/osmandapp/osmand), ads-free / tracker-free privacy focused application. In order to preserve maximum privacy, OsmAnd offers Offline maps as a first place, so no interaction, geo information is leaked from your device. We are very attentive to what data is collected and what data is transferred by network, you can read more in our [Privacy policy](https://osmand.net/help-online/privacy-policy). 
 
 ## Permissions
 
-OsmAnd doesn't have any required permissions on iOS / Android version. For 
+OsmAnd doesn't have any required permissions on iOS / Android version. 
+
 **Essential**:
 - **Internet** - initial download / update offline maps. Also could be needed to access online features such as [Street Level Imagery](/osmand/map/point-layers-on-map#-street-level-imagery), [Online photos](/osmand/map/map-context-menu#online-photos) or [Online maps](/osmand/map/raster-maps).
 - **GPS** / **GSM Network** - determine your location, follow you in a navigation mode, record your trip (optional). This permission is asked when you click [my location button](/osmand/widgets/map-buttons#my-location--zoom) or when you [start navigation](/osmand/navigation/route-navigation).
