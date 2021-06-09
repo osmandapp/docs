@@ -7,7 +7,7 @@ versions: '*'
 {% data reusables.general.article-not-complete %}
 
 ## Install OsmAnd
-OsmAnd is a mobile application available for **Android** and **iOS**. You can download it on most popular Application Stores.
+OsmAnd is a mobile application for Maps and Navigation available for **Android** and **iOS**. You can download it on most popular Application Stores.
 
 **Android markets**: [Google play store](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_3?dchild=1&keywords=osmand&qid=1616685559&sr=8-3). More information about OsmAnd versions and paid services is available at [Purchases info](/osmand/purchases).  
 
@@ -15,29 +15,59 @@ OsmAnd is a mobile application available for **Android** and **iOS**. You can do
 
 ## Welcome to OsmAnd!
 
-OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to download map of your region. If you skip maps download (via '{% data variables.android-values.shared_string_skip %}'), the application won't function correctly. So you will need to download maps later via Android / iOS -> Menu -> Maps download (TODO). OsmAnd might not detect your region to download correctly, so you can choose from the list.
+Our goal is to create fully functional Map-oriented application that could be used in various purposes. The application is full of features, so you don't need to switch between different apps and have everything at your fingertips:
+- Browse Worldwide Map with lots of details displayed with [many map styles](/osmand/map/vector-maps).
+- Display, search and save various [Points of interests](/osmand/map/point-layers-on-map).
+- [Plan a route](/osmand/plan-route/create-route) by car, bicycle, foot and combine it.
+- Start [voice guided navigation](/osmand/navigation/route-navigation) with screen on and off.
+- Make your tourist trip rich with offline [Wikipedia](/osmand/plugins/wikipedia) and [Wikivoyage](/osmand/plan-route/travel-guides).
+- Fully customize how the [map looks](/osmand/map/configure-map-menu) and what [widgets](/osmand/widgets) are displayed on it.
+- Navigate [by boat](/osmand/navigation/boat-navigation), [by a given track](/osmand/navigation/gpx-navigation), [by public transport](/osmand/navigation/public-transport-navigation) and [offroad](/osmand/navigation/markers-navigation).
+- Everything works in **Offline Mode**!
+- And don't forget to contribute to [OpenStreetMap](https://www.openstreetmap.org/) with [OSM Editing Plugin](/osmand/plugins/osm-editing)
 
-![Download map info](/assets/images/settings/download_map_info.png)
+## How to download maps
 
-**Android storage**. On Android devices your might want to change where the maps stored, on shared storage, sdcard, etc. You can read more about it on [Storage](/osmand/personal/storage).
+OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to download map of your region. If you want to download maps later, you can [do it](/osmand/start-with/download-maps) in many different ways.
 
-In case you need to reinstall the app, please make sure you have back up all your [Personal Data](/osmand/import-export) data such as Tracks and Favorites.
+![Download map](/assets/images/settings/download_map.png)
 
+## How to add personal data to maps
+
+OsmAnd supports many ways to customize map with your personal data such as [Tracks](/osmand/personal/tracks), [Markers](/osmand/personal/markers), [Favorites](/osmand/personal/favorites). 
+
+[Screenshots]().
+
+## How to browse & find point of interest
+
+[Screenshots]().
+
+## How to search by address
+
+[Screenshots]().
+
+## How to start navigation
+
+[Screenshots]().
+
+## How to record you trip
+
+[Screenshots]().
+
+## How to configure map
+
+[Screenshots]().
+
+## Privacy
+
+It is an [open source](https://github.com/osmandapp/osmand), ads-free / tracker-free privacy focused application . In order to preserve maximum privacy, OsmAnd offers Offline maps as a first place, so no interaction, geo information is leaked from your device. We are very attentive to what data is collected and what data is transferred by network, you can read more in our [Privacy policy](https://osmand.net/help-online/privacy-policy). 
 
 ## Permissions
-{% data reusables.general.article-not-complete %}
 
-Sign out icon {% octicon("sign-out") %} in text.
-Now try overflow menu &#xe802; - here.
+OsmAnd doesn't have any required permissions on iOS / Android version. For 
+**Essential**:
+- **Internet** - initial download / update offline maps. Also could be needed to access online features such as [Street Level Imagery](/osmand/map/point-layers-on-map#-street-level-imagery), [Online photos](/osmand/map/map-context-menu#online-photos) or [Online maps](/osmand/map/raster-maps).
+- **GPS** / **GSM Network** - determine your location, follow you in a navigation mode, record your trip (optional). This permission is asked when you click [my location button](/osmand/widgets/map-buttons#my-location--zoom) or when you [start navigation](/osmand/navigation/route-navigation).
 
--   **Camera/voice recording** - this is only used by [the Audio/Video notes plugin (for Android version only)](https://osmand.net/features/audio-video-notes-plugin). This feature is optional and by default disabled (it can be enabled in the Plugin Manager). It allows to quickly create location-related audio/video notes during a trip.
--   **GPS/Network access/SD card** are natural requirements for this application.
--   **Billing permission** - even though the free application doesn't have any in app purchases, it was introduced to get them in and the last moment inapp was excluded. There is no reason to remove that in app because it will be needed to go through long procedure of extending permissions again.
-
-
-### Browse Map
-TODO: Browse map Give location permissions 
-### Search
-TODO: Search by address / name
-### Start Navigation
-TODO: Give location permissions / select voice navigation.
+**Optional**:
+- **Camera/voice recording** (Android) - only used by [the Audio/Video notes](/osmand/plugins/audio-video-notes). This feature is packaged as plugin and by default disabled. It allows to quickly create location-related audio/video notes during a trip.
