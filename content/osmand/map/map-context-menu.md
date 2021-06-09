@@ -74,7 +74,7 @@ Clicking to 'Nearby POIs/ Wikipedia articles' opens a points list (Wikipedia and
 
 **Note**: [{% data variables.android-values.wiki_around %}](/osmand/plugins/wikipedia) will appear only if you previously downloaded special maps with [Wikipedia articles for this area](/osmand/plugins/wikipedia#download-wikipedia).
 
-![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia.png) ![Nearby Wikipedia articles](/assets/images/map/map_context_menu_Nearby_Wikipedia_1.png)
+![Nearby Wikipedia articles](/assets/images/map/map_context_menu_nearby_wikipedia.png) ![Nearby Wikipedia articles](/assets/images/map/map_context_menu_nearby_wikipedia_1.png)
 
 ### Public Transport Routes
 
