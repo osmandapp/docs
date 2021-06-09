@@ -101,7 +101,7 @@ To switch off POIs, hit "X" on the top right corner.
 
 Read more about [search](/osmand/search).
 
-## Street-level imagery
+## * Street-level imagery
 
 [Street-level imagery (Mapillary)](https://docs.osmand.net/en/main@latest/osmand/plugins/mapillary) are green points on the map. Street-view photos attached to these points. You can create a filter and select what photos you would like to display on the map. In order to open street-view photo you need to press on the green point.
 
@@ -112,6 +112,8 @@ Enable / disable Street-level imagery on the map:
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.street_level_imagery %} 
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.street_level_imagery %}
+
+Requires [Mapillary plugin](/osmand/plugins/mapillary)
 
 ## * Wikipedia
 
@@ -137,7 +139,7 @@ Enable / disable recording points on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_recordings %}
 
-* Requires [Audio / Video note plugin](/osmand/plugins/audio-video-notes).
+Requires [Audio / Video note plugin](/osmand/plugins/audio-video-notes).
 
 ## * OSM edit points 
 
@@ -151,7 +153,7 @@ Enable / disable OSM edits on the map:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.osm_edits_title %} 
 
-* Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
+Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
 
 ## * OSM notes 
 
@@ -159,7 +161,7 @@ TODO more text about context menu with screenshots.
 
 OSM note points are user's made POIs for reporting issue about map data in [OpenStreetMap](https://www.openstreetmap.org/). New note (not uploaded to OpenStreetMap) is marked as green with '+', closed note is marked as green with 'v', open note is marked as red.
 
-![OSM create note](/assets/images/map/osm_create_note.png) ![OSM note POI](/assets/images/map/osm_note_poi.png) 
+![OSM notes](/assets/images/map/osm_note.png)
 
 Enable / disable OSM notes on the map:
 
@@ -167,7 +169,7 @@ Enable / disable OSM notes on the map:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.osm_notes_online_layer %} 
 
-* Requires [OSM Editing plugin](/osmand/plugins/osm-editing#how-to-report-a-mistake).
+Requires [OSM Editing plugin](/osmand/plugins/osm-editing#how-to-report-a-mistake).
 
 ## Read more
   [Configure map menu](/osmand/map/configure-map-menu).
