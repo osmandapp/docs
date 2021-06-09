@@ -137,6 +137,8 @@ In the context menu there are options to **add** or to **edit** the selected poi
 
 ![Add Edit marker action Android](/assets/images/map/add_marker_android.png) ![Add Edit marker action iOS](/assets/images/map/add_marker_ios.png)
 
+![Pass marker action Android](/assets/images/map/action_pass_marker_android.png) ![Restore marker action Android](/assets/images/map/action_restore_marker_android.png)
+
 It is possible to mark a point or an object in order to make it easier to plan navigation. You just need to click on the 'flag' icon in the menu (Android), 'arrow' (iOS) - displays direction and distance to the selected point from your current location.
 
 Actions:
@@ -183,7 +185,7 @@ For [starting search](/osmand/search) near chosen point you need to use next Act
 
 ### Avoid road
 
-![Avoid action Android](/assets/images/map/action_avoid_android.png)
+![Avoid action Android](/assets/images/map/action_avoid_android.png) ![Avoid delete action Android](/assets/images/map/action_avoid_delete_android.png)
 
 This action adds a point on the road which would be avoided during routing. The routing algorithm of OsmAnd won't build a route through this point.
 
@@ -192,6 +194,8 @@ This action adds a point on the road which would be avoided during routing. The 
 ### Change objects position
 
 ![Action Change position Android](/assets/images/map/action_change_position_android.png) ![Action Change position iOS](/assets/images/map/action_change_position_ios.png)
+
+![Action Change position UI Android](/assets/images/map/action_change_position_ui_android.png)
 
 This action allows you to change the location for your points (Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint). Click to this action for choose point and move your screen for new location.
 
@@ -233,9 +237,11 @@ Clicking to '{% data variables.android-values.rendering_category_details %}' but
 For **iOS**, there is button for downloading a map of region in Map context menu. By clicking to this button start to download a map.
 
 
-### * Add Parking
+### * Add / Delete Parking
 
 ![Action Parking Android](/assets/images/map/action_parking_android.png) ![Action Parking iOS](/assets/images/map/action_parking_ios.png)
+
+![Action Delete Parking Android](/assets/images/map/action_delete_parking_android.png) 
 
 To designate the selected point as [a parking position](/osmand/plugins/parking).
 
@@ -266,6 +272,14 @@ In OsmAnd user can create POI in the chosen place and modify chosen POI. For thi
 An user can report about the mistakes on the map to [OpenStreetMap](https://www.openstreetmap.org/). For adding [OSM Note](/osmand/plugins/osm-editing#how-to-report-a-mistake) in a chosen point, an user need to enable ['OpenStreetMap editing' plugin](/osmand/plugins/osm-editing). 
 
 - [{% data variables.android-values.context_menu_item_open_note %}](/osmand/plugins/osm-editing) - adds [OSM note](https://wiki.openstreetmap.org/wiki/Notes) for to [OpenStreetMap](https://www.openstreetmap.org/).
+
+### * Comment / Close OSM Note
+
+![Comment OSM Note Android](/assets/images/map/action_comment_note_android.png) ![Close OSM Note Android](/assets/images/map/action_close_note_android.png)
+
+### * Upload POI / OSM Note
+
+![Upload POI Android](/assets/images/map/action_poi_upload_android.png) ![Upload OSM Note iOS](/assets/images/map/action_note_upload_android.png)
 
 
 ### * Audio-Video (Android)
