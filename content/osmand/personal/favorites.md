@@ -39,11 +39,21 @@ Click to 'Magnifier' buttons opens seaching menu for Favorites, where user can s
 
 ### Folders list
 
-The second part is list of folders of Favorite groups.
+The second part is list of folders of Favorite groups. Folder of Favorite is one Favorite group.
 
+![Favorites folders android](/assets/images/personal/favorites_folders_android.png)
 
+User can expand and collapse list of Favorite points for one group by clicking to a folder line or to "&#8743;", "&#8744;"  symbols.
 
-That user can expand and collapse list of points in one group.
+![Favorites folders expand android](/assets/images/personal/favorites_folders_expand_android.png)
+
+Click to any point from Favorite list opens [Map Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) for chosen point.
+
+![Favorites context menu android](/assets/images/personal/favorites_context_menu_android.png)
+
+Click to "&#8942;" symbol opens special function for a chosen folder.
+
+![Favorites folder functions android](/assets/images/personal/favorites_folder_functions_android.png)
 
 
 ## iOS Favorites menu
