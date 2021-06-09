@@ -65,6 +65,7 @@ Functions for Favorite folder:
 
 **Note**: "Personal" folder is a special folder for '{% data variables.android-values.favorite_home_category %}' and '{% data variables.android-values.work_button %}' points of [Navigation Context menu](/osmand/navigation). This folder doesn't have "&#8942;" button, because you can not change the parameters for this folder. 
 
+![Favorites personal android](/assets/images/personal/favorites_personal_android.png)
 
 
 ## iOS Favorites menu
