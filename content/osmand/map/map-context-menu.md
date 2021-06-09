@@ -3,7 +3,6 @@ title: "Map Context menu"
 intro: "'Map Context menu' provides information of selected object on the map and allows to share, to edit, to move or to navigate to this place."
 versions: '*'
 ---
-{% data reusables.general.article-not-complete %}
 
 ## Context menu 
 In order to open Context menu you should tap on the object on the Map. There are two types of map contet menu: selecting an object - by short tap, selecting any precise point on the map - by long tap.
@@ -147,6 +146,8 @@ Actions:
 - 'Make active' (Android) - moves marker to the top position (on the top panel).
 - 'Restore marker' (Android) - moves marker from History to active list.
 
+Read more about [markers](/osmand/personal/markers).
+
 ### Share
 
 ![Share action Android](/assets/images/map/action_share_android.png) ![Share action iOS](/assets/images/map/action_share_ios.png)
@@ -172,11 +173,11 @@ All options to share your location:
 
 ![Multiple Directions Android](/assets/images/map/action_multiple_directions_android.png)
 
-In order to start navigation or route planning, you need to select destination first [{% data variables.android-values.get_directions %}](/osmand/widgets/map-buttons#directions). In case you already have a destination point, the menu will suggest you to replace the destnation point or to insert as another intermediate or start point. 
+In order to start navigation or route planning, you need to select destination first with [{% data variables.android-values.get_directions %}](/osmand/widgets/map-buttons#directions). In case you already have a destination point, the menu will suggest you to replace the destnation point or to insert as another intermediate or start point. 
 
 It is also possible to select 'From' Destination first via Map context menu ({% data variables.android-values.context_menu_item_directions_from %}).
 
-**Note**: if you click "Start navigation" - 'From' point will be discarded as application enters in Navigation mode. In order to preserve a route, don't click "Start navigation" and swipe down "Route preparation" menu.
+**Note**: if you click "Start navigation" - 'From' point will be discarded as application enters in Navigation mode. In order to preserve a route, don't click "Start navigation" and [swipe down](#hide-context-menu)  "Route preparation" menu.
 
 Read more about [navigation](/osmand/navigation/route-navigation).
 
@@ -192,9 +193,14 @@ Read more about [search](/osmand/search) functionality.
 
 ![Avoid action Android](/assets/images/map/action_avoid_android.png) ![Avoid delete action Android](/assets/images/map/action_avoid_delete_android.png)
 
-This action adds a point on the road which would be avoided during routing. The routing algorithm of OsmAnd won't build a route through this point.
+![Avoid roads list Android](/assets/images/map/action_avoid_roads_list_android.png) 
 
-- {% data variables.android-values.avoid_road %} - allows to mark place that you would like to avoid for [navigation](/osmand/navigation/route-navigation).
+It is possible to add avoid roads at specific location, so selected roads will be avoided during the route planning. 
+
+**Note**: avoid roads are global and used for all navigation profiles (except online routing). 
+
+Read more about [navigation](/osmand/navigation/route-navigation).
+
 
 ### Change object position
 
@@ -202,7 +208,7 @@ This action adds a point on the road which would be avoided during routing. The 
 
 ![Action Change position UI Android](/assets/images/map/action_change_position_ui_android.png)
 
-Almost every created object by you is moveable i.e. Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint. Select first object on the map and then use '{% data variables.android-values.change_markers_position %}' to move it to a new location.
+Almost every created object by user is moveable i.e. Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint. First select an object on the map and then use '{% data variables.android-values.change_markers_position %}' menu to move it to a new location.
 
 ### Plan a route
 
@@ -222,14 +228,14 @@ To update or download online maps (tiles) at specific location, you can use obje
 
 ![Action Download vector map Android](/assets/images/map/action_download_vector_map_android.png) ![Action Download vector map iOS](/assets/images/map/action_download_vector_map_ios.png)
 
-/assets/images/settings/download_region_map_via_worldmap.png
+![Select vector map worldwide on Android](/assets/images/settings/download_region_map_via_worldmap.png)
 
-In case there is no offline map present at selected location, for example map object menu was opened via Search or via specific Favorite, then the smallest possible map will be suggested to [download](/osmand/start-with/download-maps#download---map-context-menu).  
+In case there is no offline map present at selected location, for example map object menu was opened via Search or via specific Favorite, then the smallest possible offline map will be suggested to [download](/osmand/start-with/download-maps#download---map-context-menu).  
 
-**Android**: If you have already [downloaded](/osmand/start-with/download-maps) OsmAnd maps (vector or terrain), it is possible to updated them via context 
+**Android**: If you already have [downloaded](/osmand/start-with/download-maps) OsmAnd maps (vector or terrain), it is possible to updated them via context 
 menu. You will need to select the region on the map first - click on any location on worldwide zoom 3-7. 
 
-**Note**: if you have opened context menu for map region (region is higlighted), you will be able to see '{% data variables.android-values.rendering_category_details %}' about it: type and size of a map, link to a wikipedia page, language, population and other.
+**Note**: if you have opened context menu for map region (region is higlighted), you will be able to see '{% data variables.android-values.rendering_category_details %}' about it: type and size of a available map, link to a wikipedia page, language, population and other.
 
 ### * Add / Delete Parking point
 
@@ -247,7 +253,7 @@ Requires [Parking position plugin](/osmand/plugins/parking).
 
 ![Select Track to add Waypoint Android](/assets/images/map/action_select_track_to_add_waypoint_android.png)
 
-It is possible to [add waypoints](/osmand/personal/tracks#add-waypoint) to any track at selected location via Map Context menu - {% data variables.android-values.context_menu_item_add_waypoint %} . By default waypoint is added to [currently recording track](/osmand/plugins/trip-recording#from-widget). Though if there are many [visible tracks](/osmand/map/tracks-on-map#tracks-on-the-map-layers) on the map, it will be suggested to select the track.
+It is possible to [add waypoints](/osmand/personal/tracks#add-waypoint) to any track at selected location via Map Context menu - {% data variables.android-values.context_menu_item_add_waypoint %} . By default waypoint is added to [currently recording track](/osmand/plugins/trip-recording#from-widget). Though if there are many [visible tracks](/osmand/map/tracks-on-map#tracks-on-the-map-layers) on the map, it will be suggested to select the track waypoint will be added to.
 
 Requires [Trip recording plugin](/osmand/plugins/trip-recording).
 
@@ -290,7 +296,7 @@ In case you use 'Offline mode' to add / edit POI or OSM Note, you will need to u
 
 Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
 
-### * Audio-Video Note (Android)
+### * Record Audio-Video Note (Android)
 
 ![Action Audio-Video Android](/assets/images/map/action_av_note_android.png)
 
@@ -299,6 +305,12 @@ Records or takes a media note at selected point on the map.
 - {% data variables.android-values.recording_context_menu_arecord %} - makes a [audio note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with audio icon).
 - {% data variables.android-values.recording_context_menu_vrecord%} - makes a [video note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with video icon).
 - {% data variables.android-values.recording_context_menu_precord %} - makes a [photo point](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on the map.
+
+Requires [Audio / Video note plugin](/osmand/plugins/audio-video-notes).
+
+### * Play / View / Delete Audio-Video Note (Android)
+
+{% data reusables.general.article-not-complete %}
 
 Requires [Audio / Video note plugin](/osmand/plugins/audio-video-notes).
 
