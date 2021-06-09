@@ -1,6 +1,6 @@
 ---
-title: "Profiles"
-intro: "Profiles"
+title: "Profiles (Settings)"
+intro: "Profiles (Settings)"
 versions: '*'
 ---
 
