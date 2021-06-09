@@ -247,6 +247,8 @@ To designate the selected point as [a parking position](/osmand/plugins/parking)
 
 - [{% data variables.android-values.context_menu_item_add_parking_point %}](/osmand/plugins/parking) - makes or edits the chosen point as parking position.
 
+Requires [Parking position plugin](/osmand/plugins/parking).
+
 ### * Add Track waypoint
 
 ![Action Waypoint Android](/assets/images/map/action_waypoint_android.png) ![Action Waypoint iOS](/assets/images/map/action_waypoint_ios.png)
@@ -254,6 +256,8 @@ To designate the selected point as [a parking position](/osmand/plugins/parking)
 In order to make chosen point like a waypoint for [a track from a visible tracks list](/osmand/map/tracks-on-map#tracks-on-the-map-layers).
 
 - {% data variables.android-values.context_menu_item_add_waypoint %} - makes selected point to a track as a waypoint.
+
+Requires [Trip recording plugin](/osmand/plugins/trip-recording).
 
 ### * Create / Modify POI
 
@@ -265,40 +269,48 @@ In OsmAnd user can create POI in the chosen place and modify chosen POI. For thi
 
 {% data variables.android-values.poi_context_menu_modify %} - allows [to modify chosen POI](/osmand/plugins/osm-editing#how-to-modify-poi).
 
+Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
+
 ### * Open OSM Note
 
 ![Action Note Android](/assets/images/map/action_note_android.png) ![Action Note iOS](/assets/images/map/action_note_ios.png)
 
-An user can report about the mistakes on the map to [OpenStreetMap](https://www.openstreetmap.org/). For adding [OSM Note](/osmand/plugins/osm-editing#how-to-report-a-mistake) in a chosen point, an user need to enable ['OpenStreetMap editing' plugin](/osmand/plugins/osm-editing). 
+You can [report](/osmand/plugins/osm-editing#how-to-report-a-mistake) map data errors at specific location to [OpenStreetMap community](https://wiki.openstreetmap.org/wiki/Join_the_community). Please follow [guidelines](https://wiki.openstreetmap.org/wiki/Notes#Adding_notes) and add proper comments to an issue.
 
-- [{% data variables.android-values.context_menu_item_open_note %}](/osmand/plugins/osm-editing) - adds [OSM note](https://wiki.openstreetmap.org/wiki/Notes) for to [OpenStreetMap](https://www.openstreetmap.org/).
+Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
 
 ### * Comment / Close OSM Note
 
 ![Comment OSM Note Android](/assets/images/map/action_comment_note_android.png) ![Close OSM Note Android](/assets/images/map/action_close_note_android.png)
 
+OpenStreetMap Notes support [commenting](https://wiki.openstreetmap.org/wiki/Notes#Adding_notes) and [resolving](https://wiki.openstreetmap.org/wiki/Notes#Resolving_notes), you can do it via OSM Note context menu.
+
+Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
+
 ### * Upload POI / OSM Note
 
-![Upload POI Android](/assets/images/map/action_poi_upload_android.png) ![Upload OSM Note iOS](/assets/images/map/action_note_upload_android.png)
+![Upload POI Android](/assets/images/map/action_poi_upload_android.png) ![Upload OSM Note Android](/assets/images/map/action_note_upload_android.png)
 
+In case you use 'Offline mode' to add / edit POI or OSM Note, you will need to upload the changes to OpenStreetMap. By default 'Offline mode' is on to avoid accidental changes of public database. You can upload or delete change via created object context menu.
 
-### * Audio-Video (Android)
+Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
+
+### * Audio-Video Note (Android)
 
 ![Action Audio-Video Android](/assets/images/map/action_av_note_android.png)
 
-Assign selected point as audio/video/photo point.
+Records or takes  a not at selected point on the map.
 
 - {% data variables.android-values.recording_context_menu_arecord %} - makes a [audio note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with audio icon).
 - {% data variables.android-values.recording_context_menu_vrecord%} - makes a [video note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with video icon).
 - {% data variables.android-values.recording_context_menu_precord %} - makes a [photo point](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on the map.
 
-
+Requires [Audio / Video note plugin](/osmand/plugins/audio-video-notes).
 
 ## Customize (Android advanced)
 
-It is a menu where the user can reorder or hide items from the 'Context menu actions', to see hidden items from the menu, copy the list of items from the another profile and reset to default settings. 
+It is possible to reorder or hide items from the '{% data variables.android-values.context_menu_actions %}'. You can create move the most useful actions to the top 3 actions and setup menu independently for each profile. It is also possible to reset to default settings after all.
 
-Android users can reset to default configuration of the Context menu or copy configuration of the Context menu from another profile.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.ui_customization %} → {% data variables.android-values.context_menu_actions %}
 
