@@ -50,7 +50,7 @@ Enable / disable points of interest of **selected** type on the map:
 
 You can select one or many from standard OsmAnd POI types or make your own [POI filter](/osmand/search/custom-poi-search) and select it to display POI on the map.
 
-![Single POI Selection](/assets/images/map/single_selection_Android.png) ![Multiple POI Selection](/assets/images/map/multiple_selection_Android.png)
+![Single POI Selection](/assets/images/map/single_selection_android.png) ![Multiple POI Selection](/assets/images/map/multiple_selection_android.png)
 
 **Android**: to switch between single and multiple POI selection click the lower left button.
 
@@ -72,7 +72,7 @@ Hide POIs from map style:
 
 [Map markers](/osmand/personal/markers) are special points marked as flags on the map. You can customize their look & feel with **arrows** ({% data variables.android-values.show_arrows_on_the_map %}) and **distance indication** ({% data variables.android-values.show_direction %}). 
 
-![Map markers Android](/assets/images/map/map_markers_Android.png) ![Map markers iOS](/assets/images/map/map_markers_iOS.png)
+![Map markers Android](/assets/images/map/map_markers_android.png) ![Map markers iOS](/assets/images/map/map_markers_ios.png)
 
 Enable / disable markers on the map:
 
