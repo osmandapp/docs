@@ -296,7 +296,7 @@ In case you use 'Offline mode' to add / edit POI or OSM Note, you will need to u
 
 Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
 
-### * Record Audio-Video Note (Android)
+### * Record AV Note (Android)
 
 ![Action Audio-Video Android](/assets/images/map/action_av_note_android.png)
 
@@ -308,7 +308,7 @@ Records or takes a media note at selected point on the map.
 
 Requires [Audio / Video note plugin](/osmand/plugins/audio-video-notes).
 
-### * Play / View / Delete Audio-Video Note (Android)
+### * View / Delete AV Note (Android)
 
 {% data reusables.general.article-not-complete %}
 
