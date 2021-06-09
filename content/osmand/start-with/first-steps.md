@@ -23,7 +23,7 @@ Our goal is to create fully functional Map-oriented application that could be us
 - [Plan a route](/osmand/plan-route/create-route) by car, bicycle, foot and combine it.
 - Start [voice guided navigation](/osmand/navigation/route-navigation) with screen on and off.
 - Make your tourist trip rich with offline [Wikipedia](/osmand/plugins/wikipedia) and [Wikivoyage](/osmand/plan-route/travel-guides).
-- Fully customize how the [map looks](/osmand/map/configure-map-menu) and what [widgets](/osmand/widgets) are displayed on it.
+- Fully customize how [the map displayed](/osmand/map/configure-map-menu) and what [widgets](/osmand/widgets) are displayed on it.
 - Navigate [by boat](/osmand/navigation/boat-navigation), [by a given track](/osmand/navigation/gpx-navigation), [by public transport](/osmand/navigation/public-transport-navigation) and [offroad](/osmand/navigation/markers-navigation).
 - Everything works in **Offline Mode**!
 - And don't forget to contribute to [OpenStreetMap](https://www.openstreetmap.org/) with [OSM Editing Plugin](/osmand/plugins/osm-editing).
@@ -64,6 +64,14 @@ OsmAnd supports many ways to customize map with your personal data such as [Trac
 [Screenshots]().
 
 ### How to plan a route
+
+[Screenshots]().
+
+### How to manage your settings
+
+[Screenshots]().
+
+### How to edit maps
 
 [Screenshots]().
 
