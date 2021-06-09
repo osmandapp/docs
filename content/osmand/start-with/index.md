@@ -8,7 +8,6 @@ versions: '*'
 {% link_with_intro /first-steps %}
 {% link_with_intro /download-maps %}
 {% link_with_intro /main-menu %}
-{% link_with_intro /next-steps %}
 
 
 
