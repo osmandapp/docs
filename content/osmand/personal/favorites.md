@@ -21,11 +21,13 @@ In order to open Favorites menu:
 
 ![My places favorites android](/assets/images/personal/my_places_android.png) ![my_places_ios](/assets/images/personal/my_places_ios.png)
 
-### Android Favorites menu
+## Android Favorites menu
 
 Favorites menu is a list of Favorites folders, functions buttons, searching.
 
 ![Favorites menu android](/assets/images/personal/favorites_menu_android.png)
+
+### Searching
 
 The first is search function, where user can search needed favorites from all Favorites list. 
 
@@ -35,12 +37,16 @@ Click to 'Magnifier' buttons opens seaching menu for Favorites, where user can s
 
 ![Searching menu Favorite android](/assets/images/personal/searching_favorites_menu_2_android.png)
 
+### Folders list
+
+The second part is list of folders of Favorite groups.
 
 
-The second part is list of folders of Favorite group. That user can expand and collapse list of points in one group.
+
+That user can expand and collapse list of points in one group.
 
 
-### iOS Favorites menu
+## iOS Favorites menu
 
 
 ## View on the map
