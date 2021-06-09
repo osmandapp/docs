@@ -121,7 +121,7 @@ Parking points is a points marked by user on the map for parking. Parking points
 
 ![Limited parking](/assets/images/map/context_menu_limited_parking.png) ![Unlimited parking](/assets/images/map/context_menu_unlimited_parking.png)
 
-**Documnetation and screenshot will be updated**.
+Requires [Parking position plugin](/osmand/plugins/parking).
 
 ## * Wikipedia
 
