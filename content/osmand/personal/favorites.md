@@ -23,6 +23,13 @@ In order to open Favorites menu:
 
 ### Android Favorites menu
 
+Favorites menu has several parts.
+
+The first is search function. Where user can search needed favorites from all list.
+
+The second part is list of folders of Favorite group. That user can expand and collapse list of points in one group.
+
+
 ### iOS Favorites menu
 
 
