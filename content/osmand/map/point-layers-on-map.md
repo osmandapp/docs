@@ -16,7 +16,7 @@ Enable / disable favorites on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.favorites_item %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.favorites %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.favorites %}
 
 **Note** (Android): you could disable certain groups of favorites to be displayed on the map and during search - {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %}  →  {% data variables.android-values.shared_string_favorites %} → Select folder and press '{% data variables.android-values.shared_string_show_on_map %}'.
 
@@ -31,7 +31,7 @@ Enable / disable POI overlay labels on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_amenity_label %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.layer_amenity_label %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.layer_amenity_label %}
 
 
 ## Points of interest (POI)
@@ -44,7 +44,7 @@ Enable / disable points of interest of **selected** type on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.poi_overlay %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.poi_overlay %}
 
 ### POI Types
 
@@ -59,12 +59,12 @@ You can select one or many from standard OsmAnd POI types or make your own [POI 
 Each POI type in OsmAnd assigned a specific icon and color. POIs' [zoom level](/osmand/map/vector-maps#details) and design could be different in some [map styles](/osmand/map/vector-maps#default-map-styles).
 
 ![POI on map style](/assets/images/map/poi_layer.png) ![POI on topo style](/assets/images/map/poi_layer_topo_style.png)
-f
+
 Hide POIs from map style:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.shared_string_hide %} 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_hide %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.rendering_category_hide %}
 
 [Read more](/osmand/map/vector-maps#hide).
 
@@ -78,7 +78,7 @@ Enable / disable markers on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_markers_item %} 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_markers %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_markers %}
 
 [Read more](/osmand/widgets/markers#configure-marker-widgets-and-marker-appearance) about marker appearance.
 
@@ -103,11 +103,17 @@ Read more about [search](/osmand/search).
 
 ## Street-level imagery
 
-Information about Mapillary points / clicks and filters.
+[Street-level imagery (Mapillary)](https://docs.osmand.net/en/main@latest/osmand/plugins/mapillary) are green points on the map. Street-view photos attached to these points. 
 
-![Online photo Mapillary](/assets/images/map/context_menu_Online_photo.png) 
+![Mapillary filter](/assets/images/map/mapillary_filter.png) ![Mapillary street view](/assets/images/map/mapillary_street-view.png)
 
-## * Wikipedia (Android)
+Enable / disable Mapillary on the map: 
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.street_level_imagery %} 
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.street_level_imagery %}
+
+## * Wikipedia
 
 OsmAnd has special Point of Interests indicated with 'W' logo and Wikipedia articles attacheted to it. These points could be displayed exactly as any other POI type via Search or {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}, though there is a special way to filter Wikipedia articles by **available languages**.
 
@@ -117,13 +123,13 @@ Enable / disable wikipedia articles on the map and filter by language:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_wikipedia %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.poi_overlay %} → {% data variables.ios-values.res_wiki %} 
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.poi_overlay %} → {% data variables.ios-values.res_wiki %} 
 
 [Read more](osmand/plugins/wikipedia) how to download and use the Wikipedia feature in OsmAnd.
 
 ## * Audio / Video points (Android)
 
-Audio / Video notes are user's made points with audio/photo/video data on the map. This type of points can be displayed only if [Audio / Video notes](/osmand/plugins/audio-video-notes) plugin is turned on.
+Audio / Video notes are user's made points with audio/photo/video data on the map. 
 
 ![AV POI](/assets/images/map/av_poi.png)
 
@@ -131,7 +137,7 @@ Enable / disable recording points on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_recordings %}
 
-Read more about [Audio / Video notes](/osmand/plugins/audio-video-notes).
+* Requires [Audio / Video note plugin](/osmand/plugins/audio-video-notes).
 
 ## * OSM edit points 
 
@@ -143,9 +149,9 @@ Enable / disable OSM edits on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.osm_edits %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.osm_edits_title %} 
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.osm_edits_title %} 
 
-Read more about [OSM Editing](/osmand/plugins/osm-editing).
+* Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
 
 ## * OSM notes 
 
@@ -159,9 +165,9 @@ Enable / disable OSM notes on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_osm_bugs %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.osm_notes_online_layer %} 
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.osm_notes_online_layer %} 
 
-Read more about [OSM Editing](/osmand/plugins/osm-editing#how-to-report-a-mistake).
+* Requires [OSM Editing plugin](/osmand/plugins/osm-editing#how-to-report-a-mistake).
 
 ## Read more
   [Configure map menu](/osmand/map/configure-map-menu).
