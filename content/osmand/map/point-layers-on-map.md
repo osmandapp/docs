@@ -115,6 +115,10 @@ Enable / disable Street-level imagery on the map:
 
 Requires [Mapillary plugin](/osmand/plugins/mapillary)
 
+## * Parking point
+
+**Documnetation and screenshot will be updated**.
+
 ## * Wikipedia
 
 OsmAnd has special Point of Interests indicated with 'W' logo and Wikipedia articles attacheted to it. These points could be displayed exactly as any other POI type via Search or {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}, though there is a special way to filter Wikipedia articles by **available languages**.
