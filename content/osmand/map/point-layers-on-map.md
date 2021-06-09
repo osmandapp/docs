@@ -38,7 +38,7 @@ Enable / disable POI overlay labels on the map:
 
 [Points of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) are specific points highlighted with an icon on the map. They represent interesting or useful places & objects and they are part of [Vector Maps](/osmand/map/vector-maps). Most prominent points of interest are displayed on the map automatically, though you could select specific type of POI (i.e. Restaurants) and they will be all highlighted on the map within an **orange circle** (from zoom level 9). You can find detailed information about point of interest in the [Context menu](/osmand/map/map-context-menu) that appears on a [short tap](/osmand/map/map-context-menu#select-an-object-short-tap) on the point.
 
-![POI overlay Android](/assets/images/map/poi_overlay_Android.png) ![POI overlay iOS](/assets/images/map/poi_overlay_iOS.png)
+![POI overlay Android](/assets/images/map/poi_overlay_android.png) ![POI overlay iOS](/assets/images/map/poi_overlay_ios.png)
 
 Enable / disable points of interest of **selected** type on the map:
 
