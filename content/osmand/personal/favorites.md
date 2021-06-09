@@ -73,7 +73,7 @@ Actions:
 - '&#43;'
 - '&#83;'
 - '&#128681;'
-- '<i class="fas fa-trash"></i>'
+- '&#x1F5D1;'
 
 ## iOS Favorites menu
 
