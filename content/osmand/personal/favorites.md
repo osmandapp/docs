@@ -23,9 +23,19 @@ In order to open Favorites menu:
 
 ### Android Favorites menu
 
-Favorites menu has several parts.
+Favorites menu is a list of Favorites folders, functions buttons, searching.
 
-The first is search function. Where user can search needed favorites from all list.
+![Favorites menu android](/assets/images/personal/favorites_menu_android.png)
+
+The first is search function, where user can search needed favorites from all Favorites list. 
+
+![Searching menu Favorite android](/assets/images/personal/searching_favorites_menu_android.png)
+
+Click to 'Magnifier' buttons opens seaching menu for Favorites, where user can start to find needed points.
+
+![Searching menu Favorite android](/assets/images/personal/searching_favorites_menu_2_android.png)
+
+
 
 The second part is list of folders of Favorite group. That user can expand and collapse list of points in one group.
 
