@@ -237,15 +237,13 @@ Clicking to '{% data variables.android-values.rendering_category_details %}' but
 For **iOS**, there is button for downloading a map of region in Map context menu. By clicking to this button start to download a map.
 
 
-### * Add / Delete Parking
+### * Add / Delete Parking point
 
 ![Action Parking Android](/assets/images/map/action_parking_android.png) ![Action Parking iOS](/assets/images/map/action_parking_ios.png)
 
-![Action Delete Parking Android](/assets/images/map/action_delete_parking_android.png) 
+![Action Delete Parking Android](/assets/images/map/context_menu_limited_parking.png) 
 
-To designate the selected point as [a parking position](/osmand/plugins/parking).
-
-- [{% data variables.android-values.context_menu_item_add_parking_point %}](/osmand/plugins/parking) - makes or edits the chosen point as parking position.
+Any selected location on the map could be marked as [a parking position](/osmand/plugins/parking). In order to delete parking position, you can open context menu associated with parking location.
 
 Requires [Parking position plugin](/osmand/plugins/parking).
 
@@ -253,9 +251,9 @@ Requires [Parking position plugin](/osmand/plugins/parking).
 
 ![Action Waypoint Android](/assets/images/map/action_waypoint_android.png) ![Action Waypoint iOS](/assets/images/map/action_waypoint_ios.png)
 
-In order to make chosen point like a waypoint for [a track from a visible tracks list](/osmand/map/tracks-on-map#tracks-on-the-map-layers).
+![Select Track to add Waypoint Android](/assets/images/map/action_select_track_to_add_waypoint_android.png)
 
-- {% data variables.android-values.context_menu_item_add_waypoint %} - makes selected point to a track as a waypoint.
+It is possible to [add waypoints](/osmand/personal/tracks#add-waypoint) to any track at selected location via Map Context menu - {% data variables.android-values.context_menu_item_add_waypoint %} . By default waypoint is added to [currently recording track](/osmand/plugins/trip-recording#from-widget). Though if there are many [visible tracks](/osmand/map/tracks-on-map#tracks-on-the-map-layers) on the map, it will be suggested to select the track.
 
 Requires [Trip recording plugin](/osmand/plugins/trip-recording).
 
@@ -263,11 +261,11 @@ Requires [Trip recording plugin](/osmand/plugins/trip-recording).
 
 ![Action POI Android](/assets/images/map/action_poi_android.png) ![Action POI iOS](/assets/images/map/action_poi_ios.png)
 
-In OsmAnd user can create POI in the chosen place and modify chosen POI. For this user need to enable ['OpenStreetMap editing' plugin](/osmand/plugins/osm-editing). All modified or creating data keep saved on [OpenStreetMap](https://www.openstreetmap.org/).
+With OSM Editing plugin, you can create and modify most of the POIs present on [OpenStreetMap](https://www.openstreetmap.org/).
 
-{% data variables.android-values.context_menu_item_create_poi %} - allows [to create POI](/osmand/plugins/osm-editing#how-to-add-poi) in a chosen point.
+{% data variables.android-values.context_menu_item_create_poi %} - [creates a new POI](/osmand/plugins/osm-editing#how-to-add-poi) at selected location.
 
-{% data variables.android-values.poi_context_menu_modify %} - allows [to modify chosen POI](/osmand/plugins/osm-editing#how-to-modify-poi).
+{% data variables.android-values.poi_context_menu_modify %} - [modifies selected POI](/osmand/plugins/osm-editing#how-to-modify-poi).
 
 Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
 
@@ -275,15 +273,18 @@ Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
 
 ![Action Note Android](/assets/images/map/action_note_android.png) ![Action Note iOS](/assets/images/map/action_note_ios.png)
 
+![Action Add Note Android](/assets/images/map/action_add_osm_note_ui.png)
+
 You can [report](/osmand/plugins/osm-editing#how-to-report-a-mistake) map data errors at specific location to [OpenStreetMap community](https://wiki.openstreetmap.org/wiki/Join_the_community). Please follow [guidelines](https://wiki.openstreetmap.org/wiki/Notes#Adding_notes) and add proper comments to an issue.
 
 Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
 
 ### * Comment / Close OSM Note
 
-![Comment OSM Note Android](/assets/images/map/action_comment_note_android.png) ![Close OSM Note Android](/assets/images/map/action_close_note_android.png)
+![Comment OSM Note Android](/assets/images/map/action_comment_note_android.png) ![Reopen OSM Note Android](/assets/images/map/action_reopen_note_android.png)
 
-OpenStreetMap Notes support [commenting](https://wiki.openstreetmap.org/wiki/Notes#Adding_notes) and [resolving](https://wiki.openstreetmap.org/wiki/Notes#Resolving_notes), you can do it via OSM Note context menu.
+You can [comment](https://wiki.openstreetmap.org/wiki/Notes#Adding_notes), [resolve](https://wiki.openstreetmap.org/wiki/Notes#Resolving_notes) and reopen
+OpenStreetMap Notes via objects context menu.
 
 Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
 
@@ -299,7 +300,7 @@ Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
 
 ![Action Audio-Video Android](/assets/images/map/action_av_note_android.png)
 
-Records or takes  a not at selected point on the map.
+Records or takes a media note at selected point on the map.
 
 - {% data variables.android-values.recording_context_menu_arecord %} - makes a [audio note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with audio icon).
 - {% data variables.android-values.recording_context_menu_vrecord%} - makes a [video note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with video icon).
@@ -309,7 +310,7 @@ Requires [Audio / Video note plugin](/osmand/plugins/audio-video-notes).
 
 ## Customize (Android advanced)
 
-It is possible to reorder or hide items from the '{% data variables.android-values.context_menu_actions %}'. You can create move the most useful actions to the top 3 actions and setup menu independently for each profile. It is also possible to reset to default settings after all.
+It is possible to reorder or hide items from the '{% data variables.android-values.context_menu_actions %}'. You can move the most useful actions to the top 3 actions and setup whole menu independently for each profile. It is also possible to reset to default settings after all.
 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.ui_customization %} → {% data variables.android-values.context_menu_actions %}
