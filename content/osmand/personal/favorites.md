@@ -67,6 +67,13 @@ Functions for Favorite folder:
 
 ![Favorites personal android](/assets/images/personal/favorites_personal_android.png)
 
+### Actions buttons
+
+Actions:
+- '&#43;'
+- '&#xf1e0;'
+- '&#128681;'
+- '&#xf014;'
 
 ## iOS Favorites menu
 
