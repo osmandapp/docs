@@ -71,7 +71,7 @@ Functions for Favorite folder:
 
 Actions:
 - '&#43;'
-- '&#xf1e0;'
+- '&#83;'
 - '&#128681;'
 - '&#xf014;'
 
