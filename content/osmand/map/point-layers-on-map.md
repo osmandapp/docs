@@ -117,7 +117,7 @@ Requires [Mapillary plugin](/osmand/plugins/mapillary)
 
 ## * Parking point
 
-[Parking points](/osmand/plugins/parking) is a points marked by user on the map for keeps information about the exact location of the car. Parking points could be marked as for unlimited parking and limited parking. 
+[Parking point](/osmand/plugins/parking) is a point marked by user on the map for keeps information about the exact location of the car. Parking points could be marked as for unlimited parking and limited parking. 
 
 ![Limited parking](/assets/images/map/context_menu_limited_parking.png) ![Unlimited parking](/assets/images/map/context_menu_unlimited_parking.png)
 
