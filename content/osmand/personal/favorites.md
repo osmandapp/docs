@@ -10,56 +10,6 @@ Favorites are special points marked by user and by default displayed as yellow s
 
 ![Favorites introduction android](/assets/images/personal/favorites_intro_android.png) ![Favorites introduction ios](/assets/images/personal/favorites_intro_ios.png)
 
-## Favorite Point
-
-### View on the map
-
-Favorites are one of the vector layers on the map. User can show or not Favorites and their names on the map:
-
-[Switch on/off favorites on the map](/osmand/map/point-layers-on-map#favorites)  - 'Configure map' menu
-
-[Switch on/off favorite names](/osmand/map/point-layers-on-map#favorite--poi-names)  - 'Configure map' menu
-
-### Favorite Context menu
-
-TODO text. 
-
-### Create
-
-For creating new Favorite an user needs [to tap on the map](/osmand/map/map-context-menu#select-any-point-long-tap) at the place where he wants to add Favorite. 
-
-When an user clicks at chosen place appeares ['Map Context menu'](/osmand/map/map-context-menu) with ['Action menu'](/osmand/map/map-context-menu#add--edit-favorite). 
-
-Click to **add** for opening 'Favorite creation menu'.
-
-
-### Edit
-
-TODO text. 
-
-### Search 
-
-TODO text. 
-
-## Favorite Groups 
-
-TODO text. 
-
-### Rename group
-TODO text. 
-
-### Change color
-TODO text. 
-
-### Bulk move (iOS)
-TODO text. 
-
-### Renanme (Android)
-
-TODO text. 
-
-### Bulk delete
-TODO text. 
 
 ## Favorites (My Places)
 
@@ -92,13 +42,7 @@ Click to 'Magnifier' buttons opens seaching menu for Favorites, where user can s
 ### Points Sorting
 
 
-### Bulk delete
 
-TODO text.
-
-### Map Markers
-
-TODO text.
 
 ### Folders list
 
@@ -145,6 +89,63 @@ Actions:
 - '&#x1F5D1;' - allows to delete chosen Favorites points (folders).
 
 
+## Favorite Point
+
+### View on the map
+
+Favorites are one of the vector layers on the map. User can show or not Favorites and their names on the map:
+
+[Switch on/off favorites on the map](/osmand/map/point-layers-on-map#favorites)  - 'Configure map' menu
+
+[Switch on/off favorite names](/osmand/map/point-layers-on-map#favorite--poi-names)  - 'Configure map' menu
+
+### Favorite Context menu
+
+TODO text. 
+
+### Create
+
+For creating new Favorite an user needs [to tap on the map](/osmand/map/map-context-menu#select-any-point-long-tap) at the place where he wants to add Favorite. 
+
+When an user clicks at chosen place appeares ['Map Context menu'](/osmand/map/map-context-menu) with ['Action menu'](/osmand/map/map-context-menu#add--edit-favorite). 
+
+Click to **add** for opening 'Favorite creation menu'.
+
+
+### Edit
+
+TODO text. 
+
+### Search 
+
+TODO text. 
+
+## Favorite Groups 
+
+TODO text. 
+
+### Change color
+
+TODO text. 
+
+### Bulk move (iOS)
+
+TODO text. 
+
+### Rename (Android)
+
+TODO text. 
+
+### Bulk delete
+
+TODO text. 
+
+### Add to Map Markers (Android)
+
+TODO text.
+
+
+
 ## Special Favorites (Personal) 
 
 TODO text.
@@ -154,6 +155,6 @@ TODO text.
 
 ![Favorites personal android](/assets/images/personal/favorites_personal_android.png)
 
-## Export/Import
+## Export / Import
 
 TODO text. 
