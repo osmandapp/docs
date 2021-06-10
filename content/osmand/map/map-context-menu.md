@@ -308,12 +308,6 @@ Records or takes a media note at selected point on the map.
 
 Requires [Audio / Video note plugin](/osmand/plugins/audio-video-notes).
 
-### * View / Delete AV Note (Android)
-
-{% data reusables.general.article-not-complete %}
-
-Requires [Audio / Video note plugin](/osmand/plugins/audio-video-notes).
-
 ## Customize (Android advanced)
 
 It is possible to reorder or hide items from the '{% data variables.android-values.context_menu_actions %}'. You can move the most useful actions to the top 3 actions and setup whole menu independently for each profile. It is also possible to reset to default settings after all.
