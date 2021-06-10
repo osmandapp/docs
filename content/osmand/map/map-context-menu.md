@@ -198,12 +198,9 @@ It is possible to add avoid roads at specific location, so selected roads will b
 
 ![Avoid delete action Android](/assets/images/map/context_menu_avoid_roads.png) ![Avoid roads list Android](/assets/images/map/action_avoid_delete_android.png) 
 
-
-
 **Note**: avoid roads are global and used for all navigation profiles (except online routing). 
 
 Read more about [navigation](/osmand/navigation/route-navigation).
-
 
 ### Change object position
 
@@ -231,7 +228,7 @@ To update or download online maps (tiles) at specific location, you can use obje
 
 ![Action Download vector map Android](/assets/images/map/action_download_vector_map_android.png) ![Action Download vector map iOS](/assets/images/map/action_download_vector_map_ios.png)
 
-![Select vector map worldwide on Android](/assets/images/settings/download_region_map_via_worldmap.png)
+![Select vector map worldwide on Android](/assets/images/map/download_region_map_via_worldmap.png)
 
 In case there is no offline map present at selected location, for example map object menu was opened via Search or via specific Favorite, then the smallest possible offline map will be suggested to [download](/osmand/start-with/download-maps#download---map-context-menu).  
 
