@@ -28,6 +28,13 @@ Favorites menu is a list of Favorites folders/points; Editing button; Import/Exp
 
 ![Favorites menu iOS](/assets/images/personal/favorites_menu_ios.png)
 
+### View
+
+TODO text.
+
+### Order / Sorting
+
+TODO text.
 
 ### Search (Android)
 
@@ -39,12 +46,7 @@ Click to 'Magnifier' buttons opens seaching menu for Favorites, where user can s
 
 ![Searching menu Favorite android](/assets/images/personal/searching_favorites_menu_2_android.png)
 
-### Points Sorting
-
-
-
-
-### Folders list
+### Actions
 
 The second part is list of folders of Favorites groups. Folder of Favorites is one Favorites group.
 
@@ -75,8 +77,6 @@ For switching between Folders <-> Points list, you need to use switcher button o
 
 ![Favorites folders list iOS](/assets/images/personal/favorites_folders_list_ios.png) ![Favorites points list iOS](/assets/images/personal/favorites_points_list_ios.png) 
 
-
-### Actions buttons (Android)
 
 At the bottom of the screen are four Actions buttons. 
 
