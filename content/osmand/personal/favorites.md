@@ -81,6 +81,17 @@ Actions:
 
 ## iOS Favorites menu
 
+Favorites menu is a list of Favorites folders/points; Editing button; Import/Export buttons.
+
+![Favorites menu iOS](/assets/images/personal/favorites_menu_ios.png)
+
+### Folders/Points list
+
+For switching between Folders <-> Points list, you need to use switcher button on top corner of the screen.
+
+![Favorites folders list iOS](/assets/images/personal/favorites_folders_list_ios.png) ![Favorites points list iOS](/assets/images/personal/favorites_points_list_ios.png) 
+
+
 
 ## View on the map
 
