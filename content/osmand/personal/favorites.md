@@ -69,14 +69,15 @@ Functions for Favorite folder:
 
 ### Actions buttons
 
+At the bottom of the screen are four Actions buttons. 
 
 ![Favorites actions android](/assets/images/personal/favorites_actions_android.png)
 
 Actions:
-- '&#43;'
-- '&#60;'
-- '&#128681;'
-- '&#x1F5D1;'
+- '&#43;' - allows to import Favorites points (favorite.gpx) from device storage
+- '&#60;' - allows to export (share) all Favorites points like "favorite.gpx" file.
+- '&#128681;' - allows to add or to remove chosen Favorites points (folders) in [Map markers](/osmand/personal/markers) list.
+- '&#x1F5D1;' - allows to delete chosen Favorites points (folders).
 
 ## iOS Favorites menu
 
