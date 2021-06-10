@@ -63,7 +63,7 @@ Favorites menu is a list of Favorites folders, functions buttons, searching.
 
 ![Favorites menu android](/assets/images/personal/favorites_menu_android.png)
 
-### Searching
+### Searching (Android)
 
 The first is search function, where user can search needed Favorites from all Favorites list. 
 
@@ -73,7 +73,7 @@ Click to 'Magnifier' buttons opens seaching menu for Favorites, where user can s
 
 ![Searching menu Favorite android](/assets/images/personal/searching_favorites_menu_2_android.png)
 
-### Folders list
+### Folders list (Android)
 
 The second part is list of folders of Favorites groups. Folder of Favorites is one Favorites group.
 
@@ -103,7 +103,7 @@ Functions for Favorite folder:
 
 ![Favorites personal android](/assets/images/personal/favorites_personal_android.png)
 
-### Actions buttons
+### Actions buttons (Android)
 
 At the bottom of the screen are four Actions buttons. 
 
@@ -115,13 +115,13 @@ Actions:
 - '&#128681;' - allows to add or to remove chosen Favorites points (folders) in [Map markers](/osmand/personal/markers) list.
 - '&#x1F5D1;' - allows to delete chosen Favorites points (folders).
 
-## iOS Favorites menu
+### iOS
 
 Favorites menu is a list of Favorites folders/points; Editing button; Import/Export buttons.
 
 ![Favorites menu iOS](/assets/images/personal/favorites_menu_ios.png)
 
-### Folders/Points list
+### Folders/Points list (iOS)
 
 For switching between Folders <-> Points list, you need to use switcher button on top corner of the screen.
 
