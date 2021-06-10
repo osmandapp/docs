@@ -56,14 +56,15 @@ In order to open Favorites menu:
 
 ![My places favorites android](/assets/images/personal/my_places_android.png) ![my_places_ios](/assets/images/personal/my_places_ios.png)
 
-
-### Android
-
 Favorites menu is a list of Favorites folders, functions buttons, searching.
-
 ![Favorites menu android](/assets/images/personal/favorites_menu_android.png)
 
-### Searching (Android)
+Favorites menu is a list of Favorites folders/points; Editing button; Import/Export buttons.
+
+![Favorites menu iOS](/assets/images/personal/favorites_menu_ios.png)
+
+
+### Search (Android)
 
 The first is search function, where user can search needed Favorites from all Favorites list. 
 
@@ -73,7 +74,7 @@ Click to 'Magnifier' buttons opens seaching menu for Favorites, where user can s
 
 ![Searching menu Favorite android](/assets/images/personal/searching_favorites_menu_2_android.png)
 
-### Folders list (Android)
+### Folders list
 
 The second part is list of folders of Favorites groups. Folder of Favorites is one Favorites group.
 
@@ -99,9 +100,11 @@ Functions for Favorite folder:
 - {% data variables.android-values.shared_string_share %} - sharing Favorite points with other users (like Favorites.gpx file).
 - Button '{% data variables.android-values.shared_string_cancel %}' - close this menu.
 
-**Note**: "Personal" folder is a special folder for '{% data variables.android-values.favorite_home_category %}' and '{% data variables.android-values.work_button %}' points of [Navigation Context menu](/osmand/navigation). This folder doesn't have '&#8942;' button, because you can not change the parameters for this folder. 
+**iOS**
+For switching between Folders <-> Points list, you need to use switcher button on top corner of the screen.
 
-![Favorites personal android](/assets/images/personal/favorites_personal_android.png)
+![Favorites folders list iOS](/assets/images/personal/favorites_folders_list_ios.png) ![Favorites points list iOS](/assets/images/personal/favorites_points_list_ios.png) 
+
 
 ### Actions buttons (Android)
 
@@ -115,18 +118,6 @@ Actions:
 - '&#128681;' - allows to add or to remove chosen Favorites points (folders) in [Map markers](/osmand/personal/markers) list.
 - '&#x1F5D1;' - allows to delete chosen Favorites points (folders).
 
-### iOS
-
-Favorites menu is a list of Favorites folders/points; Editing button; Import/Export buttons.
-
-![Favorites menu iOS](/assets/images/personal/favorites_menu_ios.png)
-
-### Folders/Points list (iOS)
-
-For switching between Folders <-> Points list, you need to use switcher button on top corner of the screen.
-
-![Favorites folders list iOS](/assets/images/personal/favorites_folders_list_ios.png) ![Favorites points list iOS](/assets/images/personal/favorites_points_list_ios.png) 
-
 
 
 ## Special Favorites (Personal) 
@@ -134,6 +125,9 @@ For switching between Folders <-> Points list, you need to use switcher button o
 TODO text.
 
 
+**Note**: "Personal" folder is a special folder for '{% data variables.android-values.favorite_home_category %}' and '{% data variables.android-values.work_button %}' points of [Navigation Context menu](/osmand/navigation). This folder doesn't have '&#8942;' button, because you can not change the parameters for this folder. 
+
+![Favorites personal android](/assets/images/personal/favorites_personal_android.png)
 
 ## Export/Import
 
