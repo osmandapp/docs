@@ -241,7 +241,7 @@ menu. You will need to select the region on the map first - click on any locatio
 
 ![Action Parking Android](/assets/images/map/action_parking_android.png) ![Action Parking iOS](/assets/images/map/action_parking_ios.png)
 
-![Action Delete Parking Android](/assets/images/map/context_menu_limited_parking.png) 
+![Action Delete Parking Android](/assets/images/map/context_menu_limited_parking.png) ![Action Delete Parking iOS](/assets/images/map/context_menu_limited_parking_ios.png) 
 
 Any selected location on the map could be marked as [a parking position](/osmand/plugins/parking). In order to delete parking position, you can open context menu associated with parking location.
 
