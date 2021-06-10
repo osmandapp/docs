@@ -273,7 +273,7 @@ Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
 
 ![Action Note Android](/assets/images/map/action_note_android.png) ![Action Note iOS](/assets/images/map/action_note_ios.png)
 
-![Action Add Note Android](/assets/images/map/action_add_osm_note_ui.png)
+![Action Add Note Android](/assets/images/map/action_add_osm_note_ui_android.png) ![Action Add Note iOS](/assets/images/map/action_add_osm_note_ui_ios.png)
 
 You can [report](/osmand/plugins/osm-editing#how-to-report-a-mistake) map data errors at specific location to [OpenStreetMap community](https://wiki.openstreetmap.org/wiki/Join_the_community). Please follow [guidelines](https://wiki.openstreetmap.org/wiki/Notes#Adding_notes) and add proper comments to an issue.
 
