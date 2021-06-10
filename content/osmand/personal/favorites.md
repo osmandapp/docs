@@ -10,8 +10,43 @@ Favorites are special points marked by user and by default displayed as yellow s
 
 ![Favorites introduction android](/assets/images/personal/favorites_intro_android.png) ![Favorites introduction ios](/assets/images/personal/favorites_intro_ios.png)
 
+## Favorite Point
 
-## Favorites menu
+### View on the map
+
+Favorites are one of the vector layers on the map. User can show or not Favorites and their names on the map:
+
+[Switch on/off favorites on the map](/osmand/map/point-layers-on-map#favorites)  - 'Configure map' menu
+
+[Switch on/off favorite names](/osmand/map/point-layers-on-map#favorite--poi-names)  - 'Configure map' menu
+
+### Favorite Context menu
+
+TODO text. 
+
+### Create
+
+For creating new Favorite an user needs [to tap on the map](/osmand/map/map-context-menu#select-any-point-long-tap) at the place where he wants to add Favorite. 
+
+When an user clicks at chosen place appeares ['Map Context menu'](/osmand/map/map-context-menu) with ['Action menu'](/osmand/map/map-context-menu#add--edit-favorite). 
+
+Click to **add** for opening 'Favorite creation menu'.
+
+
+### Edit
+
+TODO text. 
+
+### Search 
+
+TODO text. 
+
+
+## Favorite Groups 
+
+TODO text. 
+
+## Favorites (My Places)
 
 In order to open Favorites menu:
 
@@ -21,7 +56,8 @@ In order to open Favorites menu:
 
 ![My places favorites android](/assets/images/personal/my_places_android.png) ![my_places_ios](/assets/images/personal/my_places_ios.png)
 
-## Android Favorites menu
+
+### Android
 
 Favorites menu is a list of Favorites folders, functions buttons, searching.
 
@@ -93,34 +129,12 @@ For switching between Folders <-> Points list, you need to use switcher button o
 
 
 
-## View on the map
+## Special Favorites (Personal) 
 
-Favorites are one of the vector layers on the map. User can show or not Favorites and their names on the map:
-
-[Switch on/off favorites on the map](/osmand/map/point-layers-on-map#favorites)  - 'Configure map' menu
-
-[Switch on/off favorite names](/osmand/map/point-layers-on-map#favorite--poi-names)  - 'Configure map' menu
-
-## Create new Favorite
-
-For creating new Favorite an user needs [to tap on the map](/osmand/map/map-context-menu#select-any-point-long-tap) at the place where he wants to add Favorite. 
-
-When an user clicks at chosen place appeares ['Map Context menu'](/osmand/map/map-context-menu) with ['Action menu'](/osmand/map/map-context-menu#add--edit-favorite). 
-
-Click to **add** for opening 'Favorite creation menu'.
+TODO text.
 
 
-
-### Favorite creation menu
-
-
-
-## Edit new Favorite
 
 ## Export/Import
 
-## Favorite Context menu
-
-
-
-
+TODO text. 
