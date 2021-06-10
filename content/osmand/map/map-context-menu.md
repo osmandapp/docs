@@ -192,9 +192,9 @@ Read more about [search](/osmand/search) functionality.
 
 ### Avoid road
 
-![Avoid action Android](/assets/images/map/action_avoid_android.png) ![Avoid delete action Android](/assets/images/map/action_avoid_delete_android.png)
+![Avoid action Android](/assets/images/map/action_avoid_android.png) ![Avoid roads map](/assets/images/map/action_avoid_roads_map.png)
 
-![Avoid roads list Android](/assets/images/map/action_avoid_roads_list_android.png) 
+![Avoid delete action Android](/assets/images/map/action_avoid_delete_android.png) ![Avoid roads list Android](/assets/images/map/action_avoid_roads_list_android.png) 
 
 It is possible to add avoid roads at specific location, so selected roads will be avoided during the route planning. 
 
