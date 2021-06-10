@@ -12,7 +12,7 @@ When the app is launched for the first time, it suggests to download the map bas
 
 **Note** - World map. Old versions of OsmAnd (< 3.8) suggest to download World map, so you could browse the map on the planet level zoom. In new OsmAnd versions: small "Mini world overview map" is packaged inside. There is a bigger "World overview map" available to download which contains more details for the World-level map.
 
-![Download map](/assets/images/map/download_region_map_via_worldmap.png)
+![Download map](/assets/images/settings/download_map.png)
 
 ## Download - Main menu
 
@@ -44,7 +44,7 @@ One of the option to download map is via World map and [Map Context menu](/osman
 
 One way to download the map is to zoom out the World map and by short tap select the region to download. This area will be highlighted in yellow and on the bottom will appear a panel with the name of the region and an offer to download it or choose other maps.
 
-![Short tap on the World map allows to download region map](/assets/images/settings/download_region_map_via_worldmap.png)
+![Short tap on the World map allows to download region map](/assets/images/map/download_region_map_via_worldmap.png)
 
 **Note**: At low zoom level map selected to download will be highlighted in yellow and maps that already downloaded will be highlighted in green, deactivated maps will be highlighted in orange. 'Deactivated' maps allow to speed up program in case you have many downloaded maps.
 
