@@ -41,7 +41,6 @@ TODO text.
 
 TODO text. 
 
-
 ## Favorite Groups 
 
 TODO text. 
@@ -50,6 +49,16 @@ TODO text.
 TODO text. 
 
 ### Change color
+TODO text. 
+
+### Bulk move (iOS)
+TODO text. 
+
+### Renanme (Android)
+
+TODO text. 
+
+### Bulk delete
 TODO text. 
 
 ## Favorites (My Places)
@@ -79,6 +88,9 @@ The first is search function, where user can search needed Favorites from all Fa
 Click to 'Magnifier' buttons opens seaching menu for Favorites, where user can start to find needed points.
 
 ![Searching menu Favorite android](/assets/images/personal/searching_favorites_menu_2_android.png)
+
+### Points Sorting
+
 
 ### Bulk delete
 
@@ -131,7 +143,6 @@ Actions:
 - '&#60;' - allows to export (share) all Favorites points like "favorite.gpx" file.
 - '&#128681;' - allows to add or to remove chosen Favorites points (folders) in [Map markers](/osmand/personal/markers) list.
 - '&#x1F5D1;' - allows to delete chosen Favorites points (folders).
-
 
 
 ## Special Favorites (Personal) 
