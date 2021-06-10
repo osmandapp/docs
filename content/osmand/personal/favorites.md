@@ -38,9 +38,13 @@ Favorites list in 'My Places' menu is not only a list, but function buttons and 
 
 An order in the Favorites list for Favorites folders is by alfabet. [Personal folder](/osmand/personal/favorites#special-favorites-personal) is the first of the list.
 
+![Favorites folders android](/assets/images/personal/favorites_folders_android.png)
+
 An order for Favorites points is by distance from device location.
 
-An order for searching list (Android) is by distance from the map center on the device screen.
+![Favorites points order android](/assets/images/personal/favorites_points_order_android.png)
+
+An order for [searching list (Android)](/osmand/personal/favorites#search-android) is by distance from the map center on the device screen.
 
 ### Search (Android)
 
@@ -155,10 +159,7 @@ TODO text.
 
 ## Special Favorites (Personal) 
 
-TODO text.
-
-
-**Note**: "Personal" folder is a special folder for '{% data variables.android-values.favorite_home_category %}' and '{% data variables.android-values.work_button %}' points of [Navigation Context menu](/osmand/navigation). This folder doesn't have '&#8942;' button, because you can not change the parameters for this folder. 
+"Personal" folder is a special folder for '{% data variables.android-values.favorite_home_category %}' and '{% data variables.android-values.work_button %}' points of [Navigation Context menu](/osmand/navigation). This folder doesn't have '&#8942;' button, because you can not change the parameters for this folder. 
 
 ![Favorites personal android](/assets/images/personal/favorites_personal_android.png)
 
