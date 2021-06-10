@@ -119,7 +119,8 @@ For Image notes in the Details Menu an image is displayed; when you click on the
 
 It is a set of specific manipulations that can be performed on a point or object. This menu is split into two parts: visible section consists of maximum 3 actions and other actions are accessible by 'Actions' button. You can customize (Android) the order of actions in [General settings](#customize-android-advanced).
 
-![Actions menus](/assets/images/map/actions_menus_android.png) ![Video list](/assets/images/map/actions_menus_ios.png)
+![Actions menu Android](/assets/images/map/actions_menu_android.png) ![Actions menu iOS](/assets/images/map/actions_menu_ios.png)
+![Actions additional menu Android](/assets/images/map/actions_additional_menu_android.png) ![Actions additional menu iOS](/assets/images/map/actions_additional_menu_ios.png)
 
 
 ### Add / Edit Favorite
