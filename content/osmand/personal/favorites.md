@@ -13,7 +13,7 @@ Favorites are special points marked by user and by default displayed as yellow s
 
 ## Favorites (My Places)
 
-In order to open Favorites menu:
+In order to open Favorites list:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places%} → {% data variables.android-values.favourites %}
 
@@ -21,19 +21,26 @@ In order to open Favorites menu:
 
 ![My places favorites android](/assets/images/personal/my_places_android.png) ![my_places_ios](/assets/images/personal/my_places_ios.png)
 
-![Favorites menu android](/assets/images/personal/favorites_menu_android.png) ![Favorites menu iOS](/assets/images/personal/favorites_menu_ios.png)
-
-Android: Favorites menu is a list of Favorites folders, functions buttons, searching.
-
-iOS: Favorites menu is a list of Favorites folders/points; Editing button; Import/Export buttons.
 
 ### View
 
-TODO text.
+Favorites list in 'My Places' menu is not only a list, but function buttons and switchers. With these we can make any manipulation with Favorites folders and points.
+
+**Android**: Favorites list is a list of Favorites folders, functions buttons, searching.
+
+![Favorites menu android](/assets/images/personal/favorites_menu_android.png)
+
+**iOS**: Favorites list is a list of Favorites folders/points; Editing button; Import/Export buttons.
+
+![Favorites menu iOS](/assets/images/personal/favorites_menu_ios.png)
 
 ### Order / Sorting
 
-TODO text.
+An order in the Favorites list for Favorites folders is by alfabet. [Personal folder](/osmand/personal/favorites#special-favorites-personal) is the first of the list.
+
+An order for Favorites points is by distance from device location.
+
+An order for searching list (Android) is by distance from the map center on the device screen.
 
 ### Search (Android)
 
@@ -44,7 +51,6 @@ Searching function opens a points list of Favorites sorted by distance from map 
 Click to 'Magnifier' buttons opens seaching menu for Favorites, where user can start to find needed points from Favorites. Clicking to a chosen point opens [Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) of this point.
 
 ![Searching menu Favorite android](/assets/images/personal/searching_favorites_menu_2_android.png)
-
 
 
 ### Actions
