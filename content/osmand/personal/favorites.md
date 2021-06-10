@@ -46,6 +46,12 @@ TODO text.
 
 TODO text. 
 
+### Rename group
+TODO text. 
+
+### Change color
+TODO text. 
+
 ## Favorites (My Places)
 
 In order to open Favorites menu:
@@ -73,6 +79,14 @@ The first is search function, where user can search needed Favorites from all Fa
 Click to 'Magnifier' buttons opens seaching menu for Favorites, where user can start to find needed points.
 
 ![Searching menu Favorite android](/assets/images/personal/searching_favorites_menu_2_android.png)
+
+### Bulk delete
+
+TODO text.
+
+### Map Markers
+
+TODO text.
 
 ### Folders list
 
