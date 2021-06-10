@@ -209,7 +209,7 @@ Read more about [navigation](/osmand/navigation/route-navigation).
 
 ![Action Change position Android](/assets/images/map/action_change_position_android.png) ![Action Change position iOS](/assets/images/map/action_change_position_ios.png)
 
-![Action Change position UI Android](/assets/images/map/action_change_position_ui_android.png)
+![Action Change position UI Android](/assets/images/map/action_change_position_ui_android.png) ![Action Change position UI iOS](/assets/images/map/action_change_position_ui_iOS.png) 
 
 Almost every created object by user is moveable i.e. Marker, Favorite, Created POI, Audio/Video Note or Track Waypoint. First select an object on the map and then use '{% data variables.android-values.change_markers_position %}' menu to move it to a new location.
 
