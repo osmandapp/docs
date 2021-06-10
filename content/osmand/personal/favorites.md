@@ -69,6 +69,9 @@ Functions for Favorite folder:
 
 ### Actions buttons
 
+
+![Favorites actions android](/assets/images/personal/favorites_actions_android.png)
+
 Actions:
 - '&#43;'
 - '&#60;'
