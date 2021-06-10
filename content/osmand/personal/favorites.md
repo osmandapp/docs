@@ -21,12 +21,11 @@ In order to open Favorites menu:
 
 ![My places favorites android](/assets/images/personal/my_places_android.png) ![my_places_ios](/assets/images/personal/my_places_ios.png)
 
-Favorites menu is a list of Favorites folders, functions buttons, searching.
-![Favorites menu android](/assets/images/personal/favorites_menu_android.png)
+![Favorites menu android](/assets/images/personal/favorites_menu_android.png) ![Favorites menu iOS](/assets/images/personal/favorites_menu_ios.png)
 
-Favorites menu is a list of Favorites folders/points; Editing button; Import/Export buttons.
+Android: Favorites menu is a list of Favorites folders, functions buttons, searching.
 
-![Favorites menu iOS](/assets/images/personal/favorites_menu_ios.png)
+iOS: Favorites menu is a list of Favorites folders/points; Editing button; Import/Export buttons.
 
 ### View
 
@@ -38,13 +37,15 @@ TODO text.
 
 ### Search (Android)
 
-The first is search function, where user can search needed Favorites from all Favorites list. 
+Searching function opens a points list of Favorites sorted by distance from map center on the device screen.
 
 ![Searching menu Favorite android](/assets/images/personal/searching_favorites_menu_android.png)
 
-Click to 'Magnifier' buttons opens seaching menu for Favorites, where user can start to find needed points.
+Click to 'Magnifier' buttons opens seaching menu for Favorites, where user can start to find needed points from Favorites. Clicking to a chosen point opens [Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) of this point.
 
 ![Searching menu Favorite android](/assets/images/personal/searching_favorites_menu_2_android.png)
+
+
 
 ### Actions
 
