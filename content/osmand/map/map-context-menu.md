@@ -251,7 +251,7 @@ Requires [Parking position plugin](/osmand/plugins/parking).
 
 ![Action Waypoint Android](/assets/images/map/action_waypoint_android.png) ![Action Waypoint iOS](/assets/images/map/action_waypoint_ios.png)
 
-![Select Track to add Waypoint Android](/assets/images/map/action_select_track_to_add_waypoint_android.png)
+![Select Track to add Waypoint Android](/assets/images/map/action_select_track_to_add_waypoint_android.png) ![Select Track to add Waypoint iOS](/assets/images/map/action_select_track_to_add_waypoint_ios.png) 
 
 It is possible to [add waypoints](/osmand/personal/tracks#add-waypoint) to any track at selected location via Map Context menu - {% data variables.android-values.context_menu_item_add_waypoint %} . By default waypoint is added to [currently recording track](/osmand/plugins/trip-recording#from-widget). Though if there are many [visible tracks](/osmand/map/tracks-on-map#tracks-on-the-map-layers) on the map, it will be suggested to select the track waypoint will be added to.
 
