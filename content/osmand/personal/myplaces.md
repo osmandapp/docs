@@ -11,7 +11,7 @@ versions: '*'
 ![My Places android](/assets/images/personal/my_places_android.png) ![My Places ios](/assets/images/personal/my_places_ios.png)
 
 Links to all sections in 'My Places' menu:
-- [Favorites](/osmand/personal/favorites)
-- [Tracks](/osmand/personal/tracks)
-- [OSM Edits](/osmand/personal/osmedits)
-- [A/V Notes (Android)](/osmand/personal/avnotes)
+- [Favorites](/osmand/personal/favorites) - 
+- [Tracks](/osmand/personal/tracks) -
+- [* OSM Edits](/osmand/plugins/osm-editing) - 
+- [* Audio / Video Notes (Android)](/osmand/plugins/audio-video-notes) - 
