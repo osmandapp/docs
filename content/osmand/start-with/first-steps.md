@@ -39,12 +39,13 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 ![Download map](/assets/images/settings/download_map.png)
 
-- Skip allow you to [download map](/osmand/start-with/download-maps#download---main-menu) later.
-- Download access you to continue work in OsmAnd.
+Actions on this step: 
+- Skip - allow you to [download map](/osmand/start-with/download-maps) later.
+- Download - access you to continue work with OsmAnd.
 - Select another region - opens [Download map menu](/osmand/start-with/download-maps#download---main-menu).
-- Change (only Android)  - allows you to select [Data storage folder](/osmand/personal/storage).
+- Change (only Android)  - allows you to select [Data storage folder](/osmand/personal/storage#data-storage-folder).
 
-[Read more](/osmand/start-with/download-maps) 
+Related article [Download maps](/osmand/start-with/download-maps) 
 
 ### How to add personal data to maps
 
