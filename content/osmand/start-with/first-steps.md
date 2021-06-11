@@ -37,7 +37,7 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 **Note**: Application is not properly functional without offline maps which are not distributed within application. Even though application supports [Vector maps](/osmand/map/vector-maps) and  [Raster maps](/osmand/map/raster-maps), it is highly recommend to start with Offline Vector Maps to get all features properly functioning such as [Search](/osmand/search), [Navigation](//osmand/navigation),  [Context menu](/osmand/map/map-context-menu). 
 
-![Download map](/assets/images/settings/download_map.png)
+![Download map Android](/assets/images/settings/download_map_android.png)
 
 Actions on this step: 
 - Skip - allow you to [download map](/osmand/start-with/download-maps) later.
@@ -46,6 +46,10 @@ Actions on this step:
 - Change (only Android)  - allows you to select [Data storage folder](/osmand/personal/storage#data-storage-folder).
 
 Related article [Download maps](/osmand/start-with/download-maps) 
+
+### How to manage your settings
+
+[Screenshots]().
 
 ### How to add personal data to maps
 
@@ -74,10 +78,6 @@ OsmAnd supports many ways to customize map with your personal data such as [Trac
 [Screenshots]().
 
 ### How to plan a route
-
-[Screenshots]().
-
-### How to manage your settings
 
 [Screenshots]().
 
