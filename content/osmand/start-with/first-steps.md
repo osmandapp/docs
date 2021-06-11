@@ -35,9 +35,14 @@ Our goal is to create fully functional Map-oriented application that could be us
 
 OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to download map of your region. You can select another region or skip this step and download map later. 
 
-**Note** Application is not properly functional without offline maps which are not distributed within application. Even though application supports [Vector maps](/osmand/map/vector-maps) and  [Raster maps](/osmand/map/raster-maps), it is highly recommend to start with Offline Vector Maps to get all features properly functioning such as [Search](/osmand/search), [Navigation](//osmand/navigation),  [Context menu](/osmand/map/map-context-menu). 
+**Note**: Application is not properly functional without offline maps which are not distributed within application. Even though application supports [Vector maps](/osmand/map/vector-maps) and  [Raster maps](/osmand/map/raster-maps), it is highly recommend to start with Offline Vector Maps to get all features properly functioning such as [Search](/osmand/search), [Navigation](//osmand/navigation),  [Context menu](/osmand/map/map-context-menu). 
 
 ![Download map](/assets/images/settings/download_map.png)
+
+- Skip allow you to [download map](/osmand/start-with/download-maps#download---main-menu) later.
+- Download access you to continue work in OsmAnd.
+- Select another region - opens [Download map menu](/osmand/start-with/download-maps#download---main-menu).
+- Change (only Android)  - allows you to select [Data storage folder](/osmand/personal/storage).
 
 [Read more](/osmand/start-with/download-maps) 
 
