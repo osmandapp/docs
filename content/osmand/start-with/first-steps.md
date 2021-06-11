@@ -13,7 +13,7 @@ OsmAnd is a mobile application for Maps and Navigation available for **Android**
 
 **iOS**: [App store](https://apps.apple.com/us/app/osmand-maps-travel-navigate/id934850257).
 
-**[Read more](/osmand/purchases)** about OsmAnd versions and Purchases.  
+[Read more](/osmand/purchases) about OsmAnd versions and Purchases.  
 
 ## Welcome to OsmAnd!
 
@@ -71,6 +71,14 @@ When you continue working with OsmAnd you would need to understand how to [inter
 ### How to configure plugins
 
 The next step is to select and set up the needed [plugins](/osmand/plugins). 
+
+![Plugins main menu Android](/assets/images/plugins/plugins_main_menu_android.png)
+
+Enable / disable plugins:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} → press on 3 dots on the right side  → Enable
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → press tick on the right side.
 
 ### How to Configure screen
 
