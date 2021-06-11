@@ -17,7 +17,7 @@ OsmAnd is a mobile application for Maps and Navigation available for **Android**
 
 ## Welcome to OsmAnd!
 
-Our goal is to create fully functional Map-oriented application that could be used in various purposes. The application is full of features, so you don't need to switch between different apps and have everything at your fingertips:
+Our goal is to create fully functional Map-oriented application that could be used offline in various purposes. The application is full of features, so you don't need to switch between different apps and have everything at your fingertips:
 - Browse Worldwide Map with lots of details displayed with [many map styles](/osmand/map/vector-maps).
 - Display, search and save various [Points of interests](/osmand/map/point-layers-on-map).
 - [Plan a route](/osmand/plan-route/create-route) by car, bicycle, foot and combine it.
@@ -33,9 +33,13 @@ Our goal is to create fully functional Map-oriented application that could be us
 
 ### How to download maps
 
-OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to download map of your region. If you want to download maps later, you can [do it](/osmand/start-with/download-maps) in many different ways.
+OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to download map of your region. You can select another region or skip this step and download map later. 
+
+**Note** Application is not properly functional without offline maps which are not distributed within application. Even though application supports [Vector maps](/osmand/map/vector-maps) and  [Raster maps](/osmand/map/raster-maps), it is highly recommend to start with Offline Vector Maps to get all features properly functioning such as [Search](/osmand/search), [Navigation](//osmand/navigation),  [Context menu](/osmand/map/map-context-menu). 
 
 ![Download map](/assets/images/settings/download_map.png)
+
+[Read more](/osmand/start-with/download-maps) 
 
 ### How to add personal data to maps
 
