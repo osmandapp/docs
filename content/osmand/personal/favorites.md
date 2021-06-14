@@ -71,9 +71,9 @@ User can expand and collapse list of Favorite points for one group by clicking t
 
 Click to any point from Favorite list opens [Map Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) for chosen point.
 
-![Favorites context menu android](/assets/images/personal/favorites_context_menu_android.png)
+![Favorites context menu android](/assets/images/personal/favorites_context_menu_android.png) ![Favorites context menu ios](/assets/images/personal/favorites_context_menu_ios.png)
 
-Click to '&#8942;' button opens special functions for a chosen Favorite folder.
+Click to '&#8942;' button (**Android**) opens special functions for a chosen Favorite folder.
 
 ![Favorites folder functions android](/assets/images/personal/favorites_folder_functions_android.png)
 
@@ -95,6 +95,11 @@ Actions:
 - '&#60;' - allows to export (share) all Favorites points like "favorite.gpx" file.
 - '&#128681;' - allows to add or to remove chosen Favorites points (folders) in [Map markers](/osmand/personal/markers) list.
 - '&#x1F5D1;' - allows to delete chosen Favorites points (folders).
+
+Click to 'Pencil' button (**iOS**) opens special functions for a chosen Favorite folder.
+
+![Favorites actions ios](/assets/images/personal/favorites_actions_ios.png)
+
 
 
 ## Favorite Point
