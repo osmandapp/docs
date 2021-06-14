@@ -38,11 +38,15 @@ Favorites list in 'My Places' menu is not only a list, but function buttons and 
 
 An order in the Favorites list for Favorites folders is by alfabet. [Personal folder](/osmand/personal/favorites#special-favorites-personal) is the first of the list.
 
-![Favorites folders android](/assets/images/personal/favorites_folders_android.png)
+![Favorites folders android](/assets/images/personal/favorites_folders_android.png) ![Favorites folders ios](/assets/images/personal/favorites_folders_ios.png)
 
-An order for Favorites points is by distance from device location.
+An order for Favorites points is by distance from device location (Android) and by alfabet (iOS).
 
-![Favorites points order android](/assets/images/personal/favorites_points_order_android.png)
+![Favorites points order android](/assets/images/personal/favorites_points_order_android.png) ![Favorites points order ios](/assets/images/personal/favorites_points_order_ios.png)
+
+For iOS version, switching between Folders <-> Points list, you need to use switcher button on top corner of the screen. For Points list, an order for Favorites points is by distance from device location.
+
+![Favorites folders list iOS](/assets/images/personal/favorites_folders_list_ios.png) ![Favorites points list iOS](/assets/images/personal/favorites_points_list_ios.png) 
 
 An order for [searching list (Android)](/osmand/personal/favorites#search-android) is by distance from the map center on the device screen.
 
@@ -82,11 +86,6 @@ Functions for Favorite folder:
 - {% data variables.android-values.shared_string_add_to_map_markers %} or {% data variables.android-values.remove_from_map_markers %}  - add or remove all Favorite points from a folder in [Map markers list](/osmand/personal/markers).
 - {% data variables.android-values.shared_string_share %} - sharing Favorite points with other users (like Favorites.gpx file).
 - Button '{% data variables.android-values.shared_string_cancel %}' - close this menu.
-
-**iOS**
-For switching between Folders <-> Points list, you need to use switcher button on top corner of the screen.
-
-![Favorites folders list iOS](/assets/images/personal/favorites_folders_list_ios.png) ![Favorites points list iOS](/assets/images/personal/favorites_points_list_ios.png) 
 
 
 At the bottom of the screen are four Actions buttons. 
