@@ -149,7 +149,7 @@ Select Favorite group (folder) for your favorite point or add new group (folder)
 
 ![Favorite group Android](/assets/images/personal/favorite_group_android.png) ![Favorite group iOS](/assets/images/personal/favorite_group_ios.png)
 
-For adding new favorite group(folder), you neet to add name, to select color. This color will be used for all new favorites added to the group by default.
+For adding new favorite group(folder), you need to add name, to select color. This color will be used for all new favorites added to the group by default.
 
 ![Favorite new group Android](/assets/images/personal/favorite_new_group_android.png) ![Favorite new group iOS](/assets/images/personal/favorite_new_group_ios.png)
 
@@ -173,7 +173,12 @@ For editing a Favorite point an user need [to short tap](/osmand/map/map-context
 
 After that, you need to click ['Edit favorite' button on 'Map Context menu'](/osmand/map/map-context-menu#add--edit-favorite). 
 
-'Edit favorite' menu opens. It's look like ['Add favorite' menu](/osmand/personal/favorites#create).
+'Edit favorite' menu opens. It's look like ['Add favorite' menu](/osmand/personal/favorites#create). But in Action part there is one more action - 'Delete' button. For Android, there is additional 'Delete' button in up corner of 'Edit favorite' menu. 
+
+![Favorite edit Android](/assets/images/personal/favorite_edit_android.png) ![Favorite edit iOS](/assets/images/personal/favorite_edit_ios.png)
+
+You can change name, description, address for chosen favorite, change or create new group for it, select another icon, color and shap, replace another point with this.
+
 
 ### Search 
 
