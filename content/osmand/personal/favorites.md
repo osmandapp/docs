@@ -106,13 +106,13 @@ Actions:
 - 'Palette of colors' - allows to change colors for Favorites points (folders).
 - 'BIN' - allows to delete chosen Favorites points (folders).
 
-Export/Import favorite for iOS version like special menu in "My Favorites" menu 
+Export/Import favorite for iOS version like special menu in "My Favorites" menu.
 
 ![Favorites export import ios](/assets/images/personal/favorites_export_import_ios.png)
 
-'{% data variables.ios-values.av_import_title %}' - {% data variables.ios-values.fav_import_desc %}. 
+'{% data variables.ios-values.fav_import_title %}' - {% data variables.ios-values.fav_import_desc %}. 
 
-'{% data variables.ios-values.fav_export_title %}' - you can export all your favorites like Favorites.gpx file.
+'{% data variables.ios-values.fav_export_title %}' - You can export all your favorites like Favorites.gpx file.
 
 
 ## Favorite Point
