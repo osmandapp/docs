@@ -137,8 +137,35 @@ For creating new Favorite an user needs [to tap on the map](/osmand/map/map-cont
 
 When an user clicks at chosen place appeares ['Map Context menu'](/osmand/map/map-context-menu) with ['Action menu'](/osmand/map/map-context-menu#add--edit-favorite). 
 
-Click to **Add** for opening 'Favorite creation menu'.
+Click to [**Add**](/osmand/map/map-context-menu#add--edit-favorite) for opening 'Add favorite' menu.
 
+![Favorite add menu Android](/assets/images/personal/favorite_add_android.png) ![Favorite add menu iOS](/assets/images/personal/favorite_add_ios.png)
+
+Here you can add: name, description, address for favorite. 
+
+![Favorite add description Android](/assets/images/personal/favorite_add_descr_android.png) ![Favorite add description iOS](/assets/images/personal/favorite_add_descr_ios.png)
+
+Select Favorite group (folder) for your favorite point or add new group (folder).
+
+![Favorite group Android](/assets/images/personal/favorite_group_android.png) ![Favorite group iOS](/assets/images/personal/favorite_group_ios.png)
+
+For adding new favorite group(folder), you neet to add name, to select color. This color will be used for all new favorites added to the group by default.
+
+![Favorite new group Android](/assets/images/personal/favorite_new_group_android.png) ![Favorite new group iOS](/assets/images/personal/favorite_new_group_ios.png)
+
+Next, you can select icon for your favorite from our list.
+
+![Favorite icon Android](/assets/images/personal/favorite_icon_android.png) ![Favorite icon iOS](/assets/images/personal/favorite_icon_ios.png)
+
+After, you can choose color and shape for favorite icon.
+
+![Favorite color and shape Android](/assets/images/personal/favorite_color_shape_android.png) ![Favorite color and shape iOS](/assets/images/personal/favorite_color_shape_ios.png)
+
+In 'Actions', you can replace another point with this. For Android, this 'Replace' button repeats in up corner of 'Add favorite' menu.
+
+After creation, you can click 'Save' button for saving new Favorite point or 'Cancel' button for canceling point creation.
+
+![Favorite actions Android](/assets/images/personal/favorite_actions_android.png) ![Favorite actions iOS](/assets/images/personal/favorite_actions_ios.png)
 
 ### Edit
 
