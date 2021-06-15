@@ -92,14 +92,6 @@ Enable / disable plugins:
 
 ![Configure map](/assets/images/map/configure_map_menu_android.png)
 
-### How to start navigation
-
-[Screenshots]().
-
-### How to search by address
-
-[Screenshots]().
-
 ### How to add personal data to maps
 
 OsmAnd supports many ways to customize map with your personal data such as [Tracks](/osmand/personal/tracks), [Markers](/osmand/personal/markers), [Favorites](/osmand/personal/favorites). 
@@ -110,11 +102,21 @@ OsmAnd supports many ways to customize map with your personal data such as [Trac
 
 [Screenshots]().
 
-### How to record you trip
+### How to plan a route
 
 [Screenshots]().
 
-### How to plan a route
+### How to search by address
+
+[Screenshots]().
+
+### How to start navigation
+
+The [navigation](/osmand/navigation) functionality guides you to your destinations, by displaying routes, offering turn-by-turn instructions, and optional voice guidance.
+
+[Screenshots]().
+
+### How to record you trip
 
 [Screenshots]().
 
