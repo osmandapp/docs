@@ -70,7 +70,7 @@ When you continue working with OsmAnd you would need to know how to [interact wi
 
 ### How to configure plugins
 
-In the next step you need to select [plugins](/osmand/plugins). Plugins  is an additional settings that provides you with advanced functions of the application.
+[Plugins](/osmand/plugins) is an additional settings that provides you with advanced functions of the application.
 
 ![Plugins main menu Android](/assets/images/plugins/plugins_main_menu_android.png)
 
@@ -78,18 +78,19 @@ Enable / disable plugins:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} →  &#65049; → Enable
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → 	
-&#128504;.
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → &#10003; .
 
 ### How to Configure screen
 
-In the next step you need to [Configure screen](/osmand/widgets/configure-screen). Select what information in the map widgets you would like to display.
+[Configure screen](/osmand/widgets/configure-screen) is a menu that allows to configure what widgets will be displayed over the map. It allows you to enable and configure Quick action, Informational & Navigational widgets and other elements.
 
 ![Configure screen Android](/assets/images/widgets/configure_screen_android.png)
 
 ### How to configure map
 
-[Screenshots]().
+[Configure map](/osmand/map/configure-map-menu) menu is a central place where you could configure map display for your needs, i.e. highlight Favorite points, Navigation markers or special Points of Interests on the map; display specific routes or 3rd party GPX files; overlay the map with relief information, satellite imagery or any other available raster map; display public transport information and change the map style.
+
+![Configure map](/assets/images/map/configure_map_menu_android.png)
 
 ### How to start navigation
 
