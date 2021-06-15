@@ -91,15 +91,28 @@ At the bottom of the screen are four Actions buttons.
 ![Favorites actions android](/assets/images/personal/favorites_actions_android.png)
 
 Actions:
-- '&#43;' - allows to import Favorites points (favorite.gpx) from device storage
+- '&#43;' - allows to import Favorites points (favorite.gpx) from device storage.
 - '&#60;' - allows to export (share) all Favorites points like "favorite.gpx" file.
 - '&#128681;' - allows to add or to remove chosen Favorites points (folders) in [Map markers](/osmand/personal/markers) list.
 - '&#x1F5D1;' - allows to delete chosen Favorites points (folders).
 
-Click to 'Pencil' button (**iOS**) opens special functions for a chosen Favorite folder.
+Click to 'Pencil' button (**iOS**) opens special functions for a chosen Favorite folder. You need to choose folder or points for actions.
 
 ![Favorites actions ios](/assets/images/personal/favorites_actions_ios.png)
 
+Actions:
+- 'Import loader' - allows to share/import Favorites points (folders) like "favorite.gpx" file.
+- 'Folder' - allows to move your Favorites points (folders) to others Favorites folders (named Groups) or to new creating folders (Group). 
+- 'Palette of colors' - allows to change colors for Favorites points (folders).
+- 'BIN' - allows to delete chosen Favorites points (folders).
+
+Export/Import favorite for iOS version like special menu in "My Favorites" menu 
+
+![Favorites export import ios](/assets/images/personal/favorites_export_import_ios.png)
+
+'{% data variables.ios-values.av_import_title %}' - {% data variables.ios-values.fav_import_desc %}. 
+
+'{% data variables.ios-values.fav_export_title %}' - you can export all your favorites like Favorites.gpx file.
 
 
 ## Favorite Point
