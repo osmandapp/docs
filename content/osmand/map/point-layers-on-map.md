@@ -8,8 +8,8 @@ versions: '*'
 
 [Favorites](/osmand/personal/favorites) are special points marked by user and by default displayed as yellow star. Though it could be customized with any color, shape and icon. They become visible on the map from the zoom level 6.
 
-![Favotires layer](/assets/images/map/favorites_layer.png)
-
+![Favotires layer Android](/assets/images/map/favorites_layer.png) ![Favotires layer iOS](/assets/images/map/favorites_layer_ios.png)
+ 
 Enable / disable favorites on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.favorites_item %}
