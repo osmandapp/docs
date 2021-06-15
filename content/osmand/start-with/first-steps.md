@@ -56,7 +56,7 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 Actions on this step: 
 - Skip - allows you to [download map](/osmand/start-with/download-maps) later.
-- Download - access you to continue work with OsmAnd.
+- Download - offers you do display region on the Map and you enter to the main screen in OsmAnd.
 - Select another region - opens [Download map menu](/osmand/start-with/download-maps#download---main-menu).
 - Change (only Android)  - allows you to select [Data storage folder](/osmand/personal/storage#data-storage-folder).
 
@@ -64,25 +64,28 @@ Related article [Download maps](/osmand/start-with/download-maps)
 
 ### How to manage your settings
 
-When you continue working with OsmAnd you would need to understand how to [interact with the map](/osmand/map/interact-with-map) and how to manage your settings. In the [Main menu](/osmand/start-with/main-menu) when you press Settings button you enter the [Global settings](/osmand/personal/global-settings) menu and [Profile configuration](/osmand/personal/profiles) menu.
+When you continue working with OsmAnd you would need to know how to [interact with the map](/osmand/map/interact-with-map) and how to manage your settings. In the [Main menu](/osmand/start-with/main-menu) when you press Settings button you enter the [Global settings](/osmand/personal/global-settings) menu and [Profile configuration](/osmand/personal/profiles) menu.
 
 ![Settings Android](/assets/images/settings/settings_android.png)
 
 ### How to configure plugins
 
-The next step is to select and set up the needed [plugins](/osmand/plugins). 
+In the next step you need to select [plugins](/osmand/plugins). Plugins  is an additional settings that provides you with advanced functions of the application.
 
 ![Plugins main menu Android](/assets/images/plugins/plugins_main_menu_android.png)
 
 Enable / disable plugins:
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} → press on 3 dots on the right side  → Enable
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} →  &#65049; → Enable
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → press tick on the right side.
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → 	
+&#128504;.
 
 ### How to Configure screen
 
-[Sreenshots]().
+In the next step you need to [Configure screen](/osmand/widgets/configure-screen). Select what information in the map widgets you would like to display.
+
+![Configure screen Android](/assets/images/widgets/configure_screen_android.png)
 
 ### How to configure map
 
