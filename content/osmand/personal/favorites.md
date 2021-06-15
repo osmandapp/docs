@@ -117,6 +117,8 @@ Export/Import favorite for iOS version like special menu in "My Favorites" menu.
 
 ## Favorite Point
 
+
+
 ### View on the map
 
 Favorites are one of the vector layers on the map. User can show or not Favorites and their names on the map:
@@ -182,19 +184,40 @@ You can change name, description, address for chosen favorite, change or create 
 
 ### Search 
 
-TODO text. 
+Using [Search function](/osmand/search) of OsmAnd.
+
+Using Search in 'My Favorites' menu (only for Android).
 
 ## Favorite Groups 
 
-TODO text. 
 
 ### Change color
 
-TODO text. 
+**Android:**
+
+Click to '&#8942;' button (**Android**) opens special functions for a chosen Favorite folder.
+
+![Favorites folder functions android](/assets/images/personal/favorites_folder_functions_android.png)
+
+Functions for Favorite folder:
+- {% data variables.android-values.edit_name %} - changing folder name.
+- {% data variables.android-values.change_color %} - changing folder color.
+- {% data variables.android-values.shared_string_show_on_map %} - showing or not Favorite points from the folder on the map.
+- {% data variables.android-values.shared_string_add_to_map_markers %} or {% data variables.android-values.remove_from_map_markers %}  - add or remove all Favorite points from a folder in [Map markers list](/osmand/personal/markers).
+- {% data variables.android-values.shared_string_share %} - sharing Favorite points with other users (like Favorites.gpx file).
+- Button '{% data variables.android-values.shared_string_cancel %}' - close this menu.
+
+**iOS:**
+
+Click to 'Pencil' button (**iOS**) opens special functions for a chosen Favorite folder. You need to choose folder or points for action: to change colors for Favorites points (folders).
+
+![Favorites actions ios](/assets/images/personal/favorites_actions_ios.png)
 
 ### Bulk move (iOS)
 
-TODO text. 
+Click to 'Pencil' button (**iOS**) opens special functions for a chosen Favorite folder. You need to choose folder or points for action: to move your Favorites points (folders) to others Favorites folders (named Groups) or to new creating folder (Group).
+
+![Favorites actions ios](/assets/images/personal/favorites_actions_ios.png)
 
 ### Rename (Android)
 
@@ -207,8 +230,6 @@ TODO text.
 ### Add to Map Markers (Android)
 
 TODO text.
-
-
 
 ## Special Favorites (Personal) 
 
