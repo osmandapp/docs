@@ -125,9 +125,11 @@ Favorites are one of the vector layers on the map. User can show or not Favorite
 
 [Switch on/off favorite names](/osmand/map/point-layers-on-map#favorite--poi-names)  - 'Configure map' menu
 
+![Favotires layer Android](/assets/images/map/favorites_layer.png) ![Favotires layer iOS](/assets/images/map/favorites_layer_ios.png)
+
 ### Favorite Context menu
 
-TODO text. 
+Click to favorite point on "My Favorites" menu or on favorite point on the map opens [Map Context menu](/osmand/map/map-context-menu#favorites--track-points-from-the-group). Where user can find needed information about point or [add/edit favorite point](/osmand/map/map-context-menu#add--edit-favorite).
 
 ### Create
 
@@ -135,12 +137,16 @@ For creating new Favorite an user needs [to tap on the map](/osmand/map/map-cont
 
 When an user clicks at chosen place appeares ['Map Context menu'](/osmand/map/map-context-menu) with ['Action menu'](/osmand/map/map-context-menu#add--edit-favorite). 
 
-Click to **add** for opening 'Favorite creation menu'.
+Click to **Add** for opening 'Favorite creation menu'.
 
 
 ### Edit
 
-TODO text. 
+For editing a Favorite point an user need [to short tap](/osmand/map/map-context-menu#select-an-object-short-tap) on chosen a Favorite point.
+
+After that, you need to click ['Edit favorite' button on 'Map Context menu'](/osmand/map/map-context-menu#add--edit-favorite). 
+
+'Edit favorite' menu opens. It's look like ['Add favorite' menu](/osmand/personal/favorites#create).
 
 ### Search 
 
