@@ -273,3 +273,32 @@ Functions for Favorite folder:
 
 ## Export / Import
 
+Click to '&#8942;' button (**Android**) opens special functions for a chosen Favorite folder.
+
+![Favorites folder functions android](/assets/images/personal/favorites_folder_functions_android.png)
+
+Functions for Favorite folder:
+- {% data variables.android-values.shared_string_share %} - sharing Favorite points with other users (like Favorites.gpx file).
+
+At the bottom of the screen are four Actions buttons. 
+
+![Favorites actions android](/assets/images/personal/favorites_actions_android.png)
+
+Actions:
+- '&#43;' - allows to import Favorites points (favorite.gpx) from device storage.
+- '&#60;' - allows to export (share) all Favorites points like "favorite.gpx" file.
+
+Click to 'Pencil' button (**iOS**) opens special functions for a chosen Favorite folder. You need to choose folder or points for actions.
+
+![Favorites actions ios](/assets/images/personal/favorites_actions_ios.png)
+
+Actions:
+- 'Import loader' - allows to share/import Favorites points (folders) like "favorite.gpx" file.
+
+Export/Import favorite for iOS version like special menu in "My Favorites" menu.
+
+![Favorites export import ios](/assets/images/personal/favorites_export_import_ios.png)
+
+'{% data variables.ios-values.fav_import_title %}' - {% data variables.ios-values.fav_import_desc %}. 
+
+'{% data variables.ios-values.fav_export_title %}' - You can export all your favorites like Favorites.gpx file.
