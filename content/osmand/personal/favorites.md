@@ -184,7 +184,9 @@ You can change name, description, address for chosen favorite, change or create 
 
 ### Search 
 
-Using [Search function](/osmand/search) of OsmAnd.
+Favorite points can be seacrhed by [Search function](/osmand/search) of OsmAnd. The first points will be from 'My favorites' 
+
+![Favorite searching function Android](/assets/images/personal/favorite_search_android.png) ![Favorite searching function iOS](/assets/images/personal/favorite_search_ios.png)
 
 Using Search in 'My Favorites' menu (only for Android).
 
