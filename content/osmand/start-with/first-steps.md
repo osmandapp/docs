@@ -88,7 +88,7 @@ Enable / disable plugins:
 
 ### How to configure map
 
-[Configure map](/osmand/map/configure-map-menu) menu is a central place where you could configure map display for your needs, i.e. highlight Favorite points, Navigation markers or special Points of Interests on the map; display specific routes or 3rd party GPX files; overlay the map with relief information, satellite imagery or any other available raster map; display public transport information and change the map style.
+[Configure map](/osmand/map/configure-map-menu) menu is a central place where you could. highlight [Favorite points](/osmand/map/point-layers-on-map#favorites), [Navigation Markers](/osmand/map/point-layers-on-map#markers) or [Points of Interests](/osmand/map/point-layers-on-map#points-of-interest-poi) on the map; display specific routes or 3rd party GPX files; overlay the map with relief information, satellite imagery or any other available raster map; display public transport information and change the map style.
 
 ![Configure map](/assets/images/map/configure_map_menu_android.png)
 
