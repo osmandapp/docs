@@ -184,14 +184,16 @@ You can change name, description, address for chosen favorite, change or create 
 
 ### Search 
 
-Favorite points can be seacrhed by [Search function](/osmand/search) of OsmAnd. The first points will be from 'My favorites' 
+- Favorite points can be seacrhed by [Search function](/osmand/search) of OsmAnd. The first points will be from 'My favorites'.
 
 ![Favorite searching function Android](/assets/images/personal/favorite_search_android.png) ![Favorite searching function iOS](/assets/images/personal/favorite_search_ios.png)
 
-Using Search in 'My Favorites' menu (only for Android).
+- Using [Search in 'My Favorites' menu (only for Android)](/osmand/personal/favorites#search-android).
+
 
 ## Favorite Groups 
 
+Favorite Groups is folders with favorite points in 'My Favorites' menu.
 
 ### Change color
 
@@ -217,21 +219,51 @@ Click to 'Pencil' button (**iOS**) opens special functions for a chosen Favorite
 
 ### Bulk move (iOS)
 
-Click to 'Pencil' button (**iOS**) opens special functions for a chosen Favorite folder. You need to choose folder or points for action: to move your Favorites points (folders) to others Favorites folders (named Groups) or to new creating folder (Group).
+Click to 'Pencil' button (**iOS**) opens special functions for a chosen Favorite folder. You need to choose folder or points for action: to move your Favorites points (folders) to others Favorites folders (named groups) or to new creating folder (group). If Favorite group (folder) hasn't any points it will be deleted after OsmAnd restart by automatic.
 
 ![Favorites actions ios](/assets/images/personal/favorites_actions_ios.png)
 
 ### Rename (Android)
 
-TODO text. 
+For changing Group (folder) name you need to click to '&#8942;' button for opening special functions for a chosen Favorite folder.
+
+![Favorites folder functions android](/assets/images/personal/favorites_folder_functions_android.png)
+
+Functions for Favorite folder:
+- {% data variables.android-values.edit_name %} - changing folder name.
 
 ### Bulk delete
 
-TODO text. 
+For **Android** you can delete Favorites data (points and groups) by using bulk delete.
+
+At the bottom of the screen are four Actions buttons. 
+
+![Favorites actions android](/assets/images/personal/favorites_actions_android.png)
+
+Delete Action:
+- '&#x1F5D1;' - allows to delete chosen Favorites points (folders).
+
+Next, you need to choose points and groups for deleting and click to 'Delete' button in up of the screen device.
+
+![Favorites action delete android](/assets/images/personal/favorites_delete_android.png)
+
+For **iOS** you need to click to 'Pencil' button opens special functions for a chosen Favorite folder. You need to choose folder or points for delete action.
+
+![Favorites actions ios](/assets/images/personal/favorites_actions_ios.png)
+
+Delete action:
+- 'BIN' - allows to delete chosen Favorites points (folders).
 
 ### Add to Map Markers (Android)
 
-TODO text.
+You can add or remove your favorites in/from [Map markers list](/osmand/personal/markers).
+
+Click to '&#8942;' button (**Android**) opens special functions for a chosen Favorite folder (group).
+
+![Favorites folder functions android](/assets/images/personal/favorites_folder_functions_android.png)
+
+Functions for Favorite folder:
+- {% data variables.android-values.shared_string_add_to_map_markers %} or {% data variables.android-values.remove_from_map_markers %}  - add or remove all Favorite points from a folder in [Map markers list](/osmand/personal/markers).
 
 ## Special Favorites (Personal) 
 
@@ -241,4 +273,3 @@ TODO text.
 
 ## Export / Import
 
-TODO text. 
