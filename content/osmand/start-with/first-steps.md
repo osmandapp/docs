@@ -58,13 +58,13 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 ### How to manage your settings
 
-When you continue working with OsmAnd you would need to know how to [interact with the map](/osmand/map/interact-with-map) and how to manage your settings. In the [Main menu](/osmand/start-with/main-menu) when you press Settings button you enter the [Global settings](/osmand/personal/global-settings) menu and [Profile configuration](/osmand/personal/profiles) menu.
+For convenient use of the application, the user is advised to select the desired profiles and configure the basic parameters of the app.  In the [Main menu](/osmand/start-with/main-menu) when you press Settings button you enter the [Global settings](/osmand/personal/global-settings) menu and [Profile configuration](/osmand/personal/profiles) menu.
 
 ![Settings Android](/assets/images/settings/settings_android.png)
 
 ### How to configure plugins
 
-[Plugins](/osmand/plugins) is an additional settings that provides you with advanced functions of the application.
+[Plugins](/osmand/plugins) is an additional settings that provides you with advanced functions of the application. You can customize what plugin should be switched on according to your current needs. 
 
 ![Plugins main menu Android](/assets/images/plugins/plugins_main_menu_android.png)
 
@@ -74,7 +74,12 @@ Enable / disable plugins:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → &#10003; .
 
-### How to Configure screen
+[Read more](/osmand/plugins) about OsmAnd plugins.
+
+### How to use map
+
+
+### How to сonfigure screen
 
 [Configure screen](/osmand/widgets/configure-screen) is a menu that allows to configure what widgets will be displayed over the map. It allows you to enable and configure Quick action, Informational & Navigational widgets and other elements.
 
