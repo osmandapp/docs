@@ -77,24 +77,25 @@ Enable / disable plugins:
 [Read more](/osmand/plugins) about OsmAnd plugins.
 
 ### How to configure map
-[Map interactions](/osmand/map/interact-with-map) are gestures and actions that help you better navigate the map. You will need to configure the map in the [Configure map](/osmand/map/configure-map-menu) menu. 
+[Map interactions](/osmand/map/interact-with-map) are gestures and actions that help you better navigate the map. In order to choose which map style you would like to use and customize map mode and which icons should be displayed on the map, you need to go to the [Configure map](/osmand/map/configure-map-menu) menu. 
 
 ![Configure map](/assets/images/map/configure_map_menu_android.png)
 
 ### How to сonfigure screen
 
-[Configure screen](/osmand/widgets/configure-screen) is a menu that allows to configure what widgets will be displayed over the map. It allows you to enable and configure Quick action, Informational & Navigational widgets and other elements.
+[Configure screen](/osmand/widgets/configure-screen) allows you to enable [Informational](/osmand/widgets/info-widgets) & [Navigation](/osmand/widgets/nav-widgets) widgets, [Quick action](/osmand/widgets/quick-action), and other elements that will be displayed on the Map.
 
 ![Configure screen Android](/assets/images/widgets/configure_screen_android.png)
 
 ### How to add personal data to maps
 
-OsmAnd supports many ways to customize map with your personal data such as [Tracks](/osmand/personal/tracks), [Markers](/osmand/personal/markers), [Favorites](/osmand/personal/favorites). 
+OsmAnd allows you to make a different mark on the Map for your personal use. It could be [Favorite](/osmand/personal/favorites) points, [Markers](/osmand/personal/markers), [Audio/Video notes](/osmand/plugins/audio-video-notes) (android only), [track recording](/osmand/plugins/trip-recording).
 
 ![Add personal data](/assets/images/settings/personal_data_android.png)
 
 ### How to browse & find point of interest
 
+[Points of interest (POI)](https://wiki.openstreetmap.org/wiki/Map_features#Amenity) are specific points highlighted with an icon on the map. They represent interesting or useful places & objects and they are part of [Vector Maps](/osmand/map/vector-maps).
 
 [Screenshots]().
 
