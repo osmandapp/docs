@@ -76,20 +76,16 @@ Enable / disable plugins:
 
 [Read more](/osmand/plugins) about OsmAnd plugins.
 
-### How to use map
+### How to configure map
+[Map interactions](/osmand/map/interact-with-map) are gestures and actions that help you better navigate the map. You will need to configure the map in the [Configure map](/osmand/map/configure-map-menu) menu. 
 
+![Configure map](/assets/images/map/configure_map_menu_android.png)
 
 ### How to сonfigure screen
 
 [Configure screen](/osmand/widgets/configure-screen) is a menu that allows to configure what widgets will be displayed over the map. It allows you to enable and configure Quick action, Informational & Navigational widgets and other elements.
 
 ![Configure screen Android](/assets/images/widgets/configure_screen_android.png)
-
-### How to configure map
-
-[Configure map](/osmand/map/configure-map-menu) menu is a central place where you could. highlight [Favorite points](/osmand/map/point-layers-on-map#favorites), [Navigation Markers](/osmand/map/point-layers-on-map#markers) or [Points of Interests](/osmand/map/point-layers-on-map#points-of-interest-poi) on the map; display specific routes or 3rd party GPX files; overlay the map with relief information, satellite imagery or any other available raster map; display public transport information and change the map style.
-
-![Configure map](/assets/images/map/configure_map_menu_android.png)
 
 ### How to add personal data to maps
 
