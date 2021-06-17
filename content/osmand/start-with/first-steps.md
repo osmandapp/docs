@@ -48,19 +48,13 @@ OsmAnd doesn't have any required permissions on iOS / Android version.
 
 ### How to download maps
 
-OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to download map of your region. You can select another region or skip this step and download map later. 
-
-**Note**: Application is not properly functional without offline maps which are not distributed within application. Even though application supports [Vector maps](/osmand/map/vector-maps) and  [Raster maps](/osmand/map/raster-maps), it is highly recommend to start with Offline Vector Maps to get all features properly functioning such as [Search](/osmand/search), [Navigation](//osmand/navigation),  [Context menu](/osmand/map/map-context-menu). 
+OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to [download map](/osmand/start-with/download-maps#download---first-screen) of your region. You can select another region or skip this step and download map later. 
 
 ![Download map Android](/assets/images/settings/download_map_android.png)
 
-Actions on this step: 
-- Skip - allows you to [download map](/osmand/start-with/download-maps) later.
-- Download - offers you do display region on the Map and you enter to the main screen in OsmAnd.
-- Select another region - opens [Download map menu](/osmand/start-with/download-maps#download---main-menu).
-- Change (only Android)  - allows you to select [Data storage folder](/osmand/personal/storage#data-storage-folder).
+**Note**: Application is not properly functional without offline maps which are not distributed within application. Even though application supports [Vector maps](/osmand/map/vector-maps) and  [Raster maps](/osmand/map/raster-maps), it is highly recommend to start with Offline Vector Maps to get all features properly functioning such as [Search](/osmand/search), [Navigation](//osmand/navigation),  [Context menu](/osmand/map/map-context-menu). 
 
-Related article [Download maps](/osmand/start-with/download-maps) 
+[Read more](/osmand/start-with/download-maps) about download map options.
 
 ### How to manage your settings
 
@@ -96,9 +90,10 @@ Enable / disable plugins:
 
 OsmAnd supports many ways to customize map with your personal data such as [Tracks](/osmand/personal/tracks), [Markers](/osmand/personal/markers), [Favorites](/osmand/personal/favorites). 
 
-[Screenshots]().
+![Add personal data](/assets/images/settings/personal_data_android.png)
 
 ### How to browse & find point of interest
+
 
 [Screenshots]().
 
