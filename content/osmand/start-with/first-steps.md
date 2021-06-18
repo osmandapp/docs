@@ -46,14 +46,13 @@ Our goal is to create fully functional Map-oriented application that could be us
 - Everything works in **Offline Mode**!
 - And don't forget to contribute to [OpenStreetMap](https://www.openstreetmap.org/) with [OSM Editing Plugin](/osmand/plugins/osm-editing).
 
-
 ## Actions Guide
 
 ### How to download maps
 
 OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to [download map](/osmand/start-with/download-maps#download---first-screen) of your region. You can select another region or skip this step and download map later. 
 
-![Download map Android](/assets/images/settings/download_map_android.png)
+![First screen](/assets/images/settings/first_screen_android.png) ![Download map Android](/assets/images/settings/download_map_android.png)
 
 **Note**: Application is not properly functional without offline maps which are not distributed within application. Even though application supports [Vector maps](/osmand/map/vector-maps) and  [Raster maps](/osmand/map/raster-maps), it is highly recommend to start with Offline Vector Maps to get all features properly functioning such as [Search](/osmand/search), [Navigation](//osmand/navigation),  [Context menu](/osmand/map/map-context-menu). 
 
@@ -63,7 +62,7 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 For convenient use of the application, the user is advised to select the desired profiles and configure the basic parameters of the app.  In the [Main menu](/osmand/start-with/main-menu) when you press Settings button you enter the [Global settings](/osmand/personal/global-settings) menu and [Profile configuration](/osmand/personal/profiles) menu.
 
-![Settings Android](/assets/images/settings/settings_android.png)
+![Settings Android](/assets/images/settings/settings_android.png) ![Configure profile Android](/assets/images/settings/configure_profile_android.png)
 
 ### How to configure plugins
 
