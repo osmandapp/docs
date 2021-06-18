@@ -70,7 +70,17 @@ Enable / disable plugins:
 
 [Configure screen](/osmand/widgets/configure-screen) allows you to enable [Informational](/osmand/widgets/info-widgets) & [Navigation](/osmand/widgets/nav-widgets) widgets, [Quick action](/osmand/widgets/quick-action), and other elements that will be displayed on the Map.
 
+{% ios %}
+![Settings Android](/assets/images/settings/settings_android.png)
+{% endios %}
+
+{% android %}
+![Configure map](/assets/images/map/configure_map_menu_android.png)
+{% endandroid %}
+
+{% all %}
 ![Configure screen Android](/assets/images/widgets/configure_screen_android.png)
+{% endall %}
 
 ### How to add personal data to maps
 
