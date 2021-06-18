@@ -50,13 +50,7 @@ Our goal is to create fully functional Map-oriented application that could be us
 
 ### How to download maps
 
-<nav class="UnderlineNav my-3">
-          <div class="UnderlineNav-body">
-            <a href="#" class="UnderlineNav-item platform-switcher" data-platform="ios">iOS</a>
-            <a href="#" class="UnderlineNav-item platform-switcher" data-platform="android">Android</a>
-            <a href="#" class="UnderlineNav-item platform-switcher" data-platform="default">Default</a>
-          </div>
-</nav>
+{% data reusables.general.android-ios-switcher %}
 
 OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to [download map](/osmand/start-with/download-maps#download---first-screen) of your region. You can select another region or skip this step and download map later. 
 
