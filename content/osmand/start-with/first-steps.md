@@ -127,7 +127,7 @@ The [navigation](/osmand/navigation) functionality guides you to your destinatio
 
 [Trip recording](/osmand/plugins/trip-recording) is a tool that allows to record all movements into track using phone's GPS.
 
-[Screenshots]().
+![Trip recording Android](/assets/images/settings/trip_recording_android.png)
 
 ### How to edit maps
 
