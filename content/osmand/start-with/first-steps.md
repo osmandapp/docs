@@ -87,9 +87,7 @@ Enable / disable plugins:
 
 [Configure screen](/osmand/widgets/configure-screen) allows you to enable [Informational](/osmand/widgets/info-widgets) & [Navigation](/osmand/widgets/nav-widgets) widgets, [Quick action](/osmand/widgets/quick-action), and other elements that will be displayed on the Map.
 
-
 ![Configure screen Android](/assets/images/widgets/configure_screen_android.png)
-
 
 ### How to add personal data to maps
 
@@ -113,14 +111,17 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 
 ### How to search by address
 
+In the OsmAnd you can find any address, place and object that has been marked on the [OpenStreetMap](https://www.openstreetmap.org/). You can [search](/osmand/search/search-address) by the name of the city, postcode and coordinates. 
 
-[Screenshots]().
+![Address search Android](/assets/images/settings/address_search_android.png)
+
+**Note:** You need to download the map before searching for an address there. Also, if your current location is too far from your searching address you might need to increase the searching radius. 
 
 ### How to start navigation
 
 The [navigation](/osmand/navigation) functionality guides you to your destinations, by displaying routes, offering turn-by-turn instructions, and optional voice guidance.
 
-[Screenshots]().
+![Navigation Android](/assets/images/settings/navigation_android.png)
 
 ### How to record you trip
 
