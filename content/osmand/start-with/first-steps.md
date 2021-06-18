@@ -93,21 +93,26 @@ Enable / disable plugins:
 
 ### How to add personal data to maps
 
-OsmAnd allows you to make a different mark on the Map for your personal use. It could be [Favorite](/osmand/personal/favorites) points, [Markers](/osmand/personal/markers), [Audio/Video notes](/osmand/plugins/audio-video-notes) (android only), [track recording](/osmand/plugins/trip-recording).
+OsmAnd allows you to make a different mark on the Map for your personal use. It could be [Favorite](/osmand/personal/favorites) points, [Markers](/osmand/personal/markers), [Audio/Video notes](/osmand/plugins/audio-video-notes) (Android only), [track recording](/osmand/plugins/trip-recording).
 
 ![Add personal data](/assets/images/settings/personal_data_android.png)
 
+[Read more](/osmand/map/point-layers-on-map) about points on the map.
+
 ### How to browse & find point of interest
 
-[Points of interest (POI)](https://wiki.openstreetmap.org/wiki/Map_features#Amenity) are specific points highlighted with an icon on the map. They represent interesting or useful places & objects and they are part of [Vector Maps](/osmand/map/vector-maps).
+[Points of interest (POI)](https://wiki.openstreetmap.org/wiki/Map_features#Amenity) are specific points highlighted with an icon on the map. They represent interesting or useful places & objects and they are part of [Vector Maps](/osmand/map/vector-maps). You can use them to display, [navigate](/osmand/navigation) and [search](/osmand/search/search-poi) the points of interest on the Map.
 
-[Screenshots]().
+![Multiple POI Selection](/assets/images/map/multiple_selection_android.png) ![Search and display POI Android](/assets/images/map/search_display_poi_android.png)
 
 ### How to plan a route
 
-[Screenshots]().
+[Plan route](/osmand/plan-route/create-route) is an additional tool that helps you to measure distance on the map, plan your trip and save it as a gpx file,  and edit exists track. 
+
+![Plan route](/assets/images/settings/plan_route_android.png)
 
 ### How to search by address
+
 
 [Screenshots]().
 
