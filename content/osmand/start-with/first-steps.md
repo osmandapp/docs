@@ -50,9 +50,21 @@ Our goal is to create fully functional Map-oriented application that could be us
 
 ### How to download maps
 
+<nav class="UnderlineNav my-3">
+          <div class="UnderlineNav-body">
+            <a href="#" class="UnderlineNav-item platform-switcher" data-platform="ios">iOS</a>
+            <a href="#" class="UnderlineNav-item platform-switcher" data-platform="android">Android</a>
+            <a href="#" class="UnderlineNav-item platform-switcher" data-platform="default">Default</a>
+          </div>
+</nav>
+
 OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to [download map](/osmand/start-with/download-maps#download---first-screen) of your region. You can select another region or skip this step and download map later. 
 
+{% android %}
+
 ![First screen](/assets/images/settings/first_screen_android.png) ![Download map Android](/assets/images/settings/download_map_android.png)
+
+{% endandroid %}
 
 **Note**: Application is not properly functional without offline maps which are not distributed within application. Even though application supports [Vector maps](/osmand/map/vector-maps) and  [Raster maps](/osmand/map/raster-maps), it is highly recommend to start with Offline Vector Maps to get all features properly functioning such as [Search](/osmand/search), [Navigation](//osmand/navigation),  [Context menu](/osmand/map/map-context-menu). 
 
