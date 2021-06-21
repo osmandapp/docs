@@ -86,4 +86,4 @@ User can control all purchases and subscription from Apple account.
 
 User can purchase OsmAnd using App Store gift card. Using this method does not imply sharing a credit card information to the service. Just purchase a gift card from a retailer on the list and redeem the code one on App store.
 - [Detailed guide on buying App store gift cards.](https://www.apple.com/shop/gift-cards)
-- [Redeem your App Store & iTunes Gift Card](https://support.apple.com/en-gb/HT201209)
+- [Redeem your App store gift card](https://support.apple.com/en-gb/HT201209)
