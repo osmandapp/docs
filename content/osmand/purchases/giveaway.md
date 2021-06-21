@@ -10,6 +10,10 @@ We know that not everyone is able to purchase OsmAnd on Google Play / App Store 
 
 **[Participate in OsmAnd Giveaway](https://osmand.net/#osmand_giveaway)**
 
+**Redeem promocode:**
+- [for Android](https://support.google.com/googleplay/answer/3422659?hl)
+- [for iOS](https://support.apple.com/en-gb/HT201209)
+
 
 
 
