@@ -184,6 +184,20 @@ Clicking to track folder '&#8896;'. Next, choose needed track and click to '&#82
 
 Waypoints or track points are points that are a part of track (GPX) file.These points displayed automatically if track is displayed on the map. They look & could be configured similar to Favorites - icon, names, color, shape.
 
+### By Map Context menu
+
+[Add track waypoint](/osmand/map/map-context-menu#-add-track-waypoint)
+
+### By Manage track menu
+
+**For Android**
+
+Add Waypoint
+
+**For iOS**
+
+Add Waypoint to track
+
 ## Manage tracks 
 
 ## Record track
