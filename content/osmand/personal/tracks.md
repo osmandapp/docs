@@ -50,6 +50,33 @@ Track on the map is user recorded trip or plan route with makred points on it or
 
 {% endios %}
 
+### Actions
+
+{% default %}
+
+test default
+
+test default
+
+![My places tracks Android](/assets/images/personal/my_places_tracks_android.png) ![My places tracks iOS](/assets/images/personal/my_places_tracks_ios.png)
+
+{% enddefault %}
+
+{% android %}
+
+test android
+
+![My places tracks Android](/assets/images/personal/my_places_tracks_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+test iOS
+
+![My places tracks iOS](/assets/images/personal/my_places_tracks_ios.png)
+
+{% endios %}
 
 ## Add waypoint
 
