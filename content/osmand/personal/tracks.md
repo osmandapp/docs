@@ -132,7 +132,7 @@ Clicking to track folder '&#8896;'. Next, choose needed track and click to '&#82
 
 **For iOS**
 
-Clicking to track folder '&#8896;'. Next, choose needed track and click to '&#8250;' and '&#8230;' in up of the screen.
+Clicking to track folder '&#8250;'. Next, choose needed track and click to '&#8250;' and '&#8230;' in up of the screen.
 
 ![My places tracks Actions iOS](/assets/images/personal/my_places_tracks_actions_ios.png)
 
