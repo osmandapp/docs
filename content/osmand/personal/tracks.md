@@ -117,7 +117,7 @@ Track on the map is user recorded trip or plan route with makred points on it or
 
 **For Android**:
 
-Clicking to track folder '&#8896;'. Next, choose needed track and click to '&#8285;'
+Clicking to track folder '&#8744;'. Next, choose needed track and click to '&#8285;'
 
 
 ![My places tracks Actions Android](/assets/images/personal/my_places_tracks_actions_android.png)
@@ -137,7 +137,7 @@ Clicking to track folder '&#8250;'. Next, choose needed track and click to '&#82
 ![My places tracks Actions iOS](/assets/images/personal/my_places_tracks_actions_ios.png)
 
 - {% data variables.ios-values.fav_rename %} - rename a chosen track.
-- {% data variables.shared_string_remove %} - delete a chosen track.
+- {% data variables.ios-values.shared_string_remove %} - delete a chosen track.
 - {% data variables.ios-values.shared_string_export %} - export a chosen track.
 - {% data variables.ios-values.gpx_edit_mode %} - open 'Edit mode' function for chosen track.
 - {% data variables.ios-values.product_title_trip_planning %} -  open 'Trip planning' function for chosen track.
@@ -148,7 +148,7 @@ Clicking to track folder '&#8250;'. Next, choose needed track and click to '&#82
 
 {% android %}
 
-Clicking to track folder '&#8896;'. Next, choose needed track and click to '&#8285;'
+Clicking to track folder '&#8744;'. Next, choose needed track and click to '&#8285;'
 
 
 ![My places tracks Actions Android](/assets/images/personal/my_places_tracks_actions_android.png)
@@ -170,7 +170,7 @@ Clicking to track folder '&#8896;'. Next, choose needed track and click to '&#82
 ![My places tracks Actions iOS](/assets/images/personal/my_places_tracks_actions_ios.png)
 
 - {% data variables.ios-values.fav_rename %} - rename a chosen track.
-- {% data variables.shared_string_remove %} - delete a chosen track.
+- {% data variables.ios-values.shared_string_remove %} - delete a chosen track.
 - {% data variables.ios-values.shared_string_export %} - export a chosen track.
 - {% data variables.ios-values.gpx_edit_mode %} - open 'Edit mode' function for chosen track.
 - {% data variables.ios-values.product_title_trip_planning %} -  open 'Trip planning' function for chosen track.
