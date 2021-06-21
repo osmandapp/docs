@@ -54,7 +54,7 @@ Track on the map is user recorded trip or plan route with makred points on it or
 
 {% endios %}
 
-### Actions
+### Actions (menu)
 
 {% default %}
 
@@ -110,6 +110,75 @@ Track on the map is user recorded trip or plan route with makred points on it or
 - {% data variables.ios-values.create_new_trip %} track - adding waypoints and save GPX-file.
 
 {% endios %}
+
+### Track menu(actions)?
+
+{% default %}
+
+**For Android**:
+
+Clicking to track folder '&#8896;'. Next, choose needed track and click to '&#8285;'
+
+
+![My places tracks Actions Android](/assets/images/personal/my_places_tracks_actions_android.png)
+
+- {% data variables.android-values.shared_string_show_on_map %} - show chosen track on the map.
+- {% data variables.android-values.analyze_on_map %} - open 'Analyze on map' function for chosen track.
+- {% data variables.android-values.shared_string_move %} - moving a chosen track to any track folders.
+- {% data variables.android-values.shared_string_rename %} - rename a chosen track.
+- {% data variables.android-values.shared_string_share %} - share a chosen track.
+- {% data variables.android-values.shared_string_export %} - export a chosen track.
+- {% data variables.android-values.shared_string_delete %} - delete a chosen track.
+
+**For iOS**
+
+Clicking to track folder '&#8896;'. Next, choose needed track and click to '&#8250;' and '&#8230;' in up of the screen.
+
+![My places tracks Actions iOS](/assets/images/personal/my_places_tracks_actions_ios.png)
+
+- {% data variables.ios-values.fav_rename %} - rename a chosen track.
+- {% data variables.shared_string_remove %} - delete a chosen track.
+- {% data variables.ios-values.shared_string_export %} - export a chosen track.
+- {% data variables.ios-values.gpx_edit_mode %} - open 'Edit mode' function for chosen track.
+- {% data variables.ios-values.product_title_trip_planning %} -  open 'Trip planning' function for chosen track.
+- {% data variables.ios-values.plan_route_change_folder %} - moving a chosen track to any track folders.
+
+
+{% enddefault %}
+
+{% android %}
+
+Clicking to track folder '&#8896;'. Next, choose needed track and click to '&#8285;'
+
+
+![My places tracks Actions Android](/assets/images/personal/my_places_tracks_actions_android.png)
+
+- {% data variables.android-values.shared_string_show_on_map %} - show chosen track on the map.
+- {% data variables.android-values.analyze_on_map %} - open 'Analyze on map' function for chosen track.
+- {% data variables.android-values.shared_string_move %} - moving a chosen track to any track folders.
+- {% data variables.android-values.shared_string_rename %} - rename a chosen track.
+- {% data variables.android-values.shared_string_share %} - share a chosen track.
+- {% data variables.android-values.shared_string_export %} - export a chosen track.
+- {% data variables.android-values.shared_string_delete %} - delete a chosen track.
+
+{% endandroid %}
+
+{% ios %}
+
+Clicking to track folder '&#8896;'. Next, choose needed track and click to '&#8250;' and '&#8230;' in up of the screen.
+
+![My places tracks Actions iOS](/assets/images/personal/my_places_tracks_actions_ios.png)
+
+- {% data variables.ios-values.fav_rename %} - rename a chosen track.
+- {% data variables.shared_string_remove %} - delete a chosen track.
+- {% data variables.ios-values.shared_string_export %} - export a chosen track.
+- {% data variables.ios-values.gpx_edit_mode %} - open 'Edit mode' function for chosen track.
+- {% data variables.ios-values.product_title_trip_planning %} -  open 'Trip planning' function for chosen track.
+- {% data variables.ios-values.plan_route_change_folder %} - moving a chosen track to any track folders.
+
+{% endios %}
+
+
 
 ## Add waypoint
 
