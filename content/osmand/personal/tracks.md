@@ -16,7 +16,7 @@ Track on the map is user recorded trip or plan route with makred points on it or
 
 {% android %}
 
-![Track on the map Android](/assets/images/settings/settings_android.png)
+![Track on the map](/assets/images/personal/track_on_map_android.png)
 
 {% endandroid %}
 
