@@ -68,7 +68,7 @@ Sort:
 
 - [Context menu](https://docs.osmand.net/en/main@latest/osmand/map/map-context-menu#-add--edit--track-waypoint)
 
-## Track Overview (Adndroid)
+## Track Overview (Android)
 
 ![Track menu overview Android](/assets/images/personal/tracks/track_menu_overview_android.png) 
 
