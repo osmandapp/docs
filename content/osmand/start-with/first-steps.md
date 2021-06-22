@@ -92,7 +92,7 @@ In order to Configure the settings and profiles, you need to go to the  [Main me
 
 {% data reusables.general.android-ios-switcher %}
 
-[Plugins](/osmand/plugins) is an additional settings that provides you with advanced functions of the application. You can customize what plugin should be switched on according to your current needs. 
+[Plugins](/osmand/plugins) is an additional settings that provides you with advanced functions of the application. You can customize what plugin should be switched on according to your current needs. In order to configure plugins you need to go to the [Main menu](/osmand/start-with/main-menu) and press [Plugins](/osmand/plugins).
 
 {% android %}
 
@@ -115,9 +115,22 @@ Enable / disable plugins:
 [Read more](/osmand/plugins) about OsmAnd plugins.
 
 ### How to configure map
-[Map interactions](/osmand/map/interact-with-map) are gestures and actions that help you better navigate the map. In order to choose which map style you would like to use and customize map mode and which icons should be displayed on the map, you need to go to the [Configure map](/osmand/map/configure-map-menu) menu. 
 
-![Configure map](/assets/images/map/configure_map_menu_android.png)
+{% data reusables.general.android-ios-switcher %}
+
+[Map interactions](/osmand/map/interact-with-map) are gestures and actions that help you better navigate the map. In order to choose map style, mode, and enable information that will be displayed on the map you need to go to the  [Main menu](/osmand/start-with/main-menu) then [Configure map](/osmand/map/configure-map-menu). Or on the Map screen you can press on the circle in the left top corner with [navigation type](/osmand/personal/profiles#profile-types) and you will enter to the [Configure map](/osmand/map/configure-map-menu) menu. 
+
+{% android %}
+
+![Configure map](/assets/images/map/configure_map_menu_android.png) ![Configure map](/assets/images/settings/configure_map_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![Settings iOS](screenshot)
+
+{% endios %}
 
 ### How to сonfigure screen
 
