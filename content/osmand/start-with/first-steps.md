@@ -72,9 +72,21 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 ### How to manage your settings
 
-For convenient use of the application, the user is advised to select the desired profiles and configure the basic parameters of the app.  In the [Main menu](/osmand/start-with/main-menu) when you press Settings button you enter the [Global settings](/osmand/personal/global-settings) menu and [Profile configuration](/osmand/personal/profiles) menu.
+{% data reusables.general.android-ios-switcher %}
+
+In order to Configure the settings and profiles, you need to go to the  [Main menu](/osmand/start-with/main-menu) when you press Settings button you enter the [Global settings](/osmand/personal/global-settings) menu and [Profile configuration](/osmand/personal/profiles) menu.
+
+{% android %}
 
 ![Settings Android](/assets/images/settings/settings_android.png) ![Configure profile Android](/assets/images/settings/configure_profile_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![Settings iOS](screenshot)
+
+{% endios %}
 
 ### How to configure plugins
 
