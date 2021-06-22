@@ -14,7 +14,7 @@ versions: '*'
 
 {% android %}
 
-![Android](/assets/images/settings/download_map_android.png) ![Show on the map](/assets/images/settings/download_map1_android.png)
+![Android](screenshot) 
 
 {% endandroid %}
 
@@ -56,9 +56,15 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 {% android %}
 
-![First screen](/assets/images/settings/first_screen_android.png) ![Download map Android](/assets/images/settings/download_map_android.png)
+![Android](/assets/images/settings/download_map_android.png) ![Show on the map](/assets/images/settings/download_map1_android.png)
 
 {% endandroid %}
+
+{% ios %}
+
+![ios](screenshot)
+
+{% endios %}
 
 **Note**: Application is not properly functional without offline maps which are not distributed within application. Even though application supports [Vector maps](/osmand/map/vector-maps) and  [Raster maps](/osmand/map/raster-maps), it is highly recommend to start with Offline Vector Maps to get all features properly functioning such as [Search](/osmand/search), [Navigation](//osmand/navigation),  [Context menu](/osmand/map/map-context-menu). 
 
