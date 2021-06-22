@@ -68,9 +68,7 @@ Sort:
 
 - [Context menu](https://docs.osmand.net/en/main@latest/osmand/map/map-context-menu#-add--edit--track-waypoint)
 
-## Track overview (Android)
-
-### Overview 
+## Track Overview (Adndroid)
 
 ![Track menu overview Android](/assets/images/personal/tracks/track_menu_overview_android.png) 
 
@@ -109,26 +107,26 @@ Tabs:
 
 ![Track menu track sub Android](/assets/images/personal/tracks/track_menu_track_sub_android.png) 
 
-### Interactions with graphs
+## Track Graphs (Android)
 
-#### Overview
+### Overview
 
 - Distance (Overview)
 - Start / end time (Overview)
 - Time span (Overview)
 
-#### Altitude
+### Altitude
 
 - Ascent / Descent (Altitude)
 - Altitude range (Altitude)
 - Average altitude (Altitude)
 
-#### Speed
+### Speed
 - Average speed (Speed)
 - Max speed
 - Time in Motion
 
-### Points
+## Track Points (Android)
 
 ![Track menu points Android](/assets/images/personal/tracks/track_menu_points_android.png) 
 
@@ -138,7 +136,7 @@ Tabs:
 - Open waypoint menu (link to favorites)
 - Point filters (bubbles)
 
-#### Group menu
+### Group menu
 - Rename (group)
 - Show on map
 - Change color
@@ -146,7 +144,7 @@ Tabs:
 - Copy to favorites
 - Delete
 
-### Options
+## Track Options menu (Android)
 
 ![Track menu options Android](/assets/images/personal/tracks/track_menu_options_android.png)  ![Track menu options Android](/assets/images/personal/tracks/track_menu_options_sub_android.png) 
 
@@ -162,7 +160,7 @@ Tabs:
 - Delete
 
 
-### Appearance
+## Track Appearance (Android)
 
 ![Track menu options Android](/assets/images/personal/tracks/track_appearance_speed_android.png)  ![Track menu split interval Android](/assets/images/personal/tracks/track_appearance_split_android.png) 
 
