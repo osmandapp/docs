@@ -28,6 +28,9 @@ Sort:
 ### Actions 
 
 ![My places tracks Actions Android](/assets/images/personal/tracks/my_places_tracks_actions_android.png) ![My places tracks Actions iOS](/assets/images/personal/tracks/my_places_tracks_actions_ios.png)
+
+![My places tracks file Actions iOS](/assets/images/personal/tracks/my_places_track_file_actions_ios.png)
+
 - Record track / Save (Android / iOS)
 - Import track (Android / iOS)
 - Coordinate input - create track (Android)
@@ -137,6 +140,9 @@ Tabs:
 - Point filters (bubbles)
 
 ### Group menu
+
+![Track menu Group menu Android](/assets/images/personal/tracks/track_menu_group_menu_android.png) 
+
 - Rename (group)
 - Show on map
 - Change color
@@ -189,6 +195,43 @@ Tabs:
 ![Track split interval screen Android](/assets/images/personal/tracks/track_split_interval_android.png) 
 
 - Split interval by distnace / time
+
+## Track in My Places menu  (iOS)
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → choose a track
+
+### Statistics
+
+![Statistics screen track iOS](/assets/images/personal/tracks/statistics_track_ios.png)
+
+&#8230; - [actions](/osmand/personal/tracks#actions)
+
+Name and short info of the track.
+
+Quick actions:
+- {% data variables.ios-values.map_settings_show %} - show a track on the map
+- {% data variables.ios-values.fav_color %}    - change color track
+
+Info:
+- {% data variables.ios-values.gpx_speed %} - average speed, max speed
+- {% data variables.ios-values.gpx_route_time %} - Route time ...
+- {% data variables.ios-values.gpx_uphldownhl %}
+
+### Waypoints
+
+![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_ios.png)
+
+- Folders <-> Points list
+- edit point - Actions with waypoints
+
+![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_actions_ios.png)
+
+Actions:
+- 'Import loader' - allows to share/import waypoints.
+- 'Folder' - allows to move waypoints to others folders or to new creating folder.
+- 'Palette of colors' - allows to change colors for waypoints.
+- 'BIN' - allows to delete chosen waypoints.
+
 
 ## Record track
 
