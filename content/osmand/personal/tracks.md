@@ -178,25 +178,34 @@ Clicking to track folder '&#8896;'. Next, choose needed track and click to '&#82
 
 {% endios %}
 
-
-
 ## Add waypoint
 
 Waypoints or track points are points that are a part of track (GPX) file.These points displayed automatically if track is displayed on the map. They look & could be configured similar to Favorites - icon, names, color, shape.
 
 ### By Map Context menu
 
-[Add track waypoint](/osmand/map/map-context-menu#-add-track-waypoint)
+You can [add track waypoint](/osmand/map/map-context-menu#-add--edit--track-waypoint) to your current recording track or any visible tracks on the map from suggested list by long tap on the map and choosing [Add wapoint action](/osmand/map/map-context-menu#-add--edit--track-waypoint) from [Map Context menu](/osmand/map/map-context-menu).
+
+Short tap to a waypoint on the map you can [Edit waypoint](/osmand/map/map-context-menu#-add--edit--track-waypoint)
 
 ### By Manage track menu
 
+
 **For Android**
 
-Add Waypoint
+Short tap on the track on the map or choose needed track in My Places menu:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places%} → {% data variables.android-values.shared_string_tracks %} → choose a track and click to it → {% data variables.android-values.shared_string_gpx_points %} → {% data variables.android-values.add_waypoint %}  
+
+![Add waypoint by Track menu Android](/assets/images/personal/add_waypoint_by_menu_android.png)
 
 **For iOS**
 
 Add Waypoint to track
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → choose a track and click to it → &#8230; → {% data variables.ios-values.gpx_edit_mode %} → {% data variables.ios-values.tracks %} → click to the map in needed place for adding waypoin to chosen track
+
+![Add waypoint by Track menu iOS](/assets/images/personal/add_waypoint_by_menu_ios.png)
 
 ## Manage tracks 
 
