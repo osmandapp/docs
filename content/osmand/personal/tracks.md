@@ -10,19 +10,19 @@ Track on the map is user recorded trip or plan route with makred points on it or
 
 {% default %}
 
-![Track on the map](/assets/images/personal/track_on_map_android.png) ![Track on the map iOS](/assets/images/personal/track_on_map_ios.png)
+![Track on the map](/assets/images/personal/tracks/track_on_map_android.png) ![Track on the map iOS](/assets/images/personal/tracks/track_on_map_ios.png)
 
 {% enddefault %}
 
 {% android %}
 
-![Track on the map](/assets/images/personal/track_on_map_android.png)
+![Track on the map](/assets/images/personal/tracks/track_on_map_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Track on the map iOS](/assets/images/personal/track_on_map_ios.png)
+![Track on the map iOS](/assets/images/personal/tracks/track_on_map_ios.png)
 
 {% endios %}
 
@@ -34,7 +34,7 @@ Track on the map is user recorded trip or plan route with makred points on it or
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %}
 
-![My places tracks Android](/assets/images/personal/my_places_tracks_android.png) ![My places tracks iOS](/assets/images/personal/my_places_tracks_ios.png)
+![My places tracks Android](/assets/images/personal/tracks/my_places_tracks_android.png) ![My places tracks iOS](/assets/images/personal/tracks/my_places_tracks_ios.png)
 
 {% enddefault %}
 
@@ -42,7 +42,7 @@ Track on the map is user recorded trip or plan route with makred points on it or
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places%} → {% data variables.android-values.shared_string_tracks %}
 
-![My places tracks Android](/assets/images/personal/my_places_tracks_android.png)
+![My places tracks Android](/assets/images/personal/tracks/my_places_tracks_android.png)
 
 {% endandroid %}
 
@@ -50,7 +50,7 @@ Track on the map is user recorded trip or plan route with makred points on it or
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %}
 
-![My places tracks iOS](/assets/images/personal/my_places_tracks_ios.png)
+![My places tracks iOS](/assets/images/personal/tracks/my_places_tracks_ios.png)
 
 {% endios %}
 
@@ -60,7 +60,7 @@ Track on the map is user recorded trip or plan route with makred points on it or
 
 **For Android**:
 
-![My places tracks Actions Android](/assets/images/personal/my_places_tracks_actions_android.png)
+![My places tracks Actions Android](/assets/images/personal/tracks/my_places_tracks_actions_android.png)
 
 - Search - find track by name.
 - Sort tracks - sort tracks by last modified, A-Z, Z-A.
@@ -75,7 +75,7 @@ Track on the map is user recorded trip or plan route with makred points on it or
 
 **For iOS**
 
-![My places tracks Actions iOS](/assets/images/personal/my_places_tracks_actions_ios.png)
+![My places tracks Actions iOS](/assets/images/personal/tracks/my_places_tracks_actions_ios.png)
 
 - Show on the map.
 - Record/Stop/Save - for current track.
@@ -86,7 +86,7 @@ Track on the map is user recorded trip or plan route with makred points on it or
 
 {% android %}
 
-![My places tracks Actions Android](/assets/images/personal/my_places_tracks_actions_android.png)
+![My places tracks Actions Android](/assets/images/personal/tracks/my_places_tracks_actions_android.png)
 
 - Search - find track by name.
 - Sort tracks - sort tracks by last modified, A-Z, Z-A.
@@ -102,7 +102,7 @@ Track on the map is user recorded trip or plan route with makred points on it or
 
 {% ios %}
 
-![My places tracks Actions iOS](/assets/images/personal/my_places_tracks_actions_ios.png)
+![My places tracks Actions iOS](/assets/images/personal/tracks/my_places_tracks_actions_ios.png)
 
 - Show on the map.
 - Record/Stop/Save - for current track.
@@ -120,7 +120,7 @@ Track on the map is user recorded trip or plan route with makred points on it or
 Clicking to track folder '&#8744;'. Next, choose needed track and click to '&#8285;'
 
 
-![My places tracks file Actions Android](/assets/images/personal/my_places_track_file_actions_android.png)
+![My places tracks file Actions Android](/assets/images/personal/tracks/my_places_track_file_actions_android.png)
 
 - {% data variables.android-values.shared_string_show_on_map %} - show chosen track on the map.
 - {% data variables.android-values.analyze_on_map %} - open 'Analyze on map' function for chosen track.
@@ -134,7 +134,7 @@ Clicking to track folder '&#8744;'. Next, choose needed track and click to '&#82
 
 Clicking to track folder '&#8250;'. Next, choose needed track and click to '&#8250;' and '&#8230;' in up of the screen.
 
-![My places tracks file Actions iOS](/assets/images/personal/my_places_track_file_actions_ios.png)
+![My places tracks file Actions iOS](/assets/images/personal/tracks/my_places_track_file_actions_ios.png)
 
 - {% data variables.ios-values.fav_rename %} - rename a chosen track.
 - {% data variables.ios-values.shared_string_remove %} - delete a chosen track.
@@ -151,7 +151,7 @@ Clicking to track folder '&#8250;'. Next, choose needed track and click to '&#82
 Clicking to track folder '&#8744;'. Next, choose needed track and click to '&#8285;'
 
 
-![My places tracks file Actions Android](/assets/images/personal/my_places_track_file_actions_android.png)
+![My places tracks file Actions Android](/assets/images/personal/tracks/my_places_track_file_actions_android.png)
 
 - {% data variables.android-values.shared_string_show_on_map %} - show chosen track on the map.
 - {% data variables.android-values.analyze_on_map %} - open 'Analyze on map' function for chosen track.
@@ -167,7 +167,7 @@ Clicking to track folder '&#8744;'. Next, choose needed track and click to '&#82
 
 Clicking to track folder '&#8896;'. Next, choose needed track and click to '&#8250;' and '&#8230;' in up of the screen.
 
-![My places tracks file Actions iOS](/assets/images/personal/my_places_track_file_actions_ios.png)
+![My places tracks file Actions iOS](/assets/images/personal/tracks/my_places_track_file_actions_ios.png)
 
 - {% data variables.ios-values.fav_rename %} - rename a chosen track.
 - {% data variables.ios-values.shared_string_remove %} - delete a chosen track.
@@ -243,7 +243,7 @@ Short tap on the track on the map or choose needed track in My Places menu:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places%} → {% data variables.android-values.shared_string_tracks %} → choose a track and click to it
 
-![Track menu Android](/assets/images/personal/track_menu_android.png)
+![Track menu Android](/assets/images/personal/tracks/track_menu_android.png)
 
 Track menu:
  - Overwiew
@@ -253,7 +253,7 @@ Track menu:
 
 ### Overwiew
 
-![Track menu Overview Android](/assets/images/personal/track_menu_overview_android.png)
+![Track menu Overview Android](/assets/images/personal/tracks/track_menu_overview_android.png)
 
 ### Track
 
@@ -273,7 +273,7 @@ Short tap on the track on the map or choose needed track in My Places menu:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places%} → {% data variables.android-values.shared_string_tracks %} → choose a track and click to it
 
-![Track menu Android](/assets/images/personal/track_menu_android.png)
+![Track menu Android](/assets/images/personal/tracks/track_menu_android.png)
 
 Track menu:
  - Overwiew
@@ -283,7 +283,7 @@ Track menu:
 
 ### Overwiew
 
-![Track menu Overview Android](/assets/images/personal/track_menu_overview_android.png)
+![Track menu Overview Android](/assets/images/personal/tracks/track_menu_overview_android.png)
 
 ### Track
 
