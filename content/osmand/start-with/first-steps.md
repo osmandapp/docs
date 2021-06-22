@@ -8,13 +8,13 @@ versions: '*'
 
 {% default %}
 
-![Download map](/assets/images/settings/download_map.png)
+![First screen Android](/assets/images/settings/first_screen_android.png) ![Download map Android](/assets/images/settings/download_map_android.png)
 
 {% enddefault %}
 
 {% android %}
 
-![Android](/assets/images/settings/settings_android.png)
+![Android](/assets/images/settings/download_map_android.png)
 
 {% endandroid %}
 
