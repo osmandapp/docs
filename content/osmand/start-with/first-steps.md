@@ -90,9 +90,21 @@ In order to Configure the settings and profiles, you need to go to the  [Main me
 
 ### How to configure plugins
 
+{% data reusables.general.android-ios-switcher %}
+
 [Plugins](/osmand/plugins) is an additional settings that provides you with advanced functions of the application. You can customize what plugin should be switched on according to your current needs. 
 
-![Plugins main menu Android](/assets/images/plugins/plugins_main_menu_android.png)
+{% android %}
+
+![Plugins main menu Android](/assets/images/plugins/plugins_main_menu_android.png) ![Enable plugins Android](/assets/images/settings/plugins_enable_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![Settings iOS](screenshot)
+
+{% endios %}
 
 Enable / disable plugins:
 
