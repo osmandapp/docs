@@ -43,7 +43,7 @@ Sort:
 
 ## Edit mode (iOS)
 
-![Edit mode ios](/assets/images/personal/tracks/edit_mode__ios.png) 
+![Edit mode ios](/assets/images/personal/tracks/edit_mode_ios.png) 
 
 - Add points
 - Edit / delete
@@ -74,31 +74,123 @@ Sort:
 
 ![Track menu overview Android](/assets/images/personal/tracks/track_menu_overview_android.png) 
 
+### Info panel
+
+- Distance 
+- Direction to the point
+- Ascent / Descent
+- Alt range
+- Average speed
+- Max speed
+- Time span
+- Time in Motion
+
+
+### Quick actions
+
+- Show / hide
+- Appearance
+- Edit track
+- Directions
+
+### Description
+
+- Image
+- Add / edit Description 
+
 ### Track 
 
 ![Track menu track Android](/assets/images/personal/tracks/track_menu_track_android.png) 
+
+Tabs:
+- Overview
+- Altitude
+- Speed
+
+![Track menu track sub Android](/assets/images/personal/tracks/track_menu_track_sub_android.png) 
+
+### Interactions with graphs
+
+#### Overview
+
+- Distance (Overview)
+- Start / end time (Overview)
+- Time span (Overview)
+
+#### Altitude
+
+- Ascent / Descent (Altitude)
+- Altitude range (Altitude)
+- Average altitude (Altitude)
+
+#### Speed
+- Average speed (Speed)
+- Max speed
+- Time in Motion
 
 ### Points
 
 ![Track menu points Android](/assets/images/personal/tracks/track_menu_points_android.png) 
 
+- Route points vs waypoitns
+- Search
+- Add waypoint
+- Open waypoint menu (link to favorites)
+- Point filters (bubbles)
+
+#### Group menu
+- Rename (group)
+- Show on map
+- Change color
+- Add / remove map markers
+- Copy to favorites
+- Delete
+
 ### Options
 
 ![Track menu options Android](/assets/images/personal/tracks/track_menu_options_android.png)  ![Track menu options Android](/assets/images/personal/tracks/track_menu_options_sub_android.png) 
 
+- Show on map
+- Appearance
+- Directions
+- Analyze on map
+- Analyze split intervals
+- Share
+- Upload to OSM
+- Edit
+- Rename / Change folder
+- Delete
+
+
 ### Appearance
 
-![Track menu options Android](/assets/images/personal/tracks/track_appearance_speed_android.png) 
+![Track menu options Android](/assets/images/personal/tracks/track_appearance_speed_android.png)  ![Track menu split interval Android](/assets/images/personal/tracks/track_appearance_split_android.png) 
 
+
+- Split interval
+- Direction arrows
+- Show start / finish
+- Solid color
+- Color by speed
+- Color by altitude
+- Color by slope
+- Thickness
 
 ## Analyze on Map (Android)
 
 ![Track menu analyze on map Android](/assets/images/personal/tracks/track_analyze_on_map_android.png) ![Track menu split interval Android](/assets/images/personal/tracks/track_appearance_split_android.png) 
 
+- Interact with map & graph
+- Follow My location 
+- Graph: altitude / slope / speed
+- Graph: distance / time
+
 
 ## Split interval (Android)
 
 ![Track split interval screen Android](/assets/images/personal/tracks/track_split_interval_android.png) 
+
+- Split interval by distnace / time
 
 ## Record track
 
