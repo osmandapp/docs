@@ -247,7 +247,7 @@ Any selected location on the map could be marked as [a parking position](/osmand
 
 Requires [Parking position plugin](/osmand/plugins/parking).
 
-### * Add Track waypoint
+### * Add / Edit  Track waypoint
 
 ![Action Waypoint Android](/assets/images/map/action_waypoint_android.png) ![Action Waypoint iOS](/assets/images/map/action_waypoint_ios.png)
 
