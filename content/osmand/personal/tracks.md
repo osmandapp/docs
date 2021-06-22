@@ -120,7 +120,7 @@ Track on the map is user recorded trip or plan route with makred points on it or
 Clicking to track folder '&#8744;'. Next, choose needed track and click to '&#8285;'
 
 
-![My places tracks Actions Android](/assets/images/personal/my_places_tracks_actions_android.png)
+![My places tracks file Actions Android](/assets/images/personal/my_places_track_file_actions_android.png)
 
 - {% data variables.android-values.shared_string_show_on_map %} - show chosen track on the map.
 - {% data variables.android-values.analyze_on_map %} - open 'Analyze on map' function for chosen track.
@@ -134,7 +134,7 @@ Clicking to track folder '&#8744;'. Next, choose needed track and click to '&#82
 
 Clicking to track folder '&#8250;'. Next, choose needed track and click to '&#8250;' and '&#8230;' in up of the screen.
 
-![My places tracks Actions iOS](/assets/images/personal/my_places_tracks_actions_ios.png)
+![My places tracks file Actions iOS](/assets/images/personal/my_places_track_file_actions_ios.png)
 
 - {% data variables.ios-values.fav_rename %} - rename a chosen track.
 - {% data variables.ios-values.shared_string_remove %} - delete a chosen track.
@@ -151,7 +151,7 @@ Clicking to track folder '&#8250;'. Next, choose needed track and click to '&#82
 Clicking to track folder '&#8744;'. Next, choose needed track and click to '&#8285;'
 
 
-![My places tracks Actions Android](/assets/images/personal/my_places_tracks_actions_android.png)
+![My places tracks file Actions Android](/assets/images/personal/my_places_track_file_actions_android.png)
 
 - {% data variables.android-values.shared_string_show_on_map %} - show chosen track on the map.
 - {% data variables.android-values.analyze_on_map %} - open 'Analyze on map' function for chosen track.
@@ -167,7 +167,7 @@ Clicking to track folder '&#8744;'. Next, choose needed track and click to '&#82
 
 Clicking to track folder '&#8896;'. Next, choose needed track and click to '&#8250;' and '&#8230;' in up of the screen.
 
-![My places tracks Actions iOS](/assets/images/personal/my_places_tracks_actions_ios.png)
+![My places tracks file Actions iOS](/assets/images/personal/my_places_track_file_actions_ios.png)
 
 - {% data variables.ios-values.fav_rename %} - rename a chosen track.
 - {% data variables.ios-values.shared_string_remove %} - delete a chosen track.
