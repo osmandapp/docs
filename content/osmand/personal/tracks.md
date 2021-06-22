@@ -191,6 +191,8 @@ Short tap to a waypoint on the map you can [Edit waypoint](/osmand/map/map-conte
 ### By Manage track menu
 
 
+{% default %}
+
 **For Android**
 
 Short tap on the track on the map or choose needed track in My Places menu:
@@ -203,11 +205,101 @@ Short tap on the track on the map or choose needed track in My Places menu:
 
 Add Waypoint to track
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → choose a track and click to it → &#8230; → {% data variables.ios-values.gpx_edit_mode %} → {% data variables.ios-values.tracks %} → click to the map in needed place for adding waypoin to chosen track
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → choose a track and click to it → &#8230; → {% data variables.ios-values.gpx_edit_mode %} → click to the map in needed place for adding waypoin to chosen track
 
 ![Add waypoint by Track menu iOS](/assets/images/personal/add_waypoint_by_menu_ios.png)
 
+
+{% enddefault %}
+
+{% android %}
+
+
+Short tap on the track on the map or choose needed track in My Places menu:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places%} → {% data variables.android-values.shared_string_tracks %} → choose a track and click to it → {% data variables.android-values.shared_string_gpx_points %} → {% data variables.android-values.add_waypoint %}  
+
+![Add waypoint by Track menu Android](/assets/images/personal/add_waypoint_by_menu_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+Add Waypoint to track
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → choose a track and click to it → &#8230; → {% data variables.ios-values.gpx_edit_mode %} → click to the map in needed place for adding waypoin to chosen track
+
+![Add waypoint by Track menu iOS](/assets/images/personal/add_waypoint_by_menu_ios.png)
+
+{% endios %}
+
 ## Manage tracks 
+
+{% default %}
+
+**For Android**
+
+Short tap on the track on the map or choose needed track in My Places menu:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places%} → {% data variables.android-values.shared_string_tracks %} → choose a track and click to it
+
+![Track menu Android](/assets/images/personal/track_menu_android.png)
+
+Track menu:
+ - Overwiew
+ - Track
+ - Points
+ - Options
+
+### Overwiew
+
+![Track menu Overview Android](/assets/images/personal/track_menu_overview_android.png)
+
+### Track
+
+### Points
+
+### Options
+
+
+**For iOS**
+
+
+{% enddefault %}
+
+{% android %}
+
+Short tap on the track on the map or choose needed track in My Places menu:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places%} → {% data variables.android-values.shared_string_tracks %} → choose a track and click to it
+
+![Track menu Android](/assets/images/personal/track_menu_android.png)
+
+Track menu:
+ - Overwiew
+ - Track
+ - Points
+ - Options
+
+### Overwiew
+
+![Track menu Overview Android](/assets/images/personal/track_menu_overview_android.png)
+
+### Track
+
+### Points
+
+### Options
+
+
+{% endandroid %}
+
+{% ios %}
+
+iOS Track menu
+
+{% endios %}
+
 
 ## Record track
 
