@@ -14,7 +14,7 @@ versions: '*'
 
 {% android %}
 
-![Download map Android](/assets/images/settings/download_map_android.png) 
+![OsmAnd navigation Android](/assets/images/settings/osmand_navigation_android.png) 
 
 {% endandroid %}
 
