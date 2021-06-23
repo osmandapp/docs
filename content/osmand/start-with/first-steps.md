@@ -78,7 +78,7 @@ In order to Configure the settings and profiles, you need to go to the  [Main me
 
 {% android %}
 
-![Settings Android](/assets/images/settings/settings_android.png) ![Configure profile Android](/assets/images/settings/configure_profile_android.png)
+![Manage profile Android](/assets/images/settings/manage_profile_android.png) ![Configure profile Android](/assets/images/settings/configure_profile_android.png)
 
 {% endandroid %}
 
