@@ -172,17 +172,43 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 
 ### How to browse & find point of interest
 
+{% data reusables.general.android-ios-switcher %}
+
 [Points of interest (POI)](https://wiki.openstreetmap.org/wiki/Map_features#Amenity) are specific points highlighted with an icon on the map. They represent interesting or useful places & objects and they are part of [Vector Maps](/osmand/map/vector-maps). You can use them to display, [navigate](/osmand/navigation) and [search](/osmand/search/search-poi) the points of interest on the Map.
+
+{% android %}
 
 ![Multiple POI Selection](/assets/images/map/multiple_selection_android.png) ![Search and display POI Android](/assets/images/map/search_display_poi_android.png)
 
+{% endandroid %}
+
+{% ios %}
+
+![Settings iOS](screenshot)
+
+{% endios %}
+
 ### How to plan a route
+
+{% data reusables.general.android-ios-switcher %}
 
 [Plan route](/osmand/plan-route/create-route) is an additional tool that helps you to measure distance on the map, plan your trip and save it as a gpx file,  and edit exists track. 
 
+{% android %}
+
 ![Plan route](/assets/images/settings/plan_route_android.png)
 
+{% endandroid %}
+
+{% ios %}
+
+![Settings iOS](screenshot)
+
+{% endios %}
+
 ### How to search by address
+
+{% data reusables.general.android-ios-switcher %}
 
 In the OsmAnd you can find any address, place and object that has been marked on the [OpenStreetMap](https://www.openstreetmap.org/). You can [search](/osmand/search/search-address) by the name of the city, postcode and coordinates. 
 
@@ -192,20 +218,57 @@ In the OsmAnd you can find any address, place and object that has been marked on
 
 ### How to start navigation
 
+{% data reusables.general.android-ios-switcher %}
+
 The [navigation](/osmand/navigation) functionality guides you to your destinations, by displaying routes, offering turn-by-turn instructions, and optional voice guidance.
+
+{% android %}
 
 ![Navigation Android](/assets/images/settings/navigation_android.png)
 
+{% endandroid %}
+
+{% ios %}
+
+![Settings iOS](screenshot)
+
+{% endios %}
+
 ### How to record you trip
+
+{% data reusables.general.android-ios-switcher %}
 
 [Trip recording](/osmand/plugins/trip-recording) is a tool that allows to record all movements into track using phone's GPS.
 
+{% android %}
+
 ![Trip recording Android](/assets/images/settings/trip_recording_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![Settings iOS](screenshot)
+
+{% endios %}
 
 ### How to edit maps
 
-[Screenshots]().
+{% data reusables.general.android-ios-switcher %}
 
+OsmAnd powered by OpenStreetMap data. The maps are created by volunteer contributors, so they can have more or fewer details depending on how much work has been done at a certain part of the map. Anyone can register as a contributor and add or edit OSM maps. OsmAnd provide with editing plugin that helps to impove the OpenStreetMap. 
+
+{% android %}
+
+![OSM note Android](/assets/images/settings/osm_note_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![Settings iOS](screenshot)
+
+{% endios %}
 
 ## Privacy
 
