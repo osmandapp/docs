@@ -25,6 +25,8 @@ versions: '*'
 
 ### History
 
+![Map markers History Android](/assets/images/personal/markers/map_markers_history_android.png) ![Map markers History iOS](/assets/images/personal/markers/map_markers_history_iOS.png) 
+
 ### More / Appearance
 
 
