@@ -6,6 +6,10 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
+Map markers are special points marked as flags on the map. You can customize their look & feel with **arrows** ({% data variables.android-values.show_arrows_on_the_map %}) and **distance indication** ({% data variables.android-values.show_direction %}). 
+
+![Map markers Android](/assets/images/map/map_markers_android.png) ![Map markers iOS](/assets/images/map/map_markers_ios.png)
+
 
 ## Map markers menu
 
@@ -38,6 +42,14 @@ versions: '*'
 - {% data variables.android-values.marker_save_as_track %} (Android) - save active markers like file GPX.
 - {% data variables.android-values.move_all_to_history %} (Android) - deactivate all markers and move its to [History](/osmand/personal/markers#history).
 
+## Add Marker on the map
+
+Short or long tap on the map and choose neede action in [Map Context menu](/osmand/map/map-context-menu#add--edit-marker).
+
+### Actions in Map Context menu
+
+[Link to the article](/osmand/map/map-context-menu#add--edit-marker)
+
 ## Appearance on the map
 
 [Link to description](/osmand/widgets/markers#configure-marker-widgets-and-marker-appearance)
@@ -47,6 +59,7 @@ versions: '*'
 ## Map markers widgets
 
 [Link to description Top Bar](/osmand/widgets/markers#top-bar-widget-markers)
+
 [Link to description Widget panel](/osmand/widgets/markers#panel-widgets-markers)
 
 ## Plan route for Markers (Android)
@@ -83,7 +96,14 @@ Next, building a route.
 ![Map markers Plan Route Directions Android](/assets/images/personal/markers/map_markers_plan_route_directions_android.png)
 
 
-## Markers from Favorites \ Waypoints (Android)
+## Add/Remove Markers from Favorites/Waypoints (Android)
+
+[Favorites to Map Markers link](/osmand/personal/favorites#add-to-map-markers-android)
+
+[Waypoints to Map Markers link](/osmand/personal/tracks#group-menu)
+
+
+
 
 
 
