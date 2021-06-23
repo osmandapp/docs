@@ -196,7 +196,7 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 
 {% android %}
 
-![Plan route](/assets/images/settings/plan_route_android.png)
+![Plan route](/assets/images/settings/plan_route_android.png) ![Plan route graph Android](/assets/images/settings/plan_route_graph_android.png)
 
 {% endandroid %}
 
