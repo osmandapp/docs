@@ -15,13 +15,17 @@ versions: '*'
 
 ![Map markers menu Android](/assets/images/personal/markers/map_markers_menu_android.png) ![Map markers menu iOS](/assets/images/personal/markers/map_markers_menu_ios.png)
 
-### List
+### List (Android)
 
-### Groups
+![Map markers List Android](/assets/images/personal/markers/map_markers_list_android.png) 
+
+### Groups (Android)
+
+![Map markers Groups Android](/assets/images/personal/markers/map_markers_groups_android.png) ![Map markers Groups Android](/assets/images/personal/markers/map_markers_groups_add_android.png) 
 
 ### History
 
-### More
+### More / Appearance
 
 
 ## Appearance on the map
