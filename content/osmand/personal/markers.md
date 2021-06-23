@@ -27,6 +27,12 @@ Map markers are special points marked as flags on the map. You can customize the
 
 ![Map markers Groups Android](/assets/images/personal/markers/map_markers_groups_android.png) ![Map markers Groups Android](/assets/images/personal/markers/map_markers_groups_add_android.png) 
 
+You can import groups from favorites or track waypoints.
+
+Click to '&#43;' Button.  {% data variables.android-values.favourites_group %}:
+- {% data variables.android-values.favourites_group %} - from Favorites.
+- {% data variables.android-values.shared_string_gpx_waypoints %} - from track waypoints.
+
 ### History
 
 ![Map markers History Android](/assets/images/personal/markers/map_markers_history_android.png) ![Map markers History iOS](/assets/images/personal/markers/map_markers_history_ios.png) 
