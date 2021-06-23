@@ -56,7 +56,7 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 {% android %}
 
-![Android](/assets/images/settings/download_map_android.png) ![Show on the map](/assets/images/settings/download_map1_android.png)
+![Show on the map](/assets/images/settings/download_map1_android.png)
 
 {% endandroid %}
 
@@ -96,7 +96,7 @@ In order to Configure the settings and profiles, you need to go to the  [Main me
 
 {% android %}
 
-![Plugins main menu Android](/assets/images/plugins/plugins_main_menu_android.png) ![Enable plugins Android](/assets/images/settings/plugins_enable_android.png)
+![Enable plugins Android](/assets/images/settings/plugins_enable_android.png)
 
 {% endandroid %}
 
@@ -122,7 +122,7 @@ Enable / disable plugins:
 
 {% android %}
 
-![Configure map](/assets/images/map/configure_map_menu_android.png) ![Configure map](/assets/images/settings/configure_map_android.png)
+![Configure map](/assets/images/settings/configure_map_menu_android.png) 
 
 {% endandroid %}
 
@@ -134,15 +134,39 @@ Enable / disable plugins:
 
 ### How to сonfigure screen
 
-[Configure screen](/osmand/widgets/configure-screen) allows you to enable [Informational](/osmand/widgets/info-widgets) & [Navigation](/osmand/widgets/nav-widgets) widgets, [Quick action](/osmand/widgets/quick-action), and other elements that will be displayed on the Map.
+{% data reusables.general.android-ios-switcher %}
+
+[Configure screen](/osmand/widgets/configure-screen) allows you to enable [Informational](/osmand/widgets/info-widgets) (altitude, speed, current time, etc.) & [Navigation](/osmand/widgets/nav-widgets)  (distanation, bearing, arrival time, etc.) widgets, [Quick action](/osmand/widgets/quick-action), and other elements that will be displayed on the Map.
+
+{% android %}
 
 ![Configure screen Android](/assets/images/widgets/configure_screen_android.png)
 
+{% endandroid %}
+
+{% ios %}
+
+![Settings iOS](screenshot)
+
+{% endios %}
+
 ### How to add personal data to maps
+
+{% data reusables.general.android-ios-switcher %}
 
 OsmAnd allows you to make a different mark on the Map for your personal use. It could be [Favorite](/osmand/personal/favorites) points, [Markers](/osmand/personal/markers), [Audio/Video notes](/osmand/plugins/audio-video-notes) (Android only), [track recording](/osmand/plugins/trip-recording).
 
+{% android %}
+
 ![Add personal data](/assets/images/settings/personal_data_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![Settings iOS](screenshot)
+
+{% endios %}
 
 [Read more](/osmand/map/point-layers-on-map) about points on the map.
 
