@@ -88,6 +88,9 @@ In order to Configure the settings and profiles, you need to go to the  [Main me
 
 {% endios %}
 
+[Read more](/osmand/personal/global-settings) about Global settings.
+[Read more](/osmand/personal/profiles) about Profile settings.
+
 ### How to configure plugins
 
 {% data reusables.general.android-ios-switcher %}
@@ -132,6 +135,8 @@ Enable / disable plugins:
 
 {% endios %}
 
+[Read more](osmand/map/configure-map-menu) about map configuration.
+
 ### How to сonfigure screen
 
 {% data reusables.general.android-ios-switcher %}
@@ -149,6 +154,8 @@ Enable / disable plugins:
 ![Settings iOS](screenshot)
 
 {% endios %}
+
+[Read more](/osmand/widgets/configure-screen) about Screen configuration.
 
 ### How to add personal data to maps
 
@@ -188,6 +195,8 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 
 {% endios %}
 
+[Read more](/osmand/search/search-poi) about POI search.
+
 ### How to plan a route
 
 {% data reusables.general.android-ios-switcher %}
@@ -206,6 +215,8 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 
 {% endios %}
 
+[Read more](/osmand/plan-route/create-route) about plan route feature.
+
 ### How to search by address
 
 {% data reusables.general.android-ios-switcher %}
@@ -215,6 +226,8 @@ In the OsmAnd you can find any address, place and object that has been marked on
 ![Address search Android](/assets/images/settings/address_search_android.png)
 
 **Note:** You need to download the map before searching for an address there. Also, if your current location is too far from your searching address you might need to increase the searching radius. 
+
+[Read more](/osmand/search/search-address) about address search.
 
 ### How to start navigation
 
@@ -234,6 +247,8 @@ The [navigation](/osmand/navigation) functionality guides you to your destinatio
 
 {% endios %}
 
+[Read more](/osmand/navigation) about navigation.
+
 ### How to record you trip
 
 {% data reusables.general.android-ios-switcher %}
@@ -252,6 +267,8 @@ The [navigation](/osmand/navigation) functionality guides you to your destinatio
 
 {% endios %}
 
+[Read more](/osmand/plugins/trip-recording) about trip recording.
+
 ### How to edit maps
 
 {% data reusables.general.android-ios-switcher %}
@@ -269,6 +286,8 @@ OsmAnd powered by OpenStreetMap data. The maps are created by volunteer contribu
 ![Settings iOS](screenshot)
 
 {% endios %}
+
+[Read more](/osmand/plugins/osm-editing) about OSM editing. 
 
 ## Privacy
 
