@@ -223,7 +223,17 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 
 In the OsmAnd you can find any address, place and object that has been marked on the [OpenStreetMap](https://www.openstreetmap.org/). You can [search](/osmand/search/search-address) by the name of the city, postcode and coordinates. 
 
+{% android %}
+
 ![Address search Android](/assets/images/settings/address_search_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![Settings iOS](screenshot)
+
+{% endios %}
 
 **Note:** You need to download the map before searching for an address there. Also, if your current location is too far from your searching address you might need to increase the searching radius. 
 
