@@ -267,7 +267,7 @@ The [navigation](/osmand/navigation) functionality guides you to your destinatio
 
 {% android %}
 
-![Trip recording Android](/assets/images/settings/trip_recording_android.png)
+![Trip recording Android](/assets/images/settings/trip_recording_android.png) ![Overview track](/assets/images/settings/overview_track_android.png)
 
 {% endandroid %}
 
@@ -314,7 +314,7 @@ OsmAnd doesn't have any required permissions on iOS / Android version.
 **Optional**:
 - **Camera/voice recording** (Android) - only used by [the Audio/Video notes](/osmand/plugins/audio-video-notes). This feature is packaged as plugin and by default disabled. It allows to quickly create location-related audio/video notes during a trip.
 
-### Troubleshooting
+## Troubleshooting
 
 If you have a specific question, please check [Troubleshooting](/osmand/troubleshooting) to have it answered.
 
