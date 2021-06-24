@@ -14,6 +14,10 @@ Menu where keeping all map (vector and raster) data.
 
 ![Maps menu Android](/assets/images/personal/maps/maps_menu_android.png) ![Maps menu iOS](/assets/images/personal/maps/maps_menu_ios.png)
 
+Buttons on top of the screen:
+- Refresh &#10227; map data (new maps for updating)
+- Search  button for findind needed map.
+
 ## Download maps (Maps)
 
 Find and download map data for offline using.
@@ -121,6 +125,54 @@ Action with map data:
 
 ## Update maps
 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_updates %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_updates %}
+
+![Maps menu Update maps Android](/assets/images/personal/maps/maps_menu_update_android.png) ![Maps menu Update maps  iOS](/assets/images/personal/maps/maps_menu_update_ios.png)
+
+Click refresh &#10227; button for update info.
+
+Info: name of map, size of map, date of creation map (Android).
+
+Actions:
+- {% data variables.ios-values.res_update_all %} button - update all maps.
+- 'Update' button - update chosen map.
+
 ## OsmAnd Live
+
+OsmAnd live data - hourle update maps (paid OsmAnd feature).
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_updates %} → {% data variables.android-values.live_updates %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.osmand_live_title %}
+
+**Menu of Live Update**
+
+![Maps menu OsmAnd live Android](/assets/images/personal/maps/maps_menu_osmand_live_android.png) ![Maps menu OsmAnd live  iOS](/assets/images/personal/maps/maps_menu_osmand_live_ios.png)
+
+Button of Enabled or not Live Updates
+
+Click to:
+- Blue switcher (Android) - adding chosen map for live update.
+- &#8230; (Android) - Parameters menu for Live update.
+- '&#43;' (iOS) - adding chosen map for live update.
+- &#8250; (iOS) - Parameters menu for Live update.
+
+**Parameters for Live Update**
+
+![Maps menu OsmAnd live edit Android](/assets/images/personal/maps/maps_menu_osmand_live_edit_android.png) ![Maps menu OsmAnd live edit iOS](/assets/images/personal/maps/maps_menu_osmand_live_edit_ios.png)
+
+Info: name of map, last updated (Android), last time checked (Android).
+
+Actions:
+- Enabled or not
+- {% data variables.android-values.update_frequency %} - Hourly, Daily, Weekly.
+- {% data variables.android-values.only_download_over_wifi %} - updating only with wi-fi connection.
+- {% data variables.android-values.updates_size %} - info about downloaded map cache. Delete (Android) button downloading data of OsmAnd live.
+- {% data variables.android-values.update_now %} - update now chosen map.
+
+
+
 
 ## Purchases (iOS)
