@@ -49,11 +49,15 @@ Android (top of the screen):
 - Delete button  - delete chosen map.
 - &#8285; - {% data variables.android-values.local_index_mi_backup %} or {% data variables.android-values.local_index_mi_restore %} chosen maps.
 
-1th part: Vector data
+**Vector data**
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.local_indexes_cat_map %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %} → {% data variables.ios-values.res_mapsres %} and {% data variables.ios-values.res_world_map %}
 
 ![Maps menu Local vector Android](/assets/images/personal/maps/maps_menu_local_vector_android.png) ![Maps menu Local vector iOS](/assets/images/personal/maps/maps_menu_local_vector_ios.png)
 
-Info: name of map, size of map, type of map (for iOS), date of creating map (Android)
+Info: name of map, size of map, type of map (for iOS: raster data here like Hillshades, Slopes), date of creating map (Android)
 
 Actions with map data:
 - Green color of map icon (Android) - fresh map data.
@@ -64,8 +68,19 @@ Actions with map data:
 - &#8250; button (iOS) - open Details menu with next info: type of map, size of map, data creation of map. And action button - Delete map.
 
 
+**{% data variables.android-values.local_indexes_cat_tile %}**
 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.local_indexes_cat_tile %}
 
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %} → {% data variables.ios-values.online_raster_maps %}
+
+![Maps menu Local raster Android](/assets/images/personal/maps/maps_menu_local_raster_android.png) ![Maps menu Local raster iOS](/assets/images/personal/maps/maps_menu_local_raster_ios.png)
+
+Info: name of maps, type of raster map (Android), size of map.
+
+Actions with map data:
+- &#8285; button (Android) - {% data variables.android-values.local_index_mi_backup %}, {% data variables.android-values.shared_string_rename %}, {% data variables.android-values.shared_string_delete %} chosen map.
+- &#8250; button (iOS) - open Details menu with info (type of map, size of map, data creation of map) and 'Actions' buttons - [Clear cache](/osmand/map/raster-maps#clear-raster-map-cache), [Edit map](/osmand/map/raster-maps#change-raster-map-parameters), Delete map.
 
 
 ## Update maps
