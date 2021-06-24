@@ -173,6 +173,14 @@ Actions:
 - {% data variables.android-values.update_now %} - update now chosen map.
 
 
-
-
 ## Purchases (iOS)
+
+Link to [Purchases iOS](/osmand/purchases/ios)
+
+![Maps menu Purchases iOS](/assets/images/personal/maps/maps_menu_purchases_ios.png)
+
+Plugins Part - bought plugins.
+
+Maps Part- bought maps.
+
+Button - Restore all purchases
