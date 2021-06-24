@@ -1,6 +1,6 @@
 ---
 title: "Maps"
-intro: "Maps"
+intro: "Downloading and editing maps data for offline using."
 versions: '*'
 ---
 
@@ -49,7 +49,7 @@ Android (top of the screen):
 - Delete button  - delete chosen map.
 - &#8285; - {% data variables.android-values.local_index_mi_backup %} or {% data variables.android-values.local_index_mi_restore %} chosen maps.
 
-**Vector data**
+### Vector data
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.local_indexes_cat_map %}
 
@@ -68,7 +68,7 @@ Actions with map data:
 - &#8250; button (iOS) - open Details menu with next info: type of map, size of map, data creation of map. And action button - Delete map.
 
 
-**{% data variables.android-values.local_indexes_cat_tile %}**
+### {% data variables.android-values.local_indexes_cat_tile %}
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.local_indexes_cat_tile %}
 
@@ -82,6 +82,42 @@ Actions with map data:
 - &#8285; button (Android) - {% data variables.android-values.local_index_mi_backup %}, {% data variables.android-values.shared_string_rename %}, {% data variables.android-values.shared_string_delete %} chosen map.
 - &#8250; button (iOS) - open Details menu with info (type of map, size of map, data creation of map) and 'Actions' buttons - [Clear cache](/osmand/map/raster-maps#clear-raster-map-cache), [Edit map](/osmand/map/raster-maps#change-raster-map-parameters), Delete map.
 
+### Contour lines, Wikipedia, Travel guides (Android)
+
+Data of [Contour lines plugin](/osmand/plugins/contour-lines), [Wikipedia](/osmand/plugins/wikipedia), [Travel guides](/osmand/plan-route/travel-guides)
+
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.local_indexes_cat_tts %}, {% data variables.android-values.local_indexes_cat_voice %}
+
+![Maps menu Local folders Android](/assets/images/personal/maps/maps_menu_local_folders_android.png)
+
+Info: name of map, size of map, size of folder.
+
+Action with map data:
+- &#8285; button - {% data variables.android-values.shared_string_rename %}, {% data variables.android-values.shared_string_delete %} chosen map.
+
+### Voice prompts (Android)
+
+Data of [Voice prompts during navigation](/osmand/navigation).
+
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_srtm_maps %}, {% data variables.android-values.download_wikipedia_maps %}, {% data variables.android-values.download_maps_travel %}
+
+![Maps menu Local voice prompts Android](/assets/images/personal/maps/maps_menu_local_voice_prompts_android.png)
+
+Info: name of map, size of map.
+
+Action with map data:
+- &#8285; button - {% data variables.android-values.shared_string_rename %}, {% data variables.android-values.shared_string_delete %} chosen map.
+
+### Deactivated (Android)
+
+Here all maps, that were moved to deactivate.
+
+![Maps menu Local Deactivate Android](/assets/images/personal/maps/maps_menu_local_deactivate_android.png)
+
+Info: name of map, size of map, date of creation map.
+
+Action with map data:
+- &#8285; button - {% data variables.android-values.local_index_mi_restore %}, {% data variables.android-values.shared_string_rename %}, {% data variables.android-values.shared_string_delete %} chosen map.
 
 ## Update maps
 
