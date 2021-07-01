@@ -105,7 +105,7 @@ In order to Configure the settings and profiles, you need to go to the  [Main me
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Enable plugins iOS](/assets/images/settings/plugins_enable_ios.png)
 
 {% endios %}
 
@@ -191,7 +191,7 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Multiple POI Selection](/assets/images/settings/multiple_selection_iOS.png) ![Search and display POI iOS](/assets/images/settings/search_display_poi_iOS.png)
 
 {% endios %}
 
