@@ -59,3 +59,18 @@ It is possible to download a map of a certain area just by zooming in on the Wor
 
 There is a possibility to download created by yourself (in OsmAnd Map Creator) map. [Read more](/development/map-creation/create-offline-maps-yourself)
 
+## Download types
+
+- Standard maps
+- Road-only maps
+- Wikipedia
+- Wikivoyage / Travel
+- Contour lines
+- Hillshade
+- Slope
+- Nautical Depth lines
+- Fonts
+- Voice packages
+- Altitude correction (Android)
+
+
