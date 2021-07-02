@@ -51,8 +51,10 @@ In order to move {% data variables.android-values.radius_ruler_item %} downard y
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.always_center_position_on_map %} →  <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → select profile → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.always_center_position_on_map %}
 
+Video guide how to use Radius ruller for {% data variables.product.android %}
 [![Video guide how to use Radius ruller for {% data variables.product.android %}](/assets/images/widgets/radius_ruler_video_android.png)](https://www.youtube.com/watch?v=MWT20dVtkDc)
 
+Video guide how to use Radius ruller for {% data variables.product.ios %}
 [![Video guide how to use Radius ruller for {% data variables.product.ios %}](/assets/images/widgets/radius_ruler_video_ios.png)](https://www.youtube.com/watch?v=C9QLQ52ndiA&t=10s)
 
 ## 'Distance by tap' tool
