@@ -53,7 +53,7 @@ In order to move {% data variables.android-values.radius_ruler_item %} downard y
 
 [![Video guide how to use Radius ruller for {% data variables.product.android %}](/assets/images/widgets/radius_ruler_video_android.png)](https://www.youtube.com/watch?v=MWT20dVtkDc)
 
-[![Video guide how to use Radius ruller for {% data variables.product.ios %}](https://www.youtube.com/watch?v=C9QLQ52ndiA&t=10s)]
+[![Video guide how to use Radius ruller for {% data variables.product.ios %}](/assets/images/widgets/radius_ruler_video_ios.png)](https://www.youtube.com/watch?v=C9QLQ52ndiA&t=10s)
 
 ## 'Distance by tap' tool
 
