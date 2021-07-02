@@ -56,7 +56,7 @@ In order to expand the visible range of the ruler radius for **Android** you nee
 
 Then you need to enable {% data variables.android-values.radius_ruler_item %} in the {% data variables.android-values.layer_map_appearance %} when you press the location button {% data variables.android-values.radius_ruler_item %} will move downward.
 
-![Radius ruler downward](/assets/images/widgets/radius_ruler_downward_android.png)
+![Display position Android](/assets/images/widgets/radius_ruler_display_position_android.png) ![Radius ruler downward](/assets/images/widgets/radius_ruler_downward_android.png)
 
 Video guide how to use Radius ruler for **Android**
 [![Video guide how to use Radius ruler for {% data variables.product.android %}](/assets/images/widgets/radius_ruler_video_android.png)](https://www.youtube.com/watch?v=MWT20dVtkDc)
