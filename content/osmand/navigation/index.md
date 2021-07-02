@@ -10,6 +10,7 @@ versions: '*'
 {% link_with_intro /boat-navigation %}
 {% link_with_intro /markers-navigation %}
 {% link_with_intro /public-transport-navigation %}
+{% link_with_intro /voice-navigation %}
 
 
 ## Extra article(s) about route context menu 
