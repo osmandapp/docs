@@ -51,11 +51,10 @@ In order to move {% data variables.android-values.radius_ruler_item %} downard y
 
   <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → select profile → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.always_center_position_on_map %}-->
 
-In order to expand the visible range of the ruler radius for **Android** you need to go to the:
-
+In order to expand the visible range of the ruler radius for **Android** you need to go to the: <br>
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.always_center_position_on_map %}
 
-Then you need to press on the location button and {% data variables.android-values.radius_ruler_item %} will move downward.
+Then you need to enable {% data variables.android-values.radius_ruler_item %} in the {% data variables.android-values.layer_map_appearance %} when you press the location button {% data variables.android-values.radius_ruler_item %} will move downward.
 
 ![Radius ruler downward](/assets/images/widgets/radius_ruler_downward_android.png)
 
