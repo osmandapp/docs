@@ -62,6 +62,7 @@ Video guide how to use Radius ruler for **Android**
 [![Video guide how to use Radius ruler for {% data variables.product.android %}](/assets/images/widgets/radius_ruler_video_android.png)](https://www.youtube.com/watch?v=MWT20dVtkDc)
 
 In order to expand the visible range of the ruler radius for **iOS** you need to press on the location button and change the map Tilt to 2,5D <br>
+![Radius ruler 2,5D format](/assets/images/widgets/radius_ruler_2%2C5D_ios.png)
 
 Video guide how to use Radius ruler for **iOS**
 [![Video guide how to use Radius ruler for {% data variables.product.ios %}](/assets/images/widgets/radius_ruler_video_ios.png)](https://www.youtube.com/watch?v=C9QLQ52ndiA&t=10s)
