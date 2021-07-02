@@ -45,7 +45,7 @@ When you enter the country map menu you will see all map types available for dow
 -  [Slopes](/osmand/map/raster-maps#hillshade--slope)
 -  [Wikipedia](/osmand/plugins/wikipedia) - contains files with the Wikipedia articles that you can read offline.
 
-**Note** In the Android version is available to use bulk map downloads. You could easily recognize when this option is available by double arrows next to the map type.
+**Note**: In the Android version is available to use bulk map downloads. You could easily recognize when this option is available by double arrows next to the map type.
 
 In addition to maps of countries and regions, you can also download:
 - Travel guides / Wikivoyage
