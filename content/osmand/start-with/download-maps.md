@@ -55,7 +55,7 @@ In addition to maps of countries and regions, you can also download:
 - Altitude correction (Android)
 - Other maps
 
-![Download map menu Android](/settings/download_map_menu_android.png) ![Regionwide maps Android](/assets/images/settings/regionwide_maps_menu.png)
+![Download map menu Android](/assets/images/settings/download_map_menu_android.png) ![Regionwide maps Android](/assets/images/settings/regionwide_maps_menu.png)
 
 ## Download - Map Context menu
 
