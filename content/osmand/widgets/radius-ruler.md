@@ -47,8 +47,10 @@ In addition to that, you could see **blue triangle** as a Compass direction. Thi
 | Units Format | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.units_and_formats %} → {% data variables.android-values.angular_measeurement%} <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.units_and_formats %} → {% data variables.ios-values.angular_units %}   |
 
 The {% data variables.android-values.radius_ruler_item %} can be placed both in the center of the screen or shifted downward, which allows you to measure the distance from the current location to a more distant point.
-In order to move {% data variables.android-values.radius_ruler_item %} downard you need to turn off  {% data variables.android-values. always_center_position_on_map %}.
+In order to move {% data variables.android-values.radius_ruler_item %} downard you need to turn off  {% data variables.android-values.always_center_position_on_map %}.
+
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values. always_center_position_on_map %}
+
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → select profile → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.always_center_position_on_map %}
 
 ## 'Distance by tap' tool
