@@ -18,6 +18,30 @@ Buttons on top of the screen:
 - Refresh &#10227; map data (new maps for updating)
 - Search  button for findind needed map.
 
+
+## Type of maps
+
+
+In order to download the region or country map you can enter the name of the country or big city in the search area or from the Menu step by step go into the needed map.
+When you enter the country map menu you will see all map types available for download:
+-  Standard - contains all of the available information from [OpenStreetMap](https://www.openstreetmap.org/) source. 
+-  Roads-only (Android) - contains only information about the roads. Perfectly suited for users with small device memory or for the area where you do not need the details information.
+-  [Coutour lines](/osmand/map/vector-maps#contour-lines) - contains information about the elevation lines and terrain.
+-  [Hillshades](/osmand/map/raster-maps#hillshade--slope)
+-  [Slopes](/osmand/map/raster-maps#hillshade--slope)
+-  [Wikipedia](/osmand/plugins/wikipedia) - contains files with the Wikipedia articles that you can read offline.
+- Travel guides / Wikivoyage
+- Nautical maps
+- Voice packages
+- Map fonts
+- Altitude correction (Android)
+- Other maps
+
+**Note**: In the Android version is available to use bulk map downloads. You could easily recognize when this option is available by double arrows next to the map type.
+
+![Download map menu Android](/assets/images/settings/download_map_menu_android.png) ![Regionwide maps Android](/assets/images/settings/regionwide_maps_menu.png)
+
+
 ## Download maps (Maps)
 
 Find and download map data for offline using.
