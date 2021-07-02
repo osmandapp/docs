@@ -90,6 +90,13 @@ Winter and ski style is designed to help you navigate winter sports locations: y
 Map legend is a visual explanation of the symbols used on the map. It typically includes a sample of each symbol (point, line, or area), and a short description of what the symbol means. For example, a short segment of a blue sinuous line may be labeled 'rivers'.
 Map legend of OsmAnd maps you can find [here](https://osmand.net/help-online/map-legend/).
 
+## Map Fonts
+
+{% data reusables.general.article-not-complete %}
+
+Download map fonts for chinese, japanese, korean & arabic maps.
+
+
 ## Contour Lines
 
 Contour lines are represented as vector maps that are displayed as elevation lines. You need to enable [Contour lines Plugin](/osmand/plugins/contour-lines), download the data for your region and configure the display. Feature is not enabled by default and need to be [purchased first](/osmand/purchases).
