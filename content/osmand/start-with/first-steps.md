@@ -35,10 +35,10 @@ OsmAnd is a mobile application for Maps and Navigation available for **Android**
 
 ## Welcome to OsmAnd!
 
-Our goal is to create fully functional Map-oriented application that could be used offline in various purposes. The application is full of features, so you don't need to switch between different apps and have everything at your fingertips:
+Our goal is to create a fully functional map-oriented application that could be used offline & online for various purposes. The application is full of features, so you don't need to switch between different apps and have everything at your fingertips:
 - Browse Worldwide Map with lots of details displayed with [many map styles](/osmand/map/vector-maps).
 - Display, search and save various [Points of interests](/osmand/map/point-layers-on-map).
-- [Plan a route](/osmand/plan-route/create-route) by car, bicycle, foot and combine it.
+- [Plan a route](/osmand/plan-route/create-route) by car, bicycle, foot and combine into multi modal routes.
 - Start [voice guided navigation](/osmand/navigation/route-navigation) with screen on and off.
 - Make your tourist trip rich with offline [Wikipedia](/osmand/plugins/wikipedia) and [Wikivoyage](/osmand/plan-route/travel-guides).
 - Fully customize how [the map displayed](/osmand/map/configure-map-menu) and what [widgets](/osmand/widgets) are displayed on it.
@@ -52,7 +52,7 @@ Our goal is to create fully functional Map-oriented application that could be us
 
 {% data reusables.general.android-ios-switcher %}
 
-OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to [download map](/osmand/start-with/download-maps#download---first-screen) of your region. You can select another region or skip this step and download map later. 
+OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to [download map](/osmand/start-with/download-maps#download---first-screen) of your region. You can select another region or skip this step and download maps later. 
 
 {% android %}
 
@@ -74,7 +74,7 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 {% data reusables.general.android-ios-switcher %}
 
-In order to Configure the settings and profiles, you need to go to the  [Main menu](/osmand/start-with/main-menu) when you press Settings button you enter the [Global settings](/osmand/personal/global-settings) menu and [Profile configuration](/osmand/personal/profiles) menu.
+You could manage application settings as [Global settings](/osmand/personal/global-settings) or as [Profile configuration](/osmand/personal/profiles) via [Main menu](/osmand/start-with/main-menu). Application comes with predefined list of profiles which could be modified later. Each profile could be considered as a special customized map application, though by default profiles are used as special navigation modes.
 
 {% android %}
 
@@ -95,7 +95,7 @@ In order to Configure the settings and profiles, you need to go to the  [Main me
 
 {% data reusables.general.android-ios-switcher %}
 
-[Plugins](/osmand/plugins) is an additional settings that provides you with advanced functions of the application. You can customize what plugin should be switched on according to your current needs. In order to configure plugins you need to go to the [Main menu](/osmand/start-with/main-menu) and press [Plugins](/osmand/plugins).
+[Plugins](/osmand/plugins) allow greatly to extend application functionality. Plugins could be internal (provided inside OsmAnd) or external (separate installed applications). 3rd party plugins work via [OsmAnd API](/development/build-osmand/osmand-api) and get access to OsmAnd information, you could always review / enable / disable plugins via [Main menu](/osmand/start-with/main-menu) → Plugins. Each plugin could have own [Map Actions](/osmand/map/map-context-menu), [Map Layers](/osmand/map/configure-map-menu), [Map Downloads](/osmand/start-with/download-maps) and Settings.
 
 {% android %}
 
