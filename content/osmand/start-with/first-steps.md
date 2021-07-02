@@ -117,11 +117,12 @@ Enable / disable plugins:
 
 [Read more](/osmand/plugins) about OsmAnd plugins.
 
-### How to configure map
+
+### How to use map
 
 {% data reusables.general.android-ios-switcher %}
 
-[Map interactions](/osmand/map/interact-with-map) are gestures and actions that help you better navigate the map. In order to choose map style, mode, and enable information that will be displayed on the map you need to go to the  [Main menu](/osmand/start-with/main-menu) then [Configure map](/osmand/map/configure-map-menu). Or on the Map screen you can press on the circle in the left top corner with [navigation type](/osmand/personal/profiles#profile-types) and you will enter to the [Configure map](/osmand/map/configure-map-menu) menu. 
+Map is a core element of OsmAnd and it's important to know [how to use it](/osmand/map/interact-with-map) (gestures, buttons, etc). You could [configure map](/osmand/map/configure-map-menu) to your needs: [change map style](/osmand/map/configure-map-menu#map-style-parameters), configure different [map layers](/osmand/map/configure-map-menu#map-layers) such as favorites, poi, public transport, tracks, contour lines, hillshade and others.
 
 {% android %}
 
@@ -141,7 +142,7 @@ Enable / disable plugins:
 
 {% data reusables.general.android-ios-switcher %}
 
-[Configure screen](/osmand/widgets/configure-screen) allows you to enable [Informational](/osmand/widgets/info-widgets) (altitude, speed, current time, etc.) & [Navigation](/osmand/widgets/nav-widgets)  (distanation, bearing, arrival time, etc.) widgets, [Quick action](/osmand/widgets/quick-action), and other elements that will be displayed on the Map.
+[Configure screen](/osmand/widgets/configure-screen) allows you to enable [Informational](/osmand/widgets/info-widgets) (altitude, speed, current time, etc.) & [Navigational](/osmand/widgets/nav-widgets) (distanation, bearing, arrival time, etc.) widgets, [Quick action](/osmand/widgets/quick-action) and other elements that will be displayed over Map.
 
 {% android %}
 
