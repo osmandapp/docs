@@ -58,7 +58,8 @@ Then you need to enable {% data variables.android-values.radius_ruler_item %} in
 
 ### 3D view (iOS)
 
-In order to expand the visible range of the ruler radius for **iOS** you need to press on the location button and change the map Tilt to 2,5D <br>
+In order to expand the visible range of the ruler radius for **iOS** you need to press on the location button and change the map Tilt to 3D
+
 ![Radius ruler 3D format](/assets/images/widgets/radius_ruler_2%2C5D_ios.png)
 
 
