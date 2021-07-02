@@ -46,23 +46,26 @@ In addition to that, you could see **blue triangle** as a Compass direction. Thi
 | Enable | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.map_widget_right %} → {% data variables.android-values.radius_ruler_item %} → {% data variables.android-values.shared_string_ellipsis %} → {% data variables.android-values.show_compass_ruler %} / {% data variables.android-values.hide_compass_ruler %}   <br>  {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.map_widget_ruler_control %} → {% data variables.ios-values.shared_string_ellipsis%} → {% data variables.ios-values.show_compass_ruler %} / {% data variables.android-values.hide_compass_ruler %}  |
 | Units Format | {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.units_and_formats %} → {% data variables.android-values.angular_measeurement%} <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.units_and_formats %} → {% data variables.ios-values.angular_units %}   |
 
-<!--The {% data variables.android-values.radius_ruler_item %} can be placed both in the center of the screen or shifted downward, which allows you to measure the distance from the current location to a more distant point.
-In order to move {% data variables.android-values.radius_ruler_item %} downard you need to turn off  {% data variables.android-values.always_center_position_on_map %}.
 
-  <br> {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → select profile → {% data variables.ios-values.general_settings_2 %} → {% data variables.ios-values.always_center_position_on_map %}-->
+### Center / Bottom position
+In order to expand the visible range of the ruler radius for **Android** you need to turn off {% data variables.android-values.always_center_position_on_map %}: 
 
-In order to expand the visible range of the ruler radius for **Android** you need to turn off {% data variables.android-values.always_center_position_on_map %}: <br>
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.always_center_position_on_map %}
 
 Then you need to enable {% data variables.android-values.radius_ruler_item %} in the {% data variables.android-values.layer_map_appearance %} when you press the location button {% data variables.android-values.radius_ruler_item %} will move downward.
 
 ![Display position Android](/assets/images/widgets/radius_ruler_display_position_android.png) ![Radius ruler downward](/assets/images/widgets/radius_ruler_downward_android.png)
 
-Video guide how to use Radius ruler for **Android**
-[![Video guide how to use Radius ruler for {% data variables.product.android %}](/assets/images/widgets/radius_ruler_video_android.png)](https://www.youtube.com/watch?v=MWT20dVtkDc)
+### 3D view (iOS)
 
 In order to expand the visible range of the ruler radius for **iOS** you need to press on the location button and change the map Tilt to 2,5D <br>
 ![Radius ruler 2,5D format](/assets/images/widgets/radius_ruler_2%2C5D_ios.png)
+
+
+### Video Guides
+Video guide how to use Radius ruler for **Android**
+[![Video guide how to use Radius ruler for {% data variables.product.android %}](/assets/images/widgets/radius_ruler_video_android.png)](https://www.youtube.com/watch?v=MWT20dVtkDc)
+
 
 Video guide how to use Radius ruler for **iOS**
 [![Video guide how to use Radius ruler for {% data variables.product.ios %}](/assets/images/widgets/radius_ruler_video_ios.png)](https://www.youtube.com/watch?v=C9QLQ52ndiA&t=10s)
