@@ -90,11 +90,20 @@ Winter and ski style is designed to help you navigate winter sports locations: y
 Map legend is a visual explanation of the symbols used on the map. It typically includes a sample of each symbol (point, line, or area), and a short description of what the symbol means. For example, a short segment of a blue sinuous line may be labeled 'rivers'.
 Map legend of OsmAnd maps you can find [here](https://osmand.net/help-online/map-legend/).
 
-## Map Fonts
+## Map Fonts (Android)
 
-{% data reusables.general.article-not-complete %}
+The spelling of local names in simplified / traditional chinese, japanese, korean languages ([Map language](https://docs.osmand.net/en/main@latest/osmand/map/vector-maps#map-language)) occurs in erroneous hieroglyphs or even in squares. This happens when the device does not support the required fonts. To do this, OsmAnd for Android has the ability to download the necessary fonts for download.
 
-Download map fonts for chinese, japanese, korean & arabic maps.
+Download map fonts for simplified / traditional chinese, japanese, korean maps:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.other_menu_group %} → {% data variables.android-values.other_menu_group %} → {% data variables.android-values.fonts_header %}
+
+![Map fonts Android version](/assets/images/map/map_fonts.png)
+
+Correct spelling of geographic names for japanese language:
+
+![Map fonts version](/assets/images/map/map_fonts_1.png)
+
 
 
 ## Contour Lines
