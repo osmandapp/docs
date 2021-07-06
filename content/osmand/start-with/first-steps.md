@@ -80,6 +80,12 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 {% data reusables.general.android-ios-switcher %}
 
+{% default %}
+
+![Settings default Android](/assets/images/settings/settings_default_android.png) ![Settings default iOS](/assets/images/settings/settings_default_ios.png) 
+
+{% enddefault %}
+
 You could manage application settings as [Global settings](/osmand/personal/global-settings) or as [Profile configuration](/osmand/personal/profiles) via [Main menu](/osmand/start-with/main-menu). Application comes with predefined list of profiles which could be modified later. Each profile could be considered as a special customized map application, though by default profiles are used as special navigation modes.
 
 {% android %}
