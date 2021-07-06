@@ -90,7 +90,7 @@ You could manage application settings as [Global settings](/osmand/personal/glob
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Manage profile iOS](/assets/images/settings/manage_profile_ios.png) ![Configure profile iOS](/assets/images/settings/configure_profile_ios.png)
 
 {% endios %}
 
