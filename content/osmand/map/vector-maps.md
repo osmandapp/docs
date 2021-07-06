@@ -96,7 +96,7 @@ The spelling of local names in simplified / traditional chinese, japanese, korea
 
 Download map fonts for simplified / traditional chinese, japanese, korean maps:
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.other_menu_group %} → {% data variables.android-values.other_menu_group %} → {% data variables.android-values.fonts_header %}
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.other_menu_group %} → {% data variables.android-values.fonts_header %}
 
 ![Map fonts Android version](/assets/images/map/map_fonts.png)
 
