@@ -62,13 +62,13 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 {% android %}
 
-![Show on the map](/assets/images/settings/download_map1_android.png)
+![Show on the map](/assets/images/settings/download_map1_android.png) ![Map](/assets/images/settings/map_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Show on the map](/assets/images/settings/download_map1_ios.png)
+![Show on the map](/assets/images/settings/download_map1_ios.png) ![Map](/assets/images/settings/map_ios.png)
 
 {% endios %}
 
