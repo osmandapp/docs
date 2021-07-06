@@ -52,13 +52,13 @@ Our goal is to create a fully functional map-oriented application that could be 
 
 {% data reusables.general.android-ios-switcher %}
 
+OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to [download map](/osmand/start-with/download-maps#download---first-screen) of your region. You can select another region or skip this step and download maps later. 
+
 {% default %}
 
 ![First download Android](/assets/images/settings/download_map1_android.png) ![First download iOS](/assets/images/settings/download_map1_ios.png) 
 
 {% enddefault %}
-
-OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be proposed to [download map](/osmand/start-with/download-maps#download---first-screen) of your region. You can select another region or skip this step and download maps later. 
 
 {% android %}
 
