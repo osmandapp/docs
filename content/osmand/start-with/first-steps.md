@@ -113,7 +113,7 @@ You could manage application settings as [Global settings](/osmand/personal/glob
 
 {% default %}
 
-![Enable plugins iOS](/assets/images/settings/plugins_enable_ios.png) ![Plugin example Android](/assets/images/settings/plugins_example_android.png)
+![Enable plugins iOS](/assets/images/settings/plugins_enable_ios.png) ![Plugin example Android](/assets/images/settings/plugin_example_android.png)
 
 {% enddefault %}
 
