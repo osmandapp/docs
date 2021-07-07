@@ -56,7 +56,7 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 {% default %}
 
-![First download Android](/assets/images/settings/download_map1_android.png) ![First download iOS](/assets/images/settings/download_map1_ios.png) 
+![First download screen iOS](/assets/images/settings/download_map1_ios.png) ![Map](/assets/images/settings/map_android.png) 
 
 {% enddefault %}
 
