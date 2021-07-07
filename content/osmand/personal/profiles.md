@@ -5,6 +5,14 @@ versions: '*'
 ---
 
 {% data reusables.general.article-not-complete %}
+Settings for Applicatin Profiles
+
+## General settings
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.general_settings_2 %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.rapp_mode_default %} or any other profile that has been set before  → {% data variables.ios-values.configure_profile %} → {% data variables.ios-values.shared_string_enabled%} turn on or off
+
 
 
 ## Profile types
