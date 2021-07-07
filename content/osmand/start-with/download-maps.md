@@ -61,7 +61,7 @@ There is a possibility to download created by yourself (in OsmAnd Map Creator) m
 
 ## Type of maps
 
-You can download several types of maps: Standard, Roads-only (lightweight maps without details i.e. buildings, Android), [Coutour lines](/osmand/map/vector-maps#contour-lines), [Hillshades](/osmand/map/raster-maps#hillshade--slope), [Slopes](/osmand/map/raster-maps#hillshade--slope), [Wikipedia](/osmand/plugins/wikipedia), [Travel guides (Wikivoyage)](/osmand/plan-route/travel-guides), [Nautical maps](/osmand/map/nautical-charts), [Voice packages](/osmand/navigation/voice-navigation), [Map fonts](/osmand/map/vector-maps#map-fonts), [Altitude correction (Android)](/osmand/widgets/info-widgets#altitude).
+You can download several types of maps: Standard, Roads-only (lightweight maps without details i.e. buildings, Android), [Coutour lines](/osmand/map/vector-maps#contour-lines), [Hillshades](/osmand/map/raster-maps#hillshade--slope), [Slopes](/osmand/map/raster-maps#hillshade--slope), [Wikipedia](/osmand/plugins/wikipedia), [Travel guides (Wikivoyage)](/osmand/plan-route/travel-guides), [Nautical maps](/osmand/map/nautical-charts), [Voice packages](/osmand/navigation/voice-navigation), [Map fonts](/osmand/map/vector-maps#map-fonts-android), [Altitude correction (Android)](/osmand/widgets/info-widgets#altitude).
 
 **[Read more](/osmand/personal/maps#type-of-maps)**.
 
