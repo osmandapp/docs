@@ -226,13 +226,13 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 
 {% android %}
 
-![Plan route](/assets/images/settings/plan_route_android.png) ![Plan route graph Android](/assets/images/settings/plan_route_graph_android.png)
+![Plan route Android](/assets/images/settings/plan_route_android.png) ![Plan route graph Android](/assets/images/settings/plan_route_graph_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Plan route iOS](/assets/images/settings/plan_route_ios.png)
 
 {% endios %}
 
@@ -274,7 +274,7 @@ The [navigation](/osmand/navigation) functionality guides you to your destinatio
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Navigation iOS](/assets/images/settings/navigation_ios.png)
 
 {% endios %}
 
@@ -314,7 +314,7 @@ OsmAnd powered by OpenStreetMap data. The maps are created by volunteer contribu
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![OSM note iOS](/assets/images/settings/osm_note_ios.png)
 
 {% endios %}
 
