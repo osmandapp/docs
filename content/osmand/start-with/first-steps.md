@@ -146,13 +146,13 @@ Map is a core element of OsmAnd and it's important to know [how to use it](/osma
 
 {% android %}
 
-![Configure map](/assets/images/settings/configure_map_menu_android.png) 
+![Configure map Android](/assets/images/settings/configure_map_menu_android.png) 
 
 {% endandroid %}
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Configure map iOS](/assets/images/settings/configure_map_menu_ios.png)
 
 {% endios %}
 
@@ -172,7 +172,7 @@ Map is a core element of OsmAnd and it's important to know [how to use it](/osma
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Configure screen iOS](/assets/images/settings/configure_screen_ios.png)
 
 {% endios %}
 
@@ -246,13 +246,13 @@ In the OsmAnd you can find any address, place and object that has been marked on
 
 {% android %}
 
-![Address search Android](/assets/images/settings/address_search_android.png)
+![Address search Android](/assets/images/settings/address_search_android.png) ![Search result Android](/assets/images/settings/address_search_result_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Address search iOS](/assets/images/settings/address_search_ios.png) ![Search result iOS](/assets/images/settings/address_search_result_ios.png)
 
 {% endios %}
 
