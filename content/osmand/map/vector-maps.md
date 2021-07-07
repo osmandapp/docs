@@ -92,17 +92,13 @@ Map legend of OsmAnd maps you can find [here](https://osmand.net/help-online/map
 
 ## Map Fonts (Android)
 
-The spelling of local names in simplified / traditional chinese, japanese, korean languages ([Map language](https://docs.osmand.net/en/main@latest/osmand/map/vector-maps#map-language)) occurs in erroneous hieroglyphs or even in squares. This happens when the device does not support the required fonts. To do this, OsmAnd for Android has the ability to download the necessary fonts for download.
+The spelling of local names in simplified / traditional chinese, japanese, korean languages ([Map language](https://docs.osmand.net/en/main@latest/osmand/map/vector-maps#map-language)) could be shown in erroneous hieroglyphs or even in squares. This happens when the device does not support the required fonts. Some issues with these incorrect fonts on our Github page: [3911](https://github.com/osmandapp/OsmAnd/issues/3911), [8187](https://github.com/osmandapp/OsmAnd/issues/8187), [9400](https://github.com/osmandapp/OsmAnd/issues/9400), [10862](https://github.com/osmandapp/OsmAnd/issues/10862). To do this, OsmAnd for Android has the ability to download the necessary fonts for download.
 
 Download map fonts for simplified / traditional chinese, japanese, korean maps:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.other_menu_group %} → {% data variables.android-values.fonts_header %}
 
-![Map fonts Android version](/assets/images/map/map_fonts.png)
-
-Correct spelling of geographic names for japanese language:
-
-![Map fonts version](/assets/images/map/map_fonts_1.png)
+![Map fonts Android version](/assets/images/map/map_fonts.png) ![Map fonts version](/assets/images/map/map_fonts_1.png)
 
 
 
