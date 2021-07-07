@@ -84,7 +84,7 @@ You could manage application settings as [Global settings](/osmand/personal/glob
 
 {% default %}
 
-![Settings default Android](/assets/images/settings/settings_default_android.png) ![Settings default iOS](/assets/images/settings/settings_default_ios.png) 
+![Manage profile iOS](/assets/images/settings/manage_profile_ios.png) ![Configure profile Android](/assets/images/settings/configure_profile_android.png)
 
 {% enddefault %}
 
