@@ -109,15 +109,23 @@ You could manage application settings as [Global settings](/osmand/personal/glob
 
 [Plugins](/osmand/plugins) allow greatly to extend application functionality. Plugins could be internal (provided inside OsmAnd) or external (separate installed applications). 3rd party plugins work via [OsmAnd API](/development/build-osmand/osmand-api) and get access to OsmAnd information, you could always review / enable / disable plugins via [Main menu](/osmand/start-with/main-menu) → Plugins. Each plugin could have own [Map Actions](/osmand/map/map-context-menu), [Map Layers](/osmand/map/configure-map-menu), [Map Downloads](/osmand/start-with/download-maps) and Settings.
 
+{% data reusables.general.article-not-complete %}
+
+{% default %}
+
+![Enable plugins iOS](/assets/images/settings/plugins_enable_ios.png) ![Plugin example Android](/assets/images/settings/plugins_example_android.png)
+
+{% enddefault %}
+
 {% android %}
 
-![Enable plugins Android](/assets/images/settings/plugins_enable_android.png)
+![Enable plugins Android](/assets/images/settings/plugins_enable_android.png) ![Plugin example Android](/assets/images/settings/plugins_example_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Enable plugins iOS](/assets/images/settings/plugins_enable_ios.png)
+![Enable plugins iOS](/assets/images/settings/plugins_enable_ios.png) ![Plugin example iOS](/assets/images/settings/plugins_example_ios.png)
 
 {% endios %}
 
