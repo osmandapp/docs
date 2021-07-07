@@ -119,13 +119,13 @@ You could manage application settings as [Global settings](/osmand/personal/glob
 
 {% android %}
 
-![Enable plugins Android](/assets/images/settings/plugins_enable_android.png) ![Plugin example Android](/assets/images/settings/plugins_example_android.png)
+![Enable plugins Android](/assets/images/settings/plugins_enable_android.png) ![Plugin example Android](/assets/images/settings/plugin_example_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Enable plugins iOS](/assets/images/settings/plugins_enable_ios.png) ![Plugin example iOS](/assets/images/settings/plugins_example_ios.png)
+![Enable plugins iOS](/assets/images/settings/plugins_enable_ios.png) ![Plugin example iOS](/assets/images/settings/plugin_example_ios.png)
 
 {% endios %}
 
