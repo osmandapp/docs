@@ -60,9 +60,46 @@ Settings for Applicatin Profiles:
 
 Not for Browse profile
 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %}
+
+![Profiles Navigation Settings Android](/assets/images/personal/profiles/profile_navigation_settings_android.png) ![Profiles Navigation Settings iOS](/assets/images/personal/profiles/profile_navigation_settings_ios.png)
+
+### Navigation
+
+- {% data variables.android-values.nav_type_hint %} - link
+- {% data variables.android-values.route_parameters %} - link
+- {% data variables.android-values.screen_alerts %} - [link](https://docs.osmand.net/en/main@latest/osmand/widgets/nav-widgets#alert-widget)
+- {% data variables.android-values.voice_announcements %} - link
+- {% data variables.android-values.vehicle_parameters %} - link
+
+### Other
+
+- {% data variables.android-values.map_during_navigation %} - link
+- {% data variables.android-values.animate_my_location %}(Android) - description
+
 ## Configure map
 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.configure_map %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.configure_map %}
+
+Set parameters for [Configure map](/osmand/map/configure-map-menu) menu for chosen profile.
+[LINK](/osmand/map/configure-map-menu)
+
+![Profiles Configure map Settings Android](/assets/images/personal/profiles/profile_configure_map_settings_android.png) ![Profiles Configure map Settings iOS](/assets/images/personal/profiles/profile_configure_map_settings_ios.png)
+
 ## Configure screen
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.layer_map_appearance %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.layer_map_appearance %}
+
+Set parameters for [Configure screen](/osmand/widgets/configure-screen) menu for chosen profile.
+[LINK](/osmand/widgets/configure-screen)
+
+![Profiles Configure screen Settings Android](/assets/images/personal/profiles/profile_configure_screen_settings_android.png) ![Profiles Configure screen Settings iOS](/assets/images/personal/profiles/profile_configure_screen_settings_ios.png)
 
 ## Profile appearance
 
