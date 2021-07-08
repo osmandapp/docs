@@ -243,6 +243,12 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 {% data reusables.general.android-ios-switcher %}
 
 In the OsmAnd you can find any address, place and object that has been marked on the [OpenStreetMap](https://www.openstreetmap.org/). You can [search](/osmand/search/search-address) by the name of the city, postcode and coordinates. 
+{% default %}
+
+![Address search Android](/assets/images/settings/address_search_android.png) ![Address search example](/assets/images/settings/address_search_example_android.png.png) 
+
+{% enddefault %}
+
 
 {% android %}
 
