@@ -109,11 +109,9 @@ You could manage application settings as [Global settings](/osmand/personal/glob
 
 [Plugins](/osmand/plugins) allow greatly to extend application functionality. Plugins could be internal (provided inside OsmAnd) or external (separate installed applications). 3rd party plugins work via [OsmAnd API](/development/build-osmand/osmand-api) and get access to OsmAnd information, you could always review / enable / disable plugins via [Main menu](/osmand/start-with/main-menu) → Plugins. Each plugin could have own [Map Actions](/osmand/map/map-context-menu), [Map Layers](/osmand/map/configure-map-menu), [Map Downloads](/osmand/start-with/download-maps) and Settings.
 
-{% data reusables.general.article-not-complete %}
-
 {% default %}
 
-![Enable plugins iOS](/assets/images/settings/plugins_enable_ios.png) ![Plugin example Android](/assets/images/settings/plugin_example_android.png)
+![Enable plugins Android](/assets/images/settings/plugins_enable_android.png) ![Plugin example Android](/assets/images/settings/plugin_example_android.png)
 
 {% enddefault %}
 
@@ -144,15 +142,21 @@ Enable / disable plugins:
 
 Map is a core element of OsmAnd and it's important to know [how to use it](/osmand/map/interact-with-map) (gestures, buttons, etc). You could [configure map](/osmand/map/configure-map-menu) to your needs: [change map style](/osmand/map/configure-map-menu#map-style-parameters), configure different [map layers](/osmand/map/configure-map-menu#map-layers) such as favorites, poi, public transport, tracks, contour lines, hillshade and others.
 
+{% default %}
+
+![Configure map Android](/assets/images/settings/configure_map_menu_android.png) ![Configure map example iOS](/assets/images/settings/configure_map_example_ios.png)
+
+{% enddefault %}
+
 {% android %}
 
-![Configure map Android](/assets/images/settings/configure_map_menu_android.png) 
+![Configure map Android](/assets/images/settings/configure_map_menu_android.png) ![Configure map example Android](/assets/images/settings/configure_map_example_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Configure map iOS](/assets/images/settings/configure_map_menu_ios.png)
+![Configure map iOS](/assets/images/settings/configure_map_menu_ios.png) ![Configure map example iOS](/assets/images/settings/configure_map_example_ios.png)
 
 {% endios %}
 
@@ -164,15 +168,21 @@ Map is a core element of OsmAnd and it's important to know [how to use it](/osma
 
 [Configure screen](/osmand/widgets/configure-screen) allows you to enable [Informational](/osmand/widgets/info-widgets) (altitude, speed, current time, etc.) & [Navigational](/osmand/widgets/nav-widgets) (distanation, bearing, arrival time, etc.) widgets, [Quick action](/osmand/widgets/quick-action) and other elements that will be displayed over Map.
 
+{% default %}
+
+![Configure screen Android](/assets/images/widgets/configure_screen_android.png) ![Configure screen example iOS](/assets/images/widgets/configure_screen_example_ios.png)
+
+{% enddefault %}
+
 {% android %}
 
-![Configure screen Android](/assets/images/widgets/configure_screen_android.png)
+![Configure screen Android](/assets/images/widgets/configure_screen_android.png) ![Configure screen example Android](/assets/images/widgets/configure_screen_example_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Configure screen iOS](/assets/images/settings/configure_screen_ios.png)
+![Configure screen iOS](/assets/images/settings/configure_screen_ios.png) ![Configure screen example iOS](/assets/images/widgets/configure_screen_example_ios.png)
 
 {% endios %}
 
