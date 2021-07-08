@@ -214,6 +214,12 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 
 [Points of interest (POI)](https://wiki.openstreetmap.org/wiki/Map_features#Amenity) are specific points highlighted with an icon on the map. They represent interesting or useful places & objects and they are part of [Vector Maps](/osmand/map/vector-maps). You can use them to display, [navigate](/osmand/navigation) and [search](/osmand/search/search-poi) the points of interest on the Map.
 
+{% default %}
+
+![Multiple POI Selection](/assets/images/map/multiple_selection_android.png) ![POI on the map](/assets/images/settings/poi_on_the_map.png)
+
+{% enddefault %}
+
 {% android %}
 
 ![Multiple POI Selection](/assets/images/map/multiple_selection_android.png) ![Search and display POI Android](/assets/images/map/search_display_poi_android.png)
@@ -233,6 +239,12 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 {% data reusables.general.android-ios-switcher %}
 
 [Plan route](/osmand/plan-route/create-route) is an additional tool that helps you to measure distance on the map, plan your trip and save it as a gpx file,  and edit exists track. 
+
+{% default %}
+
+![Plan route iOS](/assets/images/settings/plan_route_ios.png) ![Plan route graph Android](/assets/images/settings/plan_route_graph_android.png)
+
+{% enddefault %}
 
 {% android %}
 
