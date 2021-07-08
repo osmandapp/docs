@@ -186,13 +186,13 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 
 {% android %}
 
-![Add personal data](/assets/images/settings/personal_data_android.png)
+![Add personal data Andoroid](/assets/images/settings/personal_data_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Add personal data iOS](/assets/images/settings/personal_data_ios.png)
 
 {% endios %}
 
@@ -294,7 +294,7 @@ The [navigation](/osmand/navigation) functionality guides you to your destinatio
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Trip recording iOS](/assets/images/settings/trip_recording_ios.png)
 
 {% endios %}
 
