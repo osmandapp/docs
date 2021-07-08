@@ -103,6 +103,37 @@ Set parameters for [Configure screen](/osmand/widgets/configure-screen) menu for
 
 ## Profile appearance
 
+Change profile appearance
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.profile_appearance %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.profile_appearance %}
+
+### Name, Color, Icon
+
+![Profile Appearance Android](/assets/images/personal/profiles/profile_appearance_settings_android.png) ![Profile Appearance iOS](/assets/images/personal/profiles/profile_appearance_settings_ios.png)
+
+- {% data variables.android-values.profile_type_osmand_string %}(Android) - link
+- {% data variables.android-values.profile_name_hint %} - 
+- {% data variables.android-values.select_color %} - 
+- {% data variables.android-values.select_icon_profile_dialog_title %} - 
+
+### Appearance on the map
+
+![Profile Appearance on the map Android](/assets/images/personal/profiles/profile_appearance_map_android.png) ![Profile Appearance on the map iOS](/assets/images/personal/profiles/profile_appearance_map_ios.png)
+
+- {% data variables.android-values.select_navigation_icon %} - 
+- {% data variables.android-values.select_map_icon %} - 
+
+### Cuztomize route line (Android)
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.profile_appearance %} → {% data variables.android-values.customize_route_line %}
+
+![Profile Appearance route line Android](/assets/images/personal/profiles/profile_appearance_route_line_android.png)
+
+- {% data variables.android-values.shared_string_color %} - 
+- {% data variables.android-values.select_track_width %} - 
+
 ## UI Customization (Android)
 
 ## Plugin settings (Android)
