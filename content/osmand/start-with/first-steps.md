@@ -292,15 +292,21 @@ The [navigation](/osmand/navigation) functionality guides you to your destinatio
 
 [Trip recording](/osmand/plugins/trip-recording) is a tool that allows to record all movements into track using phone's GPS.
 
+{% default %}
+
+![Trip recording Android](/assets/images/settings/trip_recording_android.png) ![Overview track Android](/assets/images/settings/overview_track_android.png)
+
+{% enddefault %}
+
 {% android %}
 
-![Trip recording Android](/assets/images/settings/trip_recording_android.png) ![Overview track](/assets/images/settings/overview_track_android.png)
+![Trip recording Android](/assets/images/settings/trip_recording_android.png) ![Overview track Android](/assets/images/settings/overview_track_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Trip recording iOS](/assets/images/settings/trip_recording_ios.png)
+![Trip recording iOS](/assets/images/settings/trip_recording_ios.png) ![Overview track iOS](/assets/images/settings/overview_track_ios.png)
 
 {% endios %}
 
