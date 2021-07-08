@@ -170,19 +170,19 @@ Map is a core element of OsmAnd and it's important to know [how to use it](/osma
 
 {% default %}
 
-![Configure screen Android](/assets/images/widgets/configure_screen_android.png) ![Configure screen example iOS](/assets/images/widgets/configure_screen_example_ios.png)
+![Configure screen Android](/assets/images/widgets/configure_screen_android.png) ![Configure screen example iOS](/assets/images/settings/configure_screen_example_ios.png)
 
 {% enddefault %}
 
 {% android %}
 
-![Configure screen Android](/assets/images/widgets/configure_screen_android.png) ![Configure screen example Android](/assets/images/widgets/configure_screen_example_android.png)
+![Configure screen Android](/assets/images/widgets/configure_screen_android.png) ![Configure screen example Android](/assets/images/settings/configure_screen_example_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Configure screen iOS](/assets/images/settings/configure_screen_ios.png) ![Configure screen example iOS](/assets/images/widgets/configure_screen_example_ios.png)
+![Configure screen iOS](/assets/images/settings/configure_screen_ios.png) ![Configure screen example iOS](/assets/images/settings/configure_screen_example_ios.png)
 
 {% endios %}
 
