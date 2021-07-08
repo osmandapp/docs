@@ -5,15 +5,72 @@ versions: '*'
 ---
 
 {% data reusables.general.article-not-complete %}
-Settings for Applicatin Profiles
+
+Settings for Applicatin Profiles:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile)
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %}
+
+
+![Profiles Settings Android](/assets/images/personal/profiles/profile_settings_android.png) ![Profiles Settings iOS](/assets/images/personal/profiles/profile_settings_ios.png)
 
 ## General settings
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.general_settings_2 %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.rapp_mode_default %} or any other profile that has been set before  → {% data variables.ios-values.configure_profile %} → {% data variables.ios-values.shared_string_enabled%} turn on or off
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %}
+
+![Profiles General Settings Android](/assets/images/personal/profiles/profile_gs_android.png) ![Profiles General Settings iOS](/assets/images/personal/profiles/profile_gs_ios.png)
+
+### Appearance
+
+![Profiles General Settings Appearance Android](/assets/images/personal/profiles/profile_gs_appearance_android.png) ![Profiles General Settings Apperance iOS](/assets/images/personal/profiles/profile_gs_appearance_ios.png)
+
+- {% data variables.android-values.choose_osmand_theme %}(Android) - 
+- {% data variables.android-values.rotate_map_to_bearing %} - 
+- {% data variables.android-values.always_center_position_on_map %} - 
+- {% data variables.ios-values.allow_3D_view%}(iOS) -
+- {% data variables.android-values.map_screen_orientation %}(Android) - 
+- {% data variables.android-values.screen_control %}(Android) - 
+
+### Units & formats
+
+![Profiles General Settings Units & formats Android](/assets/images/personal/profiles/profile_gs_unitsformats_android.png) ![Profiles General Settings Units & formats iOS](/assets/images/personal/profiles/profile_gs_unitsformats_ios.png)
+
+- {% data variables.android-values.driving_region %} - 
+- {% data variables.android-values.unit_of_length %} - 
+- {% data variables.android-values.coordinates_format %} - 
+- {% data variables.android-values.angular_measeurement %} - 
+- {% data variables.android-values.default_speed_system %} - 
+
+### Other
+
+![Profiles General Settings Other Android](/assets/images/personal/profiles/profile_gs_other_android.png) ![Profiles General Settings Other iOS](/assets/images/personal/profiles/profile_gs_unitsformats_ios.png)
+
+- {% data variables.android-values.external_input_device %} - {% data variables.android-values.sett_wunderlinq_ext_input %}, {% data variables.android-values.sett_generic_ext_input %}, {% data variables.android-values.sett_parrot_ext_input %}(Android).
+- {% data variables.android-values.use_volume_buttons_as_zoom %}(Android) -  
+- {% data variables.android-values.use_kalman_filter_compass %}(Android) -  
+- {% data variables.android-values.use_magnetic_sensor %}(Android) -  
+- {% data variables.android-values.tap_on_map_to_hide_interface %}(Android) -  
+- {% data variables.android-values.do_not_use_animations %}(Android) -  
 
 
+## Navigation settings
+
+Not for Browse profile
+
+## Configure map
+
+## Configure screen
+
+## Profile appearance
+
+## UI Customization (Android)
+
+## Plugin settings (Android)
+
+## Actions
 
 ## Profile types
 
