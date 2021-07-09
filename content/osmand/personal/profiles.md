@@ -131,14 +131,48 @@ Change profile appearance
 
 ![Profile Appearance route line Android](/assets/images/personal/profiles/profile_appearance_route_line_android.png)
 
-- {% data variables.android-values.shared_string_color %} - 
+- {% data variables.android-values.shared_string_color %} - 0
 - {% data variables.android-values.select_track_width %} - 
+
 
 ## UI Customization (Android)
 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.ui_customization %}
+
+### Drawer
+
+### Configure map
+
+### Context menu actions
+
+
 ## Plugin settings (Android)
 
+Settings of plugin for chosen profile
+[Link to Plugins](https://docs.osmand.net/en/main@latest/osmand/plugins)
+
+### Trip recording
+
+link
+
+### Audio / Video notes
+
+### OpenStreetMap editing
+
+### OpenPlaceReviews
+
+### Accesibility
+
+### OsmAnd developmnet
+
 ## Actions
+
+- {% data variables.android-values.export_profile %}
+- {% data variables.android-values.copy_from_other_profile %}
+- {% data variables.android-values.map_widget_reset %}
+- {% data variables.android-values.profile_alert_delete_title %}
+
+
 
 ## Profile types
 
