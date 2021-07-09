@@ -56,7 +56,7 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 {% default %}
 
-![First download Android](/assets/images/settings/download_map1_android.png) ![First download iOS](/assets/images/settings/download_map1_ios.png) 
+![First download screen iOS](/assets/images/settings/download_map1_ios.png) ![Map](/assets/images/settings/map_android.png) 
 
 {% enddefault %}
 
@@ -84,7 +84,7 @@ You could manage application settings as [Global settings](/osmand/personal/glob
 
 {% default %}
 
-![Settings default Android](/assets/images/settings/settings_default_android.png) ![Settings default iOS](/assets/images/settings/settings_default_ios.png) 
+![Manage profile iOS](/assets/images/settings/manage_profile_ios.png) ![Configure profile Android](/assets/images/settings/configure_profile_android.png)
 
 {% enddefault %}
 
@@ -109,15 +109,21 @@ You could manage application settings as [Global settings](/osmand/personal/glob
 
 [Plugins](/osmand/plugins) allow greatly to extend application functionality. Plugins could be internal (provided inside OsmAnd) or external (separate installed applications). 3rd party plugins work via [OsmAnd API](/development/build-osmand/osmand-api) and get access to OsmAnd information, you could always review / enable / disable plugins via [Main menu](/osmand/start-with/main-menu) → Plugins. Each plugin could have own [Map Actions](/osmand/map/map-context-menu), [Map Layers](/osmand/map/configure-map-menu), [Map Downloads](/osmand/start-with/download-maps) and Settings.
 
+{% default %}
+
+![Enable plugins Android](/assets/images/settings/plugins_enable_android.png) ![Plugin example Android](/assets/images/settings/plugin_example_android.png)
+
+{% enddefault %}
+
 {% android %}
 
-![Enable plugins Android](/assets/images/settings/plugins_enable_android.png)
+![Enable plugins Android](/assets/images/settings/plugins_enable_android.png) ![Plugin example Android](/assets/images/settings/plugin_example_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Enable plugins iOS](/assets/images/settings/plugins_enable_ios.png)
+![Enable plugins iOS](/assets/images/settings/plugins_enable_ios.png) ![Plugin example iOS](/assets/images/settings/plugin_example_ios.png)
 
 {% endios %}
 
@@ -136,15 +142,21 @@ Enable / disable plugins:
 
 Map is a core element of OsmAnd and it's important to know [how to use it](/osmand/map/interact-with-map) (gestures, buttons, etc). You could [configure map](/osmand/map/configure-map-menu) to your needs: [change map style](/osmand/map/configure-map-menu#map-style-parameters), configure different [map layers](/osmand/map/configure-map-menu#map-layers) such as favorites, poi, public transport, tracks, contour lines, hillshade and others.
 
+{% default %}
+
+![Configure map Android](/assets/images/settings/configure_map_menu_android.png) ![Configure map example iOS](/assets/images/settings/configure_map_example_ios.png)
+
+{% enddefault %}
+
 {% android %}
 
-![Configure map](/assets/images/settings/configure_map_menu_android.png) 
+![Configure map Android](/assets/images/settings/configure_map_menu_android.png) ![Configure map example Android](/assets/images/settings/configure_map_example_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Configure map iOS](/assets/images/settings/configure_map_menu_ios.png) ![Configure map example iOS](/assets/images/settings/configure_map_example_ios.png)
 
 {% endios %}
 
@@ -156,15 +168,21 @@ Map is a core element of OsmAnd and it's important to know [how to use it](/osma
 
 [Configure screen](/osmand/widgets/configure-screen) allows you to enable [Informational](/osmand/widgets/info-widgets) (altitude, speed, current time, etc.) & [Navigational](/osmand/widgets/nav-widgets) (distanation, bearing, arrival time, etc.) widgets, [Quick action](/osmand/widgets/quick-action) and other elements that will be displayed over Map.
 
+{% default %}
+
+![Configure screen Android](/assets/images/widgets/configure_screen_android.png) ![Configure screen example iOS](/assets/images/settings/configure_screen_example_ios.png)
+
+{% enddefault %}
+
 {% android %}
 
-![Configure screen Android](/assets/images/widgets/configure_screen_android.png)
+![Configure screen Android](/assets/images/widgets/configure_screen_android.png) ![Configure screen example Android](/assets/images/settings/configure_screen_example_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Configure screen iOS](/assets/images/settings/configure_screen_ios.png) ![Configure screen example iOS](/assets/images/settings/configure_screen_example_ios.png)
 
 {% endios %}
 
@@ -178,13 +196,13 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 
 {% android %}
 
-![Add personal data](/assets/images/settings/personal_data_android.png)
+![Add personal data Andoroid](/assets/images/settings/personal_data_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Add personal data iOS](/assets/images/settings/personal_data_ios.png)
 
 {% endios %}
 
@@ -195,6 +213,12 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 {% data reusables.general.android-ios-switcher %}
 
 [Points of interest (POI)](https://wiki.openstreetmap.org/wiki/Map_features#Amenity) are specific points highlighted with an icon on the map. They represent interesting or useful places & objects and they are part of [Vector Maps](/osmand/map/vector-maps). You can use them to display, [navigate](/osmand/navigation) and [search](/osmand/search/search-poi) the points of interest on the Map.
+
+{% default %}
+
+![Multiple POI Selection](/assets/images/map/multiple_selection_android.png) ![POI on the map](/assets/images/settings/poi_on_the_map.png)
+
+{% enddefault %}
 
 {% android %}
 
@@ -216,15 +240,21 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 
 [Plan route](/osmand/plan-route/create-route) is an additional tool that helps you to measure distance on the map, plan your trip and save it as a gpx file,  and edit exists track. 
 
+{% default %}
+
+![Plan route iOS](/assets/images/settings/plan_route_ios.png) ![Plan route graph Android](/assets/images/settings/plan_route_graph_android.png)
+
+{% enddefault %}
+
 {% android %}
 
-![Plan route](/assets/images/settings/plan_route_android.png) ![Plan route graph Android](/assets/images/settings/plan_route_graph_android.png)
+![Plan route Android](/assets/images/settings/plan_route_android.png) ![Plan route graph Android](/assets/images/settings/plan_route_graph_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Plan route iOS](/assets/images/settings/plan_route_ios.png)
 
 {% endios %}
 
@@ -235,16 +265,22 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 {% data reusables.general.android-ios-switcher %}
 
 In the OsmAnd you can find any address, place and object that has been marked on the [OpenStreetMap](https://www.openstreetmap.org/). You can [search](/osmand/search/search-address) by the name of the city, postcode and coordinates. 
+{% default %}
+
+![Address search Android](/assets/images/settings/address_search_android.png) ![Address search example](/assets/images/settings/address_search_example_android.png) 
+
+{% enddefault %}
+
 
 {% android %}
 
-![Address search Android](/assets/images/settings/address_search_android.png)
+![Address search Android](/assets/images/settings/address_search_android.png) ![Search result Android](/assets/images/settings/address_search_result_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Address search iOS](/assets/images/settings/address_search_ios.png) ![Search result iOS](/assets/images/settings/address_search_result_ios.png)
 
 {% endios %}
 
@@ -266,7 +302,7 @@ The [navigation](/osmand/navigation) functionality guides you to your destinatio
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Navigation iOS](/assets/images/settings/navigation_ios.png)
 
 {% endios %}
 
@@ -278,15 +314,21 @@ The [navigation](/osmand/navigation) functionality guides you to your destinatio
 
 [Trip recording](/osmand/plugins/trip-recording) is a tool that allows to record all movements into track using phone's GPS.
 
+{% default %}
+
+![Trip recording Android](/assets/images/settings/trip_recording_android.png) ![Overview track Android](/assets/images/settings/overview_track_android.png)
+
+{% enddefault %}
+
 {% android %}
 
-![Trip recording Android](/assets/images/settings/trip_recording_android.png) ![Overview track](/assets/images/settings/overview_track_android.png)
+![Trip recording Android](/assets/images/settings/trip_recording_android.png) ![Overview track Android](/assets/images/settings/overview_track_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![Trip recording iOS](/assets/images/settings/trip_recording_ios.png) ![Overview track iOS](/assets/images/settings/overview_track_ios.png)
 
 {% endios %}
 
@@ -306,7 +348,7 @@ OsmAnd powered by OpenStreetMap data. The maps are created by volunteer contribu
 
 {% ios %}
 
-![Settings iOS](screenshot)
+![OSM note iOS](/assets/images/settings/osm_note_ios.png)
 
 {% endios %}
 
