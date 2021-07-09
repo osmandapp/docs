@@ -194,6 +194,12 @@ Map is a core element of OsmAnd and it's important to know [how to use it](/osma
 
 OsmAnd allows you to make a different mark on the Map for your personal use. It could be [Favorite](/osmand/personal/favorites) points, [Markers](/osmand/personal/markers), [Audio/Video notes](/osmand/plugins/audio-video-notes) (Android only), [track recording](/osmand/plugins/trip-recording).
 
+{% default %}
+
+![Add personal data Andoroid](/assets/images/settings/personal_data_android.png) ![Add personal data iOS](/assets/images/settings/personal_data_ios.png)
+
+{% enddefault %}
+
 {% android %}
 
 ![Add personal data Andoroid](/assets/images/settings/personal_data_android.png)
