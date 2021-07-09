@@ -330,5 +330,3 @@ OsmAnd doesn't have any required permissions on iOS / Android version.
 ## Troubleshooting
 
 If you have a specific question, please check [Troubleshooting](/osmand/troubleshooting) to have it answered.
-
-
