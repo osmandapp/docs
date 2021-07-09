@@ -139,12 +139,45 @@ Change profile appearance
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.ui_customization %}
 
+Turn off unused [plugins](/osmand/personal/profiles#plugin-settings-android) for hide all their controls.
+
+![Profile UI Customization Android](/assets/images/personal/profiles/profile_ui_customization_android.png)
+
 ### Drawer
+
+Reorder or hide items from the Drawer. 
+Button:
+- minus
+- reset
+- move
+
+![Profile UI Customization Drawer Android](/assets/images/personal/profiles/profile_ui_customization_drawer_android.png) ![Profile UI Customization Drawer 1 Android](/assets/images/personal/profiles/profile_ui_customization_drawer_1_android.png)
+
+- {% data variables.android-values.reset_to_default %} - 
+- {% data variables.android-values.copy_from_other_profile %} - 
 
 ### Configure map
 
+Reorder or hide items from the [Configur map](/osmand/map/configure-map-menu).
+Button:
+- minus
+- reset
+- move
+
+![Profile UI Customization Configure map Android](/assets/images/personal/profiles/profile_ui_customization_configure_map_android.png) ![Profile UI Customization Configure map 1 Android](/assets/images/personal/profiles/profile_ui_customization_configure_map_1_android.png)
+
+- {% data variables.android-values.reset_to_default %} - 
+- {% data variables.android-values.copy_from_other_profile %} - 
+
 ### Context menu actions
 
+Reorder or hide items from the [Context menu actions](/osmand/map/map-context-menu).
+Button:
+- minus
+- reset
+- move
+- 
+![Profile UI Customization Context menu Android](/assets/images/personal/profiles/profile_ui_customization_context_menu_android.png) ![Profile UI Customization Context menu 1 Android](/assets/images/personal/profiles/profile_ui_customization_context_menu_1_android.png)
 
 ## Plugin settings (Android)
 
@@ -166,6 +199,8 @@ link
 ### OsmAnd developmnet
 
 ## Actions
+
+![Profiles Actions Settings Android](/assets/images/personal/profiles/profile_actions_settings_android.png) ![Profiles Actions Settings iOS](/assets/images/personal/profiles/profile_actions_settings_ios.png)
 
 - {% data variables.android-values.export_profile %}
 - {% data variables.android-values.copy_from_other_profile %}
