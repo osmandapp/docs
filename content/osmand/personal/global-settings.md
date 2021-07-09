@@ -6,9 +6,13 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
+## Global settings
+
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.osmand_settings %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.osmand_settings %}
+
+![Profiles General Settings Android](/assets/images/personal/profiles/general_settings_android.png) ![Profiles General Settings iOS](/assets/images/personal/profiles/general_settings_ios.png)
 
 - {% data variables.android-values.settings_preset %} - select the profile, that will be used on application start.
 - CarPlay profile(iOS) - 
@@ -17,3 +21,7 @@ versions: '*'
 - {% data variables.android-values.dialogs_and_notifications_title %}(Android) and {% data variables.ios-values.do_not_show_discount %}(iOS) - control popups, dialogs and notifications. Add for ANDROID (start-up message and download map dialog).
 - {% data variables.android-values.proxy_pref_title %}(Android) - configure an HTTP proxy for all network requests.
 - {% data variables.android-values.uninstall_speed_cameras %}(Android) - link to speed limit widget (settings).
+
+### Data storage folder (Android)
+
+![Profiles Storage Settings Android](/assets/images/personal/profiles/general_settings_storage_android.png) ![Profiles Storage Settings 1 Android](/assets/images/personal/profiles/general_settings_storage_1_android.png)
