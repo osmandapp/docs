@@ -118,38 +118,43 @@ Allows sharing current location using trip recording.
 - 'Copy from another profile' - copies plugin settings from another profile.
 
 
-# From widget
- Before recording the trip a Trip recording settings to be defined. Trip recording settings menu is displayed when user clicks on the REC widget. <br>
+## From widget
+ Before recording the trip a Trip recording settings to be defined. Trip recording settings menu is displayed when user clicks on [the REC widget](/osmand/widgets/info-widgets#-trip-recording-widget). 
 
-![Trip recording (REC) Settings](/assets/images/plugins/trip-recording/rec_settings.png)
+![Trip recording (REC) Settings Android](/assets/images/plugins/trip-recording/rec_settings_android.png) ![Trip recording (REC) Settings iOS](/assets/images/plugins/trip-recording/rec_settings_ios.png)
 
-In the REC settings menu user can enable 'Show track' on the map feature and configure the style of the track line (for Android only). <br>
+### Settings menu (Android)
 
-The 'Line configuration button' (for Android only) next to the toggle button 'Show track on the map' switcher gives the user an opportunity to change track appearance. User may change the color, width and enable/disable direction arrows, enable show start and finish icons. <br>
+In the REC settings menu user can enable 'Show track' on the map feature and configure the style of the track line (for Android only). 
 
-Optionally, user can configure Custom width by moving slider from 1 to 24. <br>
+The 'Line configuration button' (for Android only) next to the toggle button 'Show track on the map' switcher gives the user an opportunity to change track appearance. User may change the color, width and enable/disable direction arrows, enable show start and finish icons. 
+
+Optionally, user can configure Custom width by moving slider from 1 to 24. 
 
 
-![Trip recording Appearence](/assets/images/plugins/trip-recording/appearance_trip_recording.png)
+![Trip recording Appearence Android](/assets/images/plugins/trip-recording/appearance_trip_recording_android.png)
 
-In the REC Settings menu user can configure the logging interval from 0 seconds to 5 minutes. <br>
+In the REC Settings menu user can configure the logging interval from 0 seconds to 5 minutes. 
 The Logging interval controls the frequency of queries to the GPS sensor along with frequency of new dots appearing in the track line. <br>
 
-![Logging interval in Trip recording Appearence](/assets/images/plugins/trip-recording/logging_interval_in_tr_widget.png)
+![Logging interval in Trip recording Appearence Android](/assets/images/plugins/trip-recording/logging_interval_in_tr_widget_android.png)
 
 If a user wants to apply all configurations to all others tracks recorded in future, the toggle button (switcher) ‘Always ask’ should be off. Please leave this switcher in 'on' position to be able to configure tracks individually. <br>
 When all settings are defined, user can push the ‘Start recording’ button.
 
 
-The Logging interval can be additionally checked/ changed in: <br>
-{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.shared_string_trip_recording %} → {% data variables.android-values.save_track_interval %}. <br>
- Menu – Configure profile – Trip recording – Logging interval during navigation <br>
+The Logging interval can be additionally checked/ changed in: 
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.shared_string_trip_recording %} → {% data variables.android-values.save_track_interval %}. 
+
 
 When all settings are configured, press ‘Start recording’ button.
 ***For Android devices*** the REC widget will change to the red circle.  The distance passed will be displayed in the widget.  
-![REC widget](/assets/images/plugins/trip-recording/rec_widget.png)
+![REC widget Android](/assets/images/plugins/trip-recording/rec_widget_android.png)
 
 To tap REC widget again will give an opportunity  to:
+
+![REC widget info Android](/assets/images/plugins/trip-recording/rec_widget_info_android.png)
+
 * See all general information about the track: distance, ascent, descent, average speed, maximum speed, time span. This panel can  be scrolled by the user right and back.
 * Enable 'Show track' on the map feature and configure the style of the track line.
 * Clear recorded data
@@ -159,7 +164,14 @@ To tap REC widget again will give an opportunity  to:
 
 User can find his track in {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} →  tab {% data variables.android-values.shared_string_gpx_files %} <br>
 
+### Settings menu (iOS)
+
+![REC widget iOS](/assets/images/plugins/trip-recording/rec_widget_ios.png)
+
 ***For IOS devices*** when the REC widget will change to the red circle, the  distance passed will be displayed in the widget.
+
+![REC widget menu iOS](/assets/images/plugins/trip-recording/rec_widget_menu_ios.png)
+
 To tap REC widget again will give an opportunity  to:
 * Stop recording - will pause The trip recording. Then pressing the widget again will give and options to 'Continue recording'
 * Show Info - will display statistics data such as speed, route time, uphills/downhills
