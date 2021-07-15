@@ -22,6 +22,8 @@ _________________
 
 ## Import
 
+Click to OSF-file.
+
 ![Profiles Actions Import Android](/assets/images/personal/profiles/profile_actions_import_android.png) ![Profiles Actions Import iOS](/assets/images/personal/profiles/profile_actions_import_ios.png)
 ________
 
