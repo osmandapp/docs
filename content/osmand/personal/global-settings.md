@@ -25,7 +25,7 @@ versions: '*'
 
 ### Data storage folder (Android)
 
-![Profiles Storage Settings Android](/assets/images/personal/profiles/general_settings_storage_android.png) ![Profiles Storage Settings 1 Android](/assets/images/personal/profiles/general_settings_dialogs_android_1.png)
+![Profiles Storage Settings Android](/assets/images/personal/profiles/general_settings_storage_android.png) ![Profiles Storage Settings 1 Android](/assets/images/personal/profiles/general_settings_storage_1_android.png)
 
 ### Dialogs and notifications
 
