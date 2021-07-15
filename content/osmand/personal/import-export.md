@@ -6,8 +6,21 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
+## Export
 
-# Reinstall 
+[Link](/osmand/personal/profiles#actions)
+
+![Profiles Actions Settings Android](/assets/images/personal/profiles/profile_actions_settings_android.png) ![Profiles Actions Settings iOS](/assets/images/personal/profiles/profile_actions_settings_ios.png)
+
+![Profiles Actions Export Android](/assets/images/personal/profiles/profile_actions_export_android.png) ![Profiles Actions Export iOS](/assets/images/personal/profiles/profile_actions_export_ios.png)
+
+## Import
+
+
+
+
+
+## Reinstall 
 Please note that most versions of Android also remove an app's data folder when you uninstall an app (or when in Android's App manager settings you tap 'Clear data' to reset the app settings to default). If no precaution is taken, this will for OsmAnd mean you **lose all downloaded maps as well as any stored Favorites, GPX tracks, etc.(!)**
 On most systems the following procedure can be used to reset or uninstall/reinstall OsmAnd while preserving the original app data on the SD card:
 -   Before any Uninstall or Clear data operation, **rename the app data folder**, e.g. from *net.osmand.plus* to *net.osmand.plus0*
@@ -19,9 +32,8 @@ On most systems the following procedure can be used to reset or uninstall/reinst
 -   Restart OsmAnd
 -   Go to `Settings / Download maps`: Your existing offline maps should now be listed on tab Local. Go to the tab Update and tap the refresh icon, this should make OsmAnd finally aware maps are already present and can be used.
 
-# Online sources
 
-
+## Online sources
 In order **to export** online map sources, you can select them in the export file list of your [application profile](/osmand/app-profile):
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.export_profile %} → {% data variables.android-values.select_data_to_export %} → {% data variables.android-values.shared_string_resources %} → {% data variables.android-values.quick_action_map_source_title %}  
