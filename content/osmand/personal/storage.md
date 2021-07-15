@@ -6,6 +6,32 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
+
+## Storage 
+
+ANDROID
+
+(Link)[osmand/personal/global-settings#data-storage-folder-android]
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.osmand_settings %} → {% data variables.application_dir %}
+
+![Profiles Storage Settings Android](/assets/images/personal/profiles/general_settings_storage_android.png) ![Profiles Storage Settings 1 Android](/assets/images/personal/profiles/general_settings_storage_1_android.png)
+
+## Storage info in Dowload maps menu
+
+[Link](/osmand/personal/maps)
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_downloads %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %}
+
+![Maps menu download Android](/assets/images/personal/maps/maps_menu_download_android.png) ![Maps menu download iOS](/assets/images/personal/maps/maps_menu_download_ios.png)
+
+
+
+
+___________________________
+
 - Favorite backups
 - Folder structure (iOS / Android)
 
