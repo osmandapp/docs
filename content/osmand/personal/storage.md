@@ -17,7 +17,7 @@ ANDROID
 
 ![Profiles Storage Settings Android](/assets/images/personal/profiles/general_settings_storage_android.png) ![Profiles Storage Settings 1 Android](/assets/images/personal/profiles/general_settings_storage_1_android.png)
 
-## Storage info in Dowload maps menu
+## Storage info in Download maps menu
 
 [Link](/osmand/personal/maps)
 
@@ -25,7 +25,7 @@ ANDROID
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %}
 
-![Maps menu download Android](/assets/images/personal/maps/maps_menu_download_android.png) ![Maps menu download iOS](/assets/images/personal/maps/maps_menu_download_ios.png)
+![Storage info Android](/assets/images/personal/maps/maps_menu_local_vector_android.png) ![Storage info iOS](/assets/images/personal/maps/maps_menu_local_vector_ios.png)
 
 
 
