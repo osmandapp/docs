@@ -16,12 +16,22 @@ versions: '*'
 
 ![Profiles Actions Settings Android](/assets/images/personal/profiles/profile_actions_settings_android.png) ![Profiles Actions Settings iOS](/assets/images/personal/profiles/profile_actions_settings_ios.png)
 
+_________________
+
 ![Profiles Actions Export Android](/assets/images/personal/profiles/profile_actions_export_android.png) ![Profiles Actions Export iOS](/assets/images/personal/profiles/profile_actions_export_ios.png)
 
 ## Import
 
+![Profiles Actions Import Android](/assets/images/personal/profiles/profile_actions_import_android.png) ![Profiles Actions Import iOS](/assets/images/personal/profiles/profile_actions_import_ios.png)
+________
 
 
+![Profiles Actions Import 1 Android](/assets/images/personal/profiles/profile_actions_import_1_android.png) ![Profiles Actions Import 1 iOS](/assets/images/personal/profiles/profile_actions_import_1_ios.png)
+
+_______
+
+
+![Profiles Actions Import 2 Android](/assets/images/personal/profiles/profile_actions_import_2_android.png) ![Profiles Actions Import 2 iOS](/assets/images/personal/profiles/profile_actions_import_2_ios.png)
 
 
 ## Reinstall 
