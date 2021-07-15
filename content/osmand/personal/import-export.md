@@ -10,6 +10,10 @@ versions: '*'
 
 [Link](/osmand/personal/profiles#actions)
 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.shared_string_actions %} → {% data variables.android-values.export_profile %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.actions %} → {% data variables.ios-values.export_profile %}
+
 ![Profiles Actions Settings Android](/assets/images/personal/profiles/profile_actions_settings_android.png) ![Profiles Actions Settings iOS](/assets/images/personal/profiles/profile_actions_settings_ios.png)
 
 ![Profiles Actions Export Android](/assets/images/personal/profiles/profile_actions_export_android.png) ![Profiles Actions Export iOS](/assets/images/personal/profiles/profile_actions_export_ios.png)
