@@ -22,35 +22,35 @@ versions: '*'
 
 The Trip recording plugin enables functionality to record and save users tracks.
 
-![Enable / Disable Plugin](/assets/images/plugins/enable_disable_plugin.png)
+![Enable / Disable Plugin Android](/assets/images/plugins/enable_disable_plugin_android.png) ![Enable / Disable Plugin iOS](/assets/images/plugins/enable_disable_plugin_ios.png)
 
 ## Enable / Disable Plugin
 
 In order to Enable / Disable plugin please use:
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → choose The Trip recording plugin → tap on the plugin or tap three vertical dots.
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.map_widget_monitoring %} → tap on the plugin or tap three vertical dots. 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → tab {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_track_recording %} → tick the button
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → tab {% data variables.ios-values.track_recording %} → tick the button
 
 > **_Note:_** [Trip recording (REC) widget](https://docs.osmand.net/en/main@latest/osmand/widgets/action-widgets#trip-recording-rec-widget) is required to use Trip recording feature.
 
 ## Trip recording Plugin settings for Android
 
-To configure settings follow {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → tap the Trip recording plugin
+To configure settings follow {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.map_widget_monitoring %}
 
-![REC Settings Plugin](/assets/images/plugins/trip-recording/rec_settings_plugin.png)
+![REC Settings Plugin Android](/assets/images/plugins/trip-recording/rec_settings_plugin_android.png)
 
 ### Configure trip recording profile
 
 Default 'Trip recording' profile is Browse map profile. User can choose other OsmAnd profile or create his own (Manage<!--сделать ссылку на инстукцию как сделать уникальный профиль [Manage profile ](text)-->) profile.
 
-![REC profile](/assets/images/plugins/trip-recording/rec_plugin_change_profile.png)
+![REC profile Android](/assets/images/plugins/trip-recording/rec_plugin_change_profile_android.png)
 
 To change the profile please click the globe icon in the upper-right corner.
 
 ### Configure trip recording navigation
 
-![REC navigation](/assets/images/plugins/trip-recording/rec_plugin_navigation.png)
+![REC navigation Android](/assets/images/plugins/trip-recording/rec_plugin_navigation_android.png)
 
 Auto-record track during navigation – the function that enables saving each 'trip recording' track automatically. <br>
 User may find his track under {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_files %} tab
@@ -62,7 +62,7 @@ By default, it is set to 5 seconds, but it can be configured in the range from 0
 
 ### Configure trip recording logging accuracy
 
-![REC logging accuracy](/assets/images/plugins/trip-recording/rec_plugin_logging_accuracy.png)
+![REC logging accuracy Android](/assets/images/plugins/trip-recording/rec_plugin_logging_accuracy_android.png)
 
 | Parameter | Description |
 |--------------------------|-------------|
@@ -86,7 +86,7 @@ By default, it is set to 5 seconds, but it can be configured in the range from 0
 
 ### Configure trip informational settings
 
-![REC informational settings](/assets/images/plugins/trip-recording/rec_plugin_info_settings.png)
+![REC informational settings Android](/assets/images/plugins/trip-recording/rec_plugin_info_settings_android.png)
 
 **Track storage folder**
 
@@ -111,7 +111,7 @@ Allows sharing current location using trip recording.
 
 **Configure trip general settings**
 
-![REC general settings](/assets/images/plugins/trip-recording/rec_plugin_general_settings.png)
+![REC general settings Android](/assets/images/plugins/trip-recording/rec_plugin_general_settings_android.png)
 
 - The track folder will redirect user to {% data variables.android-values.shared_string_gpx_files %} tab in {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places  %}
 - 'Reset plugin settings to default'  - resets all plugin settings to default values. All user settings for this plugin will be lost!
