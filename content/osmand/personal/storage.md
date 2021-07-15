@@ -19,7 +19,7 @@ ANDROID
 
 ## Storage info in Download maps menu
 
-[Link](/osmand/personal/maps)
+[Link](/osmand/personal/maps#download-maps-maps)
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_downloads %}
 
