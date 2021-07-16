@@ -346,15 +346,22 @@ The [navigation](/osmand/navigation) functionality guides you to your destinatio
 
 OsmAnd powered by OpenStreetMap data. The maps are created by volunteer contributors, so they can have more or fewer details depending on how much work has been done at a certain part of the map. Anyone can register as a contributor and add or edit OSM maps. OsmAnd provide with editing plugin that helps to impove the OpenStreetMap. 
 
+{% default %}
+
+![OSM note iOS](/assets/images/settings/osm_note_ios.png) ![Create POI Android](/assets/images/settings/create_poi_menu_android.png)
+
+{% enddefault %}
+
+
 {% android %}
 
-![OSM note Android](/assets/images/settings/osm_note_android.png)
+![OSM note Android](/assets/images/settings/osm_note_android.png) ![Create POI Android](/assets/images/settings/create_poi_menu_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![OSM note iOS](/assets/images/settings/osm_note_ios.png)
+![OSM note iOS](/assets/images/settings/osm_note_ios.png) ![Create POI iOS](/assets/images/settings/create_poi_ios.png)
 
 {% endios %}
 
