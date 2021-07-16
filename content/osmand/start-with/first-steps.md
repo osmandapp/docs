@@ -8,7 +8,7 @@ versions: '*'
 
 {% default %}
 
-![First screen Android](/assets/images/settings/first_screen_android.png) ![Map Android](/assets/images/settings/first_screen_map_android.png) 
+![Travel maps Android](/assets/images/settings/google_play_screen_android.png) ![Offline navigation Android](/assets/images/settings/google_play_screen1_android.png) 
 
 {% enddefault %}
 
