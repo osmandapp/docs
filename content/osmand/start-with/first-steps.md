@@ -322,19 +322,19 @@ The [navigation](/osmand/navigation) functionality guides you to your destinatio
 
 {% default %}
 
-![Trip recording menu iOS](assets/images/settings/trip_recording_ios.png) ![Overview trip recording Android](assets/images/settings/trip_recording_overview_android.png)
+![Trip recording menu iOS](assets/images/settings/trip_recording_ios.png) ![Overview trip recording Android](/assets/images/settings/trip_recording_overview_android.png)
 
 {% enddefault %}
 
 {% android %}
 
-![Trip recording Android](/assets/images/settings/trip_recording_android.png) ![Overview trip recording Android](assets/images/settings/trip_recording_overview_android.png)
+![Trip recording Android](/assets/images/settings/trip_recording_android.png) ![Overview trip recording Android](/assets/images/settings/trip_recording_overview_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Start trip recording iOS](assets/images/settings/trip_recording_start_ios.png) ![Trip recording menu iOS](assets/images/settings/trip_recording_ios.png)
+![Start trip recording iOS](assets/images/settings/trip_recording_start_ios.png) ![Trip recording menu iOS](/assets/images/settings/trip_recording_ios.png)
 
 {% endios %}
 
