@@ -14,13 +14,13 @@ versions: '*'
 
 {% android %}
 
-![OsmAnd navigation Android](/assets/images/settings/1.png) ![OsmAnd navigation Android](/assets/images/settings/1.png)  
+![Offline navigation Android](/assets/images/settings/google_play_screen1_android.png) 
 
 {% endandroid %}
 
 {% ios %}
 
-![iOS](/assets/images/map/description_list_ios.png)
+![Offline navigationiOS](/assets/images/settings/itunes_screen_ios.png)
 
 {% endios %}
 
@@ -322,19 +322,19 @@ The [navigation](/osmand/navigation) functionality guides you to your destinatio
 
 {% default %}
 
-![Trip recording Android](/assets/images/settings/trip_recording_android.png) ![Overview track Android](/assets/images/settings/overview_track_android.png)
+![Trip recording menu iOS](assets/images/settings/trip_recording_ios.png) ![Overview trip recording Android](assets/images/settings/trip_recording_overview_android.png)
 
 {% enddefault %}
 
 {% android %}
 
-![Trip recording Android](/assets/images/settings/trip_recording_android.png) ![Overview track Android](/assets/images/settings/overview_track_android.png)
+![Trip recording Android](/assets/images/settings/trip_recording_android.png) ![Overview trip recording Android](assets/images/settings/trip_recording_overview_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Trip recording iOS](/assets/images/settings/trip_recording_ios.png) ![Overview track iOS](/assets/images/settings/overview_track_ios.png)
+![Start trip recording iOS](assets/images/settings/trip_recording_start_ios.png) ![Trip recording menu iOS](assets/images/settings/trip_recording_ios.png)
 
 {% endios %}
 
