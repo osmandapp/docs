@@ -271,12 +271,12 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 {% data reusables.general.android-ios-switcher %}
 
 In the OsmAnd you can find any address, place and object that has been marked on the [OpenStreetMap](https://www.openstreetmap.org/). You can [search](/osmand/search/search-address) by the name of the city, postcode and coordinates. 
+
 {% default %}
 
 ![Address search Android](/assets/images/settings/address_search_android.png) ![Address search example](/assets/images/settings/address_search_example_android.png) 
 
 {% enddefault %}
-
 
 {% android %}
 
@@ -300,15 +300,21 @@ In the OsmAnd you can find any address, place and object that has been marked on
 
 The [navigation](/osmand/navigation) functionality guides you to your destinations, by displaying routes, offering turn-by-turn instructions, and optional voice guidance.
 
+{% default %}
+
+![Start navigation iOS](/assets/images/settings/start_navigation_ios.png) ![Route graph Android](/assets/images/settings/route_graph_android.png)
+
+{% enddefault %}
+
 {% android %}
 
-![Navigation Android](/assets/images/settings/navigation_android.png)
+![Start navigation Android](/assets/images/settings/start_navigation_android.png) ![Route graph Android](/assets/images/settings/route_graph_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Navigation iOS](/assets/images/settings/navigation_ios.png)
+![Start navigation iOS](/assets/images/settings/start_navigation_ios.png) ![Route graph iOS](/assets/images/settings/route_graph_ios.png)
 
 {% endios %}
 
