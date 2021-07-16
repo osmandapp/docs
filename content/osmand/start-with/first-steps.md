@@ -14,7 +14,7 @@ versions: '*'
 
 {% android %}
 
-![OsmAnd navigation Android](/assets/images/settings/osmand_navigation_android.png) 
+![OsmAnd navigation Android](/assets/images/settings/1.png) 
 
 {% endandroid %}
 
