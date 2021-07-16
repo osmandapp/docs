@@ -30,7 +30,7 @@ You can check which Wikipedia files you already have downloaded:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_wikipedia_maps %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_installed %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.sett_lang_local %}
 
 ### Wikipedia articles on the map
 
@@ -54,7 +54,7 @@ In {% data variables.android-values.search_categories %} search menu you need to
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.shared_string_search %} → {% data variables.ios-values.categories %} → {% data variables.ios-values.res_wiki %}
 
-You see all the nearest {% data variables.android-values.shared_string_wikipedia %} articles. You can click to "{% data variables.ios-values.show_something_on_map %}" for showing POI on the map:
+You see all the nearest {% data variables.android-values.shared_string_wikipedia %} articles. You can click to "Show Wikipedia on the map" for showing POI on the map:
 
 ![Wikipedia search on map Android](/assets/images/map/map-wikipedia-search-on-map.png) ![Wikipedia search on map iOS](/assets/images/map/map-wikipedia-search-on-map_ios.png)
 
