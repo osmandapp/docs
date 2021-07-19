@@ -244,7 +244,7 @@ OsmAnd allows you to make various marks on the Map for your personal needs. For 
 
 {% data reusables.general.android-ios-switcher %}
 
-[Plan route](/osmand/plan-route/create-route) is a powerful tool that allows to create a trip, edit an existing track and measture distance on spot. With it you can quickly put intermediate points and connect them by various navigation methods (bike, pedestrian, straight line, etc). Results could be saved into GPX file, so it could be [shared](/osmand/personal/tracks), [edited](/osmand/map/tracks-on-map) or [used by navigation](/osmand/navigation/gpx-navigation).
+[Plan route](/osmand/plan-route/create-route) is a powerful tool that allows to create a trip, edit an existing track and measure distance on the spot. You can quickly put intermediate points and connect them by various navigation lines (bike, pedestrian, straight line, etc). Results could be saved into GPX file, so it could be [shared](/osmand/personal/tracks), [edited](/osmand/map/tracks-on-map) or [used by navigation](/osmand/navigation/gpx-navigation) later.
 
 {% default %}
 
