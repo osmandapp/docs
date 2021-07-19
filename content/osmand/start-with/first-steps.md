@@ -244,7 +244,7 @@ OsmAnd allows you to make various marks on the Map for your personal needs. For 
 
 {% data reusables.general.android-ios-switcher %}
 
-[Plan route](/osmand/plan-route/create-route) is an additional tool that helps you to measure distance on the map, plan your trip and save it as a gpx file,  and edit exists track. 
+[Plan route](/osmand/plan-route/create-route) is a powerful tool that allows to create a trip, edit an existing track and measture distance on spot. With it you can quickly put intermediate points and connect them by various navigation methods (bike, pedestrian, straight line, etc). Results could be saved into GPX file, so it could be [shared](/osmand/personal/tracks), [edited](/osmand/map/tracks-on-map) or [used by navigation](/osmand/navigation/gpx-navigation).
 
 {% default %}
 
@@ -270,7 +270,7 @@ OsmAnd allows you to make various marks on the Map for your personal needs. For 
 
 {% data reusables.general.android-ios-switcher %}
 
-In the OsmAnd you can find any address, place and object that has been marked on the [OpenStreetMap](https://www.openstreetmap.org/). You can [search](/osmand/search/search-address) by the name of the city, postcode and coordinates. 
+OsmAnd provides many search capabilities including address search. By default it uses [OpenStreetMap data](https://nominatim.openstreetmap.org/ui/search.html) and should be able to find all addresses using Quick Search input. Also you can [search](/osmand/search/search-address) by city, street, postcode and coordinates. 
 
 {% default %}
 
@@ -298,7 +298,7 @@ In the OsmAnd you can find any address, place and object that has been marked on
 
 {% data reusables.general.android-ios-switcher %}
 
-The [navigation](/osmand/navigation) functionality guides you to your destinations, by displaying routes, offering turn-by-turn instructions, and optional voice guidance.
+[Navigation](/osmand/navigation) provides you step by step guidance to your destination by displaying the route, offering turn-by-turn instructions, extra road information about surface, smoothness, etc and optional voice guidance.
 
 {% default %}
 
