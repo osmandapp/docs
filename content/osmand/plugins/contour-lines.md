@@ -54,9 +54,14 @@ Slopes:
 
 ## Contour lines settings
 
-For Contour lines you can set the minimal zoom level where the contour lines will become visible, color scheme, width and density for lines. To do so, please go to  _Configure map - Show contour lines (settings)_.
+For Contour lines you can set the minimal zoom level where the contour lines will become visible, color scheme, width and density for lines.
+[Configure map](/osmand/map/vector-maps#contour-lines).
 
-![Contour lines on Android](/assets/images/plugins/contour-lines/cl-4.png)
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.index_srtm_ele %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.product_title_srtm %}
+
+![Contour lines menu Android](/assets/images/plugins/contour-lines/contour_lines_menu_android.png) ![Contour lines menu iOS](/assets/images/plugins/contour-lines/contour_lines_menu_ios.png) 
 
 ## Note
 
@@ -68,27 +73,6 @@ After that, you'll be able to enjoy a map with all the hills and peaks. A nice o
 Please see full video guide below:
 [Link to Youtube](https://www.youtube.com/watch?v=z8kp_M3FKoc&feature=emb_logo&ab_channel=BartEisenberg)
 
-# iOS
 
-### Where Plugin find? 
-
-For using this feature you should buy  [Contour lines in-app](https://apps.apple.com/us/app/osmand-maps-travel-navigate/id934850257)  or subscribe  [OsmAnd live](https://osmand.net/features/subscription#osm_live_ios). To turn the contour lines on in iOS, you need to go to  _'Maps & Resources'_  menu, switch to the  _Plugins_  tab and turn the  _Contour lines_  plugin on.
-
-### Downloading files
-Then download the Contour lines map of the area you need. You'll also have to download the Hillshade/Slope map if you need it. All downloads are available in  _'Maps and Resources' - 'Maps'_  menu. Also, you have to go to the  _Map_  menu in the left upper corner of the map screen and turn the  _Terrain_  option on. That's it. You are now viewing the maps with contour line information and hillshade/slope.
-
-![Contour lines on iOS](/assets/images/plugins/contour-lines/cl-5.png)
-
-### Contour lines settings
-You can set the minimal zoom level where the contour lines will become visible, color scheme, width and density for lines. To do so, please go to  _Map -> Contour lines (Map style)_.
-
-![Contour lines on iOS](/assets/images/plugins/contour-lines/cl-6.png) 
-
-### Terrain settings
-You can set zoom levels, layer transparency for Hillshade/Slope layer. To do so, please go to  _Map -> Terrain (Overlay/Underlay)_.
-
-![Contour lines on iOS](/assets/images/plugins/contour-lines/cl-7.png)  
-
-OsmAnd at  [Facebook](https://www.facebook.com/osmandapp/),  [Twitter](https://www.twitter.com/osmandapp/), and  [Reddit](https://www.reddit.com/r/OsmAnd/)! Join to us at our  [group of Telegram](https://t.me/OsmAndMaps).
 
 
