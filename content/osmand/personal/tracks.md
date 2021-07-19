@@ -88,113 +88,15 @@ Actions:
 - Edit / delete
 - Change order
 
-
-## Track Overview (Android)
-
-![Track menu overview Android](/assets/images/personal/tracks/track_menu_overview_android.png) 
-
-### Info panel
-
-- Distance 
-- Direction to the point
-- Ascent / Descent
-- Alt range
-- Average speed
-- Max speed
-- Time span
-- Time in Motion
-
-
-### Quick actions
-
-- Show / hide
-- Appearance
-- Edit track
-- Directions
-
-### Description
-
-- Image
-- Add / edit Description 
-
-## Track Graphs (Android)
-
-![Track menu track Android](/assets/images/personal/tracks/track_menu_track_android.png) 
-
-Tabs:
-- Overview
-- Altitude
-- Speed
-
-![Track menu track sub Android](/assets/images/personal/tracks/track_menu_track_sub_android.png) 
-
-### Overview
-
-- Distance (Overview)
-- Start / end time (Overview)
-- Time span (Overview)
-
-### Altitude
-
-- Ascent / Descent (Altitude)
-- Altitude range (Altitude)
-- Average altitude (Altitude)
-
-### Speed
-- Average speed (Speed)
-- Max speed
-- Time in Motion
-
-## Track Waypoints (Android)
-
-![Track menu points Android](/assets/images/personal/tracks/track_menu_points_android.png) 
-
-- Route points vs waypoitns
-- Search
-- Add waypoint
-- Open waypoint menu (link to favorites)
-- Point filters (bubbles)
-
-### Group menu
-
-![Track menu Group menu Android](/assets/images/personal/tracks/track_menu_group_menu_android.png) 
-
-- Rename (group)
-- Show on map
-- Change color
-- Add / remove map markers
-- Copy to favorites
-- Delete
-
-## Track Options menu (Android)
-
-![Track menu options Android](/assets/images/personal/tracks/track_menu_options_android.png)  
-
-- Show on map
-- Appearance
-- Directions
-- Analyze on map
-- Analyze split intervals
-- Share
-- Upload to OSM
-- Edit
-- Rename / Change folder
-- Delete
-
-
-### Split interval (Android)
-
-![Track split interval screen Android](/assets/images/personal/tracks/track_split_interval_android.png) 
-
-- Split interval by distnace / time
-
-
 ## Read more
+
+### Track context menu
+
+- Link Track context menu.
 
 ### Add waypoint
 
-- [Context menu](https://docs.osmand.net/en/main@latest/osmand/map/map-context-menu#-add--edit--track-waypoint)
-
+- [Context menu](/osmand/map/map-context-menu#-add--edit--track-waypoint)
 
 ### Track Appearance (Android)
 

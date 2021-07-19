@@ -12,7 +12,9 @@ versions: '*'
 {% link_with_intro /raster-maps %}
 {% link_with_intro /point-layers-on-map %}
 {% link_with_intro /tracks-on-map %}
+{% link_with_intro /track-context-menu %}
 {% link_with_intro /public-transport %}
+
 
 # Map Related  (put links)
 - [Contour lines](/osmand/plugins/contour-lines)
