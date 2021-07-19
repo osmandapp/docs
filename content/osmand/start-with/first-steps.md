@@ -80,7 +80,7 @@ OsmAnd is an offline map application, so after '{% data variables.android-values
 
 {% data reusables.general.android-ios-switcher %}
 
-You could manage application settings as [Global settings](/osmand/personal/global-settings) or as [Profile configuration](/osmand/personal/profiles) via [Main menu](/osmand/start-with/main-menu). Application comes with predefined list of profiles which could be modified later. Each profile could be considered as a special customized map application, though by default profiles are used as special navigation modes.
+You could manage application settings as [Global settings](/osmand/personal/global-settings) or as [Profile configuration](/osmand/personal/profiles) via [Main menu](/osmand/start-with/main-menu). Application comes with a predefined list of profiles that could be modified later. Each profile could be considered as a customized map application for specific purposes. By default profiles are being served only as different navigation modes.
 
 {% default %}
 
@@ -107,7 +107,7 @@ You could manage application settings as [Global settings](/osmand/personal/glob
 
 {% data reusables.general.android-ios-switcher %}
 
-[Plugins](/osmand/plugins) allow greatly to extend application functionality. Plugins could be internal (provided inside OsmAnd) or external (separate installed applications). 3rd party plugins work via [OsmAnd API](/development/build-osmand/osmand-api) and get access to OsmAnd information, you could always review / enable / disable plugins via [Main menu](/osmand/start-with/main-menu) → Plugins. Each plugin could have own [Map Actions](/osmand/map/map-context-menu), [Map Layers](/osmand/map/configure-map-menu), [Map Downloads](/osmand/start-with/download-maps) and Settings.
+[Plugins](/osmand/plugins) allow greatly to extend application functionality. Plugins could be internal (provided inside OsmAnd) or external (separate installed applications). 3rd party plugins work via [OsmAnd API](/development/build-osmand/osmand-api) and could get access to OsmAnd information, you could always review / enable / disable plugins via [Main menu](/osmand/start-with/main-menu) → Plugins. Each plugin could have own [Map Actions](/osmand/map/map-context-menu), [Map Layers](/osmand/map/configure-map-menu), [Map Downloads](/osmand/start-with/download-maps) and Settings.
 
 {% default %}
 
@@ -192,7 +192,7 @@ Map is a core element of OsmAnd and it's important to know [how to use it](/osma
 
 {% data reusables.general.android-ios-switcher %}
 
-OsmAnd allows you to make a different mark on the Map for your personal use. It could be [Favorite](/osmand/personal/favorites) points, [Markers](/osmand/personal/markers), [Audio/Video notes](/osmand/plugins/audio-video-notes) (Android only), [track recording](/osmand/plugins/trip-recording).
+OsmAnd allows you to make various marks on the Map for your personal needs. For example, [Favorite points](/osmand/personal/favorites) - personal points with name & icon & category, [Markers](/osmand/personal/markers) - quickly added points as target, [Audio/Video notes](/osmand/plugins/audio-video-notes) - media notes recorded at specific point, [Tracks](/osmand/personal/tracks) - recorded and imported tracks & tours.
 
 {% default %}
 
@@ -218,7 +218,7 @@ OsmAnd allows you to make a different mark on the Map for your personal use. It 
 
 {% data reusables.general.android-ios-switcher %}
 
-[Points of interest (POI)](https://wiki.openstreetmap.org/wiki/Map_features#Amenity) are specific points highlighted with an icon on the map. They represent interesting or useful places & objects and they are part of [Vector Maps](/osmand/map/vector-maps). You can use them to display, [navigate](/osmand/navigation) and [search](/osmand/search/search-poi) the points of interest on the Map.
+[Points of interest (POI)](/osmand/map/point-layers-on-map#points-of-interest-poi) are amenities that could be searched or highlighted on the map. They represent interesting or useful places and distributed as part of [Vector Maps](/osmand/map/vector-maps). You can use them to [display on the map](/osmand/map/point-layers-on-map#points-of-interest-poi), [navigate](/osmand/navigation) and [search](/osmand/search/search-poi) the points of interest on the Map.
 
 {% default %}
 
@@ -324,7 +324,7 @@ The [navigation](/osmand/navigation) functionality guides you to your destinatio
 
 {% data reusables.general.android-ios-switcher %}
 
-[Trip recording](/osmand/plugins/trip-recording) is a tool that allows to record all movements into track using phone's GPS.
+[Trip recording](/osmand/plugins/trip-recording) is a special tool packaged as OsmAnd plugin that allows to record all movements into track using device's GPS.
 
 {% default %}
 
@@ -350,7 +350,7 @@ The [navigation](/osmand/navigation) functionality guides you to your destinatio
 
 {% data reusables.general.android-ios-switcher %}
 
-OsmAnd powered by OpenStreetMap data. The maps are created by volunteer contributors, so they can have more or fewer details depending on how much work has been done at a certain part of the map. Anyone can register as a contributor and add or edit OSM maps. OsmAnd provide with editing plugin that helps to impove the OpenStreetMap. 
+OsmAnd powered by [OpenStreetMap](https://www.openstreetmap.org/) data. The maps are created by volunteer contributors, so they can have more or fewer details depending on how much work has been done at a certain part of the map. Anyone can register as a contributor and add or edit OSM maps. OsmAnd provide with editing plugin that helps to impove the OpenStreetMap. 
 
 {% default %}
 
