@@ -38,6 +38,30 @@ For showing or not [GPX-tracks](/osmand/personal/myplaces) on the map.
 | Click to a track on the map → Tap on the "Eye" button  or {% data variables.android-values.shared_string_menu %}  → {% data variables.android-values.shared_string_show_on_map %} |  |
 |   ![Eye button Android](/assets/images/map/eye_button_android.png) |  |
 
+## Track Appearance (Android)
+
+![Track menu options Android](/assets/images/personal/tracks/track_appearance_speed_android.png)  ![Track menu split interval Android](/assets/images/personal/tracks/track_appearance_split_android.png) 
+
+
+- Split interval
+- Direction arrows
+- Show start / finish
+- Solid color
+- Color by speed
+- Color by altitude
+- Color by slope
+- Thickness
+
+## Analyze on Map (Android)
+
+![Track menu analyze on map Android](/assets/images/personal/tracks/track_analyze_on_map_android.png) ![Track menu analize on the map distance Android](/assets/images/personal/tracks/track_analyze_on_map_distance_android.png) 
+
+- Interact with map & graph
+- Follow My location 
+- Graph: altitude / slope / speed
+- Graph: distance / time
+
+
 ## Routes on the map
 
 The route is a line on the map that shows a user's creating trip. In OsmAnd users create a route by [Navigation function](/osmand/navigation).
@@ -53,6 +77,7 @@ In OsmAnd for Android, [a user can customize](/osmand/personal/profiles) route l
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.profile_appearance %} → {% data variables.android-values.customize_route_line %}
 
 ![Route Customization Android](/assets/images/map/route_custom_android.png)
+
 
 ## Read more
 

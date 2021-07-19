@@ -152,30 +152,6 @@ Tabs:
 - Delete
 
 
-## Track Appearance (Android)
-
-![Track menu options Android](/assets/images/personal/tracks/track_appearance_speed_android.png)  ![Track menu split interval Android](/assets/images/personal/tracks/track_appearance_split_android.png) 
-
-
-- Split interval
-- Direction arrows
-- Show start / finish
-- Solid color
-- Color by speed
-- Color by altitude
-- Color by slope
-- Thickness
-
-## Analyze on Map (Android)
-
-![Track menu analyze on map Android](/assets/images/personal/tracks/track_analyze_on_map_android.png) ![Track menu analize on the map distance Android](/assets/images/personal/tracks/track_analyze_on_map_distance_android.png) 
-
-- Interact with map & graph
-- Follow My location 
-- Graph: altitude / slope / speed
-- Graph: distance / time
-
-
 ## Split interval (Android)
 
 ![Track split interval screen Android](/assets/images/personal/tracks/track_split_interval_android.png) 
@@ -220,6 +196,14 @@ Actions:
 
 
 ## Read more
+
+### Track Appearance (Android)
+
+- [Link](/osmand/map/tracks-on-map)
+
+### Analyze on Map (Android)
+
+- [Link](/osmand/map/tracks-on-map)
 
 ### Coordinate input (Android)
 
