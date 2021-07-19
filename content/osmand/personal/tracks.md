@@ -52,20 +52,6 @@ Sort:
 - Edit / delete
 - Change order
 
-## Coordinate input (Android)
-
-![Coordinate input Actions Android](/assets/images/personal/tracks/coordinate_input_android.png) 
-
-### Actions
-- Add point with or without name
-- Edit / delete point
-- Change S/W, N/E
-
-### Options
-- Save as track
-- Use system keyboard
-- Use double digit longitude
-- Coordinate format
 
 ## Add waypoint
 
@@ -233,11 +219,17 @@ Actions:
 - 'BIN' - allows to delete chosen waypoints.
 
 
-## Record track
+## Read more
+
+### Coordinate input (Android)
+
+- Link to Coordinate input
+
+### Record track
 
 - Link to Recording Plugin
 
-## Import/Export track
+### Import/Export track
 
 - Link to Import / Export functionality
 
