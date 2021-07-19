@@ -7,43 +7,43 @@ versions: '*'
 
 ![Contour lines](/assets/images/plugins/contour-lines/contour-lines-intro.png)
 
-### How to use
-{% link_in_list /contour-lines-android %}
-{% link_in_list /contour-lines-ios %}
+### General info
 
 This plugin gives the terrain information you can view over the basic map. It actually works several ways — as a terrain contour lines data provider and as a full hillshade map using dark shades and colors to show slopes, peaks and lowlands.
 
-### Where the data comes from?
 The global data (between 70 degrees north and 70 degrees south) is based on measurements by SRTM (Shuttle Radar Topography Mission) and ASTER (Advanced Spaceborne Thermal Emission and Reflection Radiometer), an imaging instrument onboard Terra, the flagship satellite of NASA's Earth Observing System. ASTER is a cooperative effort between NASA, Japan's Ministry of Economy, Trade and Industry (METI), and Japan Space Systems (J-spacesystems).
 
 Contour lines plugin is a handy tool for hikers, tourists and anyone who needs the information about the terrain in a specific area.
 
-# Android
-
 ### Where Plugin find?
-For using this feature you should buy  [Contour lines plugin](https://play.google.com/store/apps/details?id=net.osmand.srtmPlugin.paid&hl=en)  or subscribe  [OsmAnd live](https://osmand.net/features/subscription). Remember: Switch on the  _Contour lines Plugin_  in  _Plugin_  menu.
 
-![Contour lines on Android](/assets/images/plugins/contour-lines/cl-1.png)
+For using this feature you should buy  [Paid version or OsmAnd subscription](/osmand/purchases)  or subscribe  [OsmAnd live](https://osmand.net/features/subscription). 
 
-### Downloading files
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} → {% data variables.android-values.srtm_plugin_name %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_srtm %}
+
+![Contour lines plugin on Android](/assets/images/plugins/contour-lines/contour_lines_plugin_android.png) ![Contour lines plugin on iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_ios.png)
+
+## Downloading files
 To see the contours of a specific area, just go to  _Download maps_  menu, find your country or region, choose Contour lines, Hillshades, Slopes or all and download the files. Then zoom your desired area until you see the lines and zoom even more to check the height of a specific spot (the number on the line).
 
 To view hillshade or slope, make sure you enable this option in  _Configure map - Terrain_  menu. Also, please note that while contour lines file can be split by regions, hillshade/slopes files can be available by country, thus, you'll see the Hillshade/Slopes download on the list of downloads of a country, not on the region maps page.
 
 ![Contour lines on Android](/assets/images/plugins/contour-lines/cl-2.png)
  
-### Terrain settings
+## Terrain settings
 In the  _Terrain_  menu you can change Hillshade or Slope for the visible layer. Here you can set Transparency and Zoom levels for the layer. To do so, please go to  _Configure map - Terrain_.
 
 ![Contour lines on Android](/assets/images/plugins/contour-lines/cl-3.png) 
 
-### Contour lines settings
+## Contour lines settings
 
 For Contour lines you can set the minimal zoom level where the contour lines will become visible, color scheme, width and density for lines. To do so, please go to  _Configure map - Show contour lines (settings)_.
 
 ![Contour lines on Android](/assets/images/plugins/contour-lines/cl-4.png)
 
-### Note
+## Note
 
 You can use both contour lines and terrain together to get the information from both layers. Just go to  _Configure map_  menu and enable both  _Contour lines_  and  _Terrain layer_  options. If you cannot see the hillshade/slopes after downloading it, please restart the application.
 
