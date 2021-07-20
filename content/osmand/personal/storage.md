@@ -6,20 +6,10 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
-
-## Storage 
-
-ANDROID
-
-(Link)[/osmand/personal/global-settings#data-storage-folder-android]
-
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.osmand_settings %} → {% data variables.android-values.application_dir %}
-
-![Profiles Storage Settings Android](/assets/images/personal/profiles/general_settings_storage_android.png) ![Profiles Storage Settings 1 Android](/assets/images/personal/profiles/general_settings_storage_1_android.png)
-
 ## Storage info in Download maps menu
 
-[Link](/osmand/personal/maps#download-maps-maps)
+There is toolbar about storage information in [Download maps menu](/osmand/personal/maps#download-maps-maps). Here you see Device memory and free space in device storage. 
+For **iOS**, you can estimate how much memory spacing of OsmAnd data is in the device storage (orange color).
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_downloads %}
 
@@ -27,16 +17,29 @@ ANDROID
 
 ![Storage info Android](/assets/images/personal/maps/maps_menu_local_vector_android.png) ![Storage info iOS](/assets/images/personal/maps/maps_menu_local_vector_ios.png)
 
-
-
-
 ___________________________
 
 - Favorite backups
 - Folder structure (iOS / Android)
 
 
-## Data storage folder
+## Data storage folder (Android)
+
+
+For Android you can find all information about OsmAnd data and change storage folder in [Global settings](/osmand/personal/global-settings#data-storage-folder-android).
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.osmand_settings %} → {% data variables.android-values.application_dir %}
+
+![Profiles Storage Settings Android](/assets/images/personal/profiles/general_settings_storage_android.png) ![Profiles Storage Settings 1 Android](/assets/images/personal/profiles/general_settings_storage_1_android.png)
+
+**{% data variables.android-values.shared_string_osmand_usage %}**:
+
+Here you can find all information about data size for each categories of data: maps, travel guides, hillshade/slope/contour lines, tracks, audio/video notes, tiles, other.
+
+**{% data variables.android-values.change_data_storage_folder %}**
+
+Here you can change forlder for keeping your OsmAnd data in your device
+
 Memory name | Permission access
 |-----------|------------------|
 | Internal app memory | Only OsmAnd app has access to its data and none of external apps / pc has access| 
