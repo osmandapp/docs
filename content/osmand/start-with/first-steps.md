@@ -1,6 +1,6 @@
 ---
 title: "First steps"
-intro: "This section is helping you to begin with OsmAnd. It includes information about  app installation, necessarily downloading and permission"
+intro: "Welcome to OsmAnd! Explore how to download maps, how to configure the application, how to use map and build a route, how to start navigation and how to search points of interests. Get acquainted with key points of OsmAnd Privacy policy and required Permissions."
 versions: '*'
 ---
 

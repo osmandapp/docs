@@ -1,6 +1,6 @@
 ---
 title: "Main menu"
-intro: "'Main menu' is a primary list of options available to use in the application. It provides quick access to the profile configuration, features and global settings."
+intro: "'Main menu' is a primary list of options available to use in the application. It provides quick access to the profile configuration, global settings, search, personal data, navigation and other features."
 versions: '*'
 ---
 
