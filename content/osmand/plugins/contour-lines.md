@@ -48,9 +48,22 @@ Hillshades:
 
 ![Terrain menu Android](/assets/images/plugins/contour-lines/terrain_menu_android.png) ![Terrain menu iOS](/assets/images/plugins/contour-lines/terrain_menu_ios.png) 
 
+- "{% data variables.android-values.shared_string_menu %}" button - switch on/off the Terrain layer on the map.
+- "{% data variables.android-values.shared_string_hillshade %}" and "{% data variables.android-values.shared_string_slope %}" button - switcher between slopes and hillshades layers.
+- {% data variables.android-values.shared_string_transparency %} - choosing trasparence for the terrain layer.
+- {% data variables.android-values.shared_string_zoom_levels %} - setting zoom levels for the terrain layer.
+- {% data variables.android-values.welmode_download_maps %} - {% data variables.android-values.hillshade_download_description %}.
+
 Slopes:
 
 ![Terrain menu slopes Android](/assets/images/plugins/contour-lines/terrain_menu_slopes_android.png) ![Terrain menu slopes iOS](/assets/images/plugins/contour-lines/terrain_menu_slopes_ios.png) 
+
+- "{% data variables.android-values.shared_string_menu %}" button - switch on/off the Terrain layer on the map.
+- "{% data variables.android-values.shared_string_hillshade %}" and "{% data variables.android-values.shared_string_slope %}" button - switcher between slopes and hillshades layers.
+- {% data variables.android-values.shared_string_transparency %} - choosing trasparence for the terrain layer.
+- {% data variables.android-values.shared_string_zoom_levels %} - setting zoom levels for the terrain layer.
+- {% data variables.android-values.shared_string_legend %} - legend of slopes, read more [here](https://en.m.wikipedia.org/wiki/Grade_(slope)).
+- {% data variables.android-values.welmode_download_maps %} - {% data variables.android-values.slope_download_description %}.
 
 ## Contour lines settings
 
@@ -62,6 +75,13 @@ For Contour lines you can set the minimal zoom level where the contour lines wil
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.product_title_srtm %}
 
 ![Contour lines menu Android](/assets/images/plugins/contour-lines/contour_lines_menu_android.png) ![Contour lines menu iOS](/assets/images/plugins/contour-lines/contour_lines_menu_ios.png) 
+
+
+- "{% data variables.android-values.shared_string_menu %}" button - switch on/off the Terrain layer on the map.
+- {% data variables.android-values.show_from_zoom_level %} - select zoom level, from which contour lines will be displayed.
+- {% data variables.android-values.srtm_color_scheme %} - select color for contour lines.
+- {% data variables.android-values.rendering_attr_contourWidth_name %} - select width for contour lines.
+- {% data variables.android-values.rendering_attr_contourDensity_name %} - select density for contour lines on the map.
 
 ## Note
 
