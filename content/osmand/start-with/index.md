@@ -1,6 +1,6 @@
 ---
 title: "Begin with OsmAnd"
-intro: "First steps with OsmAnd: how to install and download maps. Get access to all features via Main Menu. This section also explains key functionality via simple questions list."
+intro: "Begin with OsmAnd: how to install and download maps. Get access to all features via Main Menu. First steps also refers to key OsmAnd functionality via simple questions list."
 versions: '*'
 ---
 
