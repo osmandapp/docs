@@ -11,9 +11,9 @@ versions: '*'
 
 ANDROID
 
-(Link)[osmand/personal/global-settings#data-storage-folder-android]
+(Link)[/osmand/personal/global-settings#data-storage-folder-android]
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.osmand_settings %} → {% data variables.application_dir %}
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.osmand_settings %} → {% data variables.android-values.application_dir %}
 
 ![Profiles Storage Settings Android](/assets/images/personal/profiles/general_settings_storage_android.png) ![Profiles Storage Settings 1 Android](/assets/images/personal/profiles/general_settings_storage_1_android.png)
 
