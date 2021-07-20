@@ -33,7 +33,7 @@ OsmAnd is a mobile application for Maps and Navigation available for **Android**
 
 ## Welcome to OsmAnd!
 
-Our goal is to create a fully functional map-oriented application that could be used offline & online for various purposes. The application is full of features, so you don't need to switch between different apps and have everything at your fingertips:
+Our goal is to create a fully functional map-oriented application that could be used offline & online for various purposes. The application is full of features, so you don't need to switch between different apps and you will have everything at your fingertips:
 - Browse Worldwide Map with lots of details displayed with [many map styles](/osmand/map/vector-maps).
 - Display, search and save various [Points of interest](/osmand/map/point-layers-on-map).
 - [Plan a route](/osmand/plan-route/create-route) by car, bicycle, foot and combine into multi modal routes.
@@ -50,7 +50,7 @@ Our goal is to create a fully functional map-oriented application that could be 
 
 {% data reusables.general.android-ios-switcher %}
 
-OsmAnd is an offline map application, so after '{% data variables.android-values.get_started %}' screen, you will be prompted to [download map](/osmand/start-with/download-maps#download---first-screen) of your region. You can select another region or skip this step and download maps later. 
+OsmAnd is an offline map application, so after the '{% data variables.android-values.get_started %}' screen, you will be prompted to a [download map](/osmand/start-with/download-maps#download---first-screen) of your region. You can select another region or skip this step and download maps later. 
 
 {% default %}
 
@@ -322,7 +322,7 @@ OsmAnd provides many search capabilities including address search. By default it
 
 {% data reusables.general.android-ios-switcher %}
 
-[Trip recording](/osmand/plugins/trip-recording) is a special tool packaged as OsmAnd plugin that allows to recording all movements into track using the device's GPS.
+[Trip recording](/osmand/plugins/trip-recording) is a special tool packaged as OsmAnd plugin that allows to record all movements into track using the device's GPS.
 
 {% default %}
 
