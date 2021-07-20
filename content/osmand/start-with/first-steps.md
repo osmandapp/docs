@@ -1,6 +1,6 @@
 ---
 title: "First steps"
-intro: "Welcome to OsmAnd! Explore how to download maps, how to configure the application, how to use map and build a route, how to start navigation and how to search points of interests. Get acquainted with key points of OsmAnd Privacy policy and required Permissions."
+intro: "Welcome to OsmAnd! Explore how to download maps, how to configure the application, how to use map and build a route, how to start navigation and how to search points of interest. Get acquainted with key points of OsmAnd Privacy policy and required Permissions."
 versions: '*'
 ---
 
@@ -35,7 +35,7 @@ OsmAnd is a mobile application for Maps and Navigation available for **Android**
 
 Our goal is to create a fully functional map-oriented application that could be used offline & online for various purposes. The application is full of features, so you don't need to switch between different apps and have everything at your fingertips:
 - Browse Worldwide Map with lots of details displayed with [many map styles](/osmand/map/vector-maps).
-- Display, search and save various [Points of interests](/osmand/map/point-layers-on-map).
+- Display, search and save various [Points of interest](/osmand/map/point-layers-on-map).
 - [Plan a route](/osmand/plan-route/create-route) by car, bicycle, foot and combine into multi modal routes.
 - Start [voice guided navigation](/osmand/navigation/route-navigation) with screen on and off.
 - Make your tourist trip rich with offline [Wikipedia](/osmand/plugins/wikipedia) and [Wikivoyage](/osmand/plan-route/travel-guides).

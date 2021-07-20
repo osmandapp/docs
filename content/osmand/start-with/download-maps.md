@@ -1,6 +1,6 @@
 ---
 title: "Download maps"
-intro: "Download maps is a nessecarily action for further using map and navigation in offline mode. Maps can be downloaded both by browsing through the regions list from the main menu and by clicking on the needed territory on the map."
+intro: "Download maps is a necessarily action for further using map and navigation in offline mode. Maps can be downloaded both by browsing through the regions list from the main menu and by clicking on the needed territory on the map."
 versions: '*'
 ---
 
