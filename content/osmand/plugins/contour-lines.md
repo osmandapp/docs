@@ -5,8 +5,6 @@ versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-![Contour lines](/assets/images/plugins/contour-lines/contour-lines-intro.png)
-
 ## General info
 
 This plugin gives the terrain information you can view over the basic map. It actually works several ways — as a terrain contour lines data provider and as a full hillshade map using dark shades and colors to show slopes, peaks and lowlands.
@@ -14,6 +12,8 @@ This plugin gives the terrain information you can view over the basic map. It ac
 The global data (between 70 degrees north and 70 degrees south) is based on measurements by SRTM (Shuttle Radar Topography Mission) and ASTER (Advanced Spaceborne Thermal Emission and Reflection Radiometer), an imaging instrument onboard Terra, the flagship satellite of NASA's Earth Observing System. ASTER is a cooperative effort between NASA, Japan's Ministry of Economy, Trade and Industry (METI), and Japan Space Systems (J-spacesystems).
 
 Contour lines plugin is a handy tool for hikers, tourists and anyone who needs the information about the terrain in a specific area.
+
+![Contour lines and Terrain](/assets/images/plugins/contour-lines/contour_lines_terrain.png)
 
 ## Where Plugin find?
 
@@ -44,7 +44,7 @@ In the  Terrain  menu you can change Hillshade or Slope for the visible layer. H
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.shared_string_terrain %}
 
-Hillshades:
+**Hillshade:**
 
 ![Terrain menu Android](/assets/images/plugins/contour-lines/terrain_menu_android.png) ![Terrain menu iOS](/assets/images/plugins/contour-lines/terrain_menu_ios.png) 
 
@@ -54,7 +54,7 @@ Hillshades:
 - {% data variables.android-values.shared_string_zoom_levels %} - setting zoom levels for the terrain layer.
 - {% data variables.android-values.welmode_download_maps %} - {% data variables.android-values.hillshade_download_description %}.
 
-Slopes:
+**Slope:**
 
 ![Terrain menu slopes Android](/assets/images/plugins/contour-lines/terrain_menu_slopes_android.png) ![Terrain menu slopes iOS](/assets/images/plugins/contour-lines/terrain_menu_slopes_ios.png) 
 
@@ -85,10 +85,13 @@ For Contour lines you can set the minimal zoom level where the contour lines wil
 
 ## Note
 
-You can use both contour lines and terrain together to get the information from both layers. Just go to  _Configure map_  menu and enable both  _Contour lines_  and  _Terrain layer_  options. If you cannot see the hillshade/slopes after downloading it, please restart the application.
-
+You can use both contour lines and terrain together to get the information from both layers. Just go to  [Configure map](/osmand/map/configure-map-menu)  menu and enable both  [Contour lines](/osmand/map/vector-maps#contour-lines)  and  [Terrain layer](/osmand/map/raster-maps#hillshade--slope)  options. If you cannot see the hillshade/slopes after downloading it, please restart the application.
 
 After that, you'll be able to enjoy a map with all the hills and peaks. A nice option for both practical use and a general knowledge about the area you live in or travel to.
+
+![Contour lines and Terrain Android](/assets/images/plugins/contour-lines/contour_lines_terrain_android.png) ![Contour lines and Terrain iOS](/assets/images/plugins/contour-lines/contour_lines_terrain_ios.png) 
+
+
 
 Please see full video guide below:
 [Link to Youtube](https://www.youtube.com/watch?v=z8kp_M3FKoc&feature=emb_logo&ab_channel=BartEisenberg)
