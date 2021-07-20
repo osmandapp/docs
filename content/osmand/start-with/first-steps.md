@@ -4,8 +4,6 @@ intro: "This section is helping you to begin with OsmAnd. It includes informatio
 versions: '*'
 ---
 
-{% data reusables.general.article-not-complete %}
-
 {% default %}
 
 ![Travel maps Android](/assets/images/settings/google_play_screen_android.png) ![Offline navigation Android](/assets/images/settings/google_play_screen1_android.png) 
