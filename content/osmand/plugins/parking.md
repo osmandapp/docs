@@ -35,18 +35,19 @@ The following menu will show the configurations of the parking spot such as park
 
 ## Parking widget 
 
-[Parking widget](/osmand/widgets/info-widgets#-parking-widget) shows distance from user position or center map to Paking place.
+[Parking widget](/osmand/widgets/info-widgets#-parking-widget) shows distance from user position or center map to Parking place.
 
+![Parking widget Android](/assets/images/plugins/parking/parking_widget_android.png) ![Parking widget iOS](/assets/images/plugins/parking/parking_widget_ios.png)
 
 ## Delete parking point
 
-User can delete the parking location marker anytime with ‘Delete’ button.
+User can delete the parking location marker anytime. Click to the parking point and ‘Delete’ button in [Map Context menu](/osmand/map/map-context-menu#-add--delete-parking-point).
 It will be removed from the map and from the calendar if such option has been chosen earlier.
 
-![Time limited unlimited](/assets/images/plugins/parking/time_limited_unlimited.png)
+![Action Delete Parking Android](/assets/images/map/context_menu_limited_parking.png) ![Action Delete Parking iOS](/assets/images/map/context_menu_limited_parking_ios.png)
 
-If 'Time-limited parking' has been selected at Step 5 a user can set the parking time interval. <br>
-There are three ways to configure the parking time limit. The first one is by using the electronic watch control and the second one is by using analogue watch control. The third way is to tap the small keyboard image under numeric clock and set the time manually. <br>
+If 'Time-limited parking' has been selected at [Step 4]() a user can set the parking time interval.
+There are three ways to configure the parking time limit. The first one is by using the electronic watch control and the second one is by using analogue watch control. The third way is to tap the small keyboard image under numeric clock and set the time manually.
 
-The user can optionally add a notification to the Calendar by selecting appropriate option with the checkbox below. Click Ok when done.<br>
-User may also add some extra information on the calendar screen appeared and press the ‘Save’ button in the upper-right corner to save an event to the default device calendar. <br>
+The user can optionally add a notification to the Calendar by selecting appropriate option with the checkbox below. Click Ok when done.
+User may also add some extra information on the calendar screen appeared and press the ‘Save’ button in the upper-right corner to save an event to the default device calendar.
