@@ -6,11 +6,33 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
+## About Track
+
 Track on the map is user recorded trip or plan route with makred points on it or not. OsmAnd track file has gpx-format.
 
 ![Track on the map](/assets/images/personal/tracks/track_on_map_android.png) ![Track on the map iOS](/assets/images/personal/tracks/track_on_map_ios.png)
 
-## Tracks - My Places (Android)
+- Formats
+- Import
+
+## Create Track
+
+### Coordinate input (Android)
+
+- Link to Coordinate input
+
+### Record track
+
+- Link to Recording Plugin
+
+### Add waypoint
+
+- [Context menu](/osmand/map/map-context-menu#-add--edit--track-waypoint)
+
+
+## Manage Tracks (Android)
+
+### My Places
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places%} → {% data variables.android-values.shared_string_tracks %}
 
@@ -26,7 +48,7 @@ Sort:
 - A -> Z
 - Z -> A
 
-### Actions 
+### Actions
 
 ![My places tracks Actions Android](/assets/images/personal/tracks/my_places_tracks_actions_android.png) ![My places tracks Actions iOS](/assets/images/personal/tracks/my_places_tracks_actions_ios.png)
 
@@ -45,7 +67,7 @@ Sort:
 - Export to OpenStreetMap (Android)
 - Trip Planning (iOS) - to be deleted
 
-## Tracks - My Places (iOS)
+## My Places (iOS)
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → choose a track
 
@@ -89,35 +111,29 @@ Actions:
 - Edit / delete
 - Change order
 
+## Import/Export track
+
+- Link to Import / Export functionality
+- Storage
+
 ## Read more
+
+### Navigation by track
+
+- Link to navigation
 
 ### Track context menu
 
-- Link Track context menu.
+- Link [Track context menu](/osmand/map/track-context-menu).
 
-### Add waypoint
-
-- [Context menu](/osmand/map/map-context-menu#-add--edit--track-waypoint)
-
-### Track Appearance (Android)
+### Show track on Map
 
 - [Link](/osmand/map/tracks-on-map)
 
-### Analyze on Map (Android)
+### Analyze on Map
 
 - [Link](/osmand/map/tracks-on-map)
 
-### Coordinate input (Android)
-
-- Link to Coordinate input
-
-### Record track
-
-- Link to Recording Plugin
-
-### Import/Export track
-
-- Link to Import / Export functionality
 
 
 
