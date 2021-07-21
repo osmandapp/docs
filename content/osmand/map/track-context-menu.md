@@ -35,6 +35,24 @@ versions: '*'
 - Image
 - Add / edit Description 
 
+## Overview (iOS)
+
+![Statistics screen track iOS](/assets/images/personal/tracks/statistics_track_ios.png)
+
+&#8230; - [actions](/osmand/personal/tracks#actions)
+
+Name and short info of the track.
+
+Quick actions:
+- {% data variables.ios-values.map_settings_show %} - show a track on the map
+- {% data variables.ios-values.fav_color %}    - change color track
+
+Info:
+- {% data variables.ios-values.gpx_speed %} - average speed, max speed
+- {% data variables.ios-values.gpx_route_time %} - Route time ...
+- {% data variables.ios-values.gpx_uphldownhl %}
+
+
 ## Altitude / Speed Graphs 
 
 ![Track menu track Android](/assets/images/personal/tracks/track_menu_track_android.png) 
@@ -73,6 +91,23 @@ Tabs:
 - Open waypoint menu (link to favorites)
 - Point filters (bubbles)
 
+
+## Waypoints (iOS)
+
+![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_ios.png)
+
+- Folders <-> Points list
+- edit point - Actions with waypoints
+
+![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_actions_ios.png)
+
+Actions:
+- 'Import loader' - allows to share/import waypoints.
+- 'Folder' - allows to move waypoints to others folders or to new creating folder.
+- 'Palette of colors' - allows to change colors for waypoints.
+- 'BIN' - allows to delete chosen waypoints.
+
+
 ### Group menu
 
 ![Track menu Group menu Android](/assets/images/personal/tracks/track_menu_group_menu_android.png) 
@@ -105,3 +140,5 @@ Tabs:
 ![Track split interval screen Android](/assets/images/personal/tracks/track_split_interval_android.png) 
 
 - Split interval by distnace / time
+
+

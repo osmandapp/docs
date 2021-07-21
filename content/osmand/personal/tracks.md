@@ -15,7 +15,7 @@ Track on the map is user recorded trip or plan route with makred points on it or
 - Formats
 - Import
 
-## Create Track
+## Create / Edit Track
 
 ### Coordinate input (Android)
 
@@ -29,10 +29,21 @@ Track on the map is user recorded trip or plan route with makred points on it or
 
 - [Context menu](/osmand/map/map-context-menu#-add--edit--track-waypoint)
 
+### Edit mode (iOS)
 
-## Manage Tracks (Android)
+![Edit mode ios](/assets/images/personal/tracks/edit_mode_ios.png) 
 
-### My Places
+- Add points
+- Edit / delete
+- Change order
+
+### Edit via Plan Route
+
+- [Edit track](/osmand/plan-route/create-route)
+
+## Manage Tracks 
+
+### My Places (Android)
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places%} → {% data variables.android-values.shared_string_tracks %}
 
@@ -40,13 +51,17 @@ Track on the map is user recorded trip or plan route with makred points on it or
 
 ![My places tracks Android](/assets/images/personal/tracks/my_places_tracks_android.png) ![My places tracks iOS](/assets/images/personal/tracks/my_places_tracks_ios.png)
 
-### Search / Sort
+### Search / Sort (Android)
 
 Sort: 
 
 - Last modified
 - A -> Z
 - Z -> A
+
+### My Places (iOS)
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → choose a track
 
 ### Actions
 
@@ -67,49 +82,6 @@ Sort:
 - Export to OpenStreetMap (Android)
 - Trip Planning (iOS) - to be deleted
 
-## My Places (iOS)
-
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → choose a track
-
-### Statistics
-
-![Statistics screen track iOS](/assets/images/personal/tracks/statistics_track_ios.png)
-
-&#8230; - [actions](/osmand/personal/tracks#actions)
-
-Name and short info of the track.
-
-Quick actions:
-- {% data variables.ios-values.map_settings_show %} - show a track on the map
-- {% data variables.ios-values.fav_color %}    - change color track
-
-Info:
-- {% data variables.ios-values.gpx_speed %} - average speed, max speed
-- {% data variables.ios-values.gpx_route_time %} - Route time ...
-- {% data variables.ios-values.gpx_uphldownhl %}
-
-### Waypoints
-
-![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_ios.png)
-
-- Folders <-> Points list
-- edit point - Actions with waypoints
-
-![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_actions_ios.png)
-
-Actions:
-- 'Import loader' - allows to share/import waypoints.
-- 'Folder' - allows to move waypoints to others folders or to new creating folder.
-- 'Palette of colors' - allows to change colors for waypoints.
-- 'BIN' - allows to delete chosen waypoints.
-
-### Edit mode (iOS)
-
-![Edit mode ios](/assets/images/personal/tracks/edit_mode_ios.png) 
-
-- Add points
-- Edit / delete
-- Change order
 
 ## Import/Export track
 
@@ -120,7 +92,7 @@ Actions:
 
 ### Navigation by track
 
-- Link to navigation
+- [Link to navigation](/osmand/navigation/gpx-navigation)
 
 ### Track context menu
 
