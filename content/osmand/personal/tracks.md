@@ -90,22 +90,8 @@ Sort:
 
 ## Read more
 
-### Navigation by track
-
-- [Link to navigation](/osmand/navigation/gpx-navigation)
-
-### Track context menu
-
-- Link [Track context menu](/osmand/map/track-context-menu).
-
-### Show track on Map
-
-- [Link](/osmand/map/tracks-on-map)
-
-### Analyze on Map
-
-- [Link](/osmand/map/tracks-on-map)
-
-
-
-
+### [Show track on Map](/osmand/map/tracks-on-map)
+### [Analyze on Map](/osmand/map/tracks-on-map)
+### [Track Context menu](/osmand/map/track-context-menu)
+### [Navigation by track](/osmand/navigation/gpx-navigation)
+### [Trip recording](/osmand/plugins/trip-recording)

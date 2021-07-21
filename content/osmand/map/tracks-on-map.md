@@ -6,7 +6,7 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
-## Tracks & Routes
+## Type of routes
 
 - Tracks (GPX)
 - Navigation Route
@@ -22,7 +22,7 @@ Track is [user data](/osmand/personal/myplaces) that showed [recorded](/osmand/p
 
 For showing or not [GPX-tracks](/osmand/personal/myplaces) on the map.
 
-**1. {% data variables.android-values.configure_map %} menu**
+### {% data variables.android-values.configure_map %} menu
 
 | Android | iOS |
 | :--- | :--- |
@@ -30,13 +30,12 @@ For showing or not [GPX-tracks](/osmand/personal/myplaces) on the map.
 |  Info below {% data variables.android-values.show_gpx %} shows number of selected tracks on the map ![Tracks note](/assets/images/map/tracks_note.png) |  |
 |   ![Tracks menu Android](/assets/images/map/tracks_menu_android.png) | ![Tracks menu iOS](/assets/images/map/tracks_menu_ios.png) |
 
-**2. {% data variables.android-values.shared_string_my_places %} menu**
+###  {% data variables.android-values.shared_string_my_places %} menu
 
 | Android | iOS |
 | :--- | :--- |
 |   {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_files %} → &#xe802; → {% data variables.android-values.shared_string_show_on_map %}  or "Map" button for choosing multiple tracks  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → &#8250; → {% data variables.ios-values.map_settings_show %} or "Layer" button for choosing multiple tracks  |
 |   ![Tracks my places Android](/assets/images/map/tracks_myplaces_android.png) | ![Tracks menu iOS](/assets/images/map/tracks_myplaces_ios.png) |
-
 
 
 ### Track Appearance (Android)
@@ -61,7 +60,7 @@ The route is a line on the map that shows a user's creating trip. In OsmAnd user
 | :--- | :--- |
 | ![Route on the map Android](/assets/images/map/route_layer_android.png) |![Route on the map iOS](/assets/images/map/route_layer_ios.png) |
 
-### Customize Navigation Route (Android)
+### Route Appearance (Android)
 
 In OsmAnd for Android, [a user can customize](/osmand/personal/profiles) route line: color and width.
 
@@ -71,9 +70,12 @@ In OsmAnd for Android, [a user can customize](/osmand/personal/profiles) route l
 
 ## Travel Routes
 
+
 - Hiking 
 - Bicycle
 - Node networks
+
+Link to [Vector map style](/osmand/map/vector-maps#routes).
 
 
 ## Analyze Route on Map (Android)
@@ -89,7 +91,9 @@ In OsmAnd for Android, [a user can customize](/osmand/personal/profiles) route l
 
 ## Read more
 
-- [Context Track menu](/osmand/map/track-context-menu).
-- [Configure map menu](/osmand/map/configure-map-menu).
-- [Trip recording](/osmand/plugins/trip-recording).
-- [Plan a route](/osmand/plan-route) tool.
+### [Tracks](/osmand/personal/tracks)
+### [Track Context menu](/osmand/map/track-context-menu)
+### [Configure map menu](/osmand/map/configure-map-menu)
+### [Trip recording](/osmand/plugins/trip-recording)
+### [Plan a route](/osmand/plan-route)
+### [Navigation by track](/osmand/navigation/gpx-navigation)

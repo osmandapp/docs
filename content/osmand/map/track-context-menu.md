@@ -9,7 +9,23 @@ versions: '*'
 
 ## Overview
 
-![Track menu overview Android](/assets/images/personal/tracks/track_menu_overview_android.png) 
+![Track menu overview Android](/assets/images/personal/tracks/track_menu_overview_android.png) ![Statistics screen track iOS](/assets/images/personal/tracks/statistics_track_ios.png)
+
+### iOS info
+
+&#8230; - [actions](/osmand/personal/tracks#actions)
+
+Name and short info of the track.
+
+Quick actions:
+- {% data variables.ios-values.map_settings_show %} - show a track on the map
+- {% data variables.ios-values.fav_color %}    - change color track
+
+Info:
+- {% data variables.ios-values.gpx_speed %} - average speed, max speed
+- {% data variables.ios-values.gpx_route_time %} - Route time ...
+- {% data variables.ios-values.gpx_uphldownhl %}
+
 
 ### Info panel
 
@@ -35,22 +51,6 @@ versions: '*'
 - Image
 - Add / edit Description 
 
-## Overview (iOS)
-
-![Statistics screen track iOS](/assets/images/personal/tracks/statistics_track_ios.png)
-
-&#8230; - [actions](/osmand/personal/tracks#actions)
-
-Name and short info of the track.
-
-Quick actions:
-- {% data variables.ios-values.map_settings_show %} - show a track on the map
-- {% data variables.ios-values.fav_color %}    - change color track
-
-Info:
-- {% data variables.ios-values.gpx_speed %} - average speed, max speed
-- {% data variables.ios-values.gpx_route_time %} - Route time ...
-- {% data variables.ios-values.gpx_uphldownhl %}
 
 
 ## Altitude / Speed Graphs 
@@ -83,8 +83,7 @@ Tabs:
 
 ## Waypoints
 
-![Track menu points Android](/assets/images/personal/tracks/track_menu_points_android.png) 
-
+![Track menu points Android](/assets/images/personal/tracks/track_menu_points_android.png) ![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_ios.png)
 - Route points vs waypoitns
 - Search
 - Add waypoint
@@ -92,14 +91,10 @@ Tabs:
 - Point filters (bubbles)
 
 
-## Waypoints (iOS)
-
-![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_ios.png)
+## iOS info
 
 - Folders <-> Points list
 - edit point - Actions with waypoints
-
-![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_actions_ios.png)
 
 Actions:
 - 'Import loader' - allows to share/import waypoints.
@@ -142,3 +137,10 @@ Actions:
 - Split interval by distnace / time
 
 
+## Read more
+
+### [Tracks](/osmand/personal/tracks)
+### [Show track on Map](/osmand/map/tracks-on-map)
+### [Analyze on Map](/osmand/map/tracks-on-map)
+### [Plan a route](/osmand/plan-route)
+### [Trip recording](/osmand/plugins/trip-recording)
