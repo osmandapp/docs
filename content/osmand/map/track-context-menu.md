@@ -139,7 +139,7 @@ Actions:
 
 ## Read more
 
-{% link_with_intro /personal/tracks %}
+{% link_with_intro /osmand/personal/tracks %}
 
 ### [Show track on Map](/osmand/map/tracks-on-map)
 ### [Analyze on Map](/osmand/map/tracks-on-map)
