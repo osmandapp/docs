@@ -139,9 +139,10 @@ Actions:
 
 ## Read more
 
-{% link_with_intro /osmand/personal/tracks %}
+### {% link_with_intro /osmand/personal/tracks %}
 
-### [Show track on Map](/osmand/map/tracks-on-map)
+{% link_with_intro /osmand/map/tracks-on-map %}
+{% link_with_intro /osmand/plan-route %}
+{% link_with_intro /osmand/plugins/trip-recording%}
+
 ### [Analyze on Map](/osmand/map/tracks-on-map)
-### [Plan a route](/osmand/plan-route)
-### [Trip recording](/osmand/plugins/trip-recording)
