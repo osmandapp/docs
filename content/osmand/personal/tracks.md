@@ -1,6 +1,6 @@
 ---
 title: "Tracks"
-intro: "Tracks"
+intro: "Short information about tracks and how to use them"
 versions: '*'
 ---
 
