@@ -7,6 +7,8 @@ versions: '*'
 
 And Parking plugin is a free plugin working with the main OsmAnd Maps and Navigation app. It keeps the information about the exact location of your car and helps you keep track of time. All you have to do is set the type of parking you are using (with or without a time limit) and set the alarm if needed.
 
+![Pakring plugin view Android](/assets/images/plugins/parking/parking_plugin_view_android.png) ![Pakring plugin view iOS](/assets/images/plugins/parking/parking_plugin_view_ios.png)
+
 
 ## Enable / Disable Plugin
 
@@ -40,6 +42,8 @@ The following menu will show the configurations of the parking spot such as park
 ## Parking widget 
 
 [Parking widget](/osmand/widgets/info-widgets#-parking-widget) shows distance from user position or center map to Parking place.
+
+Clicking to the widget moves map view to the parking position.
 
 ![Parking widget Android](/assets/images/plugins/parking/parking_widget_android.png) ![Parking widget iOS](/assets/images/plugins/parking/parking_widget_ios.png)
 
