@@ -12,7 +12,7 @@ Parking plugin is a free plugin working with the main OsmAnd Maps and Navigation
 
 ## Enable / Disable Plugin
 
-Before starting to use or not option for marking a parking postion on the mps you need to Enable / Disable plugin:
+Before starting to use or not option for marking a parking postion on the map you need to Enable / Disable plugin:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.osmand_parking_plugin_name %}
 
