@@ -93,7 +93,7 @@ Enable **[{% data variables.android-values.osmand_parking_plugin_name %} plugin]
 
 {% endtip %}
 
-This is a [{% data variables.android-values.osmand_parking_plugin_name %} plugin](/osmand/plugins/parking) widget that shows distance from you to the parking place.
+This is a [{% data variables.android-values.osmand_parking_plugin_name %} plugin](/osmand/plugins/parking) widget that shows distance from you or screen center to the parking place.
 
 
 ![Parking widget](/assets/images/plugins/parking/parking_widget.png)
