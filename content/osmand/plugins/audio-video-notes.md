@@ -73,6 +73,13 @@ Action button:
 
 ## Widget
 
+[Widget link](/osmand/widgets/info-widgets#-audio-video-notes-widget-android)
+
+![Audio-video notes widget](/assets/images/plugins/audio-video-notes/audio_video_notes_widget.png)
+
+__________________________
+
+
 You have to install  {% data variables.android-values.audionotes_plugin_name %}. It is free of charge and all you have to do is go to the plugins menu, then choose {% data variables.android-values.audionotes_plugin_name %} and tap Enable. That's it. Now you can make audio, video or photo notes and link them to the exact location of your choice.
 
 You can choose settings for your photo, video, audio files. You can click ![Overflow menu](/assets/images/icons/android/ic_overflow_menu_white.svg) to Settings of  {% data variables.android-values.audionotes_plugin_name %} plugin.
