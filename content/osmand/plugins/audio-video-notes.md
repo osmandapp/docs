@@ -1,28 +1,78 @@
 ---
 title: "{% data variables.android-values.audionotes_plugin_name %}"
-intro: "Making memorable notes is one of the main pleasures of traveling"
+intro: "Making memorable notes is one of the main pleasures of traveling. For Android only."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
 Making memorable notes is one of the main pleasures of traveling. With OsmAnd Audio/video notes plugin, you can add media right to the map to watch it later. Want your pictures to be added to the locations they were made at? Easy. Need a comfortable video recorder? No problem. Want to make an audio note and link it to the location? Problem solved.
 
-
 ![Audio video notes intro](/assets/images/plugins/audio-video-notes/audio-video-intro.png)
 
-# Add notes to your GPX track
+## How to use it
 
-You can use this plugin while  [recording the GPX track](https://osmand.net/features/trip-recording-plugin). This way, all your notes will be added to the track as waypoints automatically. When viewing the track, you'll see exactly what was recorded where.
+### Enable / Disable Plugin
 
-![Add notes to track](/assets/images/plugins/audio-video-notes/add-notes-track.png)
-To view everything later, you can export the track together with all the media and see them in the  [JOSM editor](https://josm.openstreetmap.de/). Please note that you'll need to put the media in the corresponding folder (you'll know which one if you click on a video note and see the message about a missing file. Just put it in the indicated folder).
+Before starting to use or not option for making your notes on the map you need to Enable / Disable plugin:
 
-![Audio video notes in Josm](/assets/images/plugins/audio-video-notes/josm-track-points.png)
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.audionotes_plugin_name %}
+
+![Audio video plugin Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_android.png)
+
+### Plugin settings
+
+User can set any parameters for media files in Settings menu of the Plugin. 
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.audionotes_plugin_name %} → {% data variables.android-values.shared_string_settings %}
 
 
-So there you have it: your personal notes linked to the map and stored in one place. Document your adventures!
+Photo notes:
 
-# How to use it
+![Audio video plugin settings Photo Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_photo_android.png)
+
+- {% data variables.android-values.multimedia_use_system_camera %} - use or not system application for photos.
+- {% data variables.android-values.av_camera_pic_size %}- set camera picture size.
+- {% data variables.android-values.av_camera_focus %} - set focus mode: {% data variables.android-values.av_camera_focus_infinity %}, {% data variables.android-values.av_camera_focus_auto %}, {% data variables.android-values.av_camera_focus_continuous %}.
+- {% data variables.android-values.multimedia_photo_play_sound %} - switch on/off camera shutter sound.
+
+
+Audio notes:
+
+![Audio video plugin settings Audio Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_audio_android.png)
+
+- {% data variables.android-values.av_audio_format %} - select audio output format: Default or ACC.
+- {% data variables.android-values.av_audio_bitrate %}- select audio bitrate: Default, 16kbps, 32 kbps... 128 kbps.
+
+
+Video notes:
+
+
+![Audio video plugin settings Video Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_video_android.png)
+
+- {% data variables.android-values.multimedia_use_system_camera %} - use or not system recorder for video.
+- {% data variables.android-values.av_video_quality %}- select video quality.
+- {% data variables.android-values.multimedia_rec_split_title %}- choose option: Rewrite clips when used space exceeds the storage size.
+- {% data variables.android-values.rec_split_clip_length %}- set upper time limit for recorded clips.
+- {% data variables.android-values.rec_split_storage_size %}- set amount of space that can be occupied by all recorded clips.
+
+Action button:
+
+![Audio video plugin settings Action Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_action_android.png)
+
+- [The way to your media notes in OsmAnd menu](/osmand/personal/myplaces): click to '{% data variables.android-values.notes %}' opening menu.
+- {% data variables.android-values.reset_plugin_to_default %} - tapping discards all your changes.
+- {% data variables.android-values.copy_from_other_profile %} - tapping for copy plugin settings from another profile.
+
+
+### Add note on the map
+
+### View note in Context menu
+
+### Delete note
+
+
+## Widget
+
 You have to install  {% data variables.android-values.audionotes_plugin_name %}. It is free of charge and all you have to do is go to the plugins menu, then choose {% data variables.android-values.audionotes_plugin_name %} and tap Enable. That's it. Now you can make audio, video or photo notes and link them to the exact location of your choice.
 
 You can choose settings for your photo, video, audio files. You can click ![Overflow menu](/assets/images/icons/android/ic_overflow_menu_white.svg) to Settings of  {% data variables.android-values.audionotes_plugin_name %} plugin.
@@ -67,3 +117,15 @@ When the 'Take a photo' option is selected, the user can take a picture. <br>
 
 All audio, video files and photos will be in the {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → tab {% data variables.android-values.notes %} . <br>
 User can sort files by type/data, share and delete them. <br>
+
+# Add notes to your GPX track
+
+You can use this plugin while  [recording the GPX track](https://osmand.net/features/trip-recording-plugin). This way, all your notes will be added to the track as waypoints automatically. When viewing the track, you'll see exactly what was recorded where.
+
+![Add notes to track](/assets/images/plugins/audio-video-notes/add-notes-track.png)
+To view everything later, you can export the track together with all the media and see them in the  [JOSM editor](https://josm.openstreetmap.de/). Please note that you'll need to put the media in the corresponding folder (you'll know which one if you click on a video note and see the message about a missing file. Just put it in the indicated folder).
+
+![Audio video notes in Josm](/assets/images/plugins/audio-video-notes/josm-track-points.png)
+
+
+So there you have it: your personal notes linked to the map and stored in one place. Document your adventures!
