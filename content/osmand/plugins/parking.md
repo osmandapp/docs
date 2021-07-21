@@ -4,19 +4,44 @@ intro: "It keeps the information about the exact location of your car and helps 
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
-And Parking plugin is a free plugin working with the main OsmAnd Maps and Navigation app on both Android and iOS devices. It keeps the information about the exact location of your car and helps you keep track of time. All you have to do is set the type of parking you are using (with or without a time limit) and set the alarm if needed.
+
+And Parking plugin is a free plugin working with the main OsmAnd Maps and Navigation app. It keeps the information about the exact location of your car and helps you keep track of time. All you have to do is set the type of parking you are using (with or without a time limit) and set the alarm if needed.
 
 
-To mark parking place on the map user has to: <br>
-Step 1: Zoom in the map <br>
-Step 2: Make the long tap on the map  <br>
-Step 3: Click ‘Actions’ button <br>
-Step 4: Choose ‘Mark as parking location’ <br>
-Step 5: Choose one of the parking options Time-unlimited or Time-limited parking <br>
+## Enable / Disable Plugin
 
-The following menu will show the configurations of the parking spot such as parking time and date, information about parking limitation, distance from the current location to the parking spot. <br>
-User can delete the parking location marker anytime with ‘Delete’ button. <br>
-It will be removed from the map and from the calendar if such option has been chosen earlier. <br>
+Before starting to use or not option for marking a parking postion on the mps you need to Enable / Disable plugin:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.osmand_parking_plugin_name %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_parking %}
+
+![Pakring plugin Android](/assets/images/plugins/parking/parking_plugin_android.png) ![Pakring plugin iOS](/assets/images/plugins/parking/parking_plugin_ios.png)
+
+
+## Parking point on the map
+
+To mark parking place on the map user has to:
+Step 1: Zoom in the map 
+Step 2: Make the long tap on the map  
+Step 3: Click [‘Actions’ button ](/osmand/map/map-context-menu#-add--delete-parking-point) and choose ‘Mark as parking location’ 
+
+![Action Parking Android](/assets/images/map/action_parking_android.png) ![Action Parking iOS](/assets/images/map/action_parking_ios.png)
+
+Step 4: Choose one of the parking options Time-unlimited or Time-limited parking 
+The following menu will show the configurations of the parking spot such as parking time and date, information about parking limitation, distance from the current location to the parking spot.
+
+![Action Parking set point Android](/assets/images/plugins/parking/parking_set_android.png) ![Action Parking set point iOS](/assets/images/plugins/parking/parking_set_ios.png)
+
+## Parking widget 
+
+[Parking widget](/osmand/widgets/info-widgets#-parking-widget) shows distance from user position or center map to Paking place.
+
+
+## Delete parking point
+
+User can delete the parking location marker anytime with ‘Delete’ button.
+It will be removed from the map and from the calendar if such option has been chosen earlier.
 
 ![Time limited unlimited](/assets/images/plugins/parking/time_limited_unlimited.png)
 
