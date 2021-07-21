@@ -50,11 +50,3 @@ User can delete the parking location marker anytime. Click to the parking point 
 It will be removed from the map and from the calendar if such option has been chosen earlier.
 
 ![Action Delete Parking Android](/assets/images/map/context_menu_limited_parking.png) ![Action Delete Parking iOS](/assets/images/map/context_menu_limited_parking_ios.png)
-
-If 'Time-limited parking' has been selected at [Step 4]() a user can set the parking time interval.
-
-There are three ways to configure the parking time limit. The first one is by using the electronic watch control and the second one is by using analogue watch control. The third way is to tap the small keyboard image under numeric clock and set the time manually.
-
-The user can optionally add a notification to the Calendar by selecting appropriate option with the checkbox below. Click Ok when done.
-
-User may also add some extra information on the calendar screen appeared and press the ‘Save’ button in the upper-right corner to save an event to the default device calendar.
