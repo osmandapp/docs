@@ -5,7 +5,7 @@ versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-And Parking plugin is a free plugin working with the main OsmAnd Maps and Navigation app. It keeps the information about the exact location of your car and helps you keep track of time. All you have to do is set the type of parking you are using (with or without a time limit) and set the alarm if needed.
+Parking plugin is a free plugin working with the main OsmAnd Maps and Navigation app. It keeps the information about the exact location of your car and helps you keep track of time. All you have to do is set the type of parking you are using (with or without a time limit) and set the alarm if needed.
 
 ![Pakring plugin view Android](/assets/images/plugins/parking/parking_plugin_view_android.png) ![Pakring plugin view iOS](/assets/images/plugins/parking/parking_plugin_view_ios.png)
 
