@@ -11,7 +11,83 @@ Favorites are special points marked by user and by default displayed as yellow s
 ![Favorites introduction android](/assets/images/personal/favorites_intro_android.png) ![Favorites introduction ios](/assets/images/personal/favorites_intro_ios.png)
 
 
-## Favorites (My Places)
+## Favorite Point
+
+
+
+### View on the map
+
+Favorites are one of the vector layers on the map. User can show or not Favorites and their names on the map:
+
+[Switch on/off favorites on the map](/osmand/map/point-layers-on-map#favorites)  - 'Configure map' menu
+
+[Switch on/off favorite names](/osmand/map/point-layers-on-map#favorite--poi-names)  - 'Configure map' menu
+
+![Favotires layer Android](/assets/images/map/favorites_layer.png) ![Favotires layer iOS](/assets/images/map/favorites_layer_ios.png)
+
+### Favorite Context menu
+
+Click to favorite point on "My Favorites" menu or on favorite point on the map opens [Map Context menu](/osmand/map/map-context-menu#favorites--track-points-from-the-group). Where user can find needed information about point or [add/edit favorite point](/osmand/map/map-context-menu#add--edit-favorite).
+
+### Create
+
+For creating new Favorite an user needs [to tap on the map](/osmand/map/map-context-menu#select-any-point-long-tap) at the place where he wants to add Favorite. 
+
+When an user clicks at chosen place appeares ['Map Context menu'](/osmand/map/map-context-menu) with ['Action menu'](/osmand/map/map-context-menu#add--edit-favorite). 
+
+Click to [**Add**](/osmand/map/map-context-menu#add--edit-favorite) for opening 'Add favorite' menu.
+
+![Favorite add menu Android](/assets/images/personal/favorite_add_android.png) ![Favorite add menu iOS](/assets/images/personal/favorite_add_ios.png)
+
+Here you can add: name, description, address for favorite. 
+
+![Favorite add description Android](/assets/images/personal/favorite_add_descr_android.png) ![Favorite add description iOS](/assets/images/personal/favorite_add_descr_ios.png)
+
+Select Favorite group (folder) for your favorite point or add new group (folder).
+
+![Favorite group Android](/assets/images/personal/favorite_group_android.png) ![Favorite group iOS](/assets/images/personal/favorite_group_ios.png)
+
+For adding new favorite group(folder), you need to add name, to select color. This color will be used for all new favorites added to the group by default.
+
+![Favorite new group Android](/assets/images/personal/favorite_new_group_android.png) ![Favorite new group iOS](/assets/images/personal/favorite_new_group_ios.png)
+
+Next, you can select icon for your favorite from our list.
+
+![Favorite icon Android](/assets/images/personal/favorite_icon_android.png) ![Favorite icon iOS](/assets/images/personal/favorite_icon_ios.png)
+
+After, you can choose color and shape for favorite icon.
+
+![Favorite color and shape Android](/assets/images/personal/favorite_color_shape_android.png) ![Favorite color and shape iOS](/assets/images/personal/favorite_color_shape_ios.png)
+
+In 'Actions', you can replace another point with this. For Android, this 'Replace' button repeats in up corner of 'Add favorite' menu.
+
+After creation, you can click 'Save' button for saving new Favorite point or 'Cancel' button for canceling point creation.
+
+![Favorite actions Android](/assets/images/personal/favorite_actions_android.png) ![Favorite actions iOS](/assets/images/personal/favorite_actions_ios.png)
+
+### Edit
+
+For editing a Favorite point an user need [to short tap](/osmand/map/map-context-menu#select-an-object-short-tap) on chosen a Favorite point.
+
+After that, you need to click ['Edit favorite' button on 'Map Context menu'](/osmand/map/map-context-menu#add--edit-favorite). 
+
+'Edit favorite' menu opens. It's look like ['Add favorite' menu](/osmand/personal/favorites#create). But in Action part there is one more action - 'Delete' button. For Android, there is additional 'Delete' button in up corner of 'Edit favorite' menu. 
+
+![Favorite edit Android](/assets/images/personal/favorite_edit_android.png) ![Favorite edit iOS](/assets/images/personal/favorite_edit_ios.png)
+
+You can change name, description, address for chosen favorite, change or create new group for it, select another icon, color and shap, replace another point with this.
+
+
+### Search 
+
+- Favorite points can be seacrhed by [Search function](/osmand/search) of OsmAnd. The first points will be from 'My favorites'.
+
+![Favorite searching function Android](/assets/images/personal/favorite_search_android.png) ![Favorite searching function iOS](/assets/images/personal/favorite_search_ios.png)
+
+- Using [Search in 'My Favorites' menu (only for Android)](/osmand/personal/favorites#search-android).
+
+
+## Manage Favorites
 
 In order to open Favorites list:
 
@@ -113,82 +189,6 @@ Export/Import favorite for iOS version like special menu in "My Favorites" menu.
 '{% data variables.ios-values.fav_import_title %}' - {% data variables.ios-values.fav_import_desc %}. 
 
 '{% data variables.ios-values.fav_export_title %}' - You can export all your favorites like Favorites.gpx file.
-
-
-## Favorite Point
-
-
-
-### View on the map
-
-Favorites are one of the vector layers on the map. User can show or not Favorites and their names on the map:
-
-[Switch on/off favorites on the map](/osmand/map/point-layers-on-map#favorites)  - 'Configure map' menu
-
-[Switch on/off favorite names](/osmand/map/point-layers-on-map#favorite--poi-names)  - 'Configure map' menu
-
-![Favotires layer Android](/assets/images/map/favorites_layer.png) ![Favotires layer iOS](/assets/images/map/favorites_layer_ios.png)
-
-### Favorite Context menu
-
-Click to favorite point on "My Favorites" menu or on favorite point on the map opens [Map Context menu](/osmand/map/map-context-menu#favorites--track-points-from-the-group). Where user can find needed information about point or [add/edit favorite point](/osmand/map/map-context-menu#add--edit-favorite).
-
-### Create
-
-For creating new Favorite an user needs [to tap on the map](/osmand/map/map-context-menu#select-any-point-long-tap) at the place where he wants to add Favorite. 
-
-When an user clicks at chosen place appeares ['Map Context menu'](/osmand/map/map-context-menu) with ['Action menu'](/osmand/map/map-context-menu#add--edit-favorite). 
-
-Click to [**Add**](/osmand/map/map-context-menu#add--edit-favorite) for opening 'Add favorite' menu.
-
-![Favorite add menu Android](/assets/images/personal/favorite_add_android.png) ![Favorite add menu iOS](/assets/images/personal/favorite_add_ios.png)
-
-Here you can add: name, description, address for favorite. 
-
-![Favorite add description Android](/assets/images/personal/favorite_add_descr_android.png) ![Favorite add description iOS](/assets/images/personal/favorite_add_descr_ios.png)
-
-Select Favorite group (folder) for your favorite point or add new group (folder).
-
-![Favorite group Android](/assets/images/personal/favorite_group_android.png) ![Favorite group iOS](/assets/images/personal/favorite_group_ios.png)
-
-For adding new favorite group(folder), you need to add name, to select color. This color will be used for all new favorites added to the group by default.
-
-![Favorite new group Android](/assets/images/personal/favorite_new_group_android.png) ![Favorite new group iOS](/assets/images/personal/favorite_new_group_ios.png)
-
-Next, you can select icon for your favorite from our list.
-
-![Favorite icon Android](/assets/images/personal/favorite_icon_android.png) ![Favorite icon iOS](/assets/images/personal/favorite_icon_ios.png)
-
-After, you can choose color and shape for favorite icon.
-
-![Favorite color and shape Android](/assets/images/personal/favorite_color_shape_android.png) ![Favorite color and shape iOS](/assets/images/personal/favorite_color_shape_ios.png)
-
-In 'Actions', you can replace another point with this. For Android, this 'Replace' button repeats in up corner of 'Add favorite' menu.
-
-After creation, you can click 'Save' button for saving new Favorite point or 'Cancel' button for canceling point creation.
-
-![Favorite actions Android](/assets/images/personal/favorite_actions_android.png) ![Favorite actions iOS](/assets/images/personal/favorite_actions_ios.png)
-
-### Edit
-
-For editing a Favorite point an user need [to short tap](/osmand/map/map-context-menu#select-an-object-short-tap) on chosen a Favorite point.
-
-After that, you need to click ['Edit favorite' button on 'Map Context menu'](/osmand/map/map-context-menu#add--edit-favorite). 
-
-'Edit favorite' menu opens. It's look like ['Add favorite' menu](/osmand/personal/favorites#create). But in Action part there is one more action - 'Delete' button. For Android, there is additional 'Delete' button in up corner of 'Edit favorite' menu. 
-
-![Favorite edit Android](/assets/images/personal/favorite_edit_android.png) ![Favorite edit iOS](/assets/images/personal/favorite_edit_ios.png)
-
-You can change name, description, address for chosen favorite, change or create new group for it, select another icon, color and shap, replace another point with this.
-
-
-### Search 
-
-- Favorite points can be seacrhed by [Search function](/osmand/search) of OsmAnd. The first points will be from 'My favorites'.
-
-![Favorite searching function Android](/assets/images/personal/favorite_search_android.png) ![Favorite searching function iOS](/assets/images/personal/favorite_search_ios.png)
-
-- Using [Search in 'My Favorites' menu (only for Android)](/osmand/personal/favorites#search-android).
 
 
 ## Favorite Groups 
