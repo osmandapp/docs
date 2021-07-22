@@ -18,8 +18,3 @@ In order to manage saved information, you need to go to the [{% data variables.a
 - {% link_with_intro /osmand/personal/tracks %}
 - {% link_with_intro /osmand/plugins/osm-editing %}
 - {% link_with_intro /osmand/plugins/audio-video-notes %}
-
-- [Tracks](/osmand/personal/tracks) - routes that have been saved in GPX format.
-- [Favorites](/osmand/personal/favorites) - special points marked by user and by default displayed as yellow stars.
-- [* OSM Edits](/osmand/plugins/osm-editing) - notes and edits created on the map that helps the OpenStreetMap project to improve the map. 
-- [* Audio / Video Notes (Android)](/osmand/plugins/audio-video-notes) - are user's made points with audio/photo/video data on the map.
