@@ -96,19 +96,28 @@ User can sort files by type/data, share and delete them.
 
 ### By Map Context menu
 
+User can add [a note in chosen point on the map](/osmand/map/map-context-menu#-record-av-note-android). Just make long tap on the map and choose [special Actions on Map Context menu](/osmand/map/map-context-menu):
 
+- {% data variables.android-values.recording_context_menu_arecord %} - makes a audio note on selected point (creates new point on the overlay with audio icon).
+- {% data variables.android-values.recording_context_menu_vrecord%} - makes a video note on selected point (creates new point on the overlay with video icon).
+- {% data variables.android-values.recording_context_menu_precord %} - makes a photo point on the map.
 
-![Context menu take a note](/assets/images/plugins/audio-video-notes/context-menu-take-note.png)
+![Audio video plugin  Context menu take a note](/assets/images/plugins/audio-video-notes/context-menu-take-note.png)
 
-## View note in Context menu
+## Actions with notes
 
-## Delete note
+All notes keep in [My places menu](/osmand/personal/myplaces). User can make needed actions with notes in My places menu or in Map Context menu.
 
-## Widget
+### My places menu
 
-[Widget link](/osmand/widgets/info-widgets#-audio-video-notes-widget-android)
+All user notes keep in [My places menu](/osmand/personal/myplaces). It's a list with all your notes.
 
-![Audio-video notes widget](/assets/images/plugins/audio-video-notes/audio_video_notes_widget.png)
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.notes %}
+
+Clicking to chosen point opens [Map Context menu]()
+
+### Actions in Map Context menu
+
 
 __________________________
 
@@ -135,28 +144,6 @@ You can click to three points ![Overflow menu](/assets/images/icons/android/ic_o
 {% data variables.android-values.audionotes_plugin_name %} Plugin stores media files in a format:
 {SHORTLINK_LOCATION}_Description.{avi,mp3,jpg} where SHORTLINK_LOCATION is encoded latitude/longitude according to specification https://wiki.openstreetmap.org/wiki/Shortlink.
 
-# Widget
-Link to widget?
-The Audio-video notes widget is a clickable widget. It changes its state according to settings chosen in the Configure screen menu. <br>
-
-To make  audio, video, photo notes  user have to choose the needed option by clicking on the widget. <br>
-
-If 'On request' option is selected  user will see three options to choose. <br>
-* Take an audio note <br>
-* Take a video note <br>
-* Take a photo <br>
-
-When the 'Take an audio note' option is selected, the user  can start doing audio recording.  To stop audio recording the user has to click on the widget or the button 'Stop' at the bottom of the screen. <br>
-
-![Take an Audio video notes](/assets/images/plugins/audio-video-notes/take_an_audio_note_widget.png) <br>
-When the 'Take a video note' option is selected, the user  can start doing video recording.  To stop video recording the user has to click on the widget or the button 'Stop' at the bottom of the screen. User can optionally show or hide the  video screen view by clicking the relevant button in the bottom-left corner. <br>
-
-![Take a video note](/assets/images/plugins/audio-video-notes/take_a_video_note_widget.png) <br>
-
-When the 'Take a photo' option is selected, the user can take a picture. <br>
-
-All audio, video files and photos will be in the {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → tab {% data variables.android-values.notes %} . <br>
-User can sort files by type/data, share and delete them. <br>
 
 # Add notes to your GPX track
 
