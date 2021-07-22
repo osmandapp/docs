@@ -302,9 +302,9 @@ Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
 
 Records or takes a media note at selected point on the map.
 
-- {% data variables.android-values.recording_context_menu_arecord %} - makes a [audio note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with audio icon).
-- {% data variables.android-values.recording_context_menu_vrecord%} - makes a [video note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with video icon).
-- {% data variables.android-values.recording_context_menu_precord %} - makes a [photo point](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on the map.
+- {% data variables.android-values.recording_context_menu_arecord %} - makes a [audio note](/osmand/map/point-layers-on-map#-audio--video-points-android) on selected point (creates new point on the overlay with audio icon).
+- {% data variables.android-values.recording_context_menu_vrecord%} - makes a [video note](/osmand/map/point-layers-on-map#-audio--video-points-android) on selected point (creates new point on the overlay with video icon).
+- {% data variables.android-values.recording_context_menu_precord %} - makes a [photo point](/osmand/map/point-layers-on-map#-audio--video-points-android) on the map.
 
 Requires [Audio / Video note plugin](/osmand/plugins/audio-video-notes).
 
