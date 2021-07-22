@@ -162,7 +162,7 @@ You can use this plugin while  [recording the GPX track](/osmand/plugins/trip-re
 
 ![Audio video plugin to Track](/assets/images/plugins/audio-video-notes/audio_video_notes_to_track.png)
 
-When viewing the track, you'll see exactly what was recorded where.
+When [viewing the track](/osmand/map/track-context-menu), you'll see exactly what was recorded where.
 
 ![Audio video plugin to Track view](/assets/images/plugins/audio-video-notes/audio_video_notes_to_track_view.png)
 
