@@ -16,7 +16,7 @@ In order to manage saved information, you need to go to the [{% data variables.a
  ![My places menu Android](/assets/images/personal/my_places_menu_android.png) ![My places menu iOS](/assets/images/personal/my_places_menu_ios.png)
 
  'My Places' menu includes:
-- [Favorites](/osmand/personal/favorites) - are special points marked by user and by default displayed as yellow stars.
-- [Tracks](/osmand/personal/tracks) - are routes that have been saved in GPX format.
-- [* OSM Edits](/osmand/plugins/osm-editing) - are notes and edits created on the map that helps the OpenStreetMap project to improve the map. 
+- [Favorites](/osmand/personal/favorites) - special points marked by user and by default displayed as yellow stars.
+- [Tracks](/osmand/personal/tracks) - routes that have been saved in GPX format.
+- [* OSM Edits](/osmand/plugins/osm-editing) - notes and edits created on the map that helps the OpenStreetMap project to improve the map. 
 - [* Audio / Video Notes (Android)](/osmand/plugins/audio-video-notes) - are user's made points with audio/photo/video data on the map.
