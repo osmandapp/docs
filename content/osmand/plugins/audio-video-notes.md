@@ -114,7 +114,33 @@ All user notes keep in [My places menu](/osmand/personal/myplaces). It's a list 
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.notes %}
 
-Clicking to chosen point opens [Map Context menu]()
+![Audio video plugin My places menu](/assets/images/plugins/audio-video-notes/audio_video_notes_myplaces_menu.png)
+
+Clicking to chosen point opens [Map Context menu](/osmand/plugins/audio-video-notes#actions-in-map-context-menu) of this note.
+
+![Audio video plugin My places menu Context](/assets/images/plugins/audio-video-notes/audio_video_notes_myplaces_menu_context.png)
+
+Clicking to &#8285; opens additional menu of chosen note:
+
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.notes %} -> &#8285; of chosen note
+
+![Audio video plugin My places menu actions](/assets/images/plugins/audio-video-notes/audio_video_notes_myplaces_menu_actions.png)
+
+- name of a note - show the name of chosen a/v note.
+- {% data variables.android-values.watch %} / {% data variables.android-values.recording_context_menu_play %} - play your audio /  video note, or show photo note.
+- {% data variables.android-values.shared_string_share %} - share chosen note.
+- {% data variables.android-values.shared_string_show_on_map %} - show chosen note on the map and open [Map Context menu](/osmand/plugins/audio-video-notes#actions-in-map-context-menu).
+- {% data variables.android-values.shared_string_rename %} - rename chosen point.
+- {% data variables.android-values.shared_string_delete %} - delete chosen point.
+
+At the bottom of the screen are three Actions buttons:
+
+![Audio video plugin My places menu Three actions](/assets/images/plugins/audio-video-notes/audio_video_notes_myplaces_menu_three_actions.png)
+
+- {% data variables.android-values.shared_string_sort %} - sort your notes list by type or by date.
+- {% data variables.android-values.shared_string_share %} - choose notes from the list and share its. You can choose a/v notes in GPX file too.
+- {% data variables.android-values.shared_string_delete %} - choose notes from the list and delete its. You can choose a/v notes in GPX file too.
+
 
 ### Actions in Map Context menu
 
