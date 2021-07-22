@@ -6,7 +6,7 @@ versions: '*'
 
 The [Main menu](/osmand/widgets/map-buttons#main-menu) icon '&#8801;' is located on the left bottom corner of the Map screen. In navigation mode this button is not visible by default. It appears after a short tap on the map. 
 
-![Main menu](/assets/images/menu/Main_menu.png)
+![Main menu Android](/assets/images/menu/main_menu_android.png) ![Main menu iOS] (/assets/images/menu/main_menu_ios.png)
 
 ## Main menu (Drawer)
 
