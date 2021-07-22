@@ -9,9 +9,8 @@ Making memorable notes is one of the main pleasures of traveling. With OsmAnd Au
 
 ![Audio video notes intro](/assets/images/plugins/audio-video-notes/audio-video-intro.png)
 
-## How to use it
 
-### Enable / Disable Plugin
+## Enable / Disable Plugin
 
 Before starting to use or not option for making your notes on the map you need to Enable / Disable plugin:
 
@@ -19,7 +18,7 @@ Before starting to use or not option for making your notes on the map you need t
 
 ![Audio video plugin Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_android.png)
 
-### Plugin settings
+## Plugin settings
 
 User can set any parameters for media files in Settings menu of the Plugin. 
 
@@ -64,12 +63,46 @@ Action button:
 - {% data variables.android-values.copy_from_other_profile %} - tapping for copy plugin settings from another profile.
 
 
-### Add note on the map
+## Add note on the map
 
-### View note in Context menu
+For viewing your notes on the map you can switch on the  [Recording layer](/osmand/map/point-layers-on-map#-audio--video-points-android)  in  [Configure map menu](/osmand/map/configure-map-menu).
 
-### Delete note
+There are two ways how to add your notes on the map:
+- [by Widget](/osmand/widgets/info-widgets#-audio-video-notes-widget-android): adding a note in the point of your location.
+- [by Map Context menu](/osmand/map/map-context-menu#-record-av-note-android): adding a note in the chosen point on the map.
 
+
+### By Widget
+
+The Audio-video notes widget is a clickable widget. It changes its state according to settings chosen in [the Configure screen menu](/osmand/widgets/info-widgets#-audio-video-notes-widget-android) .
+
+To make  audio, video, photo notes  user have to choose the needed option by clicking on the widget.
+
+If 'On request' option is selected  user will see three options to choose:
+- Take an audio note
+- Take a video note
+- Take a photo
+
+![Audio video plugin widget Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_widget_choice_android.png)
+
+When the 'Take an audio / video note' option is selected, the user  can start doing audio or video recording.  To stop recording the user has to click on the widget or the button 'Stop' at the bottom of the screen. User can optionally show or hide the  video screen view by clicking the relevant button in the bottom-left corner.
+
+![Audio video plugin Take a video note](/assets/images/plugins/audio-video-notes/take_a_video_note_widget.png) <br>
+
+When the 'Take a photo' option is selected, the user can take a picture.
+
+All audio, video files and photos will be in the {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → tab {% data variables.android-values.notes %} . 
+User can sort files by type/data, share and delete them.
+
+### By Map Context menu
+
+
+
+![Context menu take a note](/assets/images/plugins/audio-video-notes/context-menu-take-note.png)
+
+## View note in Context menu
+
+## Delete note
 
 ## Widget
 
