@@ -7,7 +7,7 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
-'My places' is one of the main section of OsmAnd menu that contains way and control of user points named [Favorites](/osmand/personal/favorites, GPX-[tracks](/osmand/personal/tracks) (recorded and made routes), OSM edit points ([POI for OpenStreetMap](/osmand/map/point-layers-on-map#points-of-interest-poi)), [audio / Video Notes (Android)](/osmand/plugins/audio-video-notes).
+'My places' is one of the main section of OsmAnd menu that contains way and control of user points named [Favorites](/osmand/personal/favorites), GPX-[tracks](/osmand/personal/tracks) (recorded and made routes), OSM edit points ([POI for OpenStreetMap](/osmand/map/point-layers-on-map#points-of-interest-poi)), [audio / Video Notes (Android)](/osmand/plugins/audio-video-notes).
 
 In order to manage saved information, you need to go to the [{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces)
 
