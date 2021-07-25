@@ -26,11 +26,11 @@ Routes on the map have next type:
 
 Track is [user data](/osmand/personal/myplaces) that showed [recorded](/osmand/plugins/trip-recording) or [planning trip](/osmand/plan-route). 
 
-| Android | iOS |
-| :--- | :--- |
-| ![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) |![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) |
+OsmAnd app uses [GPX-format](https://en.wikipedia.org/wiki/GPS_Exchange_Format)
 
-For showing or not [GPX-tracks](/osmand/personal/myplaces) on the map.
+![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) ![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) 
+
+For showing or not [GPX-tracks](/osmand/personal/myplaces) on the map:
 
 ### {% data variables.android-values.configure_map %} menu
 
