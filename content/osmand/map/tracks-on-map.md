@@ -30,22 +30,28 @@ OsmAnd app uses [GPX-format](https://en.wikipedia.org/wiki/GPS_Exchange_Format)
 
 ![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) ![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) 
 
-For showing or not [GPX-tracks](/osmand/personal/myplaces) on the map:
+There are several ways to show or not [GPX-tracks](/osmand/personal/myplaces) on the map:
 
 ### {% data variables.android-values.configure_map %} menu
 
-| Android | iOS |
-| :--- | :--- |
-|{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.show_gpx %} → &#8230 → Choosing tracks for displayed from the list and setting of track appearance | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.tracks %} → Choosing tracks for displayed from the list |
-|  Info below {% data variables.android-values.show_gpx %} shows number of selected tracks on the map ![Tracks note](/assets/images/map/tracks_note.png) |  |
-|   ![Tracks menu Android](/assets/images/map/tracks_menu_android.png) | ![Tracks menu iOS](/assets/images/map/tracks_menu_ios.png) |
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.show_gpx %} → &#8230 → Choosing tracks for displayed from the list and setting of track appearance.
+
+|Info below {% data variables.android-values.show_gpx %} shows number of selected tracks on the map 
+
+![Tracks note](/assets/images/map/tracks_note.png)
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.tracks %} → Choosing tracks for displayed from the list 
+
+![Tracks menu Android](/assets/images/map/tracks_menu_android.png) ![Tracks menu iOS](/assets/images/map/tracks_menu_ios.png) 
 
 ###  {% data variables.android-values.shared_string_my_places %} menu
 
-| Android | iOS |
-| :--- | :--- |
-|   {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_files %} → &#xe802; → {% data variables.android-values.shared_string_show_on_map %}  or "Map" button for choosing multiple tracks  | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → &#8250; → {% data variables.ios-values.map_settings_show %} or "Layer" button for choosing multiple tracks  |
-|   ![Tracks my places Android](/assets/images/map/tracks_myplaces_android.png) | ![Tracks menu iOS](/assets/images/map/tracks_myplaces_ios.png) |
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_files %} → &#xe802; → {% data variables.android-values.shared_string_show_on_map %}  or ["Map" button](/osmand/personal/tracks#my-places-android) for choosing multiple tracks. 
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → &#8250; → {% data variables.ios-values.map_settings_show %} or ["Layer" button](/osmand/personal/tracks#my-places-ios) for choosing multiple tracks.
+
+![Tracks my places Android](/assets/images/map/tracks_myplaces_android.png) ![Tracks menu iOS](/assets/images/map/tracks_myplaces_ios.png)
 
 
 ### Track Appearance (Android)
