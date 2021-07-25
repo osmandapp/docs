@@ -108,7 +108,7 @@ iOS: Menu → Map → Map style → Routes
 
 - [Hiking](https://wiki.openstreetmap.org/wiki/Key:sac_scale):
 
-[Map routes - hiking osmc](/assets/images/map/map-routes-hiking-osmc.png)
+![Map routes - hiking osmc](/assets/images/map/map-routes-hiking-osmc.png)
 
 - Bicycle:
 
