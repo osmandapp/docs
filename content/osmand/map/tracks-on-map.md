@@ -10,7 +10,7 @@ versions: '*'
 
 Routes on the map have next type:
 - Tracks (GPX) - recorded or planning trip in [GPX-format](https://en.wikipedia.org/wiki/GPS_Exchange_Format).
-Navigation Route - trip from A to B which built by [routing type](/osmand/navigation/route-navigation).
+- Navigation Route - trip from A to B which built by [routing type](/osmand/navigation/route-navigation).
 - Routes and route networks on the map - [objects which rendering](/osmand/map/vector-maps#routes) on the map from [data OpenStreetMap](https://wiki.openstreetmap.org/wiki/Relation:route).
 
 ## Tracks 
