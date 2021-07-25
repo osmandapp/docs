@@ -125,7 +125,7 @@ Read more about Travel routes for [Vector map style](/osmand/map/vector-maps#rou
 
 For detailde information of the track on the map you need to use "Analyze on map" option:
 
-Short tap on the track -> [{% data variables.android-values.shared_string_options %}](/osmand/map/track-context-menu#options) -> {% data variables.android-values.analyze_on_map %}
+Short tap on the track → [{% data variables.android-values.shared_string_options %}](/osmand/map/track-context-menu#options) → {% data variables.android-values.analyze_on_map %}
 
 ![Track menu analyze on map Android](/assets/images/personal/tracks/track_analyze_on_map_android.png) ![Track menu analize on the map distance Android](/assets/images/personal/tracks/track_analyze_on_map_distance_android.png) 
 
@@ -137,7 +137,7 @@ Short tap on the track -> [{% data variables.android-values.shared_string_option
 
 ![Track menu analyze on map 2 Android](/assets/images/personal/tracks/track_analyze_on_map_2_android.png)
 
-- Interact with map & graph - tap to Graph for showing info about track point and moving finger along Graph shows info about points of the track. User can scale Graph by [two fingers](/osmand/map/interact-with-map#gestures) 
+- Interact with map & graph - tap to Graph for showing info about track point and moving finger along Graph shows info about points of the track. User can scale Graph by [two fingers](/osmand/map/interact-with-map#gestures). 
 
 ![Track menu analyze on map 3 Android](/assets/images/personal/tracks/track_analyze_on_map_3_android.png) ![Track menu analyze on map 4 Android](/assets/images/personal/tracks/track_analyze_on_map_4_android.png)
 
