@@ -34,7 +34,7 @@ There are several ways to show or not [GPX-tracks](/osmand/personal/myplaces) on
 
 ### {% data variables.android-values.configure_map %} menu
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.show_gpx %} → &#8230 → Choosing tracks for displayed from the list and setting of track appearance. Info below {% data variables.android-values.show_gpx %} shows number of selected tracks on the map: 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.show_gpx %} → &#8230 → Choosing tracks for displayed from the list and setting of track appearance. Info below "{% data variables.android-values.show_gpx %}" shows number of selected tracks on the map: 
 
 ![Tracks note](/assets/images/map/tracks_note.png)
 
@@ -54,10 +54,13 @@ There are several ways to show or not [GPX-tracks](/osmand/personal/myplaces) on
 
 ### Track Appearance (Android)
 
-Click to the track on the map -> {% data variables.android-values.shared_string_overview %} -> click to "eye" button.
+You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map -> {% data variables.android-values.shared_string_overview %} -> click to "eye" button for not showing the track on the map.
 
 ![Track menu options Android](/assets/images/map/eye_button_android.png)   
 
+[Short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map -> {% data variables.android-values.shared_string_overview %} -> click to "palette" button for opening Track appearacne menu:
+
+![Track menu Appearance Android](/assets/images/map/track_apperacne_menu_android.png)   
 
 - Split interval
 - Direction arrows
