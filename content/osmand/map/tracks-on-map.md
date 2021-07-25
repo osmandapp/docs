@@ -100,12 +100,25 @@ In OsmAnd for Android, [a user can customize](/osmand/personal/profiles#cuztomiz
 
 ## Travel Routes
 
+In OsmAnd user can highlight routes and hiking symbol overlay for activities. It will very useful for cycling, hiking, etc.:
 
-- Hiking 
-- Bicycle
-- Node networks
+Android: Menu → Configure map → Map rendering → Routes
 
-Link to [Vector map style](/osmand/map/vector-maps#routes).
+iOS: Menu → Map → Map style → Routes
+
+- [Hiking](https://wiki.openstreetmap.org/wiki/Key:sac_scale):
+
+[Map routes - hiking osmc](/assets/images/map/map-routes-hiking-osmc.png)
+
+- Bicycle:
+
+![Map routes - cycle-node-networks](/assets/images/map/map-routes-cycle-node-networks.png)
+
+- [Node networks](https://wiki.openstreetmap.org/wiki/Node_Networks):
+
+![Map routes - hiking node networks](/assets/images/map/map-routes-hiking-node-networks.png)
+
+Read more about Travel routes for [Vector map style](/osmand/map/vector-maps#routes).
 
 
 ## Analyze Route on Map (Android)
