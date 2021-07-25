@@ -58,11 +58,11 @@ You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-andr
 
 ![Track menu options Android](/assets/images/map/eye_button_android.png)   
 
-[Short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map -> {% data variables.android-values.shared_string_overview %} -> click to "palette" button for opening Track appearacne menu:
+[Short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map -> {% data variables.android-values.shared_string_overview %} -> click to "palette" button for opening Track appearance menu:
 
 ![Track menu Appearance Android](/assets/images/map/track_appearance_menu_android.png)   
 
-- {% data variables.android-values.gpx_split_interval %} - {% data variables.android-values.gpx_split_interval_descr %}.
+- {% data variables.android-values.gpx_split_interval %} - {% data variables.android-values.gpx_split_interval_descr %}
 
 ![Track menu Appearance Split interval Android](/assets/images/map/track_appearance_menu_split_interval_android.png)   
 
@@ -74,7 +74,7 @@ You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-andr
 
 ![Track menu Appearance start and finish icons Android](/assets/images/map/track_appearance_menu_sf_icons_android.png)  
 
-- {% data variables.android-values.shared_string_color %} -  select color for the track: color by {% data variables.android-values.track_coloring_solid %} (constant color), {% data variables.android-values.map_widget_speed %} (color depends on speed info of the track), {% data variables.android-values.map_widget_altitude %} (color depends on altitude info of the track), {% data variables.android-values.shared_string_slope %} (color depends on slope info of the track). For planning trip, user can choose color of route infor data: 
+- {% data variables.android-values.shared_string_color %} -  select color for the track: color by {% data variables.android-values.track_coloring_solid %} (constant color), {% data variables.android-values.map_widget_speed %} (color depends on speed info of the track), {% data variables.android-values.map_widget_altitude %} (color depends on altitude info of the track), {% data variables.android-values.shared_string_slope %} (color depends on slope info of the track). For planning trip, user can choose color of route info data: 
 {% data variables.android-values.routeInfo_roadClass_name %}, {% data variables.android-values.routeInfo_surface_name %}, {% data variables.android-values.routeInfo_smoothness_name %}, {% data variables.android-values.routeInfo_winter_ice_road_name %}, {% data variables.android-values.routeInfo_surface_name %}.
 
 ![Track menu Appearance Track color Android](/assets/images/map/track_appearance_menu_track_color_android.png) 
@@ -85,15 +85,14 @@ You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-andr
 
 ## Navigation Route
 
-The route is a line on the map that shows a user's creating trip. In OsmAnd users create a route by [Navigation function](/osmand/navigation).
+The route is a line on the map that shows a user's creating trip. In OsmAnd users create a route by [Navigation function](/osmand/navigation/route-navigation).
 
-| Android | iOS |
-| :--- | :--- |
-| ![Route on the map Android](/assets/images/map/route_layer_android.png) |![Route on the map iOS](/assets/images/map/route_layer_ios.png) |
+
+ ![Route on the map Android](/assets/images/map/route_layer_android.png) ![Route on the map iOS](/assets/images/map/route_layer_ios.png)
 
 ### Route Appearance (Android)
 
-In OsmAnd for Android, [a user can customize](/osmand/personal/profiles) route line: color and width.
+In OsmAnd for Android, [a user can customize](/osmand/personal/profiles#cuztomize-route-line-android) route line: color and width.
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.profile_appearance %} → {% data variables.android-values.customize_route_line %}
 
