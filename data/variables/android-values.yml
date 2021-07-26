@@ -1227,7 +1227,7 @@ off_road_render_descr: "For off-road driving based on 'Topo' style and for use w
 nautical_render_descr: "For nautical navigation. Features buoys, lighthouses, riverways, sea lanes and marks, harbors, seamark services, and depth contours."
 ski_map_render_descr: "For skiing. Features pistes, ski-lifts, cross country tracks, etc. Dims secondary map objects."
 light_rs_render_descr: "Simple driving style. Gentle night mode, contour lines, contrasting orange styled roads, dims secondary map objects."
-topo_render_descr: "For hiking, trekking, and nature cycling. Readable outdoors. Contrasting roads and natural objects, different route types, advanced contour line options, extra details. Adjusting \"Surface integrity\" distinguishes road quality. No night mode."
+topo_render_descr: "For hiking, trekking, and nature cycling. Readable outdoors. Contrasting roads and natural objects, different route types, advanced contour line options, extra details. Adjusting \"Surface integrity\" distinguishes road quality."
 mapnik_render_descr: "Old default 'Mapnik'-style. Similar colors to 'Mapnik'."
 touring_view_render_descr: "Touring style with high contrast and maximum detail. Includes all options of the OsmAnd default style, while displaying as much detail as possible, in particular roads, paths, and other ways to travel. Clear \"touring atlas\" distinction between road types. Suitable for day, night, and outdoor use."
 default_render_descr: "General purpose style. Dense cities shown cleanly. Features contour lines, routes, surface quality, access restrictions, road shields, paths rendering according to SAC scale, whitewater sports items."
