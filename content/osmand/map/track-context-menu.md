@@ -70,38 +70,57 @@ Next track info:
 
 ![Description for track Android](/assets/images/personal/tracks/description_track_android.png)
 
-- Image   <!--how to add?}-->
+- Image   <!--how to add any images to descriptions?}-->
 - {% data variables.android-values.add_description %} - for creating description of the track.
 - {% data variables.android-values.shared_string_edit %} - for editing descritpion of the track.
 - {% data variables.android-values.context_menu_read_full %} - for opening and reading full description.
 
 ## Altitude / Speed Graphs 
 
-![Track menu track Android](/assets/images/personal/tracks/track_menu_track_android.png) 
+Click to the "{% data variables.android-values.shared_string_gpx_track %}" button opens Graph of Track Context menu. Here there are name of track, three tabs ({% data variables.android-values.shared_string_overview %}, {% data variables.android-values.altitude %}, {% data variables.android-values.map_widget_speed %}), Graph with additional info and {% data variables.android-values.analyze_on_map %}, {% data variables.android-values.shared_string_options %} buttons.
 
-Tabs:
-- Overview
-- Altitude
-- Speed
+{% data variables.android-values.analyze_on_map %} button opens [Analyze track menu](/osmand/map/tracks-on-map#analyze-route-on-map-android) for the track.
+{% data variables.android-values.shared_string_options %} button opens menu with: "Edit" opens the track in [Plan route tool](/osmand/plan-route), "Delete" allows to delete chosen track item, "Split interval" opens [Split interval function](/osmand/map/track-context-menu#split-interval) for the track.
+
+![Track menu track Android](/assets/images/personal/tracks/track_menu_track_android.png) ![Track menu Options track Android](/assets/images/personal/tracks/track_menu-options_track_android.png)
+
+Three tabs:
+- {% data variables.android-values.shared_string_overview %}
+- {% data variables.android-values.altitude %}
+- {% data variables.android-values.map_widget_speed %}
+
 
 ![Track menu track sub Android](/assets/images/personal/tracks/track_menu_track_sub_android.png) 
 
 ### Overview
 
-- Distance (Overview)
-- Start / end time (Overview)
-- Time span (Overview)
+opening graph with speed / altitude info on distance, additional track data: 
+- {% data variables.android-values.distance %}
+- {% data variables.android-values.shared_string_time_span %}
+- {% data variables.android-values.shared_string_start_time %}
+- {% data variables.android-values.shared_string_end_time %}
+
+![Track graph overview Android](/assets/images/personal/tracks/track_graph_overview_android.png) 
 
 ### Altitude
 
-- Ascent / Descent (Altitude)
-- Altitude range (Altitude)
-- Average altitude (Altitude)
+opening graph with altitude / slope info on distance, additional track data:
+- {% data variables.android-values.average_altitude %}
+- {% data variables.android-values.altitude_range %}
+- {% data variables.android-values.altitude_ascent %}
+- {% data variables.android-values.altitude_descent %}
+
+![Track graph altitude Android](/assets/images/personal/tracks/track_graph_altitude_android.png) 
 
 ### Speed
-- Average speed (Speed)
-- Max speed
-- Time in Motion
+
+ opening graph with speed info on distance, additional track data:
+ - {% data variables.android-values.average_speed %}
+ - {% data variables.android-values.max_speed %}
+ - {% data variables.android-values.moving_time %}
+ - {% data variables.android-values.distance_moving %} 
+
+![Track graph Speed Android](/assets/images/personal/tracks/track_graph_speed_android.png) 
 
 ## Waypoints
 
