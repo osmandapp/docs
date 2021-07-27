@@ -18,9 +18,19 @@ In Overview user can find track data info and make some actions.
 
 ![Track menu overview Android](/assets/images/personal/tracks/track_menu_overview_android.png) ![Statistics screen track iOS](/assets/images/personal/tracks/statistics_track_ios.png)
 
-### iOS info
+### iOS info panel
 
-"&#8230;" button - [actions](/osmand/personal/tracks#actions) which you can make with the track.
+"&#8230;" button - actions which you can make with the track.
+
+![My places tracks file Actions iOS](/assets/images/personal/tracks/my_places_track_file_actions_ios.png)
+
+- {% data variables.ios-values.fav_rename %} - allows to rename the track.
+- {% data variables.ios-values.shared_string_remove %} - allows to remove chosen track.
+- {% data variables.ios-values.shared_string_export %} - allows to export chosen track.
+- {% data variables.ios-values.gpx_edit_mode %} - opens [Edit mode menu](/osmand/personal/tracks#edit-mode-ios) for waypoints.
+- {% data variables.ios-values.product_title_trip_planning %} - opens [Trip planning tool](/osmand/personal/tracks#edit-via-plan-route) for chosen track.
+- {% data variables.ios-values.plan_route_change_folder %} - allows to move chosen track to another track folder or new folder.
+
 
 Info panel has name and short info of the track:
 
@@ -121,14 +131,6 @@ Points / Waypoins menu in Context track menu opens list of track / folders waypo
 
 ![Track menu points Android](/assets/images/personal/tracks/track_menu_points_android.png) ![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_ios.png)
 
-
-- Route points vs waypoitns
-- Search
-- Add waypoint
-- Open waypoint menu (link to favorites)
-- Point filters (bubbles)
-
-
 ### iOS Waypoints
 
 Buttons on top of the screen:
@@ -147,35 +149,39 @@ Actions:
 - 'Palette of colors' - allows to change colors for waypoints.
 - 'BIN' - allows to delete chosen waypoints.
 
-For adding new waypoint you need to tap on the map. Map Context menu opens where you can choose "Add waypoint".
+[For adding new waypoint](/osmand/personal/tracks#add-waypoint) you need to tap on the map. [Map Context menu](/osmand/map/map-context-menu#-add--edit--track-waypoint) opens where you can choose "Add waypoint".
 
+![Track menu Waypoint add iOS](/assets/images/personal/tracks/track_menu_waypoint_add_ios.png) ![Track menu Waypoint add 1 iOS](/assets/images/personal/tracks/track_menu_waypoint_add_1_ios.png)
 
+### Android Group menu
 
-### Group menu
+"&#8285;" button opens waypoint Group menu.
 
 ![Track menu Group menu Android](/assets/images/personal/tracks/track_menu_group_menu_android.png) 
 
-- Rename (group)
-- Show on map
-- Change color
-- Add / remove map markers
-- Copy to favorites
-- Delete
+Actions:
+- {% data variables.android-values.shared_string_show_on_map %} - allows to show or not group waypoints on the map.
+- {% data variables.android-values.shared_string_rename %} - allows to change Group name.
+- {% data variables.android-values.change_color %} - allows to change color for group waypoints.
+- {% data variables.android-values.copy_to_map_markers %} - allows to move group waypoints to [Map markers](/osmand/personal/markers).
+- {% data variables.android-values.copy_to_map_favorites %} - allows to move group waypoints to [Favorites](/osmand/personal/favorites).
+- {% data variables.android-values.shared_string_delete %} - allows to delete group waypoints.
 
 ## Options
 
 ![Track menu options Android](/assets/images/personal/tracks/track_menu_options_android.png)  
 
-- Show on map
-- Appearance
-- Directions
-- Analyze on map
-- Analyze split intervals
-- Share
-- Upload to OSM
-- Edit
-- Rename / Change folder
-- Delete
+- {% data variables.android-values.shared_string_show_on_map %} - shows or not the track on the map.
+- {% data variables.android-values.shared_string_appearance %} - opens [Appearance menu](/osmand/map/tracks-on-map#track-appearance-android) for the track.
+- {% data variables.android-values.shared_string_navigation %} - starts navigation by [Follow track option](/osmand/navigation/gpx-navigation).
+- {% data variables.android-values.analyze_on_map %}
+- {% data variables.android-values.analyze_by_intervals %}
+- {% data variables.android-values.shared_string_share %}
+- {% data variables.android-values.upload_to_openstreetmap %}
+- {% data variables.android-values.edit_track %}
+- {% data variables.android-values.rename_track %}
+- {% data variables.android-values.change_folder %}
+- {% data variables.android-values.shared_string_delete %}
 
 
 ### Split interval
