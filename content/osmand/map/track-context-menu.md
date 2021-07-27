@@ -77,24 +77,17 @@ Next track info:
 
 ## Altitude / Speed Graphs 
 
-Click to the "{% data variables.android-values.shared_string_gpx_track %}" button opens Graph of Track Context menu. Here there are name of track, three tabs ({% data variables.android-values.shared_string_overview %}, {% data variables.android-values.altitude %}, {% data variables.android-values.map_widget_speed %}), Graph with additional info and {% data variables.android-values.analyze_on_map %}, {% data variables.android-values.shared_string_options %} buttons.
+Click to the "{% data variables.android-values.shared_string_gpx_track %}" button opens Graph of Track Context menu. Here there are name of track, three tabs ([{% data variables.android-values.shared_string_overview %}](/osmand/map/track-context-menu#overview-1), [{% data variables.android-values.altitude %}](/osmand/map/track-context-menu#altitude), [{% data variables.android-values.map_widget_speed %}](/osmand/map/track-context-menu#speed)), Graph with additional info and [{% data variables.android-values.analyze_on_map %}](/osmand/map/tracks-on-map#analyze-route-on-map-android), {% data variables.android-values.shared_string_options %} buttons.
 
-{% data variables.android-values.analyze_on_map %} button opens [Analyze track menu](/osmand/map/tracks-on-map#analyze-route-on-map-android) for the track.
-{% data variables.android-values.shared_string_options %} button opens menu with: "Edit" opens the track in [Plan route tool](/osmand/plan-route), "Delete" allows to delete chosen track item, "Split interval" opens [Split interval function](/osmand/map/track-context-menu#split-interval) for the track.
+**{% data variables.android-values.analyze_on_map %}** button opens [Analyze track menu](/osmand/map/tracks-on-map#analyze-route-on-map-android) for the track.
+
+**{% data variables.android-values.shared_string_options %}** button opens menu with: "Edit" opens the track in [Plan route tool](/osmand/plan-route), "Delete" allows to delete chosen track item, "Split interval" opens [Split interval function](/osmand/map/track-context-menu#split-interval) for the track.
 
 ![Track menu track Android](/assets/images/personal/tracks/track_menu_track_android.png) ![Track menu Options track Android](/assets/images/personal/tracks/track_menu-options_track_android.png)
 
-Three tabs:
-- {% data variables.android-values.shared_string_overview %}
-- {% data variables.android-values.altitude %}
-- {% data variables.android-values.map_widget_speed %}
-
-
-![Track menu track sub Android](/assets/images/personal/tracks/track_menu_track_sub_android.png) 
-
 ### Overview
 
-opening graph with speed / altitude info on distance, additional track data: 
+This tab opens a graph with speed / altitude info on distance, additional track data: 
 - {% data variables.android-values.distance %}
 - {% data variables.android-values.shared_string_time_span %}
 - {% data variables.android-values.shared_string_start_time %}
@@ -104,7 +97,7 @@ opening graph with speed / altitude info on distance, additional track data:
 
 ### Altitude
 
-opening graph with altitude / slope info on distance, additional track data:
+This tab opens a graph with altitude / slope info on distance, additional track data:
 - {% data variables.android-values.average_altitude %}
 - {% data variables.android-values.altitude_range %}
 - {% data variables.android-values.altitude_ascent %}
@@ -114,7 +107,7 @@ opening graph with altitude / slope info on distance, additional track data:
 
 ### Speed
 
- opening graph with speed info on distance, additional track data:
+This tab opens a with speed info on distance, additional track data:
  - {% data variables.android-values.average_speed %}
  - {% data variables.android-values.max_speed %}
  - {% data variables.android-values.moving_time %}
