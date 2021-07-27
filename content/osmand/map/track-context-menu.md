@@ -115,9 +115,13 @@ This tab opens a with speed info on distance, additional track data:
 
 ![Track graph Speed Android](/assets/images/personal/tracks/track_graph_speed_android.png) 
 
-## Waypoints
+## Points / Waypoints
+
+Points / Waypoins menu in Context track menu opens list of track waypoints with point folders.
 
 ![Track menu points Android](/assets/images/personal/tracks/track_menu_points_android.png) ![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_ios.png)
+
+
 - Route points vs waypoitns
 - Search
 - Add waypoint
