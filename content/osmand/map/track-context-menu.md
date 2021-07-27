@@ -131,6 +131,8 @@ Points / Waypoins menu in Context track menu opens list of track / folders waypo
 
 ### iOS Waypoints
 
+Buttons on top of the screen:
+
 - Folders <-> Points list - the button changes order in waypoints list.
 
 ![Track menu Waypoins order iOS](/assets/images/personal/tracks/track_menu_waypoints_order_ios.png) ![Track menu Waypoins order iOS](/assets/images/personal/tracks/track_menu_waypoints_order_1_ios.png) 
@@ -144,6 +146,9 @@ Actions:
 - 'Folder' - allows to move waypoints to others folders or to new creating folder.
 - 'Palette of colors' - allows to change colors for waypoints.
 - 'BIN' - allows to delete chosen waypoints.
+
+For adding new waypoint you need to tap on the map. Map Context menu opens where you can choose "Add waypoint".
+
 
 
 ### Group menu
