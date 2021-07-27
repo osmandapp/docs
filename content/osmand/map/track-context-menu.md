@@ -117,7 +117,7 @@ This tab opens a with speed info on distance, additional track data:
 
 ## Points / Waypoints
 
-Points / Waypoins menu in Context track menu opens list of track waypoints with point folders.
+Points / Waypoins menu in Context track menu opens list of track / folders waypoints.
 
 ![Track menu points Android](/assets/images/personal/tracks/track_menu_points_android.png) ![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_ios.png)
 
@@ -129,13 +129,18 @@ Points / Waypoins menu in Context track menu opens list of track waypoints with 
 - Point filters (bubbles)
 
 
-## iOS info
+### iOS Waypoints
 
-- Folders <-> Points list
-- edit point - Actions with waypoints
+- Folders <-> Points list - the button changes order in waypoints list.
+
+![Track menu Waypoins order iOS](/assets/images/personal/tracks/track_menu_waypoints_order_ios.png) ![Track menu Waypoins order iOS](/assets/images/personal/tracks/track_menu_waypoints_order_1_ios.png) 
+
+- Editing waypoints ("pencil" button) - the button opens "Actions" panel for waypoints.
+
+![Track menu Waypoins action panel iOS](/assets/images/personal/tracks/track_menu_waypoints_actions_panel_ios.png)
 
 Actions:
-- 'Import loader' - allows to share/import waypoints.
+- 'Import loader' - allows to share/import chosen waypoints.
 - 'Folder' - allows to move waypoints to others folders or to new creating folder.
 - 'Palette of colors' - allows to change colors for waypoints.
 - 'BIN' - allows to delete chosen waypoints.
