@@ -7,13 +7,13 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
+In order to manage saved information, you need to go to the [{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces)
+
 {% default %}
 
 ![My Places ios](/assets/images/personal/my_places_ios.png) ![My places menu Android](/assets/images/personal/my_places_menu_android.png)
 
 {% enddefault %}
-
-In order to manage saved information, you need to go to the [{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces)
 
 {% android %}
 
