@@ -1,28 +1,22 @@
 ---
 title: "Tracks and Routes"
-intro: "On the map, a user can display GPX-tracks and navigation routes."
+intro: "Route is a sequence of waypoints that are best suited for reaching a specific destination. Track is a record of a passed trip."
 versions: '*'
 ---
 
 {% data reusables.general.article-not-complete %}
 
-## Type of routes
+## Type of routes on the map
 
-Routes on the map have next type:
-- Tracks (GPX) - recorded or planning trip in [GPX-format](https://en.wikipedia.org/wiki/GPS_Exchange_Format).
+In Osmand you can create navigation along the following routes:
 
-![Tracks on the map](/assets/images/map/tracks_layer.png)
-
-- Navigation Route - trip from A to B which built by [routing type](/osmand/navigation/route-navigation).
-
-![Route on the map](/assets/images/map/route_layer.png)
-
-- Routes and route networks on the map - [objects which rendering](/osmand/map/vector-maps#routes) on the map from [data OpenStreetMap](https://wiki.openstreetmap.org/wiki/Relation:route).
-
-![Routes on the map](/assets/images/map/routes_layer.png)
-
+-  [Tracks (GPX)](/osmand/map/tracks-on-map#tracks) - recorded or planning trip saved in [GPX-format](https://en.wikipedia.org/wiki/GPS_Exchange_Format).
+- [Navigation Route](/osmand/map/tracks-on-map#navigation-route) - laid trip from A to B which built by [routing type](/osmand/navigation/route-navigation).
+- [Routes and route networks on the map](/osmand/map/tracks-on-map#travel-routes) - [objects which rendering](/osmand/map/vector-maps#routes) on the map from [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Relation:route) data.
 
 ## Tracks 
+
+![Tracks on the map](/assets/images/map/tracks_layer.png)
 
 Track is [user data](/osmand/personal/myplaces) that showed [recorded](/osmand/plugins/trip-recording) or [planning trip](/osmand/plan-route). 
 
@@ -85,6 +79,8 @@ You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-andr
 
 ## Navigation Route
 
+![Route on the map](/assets/images/map/route_layer.png)
+
 The route is a line on the map that shows a user's creating trip. In OsmAnd users create a route by [Navigation function](/osmand/navigation/route-navigation).
 
 
@@ -99,6 +95,8 @@ In OsmAnd for Android, [a user can customize](/osmand/personal/profiles#cuztomiz
 ![Route Customization Android](/assets/images/map/route_custom_android.png)
 
 ## Travel Routes
+
+![Routes on the map](/assets/images/map/routes_layer.png)
 
 In OsmAnd user can highlight routes and hiking symbol overlay for activities. It will very useful for cycling, hiking, etc.:
 
