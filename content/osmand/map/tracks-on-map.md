@@ -55,6 +55,20 @@ iOS: Menu → Map → Map style → Routes
 
 Read more about Travel routes for [Vector map style](/osmand/map/vector-maps#routes).
 
+## Read more
+
+{% link_with_intro /osmand/personal/tracks %}
+
+{% link_with_intro /osmand/map/track-context-menu %}
+
+{% link_with_intro /osmand/map/configure-map-menu %}
+
+{% link_with_intro /osmand/plan-route %}
+
+{% link_with_intro /osmand/plugins/trip-recording %}
+
+{% link_with_intro /osmand/navigation/gpx-navigation %}
+
 
 ## Tracks 
 
@@ -156,9 +170,15 @@ Short tap on the track → [{% data variables.android-values.shared_string_optio
 
 ## Read more
 
-### [Tracks](/osmand/personal/tracks)
-### [Track Context menu](/osmand/map/track-context-menu)
-### [Configure map menu](/osmand/map/configure-map-menu)
-### [Trip recording](/osmand/plugins/trip-recording)
-### [Plan a route](/osmand/plan-route)
-### [Navigation by track](/osmand/navigation/gpx-navigation)
+{% link_with_intro /osmand/personal/tracks %}
+
+{% link_with_intro /osmand/map/track-context-menu %}
+
+{% link_with_intro /osmand/map/configure-map-menu %}
+
+{% link_with_intro /osmand/plan-route %}
+
+{% link_with_intro /osmand/plugins/trip-recording %}
+
+{% link_with_intro /osmand/navigation/gpx-navigation %}
+
