@@ -190,7 +190,7 @@ Actions:
 
 - Split the track  by distance or time interval
 
-![Track split interval screen Android](/assets/images/personal/tracks/track_split_interval_android.png) ![Track split interval screen Android](/assets/images/personal/tracks/track_split_interval_time_android.png)
+![Track split interval screen Android](/assets/images/personal/tracks/track_split_interval_android.png) ![Track split interval screen time Android](/assets/images/personal/tracks/track_split_interval_time_android.png)
 
 
 ## Read more
