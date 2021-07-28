@@ -1,6 +1,6 @@
 ---
 title: "Tracks and Routes"
-intro: "OsmAnd has many powerful features to display various routes on the map. Routes could be built as part of Navigation, created via Plan Route, imported as GPX or KML tracks, recored via Trip Recording plugin or browsed and selected from OpenStreetMap data." 
+intro: "OsmAnd has many powerful features to display various routes on the map. Routes could be built as part of Navigation, created via Plan Route, imported as GPX tracks, recorded via Trip Recording plugin or browsed and selected from OpenStreetMap data." 
 versions: '*'
 ---
 
@@ -23,7 +23,7 @@ Read more about [GPX Tracks](/osmand/personal/tracks).
 
 ![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) ![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) 
 
-There are several ways to show and hide [Tracks](/osmand/personal/myplaces) on the map:
+There are many ways to display [Tracks](/osmand/personal/myplaces) on the map.
 
 ### Display via {% data variables.android-values.configure_map %} menu
 
@@ -33,7 +33,23 @@ There are several ways to show and hide [Tracks](/osmand/personal/myplaces) on t
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.tracks %} → Choosing tracks for displayed from the list 
 
-![Tracks menu Android](/assets/images/map/tracks_menu_android.png) ![Tracks menu iOS](/assets/images/map/tracks_menu_ios.png) 
+{% default %}
+
+{% enddefault %}
+
+{% android %}
+
+![Tracks menu Android](/assets/images/map/tracks_menu_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![Tracks menu iOS](/assets/images/map/tracks_menu_ios.png) 
+
+{% endios %}
+ 
+
 
 ### Display via {% data variables.android-values.shared_string_my_places %} menu
 
@@ -42,7 +58,22 @@ There are several ways to show and hide [Tracks](/osmand/personal/myplaces) on t
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → &#8250; → {% data variables.ios-values.map_settings_show %} or ["Layer" button](/osmand/personal/tracks#my-places-ios) for choosing multiple tracks.
 
-![Tracks my places Android](/assets/images/map/tracks_myplaces_android.png) ![Tracks menu iOS](/assets/images/map/tracks_myplaces_ios.png)
+{% default %}
+
+{% enddefault %}
+
+{% android %}
+
+![Tracks my places Android](/assets/images/map/tracks_myplaces_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![Tracks menu iOS](/assets/images/map/tracks_myplaces_ios.png)
+
+{% endios %}
+ 
 
 
 ### Track Appearance
