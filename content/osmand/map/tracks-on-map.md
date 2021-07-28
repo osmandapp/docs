@@ -14,63 +14,8 @@ In Osmand you can create navigation along the following routes:
 - [Navigation Route](/osmand/map/tracks-on-map#navigation-route) - laid trip from A to B which is built by [routing type](/osmand/navigation/route-navigation). This kind of route you can get when you select the directions points for navigation.
 - [Routes and route networks on the map](/osmand/map/tracks-on-map#travel-routes) - [objects which rendering](/osmand/map/vector-maps#routes) on the map from [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Relation:route) data. To use these types of routes you will need to enable to display them on the map.
 
+
 ## Tracks 
-
-Track is [user data](/osmand/personal/myplaces) that showed [recorded](/osmand/plugins/trip-recording) or [planning trip](/osmand/plan-route). 
-
-OsmAnd app uses [GPX-format](https://en.wikipedia.org/wiki/GPS_Exchange_Format)
-
-![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) ![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) 
-
-There are several ways to show or not [GPX-tracks](/osmand/personal/myplaces) on the map.
-
-## Navigation Route
-
-The route is a line on the map that shows a user's creating trip. In OsmAnd users create a route by [Navigation function](/osmand/navigation/route-navigation).
-
-
- ![Route on the map Android](/assets/images/map/route_layer_android.png) ![Route on the map iOS](/assets/images/map/route_layer_ios.png)
-
-## Travel Routes
-
-![Routes on the map](/assets/images/map/routes_layer.png)
-
-In OsmAnd user can highlight routes and hiking symbol overlay for activities. It will very useful for cycling, hiking, etc.:
-
-Android: Menu → Configure map → Map rendering → Routes
-
-iOS: Menu → Map → Map style → Routes
-
-- [Hiking](https://wiki.openstreetmap.org/wiki/Key:sac_scale):
-
-![Map routes - hiking osmc](/assets/images/map/map-routes-hiking-osmc.png)
-
-- Bicycle:
-
-![Map routes - cycle-node-networks](/assets/images/map/map-routes-cycle-node-networks.png)
-
-- [Node networks](https://wiki.openstreetmap.org/wiki/Node_Networks):
-
-![Map routes - hiking node networks](/assets/images/map/map-routes-hiking-node-networks.png)
-
-Read more about Travel routes for [Vector map style](/osmand/map/vector-maps#routes).
-
-## Read more
-
-{% link_with_intro /osmand/personal/tracks %}
-
-{% link_with_intro /osmand/map/track-context-menu %}
-
-{% link_with_intro /osmand/map/configure-map-menu %}
-
-{% link_with_intro /osmand/plan-route %}
-
-{% link_with_intro /osmand/plugins/trip-recording %}
-
-{% link_with_intro /osmand/navigation/gpx-navigation %}
-
-
-<## Tracks 
 
 ![Tracks on the map](/assets/images/map/tracks_layer.png)
 
@@ -104,7 +49,7 @@ There are several ways to show or not [GPX-tracks](/osmand/personal/myplaces) on
 
 ### Track Appearance (Android)
 
-You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map -> {% data variables.android-values.shared_string_overview %} -> click to "eye" button for not showing the track on the map.
+You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map -`>` {% data variables.android-values.shared_string_overview %} -> click to "eye" button for not showing the track on the map.
 
 ![Track menu options Android](/assets/images/map/eye_button_android.png)   
 
@@ -134,6 +79,13 @@ You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-andr
 ![Track menu Appearance Track Thickness Android](/assets/images/map/track_appearance_menu_track_thickness_android.png) 
 
 
+## Navigation Route
+
+The route is a line on the map that shows a user's creating trip. In OsmAnd users create a route by [Navigation function](/osmand/navigation/route-navigation).
+
+
+ ![Route on the map Android](/assets/images/map/route_layer_android.png) ![Route on the map iOS](/assets/images/map/route_layer_ios.png)
+
 ### Route Appearance (Android)
 
 In OsmAnd for Android, [a user can customize](/osmand/personal/profiles#cuztomize-route-line-android) route line: color and width.
@@ -141,6 +93,30 @@ In OsmAnd for Android, [a user can customize](/osmand/personal/profiles#cuztomiz
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.profile_appearance %} → {% data variables.android-values.customize_route_line %}
 
 ![Route Customization Android](/assets/images/map/route_custom_android.png)
+
+## Travel Routes
+
+![Routes on the map](/assets/images/map/routes_layer.png)
+
+In OsmAnd user can highlight routes and hiking symbol overlay for activities. It will very useful for cycling, hiking, etc.:
+
+Android: Menu → Configure map → Map rendering → Routes
+
+iOS: Menu → Map → Map style → Routes
+
+- [Hiking](https://wiki.openstreetmap.org/wiki/Key:sac_scale):
+
+![Map routes - hiking osmc](/assets/images/map/map-routes-hiking-osmc.png)
+
+- Bicycle:
+
+![Map routes - cycle-node-networks](/assets/images/map/map-routes-cycle-node-networks.png)
+
+- [Node networks](https://wiki.openstreetmap.org/wiki/Node_Networks):
+
+![Map routes - hiking node networks](/assets/images/map/map-routes-hiking-node-networks.png)
+
+Read more about Travel routes for [Vector map style](/osmand/map/vector-maps#routes).
 
 
 ## Analyze Route on Map (Android)
@@ -180,5 +156,5 @@ Short tap on the track → [{% data variables.android-values.shared_string_optio
 
 {% link_with_intro /osmand/plugins/trip-recording %}
 
-{% link_with_intro /osmand/navigation/gpx-navigation %}>
+{% link_with_intro /osmand/navigation/gpx-navigation %}
 
