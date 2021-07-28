@@ -70,7 +70,7 @@ Read more about Travel routes for [Vector map style](/osmand/map/vector-maps#rou
 {% link_with_intro /osmand/navigation/gpx-navigation %}
 
 
-## Tracks 
+<## Tracks 
 
 ![Tracks on the map](/assets/images/map/tracks_layer.png)
 
@@ -180,5 +180,5 @@ Short tap on the track → [{% data variables.android-values.shared_string_optio
 
 {% link_with_intro /osmand/plugins/trip-recording %}
 
-{% link_with_intro /osmand/navigation/gpx-navigation %}
+{% link_with_intro /osmand/navigation/gpx-navigation %}>
 
