@@ -1,6 +1,6 @@
 ---
 title: "Tracks and Routes"
-intro: "Route is a sequence of waypoints that are best suited for reaching a specific destination. Track is a record of a passed trip."
+intro: "OsmAnd has many powerful features to display various routes on the map. Routes could be built as part of Navigation, created via Plan Route, imported as GPX or KML tracks, recored via Trip Recording plugin or browsed and selected from OpenStreetMap data." 
 versions: '*'
 ---
 
@@ -10,12 +10,12 @@ versions: '*'
 
 OsmAnd can display several different type of routes:
 
--  [Tracks (GPX)](#tracks) - recorded or planned trip saved in [GPX-format](https://en.wikipedia.org/wiki/GPS_Exchange_Format). This kind of route could be imported from the external source, created in the application or recorded by user. GPX could contain one of 3 different types of data or all of them:
-    1. Track as a line - file has ```<trkpt>``` points array, each point has location and optionally time, speed, altitude and other attributes. These tracks are displayed on the map as solid lines.
-    2. Track as a route -  file has ```<rtept>``` points array, each point describes as an intermediate point of the route. It depends on track how points within a route should be connected either as small route segments or via straight line. These tracks are displayed on the map as dashed lines. 
-    3. Waypoints - file has ```<wpt>``` points with attributes. Waypoints are displayed as circular points on the map. You could click on them to get additional information.
-- [Navigation Route](#navigation-route) - a route line displayed during [navigation](/osmand/navigation/route-navigation). By default this is a solid transparent blue line, though default appearance depends on [vector map style](/osmand/map/vector-maps#default-map-styles), [day & night mode](/osmand/map/vector-maps#map-mode). It's also possible to fully customize it on Android.
-- [Routes and route networks on the map](#routes-on-the-map) - special [objects](/osmand/map/vector-maps#routes) on the map from [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Relation:route) data and provided with standard vector maps. They typically represent popular local routes and could be displayed in many ways (shields, color, thickness, pattern). To use these types of routes you will need to enable them on the map.
+1.  [Tracks (GPX)](#tracks) - recorded or planned trip saved in [GPX-format](https://en.wikipedia.org/wiki/GPS_Exchange_Format). This kind of route could be imported from the external source, created in the application or recorded by user. GPX could contain one of 3 different types of data or all of them:
+    - Track as a line - file has ```<trkpt>``` points array, each point has location and optionally time, speed, altitude and other attributes. These tracks are displayed on the map as solid lines.
+    - Track as a route -  file has ```<rtept>``` points array, each point describes as an intermediate point of the route. It depends on track how points within a route should be connected either as small route segments or via straight line. These tracks are displayed on the map as dashed lines. 
+    - Waypoints - file has ```<wpt>``` points with attributes. Waypoints are displayed as circular points on the map. You could click on them to get additional information.
+2. [Navigation Route](#navigation-route) - a route line displayed during [navigation](/osmand/navigation/route-navigation). By default this is a solid transparent blue line, though default appearance depends on [vector map style](/osmand/map/vector-maps#default-map-styles), [day & night mode](/osmand/map/vector-maps#map-mode). It's also possible to fully customize it on Android.
+3. [Routes and route networks on the map](#routes-on-the-map) - special [objects](/osmand/map/vector-maps#routes) on the map from [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Relation:route) data and provided with standard vector maps. They typically represent popular local routes and could be displayed in many ways (shields, color, thickness, pattern). To use these types of routes you will need to enable them on the map.
 
 Read more about [GPX Tracks](/osmand/personal/tracks).
 
@@ -119,7 +119,7 @@ In OsmAnd for Android, [a user can customize](/osmand/personal/profiles#cuztomiz
 
 ## Routes on the map
 
-![Routes on the map](/assets/images/map/routes_layer.png)
+![Routes on the map](/assets/images/map/routes_layer.png) ![Configure Map Routes section](/assets/images/map/configure_map_routes_android.png)
 
 In OsmAnd user can highlight routes and hiking symbol overlay for activities. It will very useful for cycling, hiking, etc.:
 
