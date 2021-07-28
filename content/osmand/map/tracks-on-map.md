@@ -21,17 +21,11 @@ Read more about [GPX Tracks](/osmand/personal/tracks).
 
 ## Tracks 
 
-![Tracks on the map](/assets/images/map/tracks_layer.png)
-
-Track is [user data](/osmand/personal/myplaces) that showed [recorded](/osmand/plugins/trip-recording) or [planning trip](/osmand/plan-route). 
-
-OsmAnd app uses [GPX-format](https://en.wikipedia.org/wiki/GPS_Exchange_Format)
-
 ![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) ![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) 
 
-There are several ways to show or not [GPX-tracks](/osmand/personal/myplaces) on the map:
+There are several ways to show and hide [Tracks](/osmand/personal/myplaces) on the map:
 
-### {% data variables.android-values.configure_map %} menu
+### Display via {% data variables.android-values.configure_map %} menu
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.show_gpx %} → &#8230 → Choosing tracks for displayed from the list and setting of track appearance. Info below "{% data variables.android-values.show_gpx %}" shows number of selected tracks on the map: 
 
@@ -41,7 +35,7 @@ There are several ways to show or not [GPX-tracks](/osmand/personal/myplaces) on
 
 ![Tracks menu Android](/assets/images/map/tracks_menu_android.png) ![Tracks menu iOS](/assets/images/map/tracks_menu_ios.png) 
 
-###  {% data variables.android-values.shared_string_my_places %} menu
+### Display via {% data variables.android-values.shared_string_my_places %} menu
 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_files %} → &#xe802; → {% data variables.android-values.shared_string_show_on_map %}  or ["Map" button](/osmand/personal/tracks#my-places-android) for choosing multiple tracks. 
@@ -51,7 +45,7 @@ There are several ways to show or not [GPX-tracks](/osmand/personal/myplaces) on
 ![Tracks my places Android](/assets/images/map/tracks_myplaces_android.png) ![Tracks menu iOS](/assets/images/map/tracks_myplaces_ios.png)
 
 
-### Track Appearance (Android)
+### Track Appearance
 
 You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map -`>` {% data variables.android-values.shared_string_overview %} → click to "eye" button for not showing the track on the map.
 
@@ -105,6 +99,7 @@ Short tap on the track → [{% data variables.android-values.shared_string_optio
 - Follow My location - new function for [navigation by track](/osmand/navigation/gpx-navigation).
 
 ![Track menu analyze on map 5 Android](/assets/images/personal/tracks/track_analyze_on_map_5_android.png)
+
 
 
 ## Navigation Route
