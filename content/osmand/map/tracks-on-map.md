@@ -8,12 +8,16 @@ versions: '*'
 
 ## Type of routes on the map
 
-In Osmand you can create navigation along the following routes:
+OsmAnd can display several different type of routes:
 
--  [Tracks (GPX)](/osmand/map/tracks-on-map#tracks) - recorded or planning trip saved in [GPX-format](https://en.wikipedia.org/wiki/GPS_Exchange_Format). This kind of route could be imported from the external source, created in the application or recorded by user. 
-- [Navigation Route](/osmand/map/tracks-on-map#navigation-route) - laid trip from A to B which is built by [routing type](/osmand/navigation/route-navigation). This kind of route you can get when you select the directions points for navigation.
-- [Routes and route networks on the map](/osmand/map/tracks-on-map#travel-routes) - [objects which rendering](/osmand/map/vector-maps#routes) on the map from [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Relation:route) data. To use these types of routes you will need to enable to display them on the map.
+-  [Tracks (GPX)](/osmand/map/tracks-on-map#tracks) - recorded or planned trip saved in [GPX-format](https://en.wikipedia.org/wiki/GPS_Exchange_Format). This kind of route could be imported from the external source, created in the application or recorded by user. GPX could contain one of 3 different types of data or all of them:
+    1. Track as a line - usually described as ```<trkpt>``` points array, each point has location and optionally time, speed, altitude and other attributes. These tracks are displayed on the map as solid lines.
+    2. Track as a route -  usually described as ```<rtept>``` points array, each point describes as an intermediate point of the route. It depends on track how points within a route should be connected either as small route segments or via straight line. These tracks are displayed on the map as dashed lines. 
+    3. Waypoints - points with attributes. Waypoints are displayed as circular points on the map. You could click on them to get additional information.
+- [Navigation Route](/osmand/map/tracks-on-map#navigation-route) - a route line displayed during [navigation](/osmand/navigation/route-navigation). By default this is a solid transparent blue line, though default appearance depends on [vector map style](/osmand/map/vector-maps#default-map-styles), [day & night mode](/osmand/map/vector-maps#map-mode). It's also possible to fully customize it on Android.
+- [Routes and route networks on the map](/osmand/map/tracks-on-map#travel-routes) - special [objects](/osmand/map/vector-maps#routes) on the map from [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Relation:route) data and provided with standard vector maps. They typically represent popular local routes and could be displayed in many ways (shields, color, thickness, pattern). To use these types of routes you will need to enable them on the map.
 
+Read more about [GPX Tracks](/osmand/personal/tracks).
 
 ## Tracks 
 
