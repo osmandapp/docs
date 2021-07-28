@@ -27,11 +27,13 @@ There are many ways to display [Tracks](/osmand/personal/myplaces) on the map.
 
 ### Display via {% data variables.android-values.configure_map %} menu
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.show_gpx %} → &#8230 → Choosing tracks for displayed from the list and setting of track appearance. Info below "{% data variables.android-values.show_gpx %}" shows number of selected tracks on the map: 
+{% data reusables.general.android-ios-switcher %}
 
-![Tracks note](/assets/images/map/tracks_note.png)
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.show_gpx %} → &#8230 → Choosing tracks for displayed from the list and setting of track appearance.
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.tracks %} → Choosing tracks for displayed from the list 
+
+![Tracks note](/assets/images/map/tracks_note.png)
 
 {% default %}
 
@@ -49,10 +51,9 @@ There are many ways to display [Tracks](/osmand/personal/myplaces) on the map.
 
 {% endios %}
  
-
-
 ### Display via {% data variables.android-values.shared_string_my_places %} menu
 
+{% data reusables.general.android-ios-switcher %}
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_files %} → &#xe802; → {% data variables.android-values.shared_string_show_on_map %}  or ["Map" button](/osmand/personal/tracks#my-places-android) for choosing multiple tracks. 
 
