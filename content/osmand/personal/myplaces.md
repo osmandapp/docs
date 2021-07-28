@@ -27,6 +27,7 @@ In order to manage saved information, you need to go to the [{% data variables.a
 
 {% endios %}
 
+
  'My Places' section includes:
 - {% link_with_intro /osmand/personal/favorites %}
 - {% link_with_intro /osmand/personal/tracks %}
