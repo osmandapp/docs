@@ -7,6 +7,25 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
+{% default %}
+
+![My Places ios](/assets/images/personal/my_places_ios.png) ![My places menu Android](/assets/images/personal/my_places_menu_android.png)
+
+{% enddefault %}
+
+{% android %}
+
+![My Places android](/assets/images/personal/my_places_android.png) ![My places menu Android](/assets/images/personal/my_places_menu_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![My Places ios](/assets/images/personal/my_places_ios.png)  ![My places menu iOS](/assets/images/personal/my_places_menu_ios.png)
+
+
+{% endios %}
+
 In order to manage saved information, you need to go to the [{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces)
 
 ![My Places android](/assets/images/personal/my_places_android.png) ![My Places ios](/assets/images/personal/my_places_ios.png)
