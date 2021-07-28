@@ -174,21 +174,23 @@ Actions:
 - {% data variables.android-values.shared_string_show_on_map %} - shows or not the track on the map.
 - {% data variables.android-values.shared_string_appearance %} - opens [Appearance menu](/osmand/map/tracks-on-map#track-appearance-android) for the track.
 - {% data variables.android-values.shared_string_navigation %} - starts navigation by [Follow track option](/osmand/navigation/gpx-navigation).
-- {% data variables.android-values.analyze_on_map %}
-- {% data variables.android-values.analyze_by_intervals %}
-- {% data variables.android-values.shared_string_share %}
-- {% data variables.android-values.upload_to_openstreetmap %}
-- {% data variables.android-values.edit_track %}
-- {% data variables.android-values.rename_track %}
-- {% data variables.android-values.change_folder %}
-- {% data variables.android-values.shared_string_delete %}
+- {% data variables.android-values.analyze_on_map %} - opens [Analyze on map function](/osmand/map/tracks-on-map#analyze-track-on-map-android).
+- {% data variables.android-values.analyze_by_intervals %} - [analyze the track by time or distance intervals](/osmand/map/track-context-menu#split-interval).
+- {% data variables.android-values.shared_string_share %} - export the chosen track.
+- {% data variables.android-values.upload_to_openstreetmap %} - [upload the chose track to OpenStreetMap](/osmand/plugins/osm-editing#how-to-upload-gpx-track).
+- {% data variables.android-values.edit_track %} - open the chosen track in [Plan route tool](/osmand/plan-route/create-route).
+- {% data variables.android-values.rename_track %} - change track name.
+- {% data variables.android-values.change_folder %} - select folder and add new one for the chosen track.
+- {% data variables.android-values.shared_string_delete %} - delete the track.
 
 
 ### Split interval
 
-![Track split interval screen Android](/assets/images/personal/tracks/track_split_interval_android.png) 
+{% data variables.android-values.shared_string_options %} → {% data variables.android-values.analyze_by_intervals %}
 
-- Split interval by distnace / time
+- Split the track  by distance or time interval
+
+![Track split interval screen Android](/assets/images/personal/tracks/track_split_interval_android.png) ![Track split interval screen Android](/assets/images/personal/tracks/track_split_interval_time_android.png)
 
 
 ## Read more
