@@ -50,7 +50,7 @@ There are many ways to display [Tracks](/osmand/personal/myplaces) on the map.
 ![Tracks menu iOS](/assets/images/map/tracks_menu_ios.png) 
 
 {% endios %}
- 
+
 ### Display via {% data variables.android-values.shared_string_my_places %} menu
 
 {% data reusables.general.android-ios-switcher %}
@@ -75,8 +75,6 @@ There are many ways to display [Tracks](/osmand/personal/myplaces) on the map.
 
 {% endios %}
  
-
-
 ### Track Appearance
 
 You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map -`>` {% data variables.android-values.shared_string_overview %} → click to "eye" button for not showing the track on the map.
