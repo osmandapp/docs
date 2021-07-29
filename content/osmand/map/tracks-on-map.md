@@ -21,11 +21,25 @@ Read more about [GPX Tracks](/osmand/personal/tracks).
 
 ## Tracks 
 
+[Tracks (GPX)](#tracks) - recorded or planned trip saved in [GPX-format](https://en.wikipedia.org/wiki/GPS_Exchange_Format).
+
+You can add tracks to OsmAnd in these ways: 
+- Import from the external source.
+- Create in the application using [Plan route](/osmand/plan-route) tool.
+- Record in the application using [Trip recording](/osmand/plugins/trip-recording) plugin. 
+
+All tracks in the application are stored in the [{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces) → [{% data variables.android-values.shared_string_gpx_tracks%}](/osmand/personal/tracks).
+
+Abilities to manage tracks in OsmAnd:
+- enable and disable tracks on the map
+- configure track's appearance, edit and analyze
+- use for navigation.
+
 ![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) ![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) 
 
-There are many ways to display [Tracks](/osmand/personal/myplaces) on the map.
+### There are many ways to display [Tracks](/osmand/personal/tracks) on the map.
 
-### Display via {% data variables.android-values.configure_map %} menu
+#### Display via {% data variables.android-values.configure_map %} menu
 
 {% data reusables.general.android-ios-switcher %}
 
