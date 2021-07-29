@@ -35,11 +35,11 @@ Abilities to manage tracks in OsmAnd:
 - configure track's appearance, edit and analyze
 - use for navigation.
 
+There are many ways to display [Tracks](/osmand/personal/tracks) on the map.
+
 ![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) ![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) 
 
-### There are many ways to display [Tracks](/osmand/personal/tracks) on the map.
-
-#### Display via {% data variables.android-values.configure_map %} menu
+### Display via {% data variables.android-values.configure_map %} menu
 
 {% data reusables.general.android-ios-switcher %}
 
