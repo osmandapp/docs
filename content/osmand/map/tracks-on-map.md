@@ -86,17 +86,15 @@ You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-andr
 
 ![Track menu Appearance Android](/assets/images/map/track_appearance_menu_android.png)  
 
-|Parameter and Description|   
-|------------|
+|Parameter and Description|---------|   
+|------------|--------|
 |**{% data variables.android-values.gpx_split_interval %}** - {% data variables.android-values.gpx_split_interval_descr %}|
 |![Track menu Appearance Split interval Android](/assets/images/map/track_appearance_menu_split_interval_android.png)| 
 |**{% data variables.android-values.gpx_direction_arrows %}** - adding direction info for the track.|
 |![Track menu Appearance direction arrows Android](/assets/images/map/track_appearance_menu_direction_arrows_android.png)|  
 |**{% data variables.android-values.track_show_start_finish_icons %}** - showing or not start / finish icons of the track.|
 |![Track menu Appearance start and finish icons Android](/assets/images/map/track_appearance_menu_sf_icons_android.png)|  
-|**{% data variables.android-values.shared_string_color %}** -  select color for the track: color by {% data variables.android-values.track_coloring_solid %} (constant color), {% data variables.android-values.map_widget_speed %} (color depends on speed info of the track), {% data variables.android-values.map_widget_altitude %} (color depends on altitude info of the track), {% data variables.android-values.shared_string_slope %} (color depends on slope info of the track). For planning trip, user can choose color of route info data: 
-{% data variables.android-values.routeInfo_roadClass_name %}, {% data variables.android-values.routeInfo_surface_name %}, {% data variables.android-values.routeInfo_smoothness_name %}, {% data variables.android-values.routeInfo_winter_ice_road_name %}, {% data variables.android-values.routeInfo_surface_name %}.|
-|![Track menu Appearance Track color Android](/assets/images/map/track_appearance_menu_track_color_android.png)|
+|**{% data variables.android-values.shared_string_color %}** -  select color for the track: color by {% data variables.android-values.track_coloring_solid %} (constant color), {% data variables.android-values.map_widget_speed %} (color depends on speed info of the track), {% data variables.android-values.map_widget_altitude %} (color depends on altitude info of the track), {% data variables.android-values.shared_string_slope %} (color depends on slope info of the track). For planning trip, user can choose color of route info data: {% data variables.android-values.routeInfo_roadClass_name %}, {% data variables.android-values.routeInfo_surface_name %}, {% data variables.android-values.routeInfo_smoothness_name %}, {% data variables.android-values.routeInfo_winter_ice_road_name %}, {% data variables.android-values.routeInfo_surface_name %}.|![Track menu Appearance Track color Android](/assets/images/map/track_appearance_menu_track_color_android.png)|
 |**{% data variables.android-values.select_track_width %}** - rendering of thikness for the track: {% data variables.android-values.rendering_value_thin_name %}, {% data variables.android-values.rendering_value_medium_name %}, {% data variables.android-values.rendering_value_bold_name %}, {% data variables.android-values.shared_string_custom %}.|
 |![Track menu Appearance Track Thickness Android](/assets/images/map/track_appearance_menu_track_thickness_android.png)|
 
