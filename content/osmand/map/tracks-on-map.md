@@ -35,7 +35,7 @@ Abilities to manage tracks in OsmAnd:
 - Configure track appearance, edit and analyze.
 - Use for navigation.
 
-There are two options to display [Tracks](/osmand/personal/tracks) on the map: via Configure map menu or My places menu
+There are two options to display [Tracks](/osmand/personal/tracks) on the map: via [Configure map](/osmand/map/tracks-on-map#display-via-configure-map-menu) menu or [My places](/osmand/map/tracks-on-map#display-via-my-places-menu) menu
 
 ![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) ![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) 
 
