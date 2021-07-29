@@ -31,11 +31,11 @@ You can add tracks to OsmAnd in these ways:
 All tracks in the application are stored in the [{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces) → [{% data variables.android-values.shared_string_gpx_tracks%}](/osmand/personal/tracks).
 
 Abilities to manage tracks in OsmAnd:
-- enable and disable tracks on the map
-- configure track appearance, edit and analyze
-- use for navigation.
+- Enable and disable tracks on the map.
+- Configure track appearance, edit and analyze.
+- Use for navigation.
 
-There are many ways to display [Tracks](/osmand/personal/tracks) on the map.
+There are two options to display [Tracks](/osmand/personal/tracks) on the map: via Configure map menu or My places menu
 
 ![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) ![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) 
 
@@ -47,15 +47,13 @@ There are many ways to display [Tracks](/osmand/personal/tracks) on the map.
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.tracks %} → Choosing tracks for displayed from the list 
 
-![Tracks note](/assets/images/map/tracks_note.png)
-
 {% default %}
 
 {% enddefault %}
 
 {% android %}
 
-![Tracks menu Android](/assets/images/map/tracks_menu_android.png)
+![Configure map menu tracks](/assets/images/map/configure_map_tracks_android.png) ![Tracks menu Android](/assets/images/map/tracks_menu_android.png) 
 
 {% endandroid %}
 
