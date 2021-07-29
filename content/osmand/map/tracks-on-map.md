@@ -32,7 +32,7 @@ All tracks in the application are stored in the [{% data variables.android-value
 
 Abilities to manage tracks in OsmAnd:
 - enable and disable tracks on the map
-- configure track's appearance, edit and analyze
+- configure track appearance, edit and analyze
 - use for navigation.
 
 There are many ways to display [Tracks](/osmand/personal/tracks) on the map.
