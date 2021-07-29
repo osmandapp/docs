@@ -86,7 +86,7 @@ You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-andr
 
 ![Track menu Appearance Android](/assets/images/map/track_appearance_menu_android.png)  
 
-|Parameter and Description|---------|   
+|Parameter and Description|   
 |------------|--------|
 |**{% data variables.android-values.gpx_split_interval %}** - {% data variables.android-values.gpx_split_interval_descr %}|![Track menu Appearance Split interval Android](/assets/images/map/track_appearance_menu_split_interval_android.png)| 
 |**{% data variables.android-values.gpx_direction_arrows %}** - adding direction info for the track.|![Track menu Appearance direction arrows Android](/assets/images/map/track_appearance_menu_direction_arrows_android.png)|  
