@@ -35,6 +35,8 @@ Abilities to manage tracks in OsmAnd:
 - Configure track appearance, edit and analyze.
 - Use for navigation.
 
+Osmanda has no limit on the number of tracks to store and display.
+
 There are two options to display [Tracks](/osmand/personal/tracks) on the map: via [Configure map](/osmand/map/tracks-on-map#display-via-configure-map-menu) menu or [My places](/osmand/map/tracks-on-map#display-via-my-places-menu) menu
 
 ![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) ![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) 
@@ -90,7 +92,9 @@ There are two options to display [Tracks](/osmand/personal/tracks) on the map: v
 
 ### Track Appearance
 
-You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map -`>` {% data variables.android-values.shared_string_overview %} → click to "eye" button for not showing the track on the map.
+In OsmAnd, you can change the color, thickness of the track, turn on the display of arrows and icons of the starting and ending points.
+
+You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map → {% data variables.android-values.shared_string_overview %} → click to "eye" button for not showing the track on the map.
 
 ![Track menu options Android](/assets/images/map/eye_button_android.png)   
 
