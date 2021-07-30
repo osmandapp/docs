@@ -17,27 +17,9 @@ OsmAnd can display several different type of routes:
 2. [Navigation Route](#navigation-route) - a route line displayed during [navigation](/osmand/navigation/route-navigation). By default this is a solid transparent blue line, though default appearance depends on [vector map style](/osmand/map/vector-maps#default-map-styles), [day & night mode](/osmand/map/vector-maps#map-mode). It's also possible to fully customize it on Android.
 3. [Routes and route networks on the map](#routes-on-the-map) - special [objects](/osmand/map/vector-maps#routes) on the map from [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Relation:route) data and provided with standard vector maps. They typically represent popular local routes and could be displayed in many ways (shields, color, thickness, pattern). To use these types of routes you will need to enable them on the map.
 
-Read more about [GPX Tracks](/osmand/personal/tracks).
+Read more about [GPX Tracks](/osmand/personal/tracks#track).
 
 ## Tracks 
-
-[Tracks (GPX)](#tracks) - recorded or planned trip saved in [GPX-format](https://en.wikipedia.org/wiki/GPS_Exchange_Format).
-
-You can add tracks to OsmAnd in these ways: 
-- Import from the external source.
-- Create in the application using [Plan route](/osmand/plan-route) tool.
-- Record in the application using [Trip recording](/osmand/plugins/trip-recording) plugin. 
-
-All tracks in the application are stored in the [{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces) → [{% data variables.android-values.shared_string_gpx_tracks%}](/osmand/personal/tracks).
-
-Abilities to manage tracks in OsmAnd:
-- Enable and disable tracks on the map.
-- Configure track appearance, edit and analyze.
-- Use for navigation.
-
-Osmanda has no limit on the number of tracks to store and display.
-
-There are two options to display [Tracks](/osmand/personal/tracks) on the map: via [Configure map](/osmand/map/tracks-on-map#display-via-configure-map-menu) menu or [My places](/osmand/map/tracks-on-map#display-via-my-places-menu) menu
 
 ![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) ![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) 
 
