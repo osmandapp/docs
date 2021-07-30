@@ -95,6 +95,7 @@ There are two options to display [Tracks](/osmand/personal/tracks) on the map: v
 In OsmAnd, you can change the color, thickness of the track, turn on the display of arrows and icons of the starting and ending points.
 
 You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map → {% data variables.android-values.shared_string_overview %} → click to "eye" button for not showing the track on the map.
+
 [Short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map -> {% data variables.android-values.shared_string_overview %} → click to "palette" button for opening Track appearance menu:
 
 ![Track menu options Android](/assets/images/map/eye_button_android.png) ![Track menu Appearance Android](/assets/images/map/track_appearance_menu_android.png) 
