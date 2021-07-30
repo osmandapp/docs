@@ -6,11 +6,30 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
-## About Track
+## Track
 
 Track on the map is user recorded trip or plan route with makred points on it or not. OsmAnd track file has gpx-format.
 
+You can add tracks to OsmAnd in these ways: 
+- Import from the external source.
+- Create in the application using [Plan route](/osmand/plan-route) tool.
+- Record in the application using [Trip recording](/osmand/plugins/trip-recording) plugin. 
+
+All tracks in the application are stored in the [{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces) → [{% data variables.android-values.shared_string_gpx_tracks%}](/osmand/personal/tracks).
+
+Abilities to manage tracks in OsmAnd:
+- Enable and disable tracks on the map.
+- Configure track appearance, edit and analyze.
+- Use for navigation.
+
+OsmAnd has no limit on the number of tracks to store and display.
+
+There are two options to display [Tracks](/osmand/personal/tracks) on the map: via [Configure map](/osmand/map/tracks-on-map#display-via-configure-map-menu) menu or [My places](/osmand/map/tracks-on-map#display-via-my-places-menu) menu
+
+
 ![Track on the map](/assets/images/personal/tracks/track_on_map_android.png) ![Track on the map iOS](/assets/images/personal/tracks/track_on_map_ios.png)
+
+
 
 - Formats
 - Import
