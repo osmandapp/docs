@@ -22,7 +22,7 @@ For Android devices you can download the free and paid application on the follow
 | Purchase  | Google Play  | Amazon | Huawei AppGallery | App |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
 | In-app OsmAnd Maps+ | ✔ | - | - | OsmAnd |
-| Subscription OsmAnd Pro | ✔ | - | ✔ | OsmAnd / OsmAnd + |
+| Subscription OsmAnd Pro | ✔ | - | - | OsmAnd / OsmAnd+ |
 
 ## Difference between purchases
 
@@ -34,7 +34,7 @@ OsmAnd+ and OsmAnd Maps+ are fully equivalent.
 
 **OsmAnd Maps+** is an in-app purchase for OsmAnd free version on [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US). All features and the price is the same as for **OsmAnd+**.
 
-**OsmAnd Pro** is a subscription, available for OsmAnd applications on [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023) and [Huawei AppStore](https://appgallery.huawei.com/#/app/C101486545).
+**OsmAnd Pro** is a subscription, available for OsmAnd applications on [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023).
 
 ## Prices
 
