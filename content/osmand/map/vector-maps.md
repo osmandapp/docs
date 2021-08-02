@@ -179,11 +179,11 @@ Sometimes when we use the application during your trip, you don't use navigation
 |**_{% data variables.android-values.rendering_attr_showCycleRoutes_name %}_**|
 |{% data variables.android-values.layer_route %}: Showing colored cycle routes, paths, and showing nodes network cycle routes. Look at [Map legend](https://osmand.net/help-online/map-legend/).|
 |![Map routes - cycle routes](/assets/images/map/map-routes-cycle-routes.png)|
-|**{% data variables.android-values.rendering_value_walkingRoutesOSMCNodes_name %}**: Highlighted cycle routes and showed nodes network cycle routes.|
+|{% data variables.android-values.rendering_value_walkingRoutesOSMCNodes_name %}: Highlighted cycle routes and showed nodes network cycle routes.|
 |![Map routes - cycle-node-networks](/assets/images/map/map-routes-cycle-node-networks.png)|
 |**{% data variables.android-values.rendering_attr_showMtbRoutes_name %}**: Showing colored MTB trails. Look at [Map legend](https://osmand.net/help-online/map-legend/).|
 |![Map routes - mtb trails](/assets/images/map/map-routes-mtb-trails.png)|
-|**_{% data variables.android-values.hiking_routes %}_**|
+|**_{% data variables.android-values.activity_type_hiking_name %}_**|
 |{% data variables.android-values.rendering_value_walkingRoutesOSMC_name %}: Showing [colored hiking trails and OSMC symbols](https://wiki.openstreetmap.org/wiki/Key:osmc:symbol#Maps_that_show_osmc:symbol) on the map.|
 |![Map routes - hiking osmc](/assets/images/map/map-routes-hiking-osmc.png)|
 |{% data variables.android-values.rendering_value_walkingRoutesScopeOSMC_name %}: Showing [colored trails by type and OSMC symbols](https://wiki.openstreetmap.org/wiki/Key:osmc:symbol#Maps_that_show_osmc:symbol) on the map. |
