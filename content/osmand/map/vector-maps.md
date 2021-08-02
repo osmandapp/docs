@@ -177,23 +177,23 @@ Sometimes when we use the application during your trip, you don't use navigation
 |Parameter and Description|   
 |------------|
 |**_{% data variables.android-values.rendering_attr_showCycleRoutes_name %}_**|
-|{% data variables.android-values.layer_route %}: Showing colored cycle routes, paths, and showing nodes network cycle routes. Look at [Map legend](https://osmand.net/help-online/map-legend/).|
+|{% data variables.android-values.layer_route %}: {% data variables.rendering_value_walkingRoutesOSMC_description %}. Look at [Map legend](https://osmand.net/help-online/map-legend/).|
 |![Map routes - cycle routes](/assets/images/map/map-routes-cycle-routes.png)|
-|{% data variables.android-values.rendering_value_walkingRoutesOSMCNodes_name %}: Highlighted cycle routes and showed nodes network cycle routes.|
+|{% data variables.android-values.rendering_value_walkingRoutesOSMCNodes_name %}: {% data variables.rendering_value_walkingRoutesOSMCNodes_description %}.|
 |![Map routes - cycle-node-networks](/assets/images/map/map-routes-cycle-node-networks.png)|
 |**{% data variables.android-values.rendering_attr_showMtbRoutes_name %}**: Showing colored MTB trails. Look at [Map legend](https://osmand.net/help-online/map-legend/).|
 |![Map routes - mtb trails](/assets/images/map/map-routes-mtb-trails.png)|
-|**_{% data variables.android-values.activity_type_hiking_name %}_**|
-|{% data variables.android-values.rendering_value_walkingRoutesOSMC_name %}: Showing [colored hiking trails and OSMC symbols](https://wiki.openstreetmap.org/wiki/Key:osmc:symbol#Maps_that_show_osmc:symbol) on the map.|
+|**_{% data variables.android-values.rendering_attr_hikingRoutesOSMC_name %}_**|
+|{% data variables.android-values.rendering_value_walkingRoutesOSMC_name %}: [{% data variables.android-values.rendering_value_walkingRoutesOSMC_description %}](https://wiki.openstreetmap.org/wiki/Key:osmc:symbol#Maps_that_show_osmc:symbol).|
 |![Map routes - hiking osmc](/assets/images/map/map-routes-hiking-osmc.png)|
-|{% data variables.android-values.rendering_value_walkingRoutesScopeOSMC_name %}: Showing [colored trails by type and OSMC symbols](https://wiki.openstreetmap.org/wiki/Key:osmc:symbol#Maps_that_show_osmc:symbol) on the map. |
+|{% data variables.android-values.rendering_value_walkingRoutesScopeOSMC_name %}: [{% data variables.android-values.rendering_value_walkingRoutesScopeOSMC_description %}](https://wiki.openstreetmap.org/wiki/Key:osmc:symbol#Maps_that_show_osmc:symbol). |
 |![Map routes - hiking network](/assets/images/map/map-routes-hiking-network.png)|
-|{% data variables.android-values.rendering_value_walkingRoutesOSMCNodes_name %}: Showing [Node networks](https://wiki.openstreetmap.org/wiki/Node_Networks) on the map. |
+|{% data variables.android-values.rendering_value_walkingRoutesOSMCNodes_name %}: [{% data variables.android-values.rendering_value_walkingRoutesOSMCNodes_description %}](https://wiki.openstreetmap.org/wiki/Node_Networks). |
 |![Map routes - hiking node networks](/assets/images/map/map-routes-hiking-node-networks.png)|
 |**{% data variables.android-values.rendering_attr_alpineHiking_name %}**: Showing  [classified hiking trails](https://wiki.openstreetmap.org/wiki/Key:sac_scale) in mountainous areas with regard to the difficulties to be expected by color.|
 |![Map routes - alpine hiking](/assets/images/map/map-routes-alpine-hiking.png)|
 |**{% data variables.android-values.rendering_attr_pisteRoutes_name %}**: Showing colored routes of ski slopes. This setting is supported by [map style "Winter and ski"](/osmand/map/vector-maps#winter-and-ski).|
-|![Map routes - horse routes](/assets/images/map/map-routes-ski-slopes.png)|
+|![Map routes - ski slopes](/assets/images/map/map-routes-ski-slopes.png)|
 |**{% data variables.android-values.rendering_attr_horseRoutes_name %}**: Showing colored routes and symbols for riding horses.|
 |![Map routes - horse routes](/assets/images/map/map-routes-horse.png)|
 |**{% data variables.android-values.rendering_attr_whiteWaterSports_name %}**: Showing [icons of access, dangerous areas, tourism of whitewater sports](https://wiki.openstreetmap.org/wiki/Whitewater_sports#Whitewater_Map). |
