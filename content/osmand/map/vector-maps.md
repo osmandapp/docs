@@ -200,10 +200,6 @@ Sometimes when we use the application during your trip, you don't use navigation
 |![Map routes - whitewater sport](/assets/images/map/map-routes-whitewater-sport.png)|
 
 
-
-
-
-
 ### Transport
 
 In navigation in cities, you need to see public transport in more contrast and stops. Of course, this setting shows train routes too.
@@ -239,6 +235,7 @@ In order to hide some objects on the map you can choose them in this menu:
 |Parameter          |Description        
 |:------------|:---------------|
 |{% data variables.android-values.rendering_attr_noAdminboundaries_name %}| Hide regional boundaries inside of countries, but state boundaries are visible. |
+|{% data variables.android-values.rendering_attr_noNatureReserveBoundaries_name %}| Hide nature boundaries (national parks and etc.) |
 |{% data variables.android-values.rendering_attr_noPolygons_name %}|Hide all polygons of natural objects, special function for [Underlay/Overlay layer](/osmand/map/raster-maps#change-layer-parameters-transparency).  |
 |{% data variables.android-values.rendering_attr_hideBuildings_name %}|Hide all polygons of buildings. |
 |{% data variables.android-values.rendering_attr_hideWaterPolygons_name %}|Hide all polygons of water (seas, lakes, reservoirs and etc.)  |
