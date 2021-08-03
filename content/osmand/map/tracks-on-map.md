@@ -38,6 +38,7 @@ Read more about [GPX Tracks](/osmand/personal/tracks#track).
 {% android %}
 
 ![Configure map menu tracks](/assets/images/map/configure_map_tracks_android.png)
+
 ![Tracks menu Android](/assets/images/map/tracks_menu_android.png) 
 
 {% endandroid %}
