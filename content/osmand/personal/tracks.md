@@ -30,15 +30,14 @@ There are two options to display [Tracks](/osmand/personal/tracks) on the map: v
 ![Track on the map](/assets/images/personal/tracks/track_on_map_android.png) ![Track on the map iOS](/assets/images/personal/tracks/track_on_map_ios.png)
 
 
-
-- Formats
-- Import
+- Formats: OsmAnd uses [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) for recordig trip or for Plan route tool.
+- Import: the app can import [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format), [KML](https://en.wikipedia.org/wiki/Keyhole_Markup_Language), [KMZ](https://en.wikipedia.org/wiki/Keyhole_Markup_Language) formats of tracks.
 
 ## Create / Edit Track
 
 ### Coordinate input (Android)
 
-- [Link to Coordinate input](/osmand/plan-route/coordinate-input)
+- [By Coordinate input](/osmand/plan-route/coordinate-input) 
 
 ### Record track
 
