@@ -31,14 +31,13 @@ Read more about [GPX Tracks](/osmand/personal/tracks#track).
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.tracks %} → Choosing tracks for displayed from the list 
 
-![Configure map menu tracks](/assets/images/map/configure_map_tracks_android.png)
-
 {% default %}
 
 {% enddefault %}
 
 {% android %}
 
+![Configure map menu tracks](/assets/images/map/configure_map_tracks_android.png)
 ![Tracks menu Android](/assets/images/map/tracks_menu_android.png) 
 
 {% endandroid %}
