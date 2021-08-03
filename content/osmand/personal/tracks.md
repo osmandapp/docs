@@ -38,11 +38,11 @@ There are two options to display [Tracks](/osmand/personal/tracks) on the map: v
 
 ### Coordinate input (Android)
 
-- Link to Coordinate input
+- [Link to Coordinate input](/osmand/plan-route/coordinate-input)
 
 ### Record track
 
-- Link to Recording Plugin
+- [Link to Recording Plugin](/osmand/plugins/trip-recording)
 
 ### Add waypoint
 
