@@ -27,6 +27,8 @@ Read more about [GPX Tracks](/osmand/personal/tracks#track).
 
 {% data reusables.general.android-ios-switcher %}
 
+![Configure map menu tracks](/assets/images/map/configure_map_tracks_android.png)
+
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.show_gpx %} → &#8230 → Choosing tracks for displayed from the list and setting of track appearance.
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.tracks %} → Choosing tracks for displayed from the list 
@@ -37,7 +39,7 @@ Read more about [GPX Tracks](/osmand/personal/tracks#track).
 
 {% android %}
 
-![Configure map menu tracks](/assets/images/map/configure_map_tracks_android.png) ![Tracks menu Android](/assets/images/map/tracks_menu_android.png) 
+![Tracks menu Android](/assets/images/map/tracks_menu_android.png) 
 
 {% endandroid %}
 
@@ -121,11 +123,12 @@ Short tap on the track → [{% data variables.android-values.shared_string_optio
 
 - Graph: altitude / slope / speed - data of vertical axis. Here user can choose: Altitude, Slope, Speed, Altitude/Slope, Altitude/Speed data for viewing on Graph.
 
-![Track menu analyze on map 1 Android](/assets/images/personal/tracks/track_analyze_on_map_1_android.png)
+![Track menu analyze on map 1 Android](/assets/images/personal/tracks/track_analyze_on_map_1_android.png) ![Track menu analyze on map 1.1 Android](/assets/images/personal/tracks/track_analyze_on_map_1.1_android.png)
 
 - Graph: distance / time - data of horizontal data. User can choose: Distance, Time, Time of day for analyzing data of vertical axis by timing or distance.
 
-![Track menu analyze on map 2 Android](/assets/images/personal/tracks/track_analyze_on_map_2_android.png)
+![Track menu analyze on map 2 Android](/assets/images/personal/tracks/track_analyze_on_map_2_android.png) ![Track menu analyze on map 2.1 Android](/assets/images/personal/tracks/track_analyze_on_map_2.1_android.png)
+
 
 - Interact with map & graph - tap to Graph for showing info about track point and moving finger along Graph shows info about points of the track. User can scale Graph by [two fingers](/osmand/map/interact-with-map#gestures). 
 
@@ -154,7 +157,7 @@ In OsmAnd for Android, [a user can customize](/osmand/personal/profiles#cuztomiz
 
 ## Routes on the map
 
-![Routes on the map](/assets/images/map/routes_layer.png) ![Configure Map Routes section](/assets/images/map/configure_map_routes_android.png)
+![Configure Map Routes section](/assets/images/map/configure_map_routes_android.png)
 
 In OsmAnd user can highlight routes and hiking symbol overlay for activities. It will very useful for cycling, hiking, etc.:
 
