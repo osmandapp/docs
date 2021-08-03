@@ -27,11 +27,11 @@ Read more about [GPX Tracks](/osmand/personal/tracks#track).
 
 {% data reusables.general.android-ios-switcher %}
 
-![Configure map menu tracks](/assets/images/map/configure_map_tracks_android.png)
-
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.show_gpx %} → &#8230 → Choosing tracks for displayed from the list and setting of track appearance.
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.tracks %} → Choosing tracks for displayed from the list 
+
+![Configure map menu tracks](/assets/images/map/configure_map_tracks_android.png)
 
 {% default %}
 
