@@ -6,7 +6,7 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
-[{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces) → [{% data variables.android-values.shared_string_gpx_tracks%}](/osmand/personal/tracks).
+[{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces) → [{% data variables.android-values.shared_string_gpx_tracks%}](/osmand/personal/tracks) → "earth" button on the bottom of the screen.
 
 ![Coordinate input Actions Android](/assets/images/personal/tracks/coordinate_input_android.png) 
 
@@ -28,7 +28,10 @@ versions: '*'
 -  "X" button - allows to reset data for inputting coordinates.
 
 ## Options
-- Save as track
-- Use system keyboard
-- Use double digit longitude
-- Coordinate format
+
+![Coordinate input Options menu Android](/assets/images/personal/tracks/coordinate_input_options_menu_android.png)
+
+- {% data variables.android-values.coord_input_save_as_track %} - save points as GPX track.
+- {% data variables.android-values.use_system_keyboard %} - allows to use system keyboard for input coordinate.
+- {% data variables.android-values.use_two_digits_longitude %} - allows to use double digit longitude.
+- {% data variables.android-values.coordinates_format %} - allows to change coordinate formant for inputting.
