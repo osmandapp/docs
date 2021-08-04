@@ -82,11 +82,14 @@ At the bottom of the screen are four Actions buttons.
 
 - "+" button  - allows to import GPX track from device storage.
 - "earth" button - opens [Add point menu](/osmand/plan-route/coordinate-input) for adding points by inputting coordinates.
-### Search / Sort (Android)
 - "map" button - allows to choose tracks for showing its on the map.
 - "&#x1F5D1;" button - allows to choose tracks for deleting.
 - "&#10227;" button - allows to refresh tracks list.
 - "OSM editing" button - allows [to upload chosen track to OSM](/osmand/plugins/osm-editing).
+
+### Search / Sort (Android)
+
+Click to "&#x1F50D;" button on the top of the device screen for opening searching function in the tracks list.
 
 Sort: 
 
