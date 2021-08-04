@@ -109,9 +109,20 @@ Sort menu:
 
 ![My places tracks iOS](/assets/images/personal/tracks/my_places_tracks_ios.png)
 
+
 ### Actions
 
-![My places tracks Actions Android](/assets/images/personal/tracks/my_places_tracks_actions_android.png) ![My places tracks Actions iOS](/assets/images/personal/tracks/my_places_tracks_actions_ios.png)
+**Actions on Folder list**
+
+![My places tracks Actions iOS](/assets/images/personal/tracks/my_places_tracks_actions_ios.png)
+
+- "layers" button on the top of the device screen - allows to choose and show tracks on the map from tracks list.
+- "{% data variables.ios-values.gpx_import_title %}" on bottom part of the device screen - open tab "{% data variables.ios-values.import_from_docs %}" and next description "{% data variables.ios-values.gpx_import_desc %}".
+- "{% data variables.ios-values.create_new_trip %}" on bottom part of the device screen - opens ["Edit mode"](/osmand/personal/tracks#edit-mode-ios) for creating new track.
+
+**Actions on Track menu**
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → tap to the needed track
 
 ![My places tracks file Actions iOS](/assets/images/personal/tracks/my_places_track_file_actions_ios.png)
 
