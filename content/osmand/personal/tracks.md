@@ -76,11 +76,17 @@ There are two options to display [Tracks](/osmand/personal/tracks) on the map: v
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places%} → {% data variables.android-values.shared_string_tracks %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %}
+At the bottom of the screen are four Actions buttons.
 
-![My places tracks Android](/assets/images/personal/tracks/my_places_tracks_android.png) ![My places tracks iOS](/assets/images/personal/tracks/my_places_tracks_ios.png)
+![My places tracks Android](/assets/images/personal/tracks/my_places_tracks_android.png) 
 
+- "+" button  - allows to import GPX track from device storage.
+- "earth" button - opens [Add point menu](/osmand/plan-route/coordinate-input) for adding points by inputting coordinates.
 ### Search / Sort (Android)
+- "map" button - allows to choose tracks for showing its on the map.
+- "&#x1F5D1;" button - allows to choose tracks for deleting.
+- "&#10227;" button - allows to refresh tracks list.
+- "OSM editing" button - allows [to upload chosen track to OSM](/osmand/plugins/osm-editing).
 
 Sort: 
 
@@ -90,7 +96,9 @@ Sort:
 
 ### My Places (iOS)
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → choose a track
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %}
+
+![My places tracks iOS](/assets/images/personal/tracks/my_places_tracks_ios.png)
 
 ### Actions
 
