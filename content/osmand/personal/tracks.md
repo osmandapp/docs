@@ -126,18 +126,12 @@ Sort menu:
 
 ![My places tracks file Actions iOS](/assets/images/personal/tracks/my_places_track_file_actions_ios.png)
 
-- Record track / Save (Android / iOS)
-- Import track (Android / iOS)
-- Coordinate input - create track (Android)
-- Edit Mode - edit / create track (iOS) 
-- {% data variables.android-values.shared_string_show_on_map %} (Android / iOS)
-- {% data variables.android-values.shared_string_move %} /  {% data variables.android-values.shared_string_rename %}  (Android / iOS)
-- {% data variables.android-values.shared_string_delete %} (Android / iOS)
-- {% data variables.android-values.shared_string_share %}  (Android / iOS)
-- {% data variables.android-values.analyze_on_map %} (Android) - open 'Analyze on map' function for chosen track.
-- Refresh (Android) - reloads track data from SD card.
-- Export to OpenStreetMap (Android)
-- Trip Planning (iOS) - to be deleted
+- {% data variables.ios-values.fav_rename %} - allows to rename the chosen track.
+- {% data variables.ios-values.shared_string_remove %} - allows to delete the chosen track.
+- {% data variables.ios-values.shared_string_export %} - allows to delete the chosen track.
+- {% data variables.ios-values.gpx_edit_mode %} - allows [to edit / create track](/osmand/personal/tracks#edit-mode-ios).
+- {% data variables.ios-values.product_title_trip_planning %} - to be deleted.
+- {% data variables.ios-values.plan_route_change_folder %} - allows to change a folder for the chosen track.
 
 
 ## Import/Export track
