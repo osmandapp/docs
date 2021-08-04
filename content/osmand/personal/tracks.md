@@ -89,13 +89,19 @@ At the bottom of the screen are four Actions buttons.
 
 ### Search / Sort (Android)
 
-Click to "&#x1F50D;" button on the top of the device screen for opening searching function in the tracks list.
+Clicking to "&#x1F50D;" button on the top of the device screen opens the searching function of the tracks list.
 
-Sort: 
+![My places tracks seaching function Android](/assets/images/personal/tracks/my_places_tracks_seaching_android.png) 
 
-- Last modified
-- A -> Z
-- Z -> A
+Clicking to "sort" button on the top of the device screen opens choosing sort menu for tracks on the list.
+
+![My places tracks sort function Android](/assets/images/personal/tracks/my_places_tracks_sort_android.png) ![My places tracks sort 1 function Android](/assets/images/personal/tracks/my_places_tracks_sort_1_android.png) 
+
+Sort menu: 
+
+- {% data variables.android-values.sort_last_modified %} - sorting tracks in the list by last modified.
+- {% data variables.android-values.sort_name_ascending %} - sorting tracks in the list by name A → Z.
+- {% data variables.android-values.sort_name_descending %} - sorting tracks in the list by name Z → A.
 
 ### My Places (iOS)
 
