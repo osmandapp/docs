@@ -30,8 +30,8 @@ There are two options to display [Tracks](/osmand/personal/tracks) on the map: v
 ![Track on the map](/assets/images/personal/tracks/track_on_map_android.png) ![Track on the map iOS](/assets/images/personal/tracks/track_on_map_ios.png)
 
 
-- Formats: OsmAnd uses [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) for recordig trip or for Plan route tool.
-- Import: the app can import [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format), [KML](https://en.wikipedia.org/wiki/Keyhole_Markup_Language), [KMZ](https://en.wikipedia.org/wiki/Keyhole_Markup_Language) formats of tracks.
+- Formats: OsmAnd uses [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format) format for tracks and points.
+- Import: the app can import [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format), [KML](https://en.wikipedia.org/wiki/Keyhole_Markup_Language), [KMZ](https://en.wikipedia.org/wiki/Keyhole_Markup_Language) formats of tracks and points.
 
 ## Create / Edit Track
 
@@ -49,15 +49,26 @@ There are two options to display [Tracks](/osmand/personal/tracks) on the map: v
 
 ### Edit mode (iOS)
 
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → {% data variables.ios-values.create_new_trip %}
+
 ![Edit mode ios](/assets/images/personal/tracks/edit_mode_ios.png) 
 
-- Add points
-- Edit / delete
-- Change order
+- Add points - click to {% data variables.ios-values.add_waypoint %} or {% data variables.ios-values.select_wpt_on_map %}.
+
+![Edit mode adding point ios](/assets/images/personal/tracks/edit_mode_add_point_ios.png) 
+
+- Edit / delete - clicking to "Pencil" button open menu with "Edit" and "Delete" buttons. 
+
+![Edit mode edit point ios](/assets/images/personal/tracks/edit_mode_edit_point_ios.png)  ![Edit mode edit point ios](/assets/images/personal/tracks/edit_mode_edit_point_1_ios.png)
+
+- Change order - long tap to "&#9776;" button and change the order of chosen point by moving up or down.
+
+![Edit mode moving point ios](/assets/images/personal/tracks/edit_mode_moving_point_ios.png) 
+
 
 ### Edit via Plan Route
 
-- [Edit track](/osmand/plan-route/create-route)
+- [Edit track](/osmand/plan-route/create-route) via Plan route tool.
 
 ## Manage Tracks 
 
