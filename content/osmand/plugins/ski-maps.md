@@ -36,16 +36,16 @@ Data from OSM
 
 First, you need to go to Plugins menu - Ski map view and select Enable. (You may need to install it for free.) Then use the 'Configure map - Map style' menu to switch the winter and ski style on. After that, you can find your desired area on the map and enjoy the info about the ski tracks including their complexity, location and infrastructure around.
 
+### Map legend
 
-## Ski routing
+of Ski map you can find  [_here_](https://osmand.net/help-online/map-legend#nautical).
+
+## Ski navigation
 
 You need to choose Ski profile for routing by ski slopes
 
 [link](/osmand/navigation/route-navigation)
 
 
-## Map legend
-
-of Ski map you can find  [_here_](https://osmand.net/help-online/map-legend#nautical).
 
 
