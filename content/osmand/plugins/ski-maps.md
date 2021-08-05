@@ -4,12 +4,30 @@ intro: "Full map of ski pistes, ski lift markers and even colored lines indicati
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
+
+{% data reusables.general.article-not-complete %}
+
+
 ![Trip recording](/assets/images/plugins/placeholder-intro.png)
 
 
 OsmAnd Ski Maps is a plugin allowing you to navigate at winter sports locations. It provides you with a full map of ski pistes, ski lift markers and even colored lines indicating the complexity of each track.
 
-# Android
+This plugin for OsmAnd puts at your fingertips details of global downhill ski slopes, cross country ski runs, Alpine ski routes, cable cars and ski lifts. Routes and pistes are shown color-coded by difficulty, and depicted in a special 'Winter' map style which assimilates a snow-colored winter landscape.
+
+Activating this view changes [the map style to 'Winter and ski'](/osmand/map/vector-maps#winter-and-ski), showing all landscape features under wintry conditions. This view can be reverted by either de-activating it again here, or by changing the ['Map style'](/osmand/map/vector-maps#default-map-styles) under ['Configure map'](/osmand/map/configure-map-menu) as desired.
+
+
+## Enable / Disable plugin
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.plugin_ski_name %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_skimap %}
+
+
+## Ski maps
+
+**Android**
 
 At first you just have  [to download](https://play.google.com/store/apps/details?id=net.osmand.nauticalPlugin&hl=en)  and enable Nautical plugin:  _app menu-> Plugins-> Nautical map view_. You may need to download the plugin first. The plugin enriches the OsmAnd map and navigation app to also produce nautical maps for boating, sailing, and other types of watersports. You can activate  [Boat navigation profile](https://osmand.net/features/navigation-profiles)  when you enable the plugin.  
 
@@ -37,8 +55,8 @@ We have also implemented a new setting. In case if you deviate from the route du
 
 Professional sailors are required to have official maps, as well, but this extension can be of great help to you in a small voyage or be a supplement to the official nautical charts.
 
+**iOS**
 
-# iOS
 At first you just have to enable Nautical plugin: app menu-> Maps & Resources-> Plugins-> Nautical map. There, you'll have to buy the plugin by tapping on the checkbox.
 
 ![Nautical maps on iOs](/assets/images/plugins/nautical-charts/nautical-charts-ios.jpg)
@@ -47,4 +65,11 @@ You also will need a World seamarks map. Make sure to get it in app menu-> Maps 
 
 Next turn the Nautical map style on using the Map menu in the left upper corner of the screen or app menu-> Map-> Map type-> Nautical.
 
-**Map legend**  of Nautical map you can find  [_here_](https://osmand.net/help-online/map-legend#nautical).
+
+## Ski routing
+
+## Map legend
+
+of Ski map you can find  [_here_](https://osmand.net/help-online/map-legend#nautical).
+
+
