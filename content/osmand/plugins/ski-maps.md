@@ -21,20 +21,34 @@ Activating this view changes [the map style to 'Winter and ski'](/osmand/map/vec
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_skimap %}
 
+![Ski maps plugin Android](/assets/images/plugins/ski-maps/plugin_ski_maps_android.png) ![Ski maps plugin iOS](/assets/images/plugins/ski-maps/plugin_ski_maps_ios.png)
 
 ## Ski maps
 
-Data from OSM
+Data from [OpenStreetMap project](http://openstreetmap.org/).
 
-[Rendering.xml](https://github.com/osmandapp/OsmAnd-resources/blob/master/rendering_styles/skimap.render.xml)
+OsmAnd [Rendering.xml](https://github.com/osmandapp/OsmAnd-resources/blob/master/rendering_styles/skimap.render.xml) file.
 
-[Rendering documentation](/development/osmand-file-formats/osmand-rendering-style)
+[Rendering documentation](/development/osmand-file-formats/osmand-rendering-style) for Winter and ski map.
 
-[Link 1](/osmand/map/vector-maps#winter-and-ski) Ski and Winter map style.
+First, you need to go to Plugins menu - Ski map view and select Enable.  Then use the 'Configure map - Map style' menu to switch the winter and ski style on. After that, you can find your desired area on the map and enjoy the info about the ski tracks including their complexity, location and infrastructure around.
 
-[Link 2](/osmand/map/vector-maps#routes) Ski slopes.
+For switch on [Winter and ski map style](/osmand/map/vector-maps#winter-and-ski).
 
-First, you need to go to Plugins menu - Ski map view and select Enable. (You may need to install it for free.) Then use the 'Configure map - Map style' menu to switch the winter and ski style on. After that, you can find your desired area on the map and enjoy the info about the ski tracks including their complexity, location and infrastructure around.
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.map_widget_renderer %} → {% data variables.android-values.winter_and_ski_renderer %} 
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_offline %} → {% data variables.android-values.winter_and_ski_renderer %}
+
+![Ski maps plugin map style Android](/assets/images/plugins/ski-maps/plugin_ski_maps_style_android.png) ![Ski maps plugin map style iOS](/assets/images/plugins/ski-maps/plugin_ski_maps_style_ios.png)
+
+
+For [Winter and ski map style](/osmand/map/vector-maps#winter-and-ski) user can switch on [Ski slopes](/osmand/map/vector-maps#routes) routes.
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_attr_pisteRoutes_name %} 
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.rendering_category_routes %} → {% data variables.ios-values.rendering_attr_pisteRoutes_name %}
+
+![Map routes - ski slopes](/assets/images/map/map-routes-ski-slopes.png)
 
 ### Map legend
 
@@ -42,9 +56,9 @@ of Ski map you can find  [_here_](https://osmand.net/help-online/map-legend#naut
 
 ## Ski navigation
 
-You need to choose Ski profile for routing by ski slopes
+You need [to enable Ski-maps plugin](/osmand/plugins/ski-maps#enable--disable-plugin) and to choose Ski profile for routing by ski slopes.
 
-[link](/osmand/navigation/route-navigation)
+[Navigation link](/osmand/navigation/route-navigation)
 
 
 
