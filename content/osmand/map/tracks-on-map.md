@@ -21,9 +21,9 @@ Read more about [GPX Tracks](/osmand/personal/tracks#track).
 
 ## Tracks 
 
-![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) ![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) 
-
 There are two options to display [Tracks](/osmand/personal/tracks) on the map: via [{% data variables.android-values.configure_map %}](/osmand/map/tracks-on-map#display-via-configure-map-menu) menu or [{% data variables.android-values.shared_string_my_places %}](/osmand/map/tracks-on-map#display-via-my-places-menu) menu
+
+![Tracks on the map Android](/assets/images/map/tracks_layer_android.png) ![Tracks on the map iOS](/assets/images/map/tracks_layer_ios.png) 
 
 ### Display via {% data variables.android-values.configure_map %} menu
 
