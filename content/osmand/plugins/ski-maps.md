@@ -44,15 +44,15 @@ For switch on [Winter and ski map style](/osmand/map/vector-maps#winter-and-ski)
 
 For [Winter and ski map style](/osmand/map/vector-maps#winter-and-ski) user can switch on [Ski slopes](/osmand/map/vector-maps#routes) routes.
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_attr_pisteRoutes_name %} 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_category_routes %} → {% data variables.android-values.rendering_attr_pisteRoutes_name %} 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.rendering_category_routes %} → {% data variables.ios-values.rendering_attr_pisteRoutes_name %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_routes %} → {% data variables.ios-values.rendering_attr_pisteRoutes_name %}
 
 ![Map routes - ski slopes](/assets/images/map/map-routes-ski-slopes.png)
 
 ### Map legend
 
-of Ski map you can find  [_here_](https://osmand.net/help-online/map-legend#nautical).
+Map legend of Ski map you can find  [here](https://osmand.net/help-online/map-legend#nautical).
 
 ## Ski navigation
 
