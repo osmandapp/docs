@@ -29,6 +29,17 @@ Make OSM contributions like creating or modifying OSM POI objects, opening or co
 
 ![OpenStretMap editing plugin Settings Android](/assets/images/plugins/osm-editing/osm_plugin_settings_android.png)
 
+- {% data variables.android-values.login_account %} - {% data variables.android-values.open_street_map_login_mode %} 
+- {% data variables.android-values.offline_edition %} - enable or disable offilne editing.
+- {% data variables.android-values.use_dev_url %} - enable or disable [dev.openstreetmap.org](https://dev.openstreetmap.org/) instead of [openstreetmap.org](http://openstreetmap.org/) to testing uploading OSM Note / POI / GPX.
+- {% data variables.android-values.map_updates_for_mappers %} - allows [OsmAnd live](/osmand/personal/maps#osmand-live) updating for mappers.
+
+![OpenStretMap editing plugin Settings OsmAnd live Android](/assets/images/plugins/osm-editing/osm_plugin_settings_live_android.png)
+
+- {% data variables.android-values.layer_osm_edits %} - allows to open OSM edits menu: [Menu → My Places → OSM edits](/osmand/personal/myplaces)  
+
+
+
 ## How to use
 
 ![OpenStretMap editing](/assets/images/plugins/osm-editing/placeholder-intro.png)
