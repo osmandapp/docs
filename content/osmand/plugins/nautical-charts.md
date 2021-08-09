@@ -16,7 +16,7 @@ Nautical Charts are made for people who drive any kind of vehicle on water: from
 
 All professional sailors are obliged to have official nautical charts on their ships. These charts are published by authorized agencies and cost quite some money. Agencies are investing a lot in keeping the charts up to date. They release updates for the charts on regular basis, but, because of the fact that reviewing the information and processing the updates takes time, the nautical charts are never completely up-to-date.
 
-![Nautical maps](/assets/images/plugins/nautical-charts/nautical_maps.jpg)
+![Nautical maps](/assets/images/plugins/nautical-charts/nautical_maps.png)
 
 
 ## Where the data comes from?
