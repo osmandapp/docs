@@ -61,13 +61,12 @@ Next, users need to switch on next settings:
 
 ### Map legend
 
-**Map legend**  of Nautical map you can find  [_here_](https://osmand.net/help-online/map-legend#nautical).
+**Map legend**  of Nautical map you can find  [here](https://osmand.net/help-online/map-legend#nautical).
 
 ## Boat navigation
 
-[General link](/osmand/navigation/boat-navigation)
+When you enable Nautical Plugin you can add Boat navigation profile.
 
+More about Boat navigation profile and navigation types read [here](/osmand/navigation/boat-navigation).
 
-### Map legend
-**Map legend**  of Nautical map you can find  [_here_](https://osmand.net/help-online/map-legend#nautical).
 
