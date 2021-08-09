@@ -3,15 +3,36 @@ title: "{% data variables.android-values.osm_settings %}"
 intro: "Make contributions to OpenStreetMap."
 versions: '*'
 ---
+
+
 {% data reusables.general.article-not-complete %}
-![OpenStretMap editing](/assets/images/plugins/placeholder-intro.png)
+
 
 {% data variables.android-values.osm_editing %} plugin allows you to make contributions to OpenStreetMap, a global community aimed at creating a comprehensive map of the world and providing up-to date open-source data to every user.
 
 Just launch OsmAnd Maps & Navigation app and update the information about different locations.
 
+Make OSM contributions like creating or modifying OSM POI objects, opening or commenting OSM notes, and contributing recorded GPX files in OsmAnd by supplying your username and password. [OpenStreetMap](http://openstreetmap.org/) is a community driven, global public domain mapping project.
 
-##### How to use
+
+## Enable / Disable plugin
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.osm_settings %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_osm_editing %}
+
+![OpenStretMap editing Android](/assets/images/plugins/osm-editing/osm_plugin_android.png)  ![OpenStretMap editing](/assets/images/plugins/osm-editing/osm_plugin_ios.png)
+
+### Plugin settings (Android)
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.osm_settings %} → {% data variables.android-values.shared_string_settings %}
+
+![OpenStretMap editing plugin Settings Android](/assets/images/plugins/osm-editing/osm_plugin_settings_android.png)
+
+## How to use
+
+![OpenStretMap editing](/assets/images/plugins/osm-editing/placeholder-intro.png)
+
 {% link_in_list /osm-editing-android %}
 {% link_in_list /osm-editing-ios %}
 
@@ -20,9 +41,6 @@ Just launch OsmAnd Maps & Navigation app and update the information about differ
 
 
 The plugin lets you create new objects, so-called  [points of interest or POI](https://osmand.net/features/find-something-on-map#Find_Points_of_Interest_A)  on the map. New shop opened next to you? Add it to the map! Your favorite monument is missing on the map? Put it there in seconds. Also, if you're the owner of a newly-opened business, adding it to the map is a great way to let people find you.
-
-### How to enable
-Go to **{% data reusables.plugins.osm-editing-android-enable %}**.
 
 ### How to add POI
 Tap on the map where the new POI has to be placed. Press on **{% data variables.android-values.shared_string_actions %}**, then choose **{% data variables.android-values.context_menu_item_create_poi %}**, add its name and other details like working hours, website, etc. You'll also have to register at {% data reusables.links.osm %} and then provide your OSM credentials to introduce changes.
