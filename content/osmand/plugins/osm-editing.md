@@ -52,6 +52,12 @@ Tap on the map where the new POI has to be placed. Press on [{% data variables.a
 
 **Note**: you can see your new POI on OsmAnd map after one hour after added it to OSM project if you have [OsmAnd live](/osmand/personal/maps#osmand-live).
 
+To view OSM edits layer on the map for tapping to this edits for [openning Map Context menu](/osmand/map/map-context-menu#-upload-poi--osm-note):
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_osm_edits %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.osm_edits_offline_layer %}
+
 
 ### How to upload GPX track (Android)
 
@@ -87,7 +93,7 @@ You can also report about the mistakes on the map. All you have to do is tap on 
 
 To view the OSM editing layer, you can switch on  [online layer - OSM notes](/osmand/map/configure-map-menu#map-layers) on the map:
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_osm_edits %}
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_osm_bugs %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.osm_notes_online_layer %}
 
