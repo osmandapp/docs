@@ -83,8 +83,17 @@ You can participate in the work on the global map. Just share the tracks you've 
 
 ### How to report a mistake
 
-You can also report about the mistakes on the map. All you have to do is tap on the location, choose **{% data reusables.plugins.osm-editing-android-add-osm-note %}** and then add the info about it. OSM editors would consider your comments.
+You can also report about the mistakes on the map. All you have to do is tap on the location, choose [{% data variables.android-values.context_menu_item_open_note %}](/osmand/map/map-context-menu#-open-osm-note) in [Map Context menu](/osmand/map/map-context-menu) and then add the info about it. OSM editors would consider your comments.
 
-![Open OSM Note](/assets/images/plugins/osm-editing/open-osm-note.png)
+To view the OSM editing layer, you can switch on  [online layer - OSM notes](/osmand/map/configure-map-menu#map-layers) on the map:
 
-To view the OSM editing layer, go to **{% data reusables.configure-map.osm-note-layer-enable-android %}**. You'll see all the notes in the specific area. You can click to OSM note and choose your comment or delete it.
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_osm_edits %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.osm_notes_online_layer %}
+
+You'll see all the notes in the specific area.
+
+Short tap to a note opens [Map Context menu](/osmand/map/map-context-menu#-comment--close-osm-note) with action buttons. You can click to OSM note and choose your comment or delete it.
+
+![Open OSM Note Android](/assets/images/plugins/osm-editing/osm_notes_online_android.png) ![Open OSM Note iOS](/assets/images/plugins/osm-editing/osm_notes_online_ios.png)
+
