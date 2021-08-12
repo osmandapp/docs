@@ -15,13 +15,12 @@ versions: '*'
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.mapillary %}
 
-{% data variables.product.ios_button_seq %}  by default
+{% data variables.product.ios_button_seq %}  by default.
 
 ![Mapillary plugin Android](/assets/images/plugins/mapillary/mapillary_plugin_android.png) 
 
 
 ## How to use
-
 
 
 
@@ -41,7 +40,7 @@ Cliking to the green points opens Mapillary screen in OsmAnd, where user can vie
 
 ![Mapillary plugin images Android](/assets/images/plugins/mapillary/mapillary_plugin_images_android.png) ![Mapillary plugin images iOS](/assets/images/plugins/mapillary/mapillary_plugin_images_ios.png)
 
-Click to &#8285; button (Android) - opens chosen image in Mapillary application.
+Click to &#8285; button (Android) - opens chosen image in [Mapillary application](https://www.mapillary.com/mobile-apps).
 
 Clicking to arrows on the images allows to move image by image.
 
@@ -76,14 +75,14 @@ In the [Details](/osmand/map/map-context-menu#details) of selected point on the 
 
 ![Mapillary plugin Map Conntext menu Android](/assets/images/plugins/mapillary/mapillary_plugin_context_menu_android.png) ![Mapillary plugin Map Conntext menu iOS](/assets/images/plugins/mapillary/mapillary_plugin_context_menu_ios.png)
 
-Click to the images opens viewing images dialogue.
+Click to the images opens [viewing images doublescreen](osmand/plugins/mapillary#viewing-images):
 
 ![Mapillary plugin dialogue Android](/assets/images/plugins/mapillary/mapillary_plugin_dialogue_android.png) ![Mapillary plugin  dialogue  iOS](/assets/images/plugins/mapillary/mapillary_plugin_dialogue_ios.png)
 
 
 ### Adding images
 
-1. By clicking to [Mapillary widget](/osmand/widgets/info-widgets#-mapillary-widget) opens Mapillary application.
+1. By clicking to [Mapillary widget](/osmand/widgets/info-widgets#-mapillary-widget) opens [Mapillary application](https://www.mapillary.com/mobile-apps).
 
 2. If there aren't photos near selected point on the map user can see next dialogue on [Online photos of Map Context menu](/osmand/map/map-context-menu#online-photos):  Add photos. By clicking "Add photos" button opens Mapillary application.
 
