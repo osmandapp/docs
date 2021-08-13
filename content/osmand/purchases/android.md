@@ -58,7 +58,7 @@ The table shows all the features that are included in the paid and free packages
 | Ad-free access | ✔ | ✔ | ✔ |
 | OsmAnd Cloud | - | - | ✔ |
 | Pro Features | - | - | ✔ |
-| Unlimited map downloads | 7 maps (including updates) | ∞ | ∞ |
+| Unlimited map downloads | 7 maps (including updates) | ✔ | ✔ |
 | Monthly map updates | Once a month  (15 days delay) <br>* limited to 7 downloads | Once a month (15 days delay) | Every hour (no delay) |
 | Topo data (Contour lines and Terrain) | - | ✔ | ✔ |
 | Nautical depths | - | ✔ | ✔ |
@@ -92,7 +92,7 @@ Users can't buy new "OsmAnd live" subscriptions, but all old subscriptions are a
 | Ad-free access | ✔ |
 | OsmAnd Cloud | - |
 | Pro Features | - |
-| Unlimited map downloads| ∞ |
+| Unlimited map downloads| ✔ |
 | Monthly map updates | Every hour (no delay) |
 | Topo data (Contour lines and Terrain)| ✔ |
 | Nautical depths | ✔ |
