@@ -93,7 +93,8 @@ Users can't buy new "OsmAnd live" subscriptions, but all old subscriptions are a
 | OsmAnd Cloud | - |
 | Pro Features | - |
 | Unlimited map downloads| ✔ |
-| Monthly map updates | Every hour (no delay) |
+| Monthly map updates | ✔ |
+| Live map updates | Every hour (no delay) |
 | Topo data (Contour lines and Terrain)| ✔ |
 | Nautical depths | ✔ |
 | Offline Wikipedia | ✔ |
