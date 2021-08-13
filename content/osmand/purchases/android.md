@@ -4,6 +4,8 @@ intro: "Detailed information about purchases on Android: markets to install, sub
 versions: '*'
 ---
 
+{% data reusables.general.article-not-complete %}
+
 ## Install OsmAnd
 
 For Android devices you can download the free and paid application on the following markets:
@@ -19,30 +21,30 @@ For Android devices you can download the free and paid application on the follow
 
 | Purchase  | Google Play  | Amazon | Huawei AppGallery | App |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
-| In-app OsmAnd Unlimited | ✔ | - | - | OsmAnd |
-| Subscription OsmAnd Live | ✔ | - | ✔ | OsmAnd / OsmAnd+ |
+| In-app OsmAnd Maps+ | ✔ | - | ✔| OsmAnd |
+| Subscription OsmAnd Pro | ✔ | - | ✔ | OsmAnd / OsmAnd+ |
 
 ## Difference between purchases
 
 {% note %}
-OsmAnd+ and OsmAnd Unlimited are fully equivalent.
+OsmAnd+ and OsmAnd Maps+ are fully equivalent.
 {% endnote %}
 
 **OsmAnd+** is a separate paid application available on [Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus) and [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC). You can add it to [the Family Library in Google Play](https://support.google.com/googleplay/answer/7007852?hl=en).
 
-**OsmAnd Unlimited** is an in-app purchase for OsmAnd free version on [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US). All features and the price is the same as for **OsmAnd+**.
+**OsmAnd Maps+** is an in-app purchase for OsmAnd free version on [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [on Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545). All features and the price is the same as for **OsmAnd+**.
 
-**OsmAnd Live** is a subscription, available for OsmAnd applications on [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023) and [Huawei AppStore](https://appgallery.huawei.com/#/app/C101486545).
+**OsmAnd Pro** is a subscription, available for OsmAnd applications on [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023),  [on Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545).
 
 ## Prices
 
 In the list, there is information about prices of OsmAnd product for the US and Europe region. For other regions, prices are equivalent in local currencies.
 
-|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd Live for OsmAnd | OsmAnd Live for OsmAnd+|
-| :------------- | :------------- | :------------- | :------------- |  :------------- | 
-| **Purchase** | - | **One-time**, use forever | **Subscription** for 1 / 3 / 12 months | **Subscription** for 1 / 3 / 12 months |
-| **Price EUR** | 0€ | 19.99€  |  1.99€ / 3.99€ / 7.99€  |  1.49€ / 2.99€ / 5.99€ | 
-| **Price USD** | 0$ | 19.99$  |  1.99$ / 3.99$ / 7.99$  |  1.49$ / 2.99$ / 5.99$ | 
+|    | OsmAnd Free   | OsmAnd+ (OsmAnd Maps+) | OsmAnd Maps+ | OsmAnd Pro |
+| :------------- | :------------- | :------------- | :------------- | :------------- |
+| **Purchase** | - | **One-time**, use forever | **Subscription** for 12 months | **Subscription** for 1 / 12 months |
+| **Price EUR** | 0€ | 24.99€  |  9.99€   |  2.99€ / 29.99€   |
+| **Price USD** | 0$ | 24.99$  |  9.99$   |  2.99$ / 29.99$   |
 
 ## Free and Paid features
 
@@ -50,15 +52,17 @@ OsmAnd application has many features and tools. Of course, most of them are free
 
 The table shows all the features that are included in the paid and free packages of OsmAnd and its price.
 
-|    | OsmAnd Free   | OsmAnd+ (OsmAnd Unlimited) | OsmAnd Live Subscription |
+|    | OsmAnd Free   | OsmAnd+ (in-app and subscription Maps+) | OsmAnd Pro |
 | :------------- | :------------- | :------------- | :------------- | 
 | Ad-free access | ✔ | ✔ | ✔ |
-| Maps download | 7 maps (including updates) | ∞ | ∞ |
-| Maps update | Once a month  (15 days delay) <br>* limited to 7 downloads | Once a month (15 days delay) | Every hour (no delay) |
+| OsmAnd Cloud | - | - | ✔ |
+| Pro Features | - | - | ✔ |
+| Unlimited map downloads | 7 maps (including updates) | ∞ | ∞ |
+| Monthly map updates | Once a month  (15 days delay) <br>* limited to 7 downloads | Once a month (15 days delay) | Every hour (no delay) |
 | Topo data (Contour lines and Terrain) | - | ✔ | ✔ |
 | Nautical depths | - | ✔ | ✔ |
-| Wikipedia articles | - | ✔ | ✔ |
-| Travel guides (Wikivoyage) | - | ✔ | ✔ |
+| Offline Wikipedia | - | ✔ | ✔ |
+| Offline Wikivoyage - Travel guides| - | ✔ | ✔ |
 | Offline and online navigation with turn-by-turn directions | ✔ | ✔ | ✔ |
 | Offline instant search | ✔ | ✔ | ✔ |
 | Trip recording | ✔ | ✔ | ✔ |
@@ -72,6 +76,40 @@ The table shows all the features that are included in the paid and free packages
 | Audio/pic/video points | ✔ | ✔ | ✔ |
 | OsmAnd Tracker | ✔ | ✔ | ✔ |
 | Export/import app profile | ✔ | ✔ | ✔ |
+
+
+## Legacy subscriptions
+
+OsmAnd live subscriptions (Android) are legacy.
+
+ Users can't buy new OsmAnd live subscription, but all old subscriptions are automatically renewed until the user unsubscribes.
+
+ OsmAnd live subscription unpack next features for OsmAnd 4.0 (Android):
+
+|    | OsmAnd Live (legacy)   |
+| :------------- | :------------- |
+| Ad-free access | ✔ |
+| OsmAnd Cloud | - |
+| Pro Features | - |
+| Unlimited map downloads| ∞ |
+| Monthly map updates | Every hour (no delay) |
+| Topo data (Contour lines and Terrain)| ✔ |
+| Nautical depths | ✔ |
+| Offline Wikipedia | ✔ |
+| Offline Wikivoyage - Travel guides| ✔ |
+| Offline and online navigation with turn-by-turn directions | ✔ |
+| Offline instant search | ✔ | 
+| Trip recording | ✔ | 
+| Export GPX tracks | ✔ | 
+| Import GPX/KML tracks | ✔ | 
+| "Plan a route" tool | ✔ | 
+| "Map markers" tool | ✔ | 
+| Online map sources | ✔ | 
+| SQLitedb/mbtiles Map support | ✔ | 
+| Favorite points (Bookmarks, waypoints) | ✔ | 
+| Audio/pic/video points | ✔ | 
+| OsmAnd Tracker | ✔ | 
+| Export/import app profile | ✔ | 
 
 ## Restore purchases
 
