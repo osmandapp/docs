@@ -87,7 +87,7 @@ Users can't buy new "OsmAnd live" subscriptions, but all old subscriptions are a
 
 "OsmAnd live" subscription unpack next features for OsmAnd 4.0 (Android):
 
-|    | "OsmAnd Live" subscription (legacy)   |
+|    |   |
 | :------------- | :------------- |
 | Ad-free access | ✔ |
 | OsmAnd Cloud | - |
