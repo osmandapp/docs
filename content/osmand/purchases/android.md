@@ -22,6 +22,7 @@ For Android devices you can download the free and paid application on the follow
 | Purchase  | Google Play  | Amazon | Huawei AppGallery | App |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
 | In-app OsmAnd Maps+ | ✔ | - | ✔| OsmAnd |
+| Subscription OsmAnd Maps+ | ✔ | - | ✔| OsmAnd |
 | Subscription OsmAnd Pro | ✔ | - | ✔ | OsmAnd / OsmAnd+ |
 
 ## Difference between purchases
@@ -32,7 +33,7 @@ OsmAnd+ and OsmAnd Maps+ are fully equivalent.
 
 **OsmAnd+** is a separate paid application available on [Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus) and [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC). You can add it to [the Family Library in Google Play](https://support.google.com/googleplay/answer/7007852?hl=en).
 
-**OsmAnd Maps+** is an in-app purchase for OsmAnd free version on [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [on Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545). All features and the price is the same as for **OsmAnd+**.
+**OsmAnd Maps+** is an in-app or a subscription purchase for OsmAnd free version on [Google Play](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [on Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545). All features and the price is the same as for **OsmAnd+**.
 
 **OsmAnd Pro** is a subscription, available for OsmAnd applications on [Google Play](https://play.google.com/store/apps/dev?id=8483587772816822023),  [on Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545).
 
@@ -80,13 +81,13 @@ The table shows all the features that are included in the paid and free packages
 
 ## Legacy subscriptions
 
-OsmAnd live subscriptions (Android) are legacy.
+"OsmAnd live" subscriptions (Android) are legacy.
 
- Users can't buy new OsmAnd live subscription, but all old subscriptions are automatically renewed until the user unsubscribes.
+Users can't buy new "OsmAnd live" subscriptions, but all old subscriptions are automatically renewed until the user unsubscribes.
 
- OsmAnd live subscription unpack next features for OsmAnd 4.0 (Android):
+"OsmAnd live" subscription unpack next features for OsmAnd 4.0 (Android):
 
-|    | OsmAnd Live (legacy)   |
+|    | "OsmAnd Live" subscription (legacy)   |
 | :------------- | :------------- |
 | Ad-free access | ✔ |
 | OsmAnd Cloud | - |
