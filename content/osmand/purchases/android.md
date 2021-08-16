@@ -4,7 +4,7 @@ intro: "Detailed information about purchases on Android: markets to install, sub
 versions: '*'
 ---
 
-{% data reusables.general.article-not-complete %}
+
 
 ## Install OsmAnd
 
@@ -21,9 +21,9 @@ For Android devices you can download the free and paid application on the follow
 
 | Purchase  | Google Play  | Amazon | Huawei AppGallery | App |
 | :------------- | :------------- | :------------- | :------------- | :------------- |
-| In-app OsmAnd Maps+ | ✔ | - | ✔| OsmAnd |
-| Subscription OsmAnd Maps+ | ✔ | - | ✔| OsmAnd |
-| Subscription OsmAnd Pro | ✔ | - | ✔ | OsmAnd / OsmAnd+ |
+| In-app OsmAnd Maps+ | ✔ | ✔ | ✔ | OsmAnd |
+| Subscription OsmAnd Maps+ | ✔ | ✔ | ✔| OsmAnd |
+| Subscription OsmAnd Pro | ✔ | ✔ | ✔ | OsmAnd / OsmAnd+ |
 
 ## Difference between purchases
 
