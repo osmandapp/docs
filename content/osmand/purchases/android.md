@@ -28,7 +28,7 @@ For Android devices you can download the free and paid application on the follow
 ## Difference between purchases
 
 {% note %}
-OsmAnd+ and OsmAnd Maps+ are fully equivalent.
+OsmAnd+ and OsmAnd Maps+ are fully equal by set of features.
 {% endnote %}
 
 **OsmAnd+** is a separate paid application available on [Google Play](https://play.google.com/store/apps/details?id=net.osmand.plus) and [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SEGMC). You can add it to [the Family Library in Google Play](https://support.google.com/googleplay/answer/7007852?hl=en).
@@ -59,7 +59,8 @@ The table shows all the features that are included in the paid and free packages
 | OsmAnd Cloud | - | - | ✔ |
 | Pro Features | - | - | ✔ |
 | Unlimited map downloads | 7 maps (including updates) | ✔ | ✔ |
-| Monthly map updates | Once a month  (15 days delay) <br>* limited to 7 downloads | Once a month (15 days delay) | Every hour (no delay) |
+| Monthly map updates <br> Once a month (15 days delay) | ✔ <br>* limited to 7 downloads | ✔ | ✔ |
+| Hourly map updates <br> (1 hour delay) | - | - | ✔ |
 | Topo data (Contour lines and Terrain) | - | ✔ | ✔ |
 | Nautical depths | - | ✔ | ✔ |
 | Offline Wikipedia | - | ✔ | ✔ |
@@ -79,39 +80,10 @@ The table shows all the features that are included in the paid and free packages
 | Export/import app profile | ✔ | ✔ | ✔ |
 
 
-## Legacy subscriptions
+## Legacy subscriptions (prior 4.0)
 
-"OsmAnd live" subscriptions (Android) are legacy.
+New subscriptions became active from OsmAnd 4.0 (August 2021). All earlier subscriptions are legacy and techncically equal to "Maps subscription", though legacy subscriptions are entitled for Hourly Map updates. Users can't buy legacy subscriptions but old subscriptions are automatically renewed until the user unsubscribes (the price for them might change in the future).
 
-Users can't buy new "OsmAnd live" subscriptions, but all old subscriptions are automatically renewed until the user unsubscribes.
-
-"OsmAnd live" subscription unpack next features for OsmAnd 4.0 (Android):
-
-|    |   |
-| :------------- | :------------- |
-| Ad-free access | ✔ |
-| OsmAnd Cloud | - |
-| Pro Features | - |
-| Unlimited map downloads| ✔ |
-| Monthly map updates | ✔ |
-| Live map updates | Every hour (no delay) |
-| Topo data (Contour lines and Terrain)| ✔ |
-| Nautical depths | ✔ |
-| Offline Wikipedia | ✔ |
-| Offline Wikivoyage - Travel guides| ✔ |
-| Offline and online navigation with turn-by-turn directions | ✔ |
-| Offline instant search | ✔ | 
-| Trip recording | ✔ | 
-| Export GPX tracks | ✔ | 
-| Import GPX/KML tracks | ✔ | 
-| "Plan a route" tool | ✔ | 
-| "Map markers" tool | ✔ | 
-| Online map sources | ✔ | 
-| SQLitedb/mbtiles Map support | ✔ | 
-| Favorite points (Bookmarks, waypoints) | ✔ | 
-| Audio/pic/video points | ✔ | 
-| OsmAnd Tracker | ✔ | 
-| Export/import app profile | ✔ | 
 
 ## Restore purchases
 
@@ -119,9 +91,8 @@ To restore a purchased app, just visit **Google Play** and reinstall it. If you'
 
 To restore a purchase from **Amazon**, navigate through the app as though you were going to purchase the feature again. At the point where you would ordinarily be charged, Amazon instead realizes that you've already purchased it in the past and activates it again for free.
 
-
 ## Giftcards
 
-User can purchase OsmAnd using Google Play / Amazon giftcard. Using this method does not imply sharing a credit card information to the service. Just purchase a gift card from a retailer on the list and redeem the code one on Google Play.
+User can purchase OsmAnd using Google Play / Amazon giftcards. This method does not imply sharing a credit card information to the online services. Just purchase a gift card from any retailer available to you and redeem the code on Google Play / Amazon.
 - [Detailed guide on buying Google Play gift cards.](https://support.google.com/googleplay/answer/3422734?hl=en)
-- You can also use [Amazon gift cards](https://www.amazon.com/gift-cards/b?ie=UTF8&node=2238192011). [Here's how to redeem them.](https://www.amazon.com/gp/help/customer/display.html?nodeId=201357470)
+- [Amazon gift cards](https://www.amazon.com/gift-cards/b?ie=UTF8&node=2238192011). [Here's how to redeem them.](https://www.amazon.com/gp/help/customer/display.html?nodeId=201357470)
