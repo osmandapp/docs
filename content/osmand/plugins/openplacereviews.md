@@ -34,6 +34,7 @@ The plugin lets you add new photos for restaurants, cafe [points of interest or 
 
 ### How to add
 
-Tap on the map where the POI of Restaurants (Cafe) has to be placed. Press on [{% data variables.android-values.shared_string_actions %}](/osmand/map/map-context-menu#actions), then choose [{% data variables.android-values.shared_string_add_photo %}](/osmand/map/map-context-menu#-create--modify-poi), add its name and other details like working hours, website, etc. You'll also have to register at {% data reusables.links.osm %} and then provide your OSM credentials to introduce changes.
+Tap on the map where the POI of Restaurants (Cafe) has to be placed. Press on [{% data variables.android-values.shared_string_actions %}](/osmand/map/map-context-menu#actions), then press [{% data variables.android-values.shared_string_add_photo %}](/osmand/map/map-context-menu#online-photos) button and add choose photo from device storage.
+
 
 
