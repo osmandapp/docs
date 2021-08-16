@@ -36,5 +36,11 @@ The plugin lets you add new photos for restaurants, cafe [points of interest or 
 
 Tap on the map where the POI of Restaurants (Cafe) has to be placed. Press on [{% data variables.android-values.shared_string_actions %}](/osmand/map/map-context-menu#actions), then press [{% data variables.android-values.shared_string_add_photo %}](/osmand/map/map-context-menu#online-photos) button and add choose photo from device storage.
 
+![OpenPlaceReview add photo Android](/assets/images/plugins/openplacereviews/openplacereviews_add_photo_android.png)
+
+Photos from OpenPlaceReviews project are in [Online Photos of Map Context menu](/osmand/map/map-context-menu#online-photos): 
+
+![OpenPlaceReview photo Android](/assets/images/plugins/openplacereviews/openplacereviews_photo_android.png)
+
 
 
