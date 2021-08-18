@@ -20,7 +20,7 @@ Development plugin allows you to settings OsmAnd for testing: to simulate naviga
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.developer_plugin %} → {% data variables.android-values.shared_string_settings %}
 
-![Development Settings Android](/assets/images/plugins/development/development_plugin_settings_android.png)
+![Development Settings Android](/assets/images/plugins/development/development_plugin_settings_android.png) ![Development Settings Android](/assets/images/plugins/development/development_plugin_settings_2_android.png)
 
 
 Next settings:
