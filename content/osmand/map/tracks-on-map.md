@@ -154,19 +154,34 @@ You can customize the route line's appearance for any navigation profile. It is 
 
 ## Routes on the map
 
+{% data reusables.general.android-ios-switcher %}
+
 One kind of route is node-based cycling, hiking or other routes from the OpenStreetMap. You can enable them in OsmAnd as an additional layer. 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.rendering_category_routes %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_routes %}
 
-![Configure Map Routes section](/assets/images/map/configure_map_routes_android.png)
+{% default %}
 
-![Map routes - hiking osmc](/assets/images/map/map-routes-hiking-osmc.png) ![Map routes - cycle-node-networks](/assets/images/map/map-routes-cycle-node-networks.png)
+{% enddefault %}
+
+{% android %}
+
+![Configure Map Routes section](/assets/images/map/configure_map_routes_android.png) 
+
+{% endandroid %}
+
+{% ios %}
+
+![Track menu iOS]() 
+
+{% endios %}
+
+
+![Map routes - hiking osmc](/assets/images/map/map-routes-hiking-osmc.png)![Map routes - cycle-node-networks](/assets/images/map/map-routes-cycle-node-networks.png)
 
 Read more about Travel routes for [Vector map style](/osmand/map/vector-maps#routes).
-
-
 
 ## Read more
 
