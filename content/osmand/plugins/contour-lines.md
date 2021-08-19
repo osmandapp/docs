@@ -35,6 +35,16 @@ Check to enable Contour Lines option in [Configure map menu](/osmand/map/vector-
 To view hillshade or slope, make sure you enable this option in  [Configure map menu](/osmand/map/raster-maps#hillshade--slope). Also, please note that while contour lines file can be split by regions, hillshade/slopes files can be available by country, thus, you'll see the Hillshade/Slopes download on the list of downloads of a country, not on the region maps page.
 
 ![Terrain and Contour lines enable Android](/assets/images/plugins/contour-lines/contour_lines_terrain_enable_android.png) ![Terrain and Contour lines enable iOS](/assets/images/plugins/contour-lines/contour_lines_terrain_enable_ios.png)
+
+### Choosing Contour lines in feet or meter
+
+When you click to ["Contour lines"](/osmand/plugins/contour-lines#downloading-files-and-enable-on-the-map) in the country maps list you see dialogue of choosing Counter lines file in meter or feet. 
+
+You need to choose meter or feet parameter and to download file.
+
+You will need to re-download the file to change the format.
+
+![Contour lines download dialogue Android](/assets/images/plugins/contour-lines/contour_lines_plugin_download_dialogue_android.png)
  
 ## Terrain settings
 
