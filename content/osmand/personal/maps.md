@@ -165,7 +165,7 @@ Actions:
 
 ## OsmAnd Live
 
-OsmAnd live data - hourle update maps (paid OsmAnd feature).
+OsmAnd live data - hourly update maps ([paid OsmAnd feature](/osmand/purchases)).
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_updates %} → {% data variables.android-values.live_updates %}
 
