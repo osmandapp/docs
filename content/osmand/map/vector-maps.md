@@ -57,7 +57,7 @@ Winter and ski style is designed to help you navigate winter sports locations: y
 
 ### Topo
 
-{% data variables.android-values.topo_render_descr %}
+For hiking, trekking, and nature cycling. Readable outdoors. Contrasting roads and natural objects, different route types, advanced contour line options, extra details. Adjusting "Surface integrity" distinguishes road quality.
 
 ![Topo map style](/assets/images/map/map-style-topo.png)
 
