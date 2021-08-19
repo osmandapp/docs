@@ -40,10 +40,12 @@ Settings and info
 
 <span style="color:blue">Info</span>:
 
-- {% data variables.android-values.global_app_allocated_memory %} - 
-- {% data variables.android-values.native_app_allocated_memory %} - 
-- {% data variables.android-values.agps_info %} - 
-- {% data variables.android-values.day_night_info %} - 
-
+- {% data variables.android-values.global_app_allocated_memory %} - shows operatinal memory for Adnroid and ART (Android Runtime).
+- {% data variables.android-values.native_app_allocated_memory %} - shows native memory for Android and ART (Android Runtime).
+- {% data variables.android-values.agps_info %} - shows info about A-GPS data
+- {% data variables.android-values.day_night_info %} - shows sunrise/sunset time.
 
 ## How to use
+
+Click to {% data variables.android-values.simulate_your_location %} in the Settings → Navigation. 
+Next, you need to choose route simulation speed and choose GPX track for simulation of device location.
