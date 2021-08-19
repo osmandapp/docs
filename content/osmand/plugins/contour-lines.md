@@ -38,9 +38,9 @@ To view hillshade or slope, make sure you enable this option in  [Configure map 
 
 ### Choosing Contour lines in feet or meter
 
-When you click to ["Contour lines"](/osmand/plugins/contour-lines#downloading-files-and-enable-on-the-map) in the country maps list you see dialogue of choosing Counter lines file in meter or feet. 
+When you click to ["Contour lines"](/osmand/plugins/contour-lines#downloading-files-and-enable-on-the-map) in the country maps list you see dialogue of choosing Contour lines file in meter or feet. 
 
-You need to choose meter or feet parameter and to download file.
+You need to choose the meter or feet parameter and download the file.
 
 You will need to re-download the file to change the format.
 
