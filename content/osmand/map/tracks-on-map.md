@@ -39,8 +39,6 @@ There are two options to display [Tracks](/osmand/personal/tracks) on the map: v
 
 {% android %}
 
-![Configure map menu tracks](/assets/images/map/configure_map_tracks_android.png)
-
 ![Tracks menu Android](/assets/images/map/tracks_menu_android.png) 
 
 {% endandroid %}
@@ -174,7 +172,7 @@ One kind of route is node-based cycling, hiking or other routes from the OpenStr
 
 {% ios %}
 
-![Track menu iOS]() 
+![Track menu iOS](/assets/images/map/configure_map_routes_ios.png) 
 
 {% endios %}
 
