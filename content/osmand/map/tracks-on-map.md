@@ -12,7 +12,7 @@ OsmAnd can display several different type of routes:
 
 1.  [Tracks (GPX)](#tracks) - recorded or planned trip saved in [GPX-format](https://en.wikipedia.org/wiki/GPS_Exchange_Format). This kind of route could be imported from the external source, created in the application or recorded by user. GPX could contain one of 3 different types of data or all of them:
     - Track as a line - file has ```<trkpt>``` points array, each point has location and optionally time, speed, altitude and other attributes. These tracks are displayed on the map as solid lines.
-    - Track as a route -  file has ```<rtept>``` points array, each point describes as an intermediate point of the route. It depends on track how points within a route should be connected either as small route segments or via straight line. These tracks are displayed on the map as dashed lines. 
+    - Track as a route -  file has ```<rtept>``` points array, each point described as an intermediate point of the route. It depends on how points within a route should be connected either as small route segments or via straight line. These tracks are displayed on the map as dashed lines. 
     - Waypoints - file has ```<wpt>``` points with attributes. Waypoints are displayed as circular points on the map. You could click on them to get additional information.
 2. [Navigation Route](#navigation-route) - a route line displayed during [navigation](/osmand/navigation/route-navigation). By default this is a solid transparent blue line, though default appearance depends on [vector map style](/osmand/map/vector-maps#default-map-styles), [day & night mode](/osmand/map/vector-maps#map-mode). It's also possible to fully customize it on Android.
 3. [Routes and route networks on the map](#routes-on-the-map) - special [objects](/osmand/map/vector-maps#routes) on the map from [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Relation:route) data and provided with standard vector maps. They typically represent popular local routes and could be displayed in many ways (shields, color, thickness, pattern). To use these types of routes you will need to enable them on the map.
@@ -29,7 +29,7 @@ There are two options to display [Tracks](/osmand/personal/tracks) on the map: v
 
 {% data reusables.general.android-ios-switcher %}
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.show_gpx %} → &#8230 → Choosing tracks for displayed from the list and setting of track appearance.
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.show_gpx %} → &#8230 → Choosing tracks for display from the list and setting track appearance.
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.tracks %} → Choosing tracks for displayed from the list 
 
@@ -117,11 +117,11 @@ This option allows you to review track information on the map. To get access to 
 
 ![Track menu analyze on map Android](/assets/images/personal/tracks/track_analyze_on_map_android.png) ![Track menu analize on the map distance Android](/assets/images/personal/tracks/track_analyze_on_map_distance_android.png) 
 
-- Graph: altitude / slope / speed - data of vertical axis. Here user can choose: Altitude, Slope, Speed, Altitude/Slope, Altitude/Speed data for viewing on Graph.
+- Graph: altitude / slope / speed - data of vertical axis. Here users can choose: Altitude, Slope, Speed, Altitude/Slope, Altitude/Speed data for viewing on Graph.
 
 ![Track menu analyze on map 1 Android](/assets/images/personal/tracks/track_analyze_on_map_1_android.png) ![Track menu analyze on map 1.1 Android](/assets/images/personal/tracks/track_analyze_on_map_1.1_android.png)
 
-- Graph: distance / time - data of horizontal data. User can choose: Distance, Time, Time of day for analyzing data of vertical axis by timing or distance.
+- Graph: distance / time - data of horizontal data. Users can choose: Distance, Time, Time of day for analyzing data of vertical axis by timing or distance.
 
 ![Track menu analyze on map 2 Android](/assets/images/personal/tracks/track_analyze_on_map_2_android.png) ![Track menu analyze on map 2.1 Android](/assets/images/personal/tracks/track_analyze_on_map_2.1_android.png)
 
@@ -144,7 +144,7 @@ Navigation route is a line between user-defined points. In OsmAnd, the user buil
 
 ### Route Appearance (Android)
 
-You can customize the route line's appearance for any navigation profile. It is available to select color and width of the line.
+You can customize the route line's appearance for any navigation profile. It is available to select the color and width of the line.
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.profile_appearance %} → {% data variables.android-values.customize_route_line %}
 
