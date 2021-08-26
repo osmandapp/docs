@@ -99,6 +99,8 @@ Here available:
 
 ## Local maps
 
+{% data reusables.general.android-ios-switcher %}
+
 Folder with saved map data (Vector and Raster) on your device.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_local %}
@@ -116,7 +118,21 @@ Android (top of the screen):
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %} → {% data variables.ios-values.res_mapsres %} and {% data variables.ios-values.res_world_map %}
 
-![Maps menu Local vector Android](/assets/images/personal/maps/maps_menu_local_vector_android.png) ![Maps menu Local vector iOS](/assets/images/personal/maps/maps_menu_local_vector_ios.png)
+{% default %}
+
+{% enddefault %}
+
+{% android %}
+
+![Maps menu Local vector Android](/assets/images/personal/maps/maps_menu_local_vector_android.png) 
+
+{% endandroid %}
+
+{% ios %}
+
+![Maps menu Local vector iOS](/assets/images/personal/maps/maps_menu_local_vector_ios.png)
+
+{% endios %}
 
 Info: name of map, size of map, type of map (for iOS: raster data here like Hillshades, Slopes), date of creating map (Android)
 
