@@ -6,7 +6,6 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
-{% data reusables.general.android-ios-switcher %}
 
 In OsmAnd you can use [Vector maps](/osmand/map/vector-maps) and  [Raster maps](/osmand/map/raster-maps). All maps are store in one place and users can easily download, manage and update the maps. 
 
@@ -20,13 +19,13 @@ In OsmAnd you can use [Vector maps](/osmand/map/vector-maps) and  [Raster maps](
 
 {% android %}
 
-![Maps menu Android](/assets/images/personal/maps/maps_menu_android.png)
+![Maps menu Android](/assets/images/personal/maps/maps_menu_android.png) ![Download maps menu Android](/assets/images/personal/maps/download_map_android.png) 
 
 {% endandroid %}
 
 {% ios %}
 
-![Maps menu iOS](/assets/images/personal/maps/maps_menu_ios.png)
+![Maps menu iOS](/assets/images/personal/maps/maps_menu_ios.png) ![Download maps menu iOS](/assets/images/personal/maps/download_map_ios.png)
 
 {% endios %}
 
