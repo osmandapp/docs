@@ -15,6 +15,18 @@ To start the navigation, you need to use the navigation button on the map screen
 
 ![Navigation screen select point Android](/assets/images/navigation/route/navigation_points_android.png) ![Navigation screen iOS](/assets/images/navigation/route/navigation_points_ios.png)
 
+Tap to {% data variables.android-values.route_from %} (your current position by default) or {% data variables.android-values.route_from %} for select Start-Finish points of your navigation:
+- {% data variables.android-values.search_button %} -
+- {% data variables.android-values.shared_string_address %} -
+- {% data variables.android-values.shared_string_my_location %} -
+- {% data variables.android-values.shared_string_select_on_map %} -
+- {% data variables.android-values.shared_string_favorites %} -
+- {% data variables.android-values.shared_string_markers %} -
+- Swap Starting point and Destination - 
+
+
+"Swap Starting point and Destination" and "&#43;" buttons:
+
 
 
 
@@ -28,8 +40,14 @@ When the navigation is running, you can press the home button. You will get the 
 
 ### Navigation options
 
+Options
+
 ## Type of navigation
 
+Link to Navigation profiles
+
 ## Custom routing
+
+Link to Tech Documentation
 
 
