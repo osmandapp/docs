@@ -6,11 +6,19 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
-Menu where keeping all map (vector and raster) data.
+{% data reusables.general.android-ios-switcher %}
+
+In OsmAnd you can use [Vector maps](/osmand/map/vector-maps) and  [Raster maps](/osmand/map/raster-maps). All maps are store in one place and users can easily download, manage and update the maps. 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %}
+
+{% default %}
+
+{% enddefault %}
+
+{% android %}
 
 ![Maps menu Android](/assets/images/personal/maps/maps_menu_android.png) ![Maps menu iOS](/assets/images/personal/maps/maps_menu_ios.png)
 
