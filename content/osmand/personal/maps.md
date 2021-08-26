@@ -20,7 +20,15 @@ In OsmAnd you can use [Vector maps](/osmand/map/vector-maps) and  [Raster maps](
 
 {% android %}
 
-![Maps menu Android](/assets/images/personal/maps/maps_menu_android.png) ![Maps menu iOS](/assets/images/personal/maps/maps_menu_ios.png)
+![Maps menu Android](/assets/images/personal/maps/maps_menu_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![Maps menu iOS](/assets/images/personal/maps/maps_menu_ios.png)
+
+{% endios %}
 
 Buttons on top of the screen:
 - Refresh &#10227; map data (new maps for updating)
