@@ -151,7 +151,21 @@ Actions with map data:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %} → {% data variables.ios-values.online_raster_maps %}
 
-![Maps menu Local raster Android](/assets/images/personal/maps/maps_menu_local_raster_android.png) ![Maps menu Local raster iOS](/assets/images/personal/maps/maps_menu_local_raster_ios.png)
+{% default %}
+
+{% enddefault %}
+
+{% android %}
+
+![Maps menu Local raster Android](/assets/images/personal/maps/maps_menu_local_raster_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+ ![Maps menu Local raster iOS](/assets/images/personal/maps/maps_menu_local_raster_ios.png)
+
+ {% endios %}
 
 Info: name of maps, type of raster map (Android), size of map.
 
@@ -189,7 +203,7 @@ Action with map data:
 
 Here all maps, that were moved to deactivate.
 
-![Maps menu Local Deactivate Android](/assets/images/personal/maps/maps_menu_local_deactivate_android.png)
+![Maps menu Local Deactivate Android](/assets/images/personal/maps/maps_menu_local_deactivate_android.png) ![Maps menu Local Deactivate Android](/assets/images/personal/maps/maps_menu_local_deactivate_1_android.png)
 
 Info: name of map, size of map, date of creation map.
 
