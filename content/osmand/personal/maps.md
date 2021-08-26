@@ -15,6 +15,8 @@ In OsmAnd you can use [Vector maps](/osmand/map/vector-maps) and  [Raster maps](
 
 {% default %}
 
+![Maps menu Android](/assets/images/personal/maps/maps_menu_android.png) ![Download maps menu iOS](/assets/images/personal/maps/download_map_ios.png) 
+
 {% enddefault %}
 
 {% android %}
@@ -59,6 +61,8 @@ When you enter the country map menu you will see all map types available for dow
 
 ## Download maps (Maps)
 
+{% data reusables.general.android-ios-switcher %}
+
 Find and download map data for offline using.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_downloads %}
@@ -77,7 +81,21 @@ Here available:
 - {% data variables.android-values.wikivoyage_travel_guide %} (Android) - file of [Wikivoyage data](/osmand/plan-route/travel-guides).
 - {% data variables.android-values.other_location %} (Android) - Voice prompts (TTS, recorded), Map fonts.
 
-![Maps menu download Android](/assets/images/personal/maps/maps_menu_download_android.png) ![Maps menu download iOS](/assets/images/personal/maps/maps_menu_download_ios.png)
+{% default %}
+
+{% enddefault %}
+
+{% android %}
+
+![Download map menu general Android](/assets/images/personal/maps/download_map_menu_android.png) ![Download map menu general Android](/assets/images/personal/maps/download_map_menu_1_android.png) 
+
+{% endandroid %}
+
+{% ios %}
+
+![Download map menu general iOS](/assets/images/personal/maps/download_map_menu_ios.png) ![Download map menu general iOS](/assets/images/personal/maps/download_map_menu_1_ios.png)
+
+{% endios %}
 
 ## Local maps
 
