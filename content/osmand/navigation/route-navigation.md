@@ -11,14 +11,21 @@ The navigation function allows you to reach your destination easily using voice 
 
 ## How to use
 
-To start the navigation, you need to use the navigation button on the map screen. Next, you'll need to set the starting point and the destination. As for the starting point, you can choose your current location, [Favorite location](/osmand/map/point-layers-on-map#favorites), select a point on the map or use [an address](/osmand/search). You can also set a starting point by long tapping on the map and choosing ['Directions from'](/osmand/map/map-context-menu#directions-to--from) in [Map Context menu](/osmand/map/map-context-menu). To navigate to a point, just press the navigation button in its context menu.
+To start the navigation, you need to use [the navigation button](/osmand/widgets/map-buttons#directions) on the map screen. Or choose navigation option in the main menu:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_navigation %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.get_directions %}
+
+
+Next, you'll need to set the starting point and the destination. As for the starting point, you can choose your current location, [Favorite location](/osmand/map/point-layers-on-map#favorites), select a point on the map or use [an address](/osmand/search). You can also set a starting point by long tapping on the map and choosing ['Directions from'](/osmand/map/map-context-menu#directions-to--from) in [Map Context menu](/osmand/map/map-context-menu). To navigate to a point, just press the navigation button in its context menu.
 
 ![Navigation screen select point Android](/assets/images/navigation/route/navigation_points_android.png) ![Navigation screen iOS](/assets/images/navigation/route/navigation_points_ios.png)
 
 Tap to {% data variables.android-values.route_from %} (your current position by default) or {% data variables.android-values.route_from %} for select Start-Finish points of your navigation:
-- {% data variables.android-values.search_button %} -
-- {% data variables.android-values.shared_string_address %} -
-- {% data variables.android-values.shared_string_my_location %} -
+- {% data variables.android-values.search_button %} - opens [the search menu](/osmand/search) for choosing point.
+- {% data variables.android-values.shared_string_address %} - opens address search menu for choosing point.
+- {% data variables.android-values.shared_string_my_location %} - opens the map for choosing point by tapping on the map.
 - {% data variables.android-values.shared_string_select_on_map %} -
 - {% data variables.android-values.shared_string_favorites %} -
 - {% data variables.android-values.shared_string_markers %} -
