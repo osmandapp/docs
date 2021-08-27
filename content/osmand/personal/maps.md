@@ -212,11 +212,27 @@ Action with map data:
 
 ## Update maps
 
+{% data reusables.general.android-ios-switcher %}
+
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_updates %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_updates %}
 
-![Maps menu Update maps Android](/assets/images/personal/maps/maps_menu_update_android.png) ![Maps menu Update maps  iOS](/assets/images/personal/maps/maps_menu_update_ios.png)
+{% default %}
+
+{% enddefault %}
+
+{% android %}
+
+![Maps menu Update maps Android](/assets/images/personal/maps/maps_menu_update_android.png) 
+
+{% endandroid %}
+
+{% ios %}
+
+![Maps menu Update maps  iOS](/assets/images/personal/maps/maps_menu_update_ios.png)
+
+ {% endios %}
 
 Click refresh &#10227; button for update info.
 
@@ -236,7 +252,21 @@ OsmAnd live data - hourly update maps ([paid OsmAnd feature](/osmand/purchases))
 
 **Menu of Live Update**
 
-![Maps menu OsmAnd live Android](/assets/images/personal/maps/maps_menu_osmand_live_android.png) ![Maps menu OsmAnd live  iOS](/assets/images/personal/maps/maps_menu_osmand_live_ios.png)
+{% default %}
+
+{% enddefault %}
+
+{% android %}
+
+![Maps menu OsmAnd live Android](/assets/images/personal/maps/maps_menu_osmand_live_android.png) ![Maps menu OsmAnd live edit Android](/assets/images/personal/maps/maps_menu_osmand_live_edit_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![Maps menu OsmAnd live  iOS](/assets/images/personal/maps/maps_menu_osmand_live_ios.png) ![Maps menu OsmAnd live edit iOS](/assets/images/personal/maps/maps_menu_osmand_live_edit_ios.png)
+
+{% endios %}
 
 Button of Enabled or not Live Updates
 
@@ -247,8 +277,6 @@ Click to:
 - &#8250; (iOS) - Parameters menu for Live update.
 
 **Parameters for Live Update**
-
-![Maps menu OsmAnd live edit Android](/assets/images/personal/maps/maps_menu_osmand_live_edit_android.png) ![Maps menu OsmAnd live edit iOS](/assets/images/personal/maps/maps_menu_osmand_live_edit_ios.png)
 
 Info: name of map, last updated (Android), last time checked (Android).
 
