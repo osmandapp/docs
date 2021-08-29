@@ -80,11 +80,20 @@ Opengl library is needed for targtes like assembleNightlyFree**Opengl**FatDebug 
 **Hint**: Compilation might take a long time and you will likely don't need all platforms, so you can [comment out](https://github.com/osmandapp/OsmAnd-core/blob/master/wrappers/android/build.sh#L64) unwanted arch in the script and build only for 1 platform (x86, x86_64, arm, arm64) debug or relelease.
 
 
-## Compile api samples
+## Compile API samples
 {% data reusables.general.article-not-complete %}
 
-There are 3 types of samples apps provided by OsmAnd, they are all represented in [osmand-api-demo](https://github.com/osmandapp/osmand-api-demo) Github repo. 
+There are 3 types of samples apps provided by OsmAnd, they are all represented in [osmand-api-demo](https://github.com/osmandapp/osmand-api-demo) Github repo and compiled regularly at [OsmAnd Builder](https://builder.osmand.net:8080/view/OsmAnd%20Builds/job/OsmAnd-API-demo/).
 
-- [OsmAnd-api-sample](https://github.com/osmandapp/osmand-api-demo/tree/master/OsmAnd-api-sample) - the simplest application that interacts with with OsmAnd via AIDL interface and Intents. It's a very lightweight app that uses well maintained API. [The application](https://download.osmand.net/latest-night-build/OsmAnd-api-sample.apk) is less than 3 MB. Though it requires OsmAnd to be installed separately and list of functions is limited.
-- [OsmAnd-map-sample](https://github.com/osmandapp/osmand-api-demo/tree/master/OsmAnd-map-sample) - this application has fully integrated inside OsmAnd inside it. [The application](https://download.osmand.net/latest-night-build/OsmAnd-map-sample.apk) is as big as OsmAnd itself > 100 MB. The API is not documented and changes with each release, it's possible to use internal API which might lead to unknown consequences. 
-- [OsmAnd-opengl-sample](https://github.com/osmandapp/osmand-api-demo/tree/master/OsmAnd-qt-core-sample) - this application has only core element such as Map  & routing integrated inside. [The application](https://download.osmand.net/latest-night-build/OsmAnd-qt-core-sample.apk) is not medium size ~ 30-40 MB and includes only rendering & routing engine which needs to be configured by the target app.
+Compile script:
+```
+(cd OsmAnd-api-sample && ./gradlew clean assembleRelease)
+(cd OsmAnd-map-sample && ./gradlew clean assembleRelease)
+(cd OsmAnd-qt-core-sample && ./gradlew clean assembleRelease)
+```
+
+- [OsmAnd-api-sample](https://github.com/osmandapp/osmand-api-demo/tree/master/OsmAnd-api-sample) - [the simplest sample application](https://download.osmand.net/latest-night-build/OsmAnd-api-sample.apk) that interacts with with already installed OsmAnd via AIDL interface and Intents.
+- [OsmAnd-map-sample](https://github.com/osmandapp/osmand-api-demo/tree/master/OsmAnd-map-sample) - [a sample application](https://download.osmand.net/latest-night-build/OsmAnd-map-sample.apk) has fully integrated OsmAnd inside it as SDK. Allows to use all internall APIs.
+- [OsmAnd-opengl-sample](https://github.com/osmandapp/osmand-api-demo/tree/master/OsmAnd-qt-core-sample) - [a sample application](https://download.osmand.net/latest-night-build/OsmAnd-qt-core-sample.apk) that has only core element such as Map  & routing integrated inside. Maps needs to be installed separately into Shared OsmAnd storage (OsmAnd itself is not used).
+
+**[Read more](/development/build-osmand/osmand-api)**.
