@@ -59,13 +59,12 @@ Opengl library is needed for targtes like assembleNightlyFree**Opengl**FatDebug 
 
 1. First setup the **development environment**, see {% link /setup-the-dev-environment %}.
 2. Install tools.
-- Android SDK - 29.
-- Android NDK - 23.
-- CMake > 3.6 (cmake -version).
-- SWIG - 3.0.*
-- Local c++ compiler (preferrable clang).
-- Bash tools: wget, curl, python ...
-
+    - Android SDK - 29.
+    - Android NDK - 23.
+    - CMake > 3.6 (cmake -version).
+    - SWIG - 3.0.*
+    - Local c++ compiler (preferrable clang).
+    - Bash tools: wget, curl, python ...
 3. **Gradle** (command line):
     -  Specify  **environment variables**.   ANDROID_SDK and ANDROID_HOME are where Android studio places things:
     ```
@@ -82,5 +81,10 @@ Opengl library is needed for targtes like assembleNightlyFree**Opengl**FatDebug 
 
 
 ## Compile api samples
+{% data reusables.general.article-not-complete %}
+
 There are 3 types of samples apps provided by OsmAnd, they are all represented in [osmand-api-demo](https://github.com/osmandapp/osmand-api-demo) Github repo. 
 
+- [OsmAnd-api-sample](https://github.com/osmandapp/osmand-api-demo/tree/master/OsmAnd-api-sample) - the simplest application that interacts with with OsmAnd via AIDL interface and Intents. It's a very lightweight app that uses well maintained API. [The application](https://download.osmand.net/latest-night-build/OsmAnd-api-sample.apk) is less than 3 MB. Though it requires OsmAnd to be installed separately and list of functions is limited.
+- [OsmAnd-map-sample](https://github.com/osmandapp/osmand-api-demo/tree/master/OsmAnd-map-sample) - this application has fully integrated inside OsmAnd inside it. [The application](https://download.osmand.net/latest-night-build/OsmAnd-map-sample.apk) is as big as OsmAnd itself > 100 MB. The API is not documented and changes with each release, it's possible to use internal API which might lead to unknown consequences. 
+- [OsmAnd-opengl-sample](https://github.com/osmandapp/osmand-api-demo/tree/master/OsmAnd-qt-core-sample) - this application has only core element such as Map  & routing integrated inside. [The application](https://download.osmand.net/latest-night-build/OsmAnd-qt-core-sample.apk) is not medium size ~ 30-40 MB and includes only rendering & routing engine which needs to be configured by the target app.
