@@ -53,7 +53,11 @@ To build bundle you could use **bundle${FLAVOR}LegacyFatRelease**.
 | gplayFull | net.osmand.plus | Google Play OsmAnd+ version - uses GooglePlay services.
 | huawei | net.osmand | Special build for Huawei market - uses Huawei services but not Google Play
 
-## Compile opengl library
+### Debug
+
+To be completed: how to set up android ndk debug.
+
+## Compile OpenGL library
 
 Opengl library is needed for targtes like assembleNightlyFree**Opengl**FatDebug and by default downloaded from [OsmAnd ivy repository](https://builder.osmand.net/ivy/net.osmand/) - [gradle task](https://github.com/osmandapp/OsmAnd/blob/master/OsmAnd/build.gradle#L187). For local development you might need to compile those library and publish to local ivy repo.
 
@@ -79,6 +83,9 @@ Opengl library is needed for targtes like assembleNightlyFree**Opengl**FatDebug 
     
 **Hint**: Compilation might take a long time and you will likely don't need all platforms, so you can [comment out](https://github.com/osmandapp/OsmAnd-core/blob/master/wrappers/android/build.sh#L64) unwanted arch in the script and build only for 1 platform (x86, x86_64, arm, arm64) debug or relelease.
 
+### Debug
+
+To be completed: how to set up android ndk debug.
 
 ## Compile API samples
 {% data reusables.general.article-not-complete %}
