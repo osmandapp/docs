@@ -55,7 +55,15 @@ To build bundle you could use **bundle${FLAVOR}LegacyFatRelease**.
 
 ### Debug
 
-To be completed: how to set up android ndk debug.
+#### Enable NDK debug for legacy native library (OsmAnd-core-legacy)
+
+In  OsmAnd/OsmAnd/jni/Application.mk uncomment lines
+```
+APP_OPTIM := debug
+APP_DEBUG := true
+```
+Add debug symbols in the Android Studio project configuration. For this go to Edit Configuration / in the left menu select Android App "OsmAnd" / in right side select tab "Debugger". And add OsmAnd/obj/local where build libraries for different configuration (arm64-v8a, armeabi-v7a, x86, x86_64).
+
 
 ## Compile OpenGL library
 
