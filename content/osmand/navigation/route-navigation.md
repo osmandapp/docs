@@ -46,25 +46,33 @@ When the navigation is running, you can press the home button. You will get the 
 
 ### Navigation options
 
-- {% data variables.android-values.shared_string_sound %} - 
-- {% data variables.android-values.impassable_road %}
-- {% data variables.android-values.show_along_the_route %} - 
-- {% data variables.android-values.follow_track %} - 
-- {% data variables.android-values.routing_attr_allow_private_name %} - 
-- {% data variables.android-values.routing_attr_short_way_name %} - 
-- {% data variables.android-values.temporary_conditional_routing %} - 
-- {% data variables.android-values.routing_settings_2 %} - 
-- {% data variables.android-values.customize_route_line %} - 
-- {% data variables.android-values.simulate_navigation %} - 
+- {% data variables.android-values.shared_string_sound %} - allows to switch on/off navigation prompts and to open [Voice prompts]() menu.
+- {% data variables.android-values.impassable_road %} - allows to select a road you want to avoid during navigation, either on the map.
+- {% data variables.android-values.show_along_the_route %} - allows to shows [POI, My Favourites](/osmand/widgets/nav-widgets#approach-poisfavorites), [Traffic warnings](/osmand/widgets/nav-widgets#alert-widget) along the route.
+- {% data variables.android-values.follow_track %} - allows to choose a track for [navigation by it](/osmand/navigation/gpx-navigation).
+- {% data variables.android-values.routing_attr_allow_private_name %} - allows to navigate to private zone.
+- {% data variables.android-values.routing_attr_short_way_name %} - calculates navigation by fuel-efficient algorithm.
+- {% data variables.android-values.temporary_conditional_routing %} - allows to consider temporary limitations.
+- {% data variables.android-values.routing_settings_2 %} - opens [Navigation settings]() of app profile.
+- {% data variables.android-values.customize_route_line %} - opens [menu of Route line]().
+- {% data variables.android-values.simulate_navigation %} - allows to simulate your navigation.
 
 
 ### Home - Work points
 
+[Special points](/osmand/personal/favorites#special-favorites-personal) of Favorites in Navigation menu for quickly access.
+
 ### Previous route
+
+Last route which you built for navigation.
 
 ### Displayed tracks
 
+List of shown track on the map. Clicking by one of it opens [Follow track](/osmand/navigation/gpx-navigation) menu function.
+
 ### History
+
+Tracks list.
 
 ## Type of navigation
 
