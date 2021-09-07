@@ -146,7 +146,7 @@ Navigation route is a line between user-defined points. In OsmAnd, the user buil
 
 You can customize the route line's appearance for any navigation profile. It is available to select the color and width of the line.
 
-{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.profile_appearance %} → {% data variables.android-values.customize_route_line %}
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %} → {% data variables.android-values.customize_route_line %}
 
 ![Route Customization Android](/assets/images/map/route_custom_android.png)
 
