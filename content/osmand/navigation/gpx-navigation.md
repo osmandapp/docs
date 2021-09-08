@@ -8,7 +8,7 @@ versions: '*'
 
 The navigation by track (GPX) allows you to follow by chosen making or recorded track.
 
-![Navigation by track screen Android](/assets/images/navigation/route/navigation_gpx_android.png) ![Navigation by track screen iOS](/assets/images/navigation/route/navigation_gpx_ios.png)
+![Navigation by track screen Android](/assets/images/navigation/gpx/navigation_gpx_android.png) ![Navigation by track screen iOS](/assets/images/navigation/gpx/navigation_gpx_ios.png)
 
 ## How to use
 
