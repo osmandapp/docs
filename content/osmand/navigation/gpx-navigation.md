@@ -16,11 +16,19 @@ To start the navigation, you need to use [the navigation button](/osmand/widgets
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_navigation %} → {% data variables.android-values.shared_string_options %} → {% data variables.android-values.follow_track %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.get_directions %} → {% data variables.android-values.shared_string_options %} → {% data variables.gpx_navigation %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.get_directions %} → {% data variables.ios-values.shared_string_options %} → {% data variables.ios-values.gpx_navigation %}
 
-or by choosing displayed track.
+or by choosing [displayed track](/osmand/navigation/route-navigation#displayed-tracks) in Navigation menu.
 
+Follow track menu:
 
+![Navigation by track screen Android](/assets/images/navigation/gpx/navigation_gpx_follow_track_android.png) ![Navigation by track screen iOS](/assets/images/navigation/gpx/navigation_gpx_follow_track_ios.png)
+
+- Track name and track info - clicking to it opens the track in "Plan route" tool.
+- {% data variables.android-values.select_another_track %} -
+- {% data variables.android-values.gpx_option_reverse_route %} -
+- {% data variables.android-values.pass_whole_track_descr %} - {% data variables.android-values.start_of_the_track %} or {% data variables.android-values.nearest_point %}.
+- {% data variables.android-values.nav_type_hint %} - {% data variables.android-values.routing_profile_straightline %} or chosen navigation profile.
 
 
 ### Navigation options
