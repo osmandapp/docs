@@ -124,7 +124,7 @@ Click to "{% data variables.android-values.shared_string_save %}" button for add
 
 Online maps can be added with a special link to OsmAnd Raster map list. Click to this link and choose OsmAnd for opening:
 
-http://osmand.net/add-tile-source?name=TEST&url_template=http://h0.ortho.tiles.virtualearth.net/tiles/h{q}.jpg?g=45&min_zoom=9max_zoom=20
+http://osmand.net/add-tile-source?name=TEST&url_template=http://h0.ortho.tiles.virtualearth.net/tiles/h{q}.jpg?g=45&min_zoom=9&max_zoom=20
 
 |Parameter of link|Example|
 |:--------|:---------------|
@@ -132,7 +132,7 @@ http://osmand.net/add-tile-source?name=TEST&url_template=http://h0.ortho.tiles.v
 |[Separator]|?|
 |[Name]|name=TEST|
 |[URL]|template=http://h0.ortho.tiles.virtualearth.net/tiles/h{q}.jpg?g=45|
-|[Zoom levels]|min_zoom=9max_zoom=20|
+|[Zoom levels]|min_zoom=9&max_zoom=20|
 
 You find added Online map in the list of [Main / Underlay / Overlay layer](#select-map-as-main--underlay--overlay-layer) menu.
 
