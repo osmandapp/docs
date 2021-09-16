@@ -80,7 +80,7 @@ There are two options to display [Tracks](/osmand/personal/tracks) on the map: v
 
 In OsmAnd you can change the color, the thickness of the track, display arrows and icons of the starting and ending points.
 
-To get to the track Appearance menu, you need to display track on the map, then in the [track Context menu](https://docs.osmand.net/en/main@latest/osmand/map/track-context-menu#overview) in the {% data variables.android-values.shared_string_overview %} section, [shortly](/osmand/map/map-context-menu#select-route-short-tap-for-android) click on the "palette" icon. 
+To get to the track Appearance menu, you need to display track on the map, then in the [Track Context menu](https://docs.osmand.net/en/main@latest/osmand/map/track-context-menu#overview) in the {% data variables.android-values.shared_string_overview %} section, [shortcut](/osmand/map/map-context-menu#select-route-short-tap-for-android) is to click on the "palette" icon. 
 
 {% default %}
 
@@ -100,15 +100,15 @@ To get to the track Appearance menu, you need to display track on the map, then 
 
 |**Parameter and Description**|   
 |------------|--------|
-|**{% data variables.android-values.gpx_split_interval %}** - splits track into intervals by distance or time.|
+|**{% data variables.android-values.gpx_split_interval %}** - splits track into intervals by **_Distance_** or **_Time_** and displays shields on the map.|
 |![Track menu Appearance Split interval Android](/assets/images/map/track_appearance_menu_split_interval_android.png)| 
-|**{% data variables.android-values.gpx_direction_arrows %}** - adds direction info for the track.|
+|**{% data variables.android-values.gpx_direction_arrows %}** - adds direction info on the track.|
 |![Track menu Appearance direction arrows Android](/assets/images/map/track_appearance_menu_direction_arrows_android.png)|  
-|**{% data variables.android-values.track_show_start_finish_icons %}** - shows or hides start/finish icons of the track.|
+|**{% data variables.android-values.track_show_start_finish_icons %}** - shows or hides start/finish icons of the track segments.|
 |![Track menu Appearance start and finish icons Android](/assets/images/map/track_appearance_menu_sf_icons_android.png)|  
-|**{% data variables.android-values.shared_string_color %}** -  you can change the color of the track with solid fill and gradient. To make the track solid, select the Solid fill and color. When choosing to color by speed, height, slope, etc., the track will have a gradient fill according to the track data.|
+|**{% data variables.android-values.shared_string_color %}** -  changes the color (solid or gradient) of the track using internal data: **_Solid Color_**, **_Height_**, **_Speed_**, **_Slope_** (PRO feature), **_Smoothness_** (OsmAnd plan route), **_Surface_** (OsmAnd plan route). If necessary data is not available grey color is displayed. |
 |![Track menu Appearance Track color Android](/assets/images/map/track_appearance_menu_track_color_android.png)|
-|**{% data variables.android-values.select_track_width %}** - allows configuring thickness for the track: {% data variables.android-values.rendering_value_thin_name %}, {% data variables.android-values.rendering_value_medium_name %}, {% data variables.android-values.rendering_value_bold_name %}, {% data variables.android-values.shared_string_custom %}.|
+|**{% data variables.android-values.select_track_width %}** - changes the thickness for the track between **_{% data variables.android-values.rendering_value_thin_name %}_**, **_{% data variables.android-values.rendering_value_medium_name %}_**, **_{% data variables.android-values.rendering_value_bold_name %}, {% data variables.android-values.shared_string_custom %}_**.|
 |![Track menu Appearance Track Thickness Android](/assets/images/map/track_appearance_menu_track_thickness_android.png)|
 
 ### Analyze Track on Map (Android)
@@ -133,7 +133,6 @@ This option allows you to review track information on the map. To get access to 
 - Follow My location - new function for [navigation by track](/osmand/navigation/gpx-navigation).
 
 ![Track menu analyze on map 5 Android](/assets/images/personal/tracks/track_analyze_on_map_5_android.png)
-
 
 
 ## Navigation Route
