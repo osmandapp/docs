@@ -34,17 +34,18 @@ OsmAnd deals with 2 type of maps: [Vector maps](/osmand/map/vector-maps) and  [R
 ## Map types
 
 There are several map types available to download and manage:
-- Standard - fully packaged OsmAnd map based on [OpenStreetMap](https://www.openstreetmap.org/) source, they provide map, routing, address, POI, public transport information, . 
-- Roads-only (Android) - smaller by size map comparing to Standard due to removed map details such as buildings & points on the map.
-- [Coutour lines](/osmand/map/vector-maps#contour-lines) - map that contains the elevation contour lines.
-- [Hillshades](/osmand/map/raster-maps#hillshade--slope) - raster map with hillshade information.
-- [Slopes](/osmand/map/raster-maps#hillshade--slope) - raster map with slopes information. 
-- [Wikipedia](/osmand/plugins/wikipedia) - vector maps that provides Geo located Articles as POIs from [Wikipedia](https://wikipedia.org/).
-- [Travel guides / Wikivoyage](/osmand/plan-route/travel-guides) - vector map that has a collection of Articles (Text as HTML + GPX file) for example [Wikivoyage](https://www.wikivoyage.org/).
-- [Nautical maps](/osmand/plugins/nautical-charts) - vector map that provide sea depth elevation as points or as lines.
-- [Voice packages](/osmand/navigation/voice-navigation) - voice package that provides sounds and configuration how to guide you in the navigation mode.
+- Standard - a fully packaged OsmAnd map based on [OpenStreetMap](https://www.openstreetmap.org/) source, they provide map, routing, address, POI, public transport information, . 
+- Roads-only (Android) - a smaller by size map comparing to Standard due to removed map details such as buildings & points on the map.
+- [Coutour lines](/osmand/map/vector-maps#contour-lines) - a map that contains the elevation contour lines.
+- [Hillshades](/osmand/map/raster-maps#hillshade--slope) - a raster map with hillshade information.
+- [Slopes](/osmand/map/raster-maps#hillshade--slope) - a raster map with slopes information. 
+- [Online and cached tile maps](/osmand/map/raster-maps) - a custom map source for online maps, could be installed as 3rd party map or as OsmAnd Tiles. 
+- [Wikipedia](/osmand/plugins/wikipedia) - a vector map that provides Geo located Articles as POIs from [Wikipedia](https://wikipedia.org/).
+- [Travel guides / Wikivoyage](/osmand/plan-route/travel-guides) - a vector map that has a collection of Articles (Text as HTML + GPX file) for example [Wikivoyage](https://www.wikivoyage.org/).
+- [Nautical maps](/osmand/plugins/nautical-charts) - a vector map that provide sea depth elevation as points or as lines.
+- [Voice packages](/osmand/navigation/voice-navigation) - a voice package that provides sounds and configuration how to guide you in the navigation mode.
 - [Map fonts (Android)](/osmand/map/vector-maps#map-fonts-android) - additional fonts files used to render text on the map.
-- [Altitude correction (Android)](/osmand/widgets/info-widgets#altitude) - special map file that provides correction for geoid on Android devices (optional).
+- [Altitude correction (Android)](/osmand/widgets/info-widgets#altitude) - a special map file that provides correction for geoid on Android devices (optional).
 - Other maps - maps that couldn't be attached to current maps hierarchy, typically represents deprecated and not supported maps or maps that will be available next release.
 
 **Note**: For regions like Germany consisted of many maps, you can use bulk map downloads, it is depicted as double download arrows next to the map type.
@@ -56,30 +57,15 @@ There are several map types available to download and manage:
 
 {% data reusables.general.android-ios-switcher %}
 
-
-- Refresh &#10227;: map data (new maps for updating)
-- Search  button for findind needed map.
-
-
-Find and download map data for offline using.
+Download maps screen allows you to download maps from OsmAnd servers, you will need an active internet connection to do that.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_downloads %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %}
 
-Search button for findind needed map.
-
-Tool bar of Device memory (how much is free)
-
-Here available:
-- {% data variables.android-values.extra_maps_menu_group %} - maps menu group of [Custom plugin](https://osmand.net/features/custom-package).
-- {% data variables.android-values.regions %} / {% data variables.ios-values.res_worldwide %} - maps menu group for downloading [vector maps](/osmand/map/vector-maps), [vector maps](/osmand/map/vector-maps), [Contour lines maps and Terrain](/osmand/plugins/contour-lines), [Wikipedia offline data](/osmand/plugins/wikipedia) .
-- {% data variables.android-values.world_maps %} - {% data variables.android-values.index_item_world_basemap %}
-- {% data variables.android-values.nautical_maps %} - nautical maps of [Nautical plugin](/osmand/plugins/nautical-charts).
-- {% data variables.android-values.wikivoyage_travel_guide %} (Android) - file of [Wikivoyage data](/osmand/plan-route/travel-guides).
-- {% data variables.android-values.other_location %} (Android) - Voice prompts (TTS, recorded), Map fonts.
-
 {% default %}
+
+![Download map menu general iOS](/assets/images/personal/maps/download_map_menu_ios.png) ![Download map menu general Android](/assets/images/personal/maps/download_map_menu_1_android.png) 
 
 {% enddefault %}
 
@@ -94,6 +80,15 @@ Here available:
 ![Download map menu general iOS](/assets/images/personal/maps/download_map_menu_ios.png) ![Download map menu general iOS](/assets/images/personal/maps/download_map_menu_1_ios.png)
 
 {% endios %}
+
+
+**Actions**:
+- Refresh &#10227; - redownloads list of available maps from OsmAnd Server.
+- Search -  allows you to search maps by **Country**, **Province** or by a large **City**. 
+- Toolbar indicates how much memory is available to download and how much maps is available 
+Tool bar of Device memory (how much is free)
+
+**Hint**: a small Worldwide map is builtin inside OsmAnd, you don't need to download a large Worldwide map if you plan to have detailed maps for region. In case you want to have map that covers full planet including major cities, roads & rivers, you can download **_Detailed worldwide map_**.
 
 ## Local maps
 
