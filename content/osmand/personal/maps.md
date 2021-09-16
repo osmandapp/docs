@@ -85,8 +85,7 @@ Download maps screen allows you to download maps from OsmAnd servers, you will n
 **Actions**:
 - Refresh &#10227; - redownloads list of available maps from OsmAnd Server.
 - Search -  allows you to search maps by **Country**, **Province** or by a large **City**. 
-- Toolbar indicates how much memory is available to download and how much maps is available 
-Tool bar of Device memory (how much is free)
+- Toolbar indicates how much memory is available to download and how much maps is available to download for free.
 
 **Hint**: a small Worldwide map is builtin inside OsmAnd, you don't need to download a large Worldwide map if you plan to have detailed maps for region. In case you want to have map that covers full planet including major cities, roads & rivers, you can download **_Detailed worldwide map_**.
 
@@ -94,7 +93,7 @@ Tool bar of Device memory (how much is free)
 
 {% data reusables.general.android-ios-switcher %}
 
-Folder with saved map data (Vector and Raster) on your device.
+Local maps represents all downloaded maps on device grouped by [Types](#map-types)
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_local %}
 
@@ -105,27 +104,6 @@ Android (top of the screen):
 - Delete button  - delete chosen map.
 - &#8285; - {% data variables.android-values.local_index_mi_backup %} or {% data variables.android-values.local_index_mi_restore %} chosen maps.
 
-### Vector data
-
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.local_indexes_cat_map %}
-
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %} → {% data variables.ios-values.res_mapsres %} and {% data variables.ios-values.res_world_map %}
-
-{% default %}
-
-{% enddefault %}
-
-{% android %}
-
-![Maps menu Local vector Android](/assets/images/personal/maps/maps_menu_local_vector_android.png) 
-
-{% endandroid %}
-
-{% ios %}
-
-![Maps menu Local vector iOS](/assets/images/personal/maps/maps_menu_local_vector_ios.png)
-
-{% endios %}
 
 Info: name of map, size of map, type of map (for iOS: raster data here like Hillshades, Slopes), date of creating map (Android)
 
@@ -137,62 +115,15 @@ Actions with map data:
 - icon 'Update' (iOS) - needed to update map.
 - &#8250; button (iOS) - open Details menu with next info: type of map, size of map, data creation of map. And action button - Delete map.
 
-
-### {% data variables.android-values.local_indexes_cat_tile %}
-
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.local_indexes_cat_tile %}
-
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %} → {% data variables.ios-values.online_raster_maps %}
-
-{% default %}
-
-{% enddefault %}
-
-{% android %}
-
-![Maps menu Local raster Android](/assets/images/personal/maps/maps_menu_local_raster_android.png)
-
-{% endandroid %}
-
-{% ios %}
-
- ![Maps menu Local raster iOS](/assets/images/personal/maps/maps_menu_local_raster_ios.png)
-
- {% endios %}
-
 Info: name of maps, type of raster map (Android), size of map.
 
 Actions with map data:
 - &#8285; button (Android) - {% data variables.android-values.local_index_mi_backup %}, {% data variables.android-values.shared_string_rename %}, {% data variables.android-values.shared_string_delete %} chosen map.
 - &#8250; button (iOS) - open Details menu with info (type of map, size of map, data creation of map) and 'Actions' buttons - [Clear cache](/osmand/map/raster-maps#clear-raster-map-cache), [Edit map](/osmand/map/raster-maps#change-raster-map-parameters), Delete map.
 
-### Contour lines, Wikipedia, Travel guides (Android)
 
-Data of [Contour lines plugin](/osmand/plugins/contour-lines), [Wikipedia](/osmand/plugins/wikipedia), [Travel guides](/osmand/plan-route/travel-guides)
 
-{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.local_indexes_cat_tts %}, {% data variables.android-values.local_indexes_cat_voice %}
-
-![Maps menu Local folders Android](/assets/images/personal/maps/maps_menu_local_folders_android.png)
-
-Info: name of map, size of map, size of folder.
-
-Action with map data:
-- &#8285; button - {% data variables.android-values.shared_string_rename %}, {% data variables.android-values.shared_string_delete %} chosen map.
-
-### Voice prompts (Android)
-
-Data of [Voice prompts during navigation](/osmand/navigation).
-
-{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_srtm_maps %}, {% data variables.android-values.download_wikipedia_maps %}, {% data variables.android-values.download_maps_travel %}
-
-![Maps menu Local voice prompts Android](/assets/images/personal/maps/maps_menu_local_voice_prompts_android.png)
-
-Info: name of map, size of map.
-
-Action with map data:
-- &#8285; button - {% data variables.android-values.shared_string_rename %}, {% data variables.android-values.shared_string_delete %} chosen map.
-
-### Deactivated (Android)
+### Deactivate Maps (Android)
 
 Here all maps, that were moved to deactivate.
 
