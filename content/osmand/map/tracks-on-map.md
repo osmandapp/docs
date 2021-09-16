@@ -113,26 +113,26 @@ To get to the track Appearance menu, you need to display track on the map, then 
 
 ### Analyze Track on Map (Android)
 
-This option allows you to review track information on the map. To get access to this menu shortly tap on the track → [{% data variables.android-values.shared_string_options %}](/osmand/map/track-context-menu#options) → {% data variables.android-values.analyze_on_map %}
+This option allows you to interactively review track information using graphs and the map. To get access to this menu shortly tap on the track → [{% data variables.android-values.shared_string_options %}](/osmand/map/track-context-menu#options) → {% data variables.android-values.analyze_on_map %}
 
 ![Track menu analyze on map Android](/assets/images/personal/tracks/track_analyze_on_map_android.png) ![Track menu analize on the map distance Android](/assets/images/personal/tracks/track_analyze_on_map_distance_android.png) 
 
-- Graph: altitude / slope / speed - data of vertical axis. Here users can choose: Altitude, Slope, Speed, Altitude/Slope, Altitude/Speed data for viewing on Graph.
-
-![Track menu analyze on map 1 Android](/assets/images/personal/tracks/track_analyze_on_map_1_android.png) ![Track menu analyze on map 1.1 Android](/assets/images/personal/tracks/track_analyze_on_map_1.1_android.png)
-
-- Graph: distance / time - data of horizontal data. Users can choose: Distance, Time, Time of day for analyzing data of vertical axis by timing or distance.
-
-![Track menu analyze on map 2 Android](/assets/images/personal/tracks/track_analyze_on_map_2_android.png) ![Track menu analyze on map 2.1 Android](/assets/images/personal/tracks/track_analyze_on_map_2.1_android.png)
+- **Graph data**: Altitude / Slope / Speed (if data is available in the track).
+- **Graph dimension**: Distance / Time.
+- **Slide interaction**: tap to Graph for showing info about track point and moving along Graph shows info about points of the track.
+- **Scale**: scale Graph by [two fingers gesture](/osmand/map/interact-with-map#gestures). 
+- **Follow My location**: click button [My Location](/osmand/map/interact-with-map#my-location--zoom), so map view and graph is synchronized with your location. In that case **graph scale** will stay constant and **bar information** will be fixed to 1/4 from the left. As you move, **graph will slide** from left to right displaying information Ahead of your Track. This functionality is useful for hiking & cycling during navigation, though this screen doesn't have other widgets displayed.
 
 
-- Interact with map & graph - tap to Graph for showing info about track point and moving finger along Graph shows info about points of the track. User can scale Graph by [two fingers](/osmand/map/interact-with-map#gestures). 
+![Track menu analyze on map 3 Android](/assets/images/personal/tracks/track_analyze_on_map_3_android.png) ![Track menu analyze on map 5 Android](/assets/images/personal/tracks/track_analyze_on_map_5_android.png)
 
+
+<!-- 
 ![Track menu analyze on map 3 Android](/assets/images/personal/tracks/track_analyze_on_map_3_android.png) ![Track menu analyze on map 4 Android](/assets/images/personal/tracks/track_analyze_on_map_4_android.png)
-
-- Follow My location - new function for [navigation by track](/osmand/navigation/gpx-navigation).
-
+![Track menu analyze on map 1 Android](/assets/images/personal/tracks/track_analyze_on_map_1_android.png) ![Track menu analyze on map 1.1 Android](/assets/images/personal/tracks/track_analyze_on_map_1.1_android.png)
+![Track menu analyze on map 2 Android](/assets/images/personal/tracks/track_analyze_on_map_2_android.png) ![Track menu analyze on map 2.1 Android](/assets/images/personal/tracks/track_analyze_on_map_2.1_android.png)
 ![Track menu analyze on map 5 Android](/assets/images/personal/tracks/track_analyze_on_map_5_android.png)
+-->
 
 
 ## Navigation Route
