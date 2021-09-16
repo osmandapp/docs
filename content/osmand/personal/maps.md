@@ -81,7 +81,6 @@ Download maps screen allows you to download maps from OsmAnd servers, you will n
 
 {% endios %}
 
-
 **Actions**:
 - Refresh &#10227; - redownloads list of available maps from OsmAnd Server.
 - Search -  allows you to search maps by **Country**, **Province** or by a large **City**. 
@@ -99,40 +98,48 @@ Local maps represents all downloaded maps on device grouped by [Types](#map-type
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %}
 
-Android (top of the screen):
-- &#10227; button - refresh all data
-- Delete button  - delete chosen map.
-- &#8285; - {% data variables.android-values.local_index_mi_backup %} or {% data variables.android-values.local_index_mi_restore %} chosen maps.
+{% default %}
 
+![Maps menu Local vector Android](/assets/images/personal/maps/maps_menu_local_vector_android.png) 
 
-Info: name of map, size of map, type of map (for iOS: raster data here like Hillshades, Slopes), date of creating map (Android)
+{% enddefault %}
 
-Actions with map data:
-- Green color of map icon (Android) - fresh map data.
-- Orange color of map icon (Android) - needed to update map.
-- &#8285; button (Android) - {% data variables.android-values.local_index_mi_backup %}, {% data variables.android-values.shared_string_rename %}, {% data variables.android-values.shared_string_delete %} chosen map.
-- icon &#8560; (iOS) - fresh map data.
-- icon 'Update' (iOS) - needed to update map.
-- &#8250; button (iOS) - open Details menu with next info: type of map, size of map, data creation of map. And action button - Delete map.
+{% android %}
 
-Info: name of maps, type of raster map (Android), size of map.
+![Maps menu Local vector Android](/assets/images/personal/maps/maps_menu_local_vector_android.png) 
 
-Actions with map data:
-- &#8285; button (Android) - {% data variables.android-values.local_index_mi_backup %}, {% data variables.android-values.shared_string_rename %}, {% data variables.android-values.shared_string_delete %} chosen map.
-- &#8250; button (iOS) - open Details menu with info (type of map, size of map, data creation of map) and 'Actions' buttons - [Clear cache](/osmand/map/raster-maps#clear-raster-map-cache), [Edit map](/osmand/map/raster-maps#change-raster-map-parameters), Delete map.
+{% endandroid %}
 
+{% ios %}
 
+![Maps menu Local vector iOS](/assets/images/personal/maps/maps_menu_local_vector_ios.png)
+
+{% endios %}
+
+Global / Bulk Actions :
+- &#10227; button - scans & refreshes list of available maps on storage.
+- Delete button  - Multiselection to delete maps.
+- &#8285; - {% data variables.android-values.local_index_mi_backup %} or {% data variables.android-values.local_index_mi_restore %} - multiselection to deactivate and activate [maps](#deactivate-maps-android).
+
+Each map displays its name, size, creation date  within a certain category and highligted by a color:
+- Green - map is up to date.
+- Orange - there is an update available for the map.
+- Grey / Italic - map is deactivated 
+
+For each map specific acitons are available by clicking 3 dots or long tap on the row:
+- Rename - renames
+- Update - updates to the latest available version
+- Delete - deletes map
+- Edit (Online maps) - edits online map configuration
+- Clear all tiles cache (Online maps) - clear all the tiles cached by online map.
 
 ### Deactivate Maps (Android)
 
-Here all maps, that were moved to deactivate.
+It's possible to deactivate vector maps, so they will be present on device but will not be used for map display, search and routing. It's optimal to have large storage of maps and use them when they are needed without slowing down OsmAnd functionality.
 
 ![Maps menu Local Deactivate Android](/assets/images/personal/maps/maps_menu_local_deactivate_android.png) ![Maps menu Local Deactivate Android](/assets/images/personal/maps/maps_menu_local_deactivate_1_android.png)
 
-Info: name of map, size of map, date of creation map.
-
-Action with map data:
-- &#8285; button - {% data variables.android-values.local_index_mi_restore %}, {% data variables.android-values.shared_string_rename %}, {% data variables.android-values.shared_string_delete %} chosen map.
+Local action available for the map: **{% data variables.android-values.local_index_mi_restore %}** / **{% data variables.android-values.local_index_mi_backup %}**.
 
 ## Update maps
 
@@ -143,6 +150,8 @@ Action with map data:
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_updates %}
 
 {% default %}
+
+![Maps menu Update maps Android](/assets/images/personal/maps/maps_menu_update_android.png) 
 
 {% enddefault %}
 
@@ -176,7 +185,11 @@ OsmAnd live data - hourly update maps ([paid OsmAnd feature](/osmand/purchases))
 
 **Menu of Live Update**
 
+{% data reusables.general.android-ios-switcher %}
+
 {% default %}
+
+![Maps menu OsmAnd live Android](/assets/images/personal/maps/maps_menu_osmand_live_android.png) ![Maps menu OsmAnd live edit Android](/assets/images/personal/maps/maps_menu_osmand_live_edit_android.png)
 
 {% enddefault %}
 
