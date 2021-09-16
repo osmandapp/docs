@@ -1,13 +1,13 @@
 ---
 title: "Maps"
-intro: "Downloading and editing maps data for offline using."
+intro: "Maps screen allows you to do basic operations over online and offline maps used in OsmAnd such as downloading, removing, renaming, clearing the cache for online maps, updating and checking maps size."
 versions: '*'
 ---
 
 {% data reusables.general.article-not-complete %}
 
 
-In OsmAnd you can use [Vector maps](/osmand/map/vector-maps) and  [Raster maps](/osmand/map/raster-maps). All maps are store in one place and users can easily download, manage and update the maps. 
+OsmAnd deals with 2 type of maps: [Vector maps](/osmand/map/vector-maps) and  [Raster maps](/osmand/map/raster-maps). All maps are stored in one place of the [Storage](/osmand/personal/storage) and it is accessible with external tools. 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %}
 
@@ -31,30 +31,23 @@ In OsmAnd you can use [Vector maps](/osmand/map/vector-maps) and  [Raster maps](
 
 {% endios %}
 
-Buttons on top of the screen:
-- Refresh &#10227; map data (new maps for updating)
-- Search  button for findind needed map.
+## Map types
 
+There are several map types available to download and manage:
+- Standard - fully packaged OsmAnd map based on [OpenStreetMap](https://www.openstreetmap.org/) source, they provide map, routing, address, POI, public transport information, . 
+- Roads-only (Android) - smaller by size map comparing to Standard due to removed map details such as buildings & points on the map.
+- [Coutour lines](/osmand/map/vector-maps#contour-lines) - map that contains the elevation contour lines.
+- [Hillshades](/osmand/map/raster-maps#hillshade--slope) - raster map with hillshade information.
+- [Slopes](/osmand/map/raster-maps#hillshade--slope) - raster map with slopes information. 
+- [Wikipedia](/osmand/plugins/wikipedia) - vector maps that provides Geo located Articles as POIs from [Wikipedia](https://wikipedia.org/).
+- [Travel guides / Wikivoyage](/osmand/plan-route/travel-guides) - vector map that has a collection of Articles (Text as HTML + GPX file) for example [Wikivoyage](https://www.wikivoyage.org/).
+- [Nautical maps](/osmand/plugins/nautical-charts) - vector map that provide sea depth elevation as points or as lines.
+- [Voice packages](/osmand/navigation/voice-navigation) - voice package that provides sounds and configuration how to guide you in the navigation mode.
+- [Map fonts (Android)](/osmand/map/vector-maps#map-fonts-android) - additional fonts files used to render text on the map.
+- [Altitude correction (Android)](/osmand/widgets/info-widgets#altitude) - special map file that provides correction for geoid on Android devices (optional).
+- Other maps - maps that couldn't be attached to current maps hierarchy, typically represents deprecated and not supported maps or maps that will be available next release.
 
-## Type of maps
-
-
-In order to download the region or country map you can enter the name of the country or big city in the search area or from the Menu step by step go into the needed map.
-When you enter the country map menu you will see all map types available for download:
--  Standard - contains all of the available information from [OpenStreetMap](https://www.openstreetmap.org/) source. 
--  Roads-only (Android) - contains only information about the roads. Perfectly suited for users with small device memory or for the area where you do not need the details information.
--  [Coutour lines](/osmand/map/vector-maps#contour-lines) - contains information about the elevation lines and terrain.
--  [Hillshades](/osmand/map/raster-maps#hillshade--slope)
--  [Slopes](/osmand/map/raster-maps#hillshade--slope)
--  [Wikipedia](/osmand/plugins/wikipedia) - contains files with the Wikipedia articles that you can read offline.
-- Travel guides / Wikivoyage
-- Nautical maps
-- Voice packages
-- Map fonts
-- Altitude correction (Android)
-- Other maps
-
-**Note**: In the Android version is available to use bulk map downloads. You could easily recognize when this option is available by double arrows next to the map type.
+**Note**: For regions like Germany consisted of many maps, you can use bulk map downloads, it is depicted as double download arrows next to the map type.
 
 ![Download map menu Android](/assets/images/settings/download_map_menu_android.png) ![Regionwide maps Android](/assets/images/settings/regionwide_maps_menu.png)
 
@@ -62,6 +55,11 @@ When you enter the country map menu you will see all map types available for dow
 ## Download maps (Maps)
 
 {% data reusables.general.android-ios-switcher %}
+
+
+- Refresh &#10227;: map data (new maps for updating)
+- Search  button for findind needed map.
+
 
 Find and download map data for offline using.
 

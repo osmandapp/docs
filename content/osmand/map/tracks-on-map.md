@@ -4,8 +4,6 @@ intro: "OsmAnd has many powerful features to display various routes on the map. 
 versions: '*'
 ---
 
-{% data reusables.general.article-not-complete %}
-
 ## Type of routes on the map
 
 OsmAnd can display several different type of routes:
@@ -159,7 +157,7 @@ OsmAnd can highlight [routes present on OpenStreetMap](https://wiki.openstreetma
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_routes %}
 
-**Read more** about Map Routes [Vector map style](/osmand/map/vector-maps#routes).
+**Read more** about Map Routes at [Vector map style](/osmand/map/vector-maps#routes).
 
 {% default %}
 
