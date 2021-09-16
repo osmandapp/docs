@@ -116,26 +116,28 @@ Local maps represents all downloaded maps on device grouped by [Types](#map-type
 
 {% endios %}
 
-Global / Bulk Actions :
+**Global / Bulk Actions**:
 - &#10227; button - scans & refreshes list of available maps on storage.
 - Delete button  - Multiselection to delete maps.
 - &#8285; - {% data variables.android-values.local_index_mi_backup %} or {% data variables.android-values.local_index_mi_restore %} - multiselection to deactivate and activate [maps](#deactivate-maps-android).
 
-Each map displays its name, size, creation date  within a certain category and highligted by a color:
+Each map displays its name, size, creation date  within a certain category and highligted by a color.
+**Map colors**:
 - Green - map is up to date.
 - Orange - there is an update available for the map.
 - Grey / Italic - map is deactivated 
 
-For each map specific acitons are available by clicking 3 dots or long tap on the row:
-- Rename - renames
-- Update - updates to the latest available version
+For each map specific actions are available by clicking 3 dots or long tap on the row.
+**Map actions**:
+- Rename - changes name of the file and map
+- Update - updates map to the latest available version
 - Delete - deletes map
 - Edit (Online maps) - edits online map configuration
 - Clear all tiles cache (Online maps) - clear all the tiles cached by online map.
 
 ### Deactivate Maps (Android)
 
-It's possible to deactivate vector maps, so they will be present on device but will not be used for map display, search and routing. It's optimal to have large storage of maps and use them when they are needed without slowing down OsmAnd functionality.
+It's possible to deactivate vector maps, so they will be present on the device but will not be used for map display, search and routing. It's optimal to have large storage of maps and use them when they are needed without slowing down OsmAnd functionality.
 
 ![Maps menu Local Deactivate Android](/assets/images/personal/maps/maps_menu_local_deactivate_android.png) ![Maps menu Local Deactivate Android](/assets/images/personal/maps/maps_menu_local_deactivate_1_android.png)
 
@@ -163,7 +165,7 @@ Local action available for the map: **{% data variables.android-values.local_ind
 
 {% ios %}
 
-![Maps menu Update maps  iOS](/assets/images/personal/maps/maps_menu_update_ios.png)
+![Maps menu Update maps iOS](/assets/images/personal/maps/maps_menu_update_ios.png)
 
  {% endios %}
 
@@ -223,16 +225,3 @@ Actions:
 - {% data variables.android-values.only_download_over_wifi %} - updating only with wi-fi connection.
 - {% data variables.android-values.updates_size %} - info about downloaded map cache. Delete (Android) button downloading data of OsmAnd live.
 - {% data variables.android-values.update_now %} - update now chosen map.
-
-
-## Purchases (iOS)
-
-Link to [Purchases iOS](/osmand/purchases/ios)
-
-![Maps menu Purchases iOS](/assets/images/personal/maps/maps_menu_purchases_ios.png)
-
-Plugins Part - bought plugins.
-
-Maps Part- bought maps.
-
-Button - Restore all purchases
