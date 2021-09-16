@@ -168,11 +168,13 @@ In {% data variables.android-values.rendering_category_details %} menu you can s
 
 ### Routes
 
-Sometimes when we use the application during your trip, you don't use navigation and you want to see special paths and symbols on the map. In OsmAnd we can highlight routes and hiking symbol overlay for your activities. It will very useful for your cycling, hiking, etc. In the table we show all parameters:
+In OsmAnd you can highlight official routes (present on OpenSteetMap) and hiking symbol overlay for your activities. It is very useful for your cycling, hiking, etc. You can select multiple routes at ones though they will be displayed as layers and if the road has multiple routes over it only top color will be visible. If you have some specific rendering styles enabled, you could have bigger routes variety i.e. for **_Snowmobile style_** you could select **_Snowmobile routes_**.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_category_routes %} 
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.rendering_category_routes %}
+
+![Configure Map Routes section](/assets/images/map/configure_map_routes_android.png) 
 
 |Parameter and Description|   
 |------------|
