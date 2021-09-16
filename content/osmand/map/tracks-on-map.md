@@ -119,7 +119,7 @@ This option allows you to interactively review track information using graphs an
 
 - **Graph data**: Altitude / Slope / Speed (if data is available in the track).
 - **Graph dimension**: Distance / Time.
-- **Slide interaction**: tap to Graph for showing info about track point and moving along Graph shows info about points of the track.
+- **Tap/Slide**: tap to Graph for showing info about track point and moving along Graph highlights point location on the map and displays info about point on the bar.
 - **Scale**: scale Graph by [two fingers gesture](/osmand/map/interact-with-map#gestures). 
 - **Follow My location**: click button [My Location](/osmand/map/interact-with-map#my-location--zoom), so map view and graph is synchronized with your location. In that case **graph scale** will stay constant and **bar information** will be fixed to 1/4 from the left. As you move, **graph will slide** from left to right displaying information Ahead of your Track. This functionality is useful for hiking & cycling during navigation, though this screen doesn't have other widgets displayed.
 
@@ -134,16 +134,15 @@ This option allows you to interactively review track information using graphs an
 ![Track menu analyze on map 5 Android](/assets/images/personal/tracks/track_analyze_on_map_5_android.png)
 -->
 
-
 ## Navigation Route
 
-Navigation route is a line between user-defined points. In OsmAnd, the user builds a route taking into account the navigation parameters.
+Navigation route is a solid line prepared by [Route Preparation process](/osmand/navigation/route-navigation). It is displayed during Navigation or during Route preparation step.
 
  ![Route on the map Android](/assets/images/map/route_layer_android.png) ![Route on the map iOS](/assets/images/map/route_layer_ios.png)
 
 ### Route Appearance (Android)
 
-You can customize the route line's appearance for any navigation profile. It is available to select the color and width of the line.
+You can customize the route line's appearance for any navigation profile differently. It is possible to select **_Color_** and **_Width_** for the line, **separately** for **_Day_** and **_Night_** [mode](/osmand/map/vector-maps#map-mode).
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %} → {% data variables.android-values.customize_route_line %}
 
@@ -153,13 +152,18 @@ You can customize the route line's appearance for any navigation profile. It is 
 
 {% data reusables.general.android-ios-switcher %}
 
-One kind of route is node-based cycling, hiking or other routes from the OpenStreetMap. You can enable them in OsmAnd as an additional layer. 
+OsmAnd can highlight [routes present on OpenStreetMap](https://wiki.openstreetmap.org/wiki/Relation:route). They are not selectable but with the right configuration of visible set of routes, it's possible to follow the route by color & shields, you can create a Track on top of the routes using [Plan Route](/osmand/plan-route/create-route) functionality.
+
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.rendering_category_routes %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_routes %}
 
+**Read more** about Map Routes [Vector map style](/osmand/map/vector-maps#routes).
+
 {% default %}
+
+![Configure Map Routes section](/assets/images/map/configure_map_routes_android.png) 
 
 {% enddefault %}
 
@@ -178,7 +182,6 @@ One kind of route is node-based cycling, hiking or other routes from the OpenStr
 
 ![Map routes - hiking osmc](/assets/images/map/map-routes-hiking-osmc.png)![Map routes - cycle-node-networks](/assets/images/map/map-routes-cycle-node-networks.png)
 
-Read more about Travel routes for [Vector map style](/osmand/map/vector-maps#routes).
 
 ## Read more
 
