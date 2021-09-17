@@ -27,14 +27,15 @@ Follow track menu:
 - Track name and track info - clicking to it opens the track in "Plan route" tool.
 - {% data variables.android-values.select_another_track %} -
 - {% data variables.android-values.gpx_option_reverse_route %} -
-- {% data variables.android-values.pass_whole_track_descr %} - {% data variables.android-values.start_of_the_track %} or {% data variables.android-values.nearest_point %}.
-- {% data variables.android-values.nav_type_hint %} - {% data variables.android-values.routing_profile_straightline %} or chosen navigation profile.
+- {% data variables.android-values.pass_whole_track_descr %} - {% data variables.android-values.start_of_the_track %} or {% data variables.android-values.nearest_point %} of the track.
+- {% data variables.android-values.nav_type_hint %} - {% data variables.android-values.routing_profile_straightline %} or chosen [navigation profile](/osmand/personal/profiles#navigation-settings).
 
 
 ### Navigation options
 
 
+
 ## Plan route tool
 
-Link to Navigation profiles
+Read about ["Plan route" tool](/osmand/plan-route/create-route).
 

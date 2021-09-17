@@ -47,6 +47,9 @@ When the navigation is running, you can press the home button. You will get the 
 ### Navigation options
 
 - {% data variables.android-values.shared_string_sound %} - allows to switch on/off navigation prompts and to open [Voice prompts]() menu.
+- {% data variables.android-values.routing_attr_driving_style_name %} (bicycle..) - allows to choose driving style for bicycle navigation type: {% data variables.android-values.routing_attr_prefer_unpaved_name %}, {% data variables.android-values.routing_attr_driving_style_safety_name %}, {% data variables.android-values.routing_attr_driving_style_balance_name %}, {% data variables.android-values.routing_attr_driving_style_speed_name %}.
+- {% data variables.android-values.routing_attr_height_obstacles_name %} (bicycle..) - allows to avoid strong uphills: {% data variables.android-values.routing_attr_relief_smoothness_factor_more_plains_name %}, {% data variables.android-values.routing_attr_relief_smoothness_factor_plains_name %}, {% data variables.android-values.routing_attr_relief_smoothness_factor_more_plains_name %}.
+- {% data variables.android-values.routing_attr_allow_motorway_name %} (bicycle..) - 
 - {% data variables.android-values.impassable_road %} - allows to select a road you want to avoid during navigation, either on the map.
 - {% data variables.android-values.show_along_the_route %} - allows to shows [POI, My Favourites](/osmand/widgets/nav-widgets#approach-poisfavorites), [Traffic warnings](/osmand/widgets/nav-widgets#alert-widget) along the route.
 - {% data variables.android-values.follow_track %} - allows to choose a track for [navigation by it](/osmand/navigation/gpx-navigation).
