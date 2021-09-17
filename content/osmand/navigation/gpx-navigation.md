@@ -33,7 +33,7 @@ Follow track menu:
 
 ### Navigation options
 
-
+[link](/osmand/navigation/route-navigation#navigation-options)
 
 ## Plan route tool
 
