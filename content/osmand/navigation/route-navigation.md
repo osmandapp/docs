@@ -77,9 +77,21 @@ List of shown track on the map. Clicking by one of it opens [Follow track](/osma
 
 Tracks list.
 
+## Navigation route
+
+![Navigation route Android](/assets/images/navigation/route/navigation_route_android.png) ![Navigation route iOS](/assets/images/navigation/route/navigation_route_ios.png)
+
+### Details
+
+![Navigation route Android](/assets/images/navigation/route/navigation_route_details_android.png) ![Navigation route iOS](/assets/images/navigation/route/navigation_route_details_ios.png)
+
+![Navigation route Android](/assets/images/navigation/route/navigation_route_details_1_android.png) ![Navigation route iOS](/assets/images/navigation/route/navigation_route_details_1_ios.png)
+
+![Navigation route Android](/assets/images/navigation/route/navigation_route_details_2_android.png) ![Navigation route iOS](/assets/images/navigation/route/navigation_route_details_2_ios.png)
+
 ## Type of navigation
 
-Link to Navigation profiles
+Link to [Navigation profiles](/osmand/personal/profiles)
 
 ## Custom routing
 
