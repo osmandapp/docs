@@ -100,7 +100,7 @@ Local maps represents all downloaded maps on device grouped by [Types](#map-type
 
 {% default %}
 
-![Maps menu Local vector Android](/assets/images/personal/maps/maps_menu_local_vector_android.png) 
+![Maps menu Local vector Android](/assets/images/personal/maps/maps_menu_local_vector_android.png) ![Maps menu Local vector iOS](/assets/images/personal/maps/maps_menu_local_vector_ios.png)
 
 {% enddefault %}
 
@@ -153,7 +153,7 @@ Local action available for the map: **{% data variables.android-values.local_ind
 
 {% default %}
 
-![Maps menu Update maps Android](/assets/images/personal/maps/maps_menu_update_android.png) 
+![Maps menu Update maps Android](/assets/images/personal/maps/maps_menu_update_android.png)  ![Maps menu Update maps iOS](/assets/images/personal/maps/maps_menu_update_ios.png)
 
 {% enddefault %}
 
