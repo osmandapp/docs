@@ -200,12 +200,12 @@ Each map has independent collection of tiny map updates, in case you want to rev
 {% endios %}
 
 **Understanding timestamps**.
-- ```Latest OpenStreetMap update available``` XX-XX-XXXX XX:XX - displays latest OpenStreetMap changes information processed on OsmAnd Servers and available to be downloaded.
-- ```Andorra Updated```: Today XX:XX - last time the map was downloaded from OsmAnd servers. It's always earlier than ```Latest OpenStreetMap update available``` and represents specific timestamp for  ```Andorra``` region when the local version was modified. If ```Updated timestamp``` is not changed after ```{% data variables.android-values.update_now %}``` then it is the last time ```Andorra``` region was modified before ```Latest processed OSM Date```.
-- ```Andorra Last time checked```: Today XX:XX - last time the update was checked on local device. It's always ahead of updated timestamps and represents successful and unsuccessful to download maps.
+- ```Latest OpenStreetMap update available``` XX-XX-XXXX XX:XX - represents the latest timestamp of OpenStreetMap changes processed on OsmAnd Servers and available to be downloaded.
+- ```Andorra Updated```: Today XX:XX - represents the timestamp of the latest changes inside the local. It's always earlier than ```Latest OpenStreetMap update available``` (but not always equal) and represents specific timestamp for  ```Andorra``` region. If ```Updated timestamp``` is not changed after ```{% data variables.android-values.update_now %}``` then it is the latest timestamp when ```Andorra``` region was modified and processed on OsmAnd servers.
+- ```Andorra Last time checked```: Today XX:XX - represents the latest timestamp that local device checked if new updates are available. It's always ahead of updated timestamps and displays both successful and unsuccessful attempts to download maps.
 
 
 **OsmAnd Live restrictions**.
-- Offline address changes on the map & in the search are not supported yet. Address information could be updated with regular monthly updates.
+- Address changes on the map & in the search are not supported yet. Address information could be updated with regular monthly updates.
 - Updated roads don't have altitude information thus the slope graphics could be affected.
-- Modified and deleted route relations are not handled correctly which could lead to no longer existing public transport lanes and hiking routes.
+- Modified and deleted route relations are not handled correctly which could lead to display of no longer existing public transport lanes and hiking routes.
