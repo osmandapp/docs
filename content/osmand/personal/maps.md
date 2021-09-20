@@ -116,19 +116,17 @@ Local maps represents all downloaded maps on device grouped by [Types](#map-type
 
 {% endios %}
 
-**Global / Bulk Actions**:
+**Multifile Actions**.
 - &#10227; button - scans & refreshes list of available maps on storage.
 - Delete button  - Multiselection to delete maps.
 - &#8285; - {% data variables.android-values.local_index_mi_backup %} or {% data variables.android-values.local_index_mi_restore %} - multiselection to deactivate and activate [maps](#deactivate-maps-android).
 
-Each map displays its name, size, creation date  within a certain category and highligted by a color.
-**Map colors**:
+Each map displays its name, size, creation date  within a certain category and highligted by a **color**.
 - Green - map is up to date.
 - Orange - there is an update available for the map.
 - Grey / Italic - map is deactivated 
 
-For each map specific actions are available by clicking 3 dots or long tap on the row.
-**Map actions**:
+For each **map specific actions** are available by clicking 3 dots or long tap on the row.
 - Rename - changes name of the file and map
 - Update - updates map to the latest available version
 - Delete - deletes map
@@ -146,6 +144,8 @@ Local action available for the map: **{% data variables.android-values.local_ind
 ## Update maps
 
 {% data reusables.general.android-ios-switcher %}
+
+Every month you will be able to update OsmAnd Maps on Updates screen. Here it's possible to update all maps with one click. Standard and road-only maps are avalaible every month typically with 2 weeks delay. In case you would like to get access to Hourly updates, please check [OsmAnd Live](#osmand-live).
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_updates %}
 
@@ -169,23 +169,15 @@ Local action available for the map: **{% data variables.android-values.local_ind
 
  {% endios %}
 
-Click refresh &#10227; button for update info.
-
-Info: name of map, size of map, date of creation map (Android).
-
-Actions:
-- {% data variables.ios-values.res_update_all %} button - update all maps.
-- 'Update' button - update chosen map.
-
 ## OsmAnd Live
 
-OsmAnd live data - hourly update maps ([paid OsmAnd feature](/osmand/purchases)).
+OsmAnd Live is a special available ([by subscription](/osmand/purchases)) feature that provides additional small map updates on top of the large month maps. It is roughly estimated that map update for 1 month is < 2-4% than complete offline map. These updates are generated every 15 minutes and could be downloaded hourly / daily or weekly. On Android they could be downloaded in background though it doesn't work correctly on all devices, the app restart checks if there are pending updates and downloads them. 
+
+Each map has independent collection of tiny map updates, in case you want to revert to initial state you can switch off updates and 'Clear cache'.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_updates %} → {% data variables.android-values.live_updates %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.osmand_live_title %}
-
-**Menu of Live Update**
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -207,21 +199,13 @@ OsmAnd live data - hourly update maps ([paid OsmAnd feature](/osmand/purchases))
 
 {% endios %}
 
-Button of Enabled or not Live Updates
+**Understanding timestamps**.
+- ```Latest OpenStreetMap update available``` XX-XX-XXXX XX:XX - displays latest OpenStreetMap changes information processed on OsmAnd Servers and available to be downloaded.
+- ```Andorra Updated```: Today XX:XX - last time the map was downloaded from OsmAnd servers. It's always earlier than ```Latest OpenStreetMap update available``` and represents specific timestamp for  ```Andorra``` region when the local version was modified. If ```Updated timestamp``` is not changed after ```{% data variables.android-values.update_now %}``` then it is the last time ```Andorra``` region was modified before ```Latest processed OSM Date```.
+- ```Andorra Last time checked```: Today XX:XX - last time the update was checked on local device. It's always ahead of updated timestamps and represents successful and unsuccessful to download maps.
 
-Click to:
-- Blue switcher (Android) - adding chosen map for live update.
-- &#8230; (Android) - Parameters menu for Live update.
-- '&#43;' (iOS) - adding chosen map for live update.
-- &#8250; (iOS) - Parameters menu for Live update.
 
-**Parameters for Live Update**
-
-Info: name of map, last updated (Android), last time checked (Android).
-
-Actions:
-- Enabled or not
-- {% data variables.android-values.update_frequency %} - Hourly, Daily, Weekly.
-- {% data variables.android-values.only_download_over_wifi %} - updating only with wi-fi connection.
-- {% data variables.android-values.updates_size %} - info about downloaded map cache. Delete (Android) button downloading data of OsmAnd live.
-- {% data variables.android-values.update_now %} - update now chosen map.
+**OsmAnd Live restrictions**.
+- Offline address changes on the map & in the search are not supported yet. Address information could be updated with regular monthly updates.
+- Updated roads don't have altitude information thus the slope graphics could be affected.
+- Modified and deleted route relations are not handled correctly which could lead to no longer existing public transport lanes and hiking routes.
