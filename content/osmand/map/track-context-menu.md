@@ -18,7 +18,22 @@ In Overview user can find track data info and make some actions.
 
 You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map → {% data variables.android-values.shared_string_overview %} → click to "eye" button for not showing the track on the map.
 
-![Track menu overview Android](/assets/images/personal/tracks/track_menu_overview_android.png) ![Statistics screen track iOS](/assets/images/personal/tracks/statistics_track_ios.png)
+{% default %}
+
+{% enddefault %}
+
+{% android %}
+
+![Track menu overview Android](/assets/images/personal/tracks/track_menu_overview_android.png)
+{% endandroid %}
+
+{% ios %}
+
+ ![Statistics screen track iOS](/assets/images/personal/tracks/statistics_track_ios.png)
+
+{% endios %}
+
+
 
 ### iOS info panel
 
