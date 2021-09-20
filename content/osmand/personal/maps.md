@@ -171,9 +171,9 @@ Every month you will be able to update OsmAnd Maps on Updates screen. Here it's 
 
 ## OsmAnd Live
 
-OsmAnd Live is a special available ([by subscription](/osmand/purchases)) feature that provides additional small map updates on top of the large month maps. It is roughly estimated that map update for 1 month is < 2-4% than complete offline map. These updates are generated every 15 minutes and could be downloaded hourly / daily or weekly. On Android they could be downloaded in background though it doesn't work correctly on all devices, the app restart checks if there are pending updates and downloads them. 
+OsmAnd Live is a special ([available by subscription](/osmand/purchases)) feature that provides additional small map updates on top of the large complete monthly maps. It is roughly estimated that map updates for 1 month takes only 2-4% of complete map size. These updates are generated approximately every 15 minutes on OsmAnd Servers and could be downloaded hourly / daily or weekly. On Android they could be downloaded in the background though it doesn't work correctly on all devices. The app restart always checks if there are pending updates and downloads them. 
 
-Each map has independent collection of tiny map updates, in case you want to revert to initial state you can switch off updates and 'Clear cache'.
+Each map has independent collection  of tiny map updates, please be aware if you have overlapping map regions. In case you want to revert to initial state you can switch off updates and 'Clear cache'.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_tab_updates %} → {% data variables.android-values.live_updates %}
 
