@@ -34,9 +34,8 @@ User need to choose start-finish points on a river, for example.
 
 buttons:
 - &#128438; (Android) - allows to save and print your route like data table.
-- {% data variables.android-values.save_as_new_track %} (Android)
-- {% data variables.ios-values.shared_string_export %} or 
-- {% data variables.ios-values.shared_string_export %}
+- {% data variables.android-values.save_as_new_track %} (Android) - allows...
+- {% data variables.ios-values.shared_string_export %} or share - allows...
 
 Graph with altitude info.
 
@@ -53,6 +52,10 @@ Button [Analyse on map](/osmand/navigation/route-navigation#details)
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.routing_settings %} → {% data variables.ios-values.shared_string_options %}
 
+![Boat Navigation screen options Android](/assets/images/navigation/boat/boat_navigation_options_android.png) ![Boat Navigation screen options iOS](/assets/images/navigation/boat/boat_navigation_options_ios.png)
+
+- Allow streams (iOS?)
+- Allow intermittent (iOS?)
 
 ## Navigation types
 
