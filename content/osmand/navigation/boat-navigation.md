@@ -9,11 +9,54 @@ versions: '*'
 
 Boat mode for navigation can be enabled together with [the Nautical plugin](/osmand/plugins/nautical-charts). You can build your trip on rivers or waterway fairway. You can read more about navigation profiles [here](/osmand/personal/profiles).
 
-  ![Boat Navigation screen Android](/assets/images/navigation/boat/boat_navigation_android.png) ![Boat Navigation screen iOS](/assets/images/navigation/boat/boat_navigation_ios.png)
+![Boat Navigation screen Android](/assets/images/navigation/boat/boat_navigation_android.png) ![Boat Navigation screen iOS](/assets/images/navigation/boat/boat_navigation_ios.png)
   
 ## How to use
 
-## Navigation type
+Navigation type for Boat navigation is [Boat](/osmand/navigation/boat-navigation#boat) by default. This type uses rivers or waterway fairways for building your route. 
+For starting naviation user need to click [navigation button](/osmand/widgets/map-buttons#directions) on the screen or choose ["Navigation" in the main menu](/osmand/start-with/main-menu#features):
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_navigation %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.routing_settings %}
+
+User need to choose start-finish points on a river, for example. 
+
+![Boat Navigation screen points Android](/assets/images/navigation/boat/boat_navigation_points_android.png) ![Boat Navigation screen points iOS](/assets/images/navigation/boat/boat_navigation_points_ios.png)
+
+### Details
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_navigation %} → {% data variables.android-values.rendering_category_details %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.routing_settings %} → {% data variables.ios-values.res_details %}
+
+![Boat Navigation screen details Android](/assets/images/navigation/boat/boat_navigation_details_android.png) ![Boat Navigation screen details iOS](/assets/images/navigation/boat/boat_navigation_details_ios.png)
+
+buttons:
+- &#128438; (Android) - allows to save and print your route like data table.
+- {% data variables.android-values.save_as_new_track %} (Android)
+- {% data variables.ios-values.shared_string_export %} or 
+- {% data variables.ios-values.shared_string_export %}
+
+Graph with altitude info.
+
+Button [Analyse on map](/osmand/navigation/route-navigation#details)
+
+{% data variables.ios-values.routeInfo_steepness_name %} info.
+
+{% data variables.android-values.step_by_step %} instructions (Android)
+
+
+### Options
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_navigation %} → {% data variables.android-values.shared_string_options %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.routing_settings %} → {% data variables.ios-values.shared_string_options %}
+
+
+## Navigation types
+
+### Boat
 
 ### Direct-to-point
 
