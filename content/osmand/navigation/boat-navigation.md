@@ -7,9 +7,9 @@ versions: '*'
 {% data reusables.general.article-not-complete %}
 
 
-Boat mode for navigation can be enabled together with the Nautical plugin. You can build your trip on rivers or waterway fairway. You can read more about navigation profiles  [here](https://osmand.net/features/navigation-profiles).
+Boat mode for navigation can be enabled together with [the Nautical plugin](/osmand/plugins/nautical-charts). You can build your trip on rivers or waterway fairway. You can read more about navigation profiles [here](/osmand/personal/profiles).
 
-  ![Nautical maps on Android](/assets/images/plugins/nautical-charts/np_and_4.jpg)
+  ![Boat Navigation screen Android](/assets/images/navigation/boat/boat_navigation_android.png) ![Boat Navigation screen iOS](/assets/images/navigation/boat/boat_navigation_ios.png)
   
 ## How to use
 
