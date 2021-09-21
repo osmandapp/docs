@@ -15,7 +15,7 @@ To start the navigation, you need to use [the navigation button](/osmand/widgets
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_navigation %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.get_directions %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.routing_settings %}
 
 
 Next, you'll need to set the starting point and the destination. As for the starting point, you can choose your current location, [Favorite location](/osmand/map/point-layers-on-map#favorites), select a point on the map or use [an address](/osmand/search). You can also set a starting point by long tapping on the map and choosing ['Directions from'](/osmand/map/map-context-menu#directions-to--from) in [Map Context menu](/osmand/map/map-context-menu). To navigate to a point, just press the navigation button in its context menu.
