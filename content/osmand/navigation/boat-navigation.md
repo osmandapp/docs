@@ -71,32 +71,52 @@ In OsmAnd users can choose boat navigation types. It's a need for different use 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %}({% data variables.android-values.app_mode_boat %}) → {% data variables.android-values.routing_settings_2 %} → {% data variables.android-values.nav_type_hint %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.application_profiles %} ({% data variables.ios-values.app_mode_boat %}) → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.nav_type_title %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} ({% data variables.ios-values.app_mode_boat %}) → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.nav_type_title %}
 
 ### Boat
 
+Boat navigation type (by default for Boat app profiles) uses rivers, waterway fairway for routing. 
+User can calculate distance for koyak trip, for example.
+
+![Boat Navigation type Android](/assets/images/navigation/boat/boat_navigation_type_android.png) ![Boat Navigation type iOS](/assets/images/navigation/boat/boat_navigation_type_ios.png)
 
 
 ### Direct-to-point
 
-Next version of navigation for boat:  **Direct-to-point**. Direct-to-point navigation is a critical and frequently used feature for marine users.
+Next version of navigation type for boat:  **Direct-to-point**. Direct-to-point navigation is a critical and frequently used feature for marine users.
 
-How to make your navigation profile with your parameters read  [here](https://osmand.net/features/navigation-profiles#create).
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %}({% data variables.android-values.app_mode_boat %}) → {% data variables.android-values.routing_settings_2 %} → {% data variables.android-values.nav_type_hint %} → {% data variables.android-values.routing_profile_direct_to %}
 
-It is possible to specify the recalculation distance (by default it is OFF for this routing profile):  _Configure profile-> Navigation settings-> Route parameters-> Minimal distance to recalculate the route_.
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} ({% data variables.ios-values.app_mode_boat %}) → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.nav_type_title %} → {% data variables.ios-values.nav_type_direct_to %}
+
+How to make your navigation profile with your parameters read [here]](/osmand/personal/profiles).
+
+It is possible to specify the recalculation distance (by default it is OFF for this routing profile). The route will be recalculated if the distance from the route to the current location is more than selected value.
+Next, in case if you deviate from the route during the navigation, this setting builds the shortest path from your current position to the calculated route with the maximum angle. In other words, if the angle is higher than the one set by the user, OsmAnd calculates the next point of the route to build an additional route segment, so the angle will be valid.
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %}({% data variables.android-values.app_mode_boat %}) → {% data variables.android-values.routing_settings_2 %} → {% data variables.android-values.route_parameters %} → {% data variables.android-values.route_recalculation_dist_title %} and {% data variables.android-values.recalc_angle_dialog_title %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} ({% data variables.ios-values.app_mode_boat %}) → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.route_parameters %} → {% data variables.ios-values.recalculate_route %} and {% data variables.android-values.recalc_angle_dialog_title %}
 
 Also, you can see a point projection that represents the distance to the end point on the line. The point on the line is a virtual point to show the distance (it is not a projection on the line) but a point that has the same distance as current location to the finish point. So it is easy to measure the progress and it is possible to use measurements tool to get correct distance.
 
-  ![Nautical maps on Android](/assets/images/plugins/nautical-charts/np_and_5.jpg)
+![Direct-to-point Navigation type Android](/assets/images/navigation/boat/direct_navigation_type_android.png)
 
-### Straight-Line
+### Straight line
 
-The next navigation type:  **Straight-Line**.
+The next navigation type:  **Straight line**.
 
-There is also a new setting to specify at which distance of user's location from route to start recalculation:  _Configure profile-> Navigation settings-> Route parameters-> Minimal distance to recalculate the route_.
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %}({% data variables.android-values.app_mode_boat %}) → {% data variables.android-values.routing_settings_2 %} → {% data variables.android-values.nav_type_hint %} → {% data variables.android-values.routing_profile_straightline %}
 
-We have also implemented a new setting. In case if you deviate from the route during the navigation, this setting builds the shortest path from your current position to the calculated route with the maximum angle. In other words, if the angle is higher than the one set by the user, OsmAnd calculates the next point of the route to build an additional route segment, so the angle will be valid.
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} ({% data variables.ios-values.app_mode_boat %}) → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.nav_type_title %} → {% data variables.ios-values.nav_type_straight_line %}
 
-  ![Nautical maps on Android](/assets/images/plugins/nautical-charts/np_and_6.jpg)
+There is also a new setting to specify at which distance of user's location from route to start recalculation.
+The route will be recalculated if the distance from the route to the current location is more than selected value:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %}({% data variables.android-values.app_mode_boat %}) → {% data variables.android-values.routing_settings_2 %} → {% data variables.android-values.route_parameters %} → {% data variables.android-values.route_recalculation_dist_title %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} ({% data variables.ios-values.app_mode_boat %}) → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.route_parameters %} → {% data variables.ios-values.recalculate_route %}
+
+![Streaight-line Navigation type Android](/assets/images/navigation/boat/straight_navigation_type_android.png)
 
 Professional sailors are required to have official maps, as well, but this extension can be of great help to you in a small voyage or be a supplement to the official nautical charts.
