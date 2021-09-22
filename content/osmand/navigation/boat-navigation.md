@@ -89,7 +89,7 @@ Next version of navigation type for boat:  **Direct-to-point**. Direct-to-point 
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} ({% data variables.ios-values.app_mode_boat %}) → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.nav_type_title %} → {% data variables.ios-values.nav_type_direct_to %}
 
-How to make your navigation profile with your parameters read [here]](/osmand/personal/profiles).
+How to make your navigation profile with your parameters read [here](/osmand/personal/profiles).
 
 It is possible to specify the recalculation distance (by default it is OFF for this routing profile). The route will be recalculated if the distance from the route to the current location is more than selected value.
 Next, in case if you deviate from the route during the navigation, this setting builds the shortest path from your current position to the calculated route with the maximum angle. In other words, if the angle is higher than the one set by the user, OsmAnd calculates the next point of the route to build an additional route segment, so the angle will be valid.
