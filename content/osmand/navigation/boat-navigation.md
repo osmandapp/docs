@@ -69,9 +69,9 @@ Button [Analyse on map](/osmand/navigation/route-navigation#details)
 In OsmAnd users can choose boat navigation types. It's a need for different use cases. 
 [Boat navigation type](/osmand/navigation/boat-navigation#boat) is by default for Boat profile. Advanced users can choose additional two navigation types for boat navigation: [Direct-to-point](/navigation/boat-navigation#direct-to-point) and [Straight-line](/osmand/navigation/boat-navigation#straight-line).
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_navigation %} → {% data variables.android-values.shared_string_options %}
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %}({% data variables.android-values.app_mode_boat %}) → {% data variables.android-values.routing_settings_2 %} → {% data variables.android-values.nav_type_hint %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.routing_settings %} → {% data variables.ios-values.shared_string_options %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.application_profiles %} ({% data variables.ios-values.app_mode_boat %}) → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.nav_type_title %}
 
 ### Boat
 
