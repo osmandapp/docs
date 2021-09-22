@@ -54,8 +54,15 @@ Button [Analyse on map](/osmand/navigation/route-navigation#details)
 
 ![Boat Navigation screen options Android](/assets/images/navigation/boat/boat_navigation_options_android.png) ![Boat Navigation screen options iOS](/assets/images/navigation/boat/boat_navigation_options_ios.png)
 
-- Allow streams (iOS?)
-- Allow intermittent (iOS?)
+- {% data variables.android-values.shared_string_sound %} - allows to switch off/on voice prompts and to open [voice prompts settings menu](/osmand/personal/profiles#navigation-settings).
+- {% data variables.android-values.impassable_road %} - allows to select a road you want to avoid during navigation.
+- {% data variables.android-values.show_along_the_route %} (Android) - link
+- {% data variables.android-values.follow_track %} - link
+- {% data variables.android-values.temporary_conditional_routing %} - link
+- {% data variables.android-values.routing_settings_2 %} - opens [Navigation settings menu](/osmand/personal/profiles#navigation-settings) of your app profile.
+- {% data variables.android-values.customize_route_line %} (Android) - [link](/osmand/map/tracks-on-map#route-appearance-android).
+- {% data variables.android-values.simulate_navigation %} - allows to simulate your navigation trip.
+
 
 ## Navigation types
 
