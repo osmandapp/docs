@@ -23,20 +23,27 @@ User can receive voice prompts during navigation. To enable voice prompts for ap
 - {% data variables.android-values.speak_speed_limit %} - allows to announce when exceeded {% data variables.android-values.speed_limit_exceed %}. Choose speed limit tolerance margin, above which you will receive a voice warning.
 
 - {% data variables.android-values.shared_string_options %}: 
-{% data variables.android-values.keep_informing %} - allows to re-announce navigation instructions at regular intervals or Only manually [(tap arrow)](/osmand/widgets/nav-widgets#next-turns).
-{% data variables.android-values.announcement_time_title %} - the anтouncement timing of different voice prompts depends on prompt type, current navigation speed, and default navigation speed.
 
-![Voice Navigation anтouncement timing Android](/assets/images/navigation/voice/voice_navigation_announcement_android.png)
+{% data variables.android-values.keep_informing %} - allows to re-announce navigation instructions at regular intervals or Only manually [(tap arrow)](/osmand/widgets/nav-widgets#next-turns).
+
+{% data variables.android-values.announcement_time_title %} - the announcement timing of different voice prompts depends on prompt type, current navigation speed, and default navigation speed.
+
+![Voice Navigation announcement timing Android](/assets/images/navigation/voice/voice_navigation_announcement_android.png)
 
 - {% data variables.android-values.output %} (Android):
+
 {% data variables.android-values.choose_audio_stream %} - allows to select loudspeaker for voice guidance: {% data variables.android-values.voice_stream_music %}, {% data variables.android-values.voice_stream_notification %}, {% data variables.android-values.voice_stream_voice_call %}.
+
 {% data variables.android-values.interrupt_music %} - voice prompts pause music playback.
 
-### Download voice prompts
+### Download voice prompts (Android)
 
-To set the language for voice prompts, go to the main menu-> then select the Navigation profile you want to configure "Configure profile"-> "Navigation Settings"-> "Voice prompts"-> "Voice guidance" and select your language. You can also get to the "Navigation Settings" menu for each Navigation profile through Main menu-> Settings-> App profiles-> choose profile. Note that you can't get to Navigation settings when you chose Browse map profile.
+For OsmAnd (Android version) you can download voice prompts files:
 
-## 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.other_location %} → {% data variables.android-values.index_name_tts_voice %} or {% data variables.android-values.index_name_voice %}
+
+
+## TTS and recorded
 
 If you select a TTS voice, you need to have a respective text-to-speech engine in your Android operating system. These are partly included in Android or can be installed separately. Please go to your Android (device) settings, find Language and keyboard / Text-to-speech output or similar. Select or install an engine, then also install the language support for the language you need, this may be an extra setting or small download.
 
