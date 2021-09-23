@@ -9,7 +9,14 @@ Receiving voice prompts during navigation: turn-by-turn insctructions, allerts, 
 
 ## How to use
 
-You can receive voice prompts during navigation. To receive them in your language, select a profile with the ability to navigate in the main menu, click "Configure profile", then go to "Navigation settings" - "Voice prompts" - "Voice guidance" and select your preferred language or click "Install more" to set your preferred. If you want your music to pause when scoring a route, in the same menu (Language and Output), turn on the “Pause music” option.
+User can receive voice prompts during navigation. To receive them in your language, you 
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %}({% data variables.android-values.app_mode_boat %}) → {% data variables.android-values.routing_settings_2 %} → {% data variables.android-values.route_parameters %} → {% data variables.android-values.route_recalculation_dist_title %} and {% data variables.android-values.recalc_angle_dialog_title %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} ({% data variables.ios-values.app_mode_boat %}) → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.routing_settings_2 %} → {% data variables.ios-values.route_parameters %} → {% data variables.ios-values.recalculate_route %} and {% data variables.android-values.recalc_angle_dialog_title %}
+
+ If you want your music to pause when scoring a route, in the same menu (Language and Output), turn on the “Pause music” option.
+
 
 There are many settings for voice prompts on this screen. You can choose any variant for you.
 
