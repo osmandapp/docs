@@ -9,7 +9,7 @@ Receiving voice prompts during navigation: turn-by-turn insctructions, allerts, 
 
 ## Settings of voice prompts
 
-User can receive voice prompts during navigation. To enable voice prompts for app profiles:
+User can receive voice prompts during navigation. To enable voice prompts for app profiles, turn on or turn off voice prompts (You can also turn on or turn off voice prompts on [the icon of sound on the navigation screen](/osmand/navigation/route-navigation#navigation-options)):
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %} → {% data variables.android-values.voice_announces %}
 
@@ -17,13 +17,20 @@ User can receive voice prompts during navigation. To enable voice prompts for ap
 
 ![Voice Navigation settings Android](/assets/images/navigation/voice/voice_navigation_android.png) ![Voice Navigation settings iOS](/assets/images/navigation/voice/voice_navigation_ios.png)
 
+- {% data variables.android-values.shared_string_on %}/{% data variables.android-values.shared_string_off %} - allows to configure to announce street names, traffic warnings, speed camera warnings, speed limits.
+- {% data variables.android-values.shared_string_language %} - select preferred language and type of voice (for Android: TTS or recorded).
+- {% data variables.android-values.accessibility_announce %} - allows to sound next types: {% data variables.android-values.speak_street_names %}, {% data variables.android-values.exit_number %}, {% data variables.android-values.way_alarms %}, {% data variables.android-values.speak_pedestrian %}, {% data variables.android-values.speak_cameras %}({% data variables.android-values.speed_cameras_alert %}), {% data variables.android-values.show_tunnels %}, {% data variables.android-values.shared_string_gpx_waypoints %}, {% data variables.android-values.speak_favorites %},  {% data variables.android-values.speak_favorites %}, {% data variables.android-values.speak_favorites %}. You can enable [Alert widget](/osmand/widgets/nav-widgets#alert-widget) for this categories.
+- {% data variables.android-values.speak_speed_limit %} - allows to announce when exceeded {% data variables.android-values.speed_limit_exceed %}. Choose speed limit tolerance margin, above which you will receive a voice warning.
 
- If you want your music to pause when scoring a route, in the same menu (Language and Output), turn on the “Pause music” option.
+- {% data variables.android-values.shared_string_options %}: 
+{% data variables.android-values.keep_informing %} - allows to re-announce navigation instructions at regular intervals or Only manually [(tap arrow)](/osmand/widgets/nav-widgets#next-turns).
+{% data variables.android-values.announcement_time_title %} - the anтouncement timing of different voice prompts depends on prompt type, current navigation speed, and default navigation speed.
 
+![Voice Navigation anтouncement timing Android](/assets/images/navigation/voice/voice_navigation_announcement_android.png)
 
-There are many settings for voice prompts on this screen. You can choose any variant for you.
-
-You can turn off voice prompts if you don’t need them right now. To turn off voice prompts, go to the main menu "Configure profile"-> "Navigation settings"-> "Voice prompts". You can also turn on or turn off voice prompts on the icon of sound on the navigation screen.
+- {% data variables.android-values.output %} (Android):
+{% data variables.android-values.choose_audio_stream %} - allows to select loudspeaker for voice guidance: {% data variables.android-values.voice_stream_music %}, {% data variables.android-values.voice_stream_notification %}, {% data variables.android-values.voice_stream_voice_call %}.
+{% data variables.android-values.interrupt_music %} - voice prompts pause music playback.
 
 ### Download voice prompts
 
