@@ -77,6 +77,7 @@ If rotate map by bearing is enabled, then the map will be oriented, so that head
 ## Settings
 
 ### Disable all animations (Android)
+
 You can disable all map animations during map change (gestures and buttons) in Settings {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings%} → {% data variables.android-values.shared_string_profiles %} → {% data variables.android-values.general_settings_2 %} → 
 {% data variables.android-values.do_not_use_animations %}.
 
@@ -89,3 +90,19 @@ You can disable all map animations during map change (gestures and buttons) in S
 - ** Use Magnetic sensor** - smoothen rotation of the map with a slower rotation animation though it introduces a small delay (< 1 second) till:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings%} → {% data variables.android-values.shared_string_profiles %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.shared_string_other %} → {% data variables.android-values.use_magnetic_sensor %}
+
+## External input device buttons (Android)
+
+Select an external control device, such as a keyboard or WunderLINQ.
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.external_input_device %}
+
+| Map Action | Keyboard key |
+|:------------|:---------------|
+|**Move up**| "W","&#8593;"  |
+|**Move down**| "S","&#8595;"  |
+|**Move left**| "W","&#8592;"  |
+|**Move right**| "W","&#8594;"  |
+|**Zoom in**| "&#43;" |
+|**Zoom out**| "&#8722;" |
+
