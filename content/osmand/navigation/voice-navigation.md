@@ -43,12 +43,23 @@ For OsmAnd (Android version) you can download voice prompts files:
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.other_location %} → {% data variables.android-values.index_name_tts_voice %} or {% data variables.android-values.index_name_voice %}
 
 
-## TTS and recorded
+## TTS (text-to-speech)
 
-If you select a TTS voice, you need to have a respective text-to-speech engine in your Android operating system. These are partly included in Android or can be installed separately. Please go to your Android (device) settings, find Language and keyboard / Text-to-speech output or similar. Select or install an engine, then also install the language support for the language you need, this may be an extra setting or small download.
+If you select a TTS voice, you need to have a respective [text-to-speech engine](https://en.wikipedia.org/wiki/Speech_synthesis) in your operating system. These are partly included in Android, iOS or can be installed separately. Please go to your [Android (device) settings](https://support.google.com/accessibility/android/answer/6006983), find Language and keyboard / Text-to-speech output or similar. Select or install an engine, then also install the language support for the language you need, this may be an extra setting or small download.
 
 Please test ('Listen to an example' or similar test button provided) if your Android TTS is working ok. Then you may also test if your OsmAnd voice prompts have been selected properly by going to Settings-> Plugins-> OsmAnd development-> Test voice prompts. (OsmAnd development plugin must be activated to see the setting). To disable voice prompts, please go to "Configure profile"-> "Navigation Settings"-> "Voice prompts"-> "Voice guidance" and select 'Do not use' option.
 
 ## How to use
 
+
+- Listen during navigation.
+- Click to arrows for listen voice prompts again.
+- Listen voice prompts with switch off device screen.
+- Background navigation - sound.
+
+
 ## Testing of voice prompts (Android)
+
+[OsmAnd development plugin](/osmand/plugins/development)
+
+[Testing your voice prompts](/osmand/plugins/development#plugin-settings)
