@@ -35,7 +35,7 @@ Settings and info
 - {% data variables.android-values.trace_rendering %} - {% data variables.android-values.trace_rendering_descr %} 
 - {% data variables.android-values.simulate_initial_startup %} - {% data variables.android-values.simulate_initial_startup_descr %}
 - {% data variables.android-values.show_free_version_banner %} - {% data variables.android-values.show_free_version_banner_description %} 
-- {% data variables.android-values.test_voice_prompts %} - {% data variables.android-values.play_commands_of_currently_selected_voice %} 
+- {% data variables.android-values.test_voice_prompts %} - [{% data variables.android-values.play_commands_of_currently_selected_voice %}](/osmand/navigation/voice-navigation#testing-of-voice-prompts-android) 
 - {% data variables.android-values.logcat_buffer %} - {% data variables.android-values.logcat_buffer_descr %}
 
 <span style="color:blue">Info</span>:
