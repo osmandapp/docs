@@ -99,10 +99,10 @@ Select an external control device, such as a keyboard or WunderLINQ.
 
 | Map Action | Keyboard key |
 |:------------|:---------------|
-|**Move up**| "W","&#8593;"  |
-|**Move down**| "S","&#8595;"  |
-|**Move left**| "W","&#8592;"  |
-|**Move right**| "W","&#8594;"  |
+|**Move up**| "W",  "&#8593;"  |
+|**Move down**| "S",  "&#8595;"  |
+|**Move left**| "W",  "&#8592;"  |
+|**Move right**| "W",  "&#8594;"  |
 |**Zoom in**| "&#43;" |
 |**Zoom out**| "&#8722;" |
 
