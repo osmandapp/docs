@@ -97,12 +97,23 @@ Select an external control device, such as a keyboard or WunderLINQ.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.external_input_device %}
 
-| Map Action | Keyboard key |
-|:------------|:---------------|
-|**Move up**| "W",  "&#8593;"  |
-|**Move down**| "S",  "&#8595;"  |
-|**Move left**| "W",  "&#8592;"  |
-|**Move right**| "W",  "&#8594;"  |
-|**Zoom in**| "&#43;" |
-|**Zoom out**| "&#8722;" |
+Note: the keyboard works with the setting disabled too.
 
+| Key | Device | Action |
+|:------------|:---------------|
+|**C**| Keyboard   |"[My location](/osmand/map/interact-with-map#my-location--zoom)" |
+|**D**| Keyboard   |"[Map orientation](/osmand/map/interact-with-map#map-orientation-modes)"  |
+|**&#8593; **| Keyboard   | Move up  |
+|**&#8595; **| Keyboard   | Move down  |
+|**&#8592; **| Keyboard   | Move left  |
+|**&#8594; **| Keyboard   | Move right  |
+|**&#43; **| Keyboard  | [Zoom in](/osmand/map/interact-with-map#my-location--zoom) |
+|**&#8722; **| Keyboard  |[Zoom out](/osmand/map/interact-with-map#my-location--zoom) |
+|**? **| Keyboard  |[Drawer](/osmand/start-with/main-menu#main-menu-drawer) |
+|**?  **| Keyboard  |DPAD Center? |
+|**?  **| Keyboard  |[AV notes](/osmand/plugins/audio-video-notes#add-note-on-the-map) |
+|**&#8592; **| Parrot  |[Zoom out](/osmand/map/interact-with-map#my-location--zoom) |
+|**&#8594; **| Parrot  |[Zoom in](/osmand/map/interact-with-map#my-location--zoom) |
+|**&#8595; **| Wanderlinq  |[Zoom out](/osmand/map/interact-with-map#my-location--zoom) |
+|**&#8593; **| Wanderlinq  |[Zoom in](/osmand/map/interact-with-map#my-location--zoom) |
+|**? **| Wanderlinq  |Open menu? |
