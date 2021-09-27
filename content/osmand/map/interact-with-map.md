@@ -100,7 +100,7 @@ Select an external control device, such as a keyboard or WunderLINQ.
 Note: the keyboard works with the setting disabled too.
 
 | Key | Device | Action |
-|:------------|:---------------|
+|:------------|:---------------|:---------------|
 |**C**| Keyboard   |"[My location](/osmand/map/interact-with-map#my-location--zoom)" |
 |**D**| Keyboard   |"[Map orientation](/osmand/map/interact-with-map#map-orientation-modes)"  |
 |**&#8593; **| Keyboard   | Move up  |
