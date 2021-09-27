@@ -9,7 +9,7 @@ Map markers are selected points marked as flags on the map. They provide useful 
 
 ## How to use
 
-Navigation to the marker is direct-point-navigation.
+Navigation to the marker is direct-point-navigation. This navigation is made special for quick destinations. For example, during any off-road competitions.
 
 At first user need to set [Map marker view](/osmand/personal/markers) and [Marker widget](/osmand/widgets/markers).
 
@@ -17,5 +17,8 @@ User need to find or tap to the object on the map, click to it and choose [Marke
 
 The flag on the object (Map marker) with line from your location to it (option).
 
+Arrow and line show object location and distance to it.
+
 ![Navigation marker Android](/assets/images/navigation/marker/navigation_marker_android.png) ![Navigation marker iOS](/assets/images/navigation/marker/navigation_marker_ios.png)
+
 
