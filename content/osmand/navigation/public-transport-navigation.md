@@ -9,12 +9,15 @@ Public Transport navigation allows our users to work out their routes using publ
 
 Data of Public route lines is from [OpenStreetMap project](http://openstreetmap.org/), OsmAnd uses [PTv2 scheme](https://wiki.openstreetmap.org/wiki/Public_transport) for Public transport navigation.
 
-## How to use
+![Navigation public transport Android](/assets/images/navigation/public/navigation_android.png) ![avigation public transport iOS](/assets/images/navigation/public/navigation_ios.png)
 
+## How to use
 
 You can navigate in your city by public transport with OsmAnd.
 
+- You need to choose Public transport navigation profile
 
+![Navigation public transport way Android](/assets/images/navigation/public/navigation_way_android.png) ![avigation public transport way iOS](/assets/images/navigation/public/navigation_way_ios.png)
 
 
 ## Data for public transport
