@@ -17,8 +17,12 @@ User need to find or tap to the object on the map, click to it and choose [Marke
 
 The flag on the object (Map marker) with line from your location to it (option).
 
-Arrow and line show object location and distance to it.
+Arrow, line and widget show object location and distance to it.
 
 ![Navigation marker Android](/assets/images/navigation/marker/navigation_marker_android.png) ![Navigation marker iOS](/assets/images/navigation/marker/navigation_marker_ios.png)
 
 
+## Read more
+
+- [About Map markers](/osmand/personal/markers).
+- [Marker widget](/osmand/widgets/markers).
