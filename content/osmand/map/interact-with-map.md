@@ -109,11 +109,10 @@ Note: the keyboard works with the setting disabled too.
 |**&#8594; **| Keyboard   | Move right  |
 |**&#43; **| Keyboard  | [Zoom in](/osmand/map/interact-with-map#my-location--zoom) |
 |**&#8722; **| Keyboard  |[Zoom out](/osmand/map/interact-with-map#my-location--zoom) |
-|**? **| Keyboard  |[Drawer](/osmand/start-with/main-menu#main-menu-drawer) |
-|**?  **| Keyboard  |DPAD Center? |
-|**?  **| Keyboard  |[AV notes](/osmand/plugins/audio-video-notes#add-note-on-the-map) |
+|**Menu** (legacy Android) | Keyboard  |[Drawer](/osmand/start-with/main-menu#main-menu-drawer) |
+|**Joystick click** (legacy Android) | Keyboard  | "[My location](/osmand/map/interact-with-map#my-location--zoom)" |
+|**Media button**| Keyboard  |[AV notes](/osmand/plugins/audio-video-notes#add-note-on-the-map) |
 |**&#8592; **| Parrot  |[Zoom out](/osmand/map/interact-with-map#my-location--zoom) |
 |**&#8594; **| Parrot  |[Zoom in](/osmand/map/interact-with-map#my-location--zoom) |
-|**&#8595; **| Wanderlinq  |[Zoom out](/osmand/map/interact-with-map#my-location--zoom) |
-|**&#8593; **| Wanderlinq  |[Zoom in](/osmand/map/interact-with-map#my-location--zoom) |
-|**? **| Wanderlinq  |Open menu? |
+|**&#8595; **| Wunderlinq  |[Zoom out](/osmand/map/interact-with-map#my-location--zoom) |
+|**&#8593; **| Wunderlinq  |[Zoom in](/osmand/map/interact-with-map#my-location--zoom) |
