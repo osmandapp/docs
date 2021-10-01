@@ -21,17 +21,20 @@ To start the navigation in your city by public transport, you need to use [the n
 
 - You need to choose Public transport navigation profile, start an destination points.
 
+![Navigation public transport routes Android](/assets/images/navigation/public/navigation_public_android.png) ![avigation public transport routes iOS](/assets/images/navigation/public/navigation_public_ios.png)
+
+OsmAnd proposes route variants with walking time and publict transport routes with route info: time, distance, transfer, public routes. You need to swap the navigation screen for choosing your variant.
+
 ![Navigation public transport way Android](/assets/images/navigation/public/navigation_way_android.png) ![avigation public transport way iOS](/assets/images/navigation/public/navigation_way_ios.png)
 
-OsmAnd proposes route variants with walking time and publict transport routes. You need to swap navigation screen for choosing your variant.
+- "Show on map" button allow to view all chosen route on the map (swap menu to view the next route variant). Swap the screen for viewing the next variant.
 
-![Navigation public transport way Android](/assets/images/navigation/public/navigation_way_android.png) ![avigation public transport way iOS](/assets/images/navigation/public/navigation_way_ios.png)
+![Navigation public transport Details Android](/assets/images/navigation/public/navigation_details_android.png) ![avigation public transport Details iOS](/assets/images/navigation/public/navigation_details_ios.png)
 
-"Show on map" button allow to view all chosen route on the map (swap menu to view the next route variant)
-Click to "Details" button for open Description menu of choosing route. 
+- Click to "Details" button for open Description menu of choosing route. 
 Here you can open all stops list by clicking to "" button.
 
-![Navigation public transport way Android](/assets/images/navigation/public/navigation_way_android.png) ![avigation public transport way iOS](/assets/images/navigation/public/navigation_way_ios.png)
+![Navigation public transport stops list Android](/assets/images/navigation/public/navigation_stops_list_android.png) ![avigation public transport stops list iOS](/assets/images/navigation/public/navigation_stops_list_ios.png)
 
 **Note**: Public transport navigaiton in OsmAnd has testing variant. While you can build and view your route without full navigation function.
 
