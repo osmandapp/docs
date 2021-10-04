@@ -97,4 +97,34 @@ Link to [Navigation profiles](/osmand/personal/profiles)
 
 Link to Tech Documentation
 
+## Background navigation
 
+Navigation instruction in the background mode.
+
+### Sound
+
+Voice prompts in backgroun during navigation. [Voice navigation](/osmand/navigation/voice-navigation).
+
+### Notification (Android)
+
+Notification info: Turn-by-turn instructions; arrows; arrival time and time to go, current speed.
+
+![Navigation route Notification Android](/assets/images/navigation/route/navigation_notifications_android.png) 
+
+Buttons:
+- {% data variables.android-values.stop_navigation_service %} - allows to stop your navigation.
+- {% data variables.android-values.shared_string_pause %} - allows to pause your navigation.
+- {% data variables.android-values.shared_string_resume %} - allows to resume your navigation.
+
+### Turn on screen (Android)
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.screen_control %} → {% data variables.android-values.screen_control %}
+
+{% data variables.android-values.screen_timeout %}:
+- {% data variables.android-values.system_screen_timeout %} -
+- {% data variables.android-values.wake_time %} - 
+
+{% data variables.android-values.turn_screen_on %}. Select screen wake-up options (make sure OsmAnd is in the foreground when the device is being locked):
+- {% data variables.android-values.turn_screen_on_proximity_sensor %} - waving your hand across the screen will turn it on.
+- {% data variables.android-values.turn_screen_on_navigation_instructions %} - each navigation instruction will turn the screen on.
+- {% data variables.android-values.turn_screen_on_power_button %} - pressing the device power button will turn the screen on with OsmAnd on top of the lock screen.
