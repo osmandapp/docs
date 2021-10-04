@@ -118,7 +118,7 @@ Buttons:
 
 ### Turn on screen (Android)
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.screen_control %} → {% data variables.android-values.screen_control %}
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.screen_control %} 
 
 {% data variables.android-values.screen_timeout %}:
 - {% data variables.android-values.system_screen_timeout %} -
