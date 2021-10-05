@@ -63,7 +63,7 @@ Choosing the source for your guide's text is completely up to you. It can be an 
 
 ### Launch the tool
 
-[Download OsmAnd MapCreator]()
+[Download OsmAnd MapCreator](http://download.osmand.net/latest-night-build/OsmAndMapCreator-main.zip)
 Linux.
 
 Download MapCreator and extract the files from the archive.
