@@ -5,6 +5,7 @@ versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
+Travel guides 
 
 ## Travel Guides data
 
@@ -88,3 +89,7 @@ Your file should be created in seconds. By default, it will be named 'travel_gui
 
 After you start the app, please go to 'Travel' menu. Press Options > 'Travel book' to select your database as a source. After that, you'll be able to use search normally in order to view the articles. You'll find all the points from your GPX track in 'Points' menu. Please use 'Show on map' button to view your points on the map. You can bookmark any article to have a quicker access to it.
 
+
+## Useful links
+
+[Wikipedia plugin](/osmand/plugins/wikipedia)
