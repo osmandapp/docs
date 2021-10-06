@@ -65,7 +65,7 @@ In Result field:
 
 Clicking to chosen Travel guide name opens [Travel guide article menu](/osmand/plan-route/travel-guides#travel-guide-article).
 
-**Note:** for deleting search history you need to use [{% data variables.android-values.pshared_string_options %} button](/osmand/plan-route/travel-guides#options)
+**Note:** for deleting search history you need to use [{% data variables.android-values.shared_string_options %} button](/osmand/plan-route/travel-guides#options)
 
 Below the seacrh field there is Travel guides list - {% data variables.android-values.popular_destinations %}. It shows the first 30 nearest travel guides article on the area of your screen device (not location) or {% data variables.android-values.saved_articles %}. For open {% data variables.android-values.saved_articles %} or {% data variables.android-values.popular_destinations %} you need to use {% data variables.android-values.shared_string_explore %} and {% data variables.android-values.saved_articles %} buttons below.
 
@@ -88,12 +88,20 @@ You can also choose if you'd like to download the images or not, clear image cac
 
 ### Travel guide article
 
+Clicking to {% data variables.android-values.shared_string_read %} button in [travel guides list](/osmand/plan-route/travel-guides#search-field-and-travel-guides-list) or {% data variables.android-values.context_menu_read_full %} button in [Description menu](/osmand/map/track-context-menu#description) opens Travel guide article.
+
+![Travel guides article menu](/assets/images/guides/travel_guides_article_android.png) 
+
+
+
 The articles are available in different languages. By default, the language you're using in OsmAnd will be also picked for Travel guides. But if you'd like, you can view your article in a different one. To do that, press the translation button next to the name of the article.
 
 For example, the article about London is available in Chinese, Dutch, English, French, German and many other languages.
 
 ### Points
 
+On the MAP:
+Icons by categories
 Articles often contain points grouped by topic. They are available in the 'Points' menu at the bottom of the article. You'll see food locations, airports, railway stations, places to shop, main historical attractions, accommodation options, etc. To view them all on the map, please enable 'Show on map' option. The track with the points will be also available in My places-> My tracks-> Travel. To remove the points from the map, please go to 'Configure map' menu and disable the 'GPX track' option.
 
 
