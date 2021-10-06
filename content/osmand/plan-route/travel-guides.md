@@ -7,9 +7,13 @@ versions: '*'
 
 Travel guides 
 
+![Travel guides view General](/assets/images/guides/travel_guides_view_android.png)
+
 ## Travel Guides data
 
 The guides are based on [Wikivoyage](https://www.wikivoyage.org/), a community project similar to Wikipedia, where volunteer writers create articles with real and up-to-date information. Such information includes the main facts about a place, transport, landmarks, shopping spots, etc. Going to London, Shanghai or planning a visit to the Grand Canyon? Your guide is there to help you.
+
+Wikivoage data has GPX format in OsmAnd and keep in [{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces) → [{% data variables.android-values.shared_string_gpx_tracks%}](/osmand/personal/tracks) after [downloading](/osmand/plan-route/travel-guides#download) it. It's like GPX-tracks with waypoints only.
 
 ## How to use
 
