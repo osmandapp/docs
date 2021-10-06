@@ -5,7 +5,7 @@ versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-Travel guides 
+Travel guides help you in your trips, you can see interesting places on the map and read info about it.
 
 ![Travel guides view General](/assets/images/guides/travel_guides_view_android.png)
 
@@ -13,19 +13,57 @@ Travel guides
 
 The guides are based on [Wikivoyage](https://www.wikivoyage.org/), a community project similar to Wikipedia, where volunteer writers create articles with real and up-to-date information. Such information includes the main facts about a place, transport, landmarks, shopping spots, etc. Going to London, Shanghai or planning a visit to the Grand Canyon? Your guide is there to help you.
 
-Wikivoage data has GPX format in OsmAnd and keep in [{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces) → [{% data variables.android-values.shared_string_gpx_tracks%}](/osmand/personal/tracks) after [downloading](/osmand/plan-route/travel-guides#download) it. It's like GPX-tracks with waypoints only.
+Wikivoage data has GPX format in OsmAnd and keep in [{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces) → [{% data variables.android-values.shared_string_gpx_tracks%}](/osmand/personal/tracks) → {% data variables.android-values.icon_group_travel %} after [downloading](/osmand/plan-route/travel-guides#download) it. Travel guides: GPX-tracks with waypoints only.
+
+![Travel guides folder General](/assets/images/guides/travel_guides_folder_android.png)
+
+GPX-files (Travel guides) have info about points number of Travel guide file. 
+
+About actions of this GPX-files (Travel guides) read [here](/osmand/personal/tracks#my-places-android).
+
+Orange color - visible on the map. Or {% data variables.android-values.shared_string_visible %} folder.
 
 ## How to use
 
-To start using the feature, please go to OsmAnd menu-> Travel guides. Make sure to download the travel guide file to be able to use the feature. This file is also available in Download map-> 'Travel guides' menu. Now all your guides are saved on device and you can look up any information, even if you're abroad or out of a mobile network area.
+To start using the feature, please go to:
 
-As soon as the file is downloaded, you can start using the guides. Just go to OsmAnd-> 'Travel guides' and enter the name of the city into the search field. As soon as you open the article, you'll see the information conveniently arranged by topic. The information often includes topics like 'Understand' with the details about local culture and habits, 'Talk', 'Get in', 'Get Around', 'See' that covers main places of interest, 'Buy' with the recommended shopping spots, 'Sleep', 'Drink', and 'Go next' suggesting the locations you may be interested in after visiting the current one. You can also press 'Bookmark' to have a quick access to this article later. All such articles will be saved in your 'Bookmarked articles' list.
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_travel_guides %}
+ 
+Make sure [to download the travel guide file](/osmand/plan-route/travel-guides#download) to be able to use the feature.
+  
+Now all your guides are saved on device and you can look up any information, even if you're abroad or out of a mobile network area.
+
+As soon as the file is downloaded, you can start using the guides. Just go to [Travel guides list](): {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_travel_guides %}, and enter the name of the city into [the search field](). 
+
+**Note:** 
+
+As soon as you open the article, you'll see the information conveniently arranged by topic. The information often includes topics like 'Understand' with the details about local culture and habits, 'Talk', 'Get in', 'Get Around', 'See' that covers main places of interest, 'Buy' with the recommended shopping spots, 'Sleep', 'Drink', and 'Go next' suggesting the locations you may be interested in after visiting the current one. You can also press 'Bookmark' to have a quick access to this article later. All such articles will be saved in your 'Bookmarked articles' list.
 
 The articles are sharable. Just press Share button in the upper-right corner and send it to your friend. That person will be able to open your link in OsmAnd directly if they have the app on their device.
 
 ### Download 
 
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.shared_string_travel_guides %}
 OsmAnd menu - Download maps - Travel guides
+
+![Travel guides download menu](/assets/images/guides/travel_guides_download_android.png)
+
+**Note:** Wikivoyage is divided by regions - Africa, Asia, Australia and Oceania, Central America, Europe, North America, Russia, South America.
+
+### Search field and travel guides list
+
+In {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_travel_guides %} there are two general part: the search field and travel guides list.
+
+In the top of {% data variables.android-values.shared_string_travel_guides %} menu there is the search menu. You fill it by needed city name. Write the place name:
+
+![Travel guides search menu](/assets/images/guides/travel_guides_search_android.png)
+
+In Result field:
+- Travel guides with info about article languages.
+
+Clicking to chosen Travel guide name opens [Travel guide article menu]().
+
+### Travel guide article
 
 ### Options
 
