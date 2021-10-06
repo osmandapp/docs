@@ -33,7 +33,7 @@ Make sure [to download the travel guide file](/osmand/plan-route/travel-guides#d
   
 Now all your guides are saved on device and you can look up any information, even if you're abroad or out of a mobile network area.
 
-As soon as the file is downloaded, you can start using the guides. Just go to [Travel guides list](): {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_travel_guides %}, and enter the name of the city into [the search field](). 
+As soon as the file is downloaded, you can start using the guides. Just go to [Travel guides list](/osmand/plan-route/travel-guides#search-field-and-travel-guides-list): {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_travel_guides %}, and enter the name of the city into [the search field](/osmand/plan-route/travel-guides#search-field-and-travel-guides-list). 
 
 **Note:** 
 
@@ -52,24 +52,42 @@ OsmAnd menu - Download maps - Travel guides
 
 ### Search field and travel guides list
 
-In {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_travel_guides %} there are two general part: the search field and travel guides list.
+In {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_travel_guides %} there are two general part: the search field and travel guides list ({% data variables.android-values.popular_destinations %}).
 
-In the top of {% data variables.android-values.shared_string_travel_guides %} menu there is the search menu. You fill it by needed city name. Write the place name:
+![Travel guides menu](/assets/images/guides/travel_guides_menu_android.png)
+
+In the top of {% data variables.android-values.shared_string_travel_guides %} menu there is the search field. You fill it by needed city name:
 
 ![Travel guides search menu](/assets/images/guides/travel_guides_search_android.png)
 
 In Result field:
 - Travel guides with info about article languages.
 
-Clicking to chosen Travel guide name opens [Travel guide article menu]().
+Clicking to chosen Travel guide name opens [Travel guide article menu](/osmand/plan-route/travel-guides#travel-guide-article).
 
-### Travel guide article
+**Note:** for deleting search history you need to use [{% data variables.android-values.pshared_string_options %} button](/osmand/plan-route/travel-guides#options)
+
+Below the seacrh field there is Travel guides list - {% data variables.android-values.popular_destinations %}. It shows the first 30 nearest travel guides article on the area of your screen device (not location) or {% data variables.android-values.saved_articles %}. For open {% data variables.android-values.saved_articles %} or {% data variables.android-values.popular_destinations %} you need to use {% data variables.android-values.shared_string_explore %} and {% data variables.android-values.saved_articles %} buttons below.
+
+![Travel guides explore menu](/assets/images/guides/travel_guides_explore_android.png) ![Travel guides bookmarked](/assets/images/guides/travel_guides_bookmarked_android.png)
+
+Article buttons:
+- {% data variables.android-values.shared_string_read %} - opens [Travel guide article](/osmand/plan-route/travel-guides#travel-guide-article).
+- {% data variables.android-values.shared_string_bookmark %} - moves chosen article to {% data variables.android-values.saved_articles %}.
+- {% data variables.android-values.shared_string_bookmark %} - removes chosen article from {% data variables.android-values.saved_articles %}.
 
 ### Options
 
-You can also choose if you'd like to download the images or not, clear image cache or delete the search history. To do that, please press the 'Options' button in the upper-right corner of the screen.
+You can also choose if you'd like to download the images or not, clear image cache or delete the search history. To do that, please press the {% data variables.android-values.shared_string_options %} button in the upper-right corner of the screen.
 
-(Image not available offline) (Image not available offline)
+![Travel guides options menu](/assets/images/guides/travel_guides_options_android.png) 
+
+- {% data variables.android-values.wikivoyage_download_pics %} - article images can be downloaded for offline use. 
+- {% data variables.android-values.images_cache %} - allows to clear image cache.
+- {% data variables.android-values.delete_search_history %} - allows to clear [search history](/osmand/plan-route/travel-guides#search-field-and-travel-guides-list).
+
+### Travel guide article
+
 The articles are available in different languages. By default, the language you're using in OsmAnd will be also picked for Travel guides. But if you'd like, you can view your article in a different one. To do that, press the translation button next to the name of the article.
 
 For example, the article about London is available in Chinese, Dutch, English, French, German and many other languages.
