@@ -44,7 +44,6 @@ The articles are sharable. Just press Share button in the upper-right corner and
 ### Download 
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.shared_string_travel_guides %}
-OsmAnd menu - Download maps - Travel guides
 
 ![Travel guides download menu](/assets/images/guides/travel_guides_download_android.png)
 
