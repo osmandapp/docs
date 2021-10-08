@@ -13,7 +13,7 @@ Travel guides help you in your trips, you can see interesting places on the map 
 
 The guides are based on [Wikivoyage](https://www.wikivoyage.org/), a community project similar to Wikipedia, where volunteer writers create articles with real and up-to-date information. Such information includes the main facts about a place, transport, landmarks, shopping spots, etc. Going to London, Shanghai or planning a visit to the Grand Canyon? Your guide is there to help you.
 
-Wikivoage data has GPX format in OsmAnd and keep in [{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces) → [{% data variables.android-values.shared_string_gpx_tracks%}](/osmand/personal/tracks) → {% data variables.android-values.icon_group_travel %} after [downloading](/osmand/plan-route/travel-guides#download) it. Travel guides: GPX-tracks with waypoints only.
+Wikivoyage data has GPX format in OsmAnd and keep in [{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces) → [{% data variables.android-values.shared_string_gpx_tracks%}](/osmand/personal/tracks) → {% data variables.android-values.icon_group_travel %} after [downloading](/osmand/plan-route/travel-guides#download) it. Travel guides: GPX-tracks with [waypoints](/osmand/map/point-layers-on-map#track-points) only.
 
 ![Travel guides folder General](/assets/images/guides/travel_guides_folder_android.png)
 
@@ -108,19 +108,50 @@ Each article in [Wikivoyage](https://en.wikipedia.org/wiki/Wikivoyage) has the s
 
 For opening a chapter you need to use "&#8744;" button.
 
-In Wikivoyage articles there are info about prices, contacts info, web links and etc. Almost each part has next buttons: button "Wikipedia" allows to open [Wikipedia POI (online or offline)](/osmand/plugins/wikipedia), button "Open on map" allows to show [the Point of the objec on the map](/osmand/plan-route/travel-guides#points).
+In Wikivoyage articles there are info about prices, contacts info, web links and etc. Almost each part has next buttons: button "Wikipedia" allows to open [Wikipedia POI (online or offline)](/osmand/plugins/wikipedia), button "Open on map" allows to show [the Point of the object on the map](/osmand/plan-route/travel-guides#points).
 
 ![Travel guides article description full menu](/assets/images/guides/travel_guides_article_description_full_android.png) ![Travel guides article description full menu](/assets/images/guides/travel_guides_article_description_full1_android.png) 
 
+Below the screen next buttons:
+- "Contents" - allows to opens Contents menu of an Wikivoyage article. Clicking to a name content moves to chosen an article part.
 
+![Travel guides contents menu](/assets/images/guides/travel_guides_contents_menu_android.png)
 
+- "Points" - allows to add on the map article [Points](/osmand/plan-route/travel-guides#points) and to open [Track Context menu](/osmand/map/track-context-menu) of chosen article.
 
+![Travel guides points menu](/assets/images/guides/travel_guides_points_android.png)
 
 ### Points
 
-On the MAP:
-Icons by categories
-Articles often contain points grouped by topic. They are available in the 'Points' menu at the bottom of the article. You'll see food locations, airports, railway stations, places to shop, main historical attractions, accommodation options, etc. To view them all on the map, please enable 'Show on map' option. The track with the points will be also available in My places-> My tracks-> Travel. To remove the points from the map, please go to 'Configure map' menu and disable the 'GPX track' option.
+
+Articles often contain points grouped by topic. They are available in the 'Points' menu at the bottom of the article. You'll see food locations, airports, railway stations, places to shop, main historical attractions, accommodation options, etc.
+
+![Travel guides points on the map  menu](/assets/images/guides/travel_guides_track_points_map_android.png)
+
+Wikivoyage guide file is [GPX-file with waypoints](/osmand/map/point-layers-on-map#track-points). Waypoints are Points (places) from Wikivoyage article on the map. 
+
+When you click to "Points" button on the [Travel guide article](/osmand/plan-route/travel-guides#travel-guide-article) or you show your [GPX-file of Wikivoyage on the map](/osmand/personal/tracks#my-places-android).
+
+When you open [Track Context menu](/osmand/map/track-context-menu) of GPX-file (Travel guide article), you find next general info of Travel guide article:
+- In ["Overview"](/osmand/map/track-context-menu#overview), you can read short description or open [Travel guide article](/osmand/plan-route/travel-guides#travel-guide-article) by clicking "Read full" button. Button "Edit"allows you to correct article.
+
+![Travel guides points overview menu](/assets/images/guides/travel_guides_points_overview_android.png)
+
+- In ["Track"](/osmand/map/track-context-menu#altitude--speed-graphs) there is not any info (Travel guides: GPX-tracks with [waypoints](/osmand/map/point-layers-on-map#track-points) only).
+
+- In ["Points"](/osmand/map/track-context-menu#points--waypoints), you see folders with points by named [Contents (Buy, Do, Drink...)](/osmand/plan-route/travel-guides#travel-guide-article). Each category of Contents has own color and icon.
+
+Here you find short description of points (places), number of points on each folder.
+
+You can make any [actions with points](/osmand/map/track-context-menu#points--waypoints).
+
+![Travel guides track points  menu](/assets/images/guides/travel_guides_track_points_android.png)
+
+Clicking to chosen point opens this point on the map with and [Map Context menu](/osmand/map/map-context-menu).
+
+![Travel guides map context menu  menu](/assets/images/guides/travel_guides_context_menu_android.png)
+
+- In ["Options"](/osmand/map/track-context-menu#options), you can make any actions with your Travel guide file (GPX-track).
 
 
 ## Other guides
