@@ -91,9 +91,9 @@ Clicking to {% data variables.android-values.shared_string_read %} button in [tr
 
 ![Travel guides article menu](/assets/images/guides/travel_guides_article_android.png) 
 
-
-
 The articles are available in different languages. By default, the language you're using in OsmAnd will be also picked for Travel guides. But if you'd like, you can view your article in a different one. To do that, press the translation button next to the name of the article.
+
+![Travel guides article translation menu](/assets/images/guides/travel_guides_article_translation_android.png) 
 
 For example, the article about London is available in Chinese, Dutch, English, French, German and many other languages.
 
