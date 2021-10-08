@@ -91,11 +91,30 @@ Clicking to {% data variables.android-values.shared_string_read %} button in [tr
 
 ![Travel guides article menu](/assets/images/guides/travel_guides_article_android.png) 
 
-The articles are available in different languages. By default, the language you're using in OsmAnd will be also picked for Travel guides. But if you'd like, you can view your article in a different one. To do that, press the translation button next to the name of the article.
+The articles are available in different languages. By default, the language you're using in OsmAnd will be also picked for Travel guides. But if you'd like, you can view your article in a different one. To do that, press the translation button next to the name of the article, you can choose available languages for this article:
 
 ![Travel guides article translation menu](/assets/images/guides/travel_guides_article_translation_android.png) 
 
-For example, the article about London is available in Chinese, Dutch, English, French, German and many other languages.
+Each article in [Wikivoyage](https://en.wikipedia.org/wiki/Wikivoyage) has the same structure of content, where there are introduction part (images and description of turist object) and next chapters:
+- "Understand" - full description.
+- "Get in" - how to get in to this area, place and etc and how much to cost this route.
+- "See" - list of seesight places (museums, historical places...) with full description: how much to cost tickets, when to open, links to website, phones.
+- "Do" - descrption any places for pastime.
+- "Buy" - descrption any places for shoping.
+- "Eat" - descrption any places for eating (divided by budget: budget, mid-range, splurge).
+- "Drink" - descrption any bars and cafes.
+- "Sleep" - descrption any hotels (divided by budget: budget, mid-range, splurge). 
+- "Go next" - proposal the next nearest places from Wikivoyage.
+
+For opening a chapter you need to use "&#8744;" button.
+
+In Wikivoyage articles there are info about prices, contacts info, web links and etc. Almost each part has next buttons: button "Wikipedia" allows to open [Wikipedia POI (online or offline)](/osmand/plugins/wikipedia), button "Open on map" allows to show [the Point of the objec on the map](/osmand/plan-route/travel-guides#points).
+
+![Travel guides article description full menu](/assets/images/guides/travel_guides_article_description_full_android.png) ![Travel guides article description full menu](/assets/images/guides/travel_guides_article_description_full1_android.png) 
+
+
+
+
 
 ### Points
 
