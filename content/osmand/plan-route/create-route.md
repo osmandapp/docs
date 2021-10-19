@@ -10,7 +10,7 @@ The route is many strings between points. Strings can be straight lines or route
 
 | | |
 |------------|------------|
-| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
+| Android | iOS |
 | ![Plan route android](/assets/images/plan-route/plan-route-android.png) | ![Plan route ios](/assets/images/plan-route/plan-route-ios.png) |
 
 ## Opening 'Plan route'
@@ -40,7 +40,7 @@ In the tool, you can create a new GPX route or open and modify the existing trac
 
 | | |
 |------------|------------|
-| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
+| Android| iOS |
 | **{% data variables.android-values.plan_route_create_new_route %}** - create a new GPX route | **{% data variables.ios-values.plan_route_create_new_route %}** - create a new GPX route |
 | **{% data variables.android-values.plan_route_open_existing_track %}** - open existing GPX track from OsmAnd track folder. | **{% data variables.ios-values.plan_route_open_existing_track%}** - open existing GPX track from OsmAnd track folder. |
 | **{% data variables.android-values.plan_route_import_track %}** - import GPX track from your device storage. |  |
@@ -53,7 +53,7 @@ At the main screen of the tool there are the next elements:
 
 | | |
 |------------|------------|
-| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
+| Android| iOS |
 | ![Plan route android-screen](/assets/images/plan-route/plan-route-android-screen.png) | ![Plan route ios-screen](/assets/images/plan-route/plan-route-ios-screen.png) |
 
 **1.** ['{% data variables.android-values.shared_string_options %}'](/osmand/plan-route/create-route#options-menu) menu.
@@ -87,7 +87,7 @@ The Route line shows an [automatically-generated road or straight route](/osmand
 
 | | |
 |------------|------------|
-| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
+| Android | iOS |
 | ![Plan route android-routeline](/assets/images/plan-route/plan-route-routeline-android.png) | ![Plan route ios-screen](/assets/images/plan-route/plan-route-routeline-ios.png) |
 
 **1.** Profile icon (Android). It's mean that this segment was built by this profile routing.
@@ -104,10 +104,10 @@ For opening 'Points' list and Graph:
 
 | | |
 |------------|------------|
-| **1.Click to ['Points' list](/osmand/plan-route/create-route#main-screen).** ![icon-android](/assets/images/site/icon-android.png) | **1.Click to the open icon &#710 on ['Points' list](/osmand/plan-route/create-route#main-screen).** ![icon-ios](/assets/images/site/icon-ios.png) | 
+| **1.Click to ['Points' list](/osmand/plan-route/create-route#main-screen).** Android | **1.Click to the open icon &#710 on ['Points' list](/osmand/plan-route/create-route#main-screen).** iOS | 
 | ![Plan route android-pointslist](/assets/images/plan-route/plan-route-pointslist-android.png) | ![Plan route ios-pointslist](/assets/images/plan-route/plan-route-pointslist-ios.png) |
 |Description: | Each point has information about distance and azimuth for a new making route, and additional altitude, and the speed information for recorded GPX track. In ['Points' list](/osmand/plan-route/create-route#main-screen) we can delete points (click to 'Delete' button near chosen point) or change the order of it (move a line of chosen point to up or below). Clicking to a point opens ['Point' menu](/osmand/plan-route/create-route#actions-of-point-menu). |
-| **2.Click to "Graph" button.** ![icon-android](/assets/images/site/icon-android.png)| - |
+| **2.Click to "Graph" button.** Android | - |
 | ![Plan route android-graph](/assets/images/plan-route/plan-route-graph-android.png) |  |
 |Description:| [Click to graph](/osmand/plan-route/create-route#actions-of-points-list-and-graph) shows information about point and its location on the route. View of the graph of a route with Overview, Altitude, Slope, Road type, Surface, Steepness. |
 
@@ -139,7 +139,7 @@ The straight line is useful for simple distance measurement, azimuth info or for
 
 ![Plan route app_button](/assets/images/plan-route/plan-route-app-button.png)
 
-For ![icon-android](/assets/images/site/icon-android.png) we can modify routing parameters for chosen app profile by clicking to settings icon ![icon-settings](/assets/images/plan-route/icon-settings.png) on ['Profile' button](/osmand/plan-route/create-route#main-screen):
+For Android we can modify routing parameters for chosen app profile by clicking to settings icon ![icon-settings](/assets/images/plan-route/icon-settings.png) on ['Profile' button](/osmand/plan-route/create-route#main-screen):
 
 ![app-settings](/assets/images/plan-route/plan-route-app-set.png)
 
@@ -155,9 +155,9 @@ Choose how to connect the points, by a straight line, or calculate a route betwe
 
  - When you use two or more application profiles for your route:
 
-for ![icon-android](/assets/images/site/icon-android.png) each segment has [a profile icon and color](/osmand/plan-route/create-route#route-line) of the application profile which using for calculated route between shaping points;
+for Android each segment has [a profile icon and color](/osmand/plan-route/create-route#route-line) of the application profile which using for calculated route between shaping points;
 
-for ![icon-ios](/assets/images/site/icon-ios.png) all segments have [color of last using application profile](/osmand/plan-route/create-route#route-line) for calculated route.
+for iOS all segments have [color of last using application profile](/osmand/plan-route/create-route#route-line) for calculated route.
 
 ### Actions of 'Point' menu
 
@@ -165,7 +165,7 @@ Actions in 'Point' menu (by clicking to a point in ['Points' list](/osmand/plan-
 
 | | |
 |------------|------------|
-| **1.Click to a point from 'Points' list** ![icon-android](/assets/images/site/icon-android.png) ![icon-ios](/assets/images/site/icon-ios.png): | Open 'Point' menu| 
+| **1.Click to a point from 'Points' list**: | Open 'Point' menu| 
 |**Actions in 'Point' menu:** |   |
 |1. Point info | Showed Number of point, Distance, Speed, Altitude of point. |
 |2. {% data variables.ios-values.move_point %}|  {% data variables.ios-values.move_point_descr %} |
@@ -206,7 +206,7 @@ In 'Options' menu you can make the next actions with your route:
 | 6. {% data variables.android-values.get_directions %} |Start navigation from your position to the finish point using a drawn route.|
 | 7. {% data variables.android-values.reverse_route %} | Change the direction of a drawn route. |
 | 8. {% data variables.android-values.shared_string_clear_all %} | Clear all shaping points.  |
-| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
+| Android | iOS |
 | ![Plan route android-options](/assets/images/plan-route/plan-route-options-android.png) | ![Plan route ios-options](/assets/images/plan-route/plan-route-options-ios.png) |
 
 ## Modify existing GPX track
@@ -225,7 +225,7 @@ In ['Points' list](/osmand/plan-route/create-route#points-list-and-graph), there
 
 | | |
 |------------|------------|
-| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
+| Android | iOS |
 | ![Plan route modify-track-android](/assets/images/plan-route/plan-route-modify-track-android.png)| ![Plan route modify-track-ios](/assets/images/plan-route/plan-route-modify-track-ios.png) |
 
 You can make all actions with points in ['Points' list](/osmand/plan-route/create-route#points-list-and-graph) and ['Point' menu](/osmand/plan-route/create-route#actions-of-point-menu): delete, change order, move and etc.
@@ -251,7 +251,7 @@ After calculating the new route you click ['Done' button](/osmand/plan-route/cre
 
 | | |
 |------------|------------|
-| ![icon-android](/assets/images/site/icon-android.png)| ![icon-ios](/assets/images/site/icon-ios.png) |
+| Android | iOS |
 | ![Plan route snap-road-android](/assets/images/plan-route/plan-route-snap-android.gif)| ![Plan route snap-road-ios](/assets/images/plan-route/plan-route-snap-ios.gif) |
 
 ## Useful links
