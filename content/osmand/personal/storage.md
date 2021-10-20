@@ -95,6 +95,40 @@ storage folder` but the copy operations may take a long time or result in
 errors (e.g. if the SD card is too full).
 
 
+## Backup & Restore (Android)
+
+### Backup and Restore for OsmAnd Pro
+
+You need to subscribe to [OsmAnd Pro](/osmand/purchases/android#free-and-paid-features).
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.backup_and_restore %}
+
+Two screens:
+
+- {% data variables.android-values.shared_string_status %}
+
+![Backup Status screen Android](/assets/images/personal/backup/backup_status_screen_android.png)
+
+"Backup button"
+
+"Restore button"
+
+- {% data variables.android-values.shared_string_settings %}
+
+![Backup settings screen Android](/assets/images/personal/backup/backup_settings_screen_android.png)
+
+
+
+### Local backup
+
+Back up or restore data (it has restrictions for unpaid users. you can't back up and restore Favorites, map markers..) from a local file:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.backup_and_restore %} → {% data variables.android-values.local_backup %}
+
+- {% data variables.android-values.backup_into_file %} - creating and saving OBF-file in your device.
+- {% data variables.android-values.restore_from_file %} - opening and restoring OBF-file (you backup).
+
+
 ## Copy raster map package created on PC 
 
 Map package can be saved in two formats: [SQ Lite and Metainfo](/osmand/map/raster-maps#sqlite-vs-metainfo-sources).
