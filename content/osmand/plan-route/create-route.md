@@ -9,7 +9,7 @@ The **'Plan route'** tool is a powerful feature of OsmAnd allows you to measure 
 The route is many strings between points. Strings can be straight lines or routes of chosen navigation profiles. The sum of all these points and strings is a route, that can be saved, imported, or modified. 
 
 
-![Plan route android](/assets/images/plan-route/plan-route-android.png)  ![Plan route ios](/assets/images/plan-route/plan-route-ios.png)
+![Plan route android](/assets/images/plan-route/plan-route-android.png) ![Plan route ios](/assets/images/plan-route/plan-route-ios.png)
 
 ## Opening 'Plan route'
 
