@@ -8,10 +8,8 @@ The **'Plan route'** tool is a powerful feature of OsmAnd allows you to measure 
 
 The route is many strings between points. Strings can be straight lines or routes of chosen navigation profiles. The sum of all these points and strings is a route, that can be saved, imported, or modified. 
 
-| | |
-|------------|------------|
-| Android | iOS |
-| ![Plan route android](/assets/images/plan-route/plan-route-android.png) | ![Plan route ios](/assets/images/plan-route/plan-route-ios.png) |
+
+![Plan route android](/assets/images/plan-route/plan-route-android.png)  ![Plan route ios](/assets/images/plan-route/plan-route-ios.png)
 
 ## Opening 'Plan route'
 
@@ -19,10 +17,12 @@ The 'Plan route' can be switched on:
 
 - Main menu
 
-| | |
-|------------|------------|
-| {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plan_a_route %} | {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plan_route %} |
-| ![Plan route android_menu](/assets/images/plan-route/plan-route-android-menu.png) | ![Plan route ios_menu](/assets/images/plan-route/plan-route-ios-menu.png) |
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plan_a_route %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plan_route %} 
+
+![Plan route android_menu](/assets/images/plan-route/plan-route-android-menu.png)  ![Plan route ios_menu](/assets/images/plan-route/plan-route-ios-menu.png) 
 
 - Track context menu (Android)
 
@@ -37,24 +37,18 @@ or to click to {% data variables.android-values.edit_track %} on the context men
 ### Main menu
 
 In the tool, you can create a new GPX route or open and modify the existing track. When you open 'Plan route' tool menu you find the next buttons:
+- **{% data variables.android-values.plan_route_create_new_route %}** - create a new GPX route.
+- **{% data variables.android-values.plan_route_open_existing_track %}** - open existing GPX track from OsmAnd track folder.
+- **{% data variables.android-values.plan_route_import_track %}** - import GPX track from your device storage (Android).
+- **{% data variables.android-values.plan_route_last_edited %}** - choose GPX track from last modified.
 
-| | |
-|------------|------------|
-| Android| iOS |
-| **{% data variables.android-values.plan_route_create_new_route %}** - create a new GPX route | **{% data variables.ios-values.plan_route_create_new_route %}** - create a new GPX route |
-| **{% data variables.android-values.plan_route_open_existing_track %}** - open existing GPX track from OsmAnd track folder. | **{% data variables.ios-values.plan_route_open_existing_track%}** - open existing GPX track from OsmAnd track folder. |
-| **{% data variables.android-values.plan_route_import_track %}** - import GPX track from your device storage. |  |
-| **{% data variables.android-values.plan_route_last_edited %}** - choose GPX track from last modified. | **{% data variables.ios-values.plan_route_last_modified %}** - choose GPX track from last modified. | 
-| ![Plan route android_choosemenu](/assets/images/plan-route/plan-route-android-choose-menu.png) | ![Plan route ios_choosemenu](/assets/images/plan-route/plan-route-ios-choosemenu.png) |
+![Plan route android_choosemenu](/assets/images/plan-route/plan-route-android-choose-menu.png) ![Plan route ios_choosemenu](/assets/images/plan-route/plan-route-ios-choosemenu.png) 
 
 ### Main screen
 
 At the main screen of the tool there are the next elements:
 
-| | |
-|------------|------------|
-| Android| iOS |
-| ![Plan route android-screen](/assets/images/plan-route/plan-route-android-screen.png) | ![Plan route ios-screen](/assets/images/plan-route/plan-route-ios-screen.png) |
+![Plan route android-screen](/assets/images/plan-route/plan-route-android-screen.png)  ![Plan route ios-screen](/assets/images/plan-route/plan-route-ios-screen.png) 
 
 **1.** ['{% data variables.android-values.shared_string_options %}'](/osmand/plan-route/create-route#options-menu) menu.
 
@@ -85,10 +79,8 @@ At the main screen of the tool there are the next elements:
 
 The Route line shows an [automatically-generated road or straight route](/osmand/plan-route/create-route#creating-a-route) which you can save like a GPX track.
 
-| | |
-|------------|------------|
-| Android | iOS |
-| ![Plan route android-routeline](/assets/images/plan-route/plan-route-routeline-android.png) | ![Plan route ios-screen](/assets/images/plan-route/plan-route-routeline-ios.png) |
+
+![Plan route android-routeline](/assets/images/plan-route/plan-route-routeline-android.png) ![Plan route ios-screen](/assets/images/plan-route/plan-route-routeline-ios.png)
 
 **1.** Profile icon (Android). It's mean that this segment was built by this profile routing.
 
@@ -102,14 +94,20 @@ The Route line shows an [automatically-generated road or straight route](/osmand
 
 For opening 'Points' list and Graph:
 
-| | |
-|------------|------------|
-| **1.Click to ['Points' list](/osmand/plan-route/create-route#main-screen).** Android | **1.Click to the open icon &#710 on ['Points' list](/osmand/plan-route/create-route#main-screen).** iOS | 
-| ![Plan route android-pointslist](/assets/images/plan-route/plan-route-pointslist-android.png) | ![Plan route ios-pointslist](/assets/images/plan-route/plan-route-pointslist-ios.png) |
-|Description: | Each point has information about distance and azimuth for a new making route, and additional altitude, and the speed information for recorded GPX track. In ['Points' list](/osmand/plan-route/create-route#main-screen) we can delete points (click to 'Delete' button near chosen point) or change the order of it (move a line of chosen point to up or below). Clicking to a point opens ['Point' menu](/osmand/plan-route/create-route#actions-of-point-menu). |
-| **2.Click to "Graph" button.** Android | - |
-| ![Plan route android-graph](/assets/images/plan-route/plan-route-graph-android.png) |  |
-|Description:| [Click to graph](/osmand/plan-route/create-route#actions-of-points-list-and-graph) shows information about point and its location on the route. View of the graph of a route with Overview, Altitude, Slope, Road type, Surface, Steepness. |
+
+**1.Click to ['Points' list](/osmand/plan-route/create-route#main-screen).** (Android)
+
+**1.Click to the open icon &#710 on ['Points' list](/osmand/plan-route/create-route#main-screen).** (iOS)
+
+![Plan route android-pointslist](/assets/images/plan-route/plan-route-pointslist-android.png)  ![Plan route ios-pointslist](/assets/images/plan-route/plan-route-pointslist-ios.png) 
+
+Description:  Each point has information about distance and azimuth for a new making route, and additional altitude, and the speed information for recorded GPX track. In ['Points' list](/osmand/plan-route/create-route#main-screen) we can delete points (click to 'Delete' button near chosen point) or change the order of it (move a line of chosen point to up or below). Clicking to a point opens ['Point' menu](/osmand/plan-route/create-route#actions-of-point-menu). 
+
+**2.Click to "Graph" button.** (Android)
+
+![Plan route android-graph](/assets/images/plan-route/plan-route-graph-android.png)
+
+Description: [Click to graph](/osmand/plan-route/create-route#actions-of-points-list-and-graph) shows information about point and its location on the route. View of the graph of a route with Overview, Altitude, Slope, Road type, Surface, Steepness.
 
 ## Creating a route
 
@@ -195,6 +193,8 @@ Find your track in 'My Places' menu:
 
 In 'Options' menu you can make the next actions with your route:
 
+![Plan route android-options](/assets/images/plan-route/plan-route-options-android.png) ![Plan route ios-options](/assets/images/plan-route/plan-route-options-ios.png)
+
 | | |
 |------------|------------|
 |Action|Description|
@@ -206,8 +206,7 @@ In 'Options' menu you can make the next actions with your route:
 | 6. {% data variables.android-values.get_directions %} |Start navigation from your position to the finish point using a drawn route.|
 | 7. {% data variables.android-values.reverse_route %} | Change the direction of a drawn route. |
 | 8. {% data variables.android-values.shared_string_clear_all %} | Clear all shaping points.  |
-| Android | iOS |
-| ![Plan route android-options](/assets/images/plan-route/plan-route-options-android.png) | ![Plan route ios-options](/assets/images/plan-route/plan-route-options-ios.png) |
+
 
 ## Modify existing GPX track
 
@@ -223,10 +222,8 @@ In 'Options' menu you can make the next actions with your route:
 
 In ['Points' list](/osmand/plan-route/create-route#points-list-and-graph), there is information about the number  of points and a track distance.
 
-| | |
-|------------|------------|
-| Android | iOS |
-| ![Plan route modify-track-android](/assets/images/plan-route/plan-route-modify-track-android.png)| ![Plan route modify-track-ios](/assets/images/plan-route/plan-route-modify-track-ios.png) |
+
+![Plan route modify-track-android](/assets/images/plan-route/plan-route-modify-track-android.png) ![Plan route modify-track-ios](/assets/images/plan-route/plan-route-modify-track-ios.png)
 
 You can make all actions with points in ['Points' list](/osmand/plan-route/create-route#points-list-and-graph) and ['Point' menu](/osmand/plan-route/create-route#actions-of-point-menu): delete, change order, move and etc.
 
@@ -249,10 +246,8 @@ Next, choose the needed application profile for snapping your track to the neare
 
 After calculating the new route you click ['Done' button](/osmand/plan-route/create-route#main-screen) for saving the new GPX track which snapping to roads.
 
-| | |
-|------------|------------|
-| Android | iOS |
-| ![Plan route snap-road-android](/assets/images/plan-route/plan-route-snap-android.gif)| ![Plan route snap-road-ios](/assets/images/plan-route/plan-route-snap-ios.gif) |
+
+![Plan route snap-road-android](/assets/images/plan-route/plan-route-snap-android.gif) ![Plan route snap-road-ios](/assets/images/plan-route/plan-route-snap-ios.gif)
 
 ## Useful links
 
