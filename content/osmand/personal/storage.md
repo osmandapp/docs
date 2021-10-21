@@ -129,6 +129,8 @@ Back up data - select data and folders to back up.
 
 
 
+
+
 ### Local backup
 
 Back up or restore data (it has restrictions for unpaid users. you can't back up and restore Favorites, map markers..) from a local file:
