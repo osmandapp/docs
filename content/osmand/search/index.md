@@ -1,6 +1,6 @@
 ---
 title: "Search"
-intro: "Search information"
+intro: ""
 versions: '*'
 ---
 
