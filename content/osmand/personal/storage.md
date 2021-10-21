@@ -109,13 +109,23 @@ Two screens:
 
 ![Backup Status screen Android](/assets/images/personal/backup/backup_status_screen_android.png)
 
-"Backup button"
+"Backup now" button - make a backup of your data. Info: time of last backup and wich data added after that on your device.
 
-"Restore button"
+"Restore" button - restore data on your device, using online backups.
+
+"Local backup" - read [here](/osmand/personal/storage#local-backup).
+
+![Backup restore screen Android](/assets/images/personal/backup/backup_restore_screen_android.png)
 
 - {% data variables.android-values.shared_string_settings %}
 
 ![Backup settings screen Android](/assets/images/personal/backup/backup_settings_screen_android.png)
+
+Back up data - select data and folders to back up.
+
+![Backup data screen Android](/assets/images/personal/backup/backup_data_screen_android.png)
+
+
 
 
 
