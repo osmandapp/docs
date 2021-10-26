@@ -20,27 +20,35 @@ Coordinate search – offers different coordinate formats.
 
 Clicking to [Search button on the screen](/osmand/widgets/map-buttons#search) -> {% data variables.android-values.shared_string_address %}
 
-- [{% data variables.android-values.search_street %} (Android)](/osmand/search/search-address#search-street-android)
-- [{% data variables.android-values.start_search_from_city %}]()
+- [{% data variables.android-values.search_street %}](/osmand/search/search-address#search-street)
+- [{% data variables.android-values.start_search_from_city %}](/osmand/search/search-address#search-citytownlocality)
 - [{% data variables.android-values.select_postcode %}](/osmand/search/search-address#postcode-search)
 - [{% data variables.android-values.coords_search %}](/osmand/search/search-address#coordinates-search)
 
-### Search street (Android)
+### Search street
 
 Street Searching by ["addr:street=*"](https://wiki.openstreetmap.org/w/index.php?title=Key:addr). Result: showing all streets with this name.
 
-Clicking to chosen variant opens building list and crossroads, a tap to chosen address in the list opens [Map Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) of the object.
+Clicking to chosen variant opens building list and crossroads.
+
+Shown direction, distance to objects, categories of objects.
+
+Tap to chosen address in the list opens [Map Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) of the object.
 
 ![Search Street Android](/assets/images/search/street_search.png) ![Search Street Android](/assets/images/search/street_search_1.png)
 
 
 ### Search City/Town/Locality
 
-{% data variables.android-values.search_street %}
+City/Town/Locality Searching by ["addr:city/hamlet/town/village/suburb=*"](https://wiki.openstreetmap.org/w/index.php?title=Key:addr). Result: showing all objects with this name.
 
-{% data variables.ios-values.select_city %}
+Clicking to chosen variant opens building list and crossroads.
 
+Shown direction, distance to objects, categories of objects.
 
+Tap to a object in the list opens [Map Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) of the object.
+
+![Search Street Android](/assets/images/search/town_search_android.png) ![Search Street iOS](/assets/images/search/town_search_ios.png)
 
 
 ### Postcode search
