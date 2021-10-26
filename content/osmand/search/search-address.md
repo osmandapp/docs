@@ -18,9 +18,27 @@ Coordinate search – offers different coordinate formats.
 
 ## How to use
 
-Clicking to [Search button on the screen](/osmand/widgets/map-buttons#search)
+Clicking to [Search button on the screen](/osmand/widgets/map-buttons#search) -> {% data variables.android-values.shared_string_address %}
+
+### Search street (Android)
+
+Street Searching by ["addr:street=*"](https://wiki.openstreetmap.org/w/index.php?title=Key:addr). Result: showing all streets with this name.
+
+Clicking to chosen variant opens building list and crossroads, a tap to chosen address in the list opens [Map Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) of the object.
+
+![Search Street Android](/assets/images/search/street_search.png) ![Search Street Android](/assets/images/search/street_search_1.png)
+
+
+
 
 ### City
+
+{% data variables.android-values.search_street %}
+
+{% data variables.ios-values.select_city %}
+
+
+
 
 ### Postcode search
 
