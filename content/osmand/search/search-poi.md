@@ -18,8 +18,11 @@ Categories screen is list of POI categories and additional actions buttons below
 ![Search POI list Android](/assets/images/search/poi_list_android.png) ![Search POI list iOS](/assets/images/search/poi_list_ios.png)
 
 Actions button:
-- {% data variables.android-values.search_online_address %} (Android) - uses [online POI search]().
-- {% data variables.android-values.search_categories %}
+- {% data variables.android-values.search_online_address %} (Android) - allows to use [online POI search](/osmand/search/search-poi#online-search-android).
+- {% data variables.android-values.custom_search %} / {% data variables.ios-values.add_custom_category %} - allow to create [custom POI search and custom POI filter](/osmand/search/custom-poi-search).
+- {% data variables.android-values.rearrange_categories %} - allows to change the list order and hide categories. [Import or export all changes as profiles](/osmand/personal/import-export).
+- {% data variables.ios-values.delete_custom_categories %} - allows to delete [custom categories](/osmand/search/custom-poi-search).
+
 
 ### POI search
 
