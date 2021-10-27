@@ -1,6 +1,6 @@
 ---
 title: "Search Address"
-intro: "Finding the nearest location of a certain type, view your own location or search for a place by zip code"
+intro: ""
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
@@ -10,13 +10,9 @@ You may want to find the nearest location of a certain type, view your own locat
 
 **Please note:** to accomplish some of these tasks (locate addresses, POI, etc.) you will need to have the offline vector map file.
 
-Address - for searching by an address. This tab for Android version offers 4 more options, for iOS version offers 2 options:
-
-Street and City (you can enter city, street and building number step by step)
-Postcode – for finding your location by a zipcode
-Coordinate search – offers different coordinate formats.
-
 ## How to use
+
+Address - for searching by an [address tags](https://wiki.openstreetmap.org/w/index.php?title=Key:addr) and [coordinates](https://en.wikipedia.org/wiki/Geographic_coordinate_system).
 
 Clicking to [Search button on the screen](/osmand/widgets/map-buttons#search) -> {% data variables.android-values.shared_string_address %}
 
