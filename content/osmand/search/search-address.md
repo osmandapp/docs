@@ -53,7 +53,19 @@ Tap to a object in the list opens [Map Context menu](/osmand/map/map-context-men
 
 ### Postcode search
 
-**Note:** [United Kingdom Poscode data](https://github.com/hvdwolf/OsmAnd-UKpostcodes/releases)
+Postcode Searching by ["addr:city/hamlet/town/village/suburb=*"](https://wiki.openstreetmap.org/w/index.php?title=Key:addr). Result: showing all objects with postcode tag.
+
+Clicking to chosen postcode opens objects list which have this postcode in tags.
+
+Shown direction, distance to objects, categories of objects.
+
+Tap to a object in the list opens [Map Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) of the object with additional info about chosen postcode below the object name.
+
+
+![Search Postcode Android](/assets/images/search/postcode_android.png) ![Search Postcode iOS](/assets/images/search/postcode_ios.png)
+
+
+**Note:** [United Kingdom Poscode data](https://github.com/hvdwolf/OsmAnd-UKpostcodes/releases).
 
 ### Coordinates search
 
