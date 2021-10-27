@@ -71,9 +71,9 @@ Tap to a object in the list opens [Map Context menu](/osmand/map/map-context-men
 Coordinates Searching by [Geographical coordingates](https://en.wikipedia.org/wiki/Geographic_coordinate_system). Result: showing a point on the map.
 
 {% data variables.android-values.coordinates_format %} - choose needed format for input or transform your coordinates:
-- {% data variables.android-values.navigate_point_format_D %} - 50123.33  19.93233 (Lat Long).
+- {% data variables.android-values.navigate_point_format_D %} - 50.12333  19.93233 (Lat Long).
 - {% data variables.android-values.navigate_point_format_DM %} - 50:7.39320  19:55.93980 (Lat Long).
-- {% data variables.android-values.navigate_point_format_DMS %} - 50:7:23.59200  15:55:56.38800 (Lat Long).
+- {% data variables.android-values.navigate_point_format_DMS %} - 50:7:23.59200  19:55:56.38800 (Lat Long).
 - {% data variables.android-values.navigate_point_format_utm %} - 34N 5552876  423678 (Zone Northing Easting).
 - {% data variables.android-values.navigate_point_format_olc %} (OLC) - 9F2X4WFJ+7W (Open Location Code represents area 9m x 14m).
 - {% data variables.android-values.navigate_point_mgrs %} - 34U DA 23678 52873.
@@ -82,4 +82,4 @@ Search result shows direction, distance to a point on the map.
 
 Tap to the result opens [Map Context menu](/osmand/map/map-context-menu#select-any-point-long-tap) of a point on the map with additional info.
 
-![Search Coordinates Android](/assets/images/search/coordinates_search_android.png) ![Search Coordinates iOS](/assets/images/search/coordinates_search__ios.png)
+![Search Coordinates Android](/assets/images/search/coordinates_search_android.png) ![Search Coordinates iOS](/assets/images/search/coordinates_search_ios.png)
