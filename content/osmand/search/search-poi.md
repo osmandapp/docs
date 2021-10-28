@@ -34,9 +34,9 @@ Tapping to chosen POI in the list opens [Map Context menu](/osmand/map/map-conte
 
 ![Search POI Android](/assets/images/search/poi_search_android.png) ![Search POI iOS](/assets/images/search/poi_search_ios.png)
 
-Tapping to "{% data variables.android-values.shared_string_show_on_map %}" button allows [to show search results on the map like POI-overlay](/osmand/map/point-layers-on-map#points-of-interest-poi). It will be ease to find your places on the map, you can write search word on searching field or click to "x" for stopping your search and switch off POI-overlay. 
+Tapping to "{% data variables.android-values.shared_string_show_on_map %}" button allows [to show search results on the map like POI-overlay](/osmand/map/point-layers-on-map#points-of-interest-poi). It will be easy to find your places on the map, you can write search word on searching field or click to "x" for stopping your search and switch off POI-overlay. 
 
-Enable / disable points of interest of **selected** type on the map:
+Enable / disable POI layer on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.layer_poi %}
 
