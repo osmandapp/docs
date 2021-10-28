@@ -47,5 +47,10 @@ Enable / disable POI layer on the map:
 
 ### Favorite/Waypoint search
 
+In this search menu (Categories) it's easy way to find your [Favorites](/osmand/map/point-layers-on-map#favorites) and [Waypoints](/osmand/map/point-layers-on-map#track-points) by searching. 
+
+Just you need to enter your favorite/waypoint name, first results will be your favorites/waypoints.
+
+![Favorite search Android](/assets/images/search/favorite_search_android.png) ![Favorite search iOS](/assets/images/search/favorite_search_ios.png)
 
 ### Online search (Android)
