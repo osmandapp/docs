@@ -54,3 +54,13 @@ Just you need to enter your favorite/waypoint name, first results will be your f
 ![Favorite search Android](/assets/images/search/favorite_search_android.png) ![Favorite search iOS](/assets/images/search/favorite_search_ios.png)
 
 ### Online search (Android)
+
+In [Categories menu](/osmand/search/search-poi#how-to-use) there is the button "Online search". Pressing to this button opens online search menu.
+
+![Online search Android](/assets/images/search/online_search_android.png)
+
+If OsmAnd can not find something you can increase search radius by tapping to "Increase search radius" button.
+
+Or if you don't have any result you can provide feedback by clicking to "Send" button below device screen.
+
+![Online search feedback Android](/assets/images/search/online_search_feedback_android.png)
