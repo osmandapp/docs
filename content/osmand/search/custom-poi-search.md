@@ -26,8 +26,24 @@ Below screen there is info panel about number of selected categories. Below sele
 
 SAVE it:
  
-iOS: Save button - enter name
+**iOS**: Save button - enter name
 
-Android: can add filter , next SAVE button below of the screen -> enter name
+![Custom POI save iOS](/assets/images/search/custom_poi_save_ios.png)
+
+
+**Android**: can add filter , next blue "SAVE" button below of the screen -> enter name
+
+![Custom POI save Android](/assets/images/search/custom_poi_save_android.png) ![Custom POI save Android](/assets/images/search/custom_poi_save_1_android.png)
+
 
 ### Delete Custom POI filter
+
+**iOS**: button "{% data variables.ios-values.delete_custom_categories %}" in [Actions buttons](/osmand/search/search-poi#how-to-use)
+
+![Custom POI delete iOS](/assets/images/search/custom_poi_delete_ios.png)
+
+**Android**: you need to tap on Custom POI filter in the Categories list -> click to Filter button -> click to &#8285; -> Delete filter
+
+![Custom POI delete Android](/assets/images/search/custom_poi_delete_android.png) ![Custom POI delete Android](/assets/images/search/custom_poi_delete_1_android.png)
+
+![Custom POI delete Android](/assets/images/search/custom_poi_delete_2_android.png)
