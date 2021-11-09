@@ -1,6 +1,6 @@
 ---
 title: OsmAnd
-intro: "OsmAnd provides global offline map browsing and offline navigation for Android and iOS"
+intro: "OsmAnd provides global offline map browsing and offline navigation with many special tools for Android and iOS"
 versions: '*'
 ---
 
