@@ -25,13 +25,14 @@ versions: '*'
 ## Install OsmAnd
 OsmAnd is a mobile application for Maps and Navigation available for **Android** and **iOS**. You can download it on most popular Markets.
 
-**Android markets**: [Google play store](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_3?dchild=1&keywords=osmand&qid=1616685559&sr=8-3). 
+**Android markets**: [Google play store](https://play.google.com/store/apps/details?id=net.osmand), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_3?dchild=1&keywords=osmand&qid=1616685559&sr=8-3). 
 
-![Google play](/assets/images/steps/en-play-badge.png) ![Huawei](/assets/images/steps/huawei-app-gallery-badge.png) ![Amazon](/assets/images/steps/amazon-apps-store.png)
+[![Google play](/assets/images/steps/en-play-badge.png)](https://play.google.com/store/apps/details?id=net.osmand) [![Huawei](/assets/images/steps/huawei-app-gallery-badge.png)](
+**Android markets**: [Google play store](https://play.google.com/store/apps/details?id=net.osmand), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545) [![Amazon](/assets/images/steps/amazon-apps-store.png)](OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_3?dchild=1&keywords=osmand&qid=1616685559&sr=8-3)
 
 **iOS**: [App store](https://apps.apple.com/us/app/osmand-maps-travel-navigate/id934850257).
 
-![iOS](/assets/images/steps/app-store-badge.png)
+[![iOS](/assets/images/steps/app-store-badge.png)](https://apps.apple.com/us/app/osmand-maps-travel-navigate/id934850257)
 
 [Read more](/osmand/purchases) about OsmAnd versions and Purchases.  
 
