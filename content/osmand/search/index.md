@@ -1,6 +1,6 @@
 ---
 title: "Search"
-intro: "The tool provides searching feature for any use-cases: address search, POi search, custom search, history search, coordinates search."
+intro: "The tool provides the searching features for any use-cases: address search, POi search, custom search, history search, coordinate search."
 versions: '*'
 ---
 

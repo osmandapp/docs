@@ -1,6 +1,6 @@
 ---
 title: "{% data variables.android-values.plan_a_route %}"
-intro: "Plan future routes and trips"
+intro: "OsmAnd allows you to create your own routes and to use other user routes for trips."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}

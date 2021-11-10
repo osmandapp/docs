@@ -1,6 +1,6 @@
 ---
 title: "{% data variables.android-values.plugins_screen %}"
-intro: "Plugins activate advanced settings and additional functionality."
+intro: "Plugins activate advanced settings and additional functionality for OsmAnd like trip recording, showing terrain data on the map, street views by Mapillary, offline Wikipedia articles on the map and etc."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}

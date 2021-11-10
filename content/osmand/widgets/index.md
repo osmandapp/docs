@@ -1,6 +1,6 @@
 ---
 title: "Map Widgets"
-intro: "Widgets are User Interface elements that are displayed over the map screen & not attached to the map location. They provide additional information about current route, speed, altitude, recorded track & also allow to quickly interact with application."
+intro: "Widgets are User Interface elements that are displayed over the map screen & not attached to the map location. They provide additional information about the current route, speed, altitude, recorded track, etc. & also allow to quickly interact with the application."
 versions: '*'
 ---
 
