@@ -4,6 +4,8 @@ intro: "OsmAnd provides global offline map browsing and offline navigation with 
 versions: '*'
 ---
 
+![LOGO OsmAnd](/assets/images/site/logo_osmand.png)
+
 ## User Documentation
 {% link_with_intro /start-with %}
 {% link_with_intro /map %}
