@@ -21,6 +21,7 @@ versions: '*'
 
 ## Get OsmAnd
 OsmAnd is available via
+
 Android:
  - {% data reusables.links.osmand-plus-google-play %}
  - [OsmAnd Free on Google Play](https://play.google.com/store/apps/details?id=net.osmand)

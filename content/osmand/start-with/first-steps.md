@@ -27,7 +27,11 @@ OsmAnd is a mobile application for Maps and Navigation available for **Android**
 
 **Android markets**: [Google play store](https://play.google.com/store/apps/details?id=net.osmand&hl=en&gl=US), [Huawei AppGallery](https://appgallery.huawei.com/#/app/C101486545), [Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/ref=sr_1_3?dchild=1&keywords=osmand&qid=1616685559&sr=8-3). 
 
+![Google play](/assets/images/steps/en-play-badge.png) ![Huawei](/assets/images/steps/huawei-app-gallery-badge.png) ![Amazon](/assets/images/steps/amazon-apps-store.png)
+
 **iOS**: [App store](https://apps.apple.com/us/app/osmand-maps-travel-navigate/id934850257).
+
+![iOS](/assets/images/steps/app-store-badge.png)
 
 [Read more](/osmand/purchases) about OsmAnd versions and Purchases.  
 
@@ -35,7 +39,7 @@ OsmAnd is a mobile application for Maps and Navigation available for **Android**
 
 Our goal is to create a fully functional map-oriented application that could be used offline & online for various purposes. The application is full of features, so you don't need to switch between different apps and you will have everything at your fingertips:
 - Browse Worldwide Map with lots of details displayed with [many map styles](/osmand/map/vector-maps).
-- Display, search and save various [Points of interest](/osmand/map/point-layers-on-map).
+- Display,  [search](/osmand/search/search-poi) and save various [Points of interest](/osmand/map/point-layers-on-map).
 - [Plan a route](/osmand/plan-route/create-route) by car, bicycle, foot and combine into multi modal routes.
 - Start [voice guided navigation](/osmand/navigation/route-navigation) with screen on and off.
 - Make your tourist trip rich with offline [Wikipedia](/osmand/plugins/wikipedia) and [Wikivoyage](/osmand/plan-route/travel-guides).
