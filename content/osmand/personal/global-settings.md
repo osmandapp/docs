@@ -1,6 +1,6 @@
 ---
 title: "Global settings"
-intro: "Global settings"
+intro: "Common settings to all application profiles."
 versions: '*'
 ---
 
