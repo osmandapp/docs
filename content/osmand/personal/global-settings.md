@@ -38,7 +38,7 @@ versions: '*'
 - {% data variables.ios-values.do_not_show_discount %} - control popups, dialogs and notifications. Add for ANDROID (start-up message and download map dialog).
 
 
-> Changing OsmAnd app language: iOS device -> Settings -> OsmAnd maps -> Language
+> `Changing OsmAnd app language: iOS device -> Settings -> OsmAnd maps -> Language`
 
 
 {% endios %}
