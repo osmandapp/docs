@@ -8,6 +8,8 @@ versions: '*'
 
 ## Global settings
 
+Global settings are common to all application profiles. In fact, these settings are the settings of OsmAnd system.
+
 {% android %}
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.osmand_settings %}
@@ -42,9 +44,6 @@ Changing OsmAnd app language: iOS device -> Settings -> OsmAnd maps -> Language
 {% endnote %}
 
 {% endios %}
-
-
-
 
 
 ### Data storage folder (Android)
