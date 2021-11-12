@@ -37,9 +37,9 @@ versions: '*'
 - {% data variables.ios-values.send_anonymous_data %} - send to OsmAnd map download statistics, we are not collecting location data, or any personal info. Link to our privacy.
 - {% data variables.ios-values.do_not_show_discount %} - control popups, dialogs and notifications. Add for ANDROID (start-up message and download map dialog).
 
-
-> `Changing OsmAnd app language: iOS device -> Settings -> OsmAnd maps -> Language`
-
+{% note %}
+Changing OsmAnd app language: iOS device -> Settings -> OsmAnd maps -> Language
+{% endnote %}
 
 {% endios %}
 
