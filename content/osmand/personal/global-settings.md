@@ -41,9 +41,7 @@ Global settings are common to all application profiles. In fact, these settings 
 ![General Settings Proxy Android](/assets/images/personal/profiles/general_settings_proxy_android.png)
 
 - {% data variables.android-values.uninstall_speed_cameras %} - allows activating or not Speed camera POI's ([alert widget of speed camearas](/osmand/widgets/nav-widgets#alert-types)). In some countries or regions, the use of speed camera warning applications is prohibited by law. You need to make a choice depending on the law of your country.
-
 Select "Keep active" and you will receive alerts and warnings about speed cameras.
-
 Select "Uninstall". All data related to speed cameras: alerts, notifications, POIs will be deleted until OsmAnd is completely reinstalled.
 
 ![General Settings Cameras Android](/assets/images/personal/profiles/general_settings_cameras_android.png)
