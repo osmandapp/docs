@@ -26,7 +26,7 @@ Global settings are common to all application profiles. In fact, these settings 
 
 ![General Settings Collected data Android](/assets/images/personal/profiles/general_settings_collected_data_android.png)
 
-- {% data variables.android-values.dialogs_and_notifications_title %} - allows switchin on/off popups, dialogs and notifications. It's [the download map dialog](/osmand/start-with/download-maps#download---map-zoom-in) and startp-up message (like promotion, quiz and etc.).
+- {% data variables.android-values.dialogs_and_notifications_title %} - allows switching on/off popups, dialogs and notifications. It's [the download map dialog](/osmand/start-with/download-maps#download---map-zoom-in) and startp-up message (like promotion, quiz and etc.).
 
 ![General Settings notifications Android](/assets/images/personal/profiles/general_settings_notifications_android.png)
 
@@ -54,31 +54,20 @@ Select "Uninstall". All data related to speed cameras: alerts, notifications, PO
 
 ![Profiles General Settings iOS](/assets/images/personal/profiles/general_settings_ios.png)
 
-- {% data variables.ios-values.settings_preset %} - select the profile, that will be used on application start (lase used or from profile list).
-- {% data variables.android-values.preferred_locale %} - choose language of OsmAnd menu(Android).
-- {% data variables.ios-values.carplay_profile %} - 
-- {% data variables.ios-values.send_anonymous_data %} - send to OsmAnd map download statistics, we are not collecting location data, or any personal info. Link to our privacy.
-- {% data variables.ios-values.do_not_show_discount %} - control popups, dialogs and notifications. Add for ANDROID (start-up message and download map dialog).
+- {% data variables.ios-values.settings_preset %} - select the profile, that will be used on application start (lase used or from profile list). Here you can choose "{% data variables.ios-values.last_used %}" profile. It means that the last chosen profile will be used for the application.
+
+![General Settings Profile iOS](/assets/images/personal/profiles/general_settings_profile_ios.png)
+
+- {% data variables.ios-values.carplay_profile %} - profile that will be used while connected to [CarPlay](https://support.apple.com/en-gb/HT205634).
+- {% data variables.ios-values.do_not_show_discount %} - allows switching on/off popups, dialogs and notifications. It's [the download map dialog](/osmand/start-with/download-maps#download---map-zoom-in) and startp-up message (like promotion, quiz and etc.).
+
+![General Settings Dialogs iOS](/assets/images/personal/profiles/general_settings_dialogs_ios.png)
+
+- {% data variables.ios-values.send_anonymous_data %} - allows collecting or not next anonymous usage data of OsmAnd: Maps downloaded. No data about your position or locations you view on the map are collected. [Privace Policy of OsmAnd](https://osmand.net/help-online/privacy-policy).
 
 {% note %}
 Changing OsmAnd app language: iOS device -> Settings -> OsmAnd maps -> Language
 {% endnote %}
 
 {% endios %}
-
-
-### Data storage folder (Android)
-
-![Profiles Storage Settings Android](/assets/images/personal/profiles/general_settings_storage_android.png) ![Profiles Storage Settings 1 Android](/assets/images/personal/profiles/general_settings_storage_1_android.png)
-
-### Dialogs and notifications
-
-**Android**
-
-Add promotion screen
-
-![General settings Dialogs and notifications Android](/assets/images/personal/profiles/general_settings_dialogs_android.png) ![Profiles Storage Dialogs and notifications 1 Android](/assets/images/personal/profiles/general_settings_dialogs_android_1.png)
-
-**iOS**
-Add promotions screen
 
