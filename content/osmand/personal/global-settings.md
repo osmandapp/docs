@@ -16,7 +16,7 @@ Global settings are common to all application profiles. In fact, these settings 
 
 ![Profiles General Settings Android](/assets/images/personal/profiles/general_settings_android.png)
 
-- {% data variables.android-values.settings_preset %} - select the profile, that will be used on application start (lase used or from profile list).
+- {% data variables.android-values.settings_preset %} - select the profile, that will be used on application start (lase used or from profile list). Here you can choose {% data variables.android-values.settings_preset %}
 - {% data variables.android-values.preferred_locale %} - choose language of OsmAnd menu(Android).
 - {% data variables.android-values.application_dir %} - [link](/osmand/personal/global-settings#data-storage-folder-android).
 - {% data variables.android-values.analytics_pref_title %} - send to OsmAnd map download statistics, we are not collecting location data, or any personal info. Link to our privacy.
