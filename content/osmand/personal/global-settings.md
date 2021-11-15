@@ -4,11 +4,13 @@ intro: "Common settings to all application profiles."
 versions: '*'
 ---
 
-{% data reusables.general.article-not-complete %}
-
 ## Global settings
 
 Global settings are common to all application profiles. In fact, these settings are the settings of OsmAnd system.
+
+{% default %}
+
+{% enddefault %}
 
 {% android %}
 
@@ -70,4 +72,7 @@ Changing OsmAnd app language: iOS device -> Settings -> OsmAnd maps -> Language
 {% endnote %}
 
 {% endios %}
+
+
+{% data reusables.general.article-not-complete %}
 
