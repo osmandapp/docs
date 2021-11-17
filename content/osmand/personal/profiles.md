@@ -9,15 +9,11 @@ versions: '*'
 
 {% default %}
 
+{% android %}
+
 Settings for Applicatin Profiles:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile)
-
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %}
-
-{% enddefault %}
-
-{% android %}
 
 ![Profiles Settings Android](/assets/images/personal/profiles/profile_settings_android.png)
 
@@ -25,9 +21,15 @@ Settings for Applicatin Profiles:
 
 {% ios %}
 
+Settings for Applicatin Profiles:
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %}
+
  ![Profiles Settings iOS](/assets/images/personal/profiles/profile_settings_ios.png)
 
  {% endios %}
+
+ {% enddefault %}
 
 ## General settings
 
