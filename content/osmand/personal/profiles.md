@@ -1,10 +1,13 @@
 ---
 title: "Profiles (Settings)"
-intro: "Profiles (Settings)"
+intro: "Each profile is available for full customization. In fact, each profile can become a separate application for the needs of the user."
 versions: '*'
 ---
 
 {% data reusables.general.article-not-complete %}
+
+
+{% default %}
 
 Settings for Applicatin Profiles:
 
@@ -12,8 +15,19 @@ Settings for Applicatin Profiles:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %}
 
+{% enddefault %}
 
-![Profiles Settings Android](/assets/images/personal/profiles/profile_settings_android.png) ![Profiles Settings iOS](/assets/images/personal/profiles/profile_settings_ios.png)
+{% android %}
+
+![Profiles Settings Android](/assets/images/personal/profiles/profile_settings_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+ ![Profiles Settings iOS](/assets/images/personal/profiles/profile_settings_ios.png)
+
+ {% endios %}
 
 ## General settings
 
