@@ -27,9 +27,9 @@ To start setting up an application profile:
 
  {% endios %}
 
-# Profile settings
+## Profile settings
 
-## General settings
+### General settings
 
 {% android %}
 
@@ -49,7 +49,7 @@ In this section there are settings of appearance, units&formats
 
  {% endios %}
 
-### Appearance
+#### Appearance
 
 ![Profiles General Settings Appearance Android](/assets/images/personal/profiles/profile_gs_appearance_android.png) ![Profiles General Settings Apperance iOS](/assets/images/personal/profiles/profile_gs_appearance_ios.png)
 
@@ -87,7 +87,7 @@ In this section there are settings of appearance, units&formats
 {% endios %}
 
 
-### Units & formats
+#### Units & formats
 
 ![Profiles General Settings Units & formats Android](/assets/images/personal/profiles/profile_gs_unitsformats_android.png) ![Profiles General Settings Units & formats iOS](/assets/images/personal/profiles/profile_gs_unitsformats_ios.png)
 
@@ -122,7 +122,7 @@ In this section there are settings of appearance, units&formats
 
 {% endios %}
 
-### Other
+#### Other
 
 ![Profiles General Settings Other Android](/assets/images/personal/profiles/profile_gs_other_android.png) ![Profiles General Settings Other iOS](/assets/images/personal/profiles/profile_gs_unitsformats_ios.png)
 
@@ -159,7 +159,7 @@ In this section there are settings of appearance, units&formats
 
 {% endios %}
 
-## Navigation settings
+### Navigation settings
 
 Not for Browse profile
 
@@ -186,7 +186,7 @@ Not for Browse profile
 
 {% endios %}
 
-### Navigation
+#### Navigation
 
 - {% data variables.android-values.nav_type_hint %} - link
 - {% data variables.android-values.route_parameters %} - link
@@ -226,7 +226,7 @@ Cuztomize route line
 
 {% endios %}
 
-### Other
+#### Other
 
 - {% data variables.android-values.map_during_navigation %} - link
 - {% data variables.android-values.animate_my_location %}(Android) - description
@@ -247,7 +247,7 @@ Cuztomize route line
 {% endios %}
 
 
-## Configure map
+### Configure map
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.configure_map %}
 
@@ -282,7 +282,7 @@ Set parameters for [Configure map](/osmand/map/configure-map-menu) menu for chos
 {% endios %}
 
 
-## Configure screen
+### Configure screen
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.layer_map_appearance %}
 
@@ -309,7 +309,7 @@ Set parameters for [Configure screen](/osmand/widgets/configure-screen) menu for
 
 {% endios %}
 
-## Profile appearance
+### Profile appearance
 
 Change profile appearance
 
@@ -332,7 +332,7 @@ Change profile appearance
 {% endios %}
 
 
-### Name, Color, Icon
+#### Name, Color, Icon
 
 ![Profile Appearance Android](/assets/images/personal/profiles/profile_appearance_settings_android.png) ![Profile Appearance iOS](/assets/images/personal/profiles/profile_appearance_settings_ios.png)
 
@@ -364,7 +364,7 @@ Change profile appearance
 {% endios %}
 
 
-### Appearance on the map
+#### Appearance on the map
 
 ![Profile Appearance on the map Android](/assets/images/personal/profiles/profile_appearance_map_android.png) ![Profile Appearance on the map iOS](/assets/images/personal/profiles/profile_appearance_map_ios.png)
 
@@ -390,7 +390,7 @@ Change profile appearance
 {% endios %}
 
 
-## UI Customization
+### UI Customization
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.ui_customization %}
 
@@ -413,7 +413,7 @@ Turn off unused [plugins](/osmand/personal/profiles#plugin-settings-android) for
 
 {% endios %}
 
-### Drawer
+#### Drawer
 
 Reorder or hide items from the Drawer. 
 Button:
@@ -446,7 +446,7 @@ Button:
 
 {% endios %}
 
-### Configure map
+#### Configure map
 
 Reorder or hide items from the [Configur map](/osmand/map/configure-map-menu).
 Button:
@@ -479,7 +479,7 @@ Button:
 
 {% endios %}
 
-### Context menu actions
+#### Context menu actions
 
 Reorder or hide items from the [Context menu actions](/osmand/map/map-context-menu).
 Button:
@@ -506,7 +506,7 @@ Button:
 
 {% endios %}
 
-# Plugin settings
+## Plugin settings
 
 Settings of plugin for chosen profile
 [Link to Plugins](https://docs.osmand.net/en/main@latest/osmand/plugins)
@@ -521,21 +521,21 @@ Settings of plugin for chosen profile
 
 {% endios %}
 
-## Trip recording
+### Trip recording
 
 link
 
-## Audio / Video notes
+### Audio / Video notes
 
-## OpenStreetMap editing
+### OpenStreetMap editing
 
-## OpenPlaceReviews
+### OpenPlaceReviews
 
-## Accesibility
+### Accesibility
 
-## OsmAnd developmnet
+### OsmAnd developmnet
 
-# Actions
+## Actions
 
 ![Profiles Actions Settings Android](/assets/images/personal/profiles/profile_actions_settings_android.png) ![Profiles Actions Settings iOS](/assets/images/personal/profiles/profile_actions_settings_ios.png)
 
