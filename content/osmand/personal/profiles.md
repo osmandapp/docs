@@ -27,7 +27,26 @@ To start setting up an application profile:
 
  {% endios %}
 
-## Profile settings
+## Profile configuration
+
+This section contains all the settings related to the appearance, navigation settings, map rendering, configure menu, and screen of a profile.
+
+{% note %}
+All settings affect the selected application profile only.
+{% endnote %}
+
+{% android %}
+
+![Profiles Settings Android](/assets/images/personal/profiles/profile_settings_menu_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+ ![Profiles Settings iOS](/assets/images/personal/profiles/profile_settings_menu_ios.png)
+
+ {% endios %}
+
 
 ### General settings
 
