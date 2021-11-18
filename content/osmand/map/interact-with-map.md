@@ -61,7 +61,7 @@ Compass widget indicates how map is oriented on the device screen and top arrow 
 - **{% data variables.android-values.rotate_map_bearing_opt %}** - map is being rotated by bearing, i.e. direction of your movement (GPS direction) is synchronized with the map. [Read more](#rotate-map-by-bearing).
 - **{% data variables.android-values.rotate_map_compass_opt %}** - map is being synchronized with the device compass orientation. So, [Compass widget](/osmand/widgets/map-buttons/#compass) will point to actual Earth North if device is held flat. In case compass sensor is not present on device, map orientation won't change.
 
-Map orientation could be changed in Profile settings:
+Map orientation could be changed in [Profile settings](/osmand/personal/profiles#appearance):
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile%} → {% data variables.android-values.general_settings_2 %}  → {% data variables.android-values.rotate_map_to_bearing %}
 
@@ -76,12 +76,12 @@ If rotate map by bearing is enabled, then the map will be oriented, so that head
 
 ## Settings
 
-### Disable all animations (Android)
+### Disable all animations
 
 You can disable all map animations during map change (gestures and buttons) in Settings {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings%} → {% data variables.android-values.shared_string_profiles %} → {% data variables.android-values.general_settings_2 %} → 
 {% data variables.android-values.do_not_use_animations %}.
 
-### Extra compass settings (Android)
+### Extra compass settings
 
 - ** Use Kalman filter (Android)** - smoothen rotation of the map with a slower rotation animation though it introduces a small delay (< 1 second) till:  
 
@@ -91,7 +91,7 @@ You can disable all map animations during map change (gestures and buttons) in S
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings%} → {% data variables.android-values.shared_string_profiles %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.shared_string_other %} → {% data variables.android-values.use_magnetic_sensor %}
 
-## External input device buttons (Android)
+## External input device buttons
 
 Select an external control device, such as a keyboard or WunderLINQ.
 
