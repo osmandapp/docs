@@ -23,9 +23,9 @@ To start setting up an application profile:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %}
 
- ![Profiles Settings iOS](/assets/images/personal/profiles/profile_settings_ios.png)
+![Profiles Settings iOS](/assets/images/personal/profiles/profile_settings_ios.png)
 
- {% endios %}
+{% endios %}
 
 ## Profile configuration
 
@@ -43,52 +43,40 @@ All settings affect the selected application profile only.
 
 {% ios %}
 
- ![Profiles Settings iOS](/assets/images/personal/profiles/profile_settings_menu_ios.png)
+![Profiles Settings iOS](/assets/images/personal/profiles/profile_settings_menu_ios.png)
 
- {% endios %}
+{% endios %}
 
 
 ### General settings
+
+This section of settings contains settings of the cursor on the map and map view, settings of units & formats of map and profile data, settings of external input devices, and other sensors.
 
 {% android %}
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.general_settings_2 %}
 
-![Profiles General Settings Android](/assets/images/personal/profiles/profile_gs_android.png)
-
 {% endandroid %}
 
 {% ios %}
 
-In this section there are settings of appearance, units&formats
-
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %}
 
-![Profiles General Settings iOS](/assets/images/personal/profiles/profile_gs_ios.png)
+{% endios %}
 
- {% endios %}
+#### *Appearance
 
-#### Appearance
-
-![Profiles General Settings Appearance Android](/assets/images/personal/profiles/profile_gs_appearance_android.png) ![Profiles General Settings Apperance iOS](/assets/images/personal/profiles/profile_gs_appearance_ios.png)
-
-- {% data variables.android-values.choose_osmand_theme %}(Android) - 
-- {% data variables.android-values.rotate_map_to_bearing %} - 
-- {% data variables.android-values.always_center_position_on_map %} - 
-- {% data variables.ios-values.allow_3D_view%}(iOS) -
-- {% data variables.android-values.map_screen_orientation %}(Android) - 
-- {% data variables.android-values.screen_control %}(Android) - 
+In this section of the General settings menu, you can set parameters for the cursor on the map and map view for the chosen profile.
 
 {% android %}
 
 ![Profiles General Settings Appearance Android](/assets/images/personal/profiles/profile_gs_appearance_android.png)
 
-- {% data variables.android-values.choose_osmand_theme %}(Android) - 
+- {% data variables.android-values.choose_osmand_theme %} - 
 - {% data variables.android-values.rotate_map_to_bearing %} - 
 - {% data variables.android-values.always_center_position_on_map %} - 
-- {% data variables.ios-values.allow_3D_view%}(iOS) -
-- {% data variables.android-values.map_screen_orientation %}(Android) - 
-- {% data variables.android-values.screen_control %}(Android) - 
+- {% data variables.android-values.map_screen_orientation %} - 
+- {% data variables.android-values.screen_control %} - 
 
 {% endandroid %}
 
@@ -96,13 +84,9 @@ In this section there are settings of appearance, units&formats
 
 ![Profiles General Settings Apperance iOS](/assets/images/personal/profiles/profile_gs_appearance_ios.png)
 
-- {% data variables.android-values.choose_osmand_theme %}(Android) - 
-- {% data variables.android-values.rotate_map_to_bearing %} - 
-- {% data variables.android-values.always_center_position_on_map %} - 
-- {% data variables.ios-values.allow_3D_view%}(iOS) -
-- {% data variables.android-values.map_screen_orientation %}(Android) - 
-- {% data variables.android-values.screen_control %}(Android) - 
-
+- {% data variables.android-values.rotate_map_to_bearing %} - allows [to set orientation the map view](/osmand/map/interact-with-map#map-orientation-modes).
+- {% data variables.ios-values.allow_3D_view%} - enables/disables 2.5D view of the map view. Use ["Gesture"](/osmand/map/interact-with-map#gestures) or ["My Location button"](/osmand/map/interact-with-map#my-location--zoom) for 3D view
+- {% data variables.android-values.always_center_position_on_map %} - allows to use center or bottom screen position for the cursor ("My location"). In this mode the center of the map will be located slightly below the center of the device. It allows seeing more map information ahead of your movement which is usable in the navigation mode.
 {% endios %}
 
 
