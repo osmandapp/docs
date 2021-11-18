@@ -27,6 +27,8 @@ To start setting up an application profile:
 
  {% endios %}
 
+# Profile settings
+
 ## General settings
 
 {% android %}
@@ -504,7 +506,7 @@ Button:
 
 {% endios %}
 
-## Plugin settings
+# Plugin settings
 
 Settings of plugin for chosen profile
 [Link to Plugins](https://docs.osmand.net/en/main@latest/osmand/plugins)
@@ -519,21 +521,21 @@ Settings of plugin for chosen profile
 
 {% endios %}
 
-### Trip recording
+## Trip recording
 
 link
 
-### Audio / Video notes
+## Audio / Video notes
 
-### OpenStreetMap editing
+## OpenStreetMap editing
 
-### OpenPlaceReviews
+## OpenPlaceReviews
 
-### Accesibility
+## Accesibility
 
-### OsmAnd developmnet
+## OsmAnd developmnet
 
-## Actions
+# Actions
 
 ![Profiles Actions Settings Android](/assets/images/personal/profiles/profile_actions_settings_android.png) ![Profiles Actions Settings iOS](/assets/images/personal/profiles/profile_actions_settings_ios.png)
 
