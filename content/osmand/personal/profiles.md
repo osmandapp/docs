@@ -9,7 +9,7 @@ versions: '*'
 
 {% android %}
 
-For opening the settings menu of application profile:
+To start setting up an application profile:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile)
 
@@ -19,7 +19,7 @@ For opening the settings menu of application profile:
 
 {% ios %}
 
-For opening the settings menu of application profile:
+To start setting up an application profile:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %}
 
@@ -38,6 +38,8 @@ For opening the settings menu of application profile:
 {% endandroid %}
 
 {% ios %}
+
+In this section there are settings of appearance, units&formats
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %}
 
