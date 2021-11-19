@@ -64,7 +64,7 @@ This section of settings contains settings of the cursor on the map and map view
 
 {% endios %}
 
-#### *Appearance
+#### **Appearance**
 
 In this section of the General settings menu, you can set parameters for the cursor on the map and map view for the chosen profile.
 
@@ -72,11 +72,11 @@ In this section of the General settings menu, you can set parameters for the cur
 
 ![Profiles General Settings Appearance Android](/assets/images/personal/profiles/profile_gs_appearance_android.png)
 
-- {% data variables.android-values.choose_osmand_theme %} - 
-- {% data variables.android-values.rotate_map_to_bearing %} - 
-- {% data variables.android-values.always_center_position_on_map %} - 
-- {% data variables.android-values.map_screen_orientation %} - 
-- {% data variables.android-values.screen_control %} - 
+- {% data variables.android-values.choose_osmand_theme %} - sets a day or night theme for the application. This setting doesn't change ["Map mode"](/osmand/map/vector-maps#map-mode) parameter.
+- {% data variables.android-values.rotate_map_to_bearing %} - allows [to set orientation the map view](/osmand/map/interact-with-map#map-orientation-modes).
+- {% data variables.android-values.always_center_position_on_map %} - allows to use center or bottom screen position for the cursor (["My location"](/osmand/map/interact-with-map#my-location--zoom)). In this mode the center of the map will be located slightly below the center of the device. It allows seeing more map information ahead of your movement which is usable in the navigation mode.
+- {% data variables.android-values.map_screen_orientation %} - sets the screen position for the OsmAnd application: {% data variables.android-values.map_orientation_portrait %}, {% data variables.android-values.map_orientation_landscape %}, {% data variables.android-values.map_screen_orientation %}.
+- {% data variables.android-values.screen_control %} - opens [the screen control menu](/osmand/navigation/route-navigation#turn-on-screen), where you can select parameters for your device screen during navigation for keeping device battery consumption.
 
 {% endandroid %}
 
@@ -86,7 +86,8 @@ In this section of the General settings menu, you can set parameters for the cur
 
 - {% data variables.android-values.rotate_map_to_bearing %} - allows [to set orientation the map view](/osmand/map/interact-with-map#map-orientation-modes).
 - {% data variables.ios-values.allow_3D_view%} - enables/disables 2.5D view of the map view. Use ["Gesture"](/osmand/map/interact-with-map#gestures) or ["My Location button"](/osmand/map/interact-with-map#my-location--zoom) for 3D view
-- {% data variables.android-values.always_center_position_on_map %} - allows to use center or bottom screen position for the cursor ("My location"). In this mode the center of the map will be located slightly below the center of the device. It allows seeing more map information ahead of your movement which is usable in the navigation mode.
+- {% data variables.android-values.always_center_position_on_map %} - allows to use center or bottom screen position for the cursor (["My location"](/osmand/map/interact-with-map#my-location--zoom)). In this mode the center of the map will be located slightly below the center of the device. It allows seeing more map information ahead of your movement which is usable in the navigation mode.
+
 {% endios %}
 
 
