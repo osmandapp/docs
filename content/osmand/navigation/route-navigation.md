@@ -105,7 +105,7 @@ Navigation instruction in the background mode.
 
 Voice prompts in backgroun during navigation. [Voice navigation](/osmand/navigation/voice-navigation).
 
-### Notification (Android)
+### Notification
 
 Notification info: Turn-by-turn instructions; arrows; arrival time and time to go, current speed.
 
@@ -116,7 +116,7 @@ Buttons:
 - {% data variables.android-values.shared_string_pause %} - allows to pause your navigation.
 - {% data variables.android-values.shared_string_resume %} - allows to resume your navigation.
 
-### Turn on screen (Android)
+### Turn on screen
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.general_settings_2 %} → {% data variables.android-values.screen_control %} 
 
