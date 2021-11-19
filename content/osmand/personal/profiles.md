@@ -91,19 +91,32 @@ In this section of the General settings menu, you can set parameters for the cur
 {% endios %}
 
 
-#### Units & formats
+#### **Units & formats**
 
-![Profiles General Settings Units & formats Android](/assets/images/personal/profiles/profile_gs_unitsformats_android.png) ![Profiles General Settings Units & formats iOS](/assets/images/personal/profiles/profile_gs_unitsformats_ios.png)
-
-- {% data variables.android-values.driving_region %} - 
-- {% data variables.android-values.unit_of_length %} - 
-- {% data variables.android-values.coordinates_format %} - 
-- {% data variables.android-values.angular_measeurement %} - 
-- {% data variables.android-values.default_speed_system %} - 
+In this section you can set parameters of units & formats for chosen application profile.
 
 {% android %}
 
-![Profiles General Settings Units & formats iOS](/assets/images/personal/profiles/profile_gs_unitsformats_ios.png)
+![Profiles General Settings Units & formats Android](/assets/images/personal/profiles/profile_gs_unitsformats_android.png)
+
+| Parameter | Format | Note |
+|:------------|:---------------|:---------------|
+|**{% data variables.android-values.driving_region %}**| {% data variables.android-values.driving_region_automatic %} |  |
+|            | {% data variables.android-values.driving_region_europe_asia %}   | {% data variables.android-values.right_side_navigation %}, {% data variables.android-values.si_km_m %}  |
+|            | {% data variables.android-values.driving_region_us %}   |  {% data variables.android-values.right_side_navigation %}, {% data variables.android-values.si_mi_feet %}  |
+|            | {% data variables.android-values.driving_region_canada %}   | {% data variables.android-values.right_side_navigation %}, {% data variables.android-values.si_km_m %}   |
+|            | {% data variables.android-values.driving_region_uk %}   |  {% data variables.android-values.left_side_navigation %}, {% data variables.android-values.si_mi_feet %}   |
+|            | {% data variables.android-values.driving_region_japan %}   | {% data variables.android-values.left_side_navigation %}, {% data variables.android-values.si_km_m %}   |
+|            | {% data variables.android-values.driving_region_australia %}   |  {% data variables.android-values.left_side_navigation %}, {% data variables.android-values.si_km_m %}  |
+|**{% data variables.android-values.unit_of_length %}**| {% data variables.android-values.si_km_m %} |  |
+|          | {% data variables.android-values.si_mi_feet %} |  |
+|          | {% data variables.android-values.si_mi_feet %} |  |
+|          | {% data variables.android-values.si_mi_feet %} |  |
+|          | {% data variables.android-values.si_mi_feet %} |  |
+|          | {% data variables.android-values.si_mi_feet %} |  |
+|**{% data variables.android-values.coordinates_format %}**|  |  |
+
+
 
 - {% data variables.android-values.driving_region %} - 
 - {% data variables.android-values.unit_of_length %} - 
