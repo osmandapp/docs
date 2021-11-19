@@ -110,12 +110,24 @@ In this section you can set parameters of units & formats for chosen application
 |            | {% data variables.android-values.driving_region_australia %}   |  {% data variables.android-values.left_side_navigation %}, {% data variables.android-values.si_km_m %}  |
 |**{% data variables.android-values.unit_of_length %}**| {% data variables.android-values.si_km_m %} |  |
 |          | {% data variables.android-values.si_mi_feet %} |  |
-|          | {% data variables.android-values.si_mi_feet %} |  |
-|          | {% data variables.android-values.si_mi_feet %} |  |
-|          | {% data variables.android-values.si_mi_feet %} |  |
-|          | {% data variables.android-values.si_mi_feet %} |  |
-|**{% data variables.android-values.coordinates_format %}**|  |  |
+|          | {% data variables.android-values.si_mi_meters %} |  |
+|          | {% data variables.android-values.si_mi_yard %} |  |
+|          | {% data variables.android-values.si_nm %} |  |
+|**{% data variables.android-values.coordinates_format %}**| {% data variables.android-values.dd_mm_mmmm_format %} | Example: 50.12333° 19.93233° (Lat Long) |
+|          | {% data variables.android-values.dd_mm_mmm_format %} | Example: 50°7.393′ 19°55.941′ (Lat Long)  |
+|          | {% data variables.android-values.dd_mm_ss_format %} | Example: 50°7′23.6″ 19°55′56.4″ (Lat Long) 23°27′30″ |
+|          | {% data variables.android-values.navigate_point_format_utm %} | 34N 5552876 423678 (Zone Northing Easting) . [{% data variables.android-values.utm_format_descr %}](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system) |
+|          | {% data variables.android-values.navigate_point_format_mgrs %} | Example: 34U DA 23678 52873 . [{% data variables.android-values.mgrs_format_descr %}](https://en.wikipedia.org/wiki/Military_Grid_Reference_System)  |
+|          | {% data variables.android-values.navigate_point_format_olc %} | Example:  9F2X4WFJ+7W ([Open Location Code](https://en.wikipedia.org/wiki/Open_Location_Code) represents area 9m x 14m)  |
 
+
+|Coordinates format| |
+|:------|:------|
+|{% data variables.android-values.dd_mm_mmm_format %} | 23°27.215′|
+|{% data variables.android-values.dd_mm_mmmm_format %} | 23°27.2152′|
+|{% data variables.android-values.dd_ddddd_format %} |23.48125°|
+|{% data variables.android-values.dd_dddddd_format %} | 23.481251°|
+|{% data variables.android-values.dd_mm_ss_format %} | 23°27′30″|
 
 
 - {% data variables.android-values.driving_region %} - 
