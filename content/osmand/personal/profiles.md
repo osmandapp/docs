@@ -119,15 +119,17 @@ In this section you can set parameters of units & formats for chosen application
 |          | {% data variables.android-values.navigate_point_format_utm %} | 34N 5552876 423678 (Zone Northing Easting) . [{% data variables.android-values.utm_format_descr %}](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system) |
 |          | {% data variables.android-values.navigate_point_format_mgrs %} | Example: 34U DA 23678 52873 . [{% data variables.android-values.mgrs_format_descr %}](https://en.wikipedia.org/wiki/Military_Grid_Reference_System)  |
 |          | {% data variables.android-values.navigate_point_format_olc %} | Example:  9F2X4WFJ+7W ([Open Location Code](https://en.wikipedia.org/wiki/Open_Location_Code) represents area 9m x 14m)  |
+|**{% data variables.android-values.coordinates_format %}**| Degrees 180° | All angular values have readings from 0° to 180° and from 0° to -180°.  |
+|          | Degrees 360° | All angular values have readings from 0° to 360°.  |
+|          | {% data variables.android-values.shared_string_milliradians %} | All angular values have [milliradian value](https://en.wikipedia.org/wiki/Milliradian).  |
+|**{% data variables.android-values.default_speed_system %}**| {% data variables.android-values.si_kmh %} | 90 km/h  |
+|          | {% data variables.android-values.si_mph %} | 55.92 mph  |
+|          | {% data variables.android-values.si_m_s %} | 30 m/s |
+|          | {% data variables.android-values.si_min_m %} | 1.073 min/m |
+|          | {% data variables.android-values.si_min_km %} | 0.667 min/km |
+|          | {% data variables.android-values.si_nm_h %} | 48.59 kn |
 
 
-|Coordinates format| |
-|:------|:------|
-|{% data variables.android-values.dd_mm_mmm_format %} | 23°27.215′|
-|{% data variables.android-values.dd_mm_mmmm_format %} | 23°27.2152′|
-|{% data variables.android-values.dd_ddddd_format %} |23.48125°|
-|{% data variables.android-values.dd_dddddd_format %} | 23.481251°|
-|{% data variables.android-values.dd_mm_ss_format %} | 23°27′30″|
 
 
 - {% data variables.android-values.driving_region %} - 
