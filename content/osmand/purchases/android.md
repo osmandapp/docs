@@ -61,6 +61,7 @@ The table shows all the features that are included in the paid and free packages
 | Unlimited map downloads | 7 maps (including updates) | ✔ | ✔ |
 | Monthly map updates <br> Once a month (15 days delay) | ✔ <br>* limited to 7 downloads | ✔ | ✔ |
 | Hourly map updates <br> (1 hour delay) | - | - | ✔ |
+| [Android Auto](https://www.android.com/auto/) | - | ✔ | ✔ |
 | Topo data (Contour lines and Terrain) | - | ✔ | ✔ |
 | Nautical depths | - | ✔ | ✔ |
 | Offline Wikipedia | - | ✔ | ✔ |
