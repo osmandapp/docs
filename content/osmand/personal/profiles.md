@@ -129,14 +129,16 @@ In this section you can set parameters of units & formats for chosen application
 |          | {% data variables.android-values.si_min_km %} | 0.667 min/km |
 |          | {% data variables.android-values.si_nm_h %} | 48.59 kn |
 
+#### **Other**
 
+![Profiles General Settings Other Android](/assets/images/personal/profiles/profile_gs_other_android.png)
 
-
-- {% data variables.android-values.driving_region %} - 
-- {% data variables.android-values.unit_of_length %} - 
-- {% data variables.android-values.coordinates_format %} - 
-- {% data variables.android-values.angular_measeurement %} - 
-- {% data variables.android-values.default_speed_system %} - 
+- {% data variables.android-values.external_input_device %} - {% data variables.android-values.sett_wunderlinq_ext_input %}, {% data variables.android-values.sett_generic_ext_input %}, {% data variables.android-values.sett_parrot_ext_input %}.
+- {% data variables.android-values.use_volume_buttons_as_zoom %} -  
+- {% data variables.android-values.use_kalman_filter_compass %} -  
+- {% data variables.android-values.use_magnetic_sensor %} -  
+- {% data variables.android-values.tap_on_map_to_hide_interface %} -  
+- {% data variables.android-values.do_not_use_animations %} -  
 
 
 {% endandroid %}
@@ -155,7 +157,7 @@ In this section you can set parameters of units & formats for chosen application
 
 #### Other
 
-![Profiles General Settings Other Android](/assets/images/personal/profiles/profile_gs_other_android.png) ![Profiles General Settings Other iOS](/assets/images/personal/profiles/profile_gs_unitsformats_ios.png)
+![Profiles General Settings Other Android](/assets/images/personal/profiles/profile_gs_other_android.png)
 
 - {% data variables.android-values.external_input_device %} - {% data variables.android-values.sett_wunderlinq_ext_input %}, {% data variables.android-values.sett_generic_ext_input %}, {% data variables.android-values.sett_parrot_ext_input %}(Android).
 - {% data variables.android-values.use_volume_buttons_as_zoom %}(Android) -  
@@ -168,12 +170,12 @@ In this section you can set parameters of units & formats for chosen application
 
 ![Profiles General Settings Other iOS](/assets/images/personal/profiles/profile_gs_unitsformats_ios.png)
 
-- {% data variables.android-values.external_input_device %} - {% data variables.android-values.sett_wunderlinq_ext_input %}, {% data variables.android-values.sett_generic_ext_input %}, {% data variables.android-values.sett_parrot_ext_input %}(Android).
 - {% data variables.android-values.use_volume_buttons_as_zoom %}(Android) -  
 - {% data variables.android-values.use_kalman_filter_compass %}(Android) -  
 - {% data variables.android-values.use_magnetic_sensor %}(Android) -  
 - {% data variables.android-values.tap_on_map_to_hide_interface %}(Android) -  
 - {% data variables.android-values.do_not_use_animations %}(Android) -  
+- {% data variables.android-values.external_input_device %} - {% data variables.android-values.sett_wunderlinq_ext_input %}, {% data variables.android-values.sett_generic_ext_input %}, {% data variables.android-values.sett_parrot_ext_input %}(Android).
 
 {% endandroid %}
 
