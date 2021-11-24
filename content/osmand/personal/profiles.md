@@ -172,6 +172,8 @@ In this section you can set parameters of units & formats for chosen application
 
 In this section, you can enable/disable buttons and input devices for OsmAnd, on or off animations for navigation mode, use or not fullscreen mode, magnetic sensor, Kalman filter.
 
+{% android %}
+
 ![Profiles General Settings Other Android](/assets/images/personal/profiles/profile_gs_other_android.png)
 
 
