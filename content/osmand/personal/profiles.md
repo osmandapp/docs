@@ -131,15 +131,17 @@ In this section you can set parameters of units & formats for chosen application
 
 #### **Other**
 
+In this section, you can enable/disable buttons and input devices for OsmAnd, on or off animations for navigation mode, use or not fullscreen mode, magnetic sensor, Kalman filter.
+
 ![Profiles General Settings Other Android](/assets/images/personal/profiles/profile_gs_other_android.png)
 
-- {% data variables.android-values.external_input_device %} - {% data variables.android-values.sett_wunderlinq_ext_input %}, {% data variables.android-values.sett_generic_ext_input %}, {% data variables.android-values.sett_parrot_ext_input %}.
-- {% data variables.android-values.use_volume_buttons_as_zoom %} -  
-- {% data variables.android-values.use_kalman_filter_compass %} -  
-- {% data variables.android-values.use_magnetic_sensor %} -  
-- {% data variables.android-values.tap_on_map_to_hide_interface %} -  
-- {% data variables.android-values.do_not_use_animations %} -  
 
+- {% data variables.android-values.use_volume_buttons_as_zoom %} - allows to use or not volume buttons of a device as [zoom](/osmand/map/interact-with-map#my-location--zoom).
+- [{% data variables.android-values.use_kalman_filter_compass %}](/osmand/map/interact-with-map#extra-compass-settings) - allows to use or not [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter) for smoothen rotation of the map with a slower rotation animation though it introduces a small delay (< 1 second) till.
+- [{% data variables.android-values.use_magnetic_sensor %}](/osmand/map/interact-with-map#extra-compass-settings) - allows to use or not [Magnetic sensor](https://en.wikipedia.org/wiki/Kalman_filter) for smoothen rotation of the map with a slower rotation animation though it introduces a small delay (< 1 second) till.
+- {% data variables.android-values.tap_on_map_to_hide_interface %} - use or not fullscreen mode of OsmAnd app on the device.
+- [{% data variables.android-values.do_not_use_animations %}](/osmand/map/interact-with-map#disable-all-animations) - allows to switch on/off animation for navigation mode. 
+- [{% data variables.android-values.external_input_device %}](/osmand/map/interact-with-map#external-input-device-buttons) - allows to add external input devices for control OsmAnd app by buttons of these devices. External input devices: {% data variables.android-values.sett_wunderlinq_ext_input %}, {% data variables.android-values.sett_generic_ext_input %}, {% data variables.android-values.sett_parrot_ext_input %}.
 
 {% endandroid %}
 
