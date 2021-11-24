@@ -249,21 +249,7 @@ Cuztomize route line
 - {% data variables.ios-values.nav_type_title %} - governs how routes are calculated. These are rules for routing your profile. It means that your bicycle profile has Cycling navigation type for example. You can import the routing file from any cloud storage app by opening it in OsmAnd. More about [Routing.xml on our Github page](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml).
 - {% data variables.ios-values.route_parameters %} - governs which parameters will be used during routing and which parameters will be showed on the device screen. During navigation you can change some of these parameters in ["Navigation Options"](/osmand/navigation/route-navigation#navigation-options). Below list of parameters:
 
-| Parameter | Format | Note |
-|:------------|:---------------|:---------------|
-|{% data variables.android-values.shared_string_sound %}| - allows to switch on/off navigation prompts and to open [Voice prompts](/osmand/navigation/voice-navigation) menu.| |
-|{% data variables.android-values.routing_attr_driving_style_name %} (bicycle..)| - allows to choose driving style for bicycle navigation type: {% data variables.android-values.| |routing_attr_prefer_unpaved_name %}, {% data variables.android-values.routing_attr_driving_style_safety_name %}, {% data variables.android-values.routing_attr_driving_style_balance_name %}, {% |data variables.android-values.routing_attr_driving_style_speed_name %}.| |
-|{% data variables.android-values.routing_attr_height_obstacles_name %} (bicycle..)| - allows to avoid strong uphills: {% data variables.android-values.routing_attr_relief_smoothness_factor_more_plains_name %}, {% data variables.android-values.routing_attr_relief_smoothness_factor_plains_name %}, {% data variables.android-values.routing_attr_relief_smoothness_factor_more_plains_name %}.| |
-|{% data variables.android-values.routing_attr_allow_motorway_name %}| (bicycle..) - | |
-|{% data variables.android-values.impassable_road %}| - allows to select a road you want to avoid during navigation, either on the map.| |
-|{% data variables.android-values.show_along_the_route %}| - allows to shows [POI, My Favourites](/osmand/widgets/nav-widgets#approach-poisfavorites), [Traffic warnings](/osmand/widgets/nav-widgets#alert-widget) along the route.| |
-|{% data variables.android-values.follow_track %} |- allows to choose a track for [navigation by it](/osmand/navigation/gpx-navigation).| |
-|{% data variables.android-values.routing_attr_allow_private_name %}| - allows to navigate to private zone.| |
-|{% data variables.android-values.routing_attr_short_way_name %}| - calculates navigation by fuel-efficient algorithm.| |
-|{% data variables.android-values.temporary_conditional_routing %} |- allows to consider temporary limitations.| |
-|{% data variables.android-values.routing_settings_2 %}| - opens [Navigation settings]() of app profile.| |
-|{% data variables.android-values.customize_route_line %} |- opens [menu of Route line]().| |
-|{% data variables.android-values.simulate_navigation %}| - allows to simulate your navigation.| |
+
 
 
 - {% data variables.android-values.screen_alerts %} - [link](https://docs.osmand.net/en/main@latest/osmand/widgets/nav-widgets#alert-widget)
