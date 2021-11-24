@@ -221,43 +221,7 @@ This part of settings doesn't exist for "Browse map" profile.
 
 #### Navigation
 
-In this section you can set [routing and navigation parameters of your profile, map during navigation and vehicle parameters](/osmand/navigation).
 
-{% android %}
-
-- {% data variables.android-values.nav_type_hint %} - link
-- {% data variables.android-values.route_parameters %} - link
-- {% data variables.android-values.screen_alerts %} - [link](https://docs.osmand.net/en/main@latest/osmand/widgets/nav-widgets#alert-widget)
-- {% data variables.android-values.voice_announcements %} - link
-- {% data variables.android-values.vehicle_parameters %} - link
-
-
-Cuztomize route line 
-
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.profile_appearance %} → {% data variables.android-values.customize_route_line %}
-
-![Profile Appearance route line Android](/assets/images/personal/profiles/profile_appearance_route_line_android.png)
-
-- {% data variables.android-values.shared_string_color %} - 0
-- {% data variables.android-values.select_track_width %} - 
-
-
-{% endandroid %}
-
-{% ios %}
-
-- {% data variables.ios-values.nav_type_title %} - governs how routes are calculated. These are rules for routing your profile. It means that your bicycle profile has Cycling navigation type for example. You can import the routing file from any cloud storage app by opening it in OsmAnd. More about [Routing.xml on our Github page](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml).
-- {% data variables.ios-values.route_parameters %} - governs which parameters will be used during routing and which parameters will be showed on the device screen. During navigation you can change some of these parameters in ["Navigation Options"](/osmand/navigation/route-navigation#navigation-options). Below list of parameters:
-
-
-
-
-- {% data variables.android-values.screen_alerts %} - [link](https://docs.osmand.net/en/main@latest/osmand/widgets/nav-widgets#alert-widget)
-- {% data variables.android-values.voice_announcements %} - link
-- {% data variables.android-values.vehicle_parameters %} - link
-
-
-{% endios %}
 
 #### Other
 
