@@ -84,9 +84,9 @@ In this section of the General settings menu, you can set parameters for the cur
 
 ![Profiles General Settings Apperance iOS](/assets/images/personal/profiles/profile_gs_appearance_ios.png)
 
-- {% data variables.android-values.rotate_map_to_bearing %} - allows [to set orientation the map view](/osmand/map/interact-with-map#map-orientation-modes).
+- {% data variables.ios-values.rotate_map_to_bearing %} - allows [to set orientation the map view](/osmand/map/interact-with-map#map-orientation-modes).
 - {% data variables.ios-values.allow_3D_view%} - enables/disables 2.5D view of the map view. Use ["Gesture"](/osmand/map/interact-with-map#gestures) or ["My Location button"](/osmand/map/interact-with-map#my-location--zoom) for 3D view
-- {% data variables.android-values.always_center_position_on_map %} - allows to use center or bottom screen position for the cursor (["My location"](/osmand/map/interact-with-map#my-location--zoom)). In this mode the center of the map will be located slightly below the center of the device. It allows seeing more map information ahead of your movement which is usable in the navigation mode.
+- {% data variables.ios-values.always_center_position_on_map %} - allows to use center or bottom screen position for the cursor (["My location"](/osmand/map/interact-with-map#my-location--zoom)). In this mode the center of the map will be located slightly below the center of the device. It allows seeing more map information ahead of your movement which is usable in the navigation mode.
 
 {% endios %}
 
@@ -141,7 +141,7 @@ In this section, you can enable/disable buttons and input devices for OsmAnd, on
 - [{% data variables.android-values.use_magnetic_sensor %}](/osmand/map/interact-with-map#extra-compass-settings) - allows to use or not [Magnetic sensor](https://en.wikipedia.org/wiki/Kalman_filter) for smoothen rotation of the map with a slower rotation animation though it introduces a small delay (< 1 second) till.
 - {% data variables.android-values.tap_on_map_to_hide_interface %} - use or not fullscreen mode of OsmAnd app on the device.
 - [{% data variables.android-values.do_not_use_animations %}](/osmand/map/interact-with-map#disable-all-animations) - allows to switch on/off animation for navigation mode. 
-- [{% data variables.android-values.external_input_device %}](/osmand/map/interact-with-map#external-input-device-buttons) - allows to add external input devices for control OsmAnd app by buttons of these devices. External input devices: {% data variables.android-values.sett_wunderlinq_ext_input %}, {% data variables.android-values.sett_generic_ext_input %}, {% data variables.android-values.sett_parrot_ext_input %}.
+- [{% data variables.android-values.external_input_device %}](/osmand/map/interact-with-map#external-input-device-buttons) - allows adding external input devices for control OsmAnd app by buttons of these devices. External input devices: {% data variables.android-values.sett_wunderlinq_ext_input %}, {% data variables.android-values.sett_generic_ext_input %}, {% data variables.android-values.sett_parrot_ext_input %}.
 
 {% endandroid %}
 
