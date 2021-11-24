@@ -184,32 +184,11 @@ In this section, you can enable/disable buttons and input devices for OsmAnd, on
 
 {% endandroid %}
 
-
-#### Other
-
-{% android %}
-
-![Profiles General Settings Other iOS](/assets/images/personal/profiles/profile_gs_unitsformats_ios.png)
-
-- {% data variables.android-values.use_volume_buttons_as_zoom %}(Android) -  
-- {% data variables.android-values.use_kalman_filter_compass %}(Android) -  
-- {% data variables.android-values.use_magnetic_sensor %}(Android) -  
-- {% data variables.android-values.tap_on_map_to_hide_interface %}(Android) -  
-- {% data variables.android-values.do_not_use_animations %}(Android) -  
-- {% data variables.android-values.external_input_device %} - {% data variables.android-values.sett_wunderlinq_ext_input %}, {% data variables.android-values.sett_generic_ext_input %}, {% data variables.android-values.sett_parrot_ext_input %}(Android).
-
-{% endandroid %}
-
 {% ios %}
 
 ![Profiles General Settings Other iOS](/assets/images/personal/profiles/profile_gs_unitsformats_ios.png)
 
 - {% data variables.android-values.external_input_device %} - {% data variables.android-values.sett_wunderlinq_ext_input %}, {% data variables.android-values.sett_generic_ext_input %}, {% data variables.android-values.sett_parrot_ext_input %}(Android).
-- {% data variables.android-values.use_volume_buttons_as_zoom %}(Android) -  
-- {% data variables.android-values.use_kalman_filter_compass %}(Android) -  
-- {% data variables.android-values.use_magnetic_sensor %}(Android) -  
-- {% data variables.android-values.tap_on_map_to_hide_interface %}(Android) -  
-- {% data variables.android-values.do_not_use_animations %}(Android) -  
 
 {% endios %}
 
