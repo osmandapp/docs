@@ -101,18 +101,18 @@ In this section you can set parameters of units & formats for chosen application
 
 | Parameter | Format | Note |
 |:------------|:---------------|:---------------|
-|**{% data variables.android-values.driving_region %}**| {% data variables.android-values.driving_region_automatic %} |  |
+|**{% data variables.android-values.driving_region %}**| {% data variables.android-values.driving_region_automatic %} | According to the device location |
 |            | {% data variables.android-values.driving_region_europe_asia %}   | {% data variables.android-values.right_side_navigation %}, {% data variables.android-values.si_km_m %}  |
 |            | {% data variables.android-values.driving_region_us %}   |  {% data variables.android-values.right_side_navigation %}, {% data variables.android-values.si_mi_feet %}  |
 |            | {% data variables.android-values.driving_region_canada %}   | {% data variables.android-values.right_side_navigation %}, {% data variables.android-values.si_km_m %}   |
 |            | {% data variables.android-values.driving_region_uk %}   |  {% data variables.android-values.left_side_navigation %}, {% data variables.android-values.si_mi_feet %}   |
 |            | {% data variables.android-values.driving_region_japan %}   | {% data variables.android-values.left_side_navigation %}, {% data variables.android-values.si_km_m %}   |
 |            | {% data variables.android-values.driving_region_australia %}   |  {% data variables.android-values.left_side_navigation %}, {% data variables.android-values.si_km_m %}  |
-|**{% data variables.android-values.unit_of_length %}**| {% data variables.android-values.si_km_m %} |  |
-|          | {% data variables.android-values.si_mi_feet %} |  |
-|          | {% data variables.android-values.si_mi_meters %} |  |
-|          | {% data variables.android-values.si_mi_yard %} |  |
-|          | {% data variables.android-values.si_nm %} |  |
+|**{% data variables.android-values.unit_of_length %}**| {% data variables.android-values.si_km_m %} | 1 km / 1000 m |
+|          | {% data variables.android-values.si_mi_feet %} | 0.62 ml / 3281 f |
+|          | {% data variables.android-values.si_mi_meters %} | 0.62 ml / 1000 m  |
+|          | {% data variables.android-values.si_mi_yard %} |  0.62 ml / 1094 f |
+|          | {% data variables.android-values.si_nm %} | 0.54 nml |
 |**{% data variables.android-values.coordinates_format %}**| {% data variables.android-values.dd_mm_mmmm_format %} | Example: 50.12333° 19.93233° (Lat Long) |
 |          | {% data variables.android-values.dd_mm_mmm_format %} | Example: 50°7.393′ 19°55.941′ (Lat Long)  |
 |          | {% data variables.android-values.dd_mm_ss_format %} | Example: 50°7′23.6″ 19°55′56.4″ (Lat Long) 23°27′30″ |
@@ -137,25 +137,24 @@ In this section you can set parameters of units & formats for chosen application
 
 | Parameter | Format | Note |
 |:------------|:---------------|:---------------|
-|**{% data variables.ios-values.driving_region %}**| {% data variables.ios-values.driving_region_automatic %} |  |
+|**{% data variables.ios-values.driving_region %}**| {% data variables.ios-values.driving_region_automatic %} | According to the device location |
 |            | {% data variables.ios-values.driving_region_europe_asia %}   | {% data variables.ios-values.right_side_navigation %}, {% data variables.ios-values.si_km_m %}  |
 |            | {% data variables.ios-values.driving_region_us %}   |  {% data variables.ios-values.right_side_navigation %}, {% data variables.ios-values.si_mi_feet %}  |
 |            | {% data variables.ios-values.driving_region_canada %}   | {% data variables.ios-values.right_side_navigation %}, {% data variables.ios-values.si_km_m %}   |
 |            | {% data variables.ios-values.driving_region_uk %}   |  {% data variables.ios-values.left_side_navigation %}, {% data variables.ios-values.si_mi_feet %}   |
 |            | {% data variables.ios-values.driving_region_japan %}   | {% data variables.ios-values.left_side_navigation %}, {% data variables.ios-values.si_km_m %}   |
 |            | {% data variables.ios-values.driving_region_australia %}   |  {% data variables.ios-values.left_side_navigation %}, {% data variables.ios-values.si_km_m %}  |
-|**{% data variables.ios-values.unit_of_length %}**| {% data variables.ios-values.si_km_m %} |  |
-|          | {% data variables.ios-values.si_mi_feet %} |  |
-|          | {% data variables.ios-values.si_mi_meters %} |  |
-|          | {% data variables.ios-values.si_mi_yard %} |  |
-|          | {% data variables.ios-values.si_nm %} |  |
-|**{% data variables.ios-values.coordinates_format %}**| {% data variables.ios-values.dd_mm_mmmm_format %} | Example: 50.12333° 19.93233° (Lat Long) |
-|          | {% data variables.ios-values.dd_mm_mmm_format %} | Example: 50°7.393′ 19°55.941′ (Lat Long)  |
-|          | {% data variables.ios-values.dd_mm_ss_format %} | Example: 50°7′23.6″ 19°55′56.4″ (Lat Long) 23°27′30″ |
-|          | {% data variables.ios-values.navigate_point_format_utm %} | 34N 5552876 423678 (Zone Northing Easting) . [{% data variables.ios-values.utm_format_descr %}](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system) |
-|          | {% data variables.ios-values.navigate_point_format_mgrs %} | Example: 34U DA 23678 52873 . [{% data variables.ios-values.mgrs_format_descr %}](https://en.wikipedia.org/wiki/Military_Grid_Reference_System)  |
-|          | {% data variables.ios-values.navigate_point_format_olc %} | Example:  9F2X4WFJ+7W ([Open Location Code](https://en.wikipedia.org/wiki/Open_Location_Code) represents area 9m x 14m)  |
-|**{% data variables.ios-values.coordinates_format %}**| Degrees 180° | All angular values have readings from 0° to 180° and from 0° to -180°.  |
+|**{% data variables.ios-values.unit_of_length %}**| {% data variables.ios-values.si_km_m %} | 1 km / 1000 m |
+|          | {% data variables.ios-values.si_mi_feet %} | 0.62 ml / 3281 f |
+|          | {% data variables.ios-values.si_mi_meters %} | 0.62 ml / 1000 m |
+|          | {% data variables.ios-values.si_mi_yard %} | 0.62 ml / 1094 f |
+|          | {% data variables.ios-values.si_nm %} | 0.54 nml |
+|**{% data variables.ios-values.coords_format %}**| {% data variables.ios-values.navigate_point_format_D %} | Example: 50.12333° 19.93233° (Lat Long) |
+|          | {% data variables.ios-values.navigate_point_format_DM %} | Example: 50°7.393′ 19°55.941′ (Lat Long)  |
+|          | {% data variables.ios-values.navigate_point_format_DMS %} | Example: 50°7′23.6″ 19°55′56.4″ (Lat Long) 23°27′30″ |
+|          | {% data variables.ios-values.navigate_point_format_UTM %} | 34N 5552876 423678 (Zone Northing Easting) . [{% data variables.ios-values.utm_format_descr %}](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system) |
+|          | {% data variables.ios-values.navigate_point_format_OLC %} | Example:  9F2X4WFJ+7W ([Open Location Code](https://en.wikipedia.org/wiki/Open_Location_Code) represents area 9m x 14m)  |
+|**{% data variables.ios-values.angular_units %}**| Degrees 180° | All angular values have readings from 0° to 180° and from 0° to -180°.  |
 |          | Degrees 360° | All angular values have readings from 0° to 360°.  |
 |          | {% data variables.ios-values.shared_string_milliradians %} | All angular values have [milliradian value](https://en.wikipedia.org/wiki/Milliradian).  |
 |**{% data variables.ios-values.default_speed_system %}**| {% data variables.ios-values.si_kmh %} | 90 km/h  |
@@ -170,9 +169,9 @@ In this section you can set parameters of units & formats for chosen application
 
 #### **Other**
 
-In this section, you can enable/disable buttons and input devices for OsmAnd, on or off animations for navigation mode, use or not fullscreen mode, magnetic sensor, Kalman filter.
-
 {% android %}
+
+In this section, you can enable/disable buttons and input devices for OsmAnd, on or off animations for navigation mode, use or not fullscreen mode, magnetic sensor, Kalman filter.
 
 ![Profiles General Settings Other Android](/assets/images/personal/profiles/profile_gs_other_android.png)
 
@@ -188,9 +187,9 @@ In this section, you can enable/disable buttons and input devices for OsmAnd, on
 
 {% ios %}
 
-![Profiles General Settings Other iOS](/assets/images/personal/profiles/profile_gs_unitsformats_ios.png)
+In this section, you can enable/disable buttons and input devices for OsmAnd.
 
-- {% data variables.android-values.external_input_device %} - {% data variables.android-values.sett_wunderlinq_ext_input %}, {% data variables.android-values.sett_generic_ext_input %}, {% data variables.android-values.sett_parrot_ext_input %}(Android).
+- [{% data variables.ios-values.sett_ext_input %}](/osmand/map/interact-with-map#external-input-device-buttons) - allows adding external input devices for control OsmAnd app by buttons of these devices. External input devices: {% data variables.ios-values.sett_wunderlinq_ext_input %}, {% data variables.ios-values.sett_generic_ext_input %}.
 
 {% endios %}
 
