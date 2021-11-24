@@ -111,7 +111,7 @@ In this section you can set parameters of units & formats for chosen application
 |**{% data variables.android-values.unit_of_length %}**| {% data variables.android-values.si_km_m %} | 1 km / 1000 m |
 |          | {% data variables.android-values.si_mi_feet %} | 0.62 ml / 3281 f |
 |          | {% data variables.android-values.si_mi_meters %} | 0.62 ml / 1000 m  |
-|          | {% data variables.android-values.si_mi_yard %} |  0.62 ml / 1094 f |
+|          | {% data variables.android-values.si_mi_yard %} |  0.62 ml / 1094 ya |
 |          | {% data variables.android-values.si_nm %} | 0.54 nml |
 |**{% data variables.android-values.coordinates_format %}**| {% data variables.android-values.dd_mm_mmmm_format %} | Example: 50.12333° 19.93233° (Lat Long) |
 |          | {% data variables.android-values.dd_mm_mmm_format %} | Example: 50°7.393′ 19°55.941′ (Lat Long)  |
@@ -147,7 +147,7 @@ In this section you can set parameters of units & formats for chosen application
 |**{% data variables.ios-values.unit_of_length %}**| {% data variables.ios-values.si_km_m %} | 1 km / 1000 m |
 |          | {% data variables.ios-values.si_mi_feet %} | 0.62 ml / 3281 f |
 |          | {% data variables.ios-values.si_mi_meters %} | 0.62 ml / 1000 m |
-|          | {% data variables.ios-values.si_mi_yard %} | 0.62 ml / 1094 f |
+|          | {% data variables.ios-values.si_mi_yard %} | 0.62 ml / 1094 ya |
 |          | {% data variables.ios-values.si_nm %} | 0.54 nml |
 |**{% data variables.ios-values.coords_format %}**| {% data variables.ios-values.navigate_point_format_D %} | Example: 50.12333° 19.93233° (Lat Long) |
 |          | {% data variables.ios-values.navigate_point_format_DM %} | Example: 50°7.393′ 19°55.941′ (Lat Long)  |
@@ -195,20 +195,17 @@ In this section, you can enable/disable buttons and input devices for OsmAnd.
 
 ### Navigation settings
 
-Not for Browse profile
+In this part, there are all settings for navigation mode of a profile.
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %}
+{% note %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %}
+This part of settings doesn't exist for "Browse map" profile.
 
-![Profiles Navigation Settings Android](/assets/images/personal/profiles/profile_navigation_settings_android.png) ![Profiles Navigation Settings iOS](/assets/images/personal/profiles/profile_navigation_settings_ios.png)
+{% endnote %}
 
 {% android %}
-Not for Browse profile
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %}
-
-![Profiles Navigation Settings Android](/assets/images/personal/profiles/profile_navigation_settings_android.png)
 
 {% endandroid %}
 
@@ -216,19 +213,13 @@ Not for Browse profile
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.routing_settings_2 %}
 
-![Profiles Navigation Settings iOS](/assets/images/personal/profiles/profile_navigation_settings_ios.png)
-
 {% endios %}
 
 #### Navigation
 
-- {% data variables.android-values.nav_type_hint %} - link
-- {% data variables.android-values.route_parameters %} - link
-- {% data variables.android-values.screen_alerts %} - [link](https://docs.osmand.net/en/main@latest/osmand/widgets/nav-widgets#alert-widget)
-- {% data variables.android-values.voice_announcements %} - link
-- {% data variables.android-values.vehicle_parameters %} - link
-
 {% android %}
+
+![Profiles Navigation Settings Android](/assets/images/personal/profiles/profile_navigation_settings_android.png)
 
 - {% data variables.android-values.nav_type_hint %} - link
 - {% data variables.android-values.route_parameters %} - link
@@ -250,6 +241,8 @@ Cuztomize route line
 {% endandroid %}
 
 {% ios %}
+
+![Profiles Navigation Settings iOS](/assets/images/personal/profiles/profile_navigation_settings_ios.png)
 
 - {% data variables.android-values.nav_type_hint %} - link
 - {% data variables.android-values.route_parameters %} - link
