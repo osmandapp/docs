@@ -23,7 +23,7 @@ To show a bearing requires to have a **target point** selected. In case you have
 
 [Magnetic bearing](https://en.wikipedia.org/wiki/Bearing_(angle)#Absolute) is the clockwise (horizontal) angle between magnetic north and the target point observed from your location. This is the compass value of a magnetic compass you have to follow to reach this target. Example: If the Magnetic bearing is shown as 0, you need move strictly towards magnetic north to reach the target point.
 
-[Relative bearing](https://en.wikipedia.org/wiki/Bearing_(angle)#Relative) refers to the angle between your forward direction and the target point. Your **forward direction** is either your **direction of your motion** as taken from the GPS-sensors, or in case you stand still **where you point your device** (i.e. your device orientation as per its magentic compass). Example: An object with relative bearing of 0 degrees is straight ahead of you, an object with relative bearing 180 degrees is straight behind you.
+[Relative bearing](https://en.wikipedia.org/wiki/Bearing_(angle)#Relative) refers to the angle between your forward direction and the target point. Your **forward direction** is either your **direction of your motion** as taken from the GPS-sensors, or in case you stand still **where you point your device** (i.e. your device orientation as per its magnetic compass). Example: An object with relative bearing of 0 degrees is straight ahead of you, an object with relative bearing 180 degrees is straight behind you.
 
 
 ![Relative Magnetic bearing widget](/assets/images/widgets/relative_magnetic_bearing_widget.png)
