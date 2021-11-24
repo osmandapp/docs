@@ -245,8 +245,9 @@ Cuztomize route line
 
 {% ios %}
 
-- {% data variables.ios-values.nav_type_title %} - governs how routes are calculated. These are rules for routing your profile. It means that your bicycle profile has Cycling navigation type for example. You can import the routing file from any cloud storage app by opening it in OsmAnd. More about [Routing.xml on our Github page](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml).
-- {% data variables.ios-values.route_parameters %} - governs which parameters will be used during routing and which parameters will be showed on the device screen. During navigation you can change some of these parameters in ["Navigation Options"](/osmand/navigation/route-navigation#navigation-options). Below list of parameters:
+{% data variables.ios-values.nav_type_title %} - governs how routes are calculated. These are rules for routing your profile. It means that your bicycle profile has Cycling navigation type for example. You can import the routing file from any cloud storage app by opening it in OsmAnd. More about [Routing.xml on our Github page](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml).
+
+{% data variables.ios-values.route_parameters %} - governs which parameters will be used during routing and which parameters will be showed on the device screen. During navigation you can change some of these parameters in ["Navigation Options"](/osmand/navigation/route-navigation#navigation-options). Below list of parameters:
 
 | Parameter | Format | Note |
 |:------------|:---------------|:---------------|
@@ -264,10 +265,6 @@ Cuztomize route line
 |{% data variables.android-values.customize_route_line %} |- opens [menu of Route line]().| |
 |{% data variables.android-values.simulate_navigation %}| - allows to simulate your navigation.| |
 
-
-- {% data variables.android-values.screen_alerts %} - [link](https://docs.osmand.net/en/main@latest/osmand/widgets/nav-widgets#alert-widget)
-- {% data variables.android-values.voice_announcements %} - link
-- {% data variables.android-values.vehicle_parameters %} - link
 
 
 {% endios %}
