@@ -245,7 +245,7 @@ Cuztomize route line
 
 {% ios %}
 
-{% data variables.ios-values.nav_type_title %} - governs how routes are calculated. These are rules for routing your profile. It means that your bicycle profile has Cycling navigation type for example. You can import the routing file from any cloud storage app by opening it in OsmAnd. More about [Routing.xml on our Github page](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml).
+
 
 {% data variables.ios-values.route_parameters %} - governs which parameters will be used during routing and which parameters will be showed on the device screen. During navigation you can change some of these parameters in ["Navigation Options"](/osmand/navigation/route-navigation#navigation-options). Below list of parameters:
 
