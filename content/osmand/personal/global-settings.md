@@ -18,6 +18,8 @@ Global settings are common to all application profiles. In fact, these settings 
 
 ![Profiles General Settings Android](/assets/images/personal/profiles/general_settings_android.png)
 
+### {% data variables.android-values.settings_preset %}
+
 - {% data variables.android-values.settings_preset %} - select the profile, that will be used on application start (lase used or from profile list). Here you can choose "{% data variables.android-values.shared_string_last_used %}" profile. It means that the last chosen profile will be used for the application.
 
 ![General Settings Default profile Android](/assets/images/personal/profiles/general_settings_default_profile_android.png)
@@ -28,6 +30,7 @@ Global settings are common to all application profiles. In fact, these settings 
 
 ![General Settings Collected data Android](/assets/images/personal/profiles/general_settings_collected_data_android.png)
 
+### {% data variables.android-values.dialogs_and_notifications_title %}
 - {% data variables.android-values.dialogs_and_notifications_title %} - allows switching on/off popups, dialogs and notifications. It's [the download map dialog](/osmand/start-with/download-maps#download---map-zoom-in) and startp-up message (like promotion, quiz and etc.).
 
 ![General Settings notifications Android](/assets/images/personal/profiles/general_settings_notifications_android.png)
