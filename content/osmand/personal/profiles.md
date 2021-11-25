@@ -253,9 +253,28 @@ Cuztomize route line
 |:------------|:---------------|:---------------|
 |**{% data variables.ios-values.nav_type_title %}**| choose your Navigation type which controls how routes are calcualted  | Navigation types ([OsmAnd routing](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)) by default: [{% data variables.ios-values.app_mode_boat %}](/osmand/navigation/boat-navigation#boat), [{% data variables.ios-values.m_style_bicycle %}](/osmand/navigation/route-navigation), [{% data variables.ios-values.nav_type_direct_to %}](/osmand/navigation/boat-navigation#direct-to-point), [{% data variables.ios-values.m_style_car %}](/osmand/navigation/route-navigation), [{% data variables.ios-values.rendering_value_pedestrian_name %}](/osmand/navigation/route-navigation), [{% data variables.ios-values.m_style_pulic_transport %}](/osmand/map/public-transport), [{% data variables.ios-values.nav_type_ski %}](/osmand/plugins/ski-maps), [{% data variables.ios-values.nav_type_straight_line %}](/osmand/navigation/boat-navigation#straight-line) |
 | **{% data variables.ios-values.route_parameters %}** |  allows setting routing for any cases and showing additional info about roads:    |              |
-| {% data variables.ios-values.recalculate_route %}   |  {% data variables.ios-values.route_recalculation_descr %}    |              |
-| {% data variables.ios-values.recalculate_wrong_dir %}   |  The route will be recalculated if you are moving to the start point.   |              |
-| {% data variables.ios-values.routing_attr_driving_style_name %}   |  Select driving puprose to get shorter, faster, safer or unpaved route. | "{% data variables.ios-values.routing_attr_driving_style_prefer_unpaved_name %}": prefer unpaved over paved roads for routing.<br>  "{% data variables.ios-values.routing_attr_driving_style_safety_name %}": prefer safer roads for routing.<br> "{% data variables.ios-values.routing_attr_driving_style_balance_name %}": prefer faster way for routing.<br>  "{% data variables.ios-values.routing_attr_driving_style_speed_name %}": prefer shorter way for routing.<br>     |
+| "{% data variables.ios-values.recalculate_route %}"  |  {% data variables.ios-values.route_recalculation_descr %}    |              |
+| "{% data variables.ios-values.recalculate_wrong_dir %}"   |  The route will be recalculated if you are moving to the start point.   |              |
+| "{% data variables.ios-values.routing_attr_driving_style_name %}"   |  Select driving puprose to get shorter, faster, safer or unpaved route. | "{% data variables.ios-values.routing_attr_driving_style_prefer_unpaved_name %}": prefer unpaved over paved roads for routing.<br>  "{% data variables.ios-values.routing_attr_driving_style_safety_name %}": prefer safer roads for routing.<br> "{% data variables.ios-values.routing_attr_driving_style_balance_name %}": prefer faster way for routing.<br>  "{% data variables.ios-values.routing_attr_driving_style_speed_name %}": prefer shorter way for routing.<br>     |
+| **{% data variables.ios-values.impassable_road %}** |  avoid certain routes and road types for routing:    |              |
+|                 |  {% data variables.ios-values.routing_attr_avoid_unpaved_name %}    |              |
+|                 |  {% data variables.ios-values.routing_attr_avoid_ferries_name %}    |              |
+|                 |  {% data variables.ios-values.routing_attr_avoid_stairs_name %}    |              |
+|                 |  {% data variables.ios-values.routing_attr_avoid_borders_name %}    |              |
+|                 |  Avoid footways    |              |
+|                 |  Avoid tunnels    |              |
+|                 |  {% data variables.ios-values.routing_attr_avoid_sett_name %}|              |
+|                 |  {% data variables.ios-values.routing_attr_avoid_toll_name %}|              |
+|                 |  Avoid low emissions zones    |              |
+|                 |  {% data variables.ios-values.routing_attr_avoid_shuttle_train_name %} |              |
+|                 |  {% data variables.ios-values.routing_attr_avoid_motorway_name %} |              |
+|                 |  {% data variables.ios-values.routing_attr_avoid_ice_roads_fords_name %} |              |
+|                 |  {% data variables.ios-values.routing_attr_avoid_train_name %} |              |
+|                 |  {% data variables.ios-values.routing_attr_avoid_subway_name %} |              |
+|                 |  {% data variables.ios-values.routing_attr_avoid_ferries_name %} |              |
+|                 |  {% data variables.ios-values.routing_attr_avoid_tram_name %} |              |
+|                 |  {% data variables.ios-values.routing_attr_avoid_bus_name %} |              |
+|                 |  {% data variables.ios-values.routing_attr_avoid_share_taxi_name %} |              |
 
 
 {% endios %}
