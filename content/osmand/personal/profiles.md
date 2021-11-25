@@ -253,27 +253,6 @@ Cuztomize route line
 |:------------|:---------------|:---------------|
 |**{% data variables.ios-values.nav_type_title %}**| choose your Navigation type which controls how routes are calcualted  | Navigation types ([OsmAnd routing](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)) by default: [{% data variables.ios-values.app_mode_boat %}](/osmand/navigation/boat-navigation#boat), {% data variables.ios-values.m_style_bicycle %}, [{% data variables.ios-values.nav_type_direct_to %}](/osmand/navigation/boat-navigation#direct-to-point), {% data variables.ios-values.m_style_car %}, {% data variables.ios-values.rendering_value_pedestrian_name %}, [{% data variables.ios-values.m_style_pulic_transport %}](/osmand/map/public-transport), {% data variables.ios-values.nav_type_ski %}, [{% data variables.ios-values.nav_type_straight_line %}](/osmand/navigation/boat-navigation#straight-line) |
 
-
-- allows to choose driving style for bicycle navigation type: {% data variables.android-values.| |routing_attr_prefer_unpaved_name %}, {% data variables.android-values.routing_attr_driving_style_safety_name %}, {% data variables.android-values.routing_attr_driving_style_balance_name %}, {% |data variables.android-values.routing_attr_driving_style_speed_name %} | |
-
-
-
-
-|{% data variables.android-values.routing_attr_driving_style_name %} (bicycle..)| - allows to choose driving style for bicycle navigation type: {% data variables.android-values.| |routing_attr_prefer_unpaved_name %}, {% data variables.android-values.routing_attr_driving_style_safety_name %}, {% data variables.android-values.routing_attr_driving_style_balance_name %}, {% |data variables.android-values.routing_attr_driving_style_speed_name %}.| |
-|{% data variables.android-values.routing_attr_height_obstacles_name %} (bicycle..)| - allows to avoid strong uphills: {% data variables.android-values.routing_attr_relief_smoothness_factor_more_plains_name %}, {% data variables.android-values.routing_attr_relief_smoothness_factor_plains_name %}, {% data variables.android-values.routing_attr_relief_smoothness_factor_more_plains_name %}.| |
-|{% data variables.android-values.routing_attr_allow_motorway_name %}| (bicycle..) - | |
-|{% data variables.android-values.impassable_road %}| - allows to select a road you want to avoid during navigation, either on the map.| |
-|{% data variables.android-values.show_along_the_route %}| - allows to shows [POI, My Favourites](/osmand/widgets/nav-widgets#approach-poisfavorites), [Traffic warnings](/osmand/widgets/nav-widgets#alert-widget) along the route.| |
-|{% data variables.android-values.follow_track %} |- allows to choose a track for [navigation by it](/osmand/navigation/gpx-navigation).| |
-|{% data variables.android-values.routing_attr_allow_private_name %}| - allows to navigate to private zone.| |
-|{% data variables.android-values.routing_attr_short_way_name %}| - calculates navigation by fuel-efficient algorithm.| |
-|{% data variables.android-values.temporary_conditional_routing %} |- allows to consider temporary limitations.| |
-|{% data variables.android-values.routing_settings_2 %}| - opens [Navigation settings]() of app profile.| |
-|{% data variables.android-values.customize_route_line %} |- opens [menu of Route line]().| |
-|{% data variables.android-values.simulate_navigation %}| - allows to simulate your navigation.| |
-
-
-
 {% endios %}
 
 #### **Other**
