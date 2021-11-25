@@ -10,6 +10,8 @@ Global settings are common to all application profiles. In fact, these settings 
 
 {% default %}
 
+- <a href="#" class="UnderlineNav-item platform-switcher" data-platform="android">Android Settings</a>.
+- <a href="#" class="UnderlineNav-item platform-switcher" data-platform="ios">iOS Settings</a>.
 {% enddefault %}
 
 {% android %}
