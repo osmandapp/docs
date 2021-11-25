@@ -283,6 +283,11 @@ Cuztomize route line
 | "{% data variables.ios-values.routing_attr_allow_private_name %}" |  ignore the Private Access restriction for routing  |    |
 | "{% data variables.ios-values.consider_limitations_param %}" |  using temporaty limitations for routing from OpenStreetMap data  |    |
 | "{% data variables.ios-values.road_speeds %}" |  setting the minimum and the maximum travel speed for all roads in the route.  |    |
+| **{% data variables.ios-values.voice_announces %}** | on/off and settings of [voice guidance](/osmand/navigation/voice-navigation) during navigation.    |  {% data variables.ios-values.speak_descr %}  |
+| **{% data variables.ios-values.screen_alerts %}** | showing or not alerts on the screen like a widget.  | [Types of alert widgets](/osmand/widgets/nav-widgets#alert-widget)   |
+| **{% data variables.ios-values.vehicle_parameters %}** |   | specified vehicle parameters may affect routing  |
+
+
 
 {% endios %}
 
