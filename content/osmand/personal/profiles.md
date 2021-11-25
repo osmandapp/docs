@@ -247,11 +247,18 @@ Cuztomize route line
 
 {% data variables.ios-values.nav_type_title %} - governs how routes are calculated. These are rules for routing your profile. It means that your bicycle profile has Cycling navigation type for example. You can import the routing file from any cloud storage app by opening it in OsmAnd. More about [Routing.xml on our Github page](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml).
 
-{% data variables.ios-values.route_parameters %} - governs which parameters will be used during routing and which parameters will be showed on the device screen. During navigation you can change some of these parameters in ["Navigation Options"](/osmand/navigation/route-navigation#navigation-options). Below list of parameters:
+{% data variables.ios-values.route_parameters %} - controls which parameters will be used during routing and which parameters will be showed on the device screen. During navigation you can change some of these parameters in ["Navigation Options"](/osmand/navigation/route-navigation#navigation-options). Below list of parameters:
 
-| Parameter | Format | Note |
+| Parameter | Description | Note |
 |:------------|:---------------|:---------------|
-|{% data variables.android-values.shared_string_sound %}| - allows to switch on/off navigation prompts and to open [Voice prompts](/osmand/navigation/voice-navigation) menu.| |
+|**{% data variables.ios-values.nav_type_title %}**| choose your Navigation type which controls how routes are calcualted  | Navigation types ([OsmAnd routing](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)) by default: [{% data variables.ios-values.app_mode_boat %}](/osmand/navigation/boat-navigation#boat), {% data variables.ios-values.m_style_bicycle %}, [{% data variables.ios-values.nav_type_direct_to %}](/osmand/navigation/boat-navigation#direct-to-point), {% data variables.ios-values.m_style_car %}, {% data variables.ios-values.rendering_value_pedestrian_name %}, [{% data variables.ios-values.m_style_pulic_transport %}](/osmand/map/public-transport), {% data variables.ios-values.nav_type_ski %}, [{% data variables.ios-values.nav_type_straight_line %}](/osmand/navigation/boat-navigation#straight-line) |
+
+
+- allows to choose driving style for bicycle navigation type: {% data variables.android-values.| |routing_attr_prefer_unpaved_name %}, {% data variables.android-values.routing_attr_driving_style_safety_name %}, {% data variables.android-values.routing_attr_driving_style_balance_name %}, {% |data variables.android-values.routing_attr_driving_style_speed_name %} | |
+
+
+
+
 |{% data variables.android-values.routing_attr_driving_style_name %} (bicycle..)| - allows to choose driving style for bicycle navigation type: {% data variables.android-values.| |routing_attr_prefer_unpaved_name %}, {% data variables.android-values.routing_attr_driving_style_safety_name %}, {% data variables.android-values.routing_attr_driving_style_balance_name %}, {% |data variables.android-values.routing_attr_driving_style_speed_name %}.| |
 |{% data variables.android-values.routing_attr_height_obstacles_name %} (bicycle..)| - allows to avoid strong uphills: {% data variables.android-values.routing_attr_relief_smoothness_factor_more_plains_name %}, {% data variables.android-values.routing_attr_relief_smoothness_factor_plains_name %}, {% data variables.android-values.routing_attr_relief_smoothness_factor_more_plains_name %}.| |
 |{% data variables.android-values.routing_attr_allow_motorway_name %}| (bicycle..) - | |
