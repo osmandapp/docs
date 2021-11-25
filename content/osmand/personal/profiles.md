@@ -256,26 +256,33 @@ Cuztomize route line
 | "{% data variables.ios-values.recalculate_route %}"  |  {% data variables.ios-values.route_recalculation_descr %}    |              |
 | "{% data variables.ios-values.recalculate_wrong_dir %}"   |  The route will be recalculated if you are moving to the start point.   |              |
 | "{% data variables.ios-values.routing_attr_driving_style_name %}"   |  Select driving puprose to get shorter, faster, safer or unpaved route. | "{% data variables.ios-values.routing_attr_driving_style_prefer_unpaved_name %}": prefer unpaved over paved roads for routing.<br>  "{% data variables.ios-values.routing_attr_driving_style_safety_name %}": prefer safer roads for routing.<br> "{% data variables.ios-values.routing_attr_driving_style_balance_name %}": prefer faster way for routing.<br>  "{% data variables.ios-values.routing_attr_driving_style_speed_name %}": prefer shorter way for routing.<br>     |
-| **{% data variables.ios-values.impassable_road %}** |  avoid certain routes and road types for routing:    |              |
-|                 |  {% data variables.ios-values.routing_attr_avoid_unpaved_name %}    |              |
-|                 |  {% data variables.ios-values.routing_attr_avoid_ferries_name %}    |              |
-|                 |  {% data variables.ios-values.routing_attr_avoid_stairs_name %}    |              |
-|                 |  {% data variables.ios-values.routing_attr_avoid_borders_name %}    |              |
-|                 |  Avoid footways    |              |
-|                 |  Avoid tunnels    |              |
-|                 |  {% data variables.ios-values.routing_attr_avoid_sett_name %}|              |
-|                 |  {% data variables.ios-values.routing_attr_avoid_toll_name %}|              |
-|                 |  Avoid low emissions zones    |              |
-|                 |  {% data variables.ios-values.routing_attr_avoid_shuttle_train_name %} |              |
-|                 |  {% data variables.ios-values.routing_attr_avoid_motorway_name %} |              |
-|                 |  {% data variables.ios-values.routing_attr_avoid_ice_roads_fords_name %} |              |
-|                 |  {% data variables.ios-values.routing_attr_avoid_train_name %} |              |
-|                 |  {% data variables.ios-values.routing_attr_avoid_subway_name %} |              |
-|                 |  {% data variables.ios-values.routing_attr_avoid_ferries_name %} |              |
-|                 |  {% data variables.ios-values.routing_attr_avoid_tram_name %} |              |
-|                 |  {% data variables.ios-values.routing_attr_avoid_bus_name %} |              |
-|                 |  {% data variables.ios-values.routing_attr_avoid_share_taxi_name %} |              |
-
+| **{% data variables.ios-values.impassable_road %}** |  avoid certain routes and road types for routing:    |   Navigation types and notes           |
+|                 |  "{% data variables.ios-values.routing_attr_avoid_unpaved_name %}"    |              |
+|                 |  "{% data variables.ios-values.routing_attr_avoid_stairs_name %}"    |              |
+|                 |  "{% data variables.ios-values.routing_attr_avoid_borders_name %}"    |              |
+|                 |  "Avoid footways"    |              |
+|                 |  "Avoid tunnels"    |              |
+|                 |  "{% data variables.ios-values.routing_attr_avoid_sett_name %}"|              |
+|                 |  "{% data variables.ios-values.routing_attr_avoid_toll_name %}"|              |
+|                 |  "Avoid low emissions zones"    |              |
+|                 |  "{% data variables.ios-values.routing_attr_avoid_shuttle_train_name %}" |              |
+|                 |  "{% data variables.ios-values.routing_attr_avoid_motorway_name %}" |              |
+|                 |  "{% data variables.ios-values.routing_attr_avoid_ice_roads_fords_name %}" |              |
+|                 |  "{% data variables.ios-values.routing_attr_avoid_train_name %}" |              |
+|                 |  "{% data variables.ios-values.routing_attr_avoid_subway_name %}" |              |
+|                 |  "{% data variables.ios-values.routing_attr_avoid_ferries_name %}" |              |
+|                 |  "{% data variables.ios-values.routing_attr_avoid_tram_name %}" |              |
+|                 |  "{% data variables.ios-values.routing_attr_avoid_bus_name %}" |              |
+|                 |  "{% data variables.ios-values.routing_attr_avoid_share_taxi_name %}" |              |
+| **{% data variables.ios-values.routing_attr_relief_smoothness_factor_name %}** |  allows choosing releif parameters for routing.   |   Cycling routing |
+| "{% data variables.ios-values.routing_attr_relief_smoothness_factor_more_plains_name %}"  | Routing could avoid strong uphills.    |              |
+| "{% data variables.ios-values.routing_attr_relief_smoothness_factor_plains_name %}"  | Routing could avoid strong uphills.    |              |
+| "{% data variables.ios-values.routing_attr_relief_smoothness_factor_hills_name %}"  | Routing could avoid strong uphills.    |              |
+| **{% data variables.ios-values.routing_attr_height_obstacles_name %}** |  Using elevation fluctuation for routing  |    |
+| **{% data variables.ios-values.routing_attr_allow_motorway_name %}** |  using Motorways for routing  |   Cycling routing |
+| **{% data variables.ios-values.routing_attr_allow_private_name %}** |  ignore the Private Access restriction for routing  |    |
+| **{% data variables.ios-values.consider_limitations_param %}** |  using temporaty limitations for routing from OpenStreetMap data  |    |
+| **{% data variables.ios-values.road_speeds %}** |  setting the minimum and the maximum travel speed for all roads in the route.  |    |
 
 {% endios %}
 
