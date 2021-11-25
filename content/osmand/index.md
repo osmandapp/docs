@@ -21,12 +21,12 @@ versions: '*'
 
 ## Get OsmAnd
 
-### Android
- - {% data reusables.links.osmand-plus-google-play %} [OsmAnd Free on Google Play](https://play.google.com/store/apps/details?id=net.osmand)
- - {% data reusables.links.osmand-plus-amazon %} [OsmAnd Free on Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/)
+#### Android
+ - {% data reusables.links.osmand-plus-google-play %}, [OsmAnd on Google Play](https://play.google.com/store/apps/details?id=net.osmand)
+ - {% data reusables.links.osmand-plus-amazon %}, [OsmAnd on Amazon](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/)
  - {% data reusables.links.osmand-huawei %}
 
-### iOS
+#### iOS
  - {% data reusables.links.osmand-maps-app-store %}
 
 
