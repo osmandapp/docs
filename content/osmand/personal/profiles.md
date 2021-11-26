@@ -286,10 +286,10 @@ Cuztomize route line
 | **{% data variables.ios-values.voice_announces %}** | on/off and settings of [voice guidance](/osmand/navigation/voice-navigation) during navigation.    |  {% data variables.ios-values.speak_descr %}  |
 | **{% data variables.ios-values.screen_alerts %}** | showing or not alerts on the screen like a widget.  | [Types of alert widgets](/osmand/widgets/nav-widgets#alert-widget)   |
 | **{% data variables.ios-values.vehicle_parameters %}** | specified vehicle parameters may affect routing:   |   |
-|     | {% data variables.ios-values.default_speed %}  | {% data variables.ios-values.rdefault_speed_dialog_msg %}   |
+|     | {% data variables.ios-values.default_speed %}  | {% data variables.ios-values.default_speed_dialog_msg %}   |
 |     | {% data variables.ios-values.routing_attr_weight_name %}   | {% data variables.ios-values.weight_limit_description %}   |
 |     | {% data variables.ios-values.routing_attr_height_name %}  | {% data variables.ios-values.height_limit_description %}   |
-|     | {% data variables.ios-values.routing_attr_length_name %}  | {% data variables.ios-values.length_limit_description %}   |
+|     | {% data variables.ios-values.routing_attr_length_name %}  | {% data variables.ios-values.lenght_limit_description %}   |
 |     | {% data variables.ios-values.routing_attr_width_name %} | {% data variables.ios-values.width_limit_description %}   |
 
 
