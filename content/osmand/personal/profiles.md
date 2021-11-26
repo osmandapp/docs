@@ -292,14 +292,10 @@ Cuztomize route line
 |     | {% data variables.ios-values.routing_attr_length_name %}  | {% data variables.ios-values.lenght_limit_description %}   |
 |     | {% data variables.ios-values.routing_attr_width_name %} | {% data variables.ios-values.width_limit_description %}   |
 
-
-
 {% endios %}
 
 #### **Other**
 
-- {% data variables.android-values.map_during_navigation %} - link
-- {% data variables.android-values.animate_my_location %}(Android) - description
 
 {% android %}
 
@@ -310,8 +306,10 @@ Cuztomize route line
 
 {% ios %}
 
-- {% data variables.android-values.map_during_navigation %} - link
-- {% data variables.android-values.animate_my_location %}(Android) - description
+
+
+**"{% data variables.ios-values.map_during_navigation }"**: the setting controls and changes map behavior during navigation.
+
 
 
 {% endios %}
