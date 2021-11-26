@@ -251,11 +251,11 @@ Cuztomize route line
 
 | Parameter | Description | Note |
 |:------------|:---------------|:---------------|
-|**{% data variables.ios-values.nav_type_title %}**| choose your Navigation type which controls how routes are calcualted  | Navigation types ([OsmAnd routing](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)) by default: [{% data variables.ios-values.app_mode_boat %}](/osmand/navigation/boat-navigation#boat), [{% data variables.ios-values.m_style_bicycle %}](/osmand/navigation/route-navigation), [{% data variables.ios-values.nav_type_direct_to %}](/osmand/navigation/boat-navigation#direct-to-point), [{% data variables.ios-values.m_style_car %}](/osmand/navigation/route-navigation), [{% data variables.ios-values.rendering_value_pedestrian_name %}](/osmand/navigation/route-navigation), [{% data variables.ios-values.m_style_pulic_transport %}](/osmand/map/public-transport), [{% data variables.ios-values.nav_type_ski %}](/osmand/plugins/ski-maps), [{% data variables.ios-values.nav_type_straight_line %}](/osmand/navigation/boat-navigation#straight-line) |
-| **{% data variables.ios-values.route_parameters %}** |  allows setting routing for any cases and showing additional info about roads:    |              |
-| <span style="text-decoration:underline">"{% data variables.ios-values.recalculate_route %}"</span> |  {% data variables.ios-values.route_recalculation_descr %}    |              |
-| "{% data variables.ios-values.recalculate_wrong_dir %}"  |  The route will be recalculated if you are moving to the start point.   |              |
-| "{% data variables.ios-values.routing_attr_driving_style_name %}"   |  Select driving puprose to get shorter, faster, safer or unpaved route. | "{% data variables.ios-values.routing_attr_driving_style_prefer_unpaved_name %}": prefer unpaved over paved roads for routing.<br>  "{% data variables.ios-values.routing_attr_driving_style_safety_name %}": prefer safer roads for routing.<br> "{% data variables.ios-values.routing_attr_driving_style_balance_name %}": prefer faster way for routing.<br>  "{% data variables.ios-values.routing_attr_driving_style_speed_name %}": prefer shorter way for routing.<br>     |
+|**{% data variables.ios-values.nav_type_title %}**| choose your Navigation type which controls how routes are calcualted.  | Navigation types ([OsmAnd routing](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)) by default: [{% data variables.ios-values.app_mode_boat %}](/osmand/navigation/boat-navigation#boat), [{% data variables.ios-values.m_style_bicycle %}](/osmand/navigation/route-navigation), [{% data variables.ios-values.nav_type_direct_to %}](/osmand/navigation/boat-navigation#direct-to-point), [{% data variables.ios-values.m_style_car %}](/osmand/navigation/route-navigation), [{% data variables.ios-values.rendering_value_pedestrian_name %}](/osmand/navigation/route-navigation), [{% data variables.ios-values.m_style_pulic_transport %}](/osmand/map/public-transport), [{% data variables.ios-values.nav_type_ski %}](/osmand/plugins/ski-maps), [{% data variables.ios-values.nav_type_straight_line %}](/osmand/navigation/boat-navigation#straight-line). |
+| **{% data variables.ios-values.route_parameters %}:** |  allows setting routing for any cases and showing additional info about roads.   |              |
+| "{% data variables.ios-values.recalculate_route %}" |  {% data variables.ios-values.route_recalculation_descr %}    |              |
+| "{% data variables.ios-values.recalculate_wrong_dir %}"  |  the route will be recalculated if you are moving to the start point.   |              |
+| "{% data variables.ios-values.routing_attr_driving_style_name %}"   |  select driving puprose to get shorter, faster, safer or unpaved route. | "{% data variables.ios-values.routing_attr_driving_style_prefer_unpaved_name %}": prefer unpaved over paved roads for routing.<br>  "{% data variables.ios-values.routing_attr_driving_style_safety_name %}": prefer safer roads for routing.<br> "{% data variables.ios-values.routing_attr_driving_style_balance_name %}": prefer faster way for routing.<br>  "{% data variables.ios-values.routing_attr_driving_style_speed_name %}": prefer shorter way for routing.<br>     |
 | "{% data variables.ios-values.impassable_road %}" |  avoid certain routes and road types for routing:    |   Navigation types and notes           |
 |                 |  "{% data variables.ios-values.routing_attr_avoid_unpaved_name %}"    |              |
 |                 |  "{% data variables.ios-values.routing_attr_avoid_stairs_name %}"    |              |
@@ -274,18 +274,23 @@ Cuztomize route line
 |                 |  "{% data variables.ios-values.routing_attr_avoid_tram_name %}" |              |
 |                 |  "{% data variables.ios-values.routing_attr_avoid_bus_name %}" |              |
 |                 |  "{% data variables.ios-values.routing_attr_avoid_share_taxi_name %}" |              |
-| "{% data variables.ios-values.routing_attr_relief_smoothness_factor_name %}" |  allows choosing releif parameters for routing.   |   Cycling routing |
+| "{% data variables.ios-values.routing_attr_relief_smoothness_factor_name %}" |  allows choosing releif parameters for routing:   |   Cycling routing |
 |   | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_more_plains_name %}"  | Routing could avoid strong uphills.    | 
 |   | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_plains_name %}"  | Routing could avoid strong uphills.    | 
 |   | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_hills_name %}"  | Routing could avoid strong uphills.    |  
-| "{% data variables.ios-values.routing_attr_height_obstacles_name %}" |  Using elevation fluctuation for routing  |    |
+| "{% data variables.ios-values.routing_attr_height_obstacles_name %}" |  Using elevation fluctuation for routing.  |    |
 | "{% data variables.ios-values.routing_attr_allow_motorway_name %}" |  using Motorways for routing  |   Cycling routing |
 | "{% data variables.ios-values.routing_attr_allow_private_name %}" |  ignore the Private Access restriction for routing  |    |
 | "{% data variables.ios-values.consider_limitations_param %}" |  using temporaty limitations for routing from OpenStreetMap data  |    |
 | "{% data variables.ios-values.road_speeds %}" |  setting the minimum and the maximum travel speed for all roads in the route.  |    |
 | **{% data variables.ios-values.voice_announces %}** | on/off and settings of [voice guidance](/osmand/navigation/voice-navigation) during navigation.    |  {% data variables.ios-values.speak_descr %}  |
 | **{% data variables.ios-values.screen_alerts %}** | showing or not alerts on the screen like a widget.  | [Types of alert widgets](/osmand/widgets/nav-widgets#alert-widget)   |
-| **{% data variables.ios-values.vehicle_parameters %}** |   | specified vehicle parameters may affect routing  |
+| **{% data variables.ios-values.vehicle_parameters %}** | specified vehicle parameters may affect routing:   |   |
+|     | {% data variables.ios-values.default_speed %}  | {% data variables.ios-values.rdefault_speed_dialog_msg %}   |
+|     | {% data variables.ios-values.routing_attr_weight_name %}   | {% data variables.ios-values.weight_limit_description %}   |
+|     | {% data variables.ios-values.routing_attr_height_name %}  | {% data variables.ios-values.height_limit_description %}   |
+|     | {% data variables.ios-values.routing_attr_length_name %}  | {% data variables.ios-values.length_limit_description %}   |
+|     | {% data variables.ios-values.routing_attr_width_name %} | {% data variables.ios-values.width_limit_description %}   |
 
 
 
