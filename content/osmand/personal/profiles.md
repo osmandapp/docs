@@ -309,9 +309,9 @@ Cuztomize route line
 | Parameter | Description | Note |
 |:------------|:---------------|:---------------|
 | **Map during navigation:** |  Change map behavior during navigation.   |              |
-| "{% data variables.ios-values.choose_auto_follow_route %}" |  {% data variables.ios-values.choose_auto_center_map_view_descr %}.   |              |
-| "{% data variables.ios-values.auto_zoom_map %}"  |  {% data variables.ios-values.auto_zoom_map_descr %}.   |    |
-| "{% data variables.ios-values.map_orientation_change_in_accordance_with_speed %}"  |  {% data variables.ios-values.map_orientation_change_in_accordance_with_speed_descr %}.   |    |
+| "{% data variables.ios-values.choose_auto_follow_route %}" |  {% data variables.ios-values.choose_auto_center_map_view_descr %}.   |  Value: Never, 5 sec, 10 sec, 15 sec, 20 sec, 25 sec, 30 sec, 45 sec, 60 sec, 50 sec.|
+| "{% data variables.ios-values.auto_zoom_map %}"  |  {% data variables.ios-values.auto_zoom_map_descr %}.   | Value: {% data variables.ios-values.auto_zoom_none %}, {% data variables.ios-values.auto_zoom_farthest %}, {% data variables.ios-values.auto_zoom_far %}, {% data variables.ios-values.auto_zoom_close %}. |
+| "{% data variables.ios-values.map_orientation_change_in_accordance_with_speed %}"  |  {% data variables.ios-values.map_orientation_change_in_accordance_with_speed_descr %}.   | Value: 0 km/h, 5 km/h, 7 km/h, 10 km/h, 15 km/h, 20 km/h.    |
 | "{% data variables.ios-values.snap_to_road %}"  |  {% data variables.ios-values.snap_to_road_descr %}.   |    |
 
 
