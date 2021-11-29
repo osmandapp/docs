@@ -306,6 +306,11 @@ Cuztomize route line
 
 {% ios %}
 
+| Parameter | Description | Note |
+|:------------|:---------------|:---------------|
+| **{% data variables.ios-values.map_during_navigation }:** |  these settings control and change map behavior during navigation.   |              |
+| "{% data variables.ios-values.recalculate_route %}" |  {% data variables.ios-values.route_recalculation_descr %}    |              |
+| "{% data variables.ios-values.recalculate_wrong_dir %}"  |  the route will be recalculated if you are moving to the start point.   |  
 
 
 
