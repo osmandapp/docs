@@ -225,6 +225,55 @@ In this section you can set [routing and navigation parameters of your profile, 
 
 {% android %}
 
+{% data variables.android-values.nav_type_hint %} - governs how routes are calculated. These are rules for routing your profile. It means that your bicycle profile has Cycling navigation type for example. You can import the routing file from any cloud storage app by opening it in OsmAnd. More about [Routing.xml on our Github page](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml).
+
+{% data variables.android-values.route_parameters %} - controls which parameters will be used during routing and which parameters will be showed on the device screen. During navigation you can change some of these parameters in ["Navigation Options"](/osmand/navigation/route-navigation#navigation-options). Below list of parameters:
+
+| Parameter | Description | Note |
+|:------------|:---------------|:---------------|
+|**{% data variables.android-values.nav_type_title %}**| choose your Navigation type which controls how routes are calcualted.  | Navigation types ([OsmAnd routing](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)) by default: [{% data variables.android-values.app_mode_boat %}](/osmand/navigation/boat-navigation#boat), [{% data variables.android-values.m_style_bicycle %}](/osmand/navigation/route-navigation), [{% data variables.android-values.nav_type_direct_to %}](/osmand/navigation/boat-navigation#direct-to-point), [{% data variables.android-values.m_style_car %}](/osmand/navigation/route-navigation), [{% data variables.android-valuess.rendering_value_pedestrian_name %}](/osmand/navigation/route-navigation), [{% data variables.android-values.m_style_pulic_transport %}](/osmand/map/public-transport), [{% data variables.android-values.nav_type_ski %}](/osmand/plugins/ski-maps), [{% data variables.android-values.nav_type_straight_line %}](/osmand/navigation/boat-navigation#straight-line). |
+| **{% data variables.android-values.route_parameters %}:** |  allows setting routing for any cases and showing additional info about roads.   |              |
+| "{% data variables.android-values.recalculate_route %}" |  {% data variables.android-values.route_recalculation_descr %}    |              |
+| "{% data variables.android-values.recalculate_wrong_dir %}"  |  the route will be recalculated if you are moving to the start point.   |              |
+| "{% data variables.android-values.routing_attr_driving_style_name %}"   |  select driving puprose to get shorter, faster, safer or unpaved route. | "{% data variables.android-values.routing_attr_driving_style_prefer_unpaved_name %}": prefer unpaved over paved roads for routing.<br>  "{% data variables.android-values.routing_attr_driving_style_safety_name %}": prefer safer roads for routing.<br> "{% data variables.android-values.routing_attr_driving_style_balance_name %}": prefer faster way for routing.<br>  "{% data variables.android-values.routing_attr_driving_style_speed_name %}": prefer shorter way for routing.<br>     |
+| "{% data variables.android-values.impassable_road %}" |  avoid certain routes and road types for routing:    |   Navigation types and notes           |
+|                 |  "{% data variables.android-values.routing_attr_avoid_unpaved_name %}"    |              |
+|                 |  "{% data variables.android-values.routing_attr_avoid_stairs_name %}"    |              |
+|                 |  "{% data variables.android-values.routing_attr_avoid_borders_name %}"    |              |
+|                 |  "Avoid footways"    |              |
+|                 |  "Avoid tunnels"    |              |
+|                 |  "{% data variables.android-values.routing_attr_avoid_sett_name %}"|              |
+|                 |  "{% data variables.android-values.routing_attr_avoid_toll_name %}"|              |
+|                 |  "Avoid low emissions zones"    |              |
+|                 |  "{% data variables.android-values.routing_attr_avoid_shuttle_train_name %}" |              |
+|                 |  "{% data variables.android-values.routing_attr_avoid_motorway_name %}" |              |
+|                 |  "{% data variables.android-values.routing_attr_avoid_ice_roads_fords_name %}" |              |
+|                 |  "{% data variables.android-values.routing_attr_avoid_train_name %}" |              |
+|                 |  "{% data variables.android-values.routing_attr_avoid_subway_name %}" |              |
+|                 |  "{% data variables.android-values.routing_attr_avoid_ferries_name %}" |              |
+|                 |  "{% data variables.android-values.routing_attr_avoid_tram_name %}" |              |
+|                 |  "{% data variables.android-values.routing_attr_avoid_bus_name %}" |              |
+|                 |  "{% data variables.android-values.routing_attr_avoid_share_taxi_name %}" |              |
+| "{% data variables.ios-values.routing_attr_relief_smoothness_factor_name %}" |  allows choosing releif parameters for routing:   |   Cycling routing |
+|   | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_more_plains_name %}"  | Routing could avoid strong uphills.    | 
+|   | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_plains_name %}"  | Routing could avoid strong uphills.    | 
+|   | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_hills_name %}"  | Routing could avoid strong uphills.    |  
+| "{% data variables.ios-values.routing_attr_height_obstacles_name %}" |  Using elevation fluctuation for routing.  |    |
+| "{% data variables.ios-values.routing_attr_allow_motorway_name %}" |  using Motorways for routing  |   Cycling routing |
+| "{% data variables.ios-values.routing_attr_allow_private_name %}" |  ignore the Private Access restriction for routing  |    |
+| "{% data variables.ios-values.consider_limitations_param %}" |  using temporaty limitations for routing from OpenStreetMap data  |    |
+| "{% data variables.ios-values.road_speeds %}" |  setting the minimum and the maximum travel speed for all roads in the route.  |    |
+| **{% data variables.ios-values.voice_announces %}** | on/off and settings of [voice guidance](/osmand/navigation/voice-navigation) during navigation.    |  {% data variables.ios-values.speak_descr %}  |
+| **{% data variables.ios-values.screen_alerts %}** | showing or not alerts on the screen like a widget.  | [Types of alert widgets](/osmand/widgets/nav-widgets#alert-widget)   |
+| **{% data variables.ios-values.vehicle_parameters %}** | specified vehicle parameters may affect routing:   |   |
+|     | {% data variables.ios-values.default_speed %}  | {% data variables.ios-values.default_speed_dialog_msg %}   |
+|     | {% data variables.ios-values.routing_attr_weight_name %}   | {% data variables.ios-values.weight_limit_description %}   |
+|     | {% data variables.ios-values.routing_attr_height_name %}  | {% data variables.ios-values.height_limit_description %}   |
+|     | {% data variables.ios-values.routing_attr_length_name %}  | {% data variables.ios-values.lenght_limit_description %}   |
+|     | {% data variables.ios-values.routing_attr_width_name %} | {% data variables.ios-values.width_limit_description %}   |
+
+
+
 - {% data variables.android-values.nav_type_hint %} - link
 - {% data variables.android-values.route_parameters %} - link
 - {% data variables.android-values.screen_alerts %} - [link](https://docs.osmand.net/en/main@latest/osmand/widgets/nav-widgets#alert-widget)
@@ -311,7 +360,7 @@ Cuztomize route line
 | **Map during navigation:** |  Change map behavior during navigation.   |              |
 | "{% data variables.ios-values.choose_auto_follow_route %}" |  {% data variables.ios-values.choose_auto_center_map_view_descr %}.   |  Value: Never, 5 sec, 10 sec, 15 sec, 20 sec, 25 sec, 30 sec, 45 sec, 60 sec, 50 sec.|
 | "{% data variables.ios-values.auto_zoom_map %}"  |  {% data variables.ios-values.auto_zoom_map_descr %}.   | Value: {% data variables.ios-values.auto_zoom_none %}, {% data variables.ios-values.auto_zoom_farthest %}, {% data variables.ios-values.auto_zoom_far %}, {% data variables.ios-values.auto_zoom_close %}. |
-| "{% data variables.ios-values.map_orientation_change_in_accordance_with_speed %}"  |  {% data variables.ios-values.map_orientation_change_in_accordance_with_speed_descr %}.   | Value: 0 km/h, 5 km/h, 7 km/h, 10 km/h, 15 km/h, 20 km/h.    |
+| "{% data variables.ios-values.map_orientation_change_in_accordance_with_speed %}"  |  [{% data variables.ios-values.map_orientation_change_in_accordance_with_speed_descr %}](/osmand/map/interact-with-map#map-orientation-modes).   | Value: 0 km/h, 5 km/h, 7 km/h, 10 km/h, 15 km/h, 20 km/h.    |
 | "{% data variables.ios-values.snap_to_road %}"  |  {% data variables.ios-values.snap_to_road_descr %}.   |    |
 
 
