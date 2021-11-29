@@ -308,9 +308,6 @@ Cuztomize route line
 
 
 
-**"{% data variables.ios-values.map_during_navigation }"**: the setting controls and changes map behavior during navigation.
-
-
 
 {% endios %}
 
