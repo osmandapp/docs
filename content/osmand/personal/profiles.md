@@ -257,13 +257,11 @@ In this section you can set [routing and navigation parameters of your profile, 
 |                 |  "{% data variables.android-values.routing_attr_avoid_share_taxi_name %}" |              |
 | "{% data variables.android-values.routing_attr_allow_motorway_name %}" |  {% data variables.android-values.routing_attr_allow_motorway_description %}  | Cycling |
 | "{% data variables.android-values.routing_attr_allow_private_name %}" |  {% data variables.android-values.routing_attr_allow_private_description %}  |    |
-| "{% data variables.ios-values.routing_attr_relief_smoothness_factor_name %}" |  allows choosing releif parameters for routing:   |   Cycling routing |
-|   | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_more_plains_name %}"  | Routing could avoid strong uphills.    | 
-|   | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_plains_name %}"  | Routing could avoid strong uphills.    | 
-|   | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_hills_name %}"  | Routing could avoid strong uphills.    |  
-| "{% data variables.ios-values.routing_attr_height_obstacles_name %}" |  Using elevation fluctuation for routing.  |    |
-| "{% data variables.ios-values.routing_attr_allow_private_name %}" |  ignore the Private Access restriction for routing  |    |
-| "{% data variables.ios-values.consider_limitations_param %}" |  using temporaty limitations for routing from OpenStreetMap data  |    |
+| "{% data variables.android-values.routing_attr_height_obstacles_name %}" |  allows choosing relief parameters for the routing. The routing could avoid strong uphills:   |   Cycling routing |
+|   | "{% data variables.android-values.routing_attr_relief_smoothness_factor_more_plains_name %}"  | Routing could avoid strong uphills.    | 
+|   | "{% data variables.android-values.routing_attr_relief_smoothness_factor_plains_name %}"  | Routing could avoid strong uphills.    | 
+|   | "{% data variables.android-values.routing_attr_relief_smoothness_factor_hills_name %}"  | Routing could avoid strong uphills.    |  
+| "{% data variables.android-values.temporary_conditional_routing %}" |  {% data variables.android-values.temporary_conditional_routing_descr %}. Data from OpenStreet map. |    |
 | "{% data variables.ios-values.road_speeds %}" |  setting the minimum and the maximum travel speed for all roads in the route.  |    |
 | **{% data variables.ios-values.voice_announces %}** | on/off and settings of [voice guidance](/osmand/navigation/voice-navigation) during navigation.    |  {% data variables.ios-values.speak_descr %}  |
 | **{% data variables.ios-values.screen_alerts %}** | showing or not alerts on the screen like a widget.  | [Types of alert widgets](/osmand/widgets/nav-widgets#alert-widget)   |
@@ -325,7 +323,7 @@ Cuztomize route line
 |                 |  "{% data variables.ios-values.routing_attr_avoid_tram_name %}" |              |
 |                 |  "{% data variables.ios-values.routing_attr_avoid_bus_name %}" |              |
 |                 |  "{% data variables.ios-values.routing_attr_avoid_share_taxi_name %}" |              |
-| "{% data variables.ios-values.routing_attr_relief_smoothness_factor_name %}" |  allows choosing releif parameters for routing:   |   Cycling routing |
+| "{% data variables.ios-values.routing_attr_relief_smoothness_factor_name %}" |  allows choosing relief parameters for the routing. The routing could avoid strong uphills:   |   Cycling routing |
 |   | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_more_plains_name %}"  | Routing could avoid strong uphills.    | 
 |   | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_plains_name %}"  | Routing could avoid strong uphills.    | 
 |   | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_hills_name %}"  | Routing could avoid strong uphills.    |  
