@@ -286,15 +286,6 @@ In this section you can set [routing and navigation parameters of your profile, 
 |     | {% data variables.android-values.shared_string_color %} | Using color by: Map style, Custom, Altitude, Slope, Road type, Surface, Smoothness, Winter and ice roads,Surface firmness.  |
 |     | {% data variables.android-values.shared_string_width %} | Using width by: Map style, Thin, Medium, Bold, Custom.  |
 
-Cuztomize route line 
-
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.profile_appearance %} → {% data variables.android-values.customize_route_line %}
-
-![Profile Appearance route line Android](/assets/images/personal/profiles/profile_appearance_route_line_android.png)
-
-- {% data variables.android-values.shared_string_color %} - 0
-- {% data variables.android-values.select_track_width %} - 
-
 {% endandroid %}
 
 
@@ -354,8 +345,13 @@ Cuztomize route line
 
 {% android %}
 
-- {% data variables.android-values.map_during_navigation %} - link
-- {% data variables.android-values.animate_my_location %}(Android) - description
+| Parameter | Description | Note |
+|:------------|:---------------|:---------------|
+| **Map during navigation:** |  Change map behavior during navigation.   |              |
+| "{% data variables.android-values.choose_auto_follow_route %}" |  {% data variables.android-values.choose_auto_follow_route_descr %}.   |  Value: Never, 5 sec, 10 sec, 15 sec, 20 sec, 25 sec, 30 sec, 45 sec, 60 sec, 50 sec.|
+| "{% data variables.android-values.auto_zoom_map %}"  |  {% data variables.android-values.auto_zoom_map_descr %}.   | Value: {% data variables.android-values.auto_zoom_none %}, {% data variables.android-values.auto_zoom_farthest %}, {% data variables.android-values.auto_zoom_far %}, {% data variables.android-values.auto_zoom_close %}. |
+| "{% data variables.android-values.map_orientation_change_in_accordance_with_speed %}"  |  [{% data variables.android-values.map_orientation_change_in_accordance_with_speed_descr %}](/osmand/map/interact-with-map#map-orientation-modes).   | Value: 0 km/h, 5 km/h, 7 km/h, 10 km/h, 15 km/h, 20 km/h.    |
+| "{% data variables.android-values.snap_to_road %}"  |  {% data variables.android-values.snap_to_road_descr %}.   |    |
 
 {% endandroid %}
 
