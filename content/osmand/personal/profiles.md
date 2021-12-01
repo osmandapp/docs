@@ -269,21 +269,14 @@ In this section you can set [routing and navigation parameters of your profile, 
 | "{% data variables.android-values.development %}" | using live updates and the initial part for calculation the route    |    |
 |   | {% data variables.android-values.use_live_routing %}    |  Enable navigation for [OsmAnd Live changes](/osmand/personal/maps#osmand-live).  |
 |   | {% data variables.android-values.use_fast_recalculation %}   |  {% data variables.android-values.use_fast_recalculation_desc %} |
-| **{% data variables.ios-values.screen_alerts %}** | showing or not alerts on the screen like a widget.  | [Types of alert widgets](/osmand/widgets/nav-widgets#alert-widget)   |
-| **{% data variables.ios-values.vehicle_parameters %}** | specified vehicle parameters may affect routing:   |   |
-|     | {% data variables.ios-values.default_speed %}  | {% data variables.ios-values.default_speed_dialog_msg %}   |
-|     | {% data variables.ios-values.routing_attr_weight_name %}   | {% data variables.ios-values.weight_limit_description %}   |
-|     | {% data variables.ios-values.routing_attr_height_name %}  | {% data variables.ios-values.height_limit_description %}   |
-|     | {% data variables.ios-values.routing_attr_length_name %}  | {% data variables.ios-values.lenght_limit_description %}   |
-|     | {% data variables.ios-values.routing_attr_width_name %} | {% data variables.ios-values.width_limit_description %}   |
-
-
-
-- {% data variables.android-values.nav_type_hint %} - link
-- {% data variables.android-values.route_parameters %} - link
-- {% data variables.android-values.screen_alerts %} - [link](https://docs.osmand.net/en/main@latest/osmand/widgets/nav-widgets#alert-widget)
-- {% data variables.android-values.voice_announcements %} - link
-- {% data variables.android-values.vehicle_parameters %} - link
+| **{% data variables.android-values.screen_alerts %}** | showing or not alerts on the screen like a widget. Alerts shown bottom left during navigation. | [Types of alert widgets](/osmand/widgets/nav-widgets#alert-widget)   |
+| **{% data variables.android-values.voice_announcements %}** | on/off and settings of [voice guidance](/osmand/navigation/voice-navigation) during navigation.    |  Configure to announce street names, traffic warnings (forced stops, speed bumps), speed camera warnings, speed limits.  |
+| **{% data variables.android-values.vehicle_parameters %}** | specified vehicle parameters may affect routing:   |   |
+|     | {% data variables.android-values.default_speed_setting_title %}  | {% data variables.android-values.default_speed_setting_descr %}.  |
+|     | {% data variables.android-values.routing_attr_weight_name %}   | {% data variables.android-values.weight_limit_description %}   |
+|     | {% data variables.android-values.routing_attr_height_name %}  | {% data variables.android-values.height_limit_description %}   |
+|     | {% data variables.android-values.routing_attr_length_name %}  | {% data variables.android-values.lenght_limit_description %}   |
+|     | {% data variables.android-values.routing_attr_width_name %} | {% data variables.android-values.width_limit_description %}   |
 
 Cuztomize route line 
 
