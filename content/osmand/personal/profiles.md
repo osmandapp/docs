@@ -255,6 +255,11 @@ In this section you can set [routing and navigation parameters of your profile, 
 |                 |  "{% data variables.android-values.routing_attr_avoid_tram_name %}" |              |
 |                 |  "{% data variables.android-values.routing_attr_avoid_bus_name %}" |              |
 |                 |  "{% data variables.android-values.routing_attr_avoid_share_taxi_name %}" |              |
+| "{% data variables.android-values.prefer_in_routing_title %}" |  {% data variables.android-values.routing_attr_driving_style_prefer_unpaved_description %}  |    |
+| "{% data variables.android-values.routing_attr_short_way_name %}" |  {% data variables.android-values.routing_attr_short_way_description %}  |    |
+| "{% data variables.android-values.routing_attr_allow_streams_name %}" |  allows streams and drains for boat navigation type.  | Boat navigation type |
+| "{% data variables.android-values.routing_attr_allow_intermittent_name %}" |  allows intermittent water ways for boat navigation type.  | Boat navigation type    |
+| "{% data variables.android-values.routing_attr_max_num_changes_name %}" |  specify upper limit of changes of for public transport.  | Public transport navigation type    |
 | "{% data variables.android-values.routing_attr_allow_motorway_name %}" |  {% data variables.android-values.routing_attr_allow_motorway_description %}  | Cycling |
 | "{% data variables.android-values.routing_attr_allow_private_name %}" |  {% data variables.android-values.routing_attr_allow_private_description %}  |    |
 | "{% data variables.android-values.routing_attr_height_obstacles_name %}" |  allows choosing relief parameters for the routing. The routing could avoid strong uphills:   |   Cycling routing |
@@ -262,13 +267,13 @@ In this section you can set [routing and navigation parameters of your profile, 
 |   | "{% data variables.android-values.routing_attr_relief_smoothness_factor_plains_name %}"  | Routing could avoid strong uphills.    | 
 |   | "{% data variables.android-values.routing_attr_relief_smoothness_factor_hills_name %}"  | Routing could avoid strong uphills.    |  
 | "{% data variables.android-values.temporary_conditional_routing %}" |  {% data variables.android-values.temporary_conditional_routing_descr %}. Data from OpenStreetMap. |    |
-| "{% data variables.ios-values.road_speeds %}" |  setting the minimum and the maximum travel speed for all roads in the route.  |    |
 | "{% data variables.android-values.recalculate_route %}" | allows to recalculate the route by the next cases:    |    |
-|   | {% data variables.android-values.route_recalculation_dist_title %}    |  {% data variables.android-values.recalculate_route_in_deviation %}. {% data variables.android-values.select_distance_route_will_recalc %}  |
-|   | {% data variables.android-values.in_case_of_reverse_direction %}   |  The route will be recalculated if the direction is changed to reverse. |
+|   | "{% data variables.android-values.route_recalculation_dist_title %}"    |  {% data variables.android-values.recalculate_route_in_deviation %}. {% data variables.android-values.select_distance_route_will_recalc %}  |
+|   | "{% data variables.android-values.in_case_of_reverse_direction %}"   |  The route will be recalculated if the direction is changed to reverse. |
 | "{% data variables.android-values.development %}" | using live updates and the initial part for calculation the route    |    |
-|   | {% data variables.android-values.use_live_routing %}    |  Enable navigation for [OsmAnd Live changes](/osmand/personal/maps#osmand-live).  |
-|   | {% data variables.android-values.use_fast_recalculation %}   |  {% data variables.android-values.use_fast_recalculation_desc %} |
+|   | "{% data variables.android-values.use_live_routing %}"    |  Enable navigation for [OsmAnd Live changes](/osmand/personal/maps#osmand-live).  |
+|   | "{% data variables.android-values.use_fast_recalculation %}"   |  {% data variables.android-values.use_fast_recalculation_desc %} |
+|   | "{% data variables.android-values.use_two_phase_routing %}"   |  {% data variables.android-values.complex_routing_descr %} |
 | **{% data variables.android-values.screen_alerts %}** | showing or not alerts on the screen like a widget. Alerts shown bottom left during navigation. | [Types of alert widgets](/osmand/widgets/nav-widgets#alert-widget)   |
 | **{% data variables.android-values.voice_announcements %}** | on/off and settings of [voice guidance](/osmand/navigation/voice-navigation) during navigation.    |  Configure to announce street names, traffic warnings (forced stops, speed bumps), speed camera warnings, speed limits.  |
 | **{% data variables.android-values.vehicle_parameters %}** | specified vehicle parameters may affect routing:   |   |
@@ -277,6 +282,9 @@ In this section you can set [routing and navigation parameters of your profile, 
 |     | {% data variables.android-values.routing_attr_height_name %}  | {% data variables.android-values.height_limit_description %}   |
 |     | {% data variables.android-values.routing_attr_length_name %}  | {% data variables.android-values.lenght_limit_description %}   |
 |     | {% data variables.android-values.routing_attr_width_name %} | {% data variables.android-values.width_limit_description %}   |
+| **{% data variables.android-values.customize_route_line %}** | Change color and width for the route line during [navigation](/osmand/navigation).   | [Pro feature](/osmand/purchases/android#free-and-paid-features)  |
+|     | {% data variables.android-values.shared_string_color %} | Using color by: Map style, Custom, Altitude, Slope, Road type, Surface, Smoothness, Winter and ice roads,Surface firmness.  |
+|     | {% data variables.android-values.shared_string_width %} | Using width by: Map style, Thin, Medium, Bold, Custom.  |
 
 Cuztomize route line 
 
