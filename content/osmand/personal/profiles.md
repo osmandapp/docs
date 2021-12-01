@@ -233,20 +233,19 @@ In this section you can set [routing and navigation parameters of your profile, 
 |:------------|:---------------|:---------------|
 |**{% data variables.android-values.nav_type_hint %}:**| {% data variables.android-values.select_nav_profile_dialog_message %} |     |
 | {% data variables.android-values.shared_string_offline %} |  Offline routing uses sources of the device and calculation the route by using data of OsmAnd offline maps.  |  Navigation types ([OsmAnd routing](https://github.com/osmandapp/OsmAnd-resources/blob/master/routing/routing.xml)) by default: [{% data variables.android-values.app_mode_boat %}](/osmand/navigation/boat-navigation#boat), [{% data variables.android-values.rendering_value_bicycle_name %}](/osmand/navigation/route-navigation), [{% data variables.android-values.routing_profile_direct_to %}](/osmand/navigation/boat-navigation#direct-to-point), [{% data variables.android-values.rendering_value_car_name %}](/osmand/navigation/route-navigation), [{% data variables.android-valuess.rendering_value_pedestrian_name %}](/osmand/navigation/route-navigation), [{% data variables.android-values.app_mode_public_transport %}](/osmand/map/public-transport), [{% data variables.android-values.routing_profile_ski %}](/osmand/plugins/ski-maps), [{% data variables.android-values.routing_profile_straightline %}](/osmand/navigation/boat-navigation#straight-line), [{% data variables.android-values.horseback_riding %}](/osmand/navigation/route-navigation).            |
-| {% data variables.android-values.shared_string_online %} |  Online routing buids the route servers resourses online by Enternet connection. |   List of online routing providers. Here you can add online routing engine ([Graphhopper](https://graphhopper.com/), [OSRM](http://project-osrm.org/), [Openrouteservice](https://openrouteservice.org/), GPX   |
+| {% data variables.android-values.shared_string_online %} |  Online routing builds the route servers' resources online by the Internet connection. |   List of online routing providers. Here you can add an online routing engine: ([Graphhopper](https://graphhopper.com/), [OSRM](http://project-osrm.org/), [Openrouteservice](https://openrouteservice.org/), GPX.   |
 | **{% data variables.android-values.route_parameters %}:** |  allows setting routing for any cases and showing additional info about roads.   |              |
-| "{% data variables.android-values.recalculate_route %}" |  {% data variables.android-values.route_recalculation_descr %}    |              |
-| "{% data variables.android-values.recalculate_wrong_dir %}"  |  the route will be recalculated if you are moving to the start point.   |              |
+| "{% data variables.android-values.fast_route_mode %}" |  {% data variables.android-values.fast_route_mode_descr %}    |              |
 | "{% data variables.android-values.routing_attr_driving_style_name %}"   |  select driving puprose to get shorter, faster, safer or unpaved route. | "{% data variables.android-values.routing_attr_driving_style_prefer_unpaved_name %}": prefer unpaved over paved roads for routing.<br>  "{% data variables.android-values.routing_attr_driving_style_safety_name %}": prefer safer roads for routing.<br> "{% data variables.android-values.routing_attr_driving_style_balance_name %}": prefer faster way for routing.<br>  "{% data variables.android-values.routing_attr_driving_style_speed_name %}": prefer shorter way for routing.<br>     |
-| "{% data variables.android-values.impassable_road %}" |  avoid certain routes and road types for routing:    |   Navigation types and notes           |
+| "{% data variables.android-values.impassable_road %}" |  avoid certain routes and road types for routing:    |  Each navigation type has its own set of avoiding.  |
 |                 |  "{% data variables.android-values.routing_attr_avoid_unpaved_name %}"    |              |
 |                 |  "{% data variables.android-values.routing_attr_avoid_stairs_name %}"    |              |
 |                 |  "{% data variables.android-values.routing_attr_avoid_borders_name %}"    |              |
-|                 |  "Avoid footways"    |              |
-|                 |  "Avoid tunnels"    |              |
+|                 |  "{% data variables.android-values.routing_attr_avoid_footways_name %}"     |              |
+|                 |  "{% data variables.android-values.routing_attr_avoid_tunnels_name %}"    |              |
 |                 |  "{% data variables.android-values.routing_attr_avoid_sett_name %}"|              |
 |                 |  "{% data variables.android-values.routing_attr_avoid_toll_name %}"|              |
-|                 |  "Avoid low emissions zones"    |              |
+|                 |   "{% data variables.android-values.routing_attr_avoid_low_emission_zone_name %}"|               |
 |                 |  "{% data variables.android-values.routing_attr_avoid_shuttle_train_name %}" |              |
 |                 |  "{% data variables.android-values.routing_attr_avoid_motorway_name %}" |              |
 |                 |  "{% data variables.android-values.routing_attr_avoid_ice_roads_fords_name %}" |              |
@@ -256,12 +255,13 @@ In this section you can set [routing and navigation parameters of your profile, 
 |                 |  "{% data variables.android-values.routing_attr_avoid_tram_name %}" |              |
 |                 |  "{% data variables.android-values.routing_attr_avoid_bus_name %}" |              |
 |                 |  "{% data variables.android-values.routing_attr_avoid_share_taxi_name %}" |              |
+| "{% data variables.android-values.routing_attr_allow_motorway_name %}" |  {% data variables.android-values.routing_attr_allow_motorway_description %}  | Cycling |
+| "{% data variables.android-values.routing_attr_allow_private_name %}" |  {% data variables.android-values.routing_attr_allow_private_description %}  |    |
 | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_name %}" |  allows choosing releif parameters for routing:   |   Cycling routing |
 |   | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_more_plains_name %}"  | Routing could avoid strong uphills.    | 
 |   | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_plains_name %}"  | Routing could avoid strong uphills.    | 
 |   | "{% data variables.ios-values.routing_attr_relief_smoothness_factor_hills_name %}"  | Routing could avoid strong uphills.    |  
 | "{% data variables.ios-values.routing_attr_height_obstacles_name %}" |  Using elevation fluctuation for routing.  |    |
-| "{% data variables.ios-values.routing_attr_allow_motorway_name %}" |  using Motorways for routing  |   Cycling routing |
 | "{% data variables.ios-values.routing_attr_allow_private_name %}" |  ignore the Private Access restriction for routing  |    |
 | "{% data variables.ios-values.consider_limitations_param %}" |  using temporaty limitations for routing from OpenStreetMap data  |    |
 | "{% data variables.ios-values.road_speeds %}" |  setting the minimum and the maximum travel speed for all roads in the route.  |    |
