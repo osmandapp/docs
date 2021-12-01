@@ -261,9 +261,14 @@ In this section you can set [routing and navigation parameters of your profile, 
 |   | "{% data variables.android-values.routing_attr_relief_smoothness_factor_more_plains_name %}"  | Routing could avoid strong uphills.    | 
 |   | "{% data variables.android-values.routing_attr_relief_smoothness_factor_plains_name %}"  | Routing could avoid strong uphills.    | 
 |   | "{% data variables.android-values.routing_attr_relief_smoothness_factor_hills_name %}"  | Routing could avoid strong uphills.    |  
-| "{% data variables.android-values.temporary_conditional_routing %}" |  {% data variables.android-values.temporary_conditional_routing_descr %}. Data from OpenStreet map. |    |
+| "{% data variables.android-values.temporary_conditional_routing %}" |  {% data variables.android-values.temporary_conditional_routing_descr %}. Data from OpenStreetMap. |    |
 | "{% data variables.ios-values.road_speeds %}" |  setting the minimum and the maximum travel speed for all roads in the route.  |    |
-| **{% data variables.ios-values.voice_announces %}** | on/off and settings of [voice guidance](/osmand/navigation/voice-navigation) during navigation.    |  {% data variables.ios-values.speak_descr %}  |
+| "{% data variables.android-values.recalculate_route %}" | allows to recalculate the route by the next cases:    |    |
+|   | {% data variables.android-values.route_recalculation_dist_title %}    |  {% data variables.android-values.recalculate_route_in_deviation %}. {% data variables.android-values.select_distance_route_will_recalc %}  |
+|   | {% data variables.android-values.in_case_of_reverse_direction %}   |  The route will be recalculated if the direction is changed to reverse. |
+| "{% data variables.android-values.development %}" | using live updates and the initial part for calculation the route    |    |
+|   | {% data variables.android-values.use_live_routing %}    |  Enable navigation for [OsmAnd Live changes](/osmand/personal/maps#osmand-live).  |
+|   | {% data variables.android-values.use_fast_recalculation %}   |  {% data variables.android-values.use_fast_recalculation_desc %} |
 | **{% data variables.ios-values.screen_alerts %}** | showing or not alerts on the screen like a widget.  | [Types of alert widgets](/osmand/widgets/nav-widgets#alert-widget)   |
 | **{% data variables.ios-values.vehicle_parameters %}** | specified vehicle parameters may affect routing:   |   |
 |     | {% data variables.ios-values.default_speed %}  | {% data variables.ios-values.default_speed_dialog_msg %}   |
