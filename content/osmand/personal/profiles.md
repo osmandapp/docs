@@ -347,11 +347,13 @@ In this section you can set [routing and navigation parameters of your profile, 
 
 | Parameter | Description | Note |
 |:------------|:---------------|:---------------|
-| **Map during navigation:** |  Change map behavior during navigation.   |              |
+| **{% data variables.android-values.map_during_navigation %}:** |  Change map behavior during navigation.   |              |
 | "{% data variables.android-values.choose_auto_follow_route %}" |  {% data variables.android-values.choose_auto_follow_route_descr %}.   |  Value: Never, 5 sec, 10 sec, 15 sec, 20 sec, 25 sec, 30 sec, 45 sec, 60 sec, 50 sec.|
 | "{% data variables.android-values.auto_zoom_map %}"  |  {% data variables.android-values.auto_zoom_map_descr %}.   | Value: {% data variables.android-values.auto_zoom_none %}, {% data variables.android-values.auto_zoom_farthest %}, {% data variables.android-values.auto_zoom_far %}, {% data variables.android-values.auto_zoom_close %}. |
 | "{% data variables.android-values.map_orientation_change_in_accordance_with_speed %}"  |  [{% data variables.android-values.map_orientation_change_in_accordance_with_speed_descr %}](/osmand/map/interact-with-map#map-orientation-modes).   | Value: 0 km/h, 5 km/h, 7 km/h, 10 km/h, 15 km/h, 20 km/h.    |
 | "{% data variables.android-values.snap_to_road %}"  |  {% data variables.android-values.snap_to_road_descr %}.   |    |
+| **{% data variables.android-values.animate_my_location %}** |  {% data variables.android-values.animate_my_location_desc %}   |              |
+
 
 {% endandroid %}
 
