@@ -373,27 +373,23 @@ In this section you can set [routing and navigation parameters of your profile, 
 
 ### Configure map
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.configure_map %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.configure_map %}
-
-Set parameters for [Configure map](/osmand/map/configure-map-menu) menu for chosen profile.
-[LINK](/osmand/map/configure-map-menu)
-
-![Profiles Configure map Settings Android](/assets/images/personal/profiles/profile_configure_map_settings_android.png) ![Profiles Configure map Settings iOS](/assets/images/personal/profiles/profile_configure_map_settings_ios.png)
 
 {% android %}
 
+[{% data variables.android-values.configure_map %}](/osmand/map/configure-map-menu) menu is a central place where you could configure map display for your profile needs, i.e. highlight Favorite points, Navigation markers or special Points of Interests on the map; display specific routes or 3rd party GPX files; overlay the map with relief information, satellite imagery or any other available raster map; display public transport information and change the map style.
+
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.configure_map %}
 
 Set parameters for [Configure map](/osmand/map/configure-map-menu) menu for chosen profile.
-[LINK](/osmand/map/configure-map-menu)
 
 ![Profiles Configure map Settings Android](/assets/images/personal/profiles/profile_configure_map_settings_android.png)
 
 {% endandroid %}
 
 {% ios %}
+
+[{% data variables.ios-values.configure_map %}](/osmand/map/configure-map-menu) menu is a central place where you could configure map display for your profile needs, i.e. highlight Favorite points, Navigation markers or special Points of Interests on the map; display specific routes or 3rd party GPX files; overlay the map with relief information, satellite imagery or any other available raster map; display public transport information and change the map style.
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.configure_map %}
 
