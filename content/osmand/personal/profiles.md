@@ -377,7 +377,9 @@ In this section you can set [routing and navigation parameters of your profile, 
 
 {% android %}
 
-[{% data variables.android-values.configure_map %}](/osmand/map/configure-map-menu) menu is a central place where you could configure map display for your profile needs, i.e. highlight Favorite points, Navigation markers or special Points of Interests on the map; display specific routes or 3rd party GPX files; overlay the map with relief information, satellite imagery or any other available raster map; display public transport information and change the map style.
+Here you can set parameters for [{% data variables.android-values.configure_map %}](/osmand/map/configure-map-menu) of chosen profile.
+
+[{% data variables.android-values.configure_map %}](/osmand/map/configure-map-menu) menu is a central place where you could configure map display for your profile needs, i.e. highlight [Favorite points](/osmand/personal/favorites), [Navigation markers](/osmand/personal/markers) or special [Points of Interests](/osmand/map/point-layers-on-map#points-of-interest-poi) on the map; display specific routes or 3rd party GPX files; [overlay the map with relief information](/osmand/plugins/contour-lines), [satellite imagery or any other available raster map](/osmand/map/raster-maps); display [public transport information](/osmand/map/public-transport) and [change the map style](/osmand/map/vector-maps#default-map-styles).
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.configure_map %}
 
@@ -389,7 +391,9 @@ Set parameters for [Configure map](/osmand/map/configure-map-menu) menu for chos
 
 {% ios %}
 
-[{% data variables.ios-values.configure_map %}](/osmand/map/configure-map-menu) menu is a central place where you could configure map display for your profile needs, i.e. highlight Favorite points, Navigation markers or special Points of Interests on the map; display specific routes or 3rd party GPX files; overlay the map with relief information, satellite imagery or any other available raster map; display public transport information and change the map style.
+Here you can set parameters for [{% data variables.android-values.configure_map %}](/osmand/map/configure-map-menu) of chosen profile.
+
+[{% data variables.android-values.configure_map %}](/osmand/map/configure-map-menu) menu is a central place where you could configure map display for your profile needs, i.e. highlight [Favorite points](/osmand/personal/favorites), [Navigation markers](/osmand/personal/markers) or special [Points of Interests](/osmand/map/point-layers-on-map#points-of-interest-poi) on the map; display specific routes or 3rd party GPX files; [overlay the map with relief information](/osmand/plugins/contour-lines), [satellite imagery or any other available raster map](/osmand/map/raster-maps); display [public transport information](/osmand/map/public-transport) and [change the map style](/osmand/map/vector-maps#default-map-styles).
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.configure_map %}
 
@@ -404,18 +408,15 @@ Set parameters for [Configure map](/osmand/map/configure-map-menu) menu for chos
 
 ### Configure screen
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.layer_map_appearance %}
-
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.layer_map_appearance %}
-
-Set parameters for [Configure screen](/osmand/widgets/configure-screen) menu for chosen profile.
-[LINK](/osmand/widgets/configure-screen)
-
-![Profiles Configure screen Settings Android](/assets/images/personal/profiles/profile_configure_screen_settings_android.png) ![Profiles Configure screen Settings iOS](/assets/images/personal/profiles/profile_configure_screen_settings_ios.png)
-
 {% android %}
 
+Here you can set parameters for [{% data variables.android-values.map_widget_config %}](/osmand/widgets/configure-screen) of chosen profile.
+
+[{% data variables.android-values.map_widget_config %}](/osmand/widgets/configure-screen) is a menu that allows to configure what widgets will be displayed over the map. It allows you to enable and configure [Quick action](/osmand/widgets/quick-action), [Informational](/osmand/widgets/info-widgets) & [Navigational](/osmand/widgets/nav-widgets) widgets and other elements.
+
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.layer_map_appearance %}
+
+Set parameters for [Configure screen](/osmand/widgets/configure-screen) menu for chosen profile.
 
 ![Profiles Configure screen Settings Android](/assets/images/personal/profiles/profile_configure_screen_settings_android.png)
 
@@ -423,7 +424,13 @@ Set parameters for [Configure screen](/osmand/widgets/configure-screen) menu for
 
 {% ios %}
 
+Here you can set parameters for [{% data variables.android-values.map_widget_config %}](/osmand/widgets/configure-screen) of chosen profile.
+
+[{% data variables.android-values.map_widget_config %}](/osmand/widgets/configure-screen) is a menu that allows to configure what widgets will be displayed over the map. It allows you to enable and configure [Quick action](/osmand/widgets/quick-action), [Informational](/osmand/widgets/info-widgets) & [Navigational](/osmand/widgets/nav-widgets) widgets and other elements.
+
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.layer_map_appearance %}
+
+Set parameters for [Configure screen](/osmand/widgets/configure-screen) menu for chosen profile.
 
 ![Profiles Configure screen Settings iOS](/assets/images/personal/profiles/profile_configure_screen_settings_ios.png)
 
