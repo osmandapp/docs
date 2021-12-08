@@ -459,9 +459,9 @@ Change profile appearance
 | Parameter | Description | Note |
 |:------------|:---------------|:---------------|
 | {% data variables.ios-values.fav_name %}| entering a profile name |     |
-| {% data variables.ios-values.shared_string_appearance %}| changing color and label for chosen profile: |     |
+| {% data variables.ios-values.map_settings_appearance %}| changing color and label for chosen profile: |     |
 |       | {% data variables.ios-values.select_color %} |  choosing color for a profile icon and menu   |
-|       | {% data variables.ios-values.select_icon_profile_dialog_title %} | choosing label for a profile icon    |
+|       | {% data variables.ios-values.select_icon %} | choosing label for a profile icon    |
 | {% data variables.ios-values.appearance_on_map %}| changing position icons: |     |
 |       | {% data variables.ios-values.position_icon_at_rest %} |  choosing label for a profile icon without moving   |
 |       | {% data variables.ios-values.position_icon_while_moving %} |  choosing label for a profile icon while moving    |
