@@ -438,11 +438,6 @@ Set parameters for [Configure screen](/osmand/widgets/configure-screen) menu for
 
 ### Profile appearance
 
-Change profile appearance
-
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.profile_appearance %}
-
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.profile_appearance %}
 
 {% android %}
 
@@ -450,11 +445,26 @@ Change profile appearance
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.profile_appearance %}
 
+| Parameter | Description | Note |
+|:------------|:---------------|:---------------|
+|**{% data variables.android-values.nav_type_hint %}:**| {% data variables.android-values.select_nav_profile_dialog_message %} |     |
+
+
 {% endandroid %}
 
 {% ios %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.profile_appearance %}
+
+| Parameter | Description | Note |
+|:------------|:---------------|:---------------|
+| {% data variables.ios-values.fav_name %}| entering a profile name |     |
+| {% data variables.ios-values.shared_string_appearance %}| changing color and label for chosen profile: |     |
+|       | {% data variables.ios-values.select_color %} |  choosing color for a profile icon and menu   |
+|       | {% data variables.ios-values.select_icon_profile_dialog_title %} | choosing label for a profile icon    |
+| {% data variables.ios-values.appearance_on_map %}| changing position icons: |     |
+|       | {% data variables.ios-values.position_icon_at_rest %} |  choosing label for a profile icon without moving   |
+|       | {% data variables.ios-values.position_icon_while_moving %} |  choosing label for a profile icon while moving    |
 
 {% endios %}
 
