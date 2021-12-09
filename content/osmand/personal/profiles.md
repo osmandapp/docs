@@ -447,15 +447,15 @@ Change profile appearance
 
 | Parameter | Description | Note |
 |:------------|:---------------|:---------------|
-| "{% data variables.android-values.fav_name %}"| entering a profile name |     |
-| "{% data variables.android-values.map_settings_appearance %}"| changing color and label for chosen profile: |     |
+| "{% data variables.android-values.profile_name_hint %}"| entering a profile name |     |
+| "{% data variables.android-values.profile_appearance %}"| changing color and label for chosen profile: |     |
 |       | "{% data variables.android-values.select_color %}" |  choosing color for a profile icon and menu   |
-|       | "{% data variables.android-values.select_icon %}" | choosing label for a profile icon    |
+|       | "{% data variables.android-values.select_icon_profile_dialog_title %}" | choosing label for a profile icon    |
 |       | ![Profile Appearance Android](/assets/images/personal/profiles/profile_appearance_android.png) |   |
-| "{% data variables.android-values.appearance_on_map %}"| changing position icons: |     |
-|       | "{% data variables.android-values.position_icon_at_rest %}" |  choosing label for a profile icon without moving   |
+| "{% data variables.android-values.appearance_on_the_map %}"| changing position icons: |     |
+|       | "{% data variables.android-values.select_map_icon %}" |  choosing label for a profile icon without moving   |
 |       | ![Profile Appearance at rest Android](/assets/images/personal/profiles/profile_appearance_atrest_android.png) |   |
-|       | "{% data variables.android-values.position_icon_while_moving %}" |  choosing label for a profile icon while moving   |
+|       | "{% data variables.android-values.select_navigation_icon %}" |  choosing label for a profile icon while moving   |
 |       | ![Profile Appearance on the map Android](/assets/images/personal/profiles/profile_appearance_moving_android.png) |   |
 
 
