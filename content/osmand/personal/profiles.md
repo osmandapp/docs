@@ -447,7 +447,16 @@ Change profile appearance
 
 | Parameter | Description | Note |
 |:------------|:---------------|:---------------|
-|**{% data variables.android-values.nav_type_hint %}:**| {% data variables.android-values.select_nav_profile_dialog_message %} |     |
+| "{% data variables.android-values.fav_name %}"| entering a profile name |     |
+| "{% data variables.android-values.map_settings_appearance %}"| changing color and label for chosen profile: |     |
+|       | "{% data variables.android-values.select_color %}" |  choosing color for a profile icon and menu   |
+|       | "{% data variables.android-values.select_icon %}" | choosing label for a profile icon    |
+|       | ![Profile Appearance Android](/assets/images/personal/profiles/profile_appearance_android.png) |   |
+| "{% data variables.android-values.appearance_on_map %}"| changing position icons: |     |
+|       | "{% data variables.android-values.position_icon_at_rest %}" |  choosing label for a profile icon without moving   |
+|       | ![Profile Appearance at rest Android](/assets/images/personal/profiles/profile_appearance_atrest_android.png) |   |
+|       | "{% data variables.android-values.position_icon_while_moving %}" |  choosing label for a profile icon while moving   |
+|       | ![Profile Appearance on the map Android](/assets/images/personal/profiles/profile_appearance_moving_android.png) |   |
 
 
 {% endandroid %}
@@ -458,76 +467,17 @@ Change profile appearance
 
 | Parameter | Description | Note |
 |:------------|:---------------|:---------------|
-| {% data variables.ios-values.fav_name %}| entering a profile name |     |
-| {% data variables.ios-values.map_settings_appearance %}| changing color and label for chosen profile: |     |
-|       | {% data variables.ios-values.select_color %} |  choosing color for a profile icon and menu   |
-|       | {% data variables.ios-values.select_icon %} | choosing label for a profile icon    |
+| "{% data variables.ios-values.fav_name %}"| entering a profile name |     |
+| "{% data variables.ios-values.map_settings_appearance %}"| changing color and label for chosen profile: |     |
+|       | "{% data variables.ios-values.select_color %}" |  choosing color for a profile icon and menu   |
+|       | "{% data variables.ios-values.select_icon %}" | choosing label for a profile icon    |
 |       | ![Profile Appearance iOS](/assets/images/personal/profiles/profile_appearance_ios.png) |   |
-| {% data variables.ios-values.appearance_on_map %}| changing position icons: |     |
-|       | {% data variables.ios-values.position_icon_at_rest %} |  choosing label for a profile icon without moving   |
-|       | {% data variables.ios-values.position_icon_while_moving %} |  choosing label for a profile icon while moving    |
+| "{% data variables.ios-values.appearance_on_map %}"| changing position icons: |     |
+|       | "{% data variables.ios-values.position_icon_at_rest %}" |  choosing label for a profile icon without moving   |
+|       | "{% data variables.ios-values.position_icon_while_moving %}" |  choosing label for a profile icon while moving    |
 |       | ![Profile Appearance on the map iOS](/assets/images/personal/profiles/profile_appearance_onthemap_ios.png) |   |
 
 {% endios %}
-
-
-#### Name, Color, Icon
-
-![Profile Appearance Android](/assets/images/personal/profiles/profile_appearance_settings_android.png) ![Profile Appearance iOS](/assets/images/personal/profiles/profile_appearance_onthemap_ios.png)
-
-- {% data variables.android-values.profile_type_osmand_string %}(Android) - link
-- {% data variables.android-values.profile_name_hint %} - 
-- {% data variables.android-values.select_color %} - 
-- {% data variables.android-values.select_icon_profile_dialog_title %} - 
-
-{% android %}
-
-![Profile Appearance Android](/assets/images/personal/profiles/profile_appearance_settings_android.png)
-
-- {% data variables.android-values.profile_type_osmand_string %}(Android) - link
-- {% data variables.android-values.profile_name_hint %} - 
-- {% data variables.android-values.select_color %} - 
-- {% data variables.android-values.select_icon_profile_dialog_title %} - 
-
-{% endandroid %}
-
-{% ios %}
-
-![Profile Appearance iOS](/assets/images/personal/profiles/profile_appearance_settings_ios.png)
-
-- {% data variables.android-values.profile_type_osmand_string %}(Android) - link
-- {% data variables.android-values.profile_name_hint %} - 
-- {% data variables.android-values.select_color %} - 
-- {% data variables.android-values.select_icon_profile_dialog_title %} - 
-
-{% endios %}
-
-
-#### Appearance on the map
-
-![Profile Appearance on the map Android](/assets/images/personal/profiles/profile_appearance_map_android.png) ![Profile Appearance on the map iOS](/assets/images/personal/profiles/profile_appearance_map_ios.png)
-
-- {% data variables.android-values.select_navigation_icon %} - 
-- {% data variables.android-values.select_map_icon %} - 
-
-{% android %}
-
-![Profile Appearance on the map Android](/assets/images/personal/profiles/profile_appearance_map_android.png)
-
-- {% data variables.android-values.select_navigation_icon %} - 
-- {% data variables.android-values.select_map_icon %} - 
-
-{% endandroid %}
-
-{% ios %}
-
-![Profile Appearance on the map iOS](/assets/images/personal/profiles/profile_appearance_map_ios.png)
-
-- {% data variables.android-values.select_navigation_icon %} - 
-- {% data variables.android-values.select_map_icon %} - 
-
-{% endios %}
-
 
 ### UI Customization
 
