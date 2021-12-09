@@ -441,7 +441,7 @@ Set parameters for [Configure screen](/osmand/widgets/configure-screen) menu for
 
 {% android %}
 
-Change profile appearance
+You can choose the color of the profile elements, its icon and name, also assign icons on the map for movement and without.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.profile_appearance %}
 
@@ -463,6 +463,8 @@ Change profile appearance
 
 {% ios %}
 
+You can choose the color of the profile elements, its icon and name, also assign icons on the map for movement and without.
+
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.profile_appearance %}
 
 | Parameter | Description | Note |
@@ -481,74 +483,34 @@ Change profile appearance
 
 ### UI Customization
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.ui_customization %}
-
-Turn off unused [plugins](/osmand/personal/profiles#plugin-settings-android) for hide all their controls.
-
-![Profile UI Customization Android](/assets/images/personal/profiles/profile_ui_customization_android.png)
-
 {% android %}
 
+Customize the quantity of items in ["{% data variables.android-values.shared_string_drawer %}"](/osmand/start-with/main-menu#main-menu-drawer), ["{% data variables.android-values.configure_map %}"](/osmand/map/configure-map-menu) and ["{% data variables.android-values.context_menu_actions %}"](/osmand/map/map-context-menu).
+
+Turn off unused [plugins](/osmand/plugins) for hide all their controls.
+
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.ui_customization %}
 
-Turn off unused [plugins](/osmand/personal/profiles#plugin-settings-android) for hide all their controls.
-
 ![Profile UI Customization Android](/assets/images/personal/profiles/profile_ui_customization_android.png)
-
-{% endandroid %}
-
-{% ios %}
-
-
-{% endios %}
 
 #### Drawer
 
-Reorder or hide items from the Drawer. 
-Button:
-- minus
-- reset
-- move
+In this part of the menu you reorder or hide items from the Drawer.
 
-![Profile UI Customization Drawer Android](/assets/images/personal/profiles/profile_ui_customization_drawer_android.png) ![Profile UI Customization Drawer 1 Android](/assets/images/personal/profiles/profile_ui_customization_drawer_1_android.png)
+| Actions | Note |
+|:---------------|:---------------|
+| "Minus" | These items are hidden from the menu, but the represented options or plugins will continue to work.  |
+| "Moving" | These items are moved to other positions in the menu.  |
+| ![Profile Drawer Android](/assets/images/personal/profiles/profile_drawer_moving_android.png) |   |
+| "Reset" | These items are reset from the "Hidden" part of the menu to the visible. |
+| ![Profile Reset Android](/assets/images/personal/profiles/profile_drawer_reset_item_android.png) |   |
+| "{% data variables.android-values.reset_to_default %}" | resetting the "Drawer" menu to default. |
+| "{% data variables.android-values.copy_from_other_profile %}" | coping the "Drawer" menu from another profile.  |
+| ![Profile Copy Android](/assets/images/personal/profiles/profile_drawer_reset_copy_android.png) |   |
 
-- {% data variables.android-values.reset_to_default %} - 
-- {% data variables.android-values.copy_from_other_profile %} - 
-
-{% android %}
-
-Reorder or hide items from the Drawer. 
-Button:
-- minus
-- reset
-- move
-
-![Profile UI Customization Drawer Android](/assets/images/personal/profiles/profile_ui_customization_drawer_android.png) ![Profile UI Customization Drawer 1 Android](/assets/images/personal/profiles/profile_ui_customization_drawer_1_android.png)
-
-- {% data variables.android-values.reset_to_default %} - 
-- {% data variables.android-values.copy_from_other_profile %} - 
-
-{% endandroid %}
-
-{% ios %}
-
-
-{% endios %}
 
 #### Configure map
 
-Reorder or hide items from the [Configur map](/osmand/map/configure-map-menu).
-Button:
-- minus
-- reset
-- move
-
-![Profile UI Customization Configure map Android](/assets/images/personal/profiles/profile_ui_customization_configure_map_android.png) ![Profile UI Customization Configure map 1 Android](/assets/images/personal/profiles/profile_ui_customization_configure_map_1_android.png)
-
-- {% data variables.android-values.reset_to_default %} - 
-- {% data variables.android-values.copy_from_other_profile %} - 
-
-{% android %}
 
 Reorder or hide items from the [Configur map](/osmand/map/configure-map-menu).
 Button:
@@ -561,24 +523,9 @@ Button:
 - {% data variables.android-values.reset_to_default %} - 
 - {% data variables.android-values.copy_from_other_profile %} - 
 
-{% endandroid %}
-
-{% ios %}
-
-
-{% endios %}
 
 #### Context menu actions
 
-Reorder or hide items from the [Context menu actions](/osmand/map/map-context-menu).
-Button:
-- minus
-- reset
-- move
-- 
-![Profile UI Customization Context menu Android](/assets/images/personal/profiles/profile_ui_customization_context_menu_android.png) ![Profile UI Customization Context menu 1 Android](/assets/images/personal/profiles/profile_ui_customization_context_menu_1_android.png)
-
-{% android %}
 
 Reorder or hide items from the [Context menu actions](/osmand/map/map-context-menu).
 Button:
@@ -590,10 +537,7 @@ Button:
 
 {% endandroid %}
 
-{% ios %}
 
-
-{% endios %}
 
 ## Plugin settings
 
