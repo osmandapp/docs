@@ -491,11 +491,13 @@ Turn off unused [plugins](/osmand/plugins) for hide all their controls.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.ui_customization %}
 
+Under each menu there is the info about items quantity / active items.
+
 ![Profile UI Customization Android](/assets/images/personal/profiles/profile_ui_customization_android.png)
 
-#### Drawer
+#### **Drawer**
 
-In this part of the menu you reorder or hide items from the Drawer.
+In this part of the menu you reorder or hide items from the [Drawer](/osmand/start-with/main-menu#main-menu-drawer).
 
 | Actions | Note |
 |:---------------|:---------------|
@@ -509,31 +511,37 @@ In this part of the menu you reorder or hide items from the Drawer.
 | ![Profile Copy Android](/assets/images/personal/profiles/profile_drawer_reset_copy_android.png) |   |
 
 
-#### Configure map
+#### **Configure map**
+
+In this part of the menu you reorder or hide items from the [Configure map](/osmand/map/configure-map-menu) menu.
+
+| Actions | Note |
+|:---------------|:---------------|
+| "Minus" | These items are hidden from the menu, but the represented options or plugins will continue to work.  |
+| "Moving" | These items are moved to other positions in the menu.  |
+| ![Profile Configure map menu Android](/assets/images/personal/profiles/profile_configure_moving_android.png) |   |
+| "Reset" | These items are reset from the "Hidden" part of the menu to the visible. |
+| ![Profile Configure map menu Reset Android](/assets/images/personal/profiles/profile_configure_reset_item_android.png) |   |
+| "{% data variables.android-values.reset_to_default %}" | resetting the "Configure map" menu to default. |
+| "{% data variables.android-values.copy_from_other_profile %}" | coping the "Configure map" menu from another profile.  |
+| ![Profile Configure map menu Copy Android](/assets/images/personal/profiles/profile_configure_reset_copy_android.png) |   |
 
 
-Reorder or hide items from the [Configur map](/osmand/map/configure-map-menu).
-Button:
-- minus
-- reset
-- move
-
-![Profile UI Customization Configure map Android](/assets/images/personal/profiles/profile_ui_customization_configure_map_android.png) ![Profile UI Customization Configure map 1 Android](/assets/images/personal/profiles/profile_ui_customization_configure_map_1_android.png)
-
-- {% data variables.android-values.reset_to_default %} - 
-- {% data variables.android-values.copy_from_other_profile %} - 
+#### **Context menu actions**
 
 
-#### Context menu actions
+In this part of the menu you reorder or hide items from the [Context menu actions](/osmand/map/map-context-menu) menu.
 
-
-Reorder or hide items from the [Context menu actions](/osmand/map/map-context-menu).
-Button:
-- minus
-- reset
-- move
-- 
-![Profile UI Customization Context menu Android](/assets/images/personal/profiles/profile_ui_customization_context_menu_android.png) ![Profile UI Customization Context menu 1 Android](/assets/images/personal/profiles/profile_ui_customization_context_menu_1_android.png)
+| Actions | Note |
+|:---------------|:---------------|
+| "Minus" | These items are hidden from the menu, but the represented options or plugins will continue to work.  |
+| "Moving" | These items are moved to other positions in the menu.  |
+| ![Profile Configure map menu Android](/assets/images/personal/profiles/profile_context_moving_android.png) |   |
+| "Reset" | These items are reset from the "Hidden" part of the menu to the visible. |
+| ![Profile Configure map menu Reset Android](/assets/images/personal/profiles/profile_context_reset_item_android.png) |   |
+| "{% data variables.android-values.reset_to_default %}" | resetting the "Context menu actions" menu to default. |
+| "{% data variables.android-values.copy_from_other_profile %}" | coping the "Context menu actions" menu from another profile.  |
+| ![Profile Configure map menu Copy Android](/assets/images/personal/profiles/profile_context_reset_copy_android.png) |   |
 
 {% endandroid %}
 
