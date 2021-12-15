@@ -562,7 +562,7 @@ Plugins must be enabled in [the Plugin list](/osmand/plugins) for activating it 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %}
 
-[Profile Settings Plugins Android](/assets/images/personal/profiles/profile_plugins_android.png)
+![Profile Settings Plugins Android](/assets/images/personal/profiles/profile_plugins_android.png)
 
 {% endandroid %}
 
@@ -578,7 +578,7 @@ Plugins must be enabled in [the Plugin list](/osmand/plugins) for activating it 
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.plugins %}
 
-[Profile Settings Plugins iOS](/assets/images/personal/profiles/profile_plugins_ios.png)
+![Profile Settings Plugins iOS](/assets/images/personal/profiles/profile_plugins_ios.png)
 
 {% endios %}
 
@@ -633,12 +633,20 @@ This menu opens [the OpenStreetMap editing plugin settings](/osmand/plugins/osm-
 
 {% android %}
 
+This menu opens [the OpenPlaceReviews plugin settings](/osmand/plugins/openplacereviews#plugin-settings) for the selected profile. Where you can input your data for starting added reviews of any places.
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.open_place_reviews %}
+
 {% endandroid %}
 
 
 ### Accesibility
 
 {% android %}
+
+This menu opens [Accessibility plugin settings]() for the selected profile. Where you can choose any parameters for your needed.
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.shared_string_accessibility %}
 
 {% endandroid %}
 
