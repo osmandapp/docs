@@ -23,7 +23,7 @@ Make OSM contributions like creating or modifying OSM POI objects, opening or co
 
 ![OpenStretMap editing Android](/assets/images/plugins/osm-editing/osm_plugin_android.png)  ![OpenStretMap editing](/assets/images/plugins/osm-editing/osm_plugin_ios.png)
 
-### Plugin settings (Android)
+### Plugin settings
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.osm_settings %} → {% data variables.android-values.shared_string_settings %}
 
