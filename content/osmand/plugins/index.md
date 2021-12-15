@@ -18,3 +18,4 @@ versions: '*'
 {% link_with_intro /openplacereviews %}
 {% link_with_intro /osmand-tracker %}
 {% link_with_intro /development %}
+{% link_with_intro /accessibility %}
