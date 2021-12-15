@@ -644,7 +644,7 @@ This menu opens [the OpenPlaceReviews plugin settings](/osmand/plugins/openplace
 
 {% android %}
 
-This menu opens [Accessibility plugin settings]() for the selected profile. Where you can choose any parameters for your needed.
+This menu opens [Accessibility plugin settings](/osmand/plugins/accessibility) for the selected profile. Where you can choose any parameters for your needed.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.shared_string_accessibility %}
 
@@ -653,6 +653,10 @@ This menu opens [Accessibility plugin settings]() for the selected profile. Wher
 ### OsmAnd development
 
 {% android %}
+
+This menu opens [Development plugin settings](/osmand/plugins/accessibility) for the selected profile. Settings for development and debugging features, like navigation simulation, rendering performance, or voice prompting. Intended for developers, not needed for normal app use.
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.development %}
 
 {% endandroid %}
 
