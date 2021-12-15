@@ -554,7 +554,15 @@ In this part of the menu you reorder or hide items from the [Context menu action
 
 [Plugins](https://docs.osmand.net/en/main@latest/osmand/plugins) are a collection of settings that can be enabled with one click. Plugins also unlock additional functions of the application, they can be either [paid or free](/osmand/purchases). Some plugins have their own settings. Among other things, you can enable or disable plugins for each profile separately.
 
+{% note %}
+
+Plugins must be enabled in [the Plugin list](/osmand/plugins) for activating it in the setting list for the profile.
+
+{% endnote %}
+
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %}
+
+[Profile Settings Plugins Android](/assets/images/personal/profiles/profile_plugins_android.png)
 
 {% endandroid %}
 
@@ -562,23 +570,83 @@ In this part of the menu you reorder or hide items from the [Context menu action
 
 [Plugins](https://docs.osmand.net/en/main@latest/osmand/plugins) are a collection of settings that can be enabled with one click. Plugins also unlock additional functions of the application, they can be either [paid or free](/osmand/purchases). Some plugins have their own settings. Among other things, you can enable or disable plugins for each profile separately.
 
+{% note %}
+
+Plugins must be enabled in [the Plugin list](/osmand/plugins) for activating it in the setting list for the profile.
+
+{% endnote %}
+
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.plugins %}
+
+[Profile Settings Plugins iOS](/assets/images/personal/profiles/profile_plugins_ios.png)
 
 {% endios %}
 
 ### Trip recording
 
-link
+{% android %}
+
+This menu opens [the trip recording settings](/osmand/plugins/trip-recording#trip-recording-plugin-settings-for-android) for the selected profile. Where you can choose any parameters for recording your trip.
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.record_plugin_name %}
+
+
+{% endandroid %}
+
+{% ios %}
+
+This menu opens [the track recording settings](/osmand/plugins/trip-recording#trip-recording-plugin-settings-for-android) for the selected profile. Where you can choose any parameters for recording your trip.
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.track_recording %}
+
+{% endios %}
 
 ### Audio / Video notes
 
+{% android %}
+
+This menu opens [audio-video plugin settings](/osmand/plugins/audio-video-notes#plugin-settings) for the selected profile. Where you can choose any parameters for your needed.
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.audionotes_plugin_name %}
+
+{% endandroid %}
+
 ### OpenStreetMap editing
+
+{% android %}
+
+This menu opens [the OpenStreetMap editing plugin settings](/osmand/plugins/osm-editing#plugin-settings) for the selected profile. Where you can input your data for starting OSM edit.
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.osm_editing_plugin_name %}
+
+{% endandroid %}
+
+{% ios %}
+
+This menu opens [the OpenStreetMap editing plugin settings](/osmand/plugins/osm-editing#plugin-settings) for the selected profile. Where you can input your data for starting OSM edit.
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.product_title_osm_editing %}
+
+{% endios %}
 
 ### OpenPlaceReviews
 
+{% android %}
+
+{% endandroid %}
+
+
 ### Accesibility
 
-### OsmAnd developmnet
+{% android %}
+
+{% endandroid %}
+
+### OsmAnd development
+
+{% android %}
+
+{% endandroid %}
 
 ## Actions
 
