@@ -1,5 +1,5 @@
 ---
-title: "{% data variables.android-values.osm_settings %}"
+title: "{% data variables.android-values.osm_editing_plugin_name %}"
 intro: "Make contributions to OpenStreetMap."
 versions: '*'
 ---
