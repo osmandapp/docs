@@ -549,16 +549,20 @@ In this part of the menu you reorder or hide items from the [Context menu action
 
 ## Plugin settings
 
-Settings of plugin for chosen profile
-[Link to Plugins](https://docs.osmand.net/en/main@latest/osmand/plugins)
 
 {% android %}
 
+[Plugins](https://docs.osmand.net/en/main@latest/osmand/plugins) are a collection of settings that can be enabled with one click. Plugins also unlock additional functions of the application, they can be either [paid or free](/osmand/purchases). Some plugins have their own settings. Among other things, you can enable or disable plugins for each profile separately.
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %}
 
 {% endandroid %}
 
 {% ios %}
 
+[Plugins](https://docs.osmand.net/en/main@latest/osmand/plugins) are a collection of settings that can be enabled with one click. Plugins also unlock additional functions of the application, they can be either [paid or free](/osmand/purchases). Some plugins have their own settings. Among other things, you can enable or disable plugins for each profile separately.
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.plugins %}
 
 {% endios %}
 
