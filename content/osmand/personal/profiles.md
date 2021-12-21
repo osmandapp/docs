@@ -99,7 +99,7 @@ In this section you can set parameters of units & formats for chosen application
 
 ![Profiles General Settings Units & formats Android](/assets/images/personal/profiles/profile_gs_unitsformats_android.png)
 
-| Parameter | Format | Note |
+| Parameter | Format | Note   |
 |:------------|:---------------|:---------------|
 |**{% data variables.android-values.driving_region %}**| {% data variables.android-values.driving_region_automatic %} | According to the device location |
 |            | {% data variables.android-values.driving_region_europe_asia %}   | {% data variables.android-values.right_side_navigation %}, {% data variables.android-values.si_km_m %}  |
