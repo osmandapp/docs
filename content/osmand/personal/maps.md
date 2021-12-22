@@ -4,9 +4,6 @@ intro: "Maps screen allows you to do basic operations over online and offline ma
 versions: '*'
 ---
 
-{% data reusables.general.article-not-complete %}
-
-
 OsmAnd deals with 2 type of maps: [Vector maps](/osmand/map/vector-maps) and  [Raster maps](/osmand/map/raster-maps). All maps are stored in one place of the [Storage](/osmand/personal/storage) and it is accessible with external tools. 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %}
