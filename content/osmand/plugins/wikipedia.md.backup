@@ -1,24 +1,44 @@
 ---
 title: "Wikipedia"
-intro: "Having Wikipedia with you on a trip helps to know basics about the places you are visiting. It is available offline, and can be opened directly from the map. Follow the guidance below to find out how to enable it."
+intro: "Having Wikipedia with you on a trip helps to learn basics about the places you are visiting. It is available offline, and shows Wikipedia articles in relation to the points of interest directly on the map."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-[Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) is a free, multilingual open-collaborative online encyclopedia created and maintained by a community of volunteer editors using a wiki-based editing system. 
+# Overview 
 
-![Wikipedia](/assets/images/map/map-wikipedia.png)
+Wikipedia plugin as an autonomous functionality, which can be enabled/disabled as needed, allows you to view Wikipedia articles opened from a Wikipedia point of interest (abbrev. as 'POI', 'Wikipedia POI') directly on the map. 
 
-### Purchase Wikipedia
+> [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) is a free, multilingual open-collaborative online encyclopedia created and maintained by a community of volunteer editors using a wiki-based editing system. ![Wikipedia](/assets/images/map/map-wikipedia.png)
+
+The Wikipedia articles are available offline. It is possible to read them whenever needed, switch languages, and search for other Wikipedia information. The Wikipedia information is displayed in an article associated to a specific Wikipedia POI on the map. It is downloaded together with the selected geographical region. 
+
+The Wikipedia offline is a paid service for the Android version, and a free service for the iOS version. 
+
+To view Wikipedia POI on the map, the service is purchased, if needed, and then downloaded for the selected geographical regions. Afterwards, the Wikipedia POI can be toggled on/off, to enable/disable the visibility of them on the map. 
+
+
+# Purchase Wikipedia
 
 Wikipedia offline is [a paid service](/osmand/purchases) for Android version and a free service for iOS version.
 
-**Android:** need to buy OsmAnd+ application (or OsmAnd Unlimited in-app for Free version) or OsmAnd live subscription.
+{% android %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_wiki %}
+For the **Android** version, to work with Wikipedia, one of the following paid subscriptions are needed:
+- OsmAnd+ application,
+- OsmAnd Unlimited in-app for Free version,
+- OsmAnd Live subscription.
 
+{% endandroid %}
 
-### Download Wikipedia
+{% ios%}
+
+For the **iOS** version, to work with Wikipedia, toggle the Wikipedia option on in:
+{% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_wiki %}
+
+{% endios %}
+
+# Download Wikipedia
 
 In order [to download Wikipedia articles](/osmand/start-with/download-maps#download---main-menu) for the country for using it Offline:
 
@@ -32,7 +52,7 @@ You can check which Wikipedia files you already have downloaded:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.sett_lang_local %}
 
-### Wikipedia articles on the map
+# Wikipedia articles on the map
 
 Next, you can enable [Wikipedia POI on the map](/osmand/map/point-layers-on-map#-wikipedia):
 
@@ -42,7 +62,7 @@ Next, you can enable [Wikipedia POI on the map](/osmand/map/point-layers-on-map#
 
 ![Wikipedia on map Android](/assets/images/map/map-wikipedia-on-map.png) ![Wikipedia on map iOS](/assets/images/map/map-wikipedia-on-map_ios.png)
 
-### Search Wikipedia
+# Search Wikipedia
 
 In OsmAnd you can [find Wiki-articles on the map by searching](/osmand/map/point-layers-on-map#-wikipedia) the menu in the left corner of the screen.
 
@@ -61,7 +81,7 @@ You see all the nearest {% data variables.android-values.shared_string_wikipedia
 
 
 
-### Filter by language
+# Filter by language
 
 In OsmAnd for Android, you can select languages for Wikipedia articles on the map:
 
