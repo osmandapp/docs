@@ -1,6 +1,6 @@
 ---
 title: "Wikipedia"
-intro: "Having Wikipedia with you on a trip helps to learn basics about the places you are visiting. It is available offline, and shows Wikipedia articles in relation to the points of interest directly on the map."
+intro: "Having Wikipedia with you on a trip helps to learn more about the places you are visiting. It is available offline, and shows Wikipedia articles in relation to the points of interest directly on the map."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}

@@ -1,6 +1,6 @@
 ---
 title: "Wikipedia"
-intro: "Having Wikipedia with you on a trip helps to learn basics about the places you are visiting. It is available offline, and shows Wikipedia articles in relation to the points of interest directly on the map."
+intro: "Having Wikipedia with you on a trip helps to learn more about the places you are visiting. It is available offline, and shows Wikipedia articles in relation to the points of interest directly on the map."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
@@ -33,7 +33,7 @@ For the **Android** version, to work with Wikipedia, one of the following paid s
 
 {% ios%}
 
-For the **iOS** version, to work with Wikipedia, toggle the Wikipedia option on in:
+For the **iOS** version, to work with Wikipedia, turn on the Wikipedia option in:
 {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_wiki %}
 
 {% endios %}
