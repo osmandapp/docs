@@ -33,7 +33,7 @@ For the **Android** version, to work with Wikipedia, one of the following paid s
 
 {% ios%}
 
-For the **iOS** version, to work with Wikipedia, turn on the Wikipedia option in:
+For the **iOS** version, to work with Wikipedia, toggle the Wikipedia option on in:
 {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_wiki %}
 
 {% endios %}
