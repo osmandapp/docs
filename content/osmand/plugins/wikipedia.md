@@ -50,25 +50,21 @@ For the **Android** version, to work with Wikipedia, one of the following paid s
 ### Download Wikipedia
 {% data reusables.general.android-ios-switcher %}
 
+The Wikipedia POI are included into the package of the geographical region for download. And once downloaded, it is available offline. To download the Wikipedia POI for a specific region, open [the Download section of the Main Menu](/osmand/start-with/download-maps#download---main-menu) and then select:
+
 {% ios%}
-The Wikipedia POI are included into the package of the geographical region for download. And once downloaded, it is available offline. 
-To download the Wikipedia POI for a specific region, open [the Download section of the Main Menu](/osmand/start-with/download-maps#download---main-menu) and then select:
-<br/>
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} 
+{% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} 
 <br/>
 To view what Wikipedia POI are already available offline, go to:
 <br/>
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %}
+{% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %}
 {% endios%}
 
 
 
 
 {% android %}
-The Wikipedia POI are included into the package of the geographical region for download. And once downloaded, it is available offline. 
-To download the Wikipedia POI for a specific region, open [the Download section of the Main Menu](/osmand/start-with/download-maps#download---main-menu) and then select:
-<br/>
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
 <br/>
 To view what Wikipedia POI are already available offline, go to:
 <br/>
@@ -80,7 +76,7 @@ To view what Wikipedia POI are already available offline, go to:
 
 
 
-## Wikipedia articles on the map
+### Wikipedia articles on the map
 
 Next, you can enable [Wikipedia POI on the map](/osmand/map/point-layers-on-map#-wikipedia):
 
@@ -90,7 +86,7 @@ Next, you can enable [Wikipedia POI on the map](/osmand/map/point-layers-on-map#
 
 ![Wikipedia on map Android](/assets/images/map/map-wikipedia-on-map.png) ![Wikipedia on map iOS](/assets/images/map/map-wikipedia-on-map_ios.png)
 
-## Search Wikipedia
+### Search Wikipedia
 
 In OsmAnd you can [find Wiki-articles on the map by searching](/osmand/map/point-layers-on-map#-wikipedia) the menu in the left corner of the screen.
 
@@ -109,7 +105,7 @@ You see all the nearest {% data variables.android-values.shared_string_wikipedia
 
 
 
-## Filter by language
+### Filter by language
 
 In OsmAnd for Android, you can select languages for Wikipedia articles on the map:
 
