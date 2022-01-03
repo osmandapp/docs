@@ -5,7 +5,7 @@ versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-# Overview 
+### Overview 
 
 Wikipedia plugin as an autonomous functionality allows you to view Wikipedia articles opened from a Wikipedia point of interest (abbrev. as 'POI', 'Wikipedia POI') directly on the map. The plugin can enabled/disabled as needed. It is a paid service for the Android version, and a free service for the iOS version.
 
@@ -13,47 +13,72 @@ To view Wikipedia POI on the map, the service is purchased, if needed, and then 
 
 
 > [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) is a free, multilingual open-collaborative online encyclopedia created and maintained by a community of volunteer editors using a wiki-based editing system. ![Wikipedia](/assets/images/map/map-wikipedia.png)
+<br/>
 
 
 
  
 
 
-## Purchase Wikipedia
-
-Wikipedia offline is [a paid service](/osmand/purchases) for Android version and a free service for iOS version.
+### Purchase Wikipedia
 
 {% data reusables.general.android-ios-switcher %}
 
-{% android %}
-
-For the **Android** version, to work with Wikipedia, one of the following paid subscriptions are needed:
-- OsmAnd+ application,
-- OsmAnd Unlimited in-app for Free version,
-- OsmAnd Live subscription.
-
-{% endandroid %}
+Wikipedia offline is [a paid service](/osmand/purchases) for Android version and a free service for iOS version.
+<br/>
 
 {% ios%}
 
-For the **iOS** version, to work with Wikipedia, turn on the Wikipedia option in:
+For the **iOS** version, to work with Wikipedia, turn on the Wikipedia option in:<br/>
+
 {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_wiki %}
 
 {% endios %}
 
-## Download Wikipedia
+{% android %}
 
-In order [to download Wikipedia articles](/osmand/start-with/download-maps#download---main-menu) for the country for using it Offline:
+For the **Android** version, to work with Wikipedia, one of the following paid subscriptions are needed:  <br/>
+- **OsmAnd+** application,
+- **OsmAnd Unlimited** in-app for Free version,
+- **OsmAnd Live** subscription.
+<br/>
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
+{% endandroid %}
 
+<br/>
+
+### Download Wikipedia
+{% data reusables.general.android-ios-switcher %}
+
+{% ios%}
+The Wikipedia POI are included into the package of the geographical region for download. And once downloaded, it is available offline. 
+To download the Wikipedia POI for a specific region, open [the Download section of the Main Menu](/osmand/start-with/download-maps#download---main-menu) and then select:
+<br/>
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} 
+<br/>
+To view what Wikipedia POI are already available offline, go to:
+<br/>
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %}
+{% endios%}
 
-You can check which Wikipedia files you already have downloaded:
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.download_wikipedia_maps %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.sett_lang_local %}
+
+{% android %}
+The Wikipedia POI are included into the package of the geographical region for download. And once downloaded, it is available offline. 
+To download the Wikipedia POI for a specific region, open [the Download section of the Main Menu](/osmand/start-with/download-maps#download---main-menu) and then select:
+<br/>
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
+<br/>
+To view what Wikipedia POI are already available offline, go to:
+<br/>
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_wikipedia_maps %}
+<br/>
+{% endandroid %}
+
+
+
+
 
 ## Wikipedia articles on the map
 
@@ -84,7 +109,7 @@ You see all the nearest {% data variables.android-values.shared_string_wikipedia
 
 
 
-# Filter by language
+## Filter by language
 
 In OsmAnd for Android, you can select languages for Wikipedia articles on the map:
 
