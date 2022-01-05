@@ -56,7 +56,7 @@ The <strong>iOS</strong> version provides the Wikipedia plugin by default. To en
 
 
 ### Download Wikipedia data
-<p>The Wikipedia data is available per geographical region. If it is downloaded for one region, and not downloaded for another, in the first case the Wikipedia information can be visible when browsing across the region on the map, and in the other case, the region will lack any Wikipedia information. Being downloaded, the Wikipedia data becomes available in general, as well as offline. </p>
+<p>The Wikipedia data is available per geographical region. If it is downloaded for one region, and not downloaded for another, in the first case it would be possible to work with the Wikipedia information when browsing across the region on the map, and in the other case, the region will lack any Wikipedia information. Being downloaded, the Wikipedia data becomes available in general, as well as offline. </p>
 
 To download the Wikipedia data for a region, go to the available packages for [download in the main menu](/osmand/start-with/download-maps#download---main-menu), find the needed region and open it. The Wikipedia data will be among other packages.
 
@@ -116,38 +116,36 @@ For the **Android** version, to show/hide the Wikipedia POI, go to: {% data vari
 
 ### Search Wikipedia
 
-With the Wikipedia data downloaded, regardless of the visibility mode of the <a href="/osmand/map/point-layers-on-map#-wikipedia">Wikipedia POI</a> on the map, it is possible to search for any Wikipedia information, as follows:
+With the Wikipedia data downloaded, regardless of the visibility mode of the <a href="/osmand/map/point-layers-on-map#-wikipedia">Wikipedia POI</a> on the map, it is possible to search for any Wikipedia information.
 
 
 {% data reusables.general.android-ios-switcher %}
 
 {% ios%}
-<ul>
-	<li>with the Search icon in the left-hand top corner of the screen</li>
-</ul>
+For the **iOS** version, tap the Search icon in the left-hand top corner of the screen. 
 
 <p align="center"><img src="/assets/images/map/map-wikipedia-search_ios.png" alt="Wikipedia search on iOS"></p>
 
 {% endios%}
 
 {% android %}
+For the **Android** version, you can use:
+- the Search icon in the left-hand top corner of the screen, and/or
+- the Search option in the menu. 
 
-<ul>
-	<li>with the Search icon in the left-hand top corner of the screen</li>
-	<li>with the Search option in the menu</li>
-</ul> 
 <p align="center"><img src="/assets/images/map/map-wikipedia-search.png" alt="Wikipedia search on Android"></p>
 
 {% endandroid %}
 
-With the tap on the Search icon, an extra pane pops up and allows you to search everything, and/or specific category. In the first case, the search results will show the Wikipedia POI with associated Wikipedia articles among other types of the information. In case of the search by the Wikipedia category, the search results will show only the Wikipedia information sorted by the nearest location in relation to the area of the map which is currently viewable on the screen. 
-
-To search by the Wikipedia category, select:
+By tapping Search, an extra pane pops up and allows you to search everything, and/or by the specific category. In the first case, the search results will show the Wikipedia POI with associated Wikipedia articles among other types of the information. In case of the search by the Wikipedia category, the search results will show only the Wikipedia information sorted by the nearest location in relation to the area of the map currently viewable on the screen. 
 
 {% data reusables.general.android-ios-switcher %}
 
 {% ios%}
+To search by the Wikipedia category, select:
+
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.shared_string_search %} → {% data variables.ios-values.categories %} → {% data variables.ios-values.res_wiki %}
+
 <p align="center"><img src="/assets/images/map/map-wikipedia-search-on-map_ios.png" alt="Wikipedia category on iOS"></p>
 {% endios%}
 
@@ -157,13 +155,7 @@ To search by the Wikipedia category, select:
 {% endandroid %}
 
 
-If needed, to display the search results retrieved by the Wikipedia category, it is enough to tap the **Show Wikipedia on the map** option at the top of the search panel. 
-
-
-
-You see all the nearest {% data variables.android-values.shared_string_wikipedia %} articles. You can click to "Show Wikipedia on the map" for showing POI on the map:
-
-
+If needed, to display the search results retrieved by the Wikipedia category on the map, it is enough to tap the **Show Wikipedia on the map** option at the top of the search panel. 
 
 
 
