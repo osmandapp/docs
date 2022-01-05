@@ -160,7 +160,8 @@ By tapping Search, an extra pane pops up and allows you to search everything, an
 {% endandroid %}
 
 <p><br></p>
->If needed, tap the **Show Wikipedia on the map** option at the top of the search panel, and the search results retrieved by the Wikipedia category will show up on the map. 
+
+<p> If needed, tap the <strong>Show Wikipedia on the map</strong> option at the top of the search panel, and the search results retrieved by the Wikipedia category will show up on the map.</p> 
 
 
 
@@ -197,3 +198,6 @@ For the **Android** version, to set the preferred language for the Wikipedia dat
 
 {% endandroid %}
 
+In case if some translation options are available, it is possible to switch the language when viewing a specific Wikipedia article. A language icon at the right-hand top area of the article will offer the options for selection. 
+
+<p align="center"><img src="/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng3.png" alt="Switching languages for a specific article"></p>
