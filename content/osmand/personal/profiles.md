@@ -6,6 +6,16 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
+{% default %}
+
+To start setting up an application profile:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile)
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %}
+
+{% enddefault %}
+
 
 {% android %}
 
@@ -29,19 +39,36 @@ To start setting up an application profile:
 
 ## Profile configuration
 
+{% default %}
+
 This section contains all the settings related to the appearance, navigation settings, map rendering, configure menu, and screen of a profile.
 
 {% note %}
 All settings affect the selected application profile only.
 {% endnote %}
 
+{% enddefault %}
+
+
 {% android %}
+
+This section contains all the settings related to the appearance, navigation settings, map rendering, configure menu, and screen of a profile.
+
+{% note %}
+All settings affect the selected application profile only.
+{% endnote %}
 
 ![Profiles Settings Android](/assets/images/personal/profiles/profile_settings_menu_android.png)
 
 {% endandroid %}
 
 {% ios %}
+
+This section contains all the settings related to the appearance, navigation settings, map rendering, configure menu, and screen of a profile.
+
+{% note %}
+All settings affect the selected application profile only.
+{% endnote %}
 
 ![Profiles Settings iOS](/assets/images/personal/profiles/profile_settings_menu_ios.png)
 
@@ -50,15 +77,24 @@ All settings affect the selected application profile only.
 
 ### General settings
 
+{% default %}
+
 This section of settings contains settings of the cursor on the map and map view, settings of units & formats of map and profile data, settings of external input devices, and other sensors.
 
+{% enddefault %}
+
+
 {% android %}
+
+This section of settings contains settings of the cursor on the map and map view, settings of units & formats of map and profile data, settings of external input devices, and other sensors.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.general_settings_2 %}
 
 {% endandroid %}
 
 {% ios %}
+
+This section of settings contains settings of the cursor on the map and map view, settings of units & formats of map and profile data, settings of external input devices, and other sensors.
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %}
 
