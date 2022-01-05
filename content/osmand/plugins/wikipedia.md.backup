@@ -153,9 +153,10 @@ By tapping Search, an extra pane pops up and allows you to search everything, an
 {% android %}
 <p>To search by the Wikipedia category, select:</p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.map_widget_search %} → {% data variables.android-values.search_categories %} → {% data variables.android-values.shared_string_wikipedia %}
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.android_button_seq %} {% data variables.android-values.map_widget_search %} → {% data variables.android-values.search_categories %} → {% data variables.android-values.shared_string_wikipedia %}
 
 <p align="center"><img scr="/assets/images/map/map-wikipedia-search-on-map.png" alt="Wikipedia category on Android"></p>
+
 {% endandroid %}
 
 
@@ -163,13 +164,11 @@ By tapping Search, an extra pane pops up and allows you to search everything, an
 
 
 
-### Set language for Wikipedia article
+### Set language for Wikipedia
 
 In case when there is a choice of languages to display the Wikipedia data in, you can set the language you prefer to read the text in. The figure below shows an example of the Wikipedia POI and the article, which are written in French by default, and displayed in English, thanks to the availability of other translations for this Wikipedia data and the English language established for the Wikipedia in the Profile settings. 
 
-| --- | --- | --- |
-| ![French Wikipedia POI in English](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng1.png)| ![French Wikipedia article in English](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng2.png) | ![Switching languages to display an article in](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng3.png) | 
-| French Wikipedia POI in English | French Wikipedia article in English | Switching languages to display an article in |
+<p align="center"><img src="/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng1.png" alt="French Wikipedia POI in English"></p>
 
 
 To set the preferred language, so that to view the Wikipedia data in, go to the required profile, click the triple dots beside the **Wikipedia** option, and in the opened list, deselect **All language** and check a specific option. In case of some languages selected, the displayed text will be in any of the languages. 
@@ -181,10 +180,10 @@ To set the preferred language, so that to view the Wikipedia data in, go to the 
 
 For the **iOS** version, to set the preferred language for the Wikipedia data, go to: 
 
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ois-values.configure_map %} → <*specific Profile*> → {% data variables.ios-values.map_settings_show %} → {% data variables.ois-values.res_wiki %} → {% data variables.ios-values.language %} → {% data variables.ios-values.preferred_languages %}
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → <*specific Profile*> → {% data variables.ios-values.map_settings_show %} → {% data variables.ois-values.res_wiki %} → {% data variables.ios-values.language %} → {% data variables.ios-values.preferred_languages %}
 
 
-<p align="center"><img scr="/assets/images/map/map-wikipedia-language-2-ios.png" alt="Setting a preferred language on iOS"></p>
+<p align="center"><img src="/assets/images/map/map-wikipedia-language-2-ios.png" alt="Setting a preferred language on iOS"></p>
 
 {% endios%}
 
@@ -197,5 +196,4 @@ For the **Android** version, to set the preferred language for the Wikipedia dat
 <p align="center"><img src="/assets/images/plugins/wikipedia/Android-wiki-languages.png" alt="Setting a preferred language on Android"></p>
 
 {% endandroid %}
-
 
