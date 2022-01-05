@@ -155,11 +155,11 @@ By tapping Search, an extra pane pops up and allows you to search everything, an
 
 &nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.android_button_seq %} {% data variables.android-values.map_widget_search %} → {% data variables.android-values.search_categories %} → {% data variables.android-values.shared_string_wikipedia %}
 
-<p align="center"><img scr="/assets/images/map/map-wikipedia-search-on-map.png" alt="Wikipedia category on Android"></p>
+<p align="center"><img src="/assets/images/map/map-wikipedia-search-on-map.png" alt="Wikipedia category on Android"></p>
 
 {% endandroid %}
 
-
+<p><br></p>
 >If needed, tap the **Show Wikipedia on the map** option at the top of the search panel, and the search results retrieved by the Wikipedia category will show up on the map. 
 
 
