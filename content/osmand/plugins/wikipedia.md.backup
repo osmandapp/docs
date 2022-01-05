@@ -75,7 +75,7 @@ To download the Wikipedia data for a region, go to the available packages for [d
 {% android %}
 
 <p>For the <strong>Android</strong> version, the Wikipedia data to download per region can be opened, as follows:</p> 
-s&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
 
 <p>For the <strong>Android</strong> version, to view what data is already downloaded, go to: </p>
 &nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_wikipedia_maps %}
