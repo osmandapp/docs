@@ -75,7 +75,7 @@ To download the Wikipedia data for a region, go to the available packages for [d
 {% android %}
 
 <p>For the <strong>Android</strong> version, the Wikipedia data to download per region can be opened, as follows:</p> 
-s&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
 
 <p>For the <strong>Android</strong> version, to view what data is already downloaded, go to: </p>
 &nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_wikipedia_maps %}
@@ -86,7 +86,7 @@ s&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} 
 
 
 
-### Show/Hide Wikipedia POI per profile
+### Show/Hide Wikipedia POI 
 With the Wikipedia data downloaded for the required regions, it is possible to manage the visibility of this data on the map. The visibility is managed via the [Wikipedia POI](/osmand/map/point-layers-on-map#-wikipedia), which can be shown, or hidden for all downloaded regions per specific [profile](/osmand/personal/profiles), such as: a profile for driving a car, a profile for cycling, another one to show the Public Transport, etc. Thus, to show, or hide the Wikipedia POI, select the profile first, and then toggle the **Wikipedia** option on/off.
 
 {% data reusables.general.android-ios-switcher %}
