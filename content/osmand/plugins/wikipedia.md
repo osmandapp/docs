@@ -35,9 +35,7 @@ The short summary is provided via the Wikipedia POI (abbrev. from 'point of inte
 
 {% ios%}
 
-<p>The <strong>iOS</strong> version provides the Wikipedia plugin by default. To enable the plugin, turn on the <strong>Wikipedia</strong> option in the following menu of the app:</p>
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_wiki %}
+The <strong>iOS</strong> version provides the Wikipedia plugin by default. To enable the plugin, turn on the <strong>Wikipedia</strong> option in the following menu of the app: {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_wiki %}
 
 {% endios%}
 
@@ -66,13 +64,9 @@ To download the Wikipedia data for a region, go to the available packages for [d
 
 {% ios%}
 
-<p>For the <strong>iOS</strong> version, the Wikipedia data to download per region can be opened, as follows:</p>
+For the <strong>iOS</strong> version, the Wikipedia data to download per region can be opened, as follows: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} 
 
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} 
-
-<p>For the <strong>iOS</strong> version, to view what data is already downloaded, go to: </p> 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %}
+For the <strong>iOS</strong> version, to view what data is already downloaded, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %}
 
 {% endios%}
 
@@ -80,11 +74,11 @@ To download the Wikipedia data for a region, go to the available packages for [d
 
 <p>For the <strong>Android</strong> version, the Wikipedia data to download per region can be opened, as follows:</p> 
 
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
 
-<p>For the <strong>Android</strong> version, to view what data is already downloaded, go to: </p> 
+<p>For the <strong>Android</strong> version, to view what data is already downloaded, go to: </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_wikipedia_maps %}
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_wikipedia_maps %}
 
 {% endandroid %}
 
@@ -99,17 +93,17 @@ With the Wikipedia data downloaded for the required regions, it is possible to m
 
 {% ios%}
 
-For the **iOS** version, to show/hide the Wikipedia POI, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.poi_overlay %} → {% data variables.ios-values.res_wiki %} 
-<p>	<img src="/assets/images/map/map-wikipedia-on-map_ios.png"
-	alt="Wikipedia POI on iOS"></p>
+For the **iOS** version, to show/hide the Wikipedia POI, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → < *specific Profile* > →  {% data variables.ios-values.map_settings_show %} → {% data variables.ios-values.res_wiki %} 
+
+<p align="center"><img src="/assets/images/map/map-wikipedia-on-map_ios.png" alt="Wikipedia POI on iOS"></p>
 
 {% endios%}
 
 {% android %}
 
-For the **Android** version, to show/hide the Wikipedia POI, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.shared_string_wikipedia %}
+For the **Android** version, to show/hide the Wikipedia POI, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → < *specific Profile* > → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.shared_string_wikipedia %}
 
-<p><img src="/assets/images/map/map-wikipedia-on-map.png" alt="Wikipedia POI on Android"></p>
+<p align="center"><img src="/assets/images/map/map-wikipedia-on-map.png" alt="Wikipedia POI on Android"></p>
 
 {% endandroid %}
 
@@ -122,20 +116,48 @@ For the **Android** version, to show/hide the Wikipedia POI, go to: {% data vari
 
 ### Search Wikipedia
 
-In OsmAnd you can <a href="/osmand/map/point-layers-on-map#-wikipedia">find Wiki-articles on the map by searching</a> the menu in the left corner of the screen.
+With the Wikipedia data downloaded, regardless of the visibility mode of the <a href="/osmand/map/point-layers-on-map#-wikipedia">Wikipedia POI</a> on the map, it is possible to search for any Wikipedia information, as follows:
 
-![Wikipedia search Android](/assets/images/map/map-wikipedia-search.png) ![Wikipedia search iOS](/assets/images/map/map-wikipedia-search_ios.png)
 
-In {% data variables.android-values.search_categories %} search menu you need to choose {% data variables.android-values.shared_string_wikipedia %} category:
+{% data reusables.general.android-ios-switcher %}
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.map_widget_search %} → {% data variables.android-values.search_categories %} → {% data variables.android-values.shared_string_wikipedia %}
+{% ios%}
+<ul>
+	<li>with the Search icon in the left-hand top corner of the screen</li>
+</ul>
 
+<p align="center"><img src="/assets/images/map/map-wikipedia-search_ios.png" alt="Wikipedia search on iOS"></p>
+
+{% endios%}
+
+{% android %}
+
+<ul>
+	<li>with the Search icon in the left-hand top corner of the screen</li>
+	<li>with the Search option in the menu</li>
+</ul> 
+<p align="center"><img src="/assets/images/map/map-wikipedia-search.png" alt="Wikipedia search on Android"></p>
+
+{% endandroid %}
+
+With the tap on the Search icon, an extra pane pops up and allows you to search everything, and/or specific category. In the first case, the search results will show the Wikipedia POI with associated Wikipedia articles among other types of the information. In case of the search by the Wikipedia category, the search results will show only the Wikipedia information sorted by the nearest location in relation to the area of the map which is currently viewable on the screen. 
+
+To search by the Wikipedia category, select:
+
+{% data reusables.general.android-ios-switcher %}
+
+{% ios%}
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.shared_string_search %} → {% data variables.ios-values.categories %} → {% data variables.ios-values.res_wiki %}
+<p align="center"><img src="/assets/images/map/map-wikipedia-search-on-map_ios.png" alt="Wikipedia category on iOS"></p>
+{% endios%}
 
-You see all the nearest {% data variables.android-values.shared_string_wikipedia %} articles. You can click to "Show Wikipedia on the map" for showing POI on the map:
+{% android %}
+{% data variables.product.android_button_seq %} {% data variables.android-values.map_widget_search %} → {% data variables.android-values.search_categories %} → {% data variables.android-values.shared_string_wikipedia %}
+<p aling="center"><img scr="/assets/images/map/map-wikipedia-search-on-map.png" alt="Wikipedia category on Android"></p>
+{% endandroid %}
 
-![Wikipedia search on map Android](/assets/images/map/map-wikipedia-search-on-map.png) ![Wikipedia search on map iOS](/assets/images/map/map-wikipedia-search-on-map_ios.png)
 
+If needed, to display the search results retrieved by the Wikipedia category on the map, it is enough to tap the **Show Wikipedia on the map** option at the top of the search panel. 
 
 
 
