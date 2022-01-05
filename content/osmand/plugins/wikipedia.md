@@ -109,16 +109,20 @@ For the **iOS** version, to show/hide the Wikipedia POI, go to: {% data variable
 
 For the **Android** version, to show/hide the Wikipedia POI, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.shared_string_wikipedia %}
 
-<p align="center"><img alt="Wikipedia POI on Android" src="/assets/images/map/map-wikipedia-on-map.png></p>
+<p><img src="/assets/images/map/map-wikipedia-on-map.png" alt="Wikipedia POI on Android"></p>
 
 {% endandroid %}
 
 
 
 
+
+
+
+
 ### Search Wikipedia
 
-<p>In OsmAnd you can <a href="/osmand/map/point-layers-on-map#-wikipedia">find Wiki-articles on the map by searching</a> the menu in the left corner of the screen.</p>
+In OsmAnd you can <a href="/osmand/map/point-layers-on-map#-wikipedia">find Wiki-articles on the map by searching</a> the menu in the left corner of the screen.
 
 ![Wikipedia search Android](/assets/images/map/map-wikipedia-search.png) ![Wikipedia search iOS](/assets/images/map/map-wikipedia-search_ios.png)
 
