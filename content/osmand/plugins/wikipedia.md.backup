@@ -59,23 +59,32 @@ The short summary is provided via the Wikipedia POI (abbrev. from 'point of inte
 
 ### Download Wikipedia data
 <p>The Wikipedia data is available per geographical region. If it is downloaded for one region, and not downloaded for another, in the first case the Wikipedia information can be visible when browsing across the region on the map, and in the other case, the region will lack any Wikipedia information. Being downloaded, the Wikipedia data becomes available in general, as well as offline. </p>
+
 To download the Wikipedia data for a region, go to the available packages for [download in the main menu](/osmand/start-with/download-maps#download---main-menu), find the needed region and open it. The Wikipedia data will be among other packages.
 
 {% data reusables.general.android-ios-switcher %}
 
 {% ios%}
 
-<p>For the <strong>iOS</strong> version, the Wikipedia data to download per region can be opened, as follows: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} </p>
+<p>For the <strong>iOS</strong> version, the Wikipedia data to download per region can be opened, as follows:</p>
 
-<p>For the <strong>iOS</strong> version, to view what data is already downloaded, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %}</p>
+{% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} 
+
+<p>For the <strong>iOS</strong> version, to view what data is already downloaded, go to: </p> 
+
+{% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %}
 
 {% endios%}
 
 {% android %}
 
-<p>For the <strong>Android</strong> version, the Wikipedia data to download per region can be opened, as follows: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}</p>
+<p>For the <strong>Android</strong> version, the Wikipedia data to download per region can be opened, as follows:</p> 
 
-<p>For the <strong>Android</strong> version, to view what data is already downloaded, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_wikipedia_maps %}</p>
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
+
+<p>For the <strong>Android</strong> version, to view what data is already downloaded, go to: </p> 
+
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_wikipedia_maps %}
 
 {% endandroid %}
 
@@ -91,17 +100,15 @@ With the Wikipedia data downloaded for the required regions, it is possible to m
 {% ios%}
 
 For the **iOS** version, to show/hide the Wikipedia POI, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.poi_overlay %} → {% data variables.ios-values.res_wiki %} 
-<figure>
-	<img src="/assets/images/map/map-wikipedia-on-map_ios.png"
-	alt="Wikipedia POI on iOS">
-	<figcaption>Wikipedia POI on the map of the iOS version</figcaption>
-</figure>
+<p>	<img src="/assets/images/map/map-wikipedia-on-map_ios.png"
+	alt="Wikipedia POI on iOS"></p>
 
 {% endios%}
 
 {% android %}
 
 For the **Android** version, to show/hide the Wikipedia POI, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.shared_string_wikipedia %}
+
 <p align="center"><img alt="Wikipedia POI on Android" src="/assets/images/map/map-wikipedia-on-map.png></p>
 
 {% endandroid %}
@@ -111,7 +118,7 @@ For the **Android** version, to show/hide the Wikipedia POI, go to: {% data vari
 
 ### Search Wikipedia
 
-In OsmAnd you can [find Wiki-articles on the map by searching](/osmand/map/point-layers-on-map#-wikipedia) the menu in the left corner of the screen.
+<p>In OsmAnd you can <a href="/osmand/map/point-layers-on-map#-wikipedia">find Wiki-articles on the map by searching</a> the menu in the left corner of the screen.</p>
 
 ![Wikipedia search Android](/assets/images/map/map-wikipedia-search.png) ![Wikipedia search iOS](/assets/images/map/map-wikipedia-search_ios.png)
 
