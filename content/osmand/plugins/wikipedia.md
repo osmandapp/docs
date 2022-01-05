@@ -75,11 +75,9 @@ To download the Wikipedia data for a region, go to the available packages for [d
 {% android %}
 
 <p>For the <strong>Android</strong> version, the Wikipedia data to download per region can be opened, as follows:</p> 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
+s&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
 
 <p>For the <strong>Android</strong> version, to view what data is already downloaded, go to: </p>
-
 &nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_wikipedia_maps %}
 
 {% endandroid %}
@@ -124,17 +122,18 @@ With the Wikipedia data downloaded, regardless of the visibility mode of the <a 
 {% data reusables.general.android-ios-switcher %}
 
 {% ios%}
-For the **iOS** version, tap the Search icon in the left-hand top corner of the screen. 
+For the <strong>iOS</strong> version, tap the Search icon in the left-hand top corner of the screen. 
 
 <p align="center"><img src="/assets/images/map/map-wikipedia-search_ios.png" alt="Wikipedia search on iOS"></p>
 
 {% endios%}
 
 {% android %}
-For the **Android** version, you can use:
-- the Search icon in the left-hand top corner of the screen, and/or
-- the Search option in the menu. 
-
+For the <strong>Android</strong> version, you can use:
+<ul>
+	<li>the Search icon in the left-hand top corner of the screen, and/or</li>
+	<li>the Search option in the menu.</li>
+</ul>
 <p align="center"><img src="/assets/images/map/map-wikipedia-search.png" alt="Wikipedia search on Android"></p>
 
 {% endandroid %}
@@ -144,16 +143,19 @@ By tapping Search, an extra pane pops up and allows you to search everything, an
 {% data reusables.general.android-ios-switcher %}
 
 {% ios%}
-To search by the Wikipedia category, select:
+<p>To search by the Wikipedia category, select:</p>
+
 &nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.ios_button_seq %} {% data variables.ios-values.shared_string_search %} → {% data variables.ios-values.categories %} → {% data variables.ios-values.res_wiki %}
 
 <p align="center"><img src="/assets/images/map/map-wikipedia-search-on-map_ios.png" alt="Wikipedia category on iOS"></p>
 {% endios%}
 
 {% android %}
-To search by the Wikipedia category, select:
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.android_button_seq %} {% data variables.android-values.map_widget_search %} → {% data variables.android-values.search_categories %} → {% data variables.android-values.shared_string_wikipedia %}
-<p aling="center"><img scr="/assets/images/map/map-wikipedia-search-on-map.png" alt="Wikipedia category on Android"></p>
+<p>To search by the Wikipedia category, select:</p>
+
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.map_widget_search %} → {% data variables.android-values.search_categories %} → {% data variables.android-values.shared_string_wikipedia %}
+
+<p align="center"><img scr="/assets/images/map/map-wikipedia-search-on-map.png" alt="Wikipedia category on Android"></p>
 {% endandroid %}
 
 
@@ -164,9 +166,11 @@ To search by the Wikipedia category, select:
 ### Set language for Wikipedia article
 
 In case when there is a choice of languages to display the Wikipedia data in, you can set the language you prefer to read the text in. The figure below shows an example of the Wikipedia POI and the article, which are written in French by default, and displayed in English, thanks to the availability of other translations for this Wikipedia data and the English language established for the Wikipedia in the Profile settings. 
+
 | --- | --- | --- |
-| ![French Wikipedia POI in English](/assets/images/plugins/Andr-french-wikipedia-in-eng1.png)| ![French Wikipedia article in English](/assets/images/plugins/Andr-french-wikipedia-in-eng2.png) | ![Switching languages to display an article in](/assets/images/plugins/Andr-french-wikipedia-in-eng3.png) | 
+| ![French Wikipedia POI in English](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng1.png)| ![French Wikipedia article in English](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng2.png) | ![Switching languages to display an article in](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng3.png) | 
 | French Wikipedia POI in English | French Wikipedia article in English | Switching languages to display an article in |
+
 
 To set the preferred language, so that to view the Wikipedia data in, go to the required profile, click the triple dots beside the **Wikipedia** option, and in the opened list, deselect **All language** and check a specific option. In case of some languages selected, the displayed text will be in any of the languages. 
 
@@ -174,17 +178,23 @@ To set the preferred language, so that to view the Wikipedia data in, go to the 
 {% data reusables.general.android-ios-switcher %}
 
 {% ios%}
+
 For the **iOS** version, to set the preferred language for the Wikipedia data, go to: 
+
 &nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ois-values.configure_map %} → <*specific Profile*> → {% data variables.ios-values.map_settings_show %} → {% data variables.ois-values.res_wiki %} → {% data variables.ios-values.language %} → {% data variables.ios-values.preferred_languages %}
+
 
 <p align="center"><img scr="/assets/images/map/map-wikipedia-language-2-ios.png" alt="Setting a preferred language on iOS"></p>
 
 {% endios%}
 
 {% android %}
+
 For the **Android** version, to set the preferred language for the Wikipedia data, go to: 
+
 &nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → <*specific Profile*> → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.shared_string_wikipedia %} → {% data variables.android-values.shared_string_language %}
 
-<p align="center"><img scr="/assets/images/plugins/Android-wiki-languages.png" alt="Setting a preferred language on Android"></p>
+<p align="center"><img src="/assets/images/plugins/wikipedia/Android-wiki-languages.png" alt="Setting a preferred language on Android"></p>
 
 {% endandroid %}
+
