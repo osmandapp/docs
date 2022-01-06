@@ -415,7 +415,7 @@ Set parameters for [Configure map](/osmand/map/configure-map-menu) menu for chos
 
 Set parameters for [Configure map](/osmand/map/configure-map-menu) menu for chosen profile.
 
-![Profiles Configure map Settings iOS](/assets/images/personal/profiles/profile_configure_map_settings_ios.png
+![Profiles Configure map Settings iOS](/assets/images/personal/profiles/profile_configure_map_settings_ios.png)
 
 {% endios %}
 
@@ -617,6 +617,14 @@ This menu opens [audio-video plugin settings](/osmand/plugins/audio-video-notes#
 
 {% endandroid %}
 
+{% ios %}
+
+{% note %}
+Not exist for iOS version.
+{% endnote %}
+
+{% endios %}
+
 ### OpenStreetMap editing
 
 This menu opens [the OpenStreetMap editing plugin settings](/osmand/plugins/osm-editing#plugin-settings) for the selected profile. Where you can input your data for starting OSM edit.
@@ -647,6 +655,13 @@ This menu opens [the OpenPlaceReviews plugin settings](/osmand/plugins/openplace
 
 {% endandroid %}
 
+{% ios %}
+
+{% note %}
+Not exist for iOS version.
+{% endnote %}
+
+{% endios %}
 
 ### Accesibility
 
@@ -660,6 +675,14 @@ This menu opens [Accessibility plugin settings](/osmand/plugins/accessibility) f
 
 {% endandroid %}
 
+{% ios %}
+
+{% note %}
+Not exist for iOS version.
+{% endnote %}
+
+{% endios %}
+
 ### OsmAnd development
 
 This menu opens [Development plugin settings](/osmand/plugins/accessibility) for the selected profile. Settings for development and debugging features, like navigation simulation, rendering performance, or voice prompting. Intended for developers, not needed for normal app use.
@@ -671,6 +694,14 @@ This menu opens [Development plugin settings](/osmand/plugins/accessibility) for
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.development %}
 
 {% endandroid %}
+
+{% ios %}
+
+{% note %}
+Not exist for iOS version.
+{% endnote %}
+
+{% endios %}
 
 ## Actions
 
