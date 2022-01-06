@@ -19,7 +19,7 @@ In order to Enable / Disable plugin please use:
 
 > **_Note:_** [Trip recording (REC) widget](/osmand/widgets/info-widgets#-trip-recording-widget) is required to use Trip recording feature.
 
-## Trip recording Plugin settings for Android
+## Trip recording Plugin settings
 
 To configure settings follow {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.map_widget_monitoring %}
 
