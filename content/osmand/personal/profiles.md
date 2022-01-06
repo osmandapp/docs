@@ -57,8 +57,8 @@ All settings affect the selected application profile only.
 
 This section of settings contains settings of the cursor on the map and map view, settings of units & formats of map and profile data, settings of external input devices, and other sensors.
 
-{% data reusables.general.android-ios-switcher %}
 
+{% data reusables.general.android-ios-switcher %}
 
 {% android %}
 
@@ -74,15 +74,11 @@ This section of settings contains settings of the cursor on the map and map view
 
 #### **Appearance**
 
-{% default %}
-
 In this section of the General settings menu, you can set parameters for the cursor on the map and map view for the chosen profile.
 
-{% enddefault %}
+{% data reusables.general.android-ios-switcher %}
 
 {% android %}
-
-In this section of the General settings menu, you can set parameters for the cursor on the map and map view for the chosen profile.
 
 ![Profiles General Settings Appearance Android](/assets/images/personal/profiles/profile_gs_appearance_android.png)
 
@@ -96,8 +92,6 @@ In this section of the General settings menu, you can set parameters for the cur
 
 {% ios %}
 
-In this section of the General settings menu, you can set parameters for the cursor on the map and map view for the chosen profile.
-
 ![Profiles General Settings Apperance iOS](/assets/images/personal/profiles/profile_gs_appearance_ios.png)
 
 - {% data variables.ios-values.rotate_map_to_bearing %} - allows [to set orientation the map view](/osmand/map/interact-with-map#map-orientation-modes).
@@ -109,16 +103,13 @@ In this section of the General settings menu, you can set parameters for the cur
 
 #### **Units & formats**
 
-{% default %}
 
 In this section you can set parameters of units & formats for chosen application profile.
 
-{% enddefault %}
-
+{% data reusables.general.android-ios-switcher %}
 
 {% android %}
 
-In this section you can set parameters of units & formats for chosen application profile.
 
 ![Profiles General Settings Units & formats Android](/assets/images/personal/profiles/profile_gs_unitsformats_android.png)
 
@@ -156,8 +147,6 @@ In this section you can set parameters of units & formats for chosen application
 
 {% ios %}
 
-In this section you can set parameters of units & formats for chosen application profile.
-
 ![Profiles General Settings Units & formats iOS](/assets/images/personal/profiles/profile_gs_unitsformats_ios.png)
 
 | Parameter | Format | Note |
@@ -194,12 +183,15 @@ In this section you can set parameters of units & formats for chosen application
 
 #### **Other**
 
+Additional settings for profile (like external devices and etc.)
+
+{% data reusables.general.android-ios-switcher %}
+
 {% android %}
 
-In this section, you can enable/disable buttons and input devices for OsmAnd, on or off animations for navigation mode, use or not fullscreen mode, magnetic sensor, Kalman filter.
+You can enable/disable buttons and input devices for OsmAnd, on or off animations for navigation mode, use or not fullscreen mode, magnetic sensor, Kalman filter.
 
 ![Profiles General Settings Other Android](/assets/images/personal/profiles/profile_gs_other_android.png)
-
 
 - {% data variables.android-values.use_volume_buttons_as_zoom %} - allows to use or not volume buttons of a device as [zoom](/osmand/map/interact-with-map#my-location--zoom).
 - [{% data variables.android-values.use_kalman_filter_compass %}](/osmand/map/interact-with-map#extra-compass-settings) - allows to use or not [Kalman filter](https://en.wikipedia.org/wiki/Kalman_filter) for smoothen rotation of the map with a slower rotation animation though it introduces a small delay (< 1 second) till.
@@ -212,7 +204,7 @@ In this section, you can enable/disable buttons and input devices for OsmAnd, on
 
 {% ios %}
 
-In this section, you can enable/disable buttons and input devices for OsmAnd.
+You can enable/disable buttons and input devices for OsmAnd.
 
 - [{% data variables.ios-values.sett_ext_input %}](/osmand/map/interact-with-map#external-input-device-buttons) - allows adding external input devices for control OsmAnd app by buttons of these devices. External input devices: {% data variables.ios-values.sett_wunderlinq_ext_input %}, {% data variables.ios-values.sett_generic_ext_input %}.
 
@@ -223,10 +215,10 @@ In this section, you can enable/disable buttons and input devices for OsmAnd.
 In this part, there are all settings for navigation mode of a profile.
 
 {% note %}
-
 This part of settings doesn't exist for "Browse map" profile.
-
 {% endnote %}
+
+{% data reusables.general.android-ios-switcher %}
 
 {% android %}
 
@@ -247,6 +239,8 @@ This part of settings doesn't exist for "Browse map" profile.
 #### **Navigation**
 
 In this section you can set [routing and navigation parameters of your profile, map during navigation and vehicle parameters](/osmand/navigation).
+
+{% data reusables.general.android-ios-switcher %}
 
 {% android %}
 
@@ -367,6 +361,9 @@ In this section you can set [routing and navigation parameters of your profile, 
 
 #### **Other**
 
+Parameters for "Map during navigation" and others:
+
+{% data reusables.general.android-ios-switcher %}
 
 {% android %}
 
@@ -378,7 +375,6 @@ In this section you can set [routing and navigation parameters of your profile, 
 | "{% data variables.android-values.map_orientation_change_in_accordance_with_speed %}"  |  [{% data variables.android-values.map_orientation_change_in_accordance_with_speed_descr %}](/osmand/map/interact-with-map#map-orientation-modes).   | Value: 0 km/h, 5 km/h, 7 km/h, 10 km/h, 15 km/h, 20 km/h.    |
 | "{% data variables.android-values.snap_to_road %}"  |  {% data variables.android-values.snap_to_road_descr %}.   |    |
 | **{% data variables.android-values.animate_my_location %}** |  {% data variables.android-values.animate_my_location_desc %}   |              |
-
 
 {% endandroid %}
 
@@ -392,19 +388,18 @@ In this section you can set [routing and navigation parameters of your profile, 
 | "{% data variables.ios-values.map_orientation_change_in_accordance_with_speed %}"  |  [{% data variables.ios-values.map_orientation_change_in_accordance_with_speed_descr %}](/osmand/map/interact-with-map#map-orientation-modes).   | Value: 0 km/h, 5 km/h, 7 km/h, 10 km/h, 15 km/h, 20 km/h.    |
 | "{% data variables.ios-values.snap_to_road %}"  |  {% data variables.ios-values.snap_to_road_descr %}.   |    |
 
-
 {% endios %}
 
 
 ### Configure map
 
-
-
-{% android %}
-
-Here you can set parameters for [{% data variables.android-values.configure_map %}](/osmand/map/configure-map-menu) of chosen profile.
+Here you can set parameters for [{% data variables.android-values.configure_map %}](/osmand/map/configure-map-menu) of chosen profile
 
 [{% data variables.android-values.configure_map %}](/osmand/map/configure-map-menu) menu is a central place where you could configure map display for your profile needs, i.e. highlight [Favorite points](/osmand/personal/favorites), [Navigation markers](/osmand/personal/markers) or special [Points of Interests](/osmand/map/point-layers-on-map#points-of-interest-poi) on the map; display specific routes or 3rd party GPX files; [overlay the map with relief information](/osmand/plugins/contour-lines), [satellite imagery or any other available raster map](/osmand/map/raster-maps); display [public transport information](/osmand/map/public-transport) and [change the map style](/osmand/map/vector-maps#default-map-styles).
+
+{% data reusables.general.android-ios-switcher %}
+
+{% android %}
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.configure_map %}
 
@@ -416,28 +411,24 @@ Set parameters for [Configure map](/osmand/map/configure-map-menu) menu for chos
 
 {% ios %}
 
-Here you can set parameters for [{% data variables.android-values.configure_map %}](/osmand/map/configure-map-menu) of chosen profile.
-
-[{% data variables.android-values.configure_map %}](/osmand/map/configure-map-menu) menu is a central place where you could configure map display for your profile needs, i.e. highlight [Favorite points](/osmand/personal/favorites), [Navigation markers](/osmand/personal/markers) or special [Points of Interests](/osmand/map/point-layers-on-map#points-of-interest-poi) on the map; display specific routes or 3rd party GPX files; [overlay the map with relief information](/osmand/plugins/contour-lines), [satellite imagery or any other available raster map](/osmand/map/raster-maps); display [public transport information](/osmand/map/public-transport) and [change the map style](/osmand/map/vector-maps#default-map-styles).
-
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.configure_map %}
 
 Set parameters for [Configure map](/osmand/map/configure-map-menu) menu for chosen profile.
-[LINK](/osmand/map/configure-map-menu)
 
 ![Profiles Configure map Settings iOS](/assets/images/personal/profiles/profile_configure_map_settings_ios.png
-
 
 {% endios %}
 
 
 ### Configure screen
 
-{% android %}
-
 Here you can set parameters for [{% data variables.android-values.map_widget_config %}](/osmand/widgets/configure-screen) of chosen profile.
 
 [{% data variables.android-values.map_widget_config %}](/osmand/widgets/configure-screen) is a menu that allows to configure what widgets will be displayed over the map. It allows you to enable and configure [Quick action](/osmand/widgets/quick-action), [Informational](/osmand/widgets/info-widgets) & [Navigational](/osmand/widgets/nav-widgets) widgets and other elements.
+
+{% data reusables.general.android-ios-switcher %}
+
+{% android %}
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.layer_map_appearance %}
 
@@ -449,10 +440,6 @@ Set parameters for [Configure screen](/osmand/widgets/configure-screen) menu for
 
 {% ios %}
 
-Here you can set parameters for [{% data variables.android-values.map_widget_config %}](/osmand/widgets/configure-screen) of chosen profile.
-
-[{% data variables.android-values.map_widget_config %}](/osmand/widgets/configure-screen) is a menu that allows to configure what widgets will be displayed over the map. It allows you to enable and configure [Quick action](/osmand/widgets/quick-action), [Informational](/osmand/widgets/info-widgets) & [Navigational](/osmand/widgets/nav-widgets) widgets and other elements.
-
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.layer_map_appearance %}
 
 Set parameters for [Configure screen](/osmand/widgets/configure-screen) menu for chosen profile.
@@ -463,10 +450,11 @@ Set parameters for [Configure screen](/osmand/widgets/configure-screen) menu for
 
 ### Profile appearance
 
+You can choose the color of the profile elements, its icon and name, also assign icons on the map for movement and without.
+
+{% data reusables.general.android-ios-switcher %}
 
 {% android %}
-
-You can choose the color of the profile elements, its icon and name, also assign icons on the map for movement and without.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.profile_appearance %}
 
@@ -488,8 +476,6 @@ You can choose the color of the profile elements, its icon and name, also assign
 
 {% ios %}
 
-You can choose the color of the profile elements, its icon and name, also assign icons on the map for movement and without.
-
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.profile_appearance %}
 
 | Parameter | Description | Note |
@@ -508,11 +494,15 @@ You can choose the color of the profile elements, its icon and name, also assign
 
 ### UI Customization
 
-{% android %}
-
 Customize the quantity of items in ["{% data variables.android-values.shared_string_drawer %}"](/osmand/start-with/main-menu#main-menu-drawer), ["{% data variables.android-values.configure_map %}"](/osmand/map/configure-map-menu) and ["{% data variables.android-values.context_menu_actions %}"](/osmand/map/map-context-menu).
 
+{% note %}
 Turn off unused [plugins](/osmand/plugins) for hide all their controls.
+{% endnote %}
+
+{% data reusables.general.android-ios-switcher %}
+
+{% android %}
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.ui_customization %}
 
@@ -520,7 +510,8 @@ Under each menu there is the info about items quantity / active items.
 
 ![Profile UI Customization Android](/assets/images/personal/profiles/profile_ui_customization_android.png)
 
-#### **Drawer**
+
+**Drawer**
 
 In this part of the menu you reorder or hide items from the [Drawer](/osmand/start-with/main-menu#main-menu-drawer).
 
@@ -535,8 +526,7 @@ In this part of the menu you reorder or hide items from the [Drawer](/osmand/sta
 | "{% data variables.android-values.copy_from_other_profile %}" | coping the "Drawer" menu from another profile.  |
 | ![Profile Copy Android](/assets/images/personal/profiles/profile_drawer_reset_copy_android.png) |   |
 
-
-#### **Configure map**
+**Configure map**
 
 In this part of the menu you reorder or hide items from the [Configure map](/osmand/map/configure-map-menu) menu.
 
@@ -552,8 +542,7 @@ In this part of the menu you reorder or hide items from the [Configure map](/osm
 | ![Profile Configure map menu Copy Android](/assets/images/personal/profiles/profile_configure_reset_copy_android.png) |   |
 
 
-#### **Context menu actions**
-
+**Context menu actions**
 
 In this part of the menu you reorder or hide items from the [Context menu actions](/osmand/map/map-context-menu) menu.
 
@@ -571,19 +560,17 @@ In this part of the menu you reorder or hide items from the [Context menu action
 {% endandroid %}
 
 
-
 ## Plugin settings
-
-
-{% android %}
 
 [Plugins](https://docs.osmand.net/en/main@latest/osmand/plugins) are a collection of settings that can be enabled with one click. Plugins also unlock additional functions of the application, they can be either [paid or free](/osmand/purchases). Some plugins have their own settings. Among other things, you can enable or disable plugins for each profile separately.
 
 {% note %}
-
 Plugins must be enabled in [the Plugin list](/osmand/plugins) for activating it in the setting list for the profile.
-
 {% endnote %}
+
+{% data reusables.general.android-ios-switcher %}
+
+{% android %}
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %}
 
@@ -593,14 +580,6 @@ Plugins must be enabled in [the Plugin list](/osmand/plugins) for activating it 
 
 {% ios %}
 
-[Plugins](https://docs.osmand.net/en/main@latest/osmand/plugins) are a collection of settings that can be enabled with one click. Plugins also unlock additional functions of the application, they can be either [paid or free](/osmand/purchases). Some plugins have their own settings. Among other things, you can enable or disable plugins for each profile separately.
-
-{% note %}
-
-Plugins must be enabled in [the Plugin list](/osmand/plugins) for activating it in the setting list for the profile.
-
-{% endnote %}
-
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.plugins %}
 
 ![Profile Settings Plugins iOS](/assets/images/personal/profiles/profile_plugins_ios.png)
@@ -609,18 +588,18 @@ Plugins must be enabled in [the Plugin list](/osmand/plugins) for activating it 
 
 ### Trip recording
 
-{% android %}
+This menu opens [the trip recording settings](/osmand/plugins/trip-recording#trip-recording-plugin-settings) for the selected profile. Where you can choose any parameters for recording your trip.
 
-This menu opens [the trip recording settings](/osmand/plugins/trip-recording#trip-recording-plugin-settings-for-android) for the selected profile. Where you can choose any parameters for recording your trip.
+{% data reusables.general.android-ios-switcher %}
+
+{% android %}
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.record_plugin_name %}
 
-
 {% endandroid %}
 
-{% ios %}
 
-This menu opens [the track recording settings](/osmand/plugins/trip-recording#trip-recording-plugin-settings-for-android) for the selected profile. Where you can choose any parameters for recording your trip.
+{% ios %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.track_recording %}
 
@@ -628,9 +607,11 @@ This menu opens [the track recording settings](/osmand/plugins/trip-recording#tr
 
 ### Audio / Video notes
 
-{% android %}
-
 This menu opens [audio-video plugin settings](/osmand/plugins/audio-video-notes#plugin-settings) for the selected profile. Where you can choose any parameters for your needed.
+
+{% data reusables.general.android-ios-switcher %}
+
+{% android %}
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.audionotes_plugin_name %}
 
@@ -638,9 +619,11 @@ This menu opens [audio-video plugin settings](/osmand/plugins/audio-video-notes#
 
 ### OpenStreetMap editing
 
-{% android %}
-
 This menu opens [the OpenStreetMap editing plugin settings](/osmand/plugins/osm-editing#plugin-settings) for the selected profile. Where you can input your data for starting OSM edit.
+
+{% data reusables.general.android-ios-switcher %}
+
+{% android %}
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.osm_editing_plugin_name %}
 
@@ -648,17 +631,17 @@ This menu opens [the OpenStreetMap editing plugin settings](/osmand/plugins/osm-
 
 {% ios %}
 
-This menu opens [the OpenStreetMap editing plugin settings](/osmand/plugins/osm-editing#plugin-settings) for the selected profile. Where you can input your data for starting OSM edit.
-
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.product_title_osm_editing %}
 
 {% endios %}
 
 ### OpenPlaceReviews
 
-{% android %}
-
 This menu opens [the OpenPlaceReviews plugin settings](/osmand/plugins/openplacereviews#plugin-settings) for the selected profile. Where you can input your data for starting added reviews of any places.
+
+{% data reusables.general.android-ios-switcher %}
+
+{% android %}
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.open_place_reviews %}
 
@@ -667,9 +650,11 @@ This menu opens [the OpenPlaceReviews plugin settings](/osmand/plugins/openplace
 
 ### Accesibility
 
-{% android %}
-
 This menu opens [Accessibility plugin settings](/osmand/plugins/accessibility) for the selected profile. Where you can choose any parameters for your needed.
+
+{% data reusables.general.android-ios-switcher %}
+
+{% android %}
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.shared_string_accessibility %}
 
@@ -677,9 +662,11 @@ This menu opens [Accessibility plugin settings](/osmand/plugins/accessibility) f
 
 ### OsmAnd development
 
-{% android %}
-
 This menu opens [Development plugin settings](/osmand/plugins/accessibility) for the selected profile. Settings for development and debugging features, like navigation simulation, rendering performance, or voice prompting. Intended for developers, not needed for normal app use.
+
+{% data reusables.general.android-ios-switcher %}
+
+{% android %}
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.plugins_settings %} → {% data variables.android-values.development %}
 
@@ -687,12 +674,9 @@ This menu opens [Development plugin settings](/osmand/plugins/accessibility) for
 
 ## Actions
 
-![Profiles Actions Settings Android](/assets/images/personal/profiles/profile_actions_settings_android.png) ![Profiles Actions Settings iOS](/assets/images/personal/profiles/profile_actions_settings_ios.png)
+Actions with chosen profile: export, copy from another profile, reset to default, delete profile:
 
-- {% data variables.android-values.export_profile %}
-- {% data variables.android-values.copy_from_other_profile %}
-- {% data variables.android-values.map_widget_reset %}
-- {% data variables.android-values.profile_alert_delete_title %}
+{% data reusables.general.android-ios-switcher %}
 
 {% android %}
 
