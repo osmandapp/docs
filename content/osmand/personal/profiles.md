@@ -81,6 +81,10 @@ All settings affect the selected application profile only.
 
 This section of settings contains settings of the cursor on the map and map view, settings of units & formats of map and profile data, settings of external input devices, and other sensors.
 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} (Browse map or any other profile) → {% data variables.android-values.general_settings_2 %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.general_settings_2 %}
+
 {% enddefault %}
 
 
@@ -102,9 +106,15 @@ This section of settings contains settings of the cursor on the map and map view
 
 #### **Appearance**
 
+{% default %}
+
 In this section of the General settings menu, you can set parameters for the cursor on the map and map view for the chosen profile.
 
+{% enddefault %}
+
 {% android %}
+
+In this section of the General settings menu, you can set parameters for the cursor on the map and map view for the chosen profile.
 
 ![Profiles General Settings Appearance Android](/assets/images/personal/profiles/profile_gs_appearance_android.png)
 
@@ -118,6 +128,8 @@ In this section of the General settings menu, you can set parameters for the cur
 
 {% ios %}
 
+In this section of the General settings menu, you can set parameters for the cursor on the map and map view for the chosen profile.
+
 ![Profiles General Settings Apperance iOS](/assets/images/personal/profiles/profile_gs_appearance_ios.png)
 
 - {% data variables.ios-values.rotate_map_to_bearing %} - allows [to set orientation the map view](/osmand/map/interact-with-map#map-orientation-modes).
@@ -129,9 +141,16 @@ In this section of the General settings menu, you can set parameters for the cur
 
 #### **Units & formats**
 
+{% default %}
+
 In this section you can set parameters of units & formats for chosen application profile.
 
+{% enddefault %}
+
+
 {% android %}
+
+In this section you can set parameters of units & formats for chosen application profile.
 
 ![Profiles General Settings Units & formats Android](/assets/images/personal/profiles/profile_gs_unitsformats_android.png)
 
@@ -168,6 +187,8 @@ In this section you can set parameters of units & formats for chosen application
 {% endandroid %}
 
 {% ios %}
+
+In this section you can set parameters of units & formats for chosen application profile.
 
 ![Profiles General Settings Units & formats iOS](/assets/images/personal/profiles/profile_gs_unitsformats_ios.png)
 
