@@ -7,13 +7,10 @@ versions: '*'
 
 
 For the Wikipedia data to show up on the map, the following configuration is required: 
-
-<ol>
-	<li>If needed, purchase paid services.</li>
-	<li>Enable the Wikipedia plugin in the Plugins section of the main menu.</li> 
-	<li>Download the Wikipedia data for the required regions.</li>
-	<li>Enable the Wikipedia POI for the needed profile.</li>
-</ol>
+1. If needed, purchase paid services.
+2. Enable the Wikipedia plugin in the Plugins section of the main menu.
+3. Download the Wikipedia data for the required regions.
+4. Enable the Wikipedia POI for the needed profile.
 
 ### Overview 
 
@@ -51,8 +48,6 @@ The **Android** version requires one of the following paid services:
 Having purchased any of the paid services mentioned above, to enable the Wikipedia plugin, turn on the **Wikipedia** option in the Plugins section of the main menu.
 
 {% endandroid %}
-
-
 
 
 
