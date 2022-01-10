@@ -77,7 +77,7 @@ For changing OsmAnd display language you need to make it in iOS settings. Here y
 
 iOS device -> Settings -> OsmAnd maps -> Language
 
-![General Settings Language iOS](/assets/images/personal/profiles/general_settings_language_iOS.png)
+![General Settings Language iOS](/assets/images/personal/profiles/general_settings_language_ios.png)
 
 {% endios %}
 
@@ -101,7 +101,7 @@ For iOS system, we can't make any manipulate with the storage folder. We can kno
 
 iOS device -> Settings -> OsmAnd maps -> General -> iPhone storage -> OsmAnd Maps 
 
-![General Settings storage iOS](/assets/images/personal/profiles/general_settings_storage_iOS.png)
+![General Settings storage iOS](/assets/images/personal/profiles/general_settings_storage_ios.png)
 
 {% endios %}
 
