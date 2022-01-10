@@ -29,14 +29,21 @@ The global data for the map - between 70 degrees north and 70 degrees south - is
 ## Purchase Contour lines 
 
 Puchase of the Contour lines services is required to enable the plugin and start downloading maps per region. 
+
 {% data reusables.general.android-ios-switcher %}
+
 {% ios % }
+
 For the **iOS** version, refer to the [In-App Purchases](osmandapp/docs/content/osmand/purchases/ios.md). And to view the already made purchases, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
+
 {% endios %}
+
 {% android %}
+
 For the **Android** version, to use Contour line, any of the following [subscriptions](osmandapp/docs/content/osmand/purchases/android.md) is needed: 
 - **OsmAnd+**
 - **OsmAndPro**
+
 {% endandroid%}
 
 
@@ -67,7 +74,9 @@ You will need to re-download the file to change the format.
 
 
 ## Enable maps per profile
+
 Check to enable Contour Lines option in [Configure map menu](/osmand/map/vector-maps#contour-lines).
+
 To view hillshade or slope, make sure you enable this option in  [Configure map menu](/osmand/map/raster-maps#hillshade--slope). Also, please note that while contour lines file can be split by regions, hillshade/slopes files can be available by country, thus, you'll see the Hillshade/Slopes download on the list of downloads of a country, not on the region maps page.
 
 ![Terrain and Contour lines enable Android](/assets/images/plugins/contour-lines/contour_lines_terrain_enable_android.png) ![Terrain and Contour lines enable iOS](/assets/images/plugins/contour-lines/contour_lines_terrain_enable_ios.png)
@@ -128,11 +137,6 @@ After that, you'll be able to enjoy a map with all the hills and peaks. A nice o
 
 ![Contour lines and Terrain Android](/assets/images/plugins/contour-lines/contour_lines_terrain_android.png) ![Contour lines and Terrain iOS](/assets/images/plugins/contour-lines/contour_lines_terrain_ios.png) 
 
-
-
 Please see full video guide below:
 [Link to Youtube](https://www.youtube.com/watch?v=z8kp_M3FKoc&feature=emb_logo&ab_channel=BartEisenberg)
-
-
-
 
