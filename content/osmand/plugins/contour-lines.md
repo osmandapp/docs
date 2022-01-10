@@ -34,6 +34,15 @@ Puchase of the Contour lines services is required to enable the plugin and start
 
 {% data reusables.general.android-ios-switcher %}
 
+{% android %}
+
+For the **Android** version, to use Contour line, any of the following [subscriptions](/osmand/purchases/android#free-and-paid-features) is needed: 
+
+- **OsmAnd+**
+- **OsmAndPro**
+
+{% endandroid %}
+
 {% ios % }
 
 For the **iOS** version, refer to the [In-App Purchases](/osmand/purchases/ios#in-app-purchases). And to view the already made purchases, go to:
@@ -42,10 +51,6 @@ For the **iOS** version, refer to the [In-App Purchases](/osmand/purchases/ios#i
 
 {% endios %}
 
-{% android %}
-
-
-{% endandroid %}
 
 
 ## Enable plugin 
