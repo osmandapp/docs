@@ -49,7 +49,7 @@ For the **Android** version, to use Contour line, any of the following [subscrip
 - **OsmAnd+**
 - **OsmAndPro**
 
-{% endandroid%}
+{% endandroid %}
 
 
 ## Enable plugin 
