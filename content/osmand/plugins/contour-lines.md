@@ -24,7 +24,9 @@ The Contour lines plugin is an autonomous functionality that can be enabled/disa
 
 Each map of the Contour lines plugin is an independent option, which if toggled on, is displayed above, or underneath the Map Source. 
 
-The terrain information can be represented by hill shading, with the contour lines of the uphill and downhill, as an angle of diviation from flat. By means of contour lines, shades and colors, a vector, or raster map shows slopes, peaks, rugged terrain, and other elevation above the sea level. The global data for the map - between 70 degrees north and 70 degrees south - was generated from the measurements made by the Shuttle Radar Topography Mission (abbrev.as '*SRTM*'). It used the Advanced Spaceborne Thermal Emission and Reflection Radiometer (abbrev. as '*ASTER*'), which is a sensor onboard the Terra satellite, the flagship imaging instrument of NASA's Earth Observing System. ASTER is a cooperative effort between NASA, Japan's Ministry of Economy, Trade and Industry (METI), and Japan Space Systems (J-spacesystems).
+The terrain information can be represented by hill shading, with the contour lines of the uphill and downhill, as an angle of diviation from flat. By means of contour lines, shades and colors, the map shows slopes, peaks, rugged terrain, and other elevation above the sea level. 
+
+The global data for the map - between 70 degrees north and 70 degrees south - is based on the measurements made by the Shuttle Radar Topography Mission (abbrev.as *SRTM*). It used the Advanced Spaceborne Thermal Emission and Reflection Radiometer (abbrev. as *ASTER*), which is a sensor onboard the Terra satellite and the flagship imaging instrument of NASA's Earth Observing System. ASTER is a cooperative effort between NASA, Japan's Ministry of Economy, Trade and Industry (abbrev. as *METI*), and Japan Space Systems (also known as *J-spacesystems*).
 
 ![Contour lines and Terrain](/assets/images/plugins/contour-lines/contour_lines_terrain.png)
 
@@ -35,7 +37,7 @@ Puchase of the Contour lines services is required to enable the plugin and start
 {% data reusables.general.android-ios-switcher %}
 {% ios % }
 For the **iOS** version, refer to the [In-App Purchases](/osmand/purchases/ios#in-app-purchases). And to view the already made purchases, go to: 
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
+{% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
 {% endios %}
 {% android %}
 For the **Android** version, to use Contour line, any of the following [subscriptions](osmand/purchases/android) is needed: 
