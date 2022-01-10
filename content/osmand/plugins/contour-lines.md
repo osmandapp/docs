@@ -3,18 +3,20 @@ title: Contour lines maps and Terrain
 intro: "Terrain information, such as Contour lines, Hillshades, Slopes - helps to build an optimal off-road routes by considering the curvature, extremes, steepness, points of equal height, and other surface shape characteristics of the specific area of travel."
 versions: '*'
 ---
+
 {% data reusables.general.article-not-complete %}
 
 For the Contour lines and Terrain data to show up on the map, the following configuration is required:
-- Purchase the Contour lines package.  
-- Enable the Coutour lines plugin in the Plugins section of the main menu.
-- Download Contour lines and/or Terrain variants for the required regions. 
-- Toggle on Contour lines and/or Terrain variants per profile.
-- If needed, configure the map view. 
+1. Purchase the Contour lines package.  
+2. Enable the Coutour lines plugin in the Plugins section of the main menu.
+3. Download Contour lines and/or Terrain variants for the required regions. 
+4. Toggle on Contour lines and/or Terrain variants per profile.
+5. If needed, configure the map view. 
 
 ## General info
 
 The Contour lines plugin is an autonomous functionality that can be enabled/disabled as needed. The plugin provides for downloading the following maps: 
+
 - the **Contour lines** map in vector points, and
 - two Terrain maps in raster pixels: the **Hillshade** map, and the **Slopes** map. 
 
@@ -34,13 +36,16 @@ Puchase of the Contour lines services is required to enable the plugin and start
 
 {% ios % }
 
-For the **iOS** version, refer to the [In-App Purchases](osmandapp/docs/content/osmand/purchases/ios.md). And to view the already made purchases, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
+For the **iOS** version, refer to the [In-App Purchases](osmandapp/docs/content/osmand/purchases/ios.md). And to view the already made purchases, go to:
+
+ {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
 
 {% endios %}
 
 {% android %}
 
 For the **Android** version, to use Contour line, any of the following [subscriptions](osmandapp/docs/content/osmand/purchases/android.md) is needed: 
+
 - **OsmAnd+**
 - **OsmAndPro**
 
