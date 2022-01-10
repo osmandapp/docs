@@ -17,6 +17,8 @@ For the Contour lines and Terrain data to show up on the map, the following conf
 
 ## General info
 
+{% data reusables.general.android-ios-switcher %}
+
 The Contour lines plugin is an autonomous functionality that can be enabled/disabled as needed. The plugin provides for downloading the following maps: 
 
 - the **Contour lines** map in vector points, and
@@ -31,6 +33,7 @@ The global data for the map - between 70 degrees north and 70 degrees south - is
 ![Contour lines and Terrain](/assets/images/plugins/contour-lines/contour_lines_terrain.png)
 
 ## Purchase Contour lines 
+
 
 Puchase of the Contour lines services is required to enable the plugin and start downloading maps per region. 
 
@@ -57,6 +60,8 @@ For the **iOS** version, refer to the [In-App Purchases](/osmand/purchases/ios#i
 
 ## Enable plugin 
 
+{% data reusables.general.android-ios-switcher %}
+
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} → {% data variables.android-values.srtm_plugin_name %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_srtm %}
@@ -64,6 +69,8 @@ For the **iOS** version, refer to the [In-App Purchases](/osmand/purchases/ios#i
 ![Contour lines plugin on Android](/assets/images/plugins/contour-lines/contour_lines_plugin_android.png) ![Contour lines plugin on iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_ios.png)
 
 ## Download maps
+
+{% data reusables.general.android-ios-switcher %}
 
 To see the contours of a specific area, just go to  [Download maps menu](/osmand/start-with/download-maps#download---main-menu), find your country or region, choose Contour lines, Hillshades, Slopes or all and download the files. Then zoom your desired area until you see the lines and zoom even more to check the height of a specific spot (the number on the line). 
 
@@ -83,6 +90,8 @@ You will need to re-download the file to change the format.
 
 ## Enable maps per profile
 
+{% data reusables.general.android-ios-switcher %}
+
 Check to enable Contour Lines option in [Configure map menu](/osmand/map/vector-maps#contour-lines).
 
 To view hillshade or slope, make sure you enable this option in  [Configure map menu](/osmand/map/raster-maps#hillshade--slope). Also, please note that while contour lines file can be split by regions, hillshade/slopes files can be available by country, thus, you'll see the Hillshade/Slopes download on the list of downloads of a country, not on the region maps page.
@@ -91,6 +100,8 @@ To view hillshade or slope, make sure you enable this option in  [Configure map 
 
 
 ## Terrain settings
+
+{% data reusables.general.android-ios-switcher %}
 
 In the  Terrain  menu you can change Hillshade or Slope for the visible layer. Here you can set Transparency and Zoom levels for the layer.
 
@@ -121,6 +132,8 @@ In the  Terrain  menu you can change Hillshade or Slope for the visible layer. H
 
 ## Contour lines settings
 
+{% data reusables.general.android-ios-switcher %}
+
 For Contour lines you can set the minimal zoom level where the contour lines will become visible, color scheme, width and density for lines.
 [Configure map](/osmand/map/vector-maps#contour-lines).
 
@@ -138,6 +151,8 @@ For Contour lines you can set the minimal zoom level where the contour lines wil
 - {% data variables.android-values.rendering_attr_contourDensity_name %} - select density for contour lines on the map.
 
 ## Note
+
+{% data reusables.general.android-ios-switcher %}
 
 You can use both contour lines and terrain together to get the information from both layers. Just go to  [Configure map](/osmand/map/configure-map-menu)  menu and enable both  [Contour lines](/osmand/map/vector-maps#contour-lines)  and  [Terrain layer](/osmand/map/raster-maps#hillshade--slope)  options. If you cannot see the hillshade/slopes after downloading it, please restart the application.
 
