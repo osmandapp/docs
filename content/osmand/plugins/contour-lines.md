@@ -73,10 +73,6 @@ To view hillshade or slope, make sure you enable this option in  [Configure map 
 ![Terrain and Contour lines enable Android](/assets/images/plugins/contour-lines/contour_lines_terrain_enable_android.png) ![Terrain and Contour lines enable iOS](/assets/images/plugins/contour-lines/contour_lines_terrain_enable_ios.png)
 
 
-## Contour lines settings
-
-
- 
 ## Terrain settings
 
 In the  Terrain  menu you can change Hillshade or Slope for the visible layer. Here you can set Transparency and Zoom levels for the layer.
