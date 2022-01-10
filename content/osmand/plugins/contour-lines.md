@@ -36,7 +36,7 @@ Puchase of the Contour lines services is required to enable the plugin and start
 
 {% ios % }
 
-For the **iOS** version, refer to the [In-App Purchases](osmandapp/docs/content/osmand/purchases/ios.md). And to view the already made purchases, go to:
+For the **iOS** version, refer to the [In-App Purchases](). And to view the already made purchases, go to:
 
  {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
 
@@ -44,7 +44,7 @@ For the **iOS** version, refer to the [In-App Purchases](osmandapp/docs/content/
 
 {% android %}
 
-For the **Android** version, to use Contour line, any of the following [subscriptions](osmandapp/docs/content/osmand/purchases/android.md) is needed: 
+For the **Android** version, to use Contour line, any of the following [subscriptions]() is needed: 
 
 - **OsmAnd+**
 - **OsmAndPro**
