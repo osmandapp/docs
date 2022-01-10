@@ -1,23 +1,50 @@
 ---
 title: Contour lines maps and Terrain
-intro: "This plugin gives the terrain information you can view over the basic map."
+intro: "Terrain information, such as Contour lines, Hillshades, Slopes - helps to build an optimal off-road routes by considering the curvature, extremes, steepness, points of equal height, and other surface shape characteristics of the specific area of travel."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
+For the Contour lines and Terrain data to show up on the map, the following configuration is required:
+1. Purchase the Contour lines package.  
+2. Enable the Coutour lines plugin in the Plugins section of the main menu.
+3. Download Contour lines and/or Terrain variants for the required regions. 
+4. Toggle on Contour lines and/or Terrain variants per profile.
+5. If needed, configure the map view. 
+
+
+
 ## General info
 
-This plugin gives the terrain information you can view over the basic map. It actually works several ways — as a terrain contour lines data provider and as a full hillshade map using dark shades and colors to show slopes, peaks and lowlands.
+The Contour lines plugin is an autonomous functionality that can be enabled/disabled as needed. The plugin provides for downloading the following maps: 
+- the Contour lines map in vector points, and
+- two Terrain maps in raster pixels: 
+    - the Hillshade map, and 
+    - the Slopes map. 
 
-The global data (between 70 degrees north and 70 degrees south) is based on measurements by SRTM (Shuttle Radar Topography Mission) and ASTER (Advanced Spaceborne Thermal Emission and Reflection Radiometer), an imaging instrument onboard Terra, the flagship satellite of NASA's Earth Observing System. ASTER is a cooperative effort between NASA, Japan's Ministry of Economy, Trade and Industry (METI), and Japan Space Systems (J-spacesystems).
+Each map of the Contour lines plugin is an independent option, which if toggled on, is displayed above, or underneath the Map Source. 
 
-Contour lines plugin is a handy tool for hikers, tourists and anyone who needs the information about the terrain in a specific area.
+The terrain information can be represented by hill shading, with the contour lines of the uphill and downhill, as an angle of diviation from flat. By means of contour lines, shades and colors, a vector, or raster map shows slopes, peaks, rugged terrain, and other elevation above the sea level. The global data for the map - between 70 degrees north and 70 degrees south - was generated from the measurements made by the Shuttle Radar Topography Mission (abbrev.as '*SRTM*'). It used the Advanced Spaceborne Thermal Emission and Reflection Radiometer (abbrev. as '*ASTER*'), which is a sensor onboard the Terra satellite, the flagship imaging instrument of NASA's Earth Observing System. ASTER is a cooperative effort between NASA, Japan's Ministry of Economy, Trade and Industry (METI), and Japan Space Systems (J-spacesystems).
 
 ![Contour lines and Terrain](/assets/images/plugins/contour-lines/contour_lines_terrain.png)
 
-## Where Plugin find?
+## Purchase Contour lines 
 
-For using this feature you should buy  [Paid version or OsmAnd subscription](/osmand/purchases). 
+Puchase of the Contour lines services is required to enable the plugin and start downloading maps per region. 
+
+{% data reusables.general.android-ios-switcher %}
+{% ios % }
+For the **iOS** version, refer to the [In-App Purchases](/osmand/purchases/ios#in-app-purchases). And to view the already made purchases, go to: 
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
+{% endios %}
+{% android %}
+For the **Android** version, to use Contour line, any of the following [subscriptions](osmand/purchases/android) is needed: 
+- **OsmAnd+**
+- **OsmAndPro**
+{% endandroid%}
+
+
+## Enable plugin 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} → {% data variables.android-values.srtm_plugin_name %}
 
@@ -25,18 +52,14 @@ For using this feature you should buy  [Paid version or OsmAnd subscription](/os
 
 ![Contour lines plugin on Android](/assets/images/plugins/contour-lines/contour_lines_plugin_android.png) ![Contour lines plugin on iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_ios.png)
 
-## Downloading files and enable on the map
+## Download maps
 
 To see the contours of a specific area, just go to  [Download maps  menu](/osmand/start-with/download-maps#download---main-menu), find your country or region, choose Contour lines, Hillshades, Slopes or all and download the files. Then zoom your desired area until you see the lines and zoom even more to check the height of a specific spot (the number on the line). 
 
 ![Contour lines download Android](/assets/images/plugins/contour-lines/contour_lines_plugin_download_android.png) ![Contour lines download iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_download_ios.png)
 
-Check to enable Contour Lines option in [Configure map menu](/osmand/map/vector-maps#contour-lines).
-To view hillshade or slope, make sure you enable this option in  [Configure map menu](/osmand/map/raster-maps#hillshade--slope). Also, please note that while contour lines file can be split by regions, hillshade/slopes files can be available by country, thus, you'll see the Hillshade/Slopes download on the list of downloads of a country, not on the region maps page.
 
-![Terrain and Contour lines enable Android](/assets/images/plugins/contour-lines/contour_lines_terrain_enable_android.png) ![Terrain and Contour lines enable iOS](/assets/images/plugins/contour-lines/contour_lines_terrain_enable_ios.png)
-
-### Choosing Contour lines in feet or meter
+### Choose Meters or Feet
 
 When you click to ["Contour lines"](/osmand/plugins/contour-lines#downloading-files-and-enable-on-the-map) in the country maps list you see dialogue of choosing Contour lines file in meter or feet. 
 
@@ -45,6 +68,18 @@ You need to choose the meter or feet parameter and download the file.
 You will need to re-download the file to change the format.
 
 ![Contour lines download dialogue Android](/assets/images/plugins/contour-lines/contour_lines_plugin_download_dialogue_android.png)
+
+
+## Enable maps per profile
+Check to enable Contour Lines option in [Configure map menu](/osmand/map/vector-maps#contour-lines).
+To view hillshade or slope, make sure you enable this option in  [Configure map menu](/osmand/map/raster-maps#hillshade--slope). Also, please note that while contour lines file can be split by regions, hillshade/slopes files can be available by country, thus, you'll see the Hillshade/Slopes download on the list of downloads of a country, not on the region maps page.
+
+![Terrain and Contour lines enable Android](/assets/images/plugins/contour-lines/contour_lines_terrain_enable_android.png) ![Terrain and Contour lines enable iOS](/assets/images/plugins/contour-lines/contour_lines_terrain_enable_ios.png)
+
+
+## Contour lines settings
+
+
  
 ## Terrain settings
 
@@ -54,7 +89,7 @@ In the  Terrain  menu you can change Hillshade or Slope for the visible layer. H
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.shared_string_terrain %}
 
-**Hillshade:**
+### Hillshade
 
 ![Terrain menu Android](/assets/images/plugins/contour-lines/terrain_menu_android.png) ![Terrain menu iOS](/assets/images/plugins/contour-lines/terrain_menu_ios.png) 
 
@@ -64,7 +99,7 @@ In the  Terrain  menu you can change Hillshade or Slope for the visible layer. H
 - {% data variables.android-values.shared_string_zoom_levels %} - setting zoom levels for the terrain layer.
 - {% data variables.android-values.welmode_download_maps %} - {% data variables.android-values.hillshade_download_description %}.
 
-**Slope:**
+### Slope
 
 ![Terrain menu slopes Android](/assets/images/plugins/contour-lines/terrain_menu_slopes_android.png) ![Terrain menu slopes iOS](/assets/images/plugins/contour-lines/terrain_menu_slopes_ios.png) 
 
