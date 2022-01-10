@@ -35,11 +35,11 @@ The global data for the map - between 70 degrees north and 70 degrees south - is
 Puchase of the Contour lines services is required to enable the plugin and start downloading maps per region. 
 {% data reusables.general.android-ios-switcher %}
 {% ios % }
-For the **iOS** version, refer to the [In-App Purchases](purchases/ios.md#in-app-purchases). And to view the already made purchases, go to: 
+For the **iOS** version, refer to the In-App Purchases. And to view the already made purchases, go to: 
 {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
 {% endios %}
 {% android %}
-For the **Android** version, to use Contour line, any of the following [subscriptions](purchases/android.md) is needed: 
+For the **Android** version, to use Contour line, any of the following subscriptions is needed: 
 - **OsmAnd+**
 - **OsmAndPro**
 {% endandroid%}
