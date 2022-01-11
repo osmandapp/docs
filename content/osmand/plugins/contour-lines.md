@@ -6,15 +6,15 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
-|  Description | Representation |
-| --- | --- |
-| For the Contour lines and Terrain data to show up on the map, the following configuration is needed:
+For the Contour lines and Terrain data to show up on the map, the following configuration is needed:
 
 1. Purchase the Contour lines package.  
 2. Enable the Coutour lines plugin in the Plugins section of the main menu.
 3. Download the Contour lines and/or Terrain variants for the required regions. 
 4. Toggle on the Contour lines and/or Terrain variants per profile.
-5. If needed, configure the map view. | ![Contour lines and Terrain](/assets/images/plugins/contour-lines/contour_lines_terrain.png) |
+5. If needed, configure the map view. 
+
+![Contour lines and Terrain](/assets/images/plugins/contour-lines/contour_lines_terrain.png)
 
 
 ## General info
@@ -61,17 +61,17 @@ With the purchase made, the Contour lines plugin can be enabled, so that to star
 
 {% ios%}
 
-| Description | Representation | 
-| --- | ---|
-| In the **iOS** version, toggle **Contour lines** on in: {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_srtm %} | ![Contour lines plugin on iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_ios.png) |
+In the **iOS** version, toggle **Contour lines** on in: {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_srtm %} 
+
+![Contour lines plugin on iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_ios.png) 
 
 {% endios%}
 
 {% android%}
 
-| Description | Representation | 
-| --- | --- | 
-| In the **Android** version, toggle **Contour lines** on in: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} → {% data variables.android-values.srtm_plugin_name %} | ![Contour lines plugin on Android](/assets/images/plugins/contour-lines/contour_lines_plugin_android.png) | 
+In the **Android** version, toggle **Contour lines** on in: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} → {% data variables.android-values.srtm_plugin_name %} 
+
+![Contour lines plugin on Android](/assets/images/plugins/contour-lines/contour_lines_plugin_android.png) 
 
 {% endandroid%}
 
