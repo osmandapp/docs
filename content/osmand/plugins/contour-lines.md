@@ -24,8 +24,8 @@ The Contour lines plugin is an autonomous functionality that can be enabled/disa
 - the **Contour lines** map in vector points, and
 - two Terrain maps in raster pixels: 
 
-    the **Hillshade** map, and 
-    the **Slopes** map. 
+    - the **Hillshade** map, and 
+    - the **Slopes** map. 
 
 Each map of the Contour lines plugin is an independent option, which if toggled on, is displayed above, or underneath the Map Source. 
 
