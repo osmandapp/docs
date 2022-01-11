@@ -68,9 +68,15 @@ In the **Android** version, to enable the plugin, tap Enable for **Contour lines
 
 There are three types of the elevation data packages for download per region: Contour lines, Hillshade and Slope. Most often all of them can be downloaded at the country level. The Contour lines map package is also available at the lower region level. 
 
-> For an optimal representation, the country level maps are combined with the region level maps. However, whether it should be all three, or any of the elevation data maps (i.e. Contour lines, and/or Hillshade, and/or Slope) depend on the current needs. As for the regional level to be represented to the most optimal way, the respective package of the country level and the region level are required. For example, if there are two maps showing Contour lines: for the entire Italy and for Sicily, to view contour lines for the Sicily island, the regional Contour lines map is enough. However, to view slope colors over Sicily, downloading the Slope package at the country level will be needed. 
+For an optimal representation, the country level maps are combined with the region level maps. However, whether it should be all three, or any of the elevation data maps (i.e. Contour lines, and/or Hillshade, and/or Slope) depend on the current needs. As for the regional level to be represented to the most optimal way, the respective package of the country level and the region level are required. 
 
-![Contour lines over Sicily](assets/images/plugins/contour-lines/contour lines over peak on Sicily.png) ![Slope colors over Sicily](assets/images/plugins/contour-lines/contour lines over Sisily.png)
+For example, if there are two maps showing Contour lines: for the entire Italy and for Sicily, to view contour lines for the Sicily island, the regional Contour lines map is enough. However, to view slope colors over Sicily, downloading the Slope package at the country level will be needed. 
+
+
+![Contour lines over Sicily](assets/images/plugins/contour-lines/contour lines over peak on Sicily.png) 
+
+![Slope colors over Sicily](assets/images/plugins/contour-lines/contour lines over Sisily.png)
+
 
 Regardless of the type of the map, if the map is downloaded and toggled on, it is available above, or underneath the Map Source to view. 
 
