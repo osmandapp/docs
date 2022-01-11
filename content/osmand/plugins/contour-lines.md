@@ -34,7 +34,7 @@ The terrain information on the map can be represented by hill shading, with the 
 The elevation data on the map - between 70 degrees north and 70 degrees south - is produced on the basis of the measurements made by the Shuttle Radar Topography Mission (abbrev.as *SRTM*). It used the Advanced Spaceborne Thermal Emission and Reflection Radiometer (abbrev. as *ASTER*), which is a sensor onboard the Terra satellite and the flagship imaging instrument of NASA's Earth Observing System. ASTER represents a cooperative effort between NASA, Japan's Ministry of Economy, Trade and Industry (abbrev. as *METI*), and Japan Space Systems (also known as *J-spacesystems*).
 
 
-## Purchase Contour lines 
+## Pre-requisites  
 
 Puchase of the Contour lines package is required to enable the plugin and start downloading Contour lines, and/or Hillshade, and/or Slope maps per region. 
 
@@ -44,24 +44,7 @@ Puchase of the Contour lines package is required to enable the plugin and start 
 
 For the **iOS** version, refer to the [paid services](/osmand/purchases/ios#in-app-purchases): in-app purchases, or a subscription. To view the already made purchases, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
 
-{% endios%}
-
-{% android%}
-
-For the **Android** version, refer to the [paid services](/osmand/purchases/android#free-and-paid-features): in-app purchases, a subscription, or a full version of the app. To view the already made purchases, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.purchases %}
-
-{% endandroid%}
-
-
-## Enable plugin 
-
-With the purchase made, the Contour lines plugin can be enabled, so that to start downloading maps per region.  
-
-{% data reusables.general.android-ios-switcher%}
-
-{% ios%}
-
-In the **iOS** version, toggle **Contour lines** on in: {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_srtm %} 
+In the **iOS** version, to enable the plugin, toggle **Contour lines** on in: {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_srtm %} 
 
 ![Contour lines plugin on iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_ios.png) 
 
@@ -69,7 +52,9 @@ In the **iOS** version, toggle **Contour lines** on in: {% data variables.ios-va
 
 {% android%}
 
-In the **Android** version, toggle **Contour lines** on in: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} → {% data variables.android-values.srtm_plugin_name %} 
+For the **Android** version, refer to the [paid services](/osmand/purchases/android#free-and-paid-features): in-app purchases, a subscription, or a full version of the app. To view the already made purchases, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.purchases %}
+
+In the **Android** version, to enable the plugin, toggle **Contour lines** on in: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} → {% data variables.android-values.srtm_plugin_name %} 
 
 ![Contour lines plugin on Android](/assets/images/plugins/contour-lines/contour_lines_plugin_android.png) 
 
