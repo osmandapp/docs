@@ -3,16 +3,9 @@ title: Contour lines and Terrain
 intro: "Terrain information, such as Contour lines, Hillshades, Slopes - helps to build an optimal off-road routes by considering the curvature, extremes, steepness, points of equal height, and other surface shape characteristics of the specific area of travel."
 versions: '*'
 ---
+{% data reusables.general.android-ios-switcher %}
 
 {% data reusables.general.article-not-complete %}
-
-For the Contour lines and Terrain data to show up on the map, the following configuration is required:
-1. Purchase the Contour lines package.  
-2. Enable the Coutour lines plugin in the Plugins section of the main menu.
-3. Download Contour lines and/or Terrain variants for the required regions. 
-4. Toggle on Contour lines and/or Terrain variants per profile.
-5. If needed, configure the map view. 
-
 
 ## General info
 
@@ -31,14 +24,24 @@ The global data for the map - between 70 degrees north and 70 degrees south - is
 
 ## Purchase Contour lines 
 
+{% data reusables.general.android-ios-switcher %}
+
 {% default%}
 Puchase of the Contour lines services is required to enable the plugin and start downloading maps per region. 
+For the Contour lines and Terrain data to show up on the map, the following configuration is required:
+1. Purchase the Contour lines package.  
+2. Enable the Coutour lines plugin in the Plugins section of the main menu.
+3. Download Contour lines and/or Terrain variants for the required regions. 
+4. Toggle on Contour lines and/or Terrain variants per profile.
+5. If needed, configure the map view. 
 {% enddefault%}
+
 {% android%}
 For the **Android** version, to use Contour line, any of the following [subscriptions](/osmand/purchases/android#free-and-paid-features) is needed: 
 - **OsmAnd+**
 - **OsmAndPro**
 {% endandroid%}
+
 {% ios%}
 For the **iOS** version, refer to the [In-App Purchases](/osmand/purchases/ios#in-app-purchases). And to view the already made purchases, go to:
 {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
