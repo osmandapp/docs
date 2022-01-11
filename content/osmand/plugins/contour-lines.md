@@ -6,15 +6,16 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
-For the Contour lines and Terrain data to show up on the map, the following configuration is needed:
+|  Description | Representation |
+| --- | --- |
+| For the Contour lines and Terrain data to show up on the map, the following configuration is needed:
 
 1. Purchase the Contour lines package.  
 2. Enable the Coutour lines plugin in the Plugins section of the main menu.
 3. Download the Contour lines and/or Terrain variants for the required regions. 
 4. Toggle on the Contour lines and/or Terrain variants per profile.
-5. If needed, configure the map view. 
+5. If needed, configure the map view. | ![Contour lines and Terrain](/assets/images/plugins/contour-lines/contour_lines_terrain.png) |
 
-![Contour lines and Terrain](/assets/images/plugins/contour-lines/contour_lines_terrain.png)
 
 ## General info
 
@@ -41,17 +42,13 @@ Puchase of the Contour lines package is required to enable the plugin and start 
 
 {% ios%}
 
-For the **iOS** version, refer to the [paid services](/osmand/purchases/ios#in-app-purchases): in-app purchases, or a subscription. 
-
-To view the already made purchases, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
+For the **iOS** version, refer to the [paid services](/osmand/purchases/ios#in-app-purchases): in-app purchases, or a subscription. To view the already made purchases, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
 
 {% endios%}
 
 {% android%}
 
-For the **Android** version, refer to the [paid services](/osmand/purchases/android#free-and-paid-features): in-app purchases, a subscription, or a full version of the app. 
-
-To view the already made purchases, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.purchases %}
+For the **Android** version, refer to the [paid services](/osmand/purchases/android#free-and-paid-features): in-app purchases, a subscription, or a full version of the app. To view the already made purchases, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.purchases %}
 
 {% endandroid%}
 
@@ -63,17 +60,18 @@ With the purchase made, the Contour lines plugin can be enabled, so that to star
 {% data reusables.general.android-ios-switcher%}
 
 {% ios%}
-In the **iOS** version, toggle **Contour lines** on in: {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_srtm %}
 
-![Contour lines plugin on iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_ios.png)
+| Description | Representation | 
+| --- | ---|
+| In the **iOS** version, toggle **Contour lines** on in: {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_srtm %} | ![Contour lines plugin on iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_ios.png) |
 
 {% endios%}
 
 {% android%}
 
-In the **Android** version, toggle **Contour lines** on in: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} → {% data variables.android-values.srtm_plugin_name %}
-
-![Contour lines plugin on Android](/assets/images/plugins/contour-lines/contour_lines_plugin_android.png) 
+| Description | Representation | 
+| --- | --- | 
+| In the **Android** version, toggle **Contour lines** on in: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} → {% data variables.android-values.srtm_plugin_name %} | ![Contour lines plugin on Android](/assets/images/plugins/contour-lines/contour_lines_plugin_android.png) | 
 
 {% endandroid%}
 
