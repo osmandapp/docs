@@ -73,9 +73,9 @@ For an optimal representation, the country level maps are combined with the regi
 For example, if there are two maps showing Contour lines: for the entire Italy and for Sicily, to view contour lines for the Sicily island, the regional Contour lines map is enough. However, to view slope colors over Sicily, downloading the Slope package at the country level will be needed. 
 
 
-![Contour lines over Sicily](assets/images/plugins/contour-lines/contour lines over peak on Sicily.png) 
+![Contour lines over Sicily](assets/images/plugins/contour-lines/contour-lines-over-peak-on-Sicily.png) 
 
-![Slope colors over Sicily](assets/images/plugins/contour-lines/contour lines over Sisily.png)
+![Slope colors over Sicily](assets/images/plugins/contour-lines/contour-lines-over-Sisily.png)
 
 
 Regardless of the type of the map, if the map is downloaded and toggled on, it is available above, or underneath the Map Source to view. 
