@@ -7,6 +7,7 @@ versions: '*'
 {% data reusables.general.article-not-complete %}
 
 For the Contour lines and Terrain data to show up on the map, the following configuration is required:
+
 1. Purchase the Contour lines package.  
 2. Enable the Coutour lines plugin in the Plugins section of the main menu.
 3. Download Contour lines and/or Terrain variants for the required regions. 
