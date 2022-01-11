@@ -7,10 +7,15 @@ versions: '*'
 
 
 For the Wikipedia data to show up on the map, the following configuration is required: 
+
 1. If needed, purchase paid services.
+
 2. Enable the Wikipedia plugin in the Plugins section of the main menu.
+
 3. Download the Wikipedia data for the required regions.
+
 4. Enable the Wikipedia POI for the needed profile.
+
 
 ### Overview 
 
@@ -39,13 +44,7 @@ The **iOS** version provides the Wikipedia plugin by default. To enable the plug
 
 {% android %}
 
-The **Android** version requires one of the following paid services:
-
-- **OsmAnd+** application,
-- **OsmAnd Unlimited** in-app for Free version,
-- **OsmAnd Live** subscription.
-
-Having purchased any of the paid services mentioned above, to enable the Wikipedia plugin, turn on the **Wikipedia** option in the Plugins section of the main menu.
+The **Android** version requires one of the [paid services](/osmand/purchases/android#free-and-paid-features): in-app purchases, or a subscription. Having made a purchase, to enable the Wikipedia plugin, turn on the **Wikipedia** option in the Plugins section of the main menu.
 
 {% endandroid %}
 

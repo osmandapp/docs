@@ -1,74 +1,83 @@
 ---
 title: "Contour lines and Terrain"
-intro: "Terrain information, such as Contour lines, Hillshades, Slopes - helps to build an optimal off-road routes by considering the curvature, extremes, steepness, points of equal height, and other surface shape characteristics of the specific area of travel."
+intro: "Terrain information, such as Contour lines, Hillshades, Slopes - helps to build an optimal off-road routes by considering the curvature, extremes, steepness, points of equal height, and other characteristics of the shape of land surface."
 versions: '*'
 ---
 
 {% data reusables.general.article-not-complete %}
 
-For the Contour lines and Terrain data to show up on the map, the following configuration is required:
+For the Contour lines and Terrain data to show up on the map, the following configuration is needed:
 
 1. Purchase the Contour lines package.  
 2. Enable the Coutour lines plugin in the Plugins section of the main menu.
-3. Download Contour lines and/or Terrain variants for the required regions. 
-4. Toggle on Contour lines and/or Terrain variants per profile.
+3. Download the Contour lines and/or Terrain variants for the required regions. 
+4. Toggle on the Contour lines and/or Terrain variants per profile.
 5. If needed, configure the map view. 
 
+![Contour lines and Terrain](/assets/images/plugins/contour-lines/contour_lines_terrain.png)
 
 ## General info
-
-{% data reusables.general.android-ios-switcher %}
 
 The Contour lines plugin is an autonomous functionality that can be enabled/disabled as needed. The plugin provides for downloading the following maps: 
 
 - the **Contour lines** map in vector points, and
-- two Terrain maps in raster pixels: the **Hillshade** map, and the **Slopes** map. 
+- two Terrain maps in raster pixels: 
+
+    the **Hillshade** map, and 
+    the **Slopes** map. 
 
 Each map of the Contour lines plugin is an independent option, which if toggled on, is displayed above, or underneath the Map Source. 
 
 The terrain information on the map can be represented by hill shading, with the contour lines of the uphill and downhill, as an angle of diviation from flat. By means of contour lines, shades and colors, the map shows slopes, peaks, rugged terrain, and other elevation above the sea level. 
 
-The global data for the map - between 70 degrees north and 70 degrees south - is based on the measurements made by the Shuttle Radar Topography Mission (abbrev.as *SRTM*). It uses the Advanced Spaceborne Thermal Emission and Reflection Radiometer (abbrev. as *ASTER*), which is a sensor onboard the Terra satellite and the flagship imaging instrument of NASA's Earth Observing System. ASTER is a cooperative effort between NASA, Japan's Ministry of Economy, Trade and Industry (abbrev. as *METI*), and Japan Space Systems (also known as *J-spacesystems*).
+The elevation data on the map - between 70 degrees north and 70 degrees south - is produced on the basis of the measurements made by the Shuttle Radar Topography Mission (abbrev.as *SRTM*). It used the Advanced Spaceborne Thermal Emission and Reflection Radiometer (abbrev. as *ASTER*), which is a sensor onboard the Terra satellite and the flagship imaging instrument of NASA's Earth Observing System. ASTER represents a cooperative effort between NASA, Japan's Ministry of Economy, Trade and Industry (abbrev. as *METI*), and Japan Space Systems (also known as *J-spacesystems*).
 
-![Contour lines and Terrain](/assets/images/plugins/contour-lines/contour_lines_terrain.png)
 
 ## Purchase Contour lines 
 
-{% data reusables.general.android-ios-switcher %}
+Puchase of the Contour lines package is required to enable the plugin and start downloading Contour lines, and/or Hillshade, and/or Slope maps per region. 
 
-{% default%}
-
-Puchase of the Contour lines services is required to enable the plugin and start downloading maps per region. 
-
-{% enddefault%}
-
-{% android%}
-
-For the **Android** version, to use Contour line, any of the following [subscriptions](/osmand/purchases/android#free-and-paid-features) is needed: 
-
-- **OsmAnd+**
-- **OsmAndPro**
-
-{% endandroid%}
+{% data reusables.general.android-ios-switcher%}
 
 {% ios%}
 
-For the **iOS** version, refer to the [In-App Purchases](/osmand/purchases/ios#in-app-purchases). And to view the already made purchases, go to:
+For the **iOS** version, refer to the [paid services](/osmand/purchases/ios#in-app-purchases): in-app purchases, or a subscription. 
 
-{% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
+To view the already made purchases, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
 
 {% endios%}
 
+{% android%}
 
+For the **Android** version, refer to the [paid services](/osmand/purchases/android#free-and-paid-features): in-app purchases, a subscription, or a full version of the app. 
+
+To view the already made purchases, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.purchases %}
+
+{% endandroid%}
 
 
 ## Enable plugin 
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} → {% data variables.android-values.srtm_plugin_name %}
+With the purchase made, the Contour lines plugin can be enabled, so that to start downloading maps per region.  
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_srtm %}
+{% data reusables.general.android-ios-switcher%}
 
-![Contour lines plugin on Android](/assets/images/plugins/contour-lines/contour_lines_plugin_android.png) ![Contour lines plugin on iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_ios.png)
+{% ios%}
+In the **iOS** version, toggle **Contour lines** on in: {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_srtm %}
+
+![Contour lines plugin on iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_ios.png)
+
+{% endios%}
+
+{% android%}
+
+In the **Android** version, toggle **Contour lines** on in: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} → {% data variables.android-values.srtm_plugin_name %}
+
+![Contour lines plugin on Android](/assets/images/plugins/contour-lines/contour_lines_plugin_android.png) 
+
+{% endandroid%}
+
+
 
 ## Download maps
 
