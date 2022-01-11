@@ -44,7 +44,7 @@ Puchase of the Contour lines package is required to enable the plugin and start 
 
 For purchases on **iOS**, refer to [in-app purchases, or a subscription](/osmand/purchases/ios#in-app-purchases). To view the already made purchases, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
 
-In the **iOS** version, to enable the plugin, toggle **Contour lines** on in: {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_srtm %} 
+In the **iOS** version, to enable the plugin, check **Contour lines** in: {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_srtm %} 
 
 ![Contour lines plugin on iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_ios.png) 
 
@@ -54,7 +54,7 @@ In the **iOS** version, to enable the plugin, toggle **Contour lines** on in: {%
 
 For purchases on **Android**, refer to [in-app purchases, a subscription, or the full version of the app](/osmand/purchases/android#free-and-paid-features). To view the already made purchases, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.purchases %}
 
-In the **Android** version, to enable the plugin, toggle **Contour lines** on in: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} → {% data variables.android-values.srtm_plugin_name %} 
+In the **Android** version, to enable the plugin, tap Enable for **Contour lines** in: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugin_settings %} → {% data variables.android-values.srtm_plugin_name %} 
 
 ![Contour lines plugin on Android](/assets/images/plugins/contour-lines/contour_lines_plugin_android.png) 
 
