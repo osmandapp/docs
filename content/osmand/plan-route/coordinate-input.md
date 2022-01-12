@@ -6,9 +6,20 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
+{% data reusables.general.android-ios-switcher%}
+
 If you have coordinates of your places you can create this points by just coordinates input in OsmAnd.
 
+
+{% note %}
+
+Coordinate input for **iOS** is not supported while.
+
+{% endnote %}
+
 ## Actions
+
+{% data reusables.general.android-ios-switcher%}
 
 {% android %}
 
@@ -16,9 +27,18 @@ Points are set as waypoints in [My places menu](/osmand/personal/tracks). For st
 
 [{% data variables.android-values.shared_string_menu %}](/osmand/start-with/main-menu) → [{% data variables.android-values.shared_string_my_places %}](/osmand/personal/myplaces) → [{% data variables.android-values.shared_string_gpx_tracks%}](/osmand/personal/tracks) → ["earth" button](/osmand/personal/tracks#my-places) on the bottom of the screen.
 
-This action opens "{% data variables.android-values.coord_input_edit_point %}" menu. 
 
-![Coordinate input Actions Android](/assets/images/personal/tracks/coordinate_input_android.png) 
+|Coordinates format|
+|:------|
+|This action opens "{% data variables.android-values.coord_input_edit_point %}" menu.|
+|![Coordinate input Actions Android](/assets/images/personal/tracks/coordinate_input_android.png) |
+|This screen contains a template for adding a point by coordinates:
+- ["{% data variables.android-values.shared_string_options %}" menu](/osmand/plan-route/coordinate-input#options) - opening the menu of options and choosing of coordinate format.
+- {% data variables.android-values.navigate_point_latitude %} and {% data variables.android-values.navigate_point_longitude %} line - allows to input latitude and longitude in the selected format (D - degrees, M - minutes, S - seconds). You can change coordinates format in ["{% data variables.android-values.shared_string_options %}" menu](/osmand/plan-route/coordinate-input#options).
+- {% data variables.android-values.navigate_point_latitude %} and {% data variables.android-values.navigate_point_longitude %} buttons - allows to change "South <-> North" and "West <-> East" for coordinates input.
+- "Point name" line - allows adding a point name or use a name by default.
+- "Clearing" ("X") buttons - allow to reset data for inputting coordinates. |
+
 
 This screen contains a template for adding a point by coordinates:
 - ["{% data variables.android-values.shared_string_options %}" menu](/osmand/plan-route/coordinate-input#options) - opening the menu of options and choosing of coordinate format.
@@ -44,6 +64,12 @@ This screen contains a template for adding a point by coordinates:
 
 {% endandroid %}
 
+{% ios %}
+
+Coordinate input for **iOS** is not supported while.
+
+{% endios %}
+
 ## Options
 
 {% android %}
@@ -66,3 +92,10 @@ Tapping to "{% data variables.android-values.shared_string_options %}" button op
 |{% data variables.android-values.dd_mm_ss_format %} | 23°27′30″|
 
 {% endandroid %}
+
+
+{% ios %}
+
+Coordinate input for **iOS** is not supported while.
+
+{% endios %}
