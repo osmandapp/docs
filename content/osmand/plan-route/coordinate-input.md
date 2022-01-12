@@ -28,8 +28,9 @@ Points are set as waypoints in [My places menu](/osmand/personal/tracks). For st
 |------------|
 |![Coordinate input Actions Android](/assets/images/personal/tracks/coordinate_input_android.png) | 
 
+**The "Edit point" menu contains:**
 
-|The "Edit point" menu contains a template for adding a point by coordinates: | 
+|**_The template for adding a point by coordinates_** | 
 |------------|
 |![Coordinate input menu Android](/assets/images/personal/tracks/coordinate_input_menu_android.png) ![Coordinate input menu Android](/assets/images/personal/tracks/coordinate_input_menu_1_android.png)|
 |- ["{% data variables.android-values.shared_string_options %}" menu](/osmand/plan-route/coordinate-input#options) - opening the menu of options and choosing of coordinate format.|
@@ -39,9 +40,10 @@ Points are set as waypoints in [My places menu](/osmand/personal/tracks). For st
 |- "Clearing" ("X") buttons - allow to reset data for inputting coordinates.|
 
 
-|**Points list** - shows added points: name, distance and direction to this point. "&#8285;" button opens the action menu for Editing or Deleting chosen point. Tapping to a point opens the editing action of this point. | 
+|**_The Points list_** - shows added points: name, distance and direction to this point.| 
 |------------|
 |![Coordinate input point list Android](/assets/images/personal/tracks/coordinate_input_point_list_android.png)|
+|- "&#8285;" button opens the action menu for Editing or Deleting chosen point. Tapping to a point opens the editing action of this point.|
 |- "{% data variables.android-values.shared_string_add %}" button - allows adding a new point after input of coordinates.|
 |- "{% data variables.android-values.shared_string_cancel %}" button - reset all adding data.|
 
