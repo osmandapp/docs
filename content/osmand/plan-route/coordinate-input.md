@@ -44,17 +44,20 @@ Points are set as waypoints in [My places menu](/osmand/personal/tracks). For st
 |------------|
 |![Coordinate input point list Android](/assets/images/personal/tracks/coordinate_input_point_list_android.png)|
 |- "&#8285;" button opens the action menu for Editing or Deleting chosen point. Tapping to a point opens the editing action of this point.|
+
+
+|**_Keyboard with additional buttons_** - !!Add info. | 
+|------------|
+|![Coordinate input Add point Android](/assets/images/personal/tracks/coordinate_input_add_point_android.png) |
 |- "{% data variables.android-values.shared_string_add %}" button - allows adding a new point after input of coordinates.|
 |- "{% data variables.android-values.shared_string_cancel %}" button - reset all adding data.|
+|- !!Adding info about keyboard buttons|
 
+|**_Back "&#8592;" button_**  - allows to open the action "{% data variables.android-values.coord_input_save_as_track %}" for your adding points.| 
+|------------|
+|Here you can input a track name or stay name by default. Click to "{% data variables.android-values.shared_string_save %}" button for saving added points like a new track. You find saving track in [My places menu](/osmand/personal/myplaces): {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_tracks%} → "{% data variables.android-values.map_markers_item %}" folder. The action "{% data variables.android-values.coord_input_save_as_track %}" is in [Options menu](/osmand/plan-route/coordinate-input#options) too.|
+|![Coordinate input Add point Android](/assets/images/personal/tracks/coordinate_input_save_track_android.png) ![Coordinate input Add point Android](/assets/images/personal/tracks/coordinate_input_save_track_1_android.png)|
 
-
-
-![Coordinate input Add point Android](/assets/images/personal/tracks/coordinate_input_add_point_android.png) 
-
-- "&#8592;" button - allows to open the action "{% data variables.android-values.coord_input_save_as_track %}" for your adding points. Here you can input a track name or stay name by default. Click to "{% data variables.android-values.shared_string_save %}" button for saving added points like a new track. You find saving track in [My places menu](/osmand/personal/myplaces): {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_tracks%} → "{% data variables.android-values.map_markers_item %}" folder. The action "{% data variables.android-values.coord_input_save_as_track %}" is in [Options menu](/osmand/plan-route/coordinate-input#options) too.
-
-![Coordinate input Add point Android](/assets/images/personal/tracks/coordinate_input_save_track_android.png) ![Coordinate input Add point Android](/assets/images/personal/tracks/coordinate_input_save_track_1_android.png)
 
 {% endandroid %}
 
