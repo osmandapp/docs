@@ -27,21 +27,26 @@ Points are set as waypoints in [My places menu](/osmand/personal/tracks). For st
 |This action opens **"{% data variables.android-values.coord_input_edit_point %}" menu**: |   
 |------------|
 |![Coordinate input Actions Android](/assets/images/personal/tracks/coordinate_input_android.png) | 
-|This screen contains a template for adding a point by coordinates: | 
+
+
+|The "Edit point" menu contains a template for adding a point by coordinates: | 
+|------------|
+|![Coordinate input menu Android](/assets/images/personal/tracks/coordinate_input_menu_android.png) ![Coordinate input menu Android](/assets/images/personal/tracks/coordinate_input_menu_1_android.png)|
 |- ["{% data variables.android-values.shared_string_options %}" menu](/osmand/plan-route/coordinate-input#options) - opening the menu of options and choosing of coordinate format.|
 |- {% data variables.android-values.navigate_point_latitude %} and {% data variables.android-values.navigate_point_longitude %} line - allows to input latitude and longitude in the selected format (D - degrees, M - minutes, S - seconds). You can change coordinates format in ["{% data variables.android-values.shared_string_options %}" menu](/osmand/plan-route/coordinate-input#options).|
 |- {% data variables.android-values.navigate_point_latitude %} and {% data variables.android-values.navigate_point_longitude %} buttons - allows to change "South <-> North" and "West <-> East" for coordinates input.|
 |- "Point name" line - allows adding a point name or use a name by default.|
 |- "Clearing" ("X") buttons - allow to reset data for inputting coordinates.|
 
-![Coordinate input menu Android](/assets/images/personal/tracks/coordinate_input_menu_android.png) ![Coordinate input menu Android](/assets/images/personal/tracks/coordinate_input_menu_1_android.png)
 
-- Points list - shows added points: name, distance and direction to this point. "&#8285;" button opens the action menu for Editing or Deleting chosen point. Tapping to a point opens the editing action of this point.
+|**Points list** - shows added points: name, distance and direction to this point. "&#8285;" button opens the action menu for Editing or Deleting chosen point. Tapping to a point opens the editing action of this point. | 
+|------------|
+|![Coordinate input point list Android](/assets/images/personal/tracks/coordinate_input_point_list_android.png)|
+|- "{% data variables.android-values.shared_string_add %}" button - allows adding a new point after input of coordinates.|
+|- "{% data variables.android-values.shared_string_cancel %}" button - reset all adding data.|
 
-![Coordinate input point list Android](/assets/images/personal/tracks/coordinate_input_point_list_android.png)
 
-- "{% data variables.android-values.shared_string_add %}" button - allows adding a new point after input of coordinates.
-- "{% data variables.android-values.shared_string_cancel %}" button - reset all adding data.
+
 
 ![Coordinate input Add point Android](/assets/images/personal/tracks/coordinate_input_add_point_android.png) 
 
