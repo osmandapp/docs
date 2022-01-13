@@ -104,7 +104,7 @@ To download a map of the Contour lines plugin for a specific area, go to  [Downl
 
 ### Choose Meters or Feet
 
-The contour interval can be displayed in feet, or meters. It is important to decide on which units are convenient for you, so that to download the respective version of the Contour lines map. It is not interchangeable, and in case it is needed to change feet into meters, or vice versa, the previous version of the Contour lines map has to be removed, so that to download anew the required version. 
+The contour interval can be displayed in feet, or meters. It is important to decide on what units are convenient for you, so that to download the respective version of the Contour lines map. It is not interchangeable, and in case feet are needed to be switched into meters, or vice versa, the previous version of the Contour lines map has to be removed, so that anew to download the required version. 
 
 The versions - feet or meters - are displayed on the download popup, when the ["Contour lines"](/osmand/plugins/contour-lines#downloading-files-and-enable-on-the-map) option is clicked in the country, or region map list. It allows you to choose what Contour lines file is needed: in meters, or in feet. 
 
