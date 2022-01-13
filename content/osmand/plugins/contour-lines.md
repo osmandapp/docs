@@ -82,10 +82,9 @@ The Contour lines, Hillshade and Slope angle colors become viewable at a certain
 | Contour lines combined with Hillshade | Contour lines combined with Slope | 
 | --- | --- |
 |![Contour lines combined with Hillshade](/assets/images/plugins/contour-lines/4_hillshade_n_contour.png) | ![Contour lines combined with Slope](/assets/images/plugins/contour-lines/5_slope_n_contour.png) | 
-| If to use the legend of colors to determine the angle of the slope, it is possible to assume the steepness of the slope, points of equal height, etc. | ![Legend of slope angle colors](/assets/images/plugins/contour-lines/Slope_legend.png) |
+| If to use the legend of colors to determine the angle of the slope, it is possible to assume the steepness of the slope, points of equal height, etc. Hillshade is useful for seeing curvature, especially for a mountain ridge. However, only one representaion: Hillshade or Slope, can be seen at once, and it is possible to switch between the maps, to view either shades, or colors.   | ![Legend of slope angle colors](/assets/images/plugins/contour-lines/Slope_legend.png) |
 
 To download a map of the Contour lines plugin for a specific area, go to  [Download maps menu](/osmand/start-with/download-maps#download---main-menu), find your country or region, choose any of the packages: Contour lines, Hillshades, and/or Slopes; and download the files. 
-
 
 {% data reusables.general.android-ios-switcher%}
 
@@ -105,16 +104,16 @@ To download a map of the Contour lines plugin for a specific area, go to  [Downl
 
 ### Choose Meters or Feet
 
-When you click to ["Contour lines"](/osmand/plugins/contour-lines#downloading-files-and-enable-on-the-map) in the country maps list you see dialogue of choosing Contour lines file in meter or feet. 
+The contour interval can be displayed in feet, or meters. It is important to decide on which units are convenient for you, so that to download the respective version of the Contour lines map. It is not interchangeable, and in case it is needed to change feet into meters, or vice versa, the previous version of the Contour lines map has to be removed, so that to download anew the required version. 
 
-You need to choose the meter or feet parameter and download the file.
-
-You will need to re-download the file to change the format.
+The versions - feet or meters - are displayed on the download popup, when the ["Contour lines"](/osmand/plugins/contour-lines#downloading-files-and-enable-on-the-map) option is clicked in the country, or region map list. It allows you to choose what Contour lines file is needed: in meters, or in feet. 
 
 ![Contour lines download dialogue Android](/assets/images/plugins/contour-lines/contour_lines_plugin_download_dialogue_android.png)
 
 
 ## Toggle maps on per profile
+
+Downloaded can be as many maps as required, and then it is possible to determine what map to show for what profile.
 
 Check to enable Contour Lines option in [Configure map menu](/osmand/map/vector-maps#contour-lines).
 
