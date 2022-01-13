@@ -4,9 +4,7 @@ intro: "A simple and fast tool for creating points by specifying geographic coor
 versions: '*'
 ---
 
-{% data reusables.general.article-not-complete %}
-
-If you have coordinates of your places you can create this points by just coordinates input in OsmAnd.
+If you have coordinates of your places you can create this points on the map by just coordinates input in OsmAnd.
 
 {% note %}
 
@@ -97,3 +95,6 @@ Coordinate input for **iOS** is not supported while.
 Coordinate input for **iOS** is not supported while.
 
 {% endios %}
+
+
+{% data reusables.general.article-not-complete %}
