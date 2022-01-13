@@ -68,8 +68,6 @@ In the **Android** version, to enable the plugin, tap Enable for **Contour lines
 
 There are three types of the elevation data packages for download per region: Contour lines, Hillshade and Slope. Most often all of them can be downloaded at the country level. There are also regions where only Contour lines are available, for example, the Sicily island and Italy as the entire country; as well as regions where Hillshade and Slope are available too, for example, Alberta and Canada. 
 
-For an optimal representation, the country level maps are combined with the region level maps. However, whether it should be all three, or any of the elevation data maps (i.e. Contour lines, and/or Hillshade, and/or Slope) depend on the current needs. As for the regional level, it may be enough to download only the required maps at the regional level. However, as there are no Slope maps at the regional level, then to see the slope angle color and contour lines on the map, for example, of Sicily, two downloads will be needed: the Contour lines map at the region level, and the Slope map at the country level, as for Italy the Slope map exists only at the country level. 
-
 The Contour lines, Hillshade and Slope angle colors become viewable at a certain zoom level, which is established at the settings for the specific map type.
 
 | Hillshade map only | Slope map only |
@@ -78,7 +76,9 @@ The Contour lines, Hillshade and Slope angle colors become viewable at a certain
 
 | | None of Contour lines maps | 
 |--- | --- |
-| If to view the map with none of the Contour lines plugin maps, it could be an entirely different view. | ![None of Contour lines over Sicily](/assets/images/plugins/contour-lines/1_none_of_contour_maps.png)  |
+| If to view the map with none of the Contour lines plugin maps, it could be an entirely different view. 
+
+For an optimal representation, the country level maps are combined with the region level maps. However, whether it should be all three, or any of the elevation data maps (i.e. Contour lines, and/or Hillshade, and/or Slope) depend on the current needs. As for the regional level, it may be enough to download only the required maps at the regional level. However, as there are no Slope maps at the regional level, then to see the slope angle color and contour lines on the map, for example, of Sicily, two downloads will be needed: the Contour lines map at the region level, and the Slope map at the country level, as for Italy the Slope map exists only at the country level. | ![None of Contour lines over Sicily](/assets/images/plugins/contour-lines/1_none_of_contour_maps.png)  |
  
 
 | Contour lines combined with Hillshade | Contour lines combined with Slope | 
