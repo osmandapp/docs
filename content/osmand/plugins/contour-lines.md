@@ -74,9 +74,9 @@ The Contour lines, Hillshade and Slope angle colors become viewable at a certain
 | --- | --- |
 | ![Hillshade over Sicily](/assets/images/plugins/contour-lines/2_hillshade_only.png) | ![Slope over Sicily](/assets/images/plugins/contour-lines/3_slope_only.png)  |
 
-| | None of Contour lines maps | 
-|--- | --- |
-| If to view the map with none of the Contour lines plugin maps, it could be an entirely different view. <br> For an optimal representation, the country level maps are combined with the region level maps. However, whether it should be all three, or any of the elevation data maps (i.e. Contour lines, and/or Hillshade, and/or Slope) depend on the current needs. As for the regional level, it may be enough to download only the required maps at the regional level. However, as there are no Slope maps at the regional level, then to see the slope angle color and contour lines on the map, for example, of Sicily, two downloads will be needed: the Contour lines map at the region level, and the Slope map at the country level, as for Italy the Slope map exists only at the country level. | ![None of Contour lines over Sicily](/assets/images/plugins/contour-lines/1_none_of_contour_maps.png)  |
+|  | None of Contour lines maps | 
+| --- | --- |
+| If to view the map with none of the Contour lines plugin maps, it could be an entirely different view. For an optimal representation, the country level maps are combined with the region level maps. However, whether it should be all three, or any of the elevation data maps (i.e. Contour lines, and/or Hillshade, and/or Slope) depend on the current needs. As for the regional level, it may be enough to download only the required maps at the regional level. However, as there are no Slope maps at the regional level, then to see the slope angle color and contour lines on the map, for example, of Sicily, two downloads will be needed: the Contour lines map at the region level, and the Slope map at the country level, as for Italy the Slope map exists only at the country level. | ![None of Contour lines over Sicily](/assets/images/plugins/contour-lines/1_none_of_contour_maps.png)  |
  
 
 | Contour lines combined with Hillshade | Contour lines combined with Slope | 
