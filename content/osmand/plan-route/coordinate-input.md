@@ -67,6 +67,8 @@ Coordinate input for **iOS** is not supported while.
 
 ## Options
 
+{% data reusables.general.android-ios-switcher%}
+
 {% android %}
 
 |Tapping to "{% data variables.android-values.shared_string_options %}" button opens **{% data variables.android-values.shared_string_options %} menu** with next actions: | 
