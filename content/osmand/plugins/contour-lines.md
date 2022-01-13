@@ -82,7 +82,7 @@ The Contour lines, Hillshade and Slope angle colors become viewable at a certain
 | Contour lines combined with Hillshade | Contour lines combined with Slope | 
 | --- | --- |
 |![Contour lines combined with Hillshade](/assets/images/plugins/contour-lines/4_hillshade_n_contour.png) | ![Contour lines combined with Slope](/assets/images/plugins/contour-lines/5_slope_n_contour.png) | 
-| If to use the legend of colors to determine the angle of the slope, it is possible to assume the steepness of the slope, points of equal height, etc. Hillshade is useful for seeing curvature, especially for a mountain ridge. However, only one representaion: Hillshade or Slope, can be seen at once, and it is possible to switch between the maps, to view either shades, or colors.   | ![Legend of slope angle colors](/assets/images/plugins/contour-lines/Slope_legend.png) |
+| If to use the legend of colors to determine the angle of the slope, it is possible to assume the steepness of the slope, points of equal height, etc. Hillshade is useful for making an assessment of curvature, especially for a mountain ridge. However, only one representation: Hillshade or Slope, can be seen at once, and it is possible to switch between the maps, to view either shades, or slope angle colors.   | ![Legend of slope angle colors](/assets/images/plugins/contour-lines/Slope_legend.png) |
 
 To download a map of the Contour lines plugin for a specific area, go to  [Download maps menu](/osmand/start-with/download-maps#download---main-menu), find your country or region, choose any of the packages: Contour lines, Hillshades, and/or Slopes; and download the files. 
 
