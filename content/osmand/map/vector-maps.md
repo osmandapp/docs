@@ -145,7 +145,7 @@ In {% data variables.android-values.rendering_category_details %} menu you can s
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.res_details %}
 
-|Parameter and Description|   
+|Parameter and Description|
 |------------|
 |**{% data variables.ios-values.rendering_attr_moreDetailed_name %}**: Showing polygons, trails, points, signs at low zooms on the map. It means you can see more details on your map at low zooms. _Note_: rendering on your device may be not fast.|
 |![Map parameter - More detailed](/assets/images/map/map-parameter-more-details.png)|
@@ -155,7 +155,7 @@ In {% data variables.android-values.rendering_category_details %} menu you can s
 |![Map parameter - Road smoothness](/assets/images/map/map-parameter-road-smoothness.png)|
 |**{% data variables.ios-values.rendering_attr_showAccess_name %}**:  Showing access of roads: private or permissive, or only for emergency, or maybe toll road. Look at [Map legend](https://osmand.net/help-online/map-legend/) to find your road access. |
 |![Map parameter - Road access](/assets/images/map/map-parameter-road-access.png)|
-|**{% data variables.ios-values.rendering_attr_showLez_name %}**: Showing green board and labels for Low Emission Zones in cities. It will help you not receive penalties in the green city center.|
+|**{% data variables.ios-values.rendering_attr_showLez_name %}**: Showing green board and labels "LEZ" for [Low Emission Zones](https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dlow_emission_zone) in cities. A [Low-Emission Zone (LEZ)](https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dlow_emission_zone) is a geographically defined area which seeks to restrict or deter access by certain polluting vehicles with the aim of improving the air quality. It will help you not receive penalties in the green city center.|
 |![Map parameter - Low emission zones](/assets/images/map/map-parameter-low-emission-zones.png)|
 |**{% data variables.ios-values.rendering_attr_coloredBuildings_name %}**: Coloring buildings and places have special colors for each category: regular buildings, industrial, commercial, etc. Look at [Map legend](https://osmand.net/help-online/map-legend/) to find your color for the building. |
 |![Map parameter - Coloured buildings](/assets/images/map/map-parameter-coloured-buildings.png)|
@@ -165,6 +165,8 @@ In {% data variables.android-values.rendering_category_details %} menu you can s
 |![Map parameter - Map assistant](/assets/images/map/map-parameter-map-assistant.png)|
 |**{% data variables.ios-values.rendering_attr_depthContours_name %}**: Showing nautical depth contours on seas. You need to have a [nautical plugin](/osmand/plugins/nautical-charts) and download Nautical maps.|
 |![Map parameter - Depth contours](/assets/images/map/map-parameter-depth-contours.png)|
+|**{% data variables.ios-values.rendering_attr_natureReserves_name %}**: Showing green board and labels "NR" for [Nature reserve territory](https://wiki.openstreetmap.org/wiki/Tag:leisure%3Dnature_reserve). A nature reserve is a protected area of importance for wildlife, flora, fauna or features of geological or other special interest.|
+|![Map parameter - Nature reserve](/assets/images/map/nature-reserve.png)|
 
 ### Routes
 
