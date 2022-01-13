@@ -46,12 +46,12 @@ Points are set as waypoints in [My places menu](/osmand/personal/tracks). For st
 |- "&#8285;" button opens the action menu for Editing or Deleting chosen point. Tapping to a point opens the editing action of this point.|
 
 
-|**_Keyboard with additional buttons_** - !!Add info. | 
+|**_Keyboard with additional buttons_** - allows to input corrdinate data. | 
 |------------|
 |![Coordinate input Add point Android](/assets/images/personal/tracks/coordinate_input_add_point_android.png) |
 |- "{% data variables.android-values.shared_string_add %}" button - allows adding a new point after input of coordinates.|
 |- "{% data variables.android-values.shared_string_cancel %}" button - reset all adding data.|
-|- !!Adding info about keyboard buttons|
+|- Keyboard buttons - allow to input data, delete it, jump to the next coordinate value, hide the keyboard. In [Options](/osmand/plan-route/coordinate-input#options) you can change the keyboard to system keyboard for input coordinate. |
 
 |**_Back "&#8592;" button_**  - allows to open the action "{% data variables.android-values.coord_input_save_as_track %}" for your adding points.| 
 |------------|
@@ -71,16 +71,17 @@ Coordinate input for **iOS** is not supported while.
 
 {% android %}
 
-Tapping to "{% data variables.android-values.shared_string_options %}" button opens {% data variables.android-values.shared_string_options %} menu with next actions
+|Tapping to "{% data variables.android-values.shared_string_options %}" button opens **{% data variables.android-values.shared_string_options %} menu** with next actions: | 
+|------------|
+|![Coordinate input Options menu Android](/assets/images/personal/tracks/coordinate_input_options_menu_android.png)|
+|- {% data variables.android-values.coord_input_save_as_track %} - allows to open "{% data variables.android-values.coord_input_save_as_track %}" action for your adding points. Here you can input a track name or stay name by default. Click to "{% data variables.android-values.shared_string_save %}" button for saving added points like a new track. You find saving track in [My places menu](/osmand/personal/myplaces): {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_tracks%} → "{% data variables.android-values.map_markers_item %}" folder. The action "{% data variables.android-values.coord_input_save_as_track %}" is in [Actions](/osmand/plan-route/coordinate-input#actions) too.  |
+| - {% data variables.android-values.use_system_keyboard %} - allows to use [system keyboard for input coordinate](/osmand/plan-route/coordinate-input#actions). |
+|- {% data variables.android-values.use_two_digits_longitude %} - allows entering longitude data with two digits only. For example, when using longitude input in the range of 0 ° to 99 °.|
+| - {% data variables.android-values.coordinates_format %} - allows changing the coordinate format for inputting. |
 
-![Coordinate input Options menu Android](/assets/images/personal/tracks/coordinate_input_options_menu_android.png)
 
-- {% data variables.android-values.coord_input_save_as_track %} - allows to open "{% data variables.android-values.coord_input_save_as_track %}" action for your adding points. Here you can input a track name or stay name by default. Click to "{% data variables.android-values.shared_string_save %}" button for saving added points like a new track. You find saving track in [My places menu](/osmand/personal/myplaces): {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_tracks%} → "{% data variables.android-values.map_markers_item %}" folder. The action "{% data variables.android-values.coord_input_save_as_track %}" is in [Actions](/osmand/plan-route/coordinate-input#actions) too.
-- {% data variables.android-values.use_system_keyboard %} - allows to use system keyboard for input coordinate.
-- {% data variables.android-values.use_two_digits_longitude %} - allows entering longitude data with two digits only. For example, when using longitude input in the range of 0 ° to 99 °.
-- {% data variables.android-values.coordinates_format %} - allows changing the coordinate format for inputting.
 
-|Coordinates format| |
+|Coordinates format| Example |
 |:------|:------|
 |{% data variables.android-values.dd_mm_mmm_format %} | 23°27.215′|
 |{% data variables.android-values.dd_mm_mmmm_format %} | 23°27.2152′|
