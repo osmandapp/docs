@@ -11,3 +11,4 @@ You can also use OsmAnd's functionality and plugins to directly contribute data 
 {% link_in_list /translating-osmand %}
 {% link_in_list /voice-prompts %}
 {% link_in_list /debug-obf-routing-on-pc %}
+{% link_in_list /test-article %}
