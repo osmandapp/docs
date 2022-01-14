@@ -3,14 +3,18 @@ title: "Search Address"
 intro: ""
 versions: '*'
 ---
-{% data reusables.general.article-not-complete %}
 
+{% data reusables.general.android-ios-switcher %}
 
 You may want to find the nearest location of a certain type, view your own location or search for a place by zip code. Just use the guide below.
 
 **Please note:** to accomplish some of these tasks (locate addresses, POI, etc.) you will need to have the offline vector map file.
 
 ## How to use
+
+{% data reusables.general.android-ios-switcher %}
+
+{% android %}
 
 Address - for searching by an [address tags](https://wiki.openstreetmap.org/w/index.php?title=Key:addr) and [coordinates](https://en.wikipedia.org/wiki/Geographic_coordinate_system).
 
@@ -20,6 +24,21 @@ Clicking to [Search button on the screen](/osmand/widgets/map-buttons#search) ->
 - [{% data variables.android-values.start_search_from_city %}](/osmand/search/search-address#search-citytownlocality)
 - [{% data variables.android-values.select_postcode %}](/osmand/search/search-address#postcode-search)
 - [{% data variables.android-values.coords_search %}](/osmand/search/search-address#coordinates-search)
+
+{% endandroid %}
+
+{% ios %}
+
+Address - for searching by an [address tags](https://wiki.openstreetmap.org/w/index.php?title=Key:addr) and [coordinates](https://en.wikipedia.org/wiki/Geographic_coordinate_system).
+
+Clicking to [Search button on the screen](/osmand/widgets/map-buttons#search) -> {% data variables.android-values.shared_string_address %}
+
+- [{% data variables.android-values.search_street %}](/osmand/search/search-address#search-street)
+- [{% data variables.android-values.start_search_from_city %}](/osmand/search/search-address#search-citytownlocality)
+- [{% data variables.android-values.select_postcode %}](/osmand/search/search-address#postcode-search)
+- [{% data variables.android-values.coords_search %}](/osmand/search/search-address#coordinates-search)
+
+{% endios %}
 
 ### Search street
 
@@ -79,3 +98,6 @@ Search result shows direction, distance to a point on the map.
 Tap to the result opens [Map Context menu](/osmand/map/map-context-menu#select-any-point-long-tap) of a point on the map with additional info.
 
 ![Search Coordinates Android](/assets/images/search/coordinates_search_android.png) ![Search Coordinates iOS](/assets/images/search/coordinates_search_ios.png)
+
+
+{% data reusables.general.article-not-complete %}

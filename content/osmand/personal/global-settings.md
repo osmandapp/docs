@@ -6,12 +6,12 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
+- <a href="#" class="UnderlineNav-item platform-switcher" data-platform="android">Android Settings</a>.
+- <a href="#" class="UnderlineNav-item platform-switcher" data-platform="ios">iOS Settings</a>.
+
 ## Global settings
 
 Global settings are common to all application profiles. In fact, these settings are the settings of OsmAnd system.
-
-- <a href="#" class="UnderlineNav-item platform-switcher" data-platform="android">Android Settings</a>.
-- <a href="#" class="UnderlineNav-item platform-switcher" data-platform="ios">iOS Settings</a>.
 
 {% data reusables.general.android-ios-switcher %}
 
