@@ -58,6 +58,7 @@ Tap to chosen address in the list opens [Map Context menu](/osmand/map/map-conte
 
 {% ios %}
 
+This searching is not available for iOS version. You can find streets: [{% data variables.ios-values.select_city %}](/osmand/search/search-address#search-citytownlocality) -> Searching streets or 
 
 
 {% endios %}
