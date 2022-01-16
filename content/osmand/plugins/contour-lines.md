@@ -220,7 +220,7 @@ In the **Android** version, to show one of the **Terrain** maps for the selected
 
 ## Configure Hillshade
 
-Hillshade allows you to research the relief by highlighting it with the hypothetical  illumination to simulate the cast of shadow, and thus to reveal the curvature, which is normally hidden, or unclear, for example, due to lots of vegetation. There are some aspects of the Hillshade map available for configuration: transparency of the shadow and the zoom level at which the Hillshade map is viewable. 
+Hillshade allows you to research the relief by highlighting it with the hypothetical  illumination to simulate the cast of shadow, and thus to reveal the curvature, which is normally hidden, or unclear, for example, due to lots of vegetation. There are some aspects of the Hillshade map available for configuration: transparency of the shadow, the zoom level at which the Hillshade map is expected to be visible. 
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -233,11 +233,11 @@ Hillshade allows you to research the relief by highlighting it with the hypothet
 {% ios%}
 
 - **{% data variables.ios-values.shared_string_enabled %}** - a toggle to show, or hide the terrain data on/from the map;
-- **{%  data variables.ios-values.map_settings_hillshade %}** / **{% data variables.ios-values.gpx_slope %}** - a choice to display one of the terrain data: either Hillshade, or Slope;
-- **{% data variables.ios-values.map_settings_layer_transparency %}** - percentage bar to determine the preferable level of the transparency for the displayed shadow; 
-- **{% data variables.ios-values.res_zoom_levels %}** - tap the minimum and maximum options, to determine:
+- **{%  data variables.ios-values.map_settings_hillshade %}** / **{% data variables.ios-values.gpx_slope %}** - a choice to display one of the terrain data types: either Hillshade, or Slope;
+- **{% data variables.ios-values.map_settings_layer_transparency %}** - the percentage bar to determine the preferable level of the transparency for the displayed shadow; 
+- **{% data variables.ios-values.res_zoom_levels %}** - the minimum and maximum options to tap, to select:
     - the minimum zoom level at which Hillshade is expected to be viewable on the map; and 
-    - the maximum zoom level at which itis expected to disappear;
+    - the maximum zoom level at which it is expected to disappear;
 - **{ data variables.ios-values.osmand_live_available_maps }** - an offer to download a Hillshade map if none is still downloaded for the current geographical location displayed on the screen. 
 
 ![Terrain menu iOS](/assets/images/plugins/contour-lines/terrain_menu_ios.png) 
@@ -246,13 +246,13 @@ Hillshade allows you to research the relief by highlighting it with the hypothet
 
 {% android%}
 
-- **{% data variables.android-values.shared_string_menu %}** -  a toggle to show, or hide the terrain data on/from the map;
-- **{% data variables.android-values.shared_string_hillshade %}** / **{% data variables.android-values.shared_string_slope %}** - a choice to display one of the terrain data: either Hillshade, or Slope;
-- **{% data variables.android-values.shared_string_transparency %}** - percentage bar to determine the preferable level of the transparency for the displayed shadow; 
-- **{% data variables.android-values.shared_string_zoom_levels %}** - set the left and right slider options, to determine:
+- **{% data variables.android-values.shared_string_terrain %}** -  a toggle to show, or hide the terrain data on/from the map;
+- **{% data variables.android-values.shared_string_hillshade %}** / **{% data variables.android-values.shared_string_slope %}** - a choice to display one of the terrain data types: either Hillshade, or Slope;
+- **{% data variables.android-values.shared_string_transparency %}** - the percentage bar to determine the preferable level of the transparency for the displayed shadow; 
+- **{% data variables.android-values.shared_string_zoom_levels %}** - two slider options to move to the left, or right, to determine:
     - the minimum zoom level at which Hillshade is expected to be viewable on the map; and 
-    - the maximum zoom level at which itis expected to disappear;
-- **{% data variables.android-values.welmode_download_maps %}** - {% data variables.android-values.hillshade_download_description %}.
+    - the maximum zoom level at which it is expected to disappear;
+- **{% data variables.android-values.welmode_download_maps %}** - an offer to download a Hillshade map if none is still downloaded for the current geographical location displayed on the screen.
 
 ![Terrain menu Android](/assets/images/plugins/contour-lines/terrain_menu_android.png) 
 
