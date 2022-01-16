@@ -240,7 +240,7 @@ The **Hillshade** settings are available in the context menu of the **Terrain** 
 - **{% data variables.ios-values.res_zoom_levels %}** - the minimum and maximum options to tap, to select:
     - the minimum zoom level at which Hillshade is expected to be viewable on the map; and 
     - the maximum zoom level at which it is expected to disappear;
-- **{% data variables.ios-values.osmand_live_available_maps %}** - an offer to download a Hillshade map if none is still downloaded for the current geographical location displayed on the screen. 
+- **{% data variables.ios-values.osmand_live_available_maps %}** - an offer to download a Hillshade package if none is still downloaded for the current geographical location displayed on the screen. 
 
 ![Terrain menu iOS](/assets/images/plugins/contour-lines/terrain_menu_ios.png) 
 
@@ -254,7 +254,7 @@ The **Hillshade** settings are available in the context menu of the **Terrain** 
 - **{% data variables.android-values.shared_string_zoom_levels %}** - two slider options to move to the left, or right, to determine:
     - the minimum zoom level at which Hillshade is expected to be viewable on the map; and 
     - the maximum zoom level at which it is expected to disappear;
-- **{% data variables.android-values.welmode_download_maps %}** - an offer to download a Hillshade map if none is still downloaded for the current geographical location displayed on the screen.
+- **{% data variables.android-values.welmode_download_maps %}** - an offer to download a Hillshade package if none is still downloaded for the current geographical location displayed on the screen.
 
 ![Terrain menu Android](/assets/images/plugins/contour-lines/terrain_menu_android.png) 
 
@@ -285,7 +285,7 @@ The **Slope** settings are available in the context menu of the **Terrain** opti
     - the minimum zoom level at which Slope angle colors are expected to be viewable on the map; and 
     - the maximum zoom level at which the colors are expected to disappear;
 - **{% data variables.ios-values.map_settings_legend %}** - the legend of colors to show the angle range at which the steepness of the slope can differ. For more details, refer to [Wikipedia](https://en.m.wikipedia.org/wiki/Grade_(slope))
-- **{% data variables.ios-values.osmand_live_available_maps %}** - an offer to download a Slope map if none is still downloaded for the current geographical location displayed on the screen. 
+- **{% data variables.ios-values.osmand_live_available_maps %}** - an offer to download a Slope package if none is still downloaded for the current geographical location displayed on the screen. 
 
 ![Terrain menu slopes iOS](/assets/images/plugins/contour-lines/terrain_menu_slopes_ios.png) 
 
@@ -300,7 +300,7 @@ The **Slope** settings are available in the context menu of the **Terrain** opti
     - the minimum zoom level at which Slope angle colors are expected to be viewable on the map; and 
     - the maximum zoom level at which the colors are expected to disappear;
 - **{% data variables.android-values.shared_string_legend %}** - the legend of colors to show the angle range at which the steepness of the slope can differ. For more details, refer to [Wikipedia](https://en.m.wikipedia.org/wiki/Grade_(slope))
-- **{% data variables.android-values.welmode_download_maps %}** - an offer to download a Slope map if none is still downloaded for the current geographical location displayed on the screen.
+- **{% data variables.android-values.welmode_download_maps %}** - an offer to download a Slope package if none is still downloaded for the current geographical location displayed on the screen.
 
 ![Terrain menu slopes Android](/assets/images/plugins/contour-lines/terrain_menu_slopes_android.png)
 
@@ -311,7 +311,7 @@ The **Slope** settings are available in the context menu of the **Terrain** opti
 
 Contour lines allows you to research in which direction and how much the surface inclines by outlining the contour lines closely for steep ground and more curved when going upward. There are some aspects of the Contour lines map available for configuration: the minimal zoom level where the contour lines will become visible, color scheme, width and density of lines. 
 
-The **Contour lines** settings are available in the context menu of the *Contour lines** option in the [**Configure map**](/osmand/map/vector-maps#contour-lines) of a specific profile. 
+The **Contour lines** settings are available in the context menu of the **Contour lines** option in the [Configure map](/osmand/map/vector-maps#contour-lines) of a specific profile. 
 
 
 {% data reusables.general.android-ios-switcher %}
@@ -324,17 +324,25 @@ The **Contour lines** settings are available in the context menu of the *Contour
 
 {% ios%}
 
+- **{% data variables.ios-values.shared_string_enabled %}** - a toggle to show, or hide the Contour lines on/from the map;
+- **{% data variables.display_starting_at_zoom_level %}** - the minimum zoom level at which Contour lines is expected to be viewable on the map;
+- **{%  data variables.ios-values.map_settings_color_scheme %}** - a choice of color options in which to view the Contour lines on the map;
+- **{%  data variables.ios-values.map_settings_line_width %}** - the width of the Contour lines displayed on the map;
+- **{%  data variables.ios-values.map_settings_line_density %}** - the density of the Contour lines displayed on the map. The higher the density, the slower the map might be rendered;
+- **{% data variables.ios-values.osmand_live_available_maps %}** - an offer to download a Contour lines package if none is still downloaded for the current geographical location displayed on the screen.
 
 ![Contour lines menu iOS](/assets/images/plugins/contour-lines/contour_lines_menu_ios.png) 
 
 {% endios%}
 
 {% android%}
-- "{% data variables.android-values.shared_string_menu %}" button - switch on/off the Terrain layer on the map.
-- {% data variables.android-values.show_from_zoom_level %} - select zoom level, from which contour lines will be displayed.
-- {% data variables.android-values.srtm_color_scheme %} - select color for contour lines.
-- {% data variables.android-values.rendering_attr_contourWidth_name %} - select width for contour lines.
-- {% data variables.android-values.rendering_attr_contourDensity_name %} - select density for contour lines on the map.
+
+- **{% data variables.android-values.shared_string_on %}** -  a toggle to show, or hide the Contour lines on/from the map;
+- **{% data variables.android-values.show_from_zoom_level%}** - the minimum zoom level at which Contour lines is expected to be viewable on the map;
+- **{% data variables.android-values.srtm_color_scheme %}** - a choice of color options in which to view the Contour lines on the map; 
+- **{% data variables.android-values.rendering_attr_contourWidth_name %}** - a choice of the width options to establish for the Contour lines; 
+- **{% data variables.android-values.rendering_attr_contourDensity_name %}** - a choice of the density options to establish for the Contour lines. The higher the density, the slower the map might be rendered;
+- **{% data variables.android-values.welmode_download_maps %}** - an offer to download a Contour lines package if none is still downloaded for the current geographical location displayed on the screen.
 
 ![Contour lines menu Android](/assets/images/plugins/contour-lines/contour_lines_menu_android.png)
 
