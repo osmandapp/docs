@@ -112,13 +112,18 @@ The versions - feet or meters - are displayed on the download popup, when the ["
 {% default %}
 
 To download a map of the Contour lines plugin for a specific area, do the following:
+
 1. Go to  [Download maps menu](/osmand/start-with/download-maps#download---main-menu).
+
 2. Find your country or region.
+
 3. Choose any of the packages: 
     - Contour lines, 
     - Hillshade, and/or 
     - Slope.
+
 4. For Contour lines, select Meters, or Feet.
+
 5. Download the files. 
 
 ![Contour lines download iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_download_ios.png) ![Contour lines download Android](/assets/images/plugins/contour-lines/contour_lines_plugin_download_android.png)
