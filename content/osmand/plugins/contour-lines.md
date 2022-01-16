@@ -36,11 +36,21 @@ The terrain information on the map can be represented by hill shading, with the 
 The elevation data on the map - between 70 degrees north and 70 degrees south - is produced on the basis of the measurements made by the Shuttle Radar Topography Mission (abbrev.as *SRTM*). It used the Advanced Spaceborne Thermal Emission and Reflection Radiometer (abbrev. as *ASTER*), which is a sensor onboard the Terra satellite and the flagship imaging instrument of NASA's Earth Observing System. ASTER represents a cooperative effort between NASA, Japan's Ministry of Economy, Trade and Industry (abbrev. as *METI*), and Japan Space Systems (also known as *J-spacesystems*).
 
 
-## Pre-requisites  
+## Prerequisites  
 
 Puchase of the Contour lines package is required to enable the plugin and start downloading Contour lines, and/or Hillshade, and/or Slope maps per region. 
 
 {% data reusables.general.android-ios-switcher%}
+
+{% default %}
+
+The maps of the Contour lines plugin are distributed through In-App Purchases, subsciptions, and an Android app purchase. For more details on available options per version, visit [Purchases](/osmand/purchases).  
+
+With any Contour lines purchases made, the plugin can be enabled, as displayed on the figures below. 
+
+![Contour lines plugin on iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_ios.png) ![Contour lines plugin on Android](/assets/images/plugins/contour-lines/contour_lines_plugin_android.png) 
+
+{% enddefault %}
 
 {% ios%}
 
@@ -66,29 +76,57 @@ In the **Android** version, to enable the plugin, tap Enable for **Contour lines
 
 ## Download maps
 
-There are three types of the elevation data packages for download per region: Contour lines, Hillshade and Slope. Most often all of them can be downloaded at the country level. There are also regions where only Contour lines are available, for example, the Sicily island and Italy as the entire country; as well as regions where Hillshade and Slope are available too, for example, Alberta and Canada. 
+There are three types of the elevation data packages for [download per region](osmand/start-with/download-maps.md): Contour lines, Hillshade and Slope. Most often all of them can be downloaded at the country level. And also, there are maps available per lower region level. 
 
-The Contour lines, Hillshade and Slope angle colors become viewable at a certain zoom level, which is established at the settings for the specific map type.
+### Maps at country and/or region levels 
 
-| Hillshade map only | Slope map only |
-| --- | --- |
-| ![Hillshade over Sicily](/assets/images/plugins/contour-lines/2_hillshade_only.png) | ![Slope over Sicily](/assets/images/plugins/contour-lines/3_slope_only.png)  |
+By combining the maps of both levels and different types, you can achieve an optimal configuration of the elevation data that suites your current needs. 
 
-|  | None of Contour lines maps | 
-| --- | --- |
-| If to view the map with none of the Contour lines plugin maps, it could be an entirely different view. For an optimal representation, the country level maps are combined with the region level maps. However, whether it should be all three, or any of the elevation data maps (i.e. Contour lines, and/or Hillshade, and/or Slope) depends on the current needs. As for the region level, it may be enough to download only the required maps at the level of a specific region. However, as there might be no Slope maps at the region level, then to see the slope angle color and contour lines on the map, for example, of Sicily, two downloads will be needed: the Contour lines map at the region level, and the Slope map at the country level, as for Italy the Slope map exists only at the country level. | ![None of Contour lines over Sicily](/assets/images/plugins/contour-lines/1_none_of_contour_maps.png)  |
- 
+For example, you can combine the Contour lines region map of the Sicily island with the Slope map of Italy as the entire country map. Another example is the maps of Canada, where all three types of maps are available at the region level. And to display both the Slope and Contour lines data for Alberta, it is enough to download respectively two maps at the region level, i.g. for Alberta only.  
 
-| Contour lines combined with Hillshade | Contour lines combined with Slope | 
-| --- | --- |
-|![Contour lines combined with Hillshade](/assets/images/plugins/contour-lines/4_hillshade_n_contour.png) | ![Contour lines combined with Slope](/assets/images/plugins/contour-lines/5_slope_n_contour.png) | 
-| If to use the legend of colors to determine the angle of the slope, it is possible to assume the steepness of the slope, points of equal height, etc. Hillshade is useful for making an assessment of curvature, especially for a mountain ridge. However, only one representation: Hillshade or Slope, can be seen at once, and it is possible to switch between the maps, to view either shades, or slope angle colors.   | ![Legend of slope angle colors](/assets/images/plugins/contour-lines/Slope_legend.png) |
+![Hillshade over Sicily](/assets/images/plugins/contour-lines/2_hillshade_only.png) ![Slope over Sicily](/assets/images/plugins/contour-lines/3_slope_only.png)
 
-To download a map of the Contour lines plugin for a specific area, go to  [Download maps menu](/osmand/start-with/download-maps#download---main-menu), find your country or region, choose any of the packages: Contour lines, Hillshades, and/or Slopes; and download the files. 
+> **NOTE**: The Contour lines, Hillshade and Slope angle colors become viewable at a certain zoom level, which is established at the settings for the specific map type.
+
+### Combining types of maps
+
+When downloading different types of the maps: Contour lines, Hillshade, and/or Slope, it is possible to combine them.
+
+For example, to make an assessment of curvature, especially for a mountain ridge, the combination of Contour lines with Hillshade will be an obvious choice for download. And to assess the steepness of the slope, points of equal height, you can download the Slope and Contour lines maps.
+
+![Contour lines combined with Hillshade](/assets/images/plugins/contour-lines/4_hillshade_n_contour.png) ![Contour lines combined with Slope](/assets/images/plugins/contour-lines/5_slope_n_contour.png) 
+
+### Choose Meters or Feet
+
+The contour interval can be displayed in feet, or meters. It is important to decide what units it is convenient for you to see Contour lines in, so that to download the respective version of the Contour lines map. The units are not interchangeable, and in case if feet are needed to be switched into meters, or vice versa, the previous version of the Contour lines map has to be removed, so that anew to download the other version. 
+
+The versions - feet or meters - are displayed on the download popup, when the ["Contour lines"](/osmand/plugins/contour-lines#downloading-files-and-enable-on-the-map) option is clicked in the country, or region map list. It allows you to choose what Contour lines file is needed: in meters, or in feet. 
+
+![Contour lines download dialogue Android](/assets/images/plugins/contour-lines/contour_lines_plugin_download_dialogue_android.png)
 
 {% data reusables.general.android-ios-switcher%}
 
+{% default %}
+
+To download a map of the Contour lines plugin for a specific area, do the following:
+
+1. Go to  [Download maps menu](/osmand/start-with/download-maps#download---main-menu).
+
+2. Find your country or region.
+3. Choose any of the packages: 
+    - Contour lines, 
+    - Hillshade, and/or 
+    - Slopes.
+4. For Contour lines, select Meters, or Feet.
+5. Download the files. 
+
+![Contour lines download iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_download_ios.png) ![Contour lines download Android](/assets/images/plugins/contour-lines/contour_lines_plugin_download_android.png)
+
+{% enddefault %}
+
 {% ios%}
+
+In the **iOS** version, for the available packages of maps to download, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} and select the required country, and/or region.
 
 ![Contour lines download iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_download_ios.png)
 
@@ -96,19 +134,11 @@ To download a map of the Contour lines plugin for a specific area, go to  [Downl
 
 {% android%}
 
+In the **Android** version, for the available packages of maps to download, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %} and select the required country, and/or region. 
+
 ![Contour lines download Android](/assets/images/plugins/contour-lines/contour_lines_plugin_download_android.png)
 
 {% endandroid%}
-
-
-
-### Choose Meters or Feet
-
-The contour interval can be displayed in feet, or meters. It is important to decide on what units are convenient for you, so that to download the respective version of the Contour lines map. It is not interchangeable, and in case feet are needed to be switched into meters, or vice versa, the previous version of the Contour lines map has to be removed, so that anew to download the required version. 
-
-The versions - feet or meters - are displayed on the download popup, when the ["Contour lines"](/osmand/plugins/contour-lines#downloading-files-and-enable-on-the-map) option is clicked in the country, or region map list. It allows you to choose what Contour lines file is needed: in meters, or in feet. 
-
-![Contour lines download dialogue Android](/assets/images/plugins/contour-lines/contour_lines_plugin_download_dialogue_android.png)
 
 
 ## Toggle maps on per profile
