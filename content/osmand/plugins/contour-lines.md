@@ -309,7 +309,7 @@ The **Slope** settings are available in the context menu of the **Terrain** opti
 
 ## Configure Contour lines
 
-Contour lines allows you to research in which direction and how much the surface inclines by outlining the contour lines closely for steep ground and more curved when going upward. There are some aspects of the Contour lines map available for configuration: the minimal zoom level where the contour lines will become visible, color scheme, width and density of lines. 
+Contour lines allows you to research in which direction and how much the surface inclines by analyzing the contour lines, which are placed closely for steep ground and more curved when going upward. There are some aspects of the Contour lines map available for configuration: the minimal zoom level where the contour lines will become visible, color scheme, width and density of lines. 
 
 The **Contour lines** settings are available in the context menu of the **Contour lines** option in the [Configure map](/osmand/map/vector-maps#contour-lines) of a specific profile. 
 
