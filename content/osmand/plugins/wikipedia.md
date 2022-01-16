@@ -54,31 +54,34 @@ The **Android** version requires one of the [paid services](/osmand/purchases/an
 
 The Wikipedia data is available per geographical region. If it is downloaded for one region, and not downloaded for another, in the first case it would be possible to work with the Wikipedia information when browsing across the region on the map, and in the other case, the region will lack any Wikipedia information. Being downloaded, the Wikipedia data becomes available in general, as well as offline. 
 
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
 To download the Wikipedia data for a region, go to the available packages for [download in the main menu](/osmand/start-with/download-maps#download---main-menu), find the needed region and open it. The Wikipedia data will be among other packages.
 
-{% data reusables.general.android-ios-switcher %}
+![Download Wikipedia in iOS](/assets/images/plugins/wikipedia/download_wikipedia_ios2.png)
+
+{% enddefault %}
+
 
 {% ios%}
 
-In the **iOS** version, the Wikipedia data to download per region can be opened, as follows: 
+In the **iOS** version, the Wikipedia data to download per region can be opened, as follows: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} 
 
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} 
+![Download Wikipedia in iOS](/assets/images/plugins/wikipedia/download_wikipedia_ios2.png) ![Download Wikipedia in Android](/assets/images/plugins/wikipedia/download_wikipedia_android2.png)
 
-In the **iOS** version, to view what data is already downloaded, go to: 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %}
+In the **iOS** version, to view what data is already downloaded, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %}
 
 {% endios%}
 
 {% android %}
 
-In the **Android** version, the Wikipedia data to download per region can be opened, as follows:
+In the **Android** version, the Wikipedia data to download per region can be opened, as follows: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
 
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
+![Download Wikipedia in Android](/assets/images/plugins/wikipedia/download_wikipedia_android2.png)
 
-In the **Android** version, to view what data is already downloaded, go to:
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_wikipedia_maps %}
+In the **Android** version, to view what data is already downloaded, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_wikipedia_maps %}
 
 {% endandroid %}
 
@@ -88,13 +91,21 @@ In the **Android** version, to view what data is already downloaded, go to:
 
 ## Show/Hide Wikipedia POI 
 
-With the Wikipedia data downloaded for the required regions, it is possible to manage the visibility of this data on the map. The visibility is managed via the [Wikipedia POI](/osmand/map/point-layers-on-map#-wikipedia), which can be shown, or hidden for all downloaded regions per specific [profile](/osmand/personal/profiles), such as: a profile for driving a car, a profile for cycling, another one to show the Public Transport, etc. Thus, to show, or hide the Wikipedia POI, select the profile first, and then toggle the **Wikipedia** option on/off.
+With the Wikipedia data downloaded for the required regions, it is possible to manage the visibility of this data on the map. The visibility is managed via the [Wikipedia POI](/osmand/map/point-layers-on-map#-wikipedia), which can be shown, or hidden for all downloaded regions per specific [profile](/osmand/personal/profiles), such as: a profile for driving a car, a profile for cycling, another one to show the Public Transport, etc. 
 
 {% data reusables.general.android-ios-switcher %}
 
+{% default %}
+
+To show, or hide the Wikipedia POI, select the profile first, and then toggle the **Wikipedia** option on/off.
+
+![Wikipedia POI on iOS](/assets/images/map/map-wikipedia-on-map_ios.png) ![Wikipedia POI on Android](/assets/images/map/map-wikipedia-on-map.png)
+
+{% enddefault %}
+
 {% ios%}
 
-For the **iOS** version, to show/hide the Wikipedia POI, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → <*specific Profile*> →  {% data variables.ios-values.map_settings_show %} → {% data variables.ios-values.res_wiki %} 
+In the **iOS** version, to show/hide the Wikipedia POI, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → <*specific Profile*> →  {% data variables.ios-values.map_settings_show %} → {% data variables.ios-values.res_wiki %} 
 
 ![Wikipedia POI on iOS](/assets/images/map/map-wikipedia-on-map_ios.png) 
 
@@ -102,7 +113,7 @@ For the **iOS** version, to show/hide the Wikipedia POI, go to: {% data variable
 
 {% android %}
 
-For the **Android** version, to show/hide the Wikipedia POI, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → <*specific Profile*> → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.shared_string_wikipedia %}
+In the **Android** version, to show/hide the Wikipedia POI, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → <*specific Profile*> → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.shared_string_wikipedia %}
 
 ![Wikipedia POI on Android](/assets/images/map/map-wikipedia-on-map.png)
 
