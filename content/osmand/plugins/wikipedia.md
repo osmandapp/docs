@@ -122,11 +122,26 @@ With the Wikipedia data downloaded, regardless of the visibility mode of the [Wi
 
 {% data reusables.general.android-ios-switcher %}
 
+{% default %}
+
+By tapping Search, an extra pane pops up and allows you to search everything, and/or by the specific category. In the first case, the search results will show the Wikipedia POI with associated Wikipedia articles among other types of the information. In case of the search by the Wikipedia category, the search results will show only the Wikipedia information sorted by the nearest location in relation to the area of the map currently viewable on the screen. 
+
+![Wikipedia search on iOS](/assets/images/map/map-wikipedia-search_ios.png) ![Wikipedia search on Android](/assets/images/map/map-wikipedia-search.png) 
+
+{% enddefault %}
+
+
 {% ios%}
 
 For the **iOS** version, tap the Search icon in the left-hand top corner of the screen. 
 
 ![Wikipedia search on iOS](/assets/images/map/map-wikipedia-search_ios.png)
+
+To search by the Wikipedia category, select:
+
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.ios_button_seq %} {% data variables.ios-values.shared_string_search %} → {% data variables.ios-values.categories %} → {% data variables.ios-values.res_wiki %}
+
+![Wikipedia category on iOS](/assets/images/map/map-wikipedia-search-on-map_ios.png)
 
 {% endios%}
 
@@ -138,24 +153,6 @@ For the **Android** version, you can use:
 - the Search option in the menu.
 
 ![Wikipedia search on Android](/assets/images/map/map-wikipedia-search.png) 
-
-{% endandroid %}
-
-By tapping Search, an extra pane pops up and allows you to search everything, and/or by the specific category. In the first case, the search results will show the Wikipedia POI with associated Wikipedia articles among other types of the information. In case of the search by the Wikipedia category, the search results will show only the Wikipedia information sorted by the nearest location in relation to the area of the map currently viewable on the screen. 
-
-{% data reusables.general.android-ios-switcher %}
-
-{% ios%}
-
-To search by the Wikipedia category, select:
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.ios_button_seq %} {% data variables.ios-values.shared_string_search %} → {% data variables.ios-values.categories %} → {% data variables.ios-values.res_wiki %}
-
-![Wikipedia category on iOS](/assets/images/map/map-wikipedia-search-on-map_ios.png)
-
-{% endios%}
-
-{% android %}
 
 To search by the Wikipedia category, select:
 
@@ -176,10 +173,16 @@ In case when there is a choice of languages to display the Wikipedia data in, yo
 ![French Wikipedia POI in English](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng1.png) 
 
 
-To set the preferred language, so that to view the Wikipedia data in, go to the required profile, click the triple dots beside the **Wikipedia** option, and in the opened list, deselect **All language** and check a specific option. In case of some languages selected, the displayed text will be in any of the languages. 
-
 
 {% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+To set the preferred language, so that to view the Wikipedia data in, go to the required profile, click the triple dots beside the **Wikipedia** option, and in the opened list, deselect **All language** and check a specific option. In case of some languages selected, the displayed text will be in any of the languages. 
+
+![Setting a preferred language on iOS](/assets/images/map/map-wikipedia-language-2-ios.png) ![Setting a preferred language on Android](/assets/images/plugins/wikipedia/Android-wiki-languages.png)
+
+{% enddefault %}
 
 {% ios%}
 
@@ -201,6 +204,8 @@ For the **Android** version, to set the preferred language for the Wikipedia dat
 ![Setting a preferred language on Android](/assets/images/plugins/wikipedia/Android-wiki-languages.png) 
 
 {% endandroid %}
+
+### Switch languages inside article
 
 In case if some translation options are available, it is possible to switch the language when viewing a specific Wikipedia article. A language icon at the right-hand top area of the article will offer the options for selection. 
 
