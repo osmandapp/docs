@@ -218,30 +218,66 @@ In the **Android** version, to show one of the **Terrain** maps for the selected
 
 
 
+## Configure Hillshade
 
+Hillshade allows you to research the relief by highlighting it with the hypothetical  illumination to simulate the cast of shadow, and thus to reveal the curvature, which is normally hidden, or unclear, for example, due to lots of vegetation. There are some aspects of the Hillshade map available for configuration: transparency of the shadow and the zoom level at which the Hillshade map is viewable. 
 
-## Terrain settings
+{% data reusables.general.android-ios-switcher %}
 
-In the  Terrain  menu you can change Hillshade or Slope for the visible layer. Here you can set Transparency and Zoom levels for the layer.
-
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_terrain %}
-
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.shared_string_terrain %}
-
-### Hillshade
+{% default %}
 
 ![Terrain menu Android](/assets/images/plugins/contour-lines/terrain_menu_android.png) ![Terrain menu iOS](/assets/images/plugins/contour-lines/terrain_menu_ios.png) 
 
-- "{% data variables.android-values.shared_string_menu %}" button - switch on/off the Terrain layer on the map.
-- "{% data variables.android-values.shared_string_hillshade %}" and "{% data variables.android-values.shared_string_slope %}" button - switcher between slopes and hillshades layers.
-- {% data variables.android-values.shared_string_transparency %} - choosing trasparence for the terrain layer.
-- {% data variables.android-values.shared_string_zoom_levels %} - setting zoom levels for the terrain layer.
-- {% data variables.android-values.welmode_download_maps %} - {% data variables.android-values.hillshade_download_description %}.
+{% enddefault %}
 
-### Slope
+{% ios%}
+
+- **{% data variables.ios-values.shared_string_enabled %}** - a toggle to show, or hide the terrain data on/from the map;
+- **{%  data variables.ios-values.map_settings_hillshade %}** / **{% data variables.ios-values.gpx_slope %}** - a choice to display one of the terrain data: either Hillshade, or Slope;
+- **{% data variables.ios-values.map_settings_layer_transparency %}** - percentage bar to determine the preferable level of the transparency for the displayed shadow; 
+- **{% data variables.ios-values.res_zoom_levels %}** - tap the minimum and maximum options, to determine:
+    - the minimum zoom level at which Hillshade is expected to be viewable on the map; and 
+    - the maximum zoom level at which itis expected to disappear;
+- **{ data variables.ios-values.osmand_live_available_maps }** - an offer to download a Hillshade map if none is still downloaded for the current geographical location displayed on the screen. 
+
+![Terrain menu iOS](/assets/images/plugins/contour-lines/terrain_menu_ios.png) 
+
+{% endios%}
+
+{% android%}
+
+- **{% data variables.android-values.shared_string_menu %}** -  a toggle to show, or hide the terrain data on/from the map;
+- **{% data variables.android-values.shared_string_hillshade %}** / **{% data variables.android-values.shared_string_slope %}** - a choice to display one of the terrain data: either Hillshade, or Slope;
+- **{% data variables.android-values.shared_string_transparency %}** - percentage bar to determine the preferable level of the transparency for the displayed shadow; 
+- **{% data variables.android-values.shared_string_zoom_levels %}** - set the left and right slider options, to determine:
+    - the minimum zoom level at which Hillshade is expected to be viewable on the map; and 
+    - the maximum zoom level at which itis expected to disappear;
+- **{% data variables.android-values.welmode_download_maps %}** - {% data variables.android-values.hillshade_download_description %}.
+
+![Terrain menu Android](/assets/images/plugins/contour-lines/terrain_menu_android.png) 
+
+{% endandroid%}
+
+
+
+## Configure Slope
+
+
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
 
 ![Terrain menu slopes Android](/assets/images/plugins/contour-lines/terrain_menu_slopes_android.png) ![Terrain menu slopes iOS](/assets/images/plugins/contour-lines/terrain_menu_slopes_ios.png) 
 
+{% enddefault %}
+
+{% ios%}
+
+
+{% endios%}
+
+{% android%}
 - "{% data variables.android-values.shared_string_menu %}" button - switch on/off the Terrain layer on the map.
 - "{% data variables.android-values.shared_string_hillshade %}" and "{% data variables.android-values.shared_string_slope %}" button - switcher between slopes and hillshades layers.
 - {% data variables.android-values.shared_string_transparency %} - choosing trasparence for the terrain layer.
@@ -249,7 +285,10 @@ In the  Terrain  menu you can change Hillshade or Slope for the visible layer. H
 - {% data variables.android-values.shared_string_legend %} - legend of slopes, read more [here](https://en.m.wikipedia.org/wiki/Grade_(slope)).
 - {% data variables.android-values.welmode_download_maps %} - {% data variables.android-values.slope_download_description %}.
 
-## Contour lines settings
+{% endandroid%} 
+
+
+## Configure Contour lines
 
 For Contour lines you can set the minimal zoom level where the contour lines will become visible, color scheme, width and density for lines.
 [Configure map](/osmand/map/vector-maps#contour-lines).
@@ -258,17 +297,28 @@ For Contour lines you can set the minimal zoom level where the contour lines wil
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.product_title_srtm %}
 
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
 ![Contour lines menu Android](/assets/images/plugins/contour-lines/contour_lines_menu_android.png) ![Contour lines menu iOS](/assets/images/plugins/contour-lines/contour_lines_menu_ios.png) 
 
+{% enddefault %}
 
+{% ios%}
+
+
+{% endios%}
+
+{% android%}
 - "{% data variables.android-values.shared_string_menu %}" button - switch on/off the Terrain layer on the map.
 - {% data variables.android-values.show_from_zoom_level %} - select zoom level, from which contour lines will be displayed.
 - {% data variables.android-values.srtm_color_scheme %} - select color for contour lines.
 - {% data variables.android-values.rendering_attr_contourWidth_name %} - select width for contour lines.
 - {% data variables.android-values.rendering_attr_contourDensity_name %} - select density for contour lines on the map.
 
-
-
+{% endandroid%} 
 
 
 >**NOTE**: Then zoom your desired area until you see the lines and zoom even more to check the height of a specific spot (the number on the line).
