@@ -126,53 +126,51 @@ With the Wikipedia data downloaded, regardless of the visibility mode of the [Wi
 
 By tapping Search, an extra pane pops up and allows you to search everything, and/or by the specific category. In the first case, the search results will show the Wikipedia POI with associated Wikipedia articles among other types of the information. In case of the search by the Wikipedia category, the search results will show only the Wikipedia information sorted by the nearest location in relation to the area of the map currently viewable on the screen. 
 
-![Wikipedia search on iOS](/assets/images/map/map-wikipedia-search_ios.png) ![Wikipedia search on Android](/assets/images/map/map-wikipedia-search.png) 
+![Wikipedia category on iOS](/assets/images/map/map-wikipedia-search-on-map_ios.png) ![Wikipedia category on Android](/assets/images/map/map-wikipedia-search-on-map.png) 
 
 {% enddefault %}
 
 
 {% ios%}
 
-For the **iOS** version, tap the Search icon in the left-hand top corner of the screen. 
+In the **iOS** version, tap the Search icon in the left-hand top corner of the screen. 
 
 ![Wikipedia search on iOS](/assets/images/map/map-wikipedia-search_ios.png)
 
-To search by the Wikipedia category, select:
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.ios_button_seq %} {% data variables.ios-values.shared_string_search %} → {% data variables.ios-values.categories %} → {% data variables.ios-values.res_wiki %}
+To search by the Wikipedia category, select: {% data variables.ios-values.shared_string_search %} → {% data variables.ios-values.categories %} → {% data variables.ios-values.res_wiki %}
 
 ![Wikipedia category on iOS](/assets/images/map/map-wikipedia-search-on-map_ios.png)
+
+If needed, tap the **Show Wikipedia on the map** option at the top of the search panel, and the search results retrieved by the Wikipedia category will show up on the map. 
 
 {% endios%}
 
 {% android %}
 
-For the **Android** version, you can use:
+In the **Android** version, you can use:
 
 - the Search icon in the left-hand top corner of the screen, and/or
 - the Search option in the menu.
 
 ![Wikipedia search on Android](/assets/images/map/map-wikipedia-search.png) 
 
-To search by the Wikipedia category, select:
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.android_button_seq %} {% data variables.android-values.map_widget_search %} → {% data variables.android-values.search_categories %} → {% data variables.android-values.shared_string_wikipedia %}
+To search by the Wikipedia category, select: {% data variables.android-values.map_widget_search %} → {% data variables.android-values.search_categories %} → {% data variables.android-values.shared_string_wikipedia %}
 
 ![Wikipedia category on Android](/assets/images/map/map-wikipedia-search-on-map.png) 
 
-{% endandroid %}
-
 If needed, tap the **Show Wikipedia on the map** option at the top of the search panel, and the search results retrieved by the Wikipedia category will show up on the map. 
 
+{% endandroid %}
 
 
-## Set language for Wikipedia
+
+## Wikipedia languages 
 
 In case when there is a choice of languages to display the Wikipedia data in, you can set the language you prefer to read the text in. The figure below shows an example of the Wikipedia POI and the article, which are written in French by default, and displayed in English, thanks to the availability of other translations for this Wikipedia data and the English language established for the Wikipedia in the Profile settings. 
 
 ![French Wikipedia POI in English](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng1.png) 
 
-
+### Set preferred language
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -186,9 +184,7 @@ To set the preferred language, so that to view the Wikipedia data in, go to the 
 
 {% ios%}
 
-For the **iOS** version, to set the preferred language for the Wikipedia data, go to: 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → <*specific Profile*> → {% data variables.ios-values.map_settings_show %} → {% data variables.ois-values.res_wiki %} → {% data variables.ios-values.language %} → {% data variables.ios-values.preferred_languages %}
+In the **iOS** version, to set the preferred language for the Wikipedia data, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → <*specific Profile*> → {% data variables.ios-values.map_settings_show %} → {% data variables.ois-values.res_wiki %} → {% data variables.ios-values.language %} → {% data variables.ios-values.preferred_languages %}
 
 
 ![Setting a preferred language on iOS](/assets/images/map/map-wikipedia-language-2-ios.png) 
@@ -197,9 +193,7 @@ For the **iOS** version, to set the preferred language for the Wikipedia data, g
 
 {% android %}
 
-For the **Android** version, to set the preferred language for the Wikipedia data, go to: 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → <*specific Profile*> → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.shared_string_wikipedia %} → {% data variables.android-values.shared_string_language %}
+In the **Android** version, to set the preferred language for the Wikipedia data, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → <*specific Profile*> → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.shared_string_wikipedia %} → {% data variables.android-values.shared_string_language %}
 
 ![Setting a preferred language on Android](/assets/images/plugins/wikipedia/Android-wiki-languages.png) 
 
