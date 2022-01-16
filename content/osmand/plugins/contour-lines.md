@@ -222,6 +222,8 @@ In the **Android** version, to show one of the **Terrain** maps for the selected
 
 Hillshade allows you to research the relief by highlighting it with the hypothetical  illumination to simulate the cast of shadow, and thus to reveal the curvature, which is normally hidden, or unclear, for example, due to lots of vegetation. There are some aspects of the Hillshade map available for configuration: transparency of the shadow, the zoom level at which the Hillshade map is expected to be visible. 
 
+The **Hillshade** settings are available in the context menu of the **Terrain** option in the **Configure map** of a specific profile. 
+
 {% data reusables.general.android-ios-switcher %}
 
 {% default %}
@@ -238,7 +240,7 @@ Hillshade allows you to research the relief by highlighting it with the hypothet
 - **{% data variables.ios-values.res_zoom_levels %}** - the minimum and maximum options to tap, to select:
     - the minimum zoom level at which Hillshade is expected to be viewable on the map; and 
     - the maximum zoom level at which it is expected to disappear;
-- **{ data variables.ios-values.osmand_live_available_maps }** - an offer to download a Hillshade map if none is still downloaded for the current geographical location displayed on the screen. 
+- **{% data variables.ios-values.osmand_live_available_maps %}** - an offer to download a Hillshade map if none is still downloaded for the current geographical location displayed on the screen. 
 
 ![Terrain menu iOS](/assets/images/plugins/contour-lines/terrain_menu_ios.png) 
 
@@ -262,7 +264,9 @@ Hillshade allows you to research the relief by highlighting it with the hypothet
 
 ## Configure Slope
 
+Slope allows you to research the steepness, or incline of the slope expressed as an angle in the number of degrees of deviation from flat, which corresponds to the vertical distance divided by the horizontal distance. There are some aspects of the Slope map available for configuration: transparency of the colors used to show the angle, the zoom level at which the Slope map is expected to be visible.
 
+The **Slope** settings are available in the context menu of the **Terrain** option in the **Configure map** of a specific profile. 
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -274,16 +278,31 @@ Hillshade allows you to research the relief by highlighting it with the hypothet
 
 {% ios%}
 
+- **{% data variables.ios-values.shared_string_enabled %}** - a toggle to show, or hide the terrain data on/from the map;
+- **{%  data variables.ios-values.map_settings_hillshade %}** / **{% data variables.ios-values.gpx_slope %}** - a choice to display one of the terrain data types: either Hillshade, or Slope;
+- **{% data variables.ios-values.map_settings_layer_transparency %}** - the percentage bar to determine the preferable level of the transparency for the colors used to show the angle; 
+- **{% data variables.ios-values.res_zoom_levels %}** - the minimum and maximum options to tap, to select:
+    - the minimum zoom level at which Slope angle colors are expected to be viewable on the map; and 
+    - the maximum zoom level at which the colors are expected to disappear;
+- **{% data variables.ios-values.map_settings_legend %}** - the legend of colors to show the angle range at which the steepness of the slope can differ. For more details, refer to [Wikipedia](https://en.m.wikipedia.org/wiki/Grade_(slope))
+- **{% data variables.ios-values.osmand_live_available_maps %}** - an offer to download a Slope map if none is still downloaded for the current geographical location displayed on the screen. 
+
+![Terrain menu slopes iOS](/assets/images/plugins/contour-lines/terrain_menu_slopes_ios.png) 
 
 {% endios%}
 
 {% android%}
-- "{% data variables.android-values.shared_string_menu %}" button - switch on/off the Terrain layer on the map.
-- "{% data variables.android-values.shared_string_hillshade %}" and "{% data variables.android-values.shared_string_slope %}" button - switcher between slopes and hillshades layers.
-- {% data variables.android-values.shared_string_transparency %} - choosing trasparence for the terrain layer.
-- {% data variables.android-values.shared_string_zoom_levels %} - setting zoom levels for the terrain layer.
-- {% data variables.android-values.shared_string_legend %} - legend of slopes, read more [here](https://en.m.wikipedia.org/wiki/Grade_(slope)).
-- {% data variables.android-values.welmode_download_maps %} - {% data variables.android-values.slope_download_description %}.
+
+- **{% data variables.android-values.shared_string_terrain %}** -  a toggle to show, or hide the terrain data on/from the map;
+- **{% data variables.android-values.shared_string_hillshade %}** / **{% data variables.android-values.shared_string_slope %}** - a choice to display one of the terrain data types: either Hillshade, or Slope;
+- **{% data variables.android-values.shared_string_transparency %}** - the percentage bar to determine the preferable level of the transparency for the colors used to show the angle; 
+- **{% data variables.android-values.shared_string_zoom_levels %}** - the minimum and maximum options to tap, to select:
+    - the minimum zoom level at which Slope angle colors are expected to be viewable on the map; and 
+    - the maximum zoom level at which the colors are expected to disappear;
+- **{% data variables.android-values.shared_string_legend %}** - the legend of colors to show the angle range at which the steepness of the slope can differ. For more details, refer to [Wikipedia](https://en.m.wikipedia.org/wiki/Grade_(slope))
+- **{% data variables.android-values.welmode_download_maps %}** - an offer to download a Slope map if none is still downloaded for the current geographical location displayed on the screen.
+
+![Terrain menu slopes Android](/assets/images/plugins/contour-lines/terrain_menu_slopes_android.png)
 
 {% endandroid%} 
 
