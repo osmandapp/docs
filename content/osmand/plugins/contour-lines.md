@@ -309,12 +309,9 @@ The **Slope** settings are available in the context menu of the **Terrain** opti
 
 ## Configure Contour lines
 
-For Contour lines you can set the minimal zoom level where the contour lines will become visible, color scheme, width and density for lines.
-[Configure map](/osmand/map/vector-maps#contour-lines).
+Contour lines allows you to research in which direction and how much the surface inclines by outlining the contour lines closely for steep ground and more curved when going upward. There are some aspects of the Contour lines map available for configuration: the minimal zoom level where the contour lines will become visible, color scheme, width and density of lines. 
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.index_srtm_ele %}
-
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.product_title_srtm %}
+The **Contour lines** settings are available in the context menu of the *Contour lines** option in the [**Configure map**](/osmand/map/vector-maps#contour-lines) of a specific profile. 
 
 
 {% data reusables.general.android-ios-switcher %}
@@ -328,6 +325,8 @@ For Contour lines you can set the minimal zoom level where the contour lines wil
 {% ios%}
 
 
+![Contour lines menu iOS](/assets/images/plugins/contour-lines/contour_lines_menu_ios.png) 
+
 {% endios%}
 
 {% android%}
@@ -337,10 +336,9 @@ For Contour lines you can set the minimal zoom level where the contour lines wil
 - {% data variables.android-values.rendering_attr_contourWidth_name %} - select width for contour lines.
 - {% data variables.android-values.rendering_attr_contourDensity_name %} - select density for contour lines on the map.
 
+![Contour lines menu Android](/assets/images/plugins/contour-lines/contour_lines_menu_android.png)
+
 {% endandroid%} 
-
-
->**NOTE**: Then zoom your desired area until you see the lines and zoom even more to check the height of a specific spot (the number on the line).
 
 
 Please see full video guide below:
