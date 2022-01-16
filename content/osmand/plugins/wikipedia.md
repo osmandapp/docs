@@ -30,21 +30,33 @@ The short summary is provided via the Wikipedia POI (abbrev. from 'point of inte
 
 
 
-## Pre-requisites 
+## Prerequisites 
 
-Depending on the mobile application you are using, whether it is the Android version, or the iOS version, a [paid subscription](/osmand/purchases) might be required, to allow the Wikipedia plugin to be enabled among other plugins. With the purchase done, Wikipedia Offline can be enabled in the Plugins section of the menu, and then it is possible to download the Wikipedia data for the needed geographical regions.
+Depending on the mobile application you are using, whether it is the Android version, or the iOS version, a [paid subscription](/osmand/purchases) might be required, to allow the Wikipedia plugin to be enabled among other plugins. 
 
 {% data reusables.general.android-ios-switcher %}
+
+{% default%}
+
+With the purchase done, Wikipedia Offline can be enabled in the Plugins section of the menu, and then it is possible to download the Wikipedia data for the needed geographical regions.
+
+![Wikipedia plugin in iOS](/assets/images/plugins/wikipedia/Wikipedia_plugin_ios2.png) ![Wikipedia plugin in Android](/assets/images/plugins/wikipedia/Wikipedia_plugin_android2.png)
+
+{% enddefault %}
 
 {% ios%}
 
 The **iOS** version provides the Wikipedia plugin by default. To enable the plugin, turn on the **Wikipedia** option in the following menu of the app: {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_wiki %}
+
+![Wikipedia plugin in iOS](/assets/images/plugins/wikipedia/Wikipedia_plugin_ios2.png)
 
 {% endios%}
 
 {% android %}
 
 The **Android** version requires one of the [paid services](/osmand/purchases/android#free-and-paid-features): in-app purchases, or a subscription. Having made a purchase, to enable the Wikipedia plugin, turn on the **Wikipedia** option in the Plugins section of the main menu.
+
+![Wikipedia plugin in Android](/assets/images/plugins/wikipedia/Wikipedia_plugin_android2.png)
 
 {% endandroid %}
 
@@ -58,30 +70,26 @@ The Wikipedia data is available per geographical region. If it is downloaded for
 
 {% default %}
 
-To download the Wikipedia data for a region, go to the available packages for [download in the main menu](/osmand/start-with/download-maps#download---main-menu), find the needed region and open it. The Wikipedia data will be among other packages.
+To download the Wikipedia data for a region, go to the [available packages for download in the main menu](/osmand/start-with/download-maps#download---main-menu), find the needed region and open it. The Wikipedia data will be among other packages.
 
-![Download Wikipedia in iOS](/assets/images/plugins/wikipedia/download_wikipedia_ios2.png)
+![Download Wikipedia in iOS](/assets/images/plugins/wikipedia/download_wikipedia_ios2.png) ![Download Wikipedia in Android](/assets/images/plugins/wikipedia/download_wikipedia_android2.png)
 
 {% enddefault %}
 
 
 {% ios%}
 
-In the **iOS** version, the Wikipedia data to download per region can be opened, as follows: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} 
+In the **iOS** version, the Wikipedia data to download per region can be opened, as follows: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} and select the required region. Once the region is opened, the Wikipedia data will be among other packages. To view what data is already downloaded, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %}
 
-![Download Wikipedia in iOS](/assets/images/plugins/wikipedia/download_wikipedia_ios2.png) ![Download Wikipedia in Android](/assets/images/plugins/wikipedia/download_wikipedia_android2.png)
-
-In the **iOS** version, to view what data is already downloaded, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.download_tab_local %}
+![Download Wikipedia in iOS](/assets/images/plugins/wikipedia/download_wikipedia_ios2.png) 
 
 {% endios%}
 
 {% android %}
 
-In the **Android** version, the Wikipedia data to download per region can be opened, as follows: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
+In the **Android** version, the Wikipedia data to download per region can be opened, as follows: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %} and select the required region. Once the region is opened, the Wikipedia data will be among other packages. To view what data is already downloaded, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_wikipedia_maps %}
 
 ![Download Wikipedia in Android](/assets/images/plugins/wikipedia/download_wikipedia_android2.png)
-
-In the **Android** version, to view what data is already downloaded, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_wikipedia_maps %}
 
 {% endandroid %}
 
