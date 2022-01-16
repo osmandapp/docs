@@ -40,6 +40,8 @@ The elevation data on the map - between 70 degrees north and 70 degrees south - 
 
 Puchase of the Contour lines package is required to enable the plugin and start downloading Contour lines, and/or Hillshade, and/or Slope maps per region. 
 
+{% data reusables.general.android-ios-switcher %}
+
 {% default %}
 
 The maps of the Contour lines plugin are distributed through In-App Purchases, subsciptions, and an Android app purchase. For more details on available options per version, visit [Purchases](/osmand/purchases).  
@@ -76,7 +78,7 @@ In the **Android** version, to enable the plugin, tap Enable for **Contour lines
 
 There are three types of the elevation data packages for [download per region](osmand/start-with/download-maps.md): Contour lines, Hillshade and Slope. Most often all of them can be downloaded at the country level. And also, there are maps available per lower region level. 
 
-### Consider country and/or region levels 
+### Consider country/region levels 
 
 By combining the maps of both levels and different types, you can achieve an optimal configuration of the elevation data that suites your current needs. 
 
@@ -94,7 +96,7 @@ For example, to make an assessment of curvature, especially for a mountain ridge
 
 ![Contour lines combined with Hillshade](/assets/images/plugins/contour-lines/4_hillshade_n_contour.png) ![Contour lines combined with Slope](/assets/images/plugins/contour-lines/5_slope_n_contour.png) 
 
->**NOTE**: use the legend of colors for the angle of deviation from flat to assess the slope steepness. It is available in the settings of the Slopeamp. ![Slope color legend](/assets/images/plugins/contour-lines/Slope_legend.png)
+>**NOTE**: use the legend of colors for the angle of deviation from flat to assess the slope steepness. It is available in the settings of the Slope map. ![Slope color legend](/assets/images/plugins/contour-lines/Slope_legend.png)
 
 ### Choose Meters or Feet
 
@@ -103,6 +105,9 @@ The contour interval can be displayed in feet, or meters. It is important to dec
 The versions - feet or meters - are displayed on the download popup, when the ["Contour lines"](/osmand/plugins/contour-lines#downloading-files-and-enable-on-the-map) option is clicked in the country, or region map list. It allows you to choose what Contour lines file is needed: in meters, or in feet. 
 
 ![Contour lines download dialogue Android](/assets/images/plugins/contour-lines/contour_lines_plugin_download_dialogue_android.png)
+
+
+{% data reusables.general.android-ios-switcher %}
 
 {% default %}
 
