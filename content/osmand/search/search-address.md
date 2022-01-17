@@ -63,10 +63,6 @@ Clicking to [Search button on the screen](/osmand/widgets/map-buttons#search) ->
 
 ### Search street
 
-{% data reusables.general.android-ios-switcher %}
-
-{% android %}
-
 Street Searching by ["addr:street=*"](https://wiki.openstreetmap.org/w/index.php?title=Key:addr). Result: showing all streets with this name.
 
 Clicking to chosen variant opens building list and crossroads.
@@ -74,20 +70,24 @@ Clicking to chosen variant opens building list and crossroads.
 Shown direction, distance to objects, categories of objects.
 
 Tap to chosen address in the list opens [Map Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) of the object.
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Search Street Android](/assets/images/search/street_search.png) ![Search Street iOS](/assets/images/search/address_street_search_ios.png) 
+
+{% enddefault %}
+
+
+{% android %}
+
 
 ![Search Street Android](/assets/images/search/street_search.png) ![Search Street Android](/assets/images/search/street_search_1.png)
 
 {% endandroid %}
 
 {% ios %}
-
-Street Searching by ["addr:street=*"](https://wiki.openstreetmap.org/w/index.php?title=Key:addr). Result: showing all streets with this name.
-
-Clicking to chosen variant opens building list and crossroads.
-
-Shown direction, distance to objects, categories of objects.
-
-Tap to chosen address in the list opens [Map Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) of the object.
 
 ![Search Street iOS](/assets/images/search/address_street_search_ios.png) ![Search Street Android](/assets/images/search/address_street_search_1_ios.png)
 
