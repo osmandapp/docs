@@ -79,9 +79,7 @@ Tap to chosen address in the list opens [Map Context menu](/osmand/map/map-conte
 
 {% enddefault %}
 
-
 {% android %}
-
 
 ![Search Street Android](/assets/images/search/street_search.png) ![Search Street Android](/assets/images/search/street_search_1.png)
 
