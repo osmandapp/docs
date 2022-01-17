@@ -1,8 +1,11 @@
 ---
 title: "Search Address"
-intro: ""
+intro: "The search address helps you to find your needed address from OpenStreetMap data."
 versions: '*'
 ---
+
+
+{% data reusables.general.article-not-complete %}
 
 You may want to find the nearest location of a certain type, view your own location or search for a place by zip code. Just use the guide below.
 
@@ -12,13 +15,31 @@ You may want to find the nearest location of a certain type, view your own locat
 
 {% data reusables.general.android-ios-switcher %}
 
-{% android %}
+{% default %}
 
 Address - for searching by an [address tags](https://wiki.openstreetmap.org/w/index.php?title=Key:addr) and [coordinates](https://en.wikipedia.org/wiki/Geographic_coordinate_system).
 
 Clicking to [Search button on the screen](/osmand/widgets/map-buttons#search) -> {% data variables.android-values.shared_string_address %}
 
 ![Search Street Android](/assets/images/search/street_search_android.png)
+
+- [{% data variables.android-values.search_street %}](/osmand/search/search-address#search-street)
+- [{% data variables.android-values.start_search_from_city %}](/osmand/search/search-address#search-citytownlocality)
+- [{% data variables.android-values.select_postcode %}](/osmand/search/search-address#postcode-search)
+- [{% data variables.android-values.coords_search %}](/osmand/search/search-address#coordinates-search)
+- {% data variables.android-values.nearest_cities %}
+
+
+
+{% enddefault %}
+
+{% android %}
+
+Address - for searching by an [address tags](https://wiki.openstreetmap.org/w/index.php?title=Key:addr) and [coordinates](https://en.wikipedia.org/wiki/Geographic_coordinate_system).
+
+Clicking to [Search button on the screen](/osmand/widgets/map-buttons#search) -> {% data variables.android-values.shared_string_address %}
+
+![Search Street Android](/assets/images/search/street_search_android.png) ![Search Street iOS](/assets/images/search/street_search_ios.png)
 
 - [{% data variables.android-values.search_street %}](/osmand/search/search-address#search-street)
 - [{% data variables.android-values.start_search_from_city %}](/osmand/search/search-address#search-citytownlocality)
