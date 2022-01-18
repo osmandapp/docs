@@ -94,9 +94,6 @@ Tap to chosen address in the list opens [Map Context menu](/osmand/map/map-conte
 
 ### Search City/Town/Locality
 
-{% data reusables.general.android-ios-switcher %}
-
-{% android %}
 
 City/Town/Locality Searching by ["addr:city/hamlet/town/village/suburb=*"](https://wiki.openstreetmap.org/w/index.php?title=Key:addr). Result: showing all objects with this name.
 
@@ -105,19 +102,23 @@ Clicking to chosen variant opens building list and crossroads.
 Shown direction, distance to objects, categories of objects.
 
 Tap to a object in the list opens [Map Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) of the object.
+
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Search Street Android](/assets/images/search/town_search_android.png)  ![Search Street iOS](/assets/images/search/town_search_ios.png)
+
+{% enddefault %}
+
+{% android %}
 
 ![Search Street Android](/assets/images/search/town_search_android.png) 
 
 {% endandroid %}
 
 {% ios %}
-City/Town/Locality Searching by ["addr:city/hamlet/town/village/suburb=*"](https://wiki.openstreetmap.org/w/index.php?title=Key:addr). Result: showing all objects with this name.
-
-Clicking to chosen variant opens building list and crossroads.
-
-Shown direction, distance to objects, categories of objects.
-
-Tap to a object in the list opens [Map Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) of the object.
 
 ![Search Street iOS](/assets/images/search/town_search_ios.png)
 
@@ -126,34 +127,25 @@ Tap to a object in the list opens [Map Context menu](/osmand/map/map-context-men
 
 ### Postcode search
 
+Postcode Searching by ["addr:city/hamlet/town/village/suburb=*"](https://wiki.openstreetmap.org/w/index.php?title=Key:addr). Result: showing all objects with postcode tag.
+
+Clicking to chosen postcode opens objects list which have this postcode in tags.
+
+Shown direction, distance to objects, categories of objects.
+
+Tap to a object in the list opens [Map Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) of the object with additional info about chosen postcode below the object name.
+
+**Note:** [United Kingdom Poscode data](https://github.com/hvdwolf/OsmAnd-UKpostcodes/releases).
+
 {% data reusables.general.android-ios-switcher %}
 
+{% default %}
+
+![Search Postcode Android](/assets/images/search/postcode_android.png)  ![Search Postcode iOS](/assets/images/search/postcode_ios.png)
+
+{% enddefault %}
+
 {% android %}
-
-Postcode Searching by ["addr:city/hamlet/town/village/suburb=*"](https://wiki.openstreetmap.org/w/index.php?title=Key:addr). Result: showing all objects with postcode tag.
-
-Clicking to chosen postcode opens objects list which have this postcode in tags.
-
-Shown direction, distance to objects, categories of objects.
-
-Tap to a object in the list opens [Map Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) of the object with additional info about chosen postcode below the object name.
-
-**Note:** [United Kingdom Poscode data](https://github.com/hvdwolf/OsmAnd-UKpostcodes/releases).
-
-![Search Postcode Android](/assets/images/search/postcode_android.png)
-{% endandroid %}
-
-{% ios %}
-
-Postcode Searching by ["addr:city/hamlet/town/village/suburb=*"](https://wiki.openstreetmap.org/w/index.php?title=Key:addr). Result: showing all objects with postcode tag.
-
-Clicking to chosen postcode opens objects list which have this postcode in tags.
-
-Shown direction, distance to objects, categories of objects.
-
-Tap to a object in the list opens [Map Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) of the object with additional info about chosen postcode below the object name.
-
-**Note:** [United Kingdom Poscode data](https://github.com/hvdwolf/OsmAnd-UKpostcodes/releases).
 
 ![Search Postcode iOS](/assets/images/search/postcode_ios.png)
 
@@ -162,11 +154,22 @@ Tap to a object in the list opens [Map Context menu](/osmand/map/map-context-men
 
 ### Coordinates search
 
+Coordinates Searching by [Geographical coordingates](https://en.wikipedia.org/wiki/Geographic_coordinate_system). Result: showing a point on the map.
+
+Search result shows direction, distance to a point on the map.
+
+Tap to the result opens [Map Context menu](/osmand/map/map-context-menu#select-any-point-long-tap) of a point on the map with additional info.
+
 {% data reusables.general.android-ios-switcher %}
 
-{% android %}
+{% default %}
 
-Coordinates Searching by [Geographical coordingates](https://en.wikipedia.org/wiki/Geographic_coordinate_system). Result: showing a point on the map.
+
+![Search Coordinates Android](/assets/images/search/coordinates_search_android.png)  ![Search Coordinates iOS](/assets/images/search/coordinates_search_ios.png)
+
+{% enddefault %}
+
+{% android %}
 
 {% data variables.android-values.coordinates_format %} - choose needed format for input or transform your coordinates:
 - {% data variables.android-values.navigate_point_format_D %} - 50.12333  19.93233 (Lat Long).
@@ -175,10 +178,6 @@ Coordinates Searching by [Geographical coordingates](https://en.wikipedia.org/wi
 - {% data variables.android-values.navigate_point_format_utm %} - 34N 5552876  423678 (Zone Northing Easting).
 - {% data variables.android-values.navigate_point_format_olc %} (OLC) - 9F2X4WFJ+7W (Open Location Code represents area 9m x 14m).
 - {% data variables.android-values.navigate_point_mgrs %} - 34U DA 23678 52873.
-
-Search result shows direction, distance to a point on the map.
-
-Tap to the result opens [Map Context menu](/osmand/map/map-context-menu#select-any-point-long-tap) of a point on the map with additional info.
 
 ![Search Coordinates Android](/assets/images/search/coordinates_search_android.png)
 
@@ -186,19 +185,11 @@ Tap to the result opens [Map Context menu](/osmand/map/map-context-menu#select-a
 
 {% ios %}
 
-Coordinates Searching by [Geographical coordingates](https://en.wikipedia.org/wiki/Geographic_coordinate_system). Result: showing a point on the map.
-
 {% data variables.android-values.coordinates_format %} - choose needed format for input or transform your coordinates:
 - {% data variables.android-values.navigate_point_format_D %} - 50.12333  19.93233 (Lat Long).
 - {% data variables.android-values.navigate_point_format_DM %} - 50:7.39320  19:55.93980 (Lat Long).
 - {% data variables.android-values.navigate_point_format_DMS %} - 50:7:23.59200  19:55:56.38800 (Lat Long).
 - {% data variables.android-values.navigate_point_format_utm %} - 34N 5552876  423678 (Zone Northing Easting).
-- {% data variables.android-values.navigate_point_format_olc %} (OLC) - 9F2X4WFJ+7W (Open Location Code represents area 9m x 14m).
-- {% data variables.android-values.navigate_point_mgrs %} - 34U DA 23678 52873.
-
-Search result shows direction, distance to a point on the map.
-
-Tap to the result opens [Map Context menu](/osmand/map/map-context-menu#select-any-point-long-tap) of a point on the map with additional info.
 
 ![Search Coordinates iOS](/assets/images/search/coordinates_search_ios.png)
 
