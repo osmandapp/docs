@@ -4,9 +4,6 @@ intro: "The search address helps you to find your needed address from OpenStreet
 versions: '*'
 ---
 
-
-{% data reusables.general.article-not-complete %}
-
 You may want to find the nearest location of a certain type, view your own location or search for a place by zip code. Just use the guide below.
 
 **Please note:** to accomplish some of these tasks (locate addresses, POI, etc.) you will need to have the offline vector map file.

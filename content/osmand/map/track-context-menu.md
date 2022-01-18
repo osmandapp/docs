@@ -18,7 +18,11 @@ In Overview user can find track data info and make some actions.
 
 You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map → {% data variables.android-values.shared_string_overview %} → click to "eye" button for not showing the track on the map.
 
+{% data reusables.general.android-ios-switcher %}
+
 {% default %}
+
+![Track menu overview Android](/assets/images/personal/tracks/track_menu_overview_android.png) ![Statistics screen track iOS](/assets/images/personal/tracks/statistics_track_ios.png)
 
 {% enddefault %}
 
@@ -35,40 +39,18 @@ You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-andr
 
 
 
-### iOS info panel
+### Info panel
 
-"&#8230;" button - actions which you can make with the track.
-
-![My places tracks file Actions iOS](/assets/images/personal/tracks/my_places_track_file_actions_ios.png)
-
-- {% data variables.ios-values.fav_rename %} - allows to rename the track.
-- {% data variables.ios-values.shared_string_remove %} - allows to remove chosen track.
-- {% data variables.ios-values.shared_string_export %} - allows to export chosen track.
-- {% data variables.ios-values.gpx_edit_mode %} - opens [Edit mode menu](/osmand/personal/tracks#edit-mode-ios) for waypoints.
-- {% data variables.ios-values.product_title_trip_planning %} - opens [Trip planning tool](/osmand/personal/tracks#edit-via-plan-route) for chosen track.
-- {% data variables.ios-values.plan_route_change_folder %} - allows to move chosen track to another track folder or new folder.
+Info panel has track name and short description, track info.
 
 
-Info panel has name and short info of the track:
+{% data reusables.general.android-ios-switcher %}
 
-![Info for track iOS](/assets/images/personal/tracks/info_track_ios.png)
+{% default %}
 
-Quick actions:
-- {% data variables.ios-values.map_settings_show %} - show a track on the map.
-- {% data variables.ios-values.fav_color %} - change color track.
+{% enddefault %}
 
-![Actions for track iOS](/assets/images/personal/tracks/actions_track_ios.png)
-
-Info:
-- {% data variables.ios-values.gpx_speed %} - average speed, max speed.
-- {% data variables.ios-values.gpx_route_time %} - start time, finish time, total time, moving time.
-- {% data variables.ios-values.gpx_uphldownhl %} - average elevation, elevation range, up/down, uphills total.
-
-![Full info for track iOS](/assets/images/personal/tracks/full_info_track_ios.png)
-
-### Info panel (Android)
-
-Info panel for Android has track name and short description, track info.
+{% android %}
 
 ![Full info for track Android](/assets/images/personal/tracks/full_info_track_android.png)
 
@@ -83,6 +65,28 @@ Next track info:
 - {% data variables.android-values.max_speed %}.
 - {% data variables.android-values.shared_string_time_span %} - recorded time of the track.
 - {% data variables.android-values.shared_string_time_moving %} - sum of time during motion.
+
+{% endandroid %}
+
+{% ios %}
+
+- {% data variables.ios-values.fav_rename %} - allows to rename the track.
+- {% data variables.ios-values.shared_string_remove %} - allows to remove chosen track.
+- {% data variables.ios-values.shared_string_export %} - allows to export chosen track.
+- {% data variables.ios-values.gpx_edit_mode %} - opens [Edit mode menu](/osmand/personal/tracks#edit-mode-ios) for waypoints.
+- {% data variables.ios-values.product_title_trip_planning %} - opens [Trip planning tool](/osmand/personal/tracks#edit-via-plan-route) for chosen track.
+- {% data variables.ios-values.plan_route_change_folder %} - allows to move chosen track to another track folder or new folder.
+
+Quick actions:
+- {% data variables.ios-values.map_settings_show %} - show a track on the map.
+- {% data variables.ios-values.fav_color %} - change color track.
+
+Info:
+- {% data variables.ios-values.gpx_speed %} - average speed, max speed.
+- {% data variables.ios-values.gpx_route_time %} - start time, finish time, total time, moving time.
+- {% data variables.ios-values.gpx_uphldownhl %} - average elevation, elevation range, up/down, uphills total.
+
+{% endios %}
 
 ### Quick actions
 
