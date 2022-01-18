@@ -147,6 +147,12 @@ Tap to a object in the list opens [Map Context menu](/osmand/map/map-context-men
 
 {% android %}
 
+![Search Postcode Android](/assets/images/search/postcode_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
 ![Search Postcode iOS](/assets/images/search/postcode_ios.png)
 
 {% endios %}
@@ -163,7 +169,6 @@ Tap to the result opens [Map Context menu](/osmand/map/map-context-menu#select-a
 {% data reusables.general.android-ios-switcher %}
 
 {% default %}
-
 
 ![Search Coordinates Android](/assets/images/search/coordinates_search_android.png)  ![Search Coordinates iOS](/assets/images/search/coordinates_search_ios.png)
 
