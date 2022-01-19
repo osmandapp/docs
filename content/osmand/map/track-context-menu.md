@@ -19,7 +19,7 @@ There are the next tabs of Track Context menu:
 
 {% default %}
 
-![Track menu Android](/assets/images/personal/tracks/track_menu_android.png) ![Statistics screen track iOS](/assets/images/personal/tracks/track_menu_ios.png)
+![Track menu Android](/assets/images/personal/tracks/menu_track_android.png) ![Track menu iOS](/assets/images/personal/tracks/menu_track_ios.png)
 
 {% enddefault %}
 
@@ -70,7 +70,7 @@ Info panel has track name and short description, track info.
 
 {% default %}
 
-![Full info for track Android](/assets/images/personal/tracks/full_info_track_android.png) ![Full info for track Android](/assets/images/personal/tracks/statistics_track_ios.png)
+![Full info for track Android](/assets/images/personal/tracks/full_info_track_android.png) ![Full info for track Android](/assets/images/personal/tracks/full_info_track_ios.png)
 
 {% enddefault %}
 
@@ -94,7 +94,7 @@ Next track info:
 
 {% ios %}
 
-![Full info for track Android](/assets/images/personal/tracks/statistics_track_ios.png)
+![Full info for track Android](/assets/images/personal/tracks/full_info_track_ios.png)
 
 - {% data variables.ios-values.fav_rename %} - allows to rename the track.
 - {% data variables.ios-values.shared_string_remove %} - allows to remove chosen track.
