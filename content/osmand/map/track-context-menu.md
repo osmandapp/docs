@@ -176,7 +176,7 @@ This part contains info about GPX file and description of a GPX track.
 
 {% android %}
 
-![Description for track Android](/assets/images/personal/tracks/description_track_android.png)
+![Description for track Android](/assets/images/personal/tracks/description_track_1_android.png) ![Description for track Android](/assets/images/personal/tracks/description_track_android.png)
 
 - Image??   <!--how to add any images to descriptions?}-->
 - {% data variables.android-values.add_description %} - for creating description of the track.
