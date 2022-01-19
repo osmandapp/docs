@@ -1,6 +1,6 @@
 ---
 title: "Contour lines and Terrain"
-intro: "Terrain information, such as Contour lines, Hillshades, Slopes - helps to make a visual assessment of the shape of the land surface by considering the curvature, extremes, steepness, points of equal height, and other characteristics."
+intro: "Terrain information, such as Contour lines, Hillshades, Slopes - helps to make a visual assessment of the shape of the land surface by considering the curvature, extremes, steepness, points of equal height, and other."
 versions: '*'
 ---
 
