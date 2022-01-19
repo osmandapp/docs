@@ -8,13 +8,36 @@ versions: '*'
 
 For openng Track Context menu:
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_files %} → click to choosing track or just tap to choosing track on the map.
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_files %} → click to choosing track or just tap to choosing track on the map.
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} → click to choosing track.
+There are the next tabs of Track Context menu:
+
+ - [Overview](/osmand/map/track-context-menu#overview)
+ - [Altitude / Speed Graphs](/osmand/map/track-context-menu#altitude--speed-graphs) 
+ - [Points / Waypoints](/osmand/map/track-context-menu#points--waypoints)
+ - [Options](/osmand/map/track-context-menu#options)
+
+{% default %}
+
+![Track menu Android](/assets/images/personal/tracks/track_menu_android.png) ![Statistics screen track iOS](/assets/images/personal/tracks/track_menu_ios.png)
+
+{% enddefault %}
+
+{% android %}
+
+![Track menu Android](/assets/images/personal/tracks/track_menu_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![Statistics screen track iOS](/assets/images/personal/tracks/track_menu_ios.png)
+
+{% endios %}
 
 ## Overview
 
-In Overview user can find track data info and make some actions.
+In Overview user can find track data info and make actions with viewing of the chosen track.
 
 You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map → {% data variables.android-values.shared_string_overview %} → click to "eye" button for not showing the track on the map.
 
@@ -29,6 +52,7 @@ You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-andr
 {% android %}
 
 ![Track menu overview Android](/assets/images/personal/tracks/track_menu_overview_android.png)
+
 {% endandroid %}
 
 {% ios %}
@@ -36,8 +60,6 @@ You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-andr
  ![Statistics screen track iOS](/assets/images/personal/tracks/statistics_track_ios.png)
 
 {% endios %}
-
-
 
 ### Info panel
 
@@ -47,6 +69,8 @@ Info panel has track name and short description, track info.
 {% data reusables.general.android-ios-switcher %}
 
 {% default %}
+
+![Full info for track Android](/assets/images/personal/tracks/full_info_track_android.png) ![Full info for track Android](/assets/images/personal/tracks/statistics_track_ios.png)
 
 {% enddefault %}
 
@@ -69,6 +93,8 @@ Next track info:
 {% endandroid %}
 
 {% ios %}
+
+![Full info for track Android](/assets/images/personal/tracks/statistics_track_ios.png)
 
 - {% data variables.ios-values.fav_rename %} - allows to rename the track.
 - {% data variables.ios-values.shared_string_remove %} - allows to remove chosen track.
