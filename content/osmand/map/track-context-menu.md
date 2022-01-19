@@ -41,7 +41,7 @@ In Overview user can find track data info and make actions with viewing of the c
 
 - [Info panel](/osmand/map/track-context-menu#info-panel) - shows track info: distance, speed, ascent/descent...
 - [Quick actions](/osmand/map/track-context-menu#quick-actions) - action buttons for the chosen track.
-- [Description and info](/osmand/map/track-context-menu#description) - track file info and track description.
+- [Description and info](/osmand/map/track-context-menu#description-and-info) - track file info and track description.
 
 You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map → {% data variables.android-values.shared_string_overview %} → click to "eye" button for not showing the track on the map.
 
@@ -98,7 +98,7 @@ Next track info:
  {% data variables.android-values.max_speed %} - max speed of a trip.
 
  {% data variables.android-values.shared_string_time_span %} - recorded time of a trip.
- 
+
  {% data variables.android-values.shared_string_time_moving %} - sum of time during motion of a trip.
 
 {% endandroid %}
@@ -107,41 +107,94 @@ Next track info:
 
 ![Full info for track Android](/assets/images/personal/tracks/full_info_track_ios.png)
 
-- {% data variables.ios-values.fav_rename %} - allows to rename the track.
-- {% data variables.ios-values.shared_string_remove %} - allows to remove chosen track.
-- {% data variables.ios-values.shared_string_export %} - allows to export chosen track.
-- {% data variables.ios-values.gpx_edit_mode %} - opens [Edit mode menu](/osmand/personal/tracks#edit-mode-ios) for waypoints.
-- {% data variables.ios-values.product_title_trip_planning %} - opens [Trip planning tool](/osmand/personal/tracks#edit-via-plan-route) for chosen track.
-- {% data variables.ios-values.plan_route_change_folder %} - allows to move chosen track to another track folder or new folder.
+Next track info:
+- The track name - you can change it in [Options menu](/osmand/map/track-context-menu#options).
+- Direction and distance to the point on the track - blue arrow with distance.
+- Info panel of data trip:
 
-Quick actions:
-- {% data variables.ios-values.map_settings_show %} - show a track on the map.
-- {% data variables.ios-values.fav_color %} - change color track.
+ {% data variables.ios-values.shared_string_distance %} - showing track distance.
 
-Info:
-- {% data variables.ios-values.gpx_speed %} - average speed, max speed.
-- {% data variables.ios-values.gpx_route_time %} - start time, finish time, total time, moving time.
-- {% data variables.ios-values.gpx_uphldownhl %} - average elevation, elevation range, up/down, uphills total.
+ {% data variables.ios-values.gpx_ascent %} / {% data variables.ios-values.gpx_descent %} - sums of ascents and descents of a trip.
+
+ {% data variables.ios-values.gpx_alt_range %} - showing min and max altitude of a trip.
+
+ {% data variables.ios-values.gpx_average_speed %} - average speed of a trip.
+
+ {% data variables.ios-values.gpx_max_speed %} - max speed of a trip.
+
+ {% data variables.ios-values.total_time %} - recorded time of a trip.
+
+ {% data variables.ios-values.moving_time %} - sum of time during motion of a trip.
 
 {% endios %}
 
 ### Quick actions
 
+Buttons panel with the next action: Show/Hide a track on the map, opening [Appearance](/osmand/map/tracks-on-map#track-appearance) menu of a track, Export / [Plan route](/osmand/plan-route/create-route), [Navigation](/osmand/navigation/gpx-navigation).
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![quick actions for track Android](/assets/images/personal/tracks/quick_actions_track_android.png) ![quick actions for track iOS](/assets/images/personal/tracks/quick_actions_track_ios.png)
+
+{% enddefault %}
+
+{% android %}
+
 ![quick actions for track Android](/assets/images/personal/tracks/quick_actions_track_android.png)
 
 - Show / hide  - track on the map
-- Appearance - open [Appearance](/osmand/map/tracks-on-map#track-appearance-android) menu of the track.
+- Appearance - open [Appearance](/osmand/map/tracks-on-map#track-appearance) menu of the track.
 - Edit track - open the track in ["Plan route" tool](/osmand/plan-route/create-route).
 - Directions - open the track for ["Follow track"](/osmand/navigation/gpx-navigation) option in Navigation.
 
-### Description
+{% endandroid %}
+
+{% ios %}
+
+![quick actions for track iOS](/assets/images/personal/tracks/quick_actions_track_ios.png)
+
+- Show / hide  - allow to show or not a track on the map.
+- Appearance - open [Appearance](/osmand/map/tracks-on-map#track-appearance) menu of the track.
+- Export - allows to export a track.
+- Directions - open the track for ["Follow track"](/osmand/navigation/gpx-navigation) option in Navigation.
+
+{% endios %}
+
+### Description and info
+
+This part contains info about GPX file and description of a GPX track.
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Description for track Android](/assets/images/personal/tracks/description_track_android.png) ![Description for track iOS](/assets/images/personal/tracks/description_track_ios.png)
+
+{% enddefault %}
+
+{% android %}
 
 ![Description for track Android](/assets/images/personal/tracks/description_track_android.png)
 
-- Image   <!--how to add any images to descriptions?}-->
+- Image??   <!--how to add any images to descriptions?}-->
 - {% data variables.android-values.add_description %} - for creating description of the track.
-- {% data variables.android-values.shared_string_edit %} - for editing descritpion of the track.
+- {% data variables.android-values.shared_string_edit %} - for editing description of the track.
 - {% data variables.android-values.context_menu_read_full %} - for opening and reading full description.
+- {% data variables.android-values.info_button %} - contains info about file size, location folder, date of creation.
+
+{% endandroid %}
+
+{% ios %}
+
+![Description for track iOS](/assets/images/personal/tracks/description_track_ios.png)
+
+- {% data variables.ios-values.shared_string_info %} - contains info about file size, location folder
+
+{% endios %}
+
+
 
 ## Altitude / Speed Graphs 
 
@@ -240,6 +293,15 @@ Actions:
 - {% data variables.android-values.rename_track %} - change track name.
 - {% data variables.android-values.change_folder %} - select folder and add new one for the chosen track.
 - {% data variables.android-values.shared_string_delete %} - delete the track.
+
+
+- {% data variables.ios-values.fav_rename %} - allows to rename the track.
+- {% data variables.ios-values.shared_string_remove %} - allows to remove chosen track.
+- {% data variables.ios-values.shared_string_export %} - allows to export chosen track.
+- {% data variables.ios-values.gpx_edit_mode %} - opens [Edit mode menu](/osmand/personal/tracks#edit-mode-ios) for waypoints.
+- {% data variables.ios-values.product_title_trip_planning %} - opens [Trip planning tool](/osmand/personal/tracks#edit-via-plan-route) for chosen track.
+- {% data variables.ios-values.plan_route_change_folder %} - allows to move chosen track to another track folder or new folder.
+
 
 
 ### Split interval
