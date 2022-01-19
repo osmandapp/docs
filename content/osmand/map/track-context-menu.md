@@ -37,7 +37,11 @@ There are the next tabs of Track Context menu:
 
 ## Overview
 
-In Overview user can find track data info and make actions with viewing of the chosen track.
+In Overview user can find track data info and make actions with viewing of the chosen track:
+
+- [Info panel](/osmand/map/track-context-menu#info-panel) - shows track info: distance, speed, ascent/descent...
+- [Quick actions](/osmand/map/track-context-menu#quick-actions) - action buttons for the chosen track.
+- [Description and info](/osmand/map/track-context-menu#description) - track file info and track description.
 
 You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-android) on the track on the map → {% data variables.android-values.shared_string_overview %} → click to "eye" button for not showing the track on the map.
 
@@ -63,8 +67,7 @@ You can [short tap](/osmand/map/map-context-menu#select-route-short-tap-for-andr
 
 ### Info panel
 
-Info panel has track name and short description, track info.
-
+Info panel shows the track name, info about trip data, distance and direction to chosen track point from your position.
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -79,16 +82,24 @@ Info panel has track name and short description, track info.
 ![Full info for track Android](/assets/images/personal/tracks/full_info_track_android.png)
 
 Next track info:
-- Name of the track.
-- Short description of the track.
-- Direction and distance to the point on the track.
-- {% data variables.android-values.distance %} - showing track distnace.
-- {% data variables.android-values.altitude_ascent %} / {% data variables.android-values.altitude_descent %}.
-- {% data variables.android-values.altitude_range %} - showing max and min altitude.
-- {% data variables.android-values.average_speed %}.
-- {% data variables.android-values.max_speed %}.
-- {% data variables.android-values.shared_string_time_span %} - recorded time of the track.
-- {% data variables.android-values.shared_string_time_moving %} - sum of time during motion.
+- The track name - you can change it in [Options menu](/osmand/map/track-context-menu#options).
+- Short description of the track - short part from [full description](/osmand/map/track-context-menu#description).
+- Direction and distance to the point on the track - blue arrow with distance.
+- Info panel of data trip:
+
+ {% data variables.android-values.distance %} - showing track distance.
+
+ {% data variables.android-values.altitude_ascent %} / {% data variables.android-values.altitude_descent %} - sums of ascents and descents of a trip.
+
+ {% data variables.android-values.altitude_range %} - showing min and max altitude of a trip.
+
+ {% data variables.android-values.average_speed %} - average speed of a trip.
+
+ {% data variables.android-values.max_speed %} - max speed of a trip.
+
+ {% data variables.android-values.shared_string_time_span %} - recorded time of a trip.
+ 
+ {% data variables.android-values.shared_string_time_moving %} - sum of time during motion of a trip.
 
 {% endandroid %}
 
