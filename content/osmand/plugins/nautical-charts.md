@@ -70,8 +70,7 @@ Nautical Charts require purchase. For purchases on **Android**, refer to [in-app
 
 {% default %}
 
-With the purchase of Nautical service completed, the Nautical plugin can be enabled. The plugin is an autonomous functionality, which if enabled, provides more maps for 
-download, adds the Boat profile, and enables the Boat navigation. 
+With the purchase of Nautical service completed, the Nautical plugin can be enabled. The plugin is an autonomous functionality, which if enabled, provides more maps for download, adds Nautical map style to all profiles, adds the Boat profile, and enables the Boat navigation. 
 
 ![Nautical maps plugin Android](/assets/images/plugins/nautical-charts/plugin_nautical_android.png) ![Nautical maps plugin iOS](/assets/images/plugins/nautical-charts/plugin_nautical_ios.png)
 
@@ -84,7 +83,7 @@ With the purchase of Nautical service made in the **iOS** version, to start usin
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_nautical %}
 
-After enabling the Nautical plugin, you can download Nautical maps, add the Boat profile, and use Boat navigation.
+After enabling the Nautical plugin, you can download Nautical maps, select the Nautical map stype per profile, add the Boat profile, and use Boat navigation.
 
 ![Nautical maps plugin iOS](/assets/images/plugins/nautical-charts/plugin_nautical_ios.png)
 
@@ -96,7 +95,7 @@ With the purchase of Nautical service made in the **Android** version, to start 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.plugin_nautical_name %}
 
-After enabling the Nautical plugin, you can download Nautical maps, add the Boat profile, and use Boat navigation.
+After enabling the Nautical plugin, you can download Nautical maps, select the Nautical map stype per profile,add the Boat profile, and use Boat navigation.
 
 ![Nautical maps plugin Android](/assets/images/plugins/nautical-charts/plugin_nautical_android.png)
 
@@ -190,27 +189,34 @@ With the Nautical plugin enabled and a Nautical map downloaded, the following se
 
 In the **iOS** version, with the Nautical plugin enabled and a Nautical map downloaded, you can:
 
-- set the Nautical map type for any of the profiles in:
+- set the Nautical map type for any of the profiles,
+- add the Boat profile,
+- select the [Boat navigation](/osmand/navigation/boat-navigation),
+- show/hide depth contours by enabling/disabling the {% data variables.ios-values.product_title_sea_depth_contours %} option,
 
-    - {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_type %}
+
+#### Nautical map type
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_type %}
 
 ![Nautical Map Type in iOS](/assets/images/plugins/nautical-charts/ios_nautical_map_type1.png)
 
-- add the Boat profile in: 
 
-    - {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.edit_profile_list %}
+#### Boat profile
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.edit_profile_list %}
 
 ![Boat profile in iOS](/assets/images/plugins/nautical-charts/ios_boat_profile1.png)
 
-- select the [Boat navigation](/osmand/navigation/boat-navigation) in:
+#### Boat navigation
 
-    - {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_navigation %} 
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_navigation %} 
 
 ![Boat navigation in iOS](/assets/images/plugins/nautical-charts/ios_boat_navigation2.png)
 
-- show/hide depth contours by enabling/disabling the {% data variables.ios-values.product_title_sea_depth_contours %} option in: 
+#### Show/Hide depth contours
 
-    - {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.res_details %}  
+{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.res_details %}  
         
 ![Depth contours in iOS](/assets/images/plugins/nautical-charts/ios_depth_contours1.png)
 
