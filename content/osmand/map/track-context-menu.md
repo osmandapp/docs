@@ -25,13 +25,13 @@ There are the next tabs of Track Context menu:
 
 {% android %}
 
-![Track menu Android](/assets/images/personal/tracks/track_menu_android.png)
+![Track menu Android](/assets/images/personal/tracks/menu_track_android.png)
 
 {% endandroid %}
 
 {% ios %}
 
-![Statistics screen track iOS](/assets/images/personal/tracks/track_menu_ios.png)
+![Statistics screen track iOS](/assets/images/personal/tracks/menu_track_ios.png)
 
 {% endios %}
 
