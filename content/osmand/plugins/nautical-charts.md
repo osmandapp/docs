@@ -134,7 +134,7 @@ Marks and symbols provide all nautical navigation signs, for inland as well as f
 
 In the **iOS** version, all nautical maps are available for download in the following area:
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %}} → {% data variables.ios-values.region_nautical %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.region_nautical %}
 
 For an optimal representation, it is possible to select maps up to your current needs: marks and symbols can be added with depth points, and if required, with contours. On the other hand, standard maps with inland, onshore and nearshore information can be a good addition to the waterway information of the Nautical map.  
 
@@ -174,30 +174,45 @@ For any reference on what a symbol identifies on the Nautical map, use the **Map
 
 {% default %}
 
-With the Nautical plugin enabled, the following settings become available regardless of what map is downloaded:
+With the Nautical plugin enabled and a Nautical map downloaded, the following settings become available:
      
-    - add, configure, and use the Boat profile, 
-    - select the [Boat navigation](/osmand/navigation/boat-navigation) in any profile,
-    - show, or hide the depth contours, if the respective map has been downloaded,
-    - display full [details](/osmand/map/vector-maps#details) for the symbols on the map.
+- set the [Nautical option](/osmand/map/vector-maps#nautical) in the Map Style, to add the marine style to the way of how a map is currently represented in any of available profiles, and especially in the Boat profile,
+- add, configure, and use the Boat profile, 
+- select the [Boat navigation](/osmand/navigation/boat-navigation) in any profile,
+- show, or hide the depth contours, if the respective map has been downloaded,
+- display full [details](/osmand/map/vector-maps#details) for the symbols on the map.
 
-Additionally, the [Nautical option](/osmand/map/vector-maps#nautical) in the Map Style, if established, adds marine style to the way of how a map is currently represented in any of available profiles, and especially in the Boat profile. 
-
-
+![Nautical Map Type](/assets/images/plugins/nautical-charts/ios_nautical_map_type1.png) 
 
 {% enddefault %}
 
 {% ios%}
 
-In the **iOS** version, with the Nautical plugin enabled, you can:
+In the **iOS** version, with the Nautical plugin enabled and a Nautical map downloaded, you can:
 
-- add the Boat profile in:
+- set the Nautical map type for any of the profiles in:
+
+    - {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_type %}
+
+![Nautical Map Type in iOS](/assets/images/plugins/nautical-charts/ios_nautical_map_type1.png)
+
+- add the Boat profile in: 
+
+    - {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.edit_profile_list %}
+
+![Boat profile in iOS](/assets/images/plugins/nautical-charts/ios_boat_profile1.png)
 
 - select the [Boat navigation](/osmand/navigation/boat-navigation) in:
 
-- show/hide depth contours in: 
+    - {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_navigation %} 
 
-- select the display of symbol [details](/osmand/map/vector-maps#details) in: 
+![Boat navigation in iOS](/assets/images/plugins/nautical-charts/ios_boat_navigation2.png)
+
+- show/hide depth contours by enabling/disabling the {% data variables.ios-values.product_title_sea_depth_contours %} option in: 
+
+    - {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.res_details %}  
+        
+![Depth contours in iOS](/assets/images/plugins/nautical-charts/ios_depth_contours1.png)
 
 {% endios%}
 
@@ -205,13 +220,15 @@ In the **iOS** version, with the Nautical plugin enabled, you can:
 
 In the **Android** version, with the Nautical plugin enabled, you can:
 
+- set the Nautical map type for any of the profiles in:
+
 - add the Boat profile in:
 
 - select the [Boat navigation](/osmand/navigation/boat-navigation) in:
 
 - show/hide depth contours in: 
 
-- select the display of symbol [details](/osmand/map/vector-maps#details) in:
+- select a display option for symbols on the map in:
 
 
 {% endandroid%}
