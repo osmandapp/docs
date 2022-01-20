@@ -234,33 +234,102 @@ Click to the "{% data variables.android-values.shared_string_gpx_track %}" butto
 
 ### Overview
 
-This tab opens a graph with speed / altitude info on distance, additional track data: 
+This tab opens a graph with speed / altitude info on distance, additional track data.
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Track graph overview Android](/assets/images/personal/tracks/track_graph_overview_android.png) 
+
+{% enddefault %}
+
+
+{% android %}
+
+
+
 - {% data variables.android-values.distance %}
 - {% data variables.android-values.shared_string_time_span %}
 - {% data variables.android-values.shared_string_start_time %}
 - {% data variables.android-values.shared_string_end_time %}
 
-![Track graph overview Android](/assets/images/personal/tracks/track_graph_overview_android.png) 
+{% endandroid %}
+
+
+{% ios %}
+
+
+{% endios %}
+
+
+
+
 
 ### Altitude
 
-This tab opens a graph with altitude / slope info on distance, additional track data:
+This tab opens a graph with altitude / slope info on distance, additional track data.
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Track graph altitude Android](/assets/images/personal/tracks/track_graph_altitude_android.png) 
+
+{% enddefault %}
+
+
+{% android %}
+
+
+![Track graph altitude Android](/assets/images/personal/tracks/track_graph_altitude_android.png) 
+
 - {% data variables.android-values.average_altitude %}
 - {% data variables.android-values.altitude_range %}
 - {% data variables.android-values.altitude_ascent %}
 - {% data variables.android-values.altitude_descent %}
 
-![Track graph altitude Android](/assets/images/personal/tracks/track_graph_altitude_android.png) 
+{% endandroid %}
+
+
+{% ios %}
+
+
+{% endios %}
+
+
 
 ### Speed
 
-This tab opens a with speed info on distance, additional track data:
+This tab opens a with speed info on distance, additional track data.
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Track graph Speed Android](/assets/images/personal/tracks/track_graph_speed_android.png) 
+
+{% enddefault %}
+
+
+{% android %}
+
+![Track graph Speed Android](/assets/images/personal/tracks/track_graph_speed_android.png) 
+
  - {% data variables.android-values.average_speed %}
  - {% data variables.android-values.max_speed %}
  - {% data variables.android-values.moving_time %}
  - {% data variables.android-values.distance_moving %} 
 
-![Track graph Speed Android](/assets/images/personal/tracks/track_graph_speed_android.png) 
+{% endandroid %}
+
+
+{% ios %}
+
+
+{% endios %}
+
+
 
 ## Points / Waypoints
 
