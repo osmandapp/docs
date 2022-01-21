@@ -144,10 +144,10 @@ Buttons panel with the next action: Show/Hide a track on the map, opening [Appea
 
 ![quick actions for track Android](/assets/images/personal/tracks/quick_actions_track_android.png)
 
-- Show / hide  - track on the map
-- Appearance - open [Appearance](/osmand/map/tracks-on-map#track-appearance) menu of the track.
-- Edit track - open the track in ["Plan route" tool](/osmand/plan-route/create-route).
-- Directions - open the track for ["Follow track"](/osmand/navigation/gpx-navigation) option in Navigation.
+- "Show / hide"  - track on the map
+- "Appearance" - opens [Appearance](/osmand/map/tracks-on-map#track-appearance) menu of the track.
+- "Edit track" - opens the track in ["Plan route" tool](/osmand/plan-route/create-route).
+- "Directions" - opens the track for ["Follow track"](/osmand/navigation/gpx-navigation) option in Navigation.
 
 {% endandroid %}
 
@@ -155,10 +155,10 @@ Buttons panel with the next action: Show/Hide a track on the map, opening [Appea
 
 ![quick actions for track iOS](/assets/images/personal/tracks/quick_actions_track_ios.png)
 
-- Show / hide  - allow to show or not a track on the map.
-- Appearance - open [Appearance](/osmand/map/tracks-on-map#track-appearance) menu of the track.
-- Export - allows to export a track.
-- Directions - open the track for ["Follow track"](/osmand/navigation/gpx-navigation) option in Navigation.
+- "Show / hide"  - allows to show or not a track on the map.
+- "Appearance" - opens [Appearance](/osmand/map/tracks-on-map#track-appearance) menu of the track.
+- "Export" - allows to export a track.
+- "Directions" - opens the track for ["Follow track"](/osmand/navigation/gpx-navigation) option in Navigation.
 
 {% endios %}
 
@@ -261,6 +261,11 @@ This tab opens a graph with speed / altitude info on distance, additional track 
 
 ![Track graph overview iOS](/assets/images/personal/tracks/track_graph_overview_ios.png) 
 
+- {% data variables.ios-values.shared_string_distance %} 
+- {% data variables.ios-values.shared_string_time_span %} 
+- {% data variables.ios-values.shared_string_start_time %} 
+- {% data variables.ios-values.shared_string_end_time %} 
+
 
 {% endios %}
 
@@ -298,6 +303,11 @@ This tab opens a graph with altitude / slope info on distance, additional track 
 
 ![Track graph altitude iOS](/assets/images/personal/tracks/track_graph_altitude_ios.png) 
 
+- {% data variables.ios-values.gpx_avg_altitude%} 
+- {% data variables.ios-values.gpx_alt_range %} 
+- {% data variables.ios-values.gpx_ascent %} 
+- {% data variables.ios-values.gpx_descent %} 
+
 {% endios %}
 
 
@@ -331,8 +341,12 @@ This tab opens a with speed info on distance, additional track data.
 
 ![Track graph Speed iOS](/assets/images/personal/tracks/track_graph_speed_ios.png) 
 
-{% endios %}
+- {% data variables.ios-values.gpx_average_speed %} 
+- {% data variables.ios-values.gpx_max_speed %} 
+- {% data variables.ios-values.shared_string_time_moving %} 
+- {% data variables.ios-values.distance_moving %} 
 
+{% endios %}
 
 
 ## Points / Waypoints
