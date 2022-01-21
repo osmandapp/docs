@@ -240,14 +240,14 @@ This tab opens a graph with speed / altitude info on distance, additional track 
 
 {% default %}
 
-![Track graph overview Android](/assets/images/personal/tracks/track_graph_overview_android.png) 
+![Track graph overview Android](/assets/images/personal/tracks/track_graph_overview_android.png) ![Track graph overview iOS](/assets/images/personal/tracks/track_graph_overview_ios.png) 
 
 {% enddefault %}
 
 
 {% android %}
 
-
+![Track graph overview Android](/assets/images/personal/tracks/track_graph_overview_android.png) 
 
 - {% data variables.android-values.distance %}
 - {% data variables.android-values.shared_string_time_span %}
@@ -258,6 +258,8 @@ This tab opens a graph with speed / altitude info on distance, additional track 
 
 
 {% ios %}
+
+![Track graph overview iOS](/assets/images/personal/tracks/track_graph_overview_ios.png) 
 
 
 {% endios %}
@@ -274,7 +276,7 @@ This tab opens a graph with altitude / slope info on distance, additional track 
 
 {% default %}
 
-![Track graph altitude Android](/assets/images/personal/tracks/track_graph_altitude_android.png) 
+![Track graph altitude Android](/assets/images/personal/tracks/track_graph_altitude_android.png) ![Track graph altitude iOS](/assets/images/personal/tracks/track_graph_altitude_ios.png) 
 
 {% enddefault %}
 
@@ -294,6 +296,7 @@ This tab opens a graph with altitude / slope info on distance, additional track 
 
 {% ios %}
 
+![Track graph altitude iOS](/assets/images/personal/tracks/track_graph_altitude_ios.png) 
 
 {% endios %}
 
@@ -307,7 +310,7 @@ This tab opens a with speed info on distance, additional track data.
 
 {% default %}
 
-![Track graph Speed Android](/assets/images/personal/tracks/track_graph_speed_android.png) 
+![Track graph Speed Android](/assets/images/personal/tracks/track_graph_speed_android.png) ![Track graph Speed iOS](/assets/images/personal/tracks/track_graph_speed_ios.png) 
 
 {% enddefault %}
 
@@ -326,6 +329,7 @@ This tab opens a with speed info on distance, additional track data.
 
 {% ios %}
 
+![Track graph Speed iOS](/assets/images/personal/tracks/track_graph_speed_ios.png) 
 
 {% endios %}
 
