@@ -204,7 +204,7 @@ With the Nautical plugin enabled and a Nautical map downloaded, you can adjust w
 - showing or hiding the depth contours;
 - specifying the detail level for the seabed information. 
 
-The nautical settings can be used for any profile. However, the most value it makes to use them within the [Boat profile](/content/osmand/personal/profiles) and especially with the [Boat navigation](/osmand/navigation/boat-navigation). 
+The nautical settings can be used for any profile. However, the most value it makes to use them within the [Boat profile](/osmand/personal/profiles) and especially with the [Boat navigation](/osmand/navigation/boat-navigation). 
 
 ![Boat profile in iOS](/assets/images/plugins/nautical-charts/ios_boat_profile1.png) ![Boat navigation in iOS](/assets/images/plugins/nautical-charts/ios_boat_navigation2.png) 
 

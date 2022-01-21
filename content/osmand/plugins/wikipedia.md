@@ -19,9 +19,9 @@ For the Wikipedia data to show up on the map, the following configuration is req
 
 ## Overview 
 
-The Wikipedia plugin is an autonomous functionality that can be enabled/disabled as needed. Once enabled, it allows the Wikipedia data to be downloaded per geographical region. There are two views to display the downloaded Wikipedia knowledge on the map: a short summary, and a full article. 
+The Wikipedia plugin is an autonomous functionality that can be enabled/disabled as needed. Once enabled, it allows the Wikipedia data to be [downloaded](/osmand/personal/maps#download-maps-maps) per geographical region. There are two views to display the downloaded Wikipedia knowledge on the map: a short summary, and a full article. 
 
-The short summary is provided via the Wikipedia POI (abbrev. from 'point of interest'). If the Wikipedia option is toggled on in the menu, the Wikipedia POI shows up on the map. On tap, the POI expands and provides a summary of the available Wikipedia information and the option to open the full article. The Wikipedia POI as well as the associated articles are available offline. It is possible to read them whenever needed, switch languages, and search for other Wikipedia information. 
+The short summary is provided via the Wikipedia POI (abbrev. from '[point of interest](/osmand/map/point-layers-on-map)'). If the Wikipedia option is toggled on in the menu, the Wikipedia POI shows up on the map. On tap, the POI expands and provides a summary of the available Wikipedia information and the option to open the full article. The Wikipedia POI as well as the associated articles are available offline. It is possible to read them whenever needed, switch languages, and search for other Wikipedia information. 
 
 
 > [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) is a free, multilingual open-collaborative online encyclopedia created and maintained by a community of volunteer editors using a wiki-based editing system. ![Wikipedia](/assets/images/map/map-wikipedia.png)
@@ -136,7 +136,7 @@ In the **Android** version, to show/hide the Wikipedia POI, go to: {% data varia
 
 ## Search Wikipedia
 
-With the Wikipedia data downloaded, regardless of the visibility mode of the [Wikipedia POI](/osmand/map/point-layers-on-map#-wikipedia) on the map, it is possible to [search](content/osmand/search/search-poi.md) for any Wikipedia information.
+With the Wikipedia data downloaded, regardless of the visibility mode of the [Wikipedia POI](/osmand/map/point-layers-on-map#-wikipedia) on the map, it is possible to [search](/osmand/search/search-poi) for any Wikipedia information.
 
 
 {% data reusables.general.android-ios-switcher %}
@@ -185,9 +185,32 @@ If needed, tap the **Show Wikipedia on the map** option at the top of the search
 
 ## Wikipedia languages 
 
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
 In case when there is a choice of languages to display the Wikipedia data in, you can set the language you prefer to read the text in. The figure below shows an example of the Wikipedia POI and the article, which are written in French by default, and displayed in English, thanks to the availability of other translations for this Wikipedia data and the English language established for the Wikipedia in the Profile settings. 
 
+![French Wikipedia POI in English in iOS](/assets/images/plugins/wikipedia/ios_wiki_language2.png) ![French Wikipedia POI in English](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng1.png) 
+
+{% enddefault %}
+
+{% ios%}
+
+With the preferred language established for Wikipedia, for example, a French POI will show the text in English. 
+
+![French Wikipedia POI in English in iOS](/assets/images/plugins/wikipedia/ios_wiki_language2.png)
+
+{% endios%}
+
+{% android %}
+
+With the preferred language established for Wikipedia, for example, a French POI will show the text in English. 
+
 ![French Wikipedia POI in English](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng1.png) 
+
+{% endandroid %}
+
 
 ### Set preferred language
 
@@ -203,7 +226,15 @@ To set the preferred language, so that to view the Wikipedia data in, go to the 
 
 {% ios%}
 
-In the **iOS** version, to set the preferred language for the Wikipedia data, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → <*specific Profile*> → {% data variables.ios-values.map_settings_show %} → {% data variables.ois-values.res_wiki %} → {% data variables.ios-values.language %} → {% data variables.ios-values.preferred_languages %}
+In the **iOS** version, to set the preferred language for the Wikipedia data, do the following:
+
+1. Go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %}.
+
+2. Select a profile and find the {% data variables.ios-values.map_settings_show %} section of settings.
+
+3. Tap {% data variables.ois-values.res_wiki %} and then tap {% data variables.ios-values.language %}. 
+
+4. Check the preferred language(-s) in the opened list. 
 
 
 ![Setting a preferred language on iOS](/assets/images/map/map-wikipedia-language-2-ios.png) 
@@ -212,7 +243,15 @@ In the **iOS** version, to set the preferred language for the Wikipedia data, go
 
 {% android %}
 
-In the **Android** version, to set the preferred language for the Wikipedia data, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → <*specific Profile*> → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.shared_string_wikipedia %} → {% data variables.android-values.shared_string_language %}
+In the **Android** version, to set the preferred language for the Wikipedia data, do the following:
+
+1. Go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %}.
+
+2. Select a profile and find the {% data variables.android-values.shared_string_show %} section of settings.
+
+3. Tap {% data variables.android-values.shared_string_wikipedia %} and then tap {% data variables.android-values.shared_string_language %}. 
+
+4. Check the preferred language(-s) in the opened list. 
 
 ![Setting a preferred language on Android](/assets/images/plugins/wikipedia/Android-wiki-languages.png) 
 
@@ -220,6 +259,36 @@ In the **Android** version, to set the preferred language for the Wikipedia data
 
 ### Switch languages inside article
 
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
 In case if some translation options are available, it is possible to switch the language when viewing a specific Wikipedia article. A language icon at the right-hand top area of the article will offer the options for selection. 
 
+![Switching languages for a specific article in iOS](/assets/images/plugins/wikipedia/ios_switch_lang_inside_article2.png) ![Switching languages for a specific article](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng3.png) 
+
+{% enddefault %}
+
+{% ios%}
+
+In the **iOS** version, with the Wikipedia POI turned on for a specific profile, it is enough to tap a POI, then scroll the opened context menu upwards till viewing an abstract of the Wikipedia article:
+
+- tap the article, 
+- tap the current language icon in the header at the right-hand top corner of the screen, and the list of available language options opens,
+- select the required language. 
+
+![Switching languages for a specific article in iOS](/assets/images/plugins/wikipedia/ios_switch_lang_inside_article2.png) 
+
+{% endios%}
+
+{% android %}
+In the **Android** version, with the Wikipedia POI turned on for a specific profile, it is enough to tap a POI, then scroll the opened context menu upwards till viewing an abstract of the Wikipedia article:
+
+- tap the article, 
+- tap the current language icon in the header at the right-hand top corner of the screen, and the list of available language options opens,
+- select the required language.
+
+
 ![Switching languages for a specific article](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng3.png) 
+
+{% endandroid %}
