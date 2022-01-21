@@ -203,7 +203,7 @@ Click to the "{% data variables.android-values.shared_string_gpx_track %}" butto
 - [{% data variables.android-values.altitude %}](/osmand/map/track-context-menu#altitude)
 - [{% data variables.android-values.map_widget_speed %}](/osmand/map/track-context-menu#speed)
 
- Graph with additional info and [{% data variables.android-values.analyze_on_map %}](/osmand/map/tracks-on-map#analyze-route-on-map-android), {% data variables.android-values.shared_string_options %} buttons.
+Graph with additional info and [{% data variables.android-values.analyze_on_map %}](/osmand/map/tracks-on-map#analyze-route-on-map-android), {% data variables.android-values.shared_string_options %} buttons.
 
 **{% data variables.android-values.analyze_on_map %}** button opens [Analyze track menu](/osmand/map/tracks-on-map#analyze-route-on-map-android) for the track.
 
