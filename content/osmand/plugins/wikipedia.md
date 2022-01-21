@@ -207,7 +207,7 @@ With the preferred language established for Wikipedia, for example, a French POI
 
 With the preferred language established for Wikipedia, for example, a French POI will show the text in English. 
 
-![French Wikipedia POI in English](assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng1.png) 
+![French Wikipedia POI in English](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng1.png) 
 
 {% endandroid %}
 
