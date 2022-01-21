@@ -1,6 +1,6 @@
 ---
 title: "{% data variables.android-values.plugin_nautical_name %}"
-intro: "Nautical map provides detailed graphical representation of oceans, seas, coastal areas and rivers to help you navigate on the water, and be aware of popular traffic routes, obstacles in your waterway, the nearest harbors, port plans, anchorages, and other essential reference for boaters.  "
+intro: "Nautical map provides detailed graphical representation of oceans, seas, coastal areas and rivers to help you navigate on the water, and be aware of popular traffic routes, obstacles in your waterway, the nearest harbors anchorages, and other essential reference.  "
 versions: '*'
 ---
 
@@ -169,7 +169,7 @@ For an optimal representation, it is possible to select maps up to your current 
 
 ## Map legend for any reference
 
-**Map legend** helps everybody who wants to read the map. It provides explanation of symbolic elements on the [Nautical map](https://osmand.net/help-online/map-legend#nautical), and serves as a reference to guide yourself with in case of doubts. The Map Legend shows the following visual elements you can find on the map:
+[Map legend](https://osmand.net/help-online/map-legend#nautical) helps everybody who wants to read the map. It provides explanation of symbolic elements on the Nautical map, and serves as a reference to guide yourself with in case of doubts. The Map Legend shows the following visual elements you can find on the map:
 
 - Anchorage and berth,
 - Navigation lines and areas,
@@ -214,16 +214,16 @@ The nautical settings can be used for any profile. However, the most value it ma
 
 In the **iOS** version, with the Nautical plugin enabled and a Nautical map downloaded, you can:
 
-#### Change the map type to **Nautical** and thus, reveal more nautical-specific colors and visualization on the map 
+- Change the map type to **Nautical** and thus, reveal more nautical-specific colors and visualization on the map 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_type %}
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_type %}
 
 ![Nautical Map Type in iOS](/assets/images/plugins/nautical-charts/ios_nautical_map_type1.png)
 
 
-#### Show or hide the depth contours
+- Show or hide the depth contours
 
-{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.res_details %}  
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.res_details %}  
         
 ![Depth contours in iOS](/assets/images/plugins/nautical-charts/ios_depth_contours1.png)
 
@@ -231,16 +231,25 @@ In the **iOS** version, with the Nautical plugin enabled and a Nautical map down
 
 {% android%}
 
-In the **Android** version, with the Nautical plugin enabled and a Nautical map downloaded, you can:
+In the **Android** version, with the Nautical plugin enabled and a Nautical map downloaded, for every specific profile you can establish the nautical settings, as follows. 
 
-#### Change the map type to **Nautical** and thus, reveal more nautical-specific colors and visualization on the map
+- Change the map style to **Nautical** and thus, reveal more nautical-specific colors and visualization on the map.  
+
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → <*specific Profile*> → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.map_widget_renderer %}
+
+![Nautical Map Type in Android](/assets/images/plugins/nautical-charts/and_map_style1.png)
+
+- Show or hide the depth contours. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → <*specific Profile*> → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.shared_string_details %}
 
 
-#### Show or hide the depth contours
 
+- Specify the level of seabed details displayed on the map. 
 
-#### Specify the level of seabed details displayed
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → <*specific Profile*> → {% data variables.android-values.map_widget_map_rendering %} → Seabed detail
 
+![Seabed details in Android](/assets/images/plugins/nautical-charts/and_seabed_details1.png)
 
 {% endandroid%}
 
@@ -254,5 +263,5 @@ To return to one of OsmAnd's conventional map styles, do any of the following:
 - disable the Nautical plugin, 
 - change the 'Map style' to anything else then 'Nautical'. 
 
->**NOTE**: disabling the Nautical plugin does not remove the downloaded nautical maps, so even if the rendering changes from nautical to anything else, if the nautical data is downloaded, it remains visible on the map. 
+>**NOTE**: By disabling the Nautical plugin it is umpossible to remove the downloaded nautical maps, so even if the rendering method is changed from nautical to anything else, when the nautical data is downloaded, it remains visible on the map. 
 
