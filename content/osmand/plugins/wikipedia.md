@@ -191,7 +191,7 @@ If needed, tap the **Show Wikipedia on the map** option at the top of the search
 
 In case when there is a choice of languages to display the Wikipedia data in, you can set the language you prefer to read the text in. The figure below shows an example of the Wikipedia POI and the article, which are written in French by default, and displayed in English, thanks to the availability of other translations for this Wikipedia data and the English language established for the Wikipedia in the Profile settings. 
 
-![French Wikipedia POI in English in iOS](/assets/images/plugins/wikipedia/ios_wiki_language2.png) ![French Wikipedia POI in English](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng1.png) 
+![French Wikipedia POI in English in iOS](/assets/images/plugins/wikipedia/ios_wiki_language2.png) ![French Wikipedia POI in English](/assets/images/plugins/wikipedia/and_wiki_lang2.png) 
 
 {% enddefault %}
 
@@ -207,7 +207,7 @@ With the preferred language established for Wikipedia, for example, a French POI
 
 With the preferred language established for Wikipedia, for example, a French POI will show the text in English. 
 
-![French Wikipedia POI in English](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng1.png) 
+![French Wikipedia POI in English](/assets/images/plugins/wikipedia/and_wiki_lang2.png) 
 
 {% endandroid %}
 
@@ -220,7 +220,7 @@ With the preferred language established for Wikipedia, for example, a French POI
 
 To set the preferred language, so that to view the Wikipedia data in, go to the required profile, click the triple dots beside the **Wikipedia** option, and in the opened list, deselect **All language** and check a specific option. In case of some languages selected, the displayed text will be in any of the languages. 
 
-![Setting a preferred language on iOS](/assets/images/map/map-wikipedia-language-2-ios.png) ![Setting a preferred language on Android](/assets/images/plugins/wikipedia/Android-wiki-languages.png)
+![Setting a preferred language on iOS](/assets/images/map/map-wikipedia-language-2-ios.png) ![Setting a preferred language on Android](assets/images/plugins/wikipedia/and_select_languages_wiki1.png)
 
 {% enddefault %}
 
@@ -253,7 +253,7 @@ In the **Android** version, to set the preferred language for the Wikipedia data
 
 4. Check the preferred language(-s) in the opened list. 
 
-![Setting a preferred language on Android](/assets/images/plugins/wikipedia/Android-wiki-languages.png) 
+![Setting a preferred language on Android](assets/images/plugins/wikipedia/and_select_languages_wiki1.png)
 
 {% endandroid %}
 
@@ -265,7 +265,7 @@ In the **Android** version, to set the preferred language for the Wikipedia data
 
 In case if some translation options are available, it is possible to switch the language when viewing a specific Wikipedia article. A language icon at the right-hand top area of the article will offer the options for selection. 
 
-![Switching languages for a specific article in iOS](/assets/images/plugins/wikipedia/ios_switch_lang_inside_article2.png) ![Switching languages for a specific article](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng3.png) 
+![Switching languages for a specific article in iOS](/assets/images/plugins/wikipedia/ios_switch_lang_inside_article2.png) ![Switching languages for a specific article](/assets/images/plugins/wikipedia/and_lang_inside_article.png) 
 
 {% enddefault %}
 
@@ -282,6 +282,7 @@ In the **iOS** version, with the Wikipedia POI turned on for a specific profile,
 {% endios%}
 
 {% android %}
+
 In the **Android** version, with the Wikipedia POI turned on for a specific profile, it is enough to tap a POI, then scroll the opened context menu upwards till viewing an abstract of the Wikipedia article:
 
 - tap the article, 
@@ -289,6 +290,6 @@ In the **Android** version, with the Wikipedia POI turned on for a specific prof
 - select the required language.
 
 
-![Switching languages for a specific article](/assets/images/plugins/wikipedia/Andr-french-wikipedia-in-eng3.png) 
+![Switching languages for a specific article](/assets/images/plugins/wikipedia/and_lang_inside_article.png) 
 
 {% endandroid %}
