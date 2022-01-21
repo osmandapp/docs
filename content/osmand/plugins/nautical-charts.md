@@ -1,6 +1,6 @@
 ---
 title: "{% data variables.android-values.plugin_nautical_name %}"
-intro: "Nautical map provides detailed graphical representation of oceans, seas, coastal areas and rivers to help you navigate on the water, and be aware of popular traffic routes, obstacles in your waterway, the nearest harbors anchorages, and other essential reference.  "
+intro: "Nautical map provides detailed graphical representation of oceans, seas, coastal areas and rivers to help you navigate on the water, and be aware of popular traffic routes, obstacles in your waterway, the nearest harbors, anchorages, and other essential reference.  "
 versions: '*'
 ---
 
@@ -42,7 +42,7 @@ As a project, OpenSeaMap was built on the idea of creating a detailed map by peo
 
 
 
-## Purchase Nautical service
+## Purchase Nautical
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -73,7 +73,7 @@ It is also possible to view the already made purchases, by opening the following
 {% endandroid%}
 
 
-## Enable Nautical plugin
+## Enable plugin
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -167,7 +167,7 @@ For an optimal representation, it is possible to select maps up to your current 
 
 
 
-## Map legend for any reference
+## Map legend 
 
 [Map legend](https://osmand.net/help-online/map-legend#nautical) helps everybody who wants to read the map. It provides explanation of symbolic elements on the Nautical map, and serves as a reference to guide yourself with in case of doubts. The Map Legend shows the following visual elements you can find on the map:
 
@@ -214,7 +214,6 @@ The nautical settings can be used for any profile. However, the most value it ma
 
 In the **iOS** version, with the Nautical plugin enabled and a Nautical map downloaded, you can:
 
-&nbsp;&nbsp;&nbsp;&nbsp;
 - Change the map type to **Nautical** and thus, reveal more nautical-specific colors and visualization on the map 
 
 &nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_type %}
@@ -233,7 +232,7 @@ In the **iOS** version, with the Nautical plugin enabled and a Nautical map down
 {% android%}
 
 In the **Android** version, with the Nautical plugin enabled and a Nautical map downloaded, for every specific profile you can establish the nautical settings, as follows. 
-&nbsp;&nbsp;&nbsp;&nbsp;
+
 - Change the map style to **Nautical** and thus, reveal more nautical-specific colors and visualization on the map.  
 
 &nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → <*specific Profile*> → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.map_widget_renderer %}
