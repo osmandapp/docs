@@ -355,29 +355,27 @@ Points / Waypoins menu in Context track menu opens list of track / folders waypo
 
 ![Track menu points Android](/assets/images/personal/tracks/track_menu_points_android.png) ![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_ios.png)
 
-### iOS Waypoints
+{% data reusables.general.android-ios-switcher %}
 
-Buttons on top of the screen:
+{% default %}
 
-- Folders <-> Points list - the button changes order in waypoints list.
+{% enddefault %}
 
-![Track menu Waypoins order iOS](/assets/images/personal/tracks/track_menu_waypoints_order_ios.png) ![Track menu Waypoins order iOS](/assets/images/personal/tracks/track_menu_waypoints_order_1_ios.png) 
 
-- Editing waypoints ("pencil" button) - the button opens "Actions" panel for waypoints.
+{% android %}
 
-![Track menu Waypoins action panel iOS](/assets/images/personal/tracks/track_menu_waypoints_actions_panel_ios.png)
+{% endandroid %}
 
-Actions:
-- 'Import loader' - allows to share/import chosen waypoints.
-- 'Folder' - allows to move waypoints to others folders or to new creating folder.
-- 'Palette of colors' - allows to change colors for waypoints.
-- 'BIN' - allows to delete chosen waypoints.
 
-[For adding new waypoint](/osmand/personal/tracks#add-waypoint) you need to tap on the map. [Map Context menu](/osmand/map/map-context-menu#-add--edit--track-waypoint) opens where you can choose "Add waypoint".
+{% ios %}
 
-![Track menu Waypoint add iOS](/assets/images/personal/tracks/track_menu_waypoint_add_ios.png) ![Track menu Waypoint add 1 iOS](/assets/images/personal/tracks/track_menu_waypoint_add_1_ios.png)
 
-### Android Group menu
+{% endios %}
+
+Points / Waypoins menu in Context track menu opens list of track / folders waypoints.
+
+![Track menu points Android](/assets/images/personal/tracks/track_menu_points_android.png) ![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_ios.png)
+
 
 "&#8285;" button opens waypoint Group menu.
 
@@ -390,6 +388,7 @@ Actions:
 - {% data variables.android-values.copy_to_map_markers %} - allows to move group waypoints to [Map markers](/osmand/personal/markers).
 - {% data variables.android-values.copy_to_map_favorites %} - allows to move group waypoints to [Favorites](/osmand/personal/favorites).
 - {% data variables.android-values.shared_string_delete %} - allows to delete group waypoints.
+
 
 ## Options
 
