@@ -1,9 +1,8 @@
 ---
 title: "{% data variables.android-values.plugin_nautical_name %}"
-intro: "Nautical chart as a detailed graphical representation of oceans, seas, coastal areas and rivers helps to identify what obstacles can show up in your waterway and plot an optimal course to your destination."
+intro: "Nautical map provides detailed graphical representation of oceans, seas, coastal areas and rivers to help you navigate on the water, and be aware of popular traffic routes, obstacles in your waterway, the nearest harbors, port plans, anchorages, and other essential reference for boaters.  "
 versions: '*'
 ---
-
 
 {% data reusables.general.article-not-complete %}
 
@@ -15,18 +14,18 @@ To view the Nautical map on the screen, the following configuration is needed:
 
 3. Download the Nautical maps.
 
-4. Consider the following settings:
+4. Consider other settings, such as:
 
-    - **Nautical** is selected for the Map Style, 
-    - enable the Boat profile, and/or the Boat navigation,
-    - if needed, show, or hide the depth contours,
-    - if needed, display full details for the symbols on the map. 
+    - Nautical map style, 
+    - Boat profile, and/or the Boat navigation,
+    - depth contours,
+    - seabed details. 
 
 
 
 ## What is Nautical Chart?
 
-Nautical Chart is a typographic map with high level of detail to help skippers to drive a boat along the selected course on the water. It is like a road map for everybody on a vehicle. The map, often called *'Chart'* due to historical reasons, provides a detailed graphical representation of oceans, seas, coastal areas and rivers.
+Nautical Chart is a typographic map with high level of detail to help skippers drive a boat along the selected course on the water. It is like a road map for everybody on a vehicle. The map, often called as *'Chart'* due to historical reasons, provides a detailed graphical representation of oceans, seas, coastal areas and rivers.
 
 Nautical Charts are important for professional sailors as well as amateurs easily renting a boat to make a tour over the city canals. The charts provide them with various information like sailing routes, navigation lights, dangerous areas, areas where it's allowed or not allowed to sail or dock, etc.
 
@@ -37,7 +36,9 @@ All professional sailors are obliged to have official nautical charts on their s
 
 ## What is the data source?
 
-Nautical charts of OsmAnd are based on the data from  [OpenSeaMap](http://www.openseamap.org/) project. The idea of the project is to build a detailed map by people who actually use it. Every user of the map can contribute by adding changes to it and thus, making it more detailed and more accurate.
+Nautical charts of OsmAnd are based on the data from [OpenSeaMap](http://www.openseamap.org/). It cannot replace the official nautical charts. However, it is versatile. Being compiled from data prepared by amateur cartographers as well as organizations, OpenSeaMap goes beyond the costline and provides details on the inland waterways, wildwater, infrastructure of ports, restricted areas, facilities, etc.    
+
+As a project, OpenSeaMap was built on the idea of creating a detailed map by people who actually use it. Every user of the map can contribute to it by adding information they view being important and useful to them, thus, making the map more detailed and accurate, ideal for orientation or route planning.
 
 
 
@@ -47,19 +48,27 @@ Nautical charts of OsmAnd are based on the data from  [OpenSeaMap](http://www.op
 
 {% default %}
 
-To use the Nautical Chart, the service needs to be purchased. Depending on the app version whether it is an iOS app, or an Android one, the purchase is made differently. For more details, visit [Purchases](/osmand/purchases). 
+Nautical Chart is a paid service. Depending on the app version whether it is an iOS app, or an Android one, there are different options of obtaining the map. For more details, visit [Purchases](/osmand/purchases). 
 
 {% enddefault %}
 
 {% ios%}
 
-Nautical Charts require purchase. For purchases on **iOS**, refer to [in-app purchases, or a subscription](/osmand/purchases/ios#in-app-purchases). To view the already made purchases, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
+For a Nautical Chart purchase on **iOS**, refer to [in-app purchases, or a subscription](/osmand/purchases/ios#in-app-purchases). 
+
+It is also possible to view the already made purchases, by opening the following section in settings: 
+
+{% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.purchases %} 
 
 {% endios%}
 
 {% android%}
 
-Nautical Charts require purchase. For purchases on **Android**, refer to [in-app purchases, a subscription, or the full version of the app](/osmand/purchases/android#free-and-paid-features). To view the already made purchases, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.purchases %}
+For a Nautical Chart purchase on **Android**, refer to [in-app purchases, a subscription, or the full version of the app](/osmand/purchases/android#free-and-paid-features). 
+
+It is also possible to view the already made purchases, by opening the following section in settings: 
+
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.purchases %}
 
 {% endandroid%}
 
@@ -70,7 +79,11 @@ Nautical Charts require purchase. For purchases on **Android**, refer to [in-app
 
 {% default %}
 
-With the purchase of Nautical service completed, the Nautical plugin can be enabled. The plugin is an autonomous functionality, which if enabled, provides more maps for download, adds Nautical map style to all profiles, adds the Boat profile, and enables the Boat navigation. 
+After the purchase of Nautical service, the Nautical plugin can be enabled. The plugin unlocks more functional capabilities, such as: 
+
+- download nautical maps, 
+- enable the Nautical map style for any of the profiles,
+- view depth contours and seabed information. 
 
 ![Nautical maps plugin Android](/assets/images/plugins/nautical-charts/plugin_nautical_android.png) ![Nautical maps plugin iOS](/assets/images/plugins/nautical-charts/plugin_nautical_ios.png)
 
@@ -83,7 +96,7 @@ With the purchase of Nautical service made in the **iOS** version, to start usin
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_nautical %}
 
-After enabling the Nautical plugin, you can download Nautical maps, select the Nautical map stype per profile, add the Boat profile, and use Boat navigation.
+After enabling the Nautical plugin, you can download Nautical maps, select the Nautical map type per profile, guide yourself with more nautical details during navigation.
 
 ![Nautical maps plugin iOS](/assets/images/plugins/nautical-charts/plugin_nautical_ios.png)
 
@@ -95,7 +108,7 @@ With the purchase of Nautical service made in the **Android** version, to start 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.plugin_nautical_name %}
 
-After enabling the Nautical plugin, you can download Nautical maps, select the Nautical map stype per profile,add the Boat profile, and use Boat navigation.
+After enabling the Nautical plugin, you can download Nautical maps, select the Nautical map style per profile, guide yourself with more nautical details during navigation.
 
 ![Nautical maps plugin Android](/assets/images/plugins/nautical-charts/plugin_nautical_android.png)
 
@@ -111,19 +124,17 @@ After enabling the Nautical plugin, you can download Nautical maps, select the N
 
 {% default %}
 
-If a map is downloaded, it is visible, assuming that the Map Style is established as **Nautical** in the Boat profile (see the guidance below). And vice versa, if a map is not downloaded, it is not visible and cannot be used. 
-
-There are some categories of Nautical [maps available for download](/osmand/start-with/download-maps#type-of-maps):
+With the download of a nautical map, more details specific to the Boat navigation show up on the map. There are some types of a [nautical map](/osmand/start-with/download-maps#type-of-maps) providing such details as:
 
 - sea marks and symbols,
 - depth points,
 - depth contours. 
 
-Marks and symbols are downloaded once for the entire World. Depth points are available per hemisphere, and for some regions. Depth contours can be downloaded for specific areas and then turned off, if not needed. 
+Marks and symbols are downloaded once for the entire World. Depth points are available per hemisphere, and for some regions. Depth contours can be downloaded for specific areas and then turned off, if not needed. If a nautical package is downloaded, its data is displayed on the map, according to the nautical settings described below. 
 
-Depth points show numbers on the water to indicate the lowest depth at that spot. Contours show equal depths. Both points and contours are intended to visualize how the relief might change underneath the water surface. 
+Nautical data from the depth points packages is represented with the numbers displayed on the water to indicate the lowest depth at a specific spot. The depth contours packages allow you to identify areas of equal depth. Both points and contours are intended to visualize how the relief might change underneath the water surface. 
 
-Marks and symbols provide all nautical navigation signs, for inland as well as for nearshore navigation. Knowing this symbols helps to predict the location of rocks, obstacles, anchorages, the move of the current, deep and shallow water, the side of a channel regardless of the direction of your movement, etc. 
+Marks and symbols provide all nautical navigation signs, for inland as well as for nearshore navigation. Knowing these symbols helps to predict the location of rocks, obstacles, anchorages, the move of the current, areas of deep and shallow water, the side of a channel regardless of the direction of your movement, etc. 
 
 ![Nautical plugin maps view Android](/assets/images/plugins/nautical-charts/plugin_nautical_view_android.png) ![Nautical plugin maps view iOS](/assets/images/plugins/nautical-charts/plugin_nautical_view_ios.png)
 
@@ -131,11 +142,9 @@ Marks and symbols provide all nautical navigation signs, for inland as well as f
 
 {% ios%}
 
-In the **iOS** version, all nautical maps are available for download in the following area:
+In the **iOS** version, all nautical packages are available for download in the following area:
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.region_nautical %}
-
-For an optimal representation, it is possible to select maps up to your current needs: marks and symbols can be added with depth points, and if required, with contours. On the other hand, standard maps with inland, onshore and nearshore information can be a good addition to the waterway information of the Nautical map.  
 
 ![Nautical plugin maps view iOS](/assets/images/plugins/nautical-charts/plugin_nautical_view_ios.png)
 
@@ -147,22 +156,38 @@ In the **Android** version, all nautical maps are available for download in the 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.nautical_maps %}
 
-For an optimal representation, it is possible to select maps up to your current needs: marks and symbols can be added with depth points, and if required, with contours. On the other hand, standard maps with inland, onshore and nearshore information can be a good addition to the waterway information of the Nautical map.  
-
 ![Nautical plugin maps view Android](/assets/images/plugins/nautical-charts/plugin_nautical_view_android.png)
 
 {% endandroid%}
+
+For an optimal representation, it is possible to select maps up to your current needs: marks and symbols can be added with depth points, and if required, with contours. On the other hand, standard maps with inland, onshore and nearshore information for a specific region can be a good addition to the waterway information of the Nautical map. 
 
 > **NOTE**: All numbers on the Nautical Charts are presented in meters. 
 
 
 
 
-
-
 ## Map legend for any reference
 
-For any reference on what a symbol identifies on the Nautical map, use the **Map legend**. It provides explanation of symbolic elements on all maps, and specifically the [Nautical map](https://osmand.net/help-online/map-legend#nautical), so that to guide you if any doubts on the type of harbor, landmarks, wreck kind, bridge and building differences, etc.  
+**Map legend** helps everybody who wants to read the map. It provides explanation of symbolic elements on the [Nautical map](https://osmand.net/help-online/map-legend#nautical), and serves as a reference to guide yourself with in case of doubts. The Map Legend shows the following visual elements you can find on the map:
+
+- Anchorage and berth,
+- Navigation lines and areas,
+- Buoys and beacons, 
+- Electronic position-fixing systems, fog signals,
+- Lights,
+- Ports, moorings,
+- Offshore platforms,
+- Landmarks,
+- Buildings, 
+- Wrecks and rocks,
+- Bridges, lockgates,
+- Small craft facilities, 
+- Marine farm, fishing,
+- Seabed area,
+- Cables and pipelines,
+- Obstruction,
+- and other signs of prohibition, information, regulation, recommendation, etc.
 
 
 
@@ -173,15 +198,15 @@ For any reference on what a symbol identifies on the Nautical map, use the **Map
 
 {% default %}
 
-With the Nautical plugin enabled and a Nautical map downloaded, the following settings become available:
+With the Nautical plugin enabled and a Nautical map downloaded, you can adjust what you see on the map by:
      
-- set the [Nautical option](/osmand/map/vector-maps#nautical) in the Map Style, to add the marine style to the way of how a map is currently represented in any of available profiles, and especially in the Boat profile,
-- add, configure, and use the Boat profile, 
-- select the [Boat navigation](/osmand/navigation/boat-navigation) in any profile,
-- show, or hide the depth contours, if the respective map has been downloaded,
-- display full [details](/osmand/map/vector-maps#details) for the symbols on the map.
+- changing the map rendering to the [Nautical](/osmand/map/vector-maps#nautical) type/style;
+- showing or hiding the depth contours;
+- specifying the detail level for the seabed information. 
 
-![Nautical Map Type](/assets/images/plugins/nautical-charts/ios_nautical_map_type1.png) 
+The nautical settings can be used for any profile. However, the most value it makes to use them within the [Boat profile](/content/osmand/personal/profiles) and especially with the [Boat navigation](/osmand/navigation/boat-navigation). 
+
+![Boat profile in iOS](/assets/images/plugins/nautical-charts/ios_boat_profile1.png) ![Boat navigation in iOS](/assets/images/plugins/nautical-charts/ios_boat_navigation2.png) 
 
 {% enddefault %}
 
@@ -189,32 +214,14 @@ With the Nautical plugin enabled and a Nautical map downloaded, the following se
 
 In the **iOS** version, with the Nautical plugin enabled and a Nautical map downloaded, you can:
 
-- set the Nautical map type for any of the profiles,
-- add the Boat profile,
-- select the [Boat navigation](/osmand/navigation/boat-navigation),
-- show/hide depth contours by enabling/disabling the {% data variables.ios-values.product_title_sea_depth_contours %} option,
-
-
-#### Nautical map type
+#### Change the map type to **Nautical** and thus, reveal more nautical-specific colors and visualization on the map 
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_type %}
 
 ![Nautical Map Type in iOS](/assets/images/plugins/nautical-charts/ios_nautical_map_type1.png)
 
 
-#### Boat profile
-
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %} → {% data variables.ios-values.app_profiles %} → {% data variables.ios-values.edit_profile_list %}
-
-![Boat profile in iOS](/assets/images/plugins/nautical-charts/ios_boat_profile1.png)
-
-#### Boat navigation
-
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.shared_string_navigation %} 
-
-![Boat navigation in iOS](/assets/images/plugins/nautical-charts/ios_boat_navigation2.png)
-
-#### Show/Hide depth contours
+#### Show or hide the depth contours
 
 {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.res_details %}  
         
@@ -224,17 +231,15 @@ In the **iOS** version, with the Nautical plugin enabled and a Nautical map down
 
 {% android%}
 
-In the **Android** version, with the Nautical plugin enabled, you can:
+In the **Android** version, with the Nautical plugin enabled and a Nautical map downloaded, you can:
 
-- set the Nautical map type for any of the profiles in:
+#### Change the map type to **Nautical** and thus, reveal more nautical-specific colors and visualization on the map
 
-- add the Boat profile in:
 
-- select the [Boat navigation](/osmand/navigation/boat-navigation) in:
+#### Show or hide the depth contours
 
-- show/hide depth contours in: 
 
-- select a display option for symbols on the map in:
+#### Specify the level of seabed details displayed
 
 
 {% endandroid%}
@@ -244,24 +249,10 @@ In the **Android** version, with the Nautical plugin enabled, you can:
 
 ## Return to conventional maps
 
-{% data reusables.general.android-ios-switcher %}
-
-{% default %}
-
 To return to one of OsmAnd's conventional map styles, do any of the following:
 
 - disable the Nautical plugin, 
 - change the 'Map style' to anything else then 'Nautical'. 
 
-{% enddefault %}
-
-{% ios%}
-
-{% endios%}
-
-{% android%}
-
-
-{% endandroid%}
-
+>**NOTE**: disabling the Nautical plugin does not remove the downloaded nautical maps, so even if the rendering changes from nautical to anything else, if the nautical data is downloaded, it remains visible on the map. 
 
