@@ -19,11 +19,11 @@ For the Contour lines and Terrain data to show up on the map, the following conf
 
 ## Overview
 
-The Contour lines plugin is an autonomous functionality that can be enabled/disabled as needed. The plugin provides for downloading the following maps: 
+The Contour lines plugin is an autonomous functionality that can be enabled/disabled as needed. The plugin provides for [downloading](/osmand/personal/maps#download-maps-maps) the following maps: 
 
-- the **Contour lines** map in vector points, and
+- the **Contour lines** map in [vector](/osmand/map/vector-maps) points, and
 
-- two Terrain maps in raster pixels: 
+- two Terrain maps in [raster](/osmand/map/raster-maps) pixels: 
 
     - the **Hillshade** map, and 
 
@@ -76,7 +76,7 @@ In the **Android** version, to enable the plugin, tap Enable for **Contour lines
 
 ## Download Contour lines/Terrain 
 
-There are three types of the elevation data packages for [download per region](osmand/start-with/download-maps.md): Contour lines, Hillshade and Slope. Most often all of them can be downloaded at the country level. And also, there are maps available per lower region level. 
+There are three types of the elevation data packages for [download per region](osmand/start-with/download-maps): Contour lines, Hillshade and Slope. Most often all of them can be downloaded at the country level. And also, there are maps available per lower region level. 
 
 ### Consider country/region levels 
 
@@ -84,9 +84,32 @@ By combining the maps of both levels and different types, you can achieve an opt
 
 For example, you can combine the Contour lines region map of the Sicily island with the Slope map of Italy as one at the country level. Another example is the maps of Canada, where all three types of maps are available at the region level. And to display both the Slope and Contour lines data for Alberta, it is enough to download respectively two maps at the region level.  
 
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
 ![Hillshade over Sicily](/assets/images/plugins/contour-lines/2_hillshade_only.png) ![Slope over Sicily](/assets/images/plugins/contour-lines/3_slope_only.png)
 
+
+{% enddefault %}
+
+{% ios%}
+
+![Hillshade over Sicily in iOS](/assets/images/plugins/contour-lines/ios_hillshade1.png) ![Slope over Sicily in iOS](/assets/images/plugins/contour-lines/ios_slope1.png)
+
+{% endios%}
+
+{% android%}
+
+![Hillshade over Sicily in Android](/assets/images/plugins/contour-lines/2_hillshade_only.png) ![Slope over Sicily in Androis](/assets/images/plugins/contour-lines/3_slope_only.png)
+
+{% endandroid%}
+
+
 > **NOTE**: The Contour lines, Hillshade and Slope angle colors become viewable at a certain zoom level, which is established in the settings for the specific map type.
+
+
+
 
 ### Combine map types
 
@@ -94,17 +117,62 @@ When downloading different types of the maps: Contour lines, Hillshade, and/or S
 
 For example, to make an assessment of curvature, especially for a mountain ridge, the combination of Contour lines with Hillshade will be an obvious choice for download. And to assess the steepness of the slope, points of equal height, you can display the Slope and Contour lines maps together.
 
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
 ![Contour lines combined with Hillshade](/assets/images/plugins/contour-lines/4_hillshade_n_contour.png) ![Contour lines combined with Slope](/assets/images/plugins/contour-lines/5_slope_n_contour.png) 
 
+{% enddefault %}
+
+{% ios%}
+
+![Contour lines combined with Hillshade in iOS](/assets/images/plugins/contour-lines/ios_hillshade_n_cont_lines1.png) ![Contour lines combined with Slope in iOS](/assets/images/plugins/contour-lines/ios_slope_n_cont_lines1.png)
+
+{% endios%}
+
+{% android%}
+
+![Contour lines combined with Hillshade](/assets/images/plugins/contour-lines/4_hillshade_n_contour.png) ![Contour lines combined with Slope](/assets/images/plugins/contour-lines/5_slope_n_contour.png) 
+
+{% endandroid%}
+
+
 >**NOTE**: There is a legend of colors that shows how each color aligns with the angle of deviation from flat. The legend is available in the settings of the Slope map. ![Slope color legend](/assets/images/plugins/contour-lines/Slope_legend.png)
+
+
 
 ### Choose Meters or Feet
 
 The contour interval can be displayed in feet, or meters. It is important to decide what units it is convenient for you to see Contour lines in, so that to download the respective version of the Contour lines map. The units are not interchangeable, and in case if feet are needed to be switched into meters, or vice versa, the previous version of the Contour lines map has to be removed, so that anew to download the other version. 
 
-The versions - in feet, or meters - are displayed on the download popup, when the [**Contour lines**](/osmand/plugins/contour-lines#downloading-files-and-enable-on-the-map) option is clicked in the country, or region map list. It allows you to choose what Contour lines file is needed: in meters, or in feet. 
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+The versions - in feet, or meters - are displayed on the download popup, when the [**Contour lines**](/osmand/map/vector-maps#contour-lines) option is clicked in the country, or region map list. It allows you to choose what Contour lines file is needed: in meters, or in feet. 
+
+![Contour lines download dialogue Android](/assets/images/plugins/contour-lines/contour_lines_plugin_download_dialogue_android.png) ![Contour lines download dialogue iOS](/assets/images/plugins/contour-lines/ios_cont_lines_meters_feet1.png) 
+
+{% enddefault %}
+
+{% ios%}
+
+The versions - in feet, or meters - are displayed on the download popup, when the [**Contour lines**](/osmand/map/vector-maps#contour-lines) option is clicked in the country, or region map list. It allows you to choose what Contour lines file is needed: in meters, or in feet. 
+
+![Contour lines download dialogue iOS](/assets/images/plugins/contour-lines/ios_cont_lines_meters_feet1.png) 
+
+{% endios%}
+
+{% android%}
+
+The versions - in feet, or meters - are displayed on the download popup, when the [**Contour lines**](/osmand/map/vector-maps#contour-lines) option is clicked in the country, or region map list. It allows you to choose what Contour lines file is needed: in meters, or in feet. 
 
 ![Contour lines download dialogue Android](/assets/images/plugins/contour-lines/contour_lines_plugin_download_dialogue_android.png)
+
+{% endandroid%}
+
+
 
 ### How to download
 
@@ -133,7 +201,17 @@ To download Contour lines, Hillshade, and/or Slope for a specific area, do the f
 
 {% ios%}
 
-In the **iOS** version, to download any of the available packages of Contour lines, Hillshade, and/or Slope, go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} and select the required country, and/or region.
+In the **iOS** version, to download any of the available packages of Contour lines, Hillshade, and/or Slope, do the following:
+
+1. Go to: 
+
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} 
+
+2. Select a country, and observe any of the following sections:
+
+    2.1. The **{% data variables.ios-values.res_region_map %}** section provides available packages with maps for the entire country. If needed, download ones. 
+
+    2.2.  The **{% data variables.ios-values.res_mapsres %}** section lists the regions of the country. If to tap a region, there will be available map packages to download for the region. 
 
 ![Contour lines download iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_download_ios.png)
 
@@ -141,7 +219,17 @@ In the **iOS** version, to download any of the available packages of Contour lin
 
 {% android%}
 
-In the **Android** version, to download any of the available packages of Contour lines, Hillshade, and/or Slope, go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %} and select the required country, and/or region. 
+In the **Android** version, to download any of the available packages of Contour lines, Hillshade, and/or Slope, do the following:
+
+1. Go to: 
+
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
+
+2. Select a country, and observe any of the following sections:
+
+    2.1. The **{% data variables.android-values.region_maps %}** section provides available packages with maps for the entire country. If needed, download ones.
+
+    2.2. The **{% data variables.android-values.regions %}** section lists the regions of the country. If to tap a region, there will be available map packages to download for the region.
 
 ![Contour lines download Android](/assets/images/plugins/contour-lines/contour_lines_plugin_download_android.png)
 
@@ -150,7 +238,7 @@ In the **Android** version, to download any of the available packages of Contour
 
 ## Show Contour lines/Terrain per profile
 
-Usually as many packages of Contour lines, Hillshade, and/or Slope are downloaded for as many specific areas as needed. Once all downloads are done, it is possible to determine what map types to show for what profile. There are two options - Contour lines and/or Terrain - to enable per profile:
+Usually as many packages of Contour lines, Hillshade, and/or Slope are downloaded for as many specific areas as needed. Once all downloads are done, it is possible to determine what [map types](/osmand/personal/maps#map-types) to show for what profile. There are two options - Contour lines and/or Terrain - to enable per [profile](/osmand/personal/profiles):
 
 - only Contour lines
 - only Terrain
@@ -169,19 +257,27 @@ For the **Terrain** option, it is possible to enable only one map at a time: eit
 
 {% ios%}
 
+#### CONTOUR LINES
+
 In the **iOS** version, to show the **Contour lines** map for the selected profile and all downloaded areas, do the following:
 
-1. Go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %}.
+1. Go to: 
 
-2. Scroll down up to {% data variables.ios-values.map_settings_style %}, and toggle on the **Contour lines** option. 
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %}.
+
+2. Scroll down up to **{% data variables.ios-values.map_settings_style %}**, and toggle on the **Contour lines** option. 
 
 ![Terrain and Contour lines enable iOS](/assets/images/plugins/contour-lines/contour_lines_terrain_enable_ios.png)
 
+#### TERRAIN
+
 In the **iOS** version, to show one of the **Terrain** maps for the selected profile and all downloaded areas, do the following:
 
-1. Go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %}.
+1. Go to: 
 
-2. Scroll down up to {% data variables.ios-values.map_settings_overunder %}, toggle on the Terrain option, and tap it, to open the context menu, see the figure below.
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %}.
+
+2. Scroll down up to **{% data variables.ios-values.map_settings_overunder %}**, toggle on the **Terrain** option, and tap it, to open the context menu, see the figure below.
 
 3. Select one of the options: either **Hillshade**, or **Slope**. 
 
@@ -192,21 +288,34 @@ In the **iOS** version, to show one of the **Terrain** maps for the selected pro
 
 {% android%}
 
+#### CONTOUR LINES 
+
 In the **Android** version, to show the **Contour lines** map for the selected profile and all downloaded areas, do the following:
 
-1. Go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → <*specific Profile*> → {% data variables.android-values.shared_string_show %}
+1. Go to: 
 
-2. Scroll down up to {% data variables.android-values.index_srtm_ele %}, and toggle on the **Contour lines** option. 
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %}
+
+2. Select a Profile, and look for the **{% data variables.android-values.shared_string_show %}** section of settings in the menu.
+
+3. Within the section, scroll down up to **{% data variables.android-values.index_srtm_ele %}**, and toggle on the **Contour lines** option. 
 
 ![Terrain and Contour lines enable Android](/assets/images/plugins/contour-lines/contour_lines_terrain_enable_android.png)
 
+
+#### TERRAIN
+
 In the **Android** version, to show one of the **Terrain** maps for the selected profile and all downloaded areas, do the following:
 
-1. Go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → <*specific Profile*> → {% data variables.android-values.shared_string_show %}.
+1. Go to: 
 
-2. Scroll down up to {% data variables.android-values.shared_string_terrain %}, toggle on the Terrain option, and tap it, to open the context menu, see the figure below.
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %}
 
-3. Select one of the options: either **Hillshade**, or **Slope**. 
+2.Select a Profile, and look for the **{% data variables.android-values.shared_string_show %}** section in the menu.
+
+3. Within the section, scroll down up to **{% data variables.android-values.shared_string_terrain %}**, toggle on the **Terrain** option, and tap it, to open the context menu, see the figure below.
+
+4. Select one of the options: either **Hillshade**, or **Slope**. 
 
 ![Hillshade, or Slope options](/assets/images/plugins/contour-lines/Terrain_menu_android_selected.png) 
 
@@ -220,9 +329,9 @@ In the **Android** version, to show one of the **Terrain** maps for the selected
 
 ## Configure Hillshade
 
-Hillshade allows you to research the relief by highlighting it with the hypothetical  illumination to simulate the cast of shadow, and thus to reveal the curvature, which is normally hidden, or unclear, for example, due to lots of vegetation. There are some aspects of the Hillshade map available for configuration: transparency of the shadow, the zoom level at which the Hillshade map is expected to be visible. 
+Hillshade allows you to research the relief by highlighting it with the hypothetical  illumination to simulate the cast of shadow, and thus to reveal the curvature, which is normally hidden, or unclear, for example, due to lots of vegetation. There are some aspects of the Hillshade map available for [configuration](/osmand/map/configure-map-menu): transparency of the shadow, the zoom level at which the Hillshade map is expected to be visible. 
 
-The **Hillshade** settings are available in the context menu of the **Terrain** option in the **Configure map** of a specific profile. 
+The **Hillshade** settings are available in the context menu of the **Terrain** option in the **Configure map** of a specific [profile](/osmand/personal/profiles). 
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -238,7 +347,7 @@ The **Hillshade** settings are available in the context menu of the **Terrain** 
 - **{%  data variables.ios-values.map_settings_hillshade %}** / **{% data variables.ios-values.gpx_slope %}** - a choice to display one of the terrain data types: either Hillshade, or Slope;
 - **{% data variables.ios-values.map_settings_layer_transparency %}** - the percentage bar to determine the preferable level of the transparency for the displayed shadow; 
 - **{% data variables.ios-values.res_zoom_levels %}** - the minimum and maximum options to tap, to select:
-    - the minimum zoom level at which Hillshade is expected to be viewable on the map; and 
+    - the minimum [zoom level](/osmand/map/interact-with-map#my-location--zoom) at which Hillshade is expected to be viewable on the map; and 
     - the maximum zoom level at which it is expected to disappear;
 - **{% data variables.ios-values.osmand_live_available_maps %}** - an offer to download a Hillshade package if none is still downloaded for the current geographical location displayed on the screen. 
 
@@ -252,7 +361,7 @@ The **Hillshade** settings are available in the context menu of the **Terrain** 
 - **{% data variables.android-values.shared_string_hillshade %}** / **{% data variables.android-values.shared_string_slope %}** - a choice to display one of the terrain data types: either Hillshade, or Slope;
 - **{% data variables.android-values.shared_string_transparency %}** - the percentage bar to determine the preferable level of the transparency for the displayed shadow; 
 - **{% data variables.android-values.shared_string_zoom_levels %}** - two slider options to move to the left, or right, to determine:
-    - the minimum zoom level at which Hillshade is expected to be viewable on the map; and 
+    - the minimum [zoom level](/osmand/map/interact-with-map#my-location--zoom) at which Hillshade is expected to be viewable on the map; and 
     - the maximum zoom level at which it is expected to disappear;
 - **{% data variables.android-values.welmode_download_maps %}** - an offer to download a Hillshade package if none is still downloaded for the current geographical location displayed on the screen.
 
@@ -264,9 +373,9 @@ The **Hillshade** settings are available in the context menu of the **Terrain** 
 
 ## Configure Slope
 
-Slope allows you to research the steepness, or incline of the slope expressed as an angle in the number of degrees of deviation from flat, which corresponds to the vertical distance divided by the horizontal distance. There are some aspects of the Slope map available for configuration: transparency of the colors used to show the angle, the zoom level at which the Slope map is expected to be visible.
+Slope allows you to research the steepness, or incline of the slope expressed as an angle in the number of degrees of deviation from flat, which corresponds to the vertical distance divided by the horizontal distance. There are some aspects of the Slope map available for [configuration](/osmand/map/configure-map-menu): transparency of the colors used to show the angle, the zoom level at which the Slope map is expected to be visible.
 
-The **Slope** settings are available in the context menu of the **Terrain** option in the **Configure map** of a specific profile. 
+The **Slope** settings are available in the context menu of the **Terrain** option in the **Configure map** of a specific [profile](/osmand/personal/profiles). 
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -282,7 +391,7 @@ The **Slope** settings are available in the context menu of the **Terrain** opti
 - **{%  data variables.ios-values.map_settings_hillshade %}** / **{% data variables.ios-values.gpx_slope %}** - a choice to display one of the terrain data types: either Hillshade, or Slope;
 - **{% data variables.ios-values.map_settings_layer_transparency %}** - the percentage bar to determine the preferable level of the transparency for the colors used to show the angle; 
 - **{% data variables.ios-values.res_zoom_levels %}** - the minimum and maximum options to tap, to select:
-    - the minimum zoom level at which Slope angle colors are expected to be viewable on the map; and 
+    - the minimum [zoom level](/osmand/map/interact-with-map#my-location--zoom) at which Slope angle colors are expected to be viewable on the map; and 
     - the maximum zoom level at which the colors are expected to disappear;
 - **{% data variables.ios-values.map_settings_legend %}** - the legend of colors to show the angle range at which the steepness of the slope can differ. For more details, refer to [Wikipedia](https://en.m.wikipedia.org/wiki/Grade_(slope))
 - **{% data variables.ios-values.osmand_live_available_maps %}** - an offer to download a Slope package if none is still downloaded for the current geographical location displayed on the screen. 
@@ -297,7 +406,7 @@ The **Slope** settings are available in the context menu of the **Terrain** opti
 - **{% data variables.android-values.shared_string_hillshade %}** / **{% data variables.android-values.shared_string_slope %}** - a choice to display one of the terrain data types: either Hillshade, or Slope;
 - **{% data variables.android-values.shared_string_transparency %}** - the percentage bar to determine the preferable level of the transparency for the colors used to show the angle; 
 - **{% data variables.android-values.shared_string_zoom_levels %}** - the minimum and maximum options to tap, to select:
-    - the minimum zoom level at which Slope angle colors are expected to be viewable on the map; and 
+    - the minimum [zoom level](/osmand/map/interact-with-map#my-location--zoom) at which Slope angle colors are expected to be viewable on the map; and 
     - the maximum zoom level at which the colors are expected to disappear;
 - **{% data variables.android-values.shared_string_legend %}** - the legend of colors to show the angle range at which the steepness of the slope can differ. For more details, refer to [Wikipedia](https://en.m.wikipedia.org/wiki/Grade_(slope))
 - **{% data variables.android-values.welmode_download_maps %}** - an offer to download a Slope package if none is still downloaded for the current geographical location displayed on the screen.
@@ -309,9 +418,9 @@ The **Slope** settings are available in the context menu of the **Terrain** opti
 
 ## Configure Contour lines
 
-Contour lines allows you to research in which direction and how much the surface inclines by analyzing the contour lines, which are placed closely for steep ground and more curved when going upward. There are some aspects of the Contour lines map available for configuration: the minimal zoom level where the contour lines will become visible, color scheme, width and density of lines. 
+Contour lines allows you to research in which direction and how much the surface inclines by analyzing the contour lines, which are placed closely for steep ground and more curved when going upward. There are some aspects of the Contour lines map available for [configuration](/osmand/map/configure-map-menu): the minimal zoom level where the contour lines will become visible, color scheme, width and density of lines. 
 
-The **Contour lines** settings are available in the context menu of the **Contour lines** option in the [Configure map](/osmand/map/vector-maps#contour-lines) of a specific profile. 
+The **Contour lines** settings are available in the context menu of the **Contour lines** option in the [Configure map](/osmand/map/vector-maps#contour-lines) of a specific [profile](/osmand/personal/profiles). 
 
 
 {% data reusables.general.android-ios-switcher %}
@@ -325,7 +434,7 @@ The **Contour lines** settings are available in the context menu of the **Contou
 {% ios%}
 
 - **{% data variables.ios-values.shared_string_enabled %}** - a toggle to show, or hide the Contour lines on/from the map;
-- **{% data variables.display_starting_at_zoom_level %}** - the minimum zoom level at which Contour lines is expected to be viewable on the map;
+- **{% data variables.ios-values.display_starting_at_zoom_level %}** - the minimum [zoom level](/osmand/map/interact-with-map#my-location--zoom) at which Contour lines is expected to be viewable on the map;
 - **{%  data variables.ios-values.map_settings_color_scheme %}** - a choice of color options in which to view the Contour lines on the map;
 - **{%  data variables.ios-values.map_settings_line_width %}** - the width of the Contour lines displayed on the map;
 - **{%  data variables.ios-values.map_settings_line_density %}** - the density of the Contour lines displayed on the map. The higher the density, the slower the map might be rendered;
@@ -338,7 +447,7 @@ The **Contour lines** settings are available in the context menu of the **Contou
 {% android%}
 
 - **{% data variables.android-values.shared_string_on %}** -  a toggle to show, or hide the Contour lines on/from the map;
-- **{% data variables.android-values.show_from_zoom_level%}** - the minimum zoom level at which Contour lines is expected to be viewable on the map;
+- **{% data variables.android-values.show_from_zoom_level%}** - the minimum [zoom level](/osmand/map/interact-with-map#my-location--zoom) at which Contour lines is expected to be viewable on the map;
 - **{% data variables.android-values.srtm_color_scheme %}** - a choice of color options in which to view the Contour lines on the map; 
 - **{% data variables.android-values.rendering_attr_contourWidth_name %}** - a choice of the width options to establish for the Contour lines; 
 - **{% data variables.android-values.rendering_attr_contourDensity_name %}** - a choice of the density options to establish for the Contour lines. The higher the density, the slower the map might be rendered;
