@@ -264,7 +264,7 @@ In the **iOS** version, to set the preferred language for the Wikipedia data, do
 
 2. Select a profile and find the **{% data variables.ios-values.map_settings_show %}** section of settings.
 
-3. Tap **{% data variables.ois-values.res_wiki %}** and then tap **{% data variables.ios-values.language %}**. 
+3. Tap **{% data variables.ios-values.res_wiki %}**, if needed, toggle **{% data variables.ios-values.shared_string_enabled %}** on, and then tap **{% data variables.ios-values.language %}**. 
 
 4. Check the preferred language(-s) in the opened list. 
 
@@ -281,7 +281,7 @@ In the **Android** version, to set the preferred language for the Wikipedia data
 
 2. Select a profile and find the **{% data variables.android-values.shared_string_show %}** section of settings.
 
-3. Tap **{% data variables.android-values.shared_string_wikipedia %}** and then tap **{% data variables.android-values.shared_string_language %}**. 
+3. Tap **{% data variables.android-values.shared_string_wikipedia %}**, toggle it enabled, and then tap **{% data variables.android-values.shared_string_language %}**. 
 
 4. Check the preferred language(-s) in the opened list. 
 

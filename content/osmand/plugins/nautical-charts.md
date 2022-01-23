@@ -212,16 +212,19 @@ The nautical settings can be used for any profile. However, the most value it ma
 
 {% ios%}
 
-In the **iOS** version, with the Nautical plugin enabled and a Nautical map downloaded, you can:
+In the **iOS** version, with the Nautical plugin enabled and a Nautical map downloaded, for every specific profile you can change the map type, and the visibility of the depth contour.
 
-- Change the map type to **Nautical** and thus, reveal more nautical-specific colors and visualization on the map 
+#### NAUTICAL MAP TYPE
+
+To change the map type to **Nautical** and thus, reveal more nautical-specific colors and visualization on the map, go to:
 
 &nbsp;&nbsp;&nbsp;&nbsp;{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_type %}
 
 ![Nautical Map Type in iOS](/assets/images/plugins/nautical-charts/ios_nautical_map_type1.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;
-- Show or hide the depth contours
+#### DEPTH CONTOUR
+
+To show or hide the depth contours, and thus, adjust the visual representation of the map to your needs, go to: 
 
 &nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.res_details %}  
         
@@ -231,24 +234,28 @@ In the **iOS** version, with the Nautical plugin enabled and a Nautical map down
 
 {% android%}
 
-In the **Android** version, with the Nautical plugin enabled and a Nautical map downloaded, for every specific profile you can establish the nautical settings, as follows. 
+In the **Android** version, with the Nautical plugin enabled and a Nautical map downloaded, for every specific profile you can change the map type, the visibility of the depth contour, and select the level of details for the seabed to be displayed with. 
 
-- Change the map style to **Nautical** and thus, reveal more nautical-specific colors and visualization on the map.  
+#### NAUTICAL MAP TYPE
 
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → <*specific Profile*> → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.map_widget_renderer %}
+To change the map type to **Nautical** and thus, reveal more nautical-specific colors and visualization on the map, go to: 
+
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.map_widget_renderer %}
 
 ![Nautical Map Type in Android](/assets/images/plugins/nautical-charts/and_map_style1.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;
-- Show or hide the depth contours. 
+#### DEPTH CONTOUR
 
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → <*specific Profile*> → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.shared_string_details %}
+To show or hide the depth contours, and thus, adjust the visual representation of the map to your needs, go to: 
+
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.shared_string_details %}
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;
-- Specify the level of seabed details displayed on the map. 
+#### SEABED DETAILS
 
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → <*specific Profile*> → {% data variables.android-values.map_widget_map_rendering %} → Seabed detail
+To specify the level of seabed details displayed on the map, go to:
+
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → Seabed detail
 
 ![Seabed details in Android](/assets/images/plugins/nautical-charts/and_seabed_details1.png)
 

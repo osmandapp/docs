@@ -76,7 +76,7 @@ In the **Android** version, to enable the plugin, tap Enable for **Contour lines
 
 ## Download Contour lines/Terrain 
 
-There are three types of the elevation data packages for [download per region](osmand/start-with/download-maps): Contour lines, Hillshade and Slope. Most often all of them can be downloaded at the country level. And also, there are maps available per lower region level. 
+There are three types of the elevation data packages for [download per region](/osmand/start-with/download-maps): Contour lines, Hillshade and Slope. Most often all of them can be downloaded at the country level. And also, there are maps available per lower region level. 
 
 ### Consider country/region levels 
 
@@ -209,7 +209,7 @@ In the **iOS** version, to download any of the available packages of Contour lin
 
     2.1. The **{% data variables.ios-values.res_region_map %}** section provides available packages with maps for the entire country. If needed, download ones. 
 
-    2.2.  The **{% data variables.ios-values.res_mapsres %}** section lists the regions of the country. If to tap a region, there will be available map packages to download for the region. 
+    2.2.  The **{% data variables.ios-values.res_mapsres %}** section lists the regions of the country. If to tap a region, there will be map packages available to download for the region. 
 
 ![Contour lines download iOS](/assets/images/plugins/contour-lines/contour_lines_plugin_download_ios.png)
 
@@ -225,7 +225,7 @@ In the **Android** version, to download any of the available packages of Contour
 
     2.1. The **{% data variables.android-values.region_maps %}** section provides available packages with maps for the entire country. If needed, download ones.
 
-    2.2. The **{% data variables.android-values.regions %}** section lists the regions of the country. If to tap a region, there will be available map packages to download for the region.
+    2.2. The **{% data variables.android-values.regions %}** section lists the regions of the country. If to tap a region, there will be map packages available to download for the region.
 
 ![Contour lines download Android](/assets/images/plugins/contour-lines/contour_lines_plugin_download_android.png)
 
