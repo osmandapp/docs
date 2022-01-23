@@ -203,9 +203,7 @@ To download Contour lines, Hillshade, and/or Slope for a specific area, do the f
 
 In the **iOS** version, to download any of the available packages of Contour lines, Hillshade, and/or Slope, do the following:
 
-1. Go to: 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} 
+1. Go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} 
 
 2. Select a country, and observe any of the following sections:
 
@@ -221,9 +219,7 @@ In the **iOS** version, to download any of the available packages of Contour lin
 
 In the **Android** version, to download any of the available packages of Contour lines, Hillshade, and/or Slope, do the following:
 
-1. Go to: 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
+1. Go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
 
 2. Select a country, and observe any of the following sections:
 
@@ -261,9 +257,7 @@ For the **Terrain** option, it is possible to enable only one map at a time: eit
 
 In the **iOS** version, to show the **Contour lines** map for the selected profile and all downloaded areas, do the following:
 
-1. Go to: 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %}.
+1. Go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %}.
 
 2. Scroll down up to **{% data variables.ios-values.map_settings_style %}**, and toggle on the **Contour lines** option. 
 
@@ -273,9 +267,7 @@ In the **iOS** version, to show the **Contour lines** map for the selected profi
 
 In the **iOS** version, to show one of the **Terrain** maps for the selected profile and all downloaded areas, do the following:
 
-1. Go to: 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %}.
+1. Go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %}.
 
 2. Scroll down up to **{% data variables.ios-values.map_settings_overunder %}**, toggle on the **Terrain** option, and tap it, to open the context menu, see the figure below.
 
@@ -292,9 +284,7 @@ In the **iOS** version, to show one of the **Terrain** maps for the selected pro
 
 In the **Android** version, to show the **Contour lines** map for the selected profile and all downloaded areas, do the following:
 
-1. Go to: 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %}
+1. Go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %}
 
 2. Select a Profile, and look for the **{% data variables.android-values.shared_string_show %}** section of settings in the menu.
 
@@ -307,11 +297,9 @@ In the **Android** version, to show the **Contour lines** map for the selected p
 
 In the **Android** version, to show one of the **Terrain** maps for the selected profile and all downloaded areas, do the following:
 
-1. Go to: 
+1. Go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %}
 
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %}
-
-2.Select a Profile, and look for the **{% data variables.android-values.shared_string_show %}** section in the menu.
+2. Select a Profile, and look for the **{% data variables.android-values.shared_string_show %}** section in the menu.
 
 3. Within the section, scroll down up to **{% data variables.android-values.shared_string_terrain %}**, toggle on the **Terrain** option, and tap it, to open the context menu, see the figure below.
 

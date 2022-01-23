@@ -81,9 +81,7 @@ To download the Wikipedia data for a region, go to the [available packages for d
 
 In the **iOS** version, the Wikipedia data to download per region can be opened, as follows: 
 
-1. Go to:
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} 
+1. Go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.res_mapsres %} → {% data variables.ios-values.res_worldwide %} 
 
 2. Select the required region. Once the region is opened, the Wikipedia data will be among other packages. 
 
@@ -99,15 +97,13 @@ To view what data is already downloaded, go to:
 
 In the **Android** version, the Wikipedia data to download per region can be opened, as follows: 
 
-1. Go to: 
+1. Go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
 
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.regions %}
-
- 2. Select the required region. Once the region is opened, the Wikipedia data will be among other packages. 
+2. Select the required region. Once the region is opened, the Wikipedia data will be among other packages. 
  
- To view what data is already downloaded, go to: 
+To view what data is already downloaded, go to: 
  
- {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_wikipedia_maps %}
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.download_tab_local %} → {% data variables.android-values.download_wikipedia_maps %}
 
 ![Download Wikipedia in Android](/assets/images/plugins/wikipedia/download_wikipedia_android2.png)
 
@@ -135,9 +131,7 @@ To show, or hide the Wikipedia POI, select the profile first, and then toggle th
 
 In the **iOS** version, to show/hide the Wikipedia POI, do the following:
 
-1. Go to: 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %}
+1. Go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %}
 
 2. Select a Profile, and look for the **{% data variables.ios-values.map_settings_show %}** section in the menu.
 
@@ -151,9 +145,7 @@ In the **iOS** version, to show/hide the Wikipedia POI, do the following:
 
 In the **Android** version, to show/hide the Wikipedia POI, do the following: 
 
-1. Go to: 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %}
+1. Go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %}
 
 2. Select a Profile, and look for the **{% data variables.android-values.shared_string_show %}** section of settings in the menu.
 
@@ -268,9 +260,7 @@ To set the preferred language, so that to view the Wikipedia data in, go to the 
 
 In the **iOS** version, to set the preferred language for the Wikipedia data, do the following:
 
-1. Go to: 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %}
+1. Go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %}
 
 2. Select a profile and find the **{% data variables.ios-values.map_settings_show %}** section of settings.
 
@@ -287,9 +277,7 @@ In the **iOS** version, to set the preferred language for the Wikipedia data, do
 
 In the **Android** version, to set the preferred language for the Wikipedia data, do the following:
 
-1. Go to: 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %}
+1. Go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %}
 
 2. Select a profile and find the **{% data variables.android-values.shared_string_show %}** section of settings.
 
