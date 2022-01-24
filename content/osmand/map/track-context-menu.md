@@ -348,34 +348,45 @@ This tab opens a with speed info on distance, additional track data.
 
 {% endios %}
 
-
 ## Points / Waypoints
 
-Points / Waypoins menu in Context track menu opens list of track / folders waypoints.
+### Add / Delete
 
-![Track menu points Android](/assets/images/personal/tracks/track_menu_points_android.png) ![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_ios.png)
+Points / Waypoins menu in Context track menu opens list of track / folders waypoints.
 
 {% data reusables.general.android-ios-switcher %}
 
 {% default %}
 
-{% enddefault %}
+![Track menu points Android](/assets/images/personal/tracks/track_menu_points_android.png) ![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_ios.png)
 
+{% enddefault %}
 
 {% android %}
 
-{% endandroid %}
+![Track menu points Android](/assets/images/personal/tracks/track_menu_points_android.png)
 
+{% endandroid %}
 
 {% ios %}
 
+![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_ios.png)
 
 {% endios %}
 
-Points / Waypoins menu in Context track menu opens list of track / folders waypoints.
+### Waypoints folder 
 
-![Track menu points Android](/assets/images/personal/tracks/track_menu_points_android.png) ![Statistics screen track iOS](/assets/images/personal/tracks/waypoints_track_list_ios.png)
+"&#8285;" button opens waypoint Group menu.
 
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Track menu Group menu Android](/assets/images/personal/tracks/track_menu_group_menu_android.png) ![Track menu Group menu iOS](/assets/images/personal/tracks/track_menu_group_menu_ios.png) 
+
+{% enddefault %}
+
+{% android %}
 
 "&#8285;" button opens waypoint Group menu.
 
@@ -389,6 +400,19 @@ Actions:
 - {% data variables.android-values.copy_to_map_favorites %} - allows to move group waypoints to [Favorites](/osmand/personal/favorites).
 - {% data variables.android-values.shared_string_delete %} - allows to delete group waypoints.
 
+{% endandroid %}
+
+{% ios %}
+
+![Track menu Group menu iOS](/assets/images/personal/tracks/track_menu_group_menu_ios.png) 
+
+Actions:
+- {% data variables.ios-values.shared_string_show_on_map %} - allows to show or not group waypoints on the map.
+- {% data variables.ios-values.shared_string_rename %} - allows to change Group name.
+- {% data variables.ios-values.change_color %} - allows to change color for group waypoints.
+- {% data variables.ios-values.shared_string_delete %} - allows to delete group waypoints.
+
+{% endios %}
 
 ## Options
 
