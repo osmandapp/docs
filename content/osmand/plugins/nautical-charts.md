@@ -248,19 +248,29 @@ To change the map type to **Nautical** and thus, reveal more nautical-specific c
 
 To show or hide the depth contours, and thus, adjust the visual representation of the map to your needs, go to: 
 
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.shared_string_details %}
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.rendering_attr_depthContours_name %}
+
+![Nautical depth contours in Android](/assets/images/plugins/nautical-charts/and_nautical_depth_contours2.png)
 
 
 #### SEABED DETAILS
 
-To specify the level of seabed details displayed on the map, go to:
+Seabed details provide information about the vegetation and general material the surface is composed of, such as: rocky, shells, gravel, coral, mud, etc. Due to the international classification of the seabed data, there are options of how to display such details on the map: all, category, simple, or omit. To select one of the seabed details options, go to:
 
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → Seabed detail
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.rendering_attr_seabedDetail_name %}
 
 ![Seabed details in Android](/assets/images/plugins/nautical-charts/and_seabed_details1.png)
 
-{% endandroid%}
+| Seabed details | Description |
+| --- | --- |
+| ![Seabed simple](/assets/images/plugins/nautical-charts/seabed_simple1.png) | **Simple** - shows the seamark symbols in accordance with INT-1 Ref, indicating the nature of the seabed surface. |
+| ![Seabed category](/assets/images/plugins/nautical-charts/seabed_category1.png) | **Category** - in addition to the seamark symbol, also shows the respective seamark tag, indicating the natural material, or the seaweed/seagrass category | 
+| ![Seabed all](/assets/images/plugins/nautical-charts/seabed_all1.png) | **All** - in addition to the seamark symbol, tag or category, also shows qualification, like: sticky, coarse, etc. detailing the material size, morphology, consistency; or for seagrass/seaweed, shows data marked with *taxon* and *genus* tags|
+| No display | **Omit** |
 
+>**NOTE**: For more details on the classification of the surface details and the rendering options, refer to [OSM's seamark wiki](https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Section_J).
+
+{% endandroid%}
 
 
 
