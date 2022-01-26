@@ -19,7 +19,7 @@ versions: '*'
 
 ## Map Layers
    - [Vector Map Layer](//osmand/map/vector-maps) - displays all vector map information including OpenStreetMap, Contour lines, Nautical data.
-   - [Map sources](/osmand/map/raster-maps#select-map-as-main--underlay--overlay-layer) - select underlay / main source / overlay map with transparency levels.
+   - [Map Raster sources](/osmand/map/raster-maps#select-map-as-main--underlay--overlay-layer) - select underlay / main source / overlay map with transparency levels.
    - [Terrain](/osmand/map/raster-maps#hillshade--slope) - display raster slope or hillshade information.
 
 ## Map Data Layers
