@@ -171,7 +171,7 @@ For an optimal representation, it is possible to select maps up to your current 
 
 
 
-### Nautical map style
+### Set map style to Nautical
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -211,7 +211,7 @@ In the **Android** version, to change the map style to **Nautical** and thus, re
 
 
 
-## Nautical map options
+## Nautical options
 
 The Nautical map can be enabled for any profile. However, the most value it makes to use it within the [Boat profile](/osmand/personal/profiles) and especially with the [Boat navigation](/osmand/navigation/boat-navigation). 
 
@@ -255,7 +255,7 @@ In the **Android** version, with the Nautical plugin set up, you can show, or hi
 
 
 
-### Seabed details in Android only
+### Seabed details - Android only
 
 Seabed details provide information about the vegetation and general material the surface is composed of, such as: rocky, shells, gravel, coral, mud, etc. Due to the international classification of the seabed data, there are options of how to display such details on the map: *simple*, *category*, *all*, or *omit*. To select one of the seabed details options, go to:
 
@@ -277,7 +277,7 @@ Seabed details provide information about the vegetation and general material the
 
 
 
-### Use Map legend, for any reference 
+### Map legend
 
 Use the Map Legend for any reference on what is displayed on the Nautical map. [Map legend](https://osmand.net/help-online/map-legend#nautical) helps everybody who wants to read the map. It provides explanation of symbolic elements on the Nautical map, and serves as a reference to guide yourself with in case of doubts. The Map Legend shows the following visual elements you can find on the map:
 
@@ -300,12 +300,12 @@ Use the Map Legend for any reference on what is displayed on the Nautical map. [
 - and other signs of prohibition, information, regulation, recommendation, etc.
 
 
-### Return to conventional maps
+### Remove Nautical 
 
-To return to one of OsmAnd's conventional map styles, do any of the following:
+To remove Nautical and display one of OsmAnd's conventional maps, do any of the following:
 
 - disable the Nautical plugin, 
-- change the 'Map style' to anything else then 'Nautical'. 
+- change the map style to anything else then 'Nautical'. 
 
->**NOTE**: By disabling the Nautical plugin, the downloaded nautical maps are not removed, so even if the rendering method is changed from nautical to anything else, when the nautical data is downloaded, it remains visible on the map. 
+>**NOTE**: By disabling the Nautical plugin, the downloaded nautical data is not deleted, so even if the rendering method is changed from nautical to anything else, when the nautical data is downloaded, it remains visible on the map. 
 
