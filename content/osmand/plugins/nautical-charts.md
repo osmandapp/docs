@@ -228,7 +228,7 @@ With the Nautical map on the screen, you can adjust what you see by:
 - showing or hiding the depth contours;
 - specifying the detail level for the seabed information. 
 
-![Depth contours in iOS](/assets/images/plugins/nautical-charts/ios_depth_contours1.png) ![Nautical depth contours in Android](/assets/images/plugins/nautical-charts/and_nautical_depth_contours2.png)
+![Depth contours in iOS](/assets/images/plugins/nautical-charts/ios_depth_contours.png) ![Nautical depth contours in Android](/assets/images/plugins/nautical-charts/and_depth_contours.png)
 
 {% enddefault %}
 
@@ -238,7 +238,7 @@ In the **iOS** version, with the Nautical plugin set up, you can show, or hide t
 
 &nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.res_details %}  
         
-![Depth contours in iOS](/assets/images/plugins/nautical-charts/ios_depth_contours1.png)
+![Depth contours in iOS](/assets/images/plugins/nautical-charts/ios_depth_contours.png)
 
 {% endios%}
 
@@ -248,7 +248,7 @@ In the **Android** version, with the Nautical plugin set up, you can show, or hi
 
 &nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.rendering_attr_depthContours_name %}
 
-![Nautical depth contours in Android](/assets/images/plugins/nautical-charts/and_nautical_depth_contours2.png)
+![Nautical depth contours in Android](/assets/images/plugins/nautical-charts/and_depth_contours.png)
 
 
 {% endandroid%}
