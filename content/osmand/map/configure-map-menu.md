@@ -18,17 +18,20 @@ versions: '*'
 - Configure map settings are [profile dependent](/osmand/personal/profiles)
 
 ## Map Layers
+   - [Vector Map Layer](//osmand/map/vector-maps) - displays all vector map information including OpenStreetMap, Contour lines, Nautical data.
+   - [Map sources](/osmand/map/raster-maps#select-map-as-main--underlay--overlay-layer) - select underlay / main source / overlay map with transparency levels.
+   - [Terrain](/osmand/map/raster-maps#hillshade--slope) - display raster slope or hillshade information.
+
+## Map Data Layers
    - [Favorites](/osmand/map/point-layers-on-map) - display favorites points.
    - [POI](/osmand/map/point-layers-on-map) - display points of interests of selected categories.
    - [Map markers](/osmand/map/point-layers-on-map) - display map markers.
    - [Overlay labels](/osmand/map/point-layers-on-map) - show names of points, favorites on the map.
    - [Transport](/osmand/map/vector-maps#transport) - show public transport stops.
    - [Tracks](/osmand/map/tracks-on-map) - display imported, planned or recorded tracks over the map.
-   - [Map sources](/osmand/map/raster-maps#select-map-as-main--underlay--overlay-layer) - select underlay / main source / overlay map with transparency levels.
    - [Street level imagery](/osmand/map/street-level-imagery) - display points with available street-level imagery.
+   - [Travel guides](/osmand/plan-route/travel-guides) - display travel guides on the map.
    - [Wikipedia](/osmand/plugins/wikipedia) - highlight wikipedia articles linked to the map.
-   - [Contour lines](/osmand/map/contour-lines-hillshade) - display depth or height contour lines.
-   - [Terrain](/osmand/map/raster-maps#hillshade--slope) - display raster slope or hillshade information.
    - [Other plugin layers](/osmand/plugins) - many plugins add own layers with extra information.
 
 ## Map style parameters
