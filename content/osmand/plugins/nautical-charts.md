@@ -23,7 +23,7 @@ The Nautical plugin of OsmAnd extends the map styles of the vector layer with th
 In addition to the Nautical style, the plugin provides the Nautical map packages for download. These are extra data to enrich the representation of marine information on the map. It cannot replace the official nautical chart. However, based on [OpenSeaMap](http://www.openseamap.org/), the Nautical map packages provide vital details on the inland waterways, wildwater, infrastructure of ports and onshore facilities, etc. which are helpful during navigating on the water.
 
 
-### Why Nautical matters? 
+### Why does Nautical matter? 
 
 All professional sailors are obliged to have official nautical charts on their ships. These charts are published by authorized agencies and cost quite some money. Agencies are investing a lot in keeping the charts up to date. They release updates for the charts on regular basis, but, because of the fact that reviewing the information and processing the updates take time, the nautical charts are never completely up-to-date.
 
@@ -177,11 +177,7 @@ For an optimal representation, it is possible to select maps up to your current 
 
 {% default %}
 
-The Nautical map style can be enabled for any profile. However, the most value it makes to use it within the [Boat profile](/osmand/personal/profiles) and especially with the [Boat navigation](/osmand/navigation/boat-navigation). 
-
-![Boat profile in iOS](/assets/images/plugins/nautical-charts/ios_boat_profile1.png) ![Boat navigation in iOS](/assets/images/plugins/nautical-charts/ios_boat_navigation2.png) 
-
-To change the current map style to Nautical, use the [Configure map](/osmand/map/configure-map-menu) menu, scroll down to the Map Style, and select Nautical. 
+By establishing the Nautical map style, it is possible to achieve the best representation of the downloaded and rendered Nautical data.  To change the current map style to Nautical, use the [Configure map](/osmand/map/configure-map-menu) menu, scroll down to the Map Style, and select Nautical. 
 
 ![Nautical Map Type in iOS](/assets/images/plugins/nautical-charts/ios_nautical_map_type1.png) ![Nautical Map Type in Android](/assets/images/plugins/nautical-charts/and_map_style1.png)
 
@@ -213,7 +209,75 @@ In the **Android** version, to change the map style to **Nautical** and thus, re
 
 
 
-## Use Map legend, for any reference 
+
+
+## Nautical map options
+
+The Nautical map can be enabled for any profile. However, the most value it makes to use it within the [Boat profile](/osmand/personal/profiles) and especially with the [Boat navigation](/osmand/navigation/boat-navigation). 
+
+![Boat profile in iOS](/assets/images/plugins/nautical-charts/ios_boat_profile1.png) ![Boat navigation in iOS](/assets/images/plugins/nautical-charts/ios_boat_navigation2.png) 
+
+### Depth contours
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+With the Nautical map on the screen, you can adjust what you see by:
+     
+- showing or hiding the depth contours;
+- specifying the detail level for the seabed information. 
+
+![Depth contours in iOS](/assets/images/plugins/nautical-charts/ios_depth_contours1.png) ![Nautical depth contours in Android](/assets/images/plugins/nautical-charts/and_nautical_depth_contours2.png)
+
+{% enddefault %}
+
+{% ios%}
+
+In the **iOS** version, with the Nautical plugin set up, you can show, or hide the depth contours with the respective option in the [Configure map](/osmand/map/configure-map-menu) menu: 
+
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.res_details %}  
+        
+![Depth contours in iOS](/assets/images/plugins/nautical-charts/ios_depth_contours1.png)
+
+{% endios%}
+
+{% android%}
+
+In the **Android** version, with the Nautical plugin set up, you can show, or hide the depth contours with the respective option in the [Configure map](/osmand/map/configure-map-menu) menu: 
+
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.rendering_attr_depthContours_name %}
+
+![Nautical depth contours in Android](/assets/images/plugins/nautical-charts/and_nautical_depth_contours2.png)
+
+
+{% endandroid%}
+
+
+
+### Seabed details in Android only
+
+Seabed details provide information about the vegetation and general material the surface is composed of, such as: rocky, shells, gravel, coral, mud, etc. Due to the international classification of the seabed data, there are options of how to display such details on the map: *simple*, *category*, *all*, or *omit*. To select one of the seabed details options, go to:
+
+&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.rendering_attr_seabedDetail_name %}
+
+![Seabed details in Android](/assets/images/plugins/nautical-charts/and_seabed_details1.png)
+
+| Parameter and Description |
+| --- | 
+| **Omit** - shows no seabed details. |
+| **Simple** - shows the seamark symbols in accordance with INT-1 Ref, indicating the nature of the seabed surface. |
+| ![Seabed simple](/assets/images/plugins/nautical-charts/seabed_simple1.png) |
+| **Category** - in addition to the seamark symbol, also shows the respective seamark tag, indicating the natural material, or the seaweed/seagrass category. | 
+| ![Seabed category](/assets/images/plugins/nautical-charts/seabed_category1.png) |
+| **All** - in addition to the seamark symbol, tag or category, also shows qualification, like: fine, sticky, coarse, etc.; or for seagrass/seaweed, shows data marked with the *taxon* and *genus* tags.|
+| ![Seabed all](/assets/images/plugins/nautical-charts/seabed_all1.png) | 
+
+>**NOTE**: For more details on the classification of the surface details and the rendering options, refer to [OSM's seamark wiki](https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Section_J).
+
+
+
+### Use Map legend, for any reference 
 
 Use the Map Legend for any reference on what is displayed on the Nautical map. [Map legend](https://osmand.net/help-online/map-legend#nautical) helps everybody who wants to read the map. It provides explanation of symbolic elements on the Nautical map, and serves as a reference to guide yourself with in case of doubts. The Map Legend shows the following visual elements you can find on the map:
 
@@ -236,72 +300,7 @@ Use the Map Legend for any reference on what is displayed on the Nautical map. [
 - and other signs of prohibition, information, regulation, recommendation, etc.
 
 
-
-
-## Nautical map options
-
-{% data reusables.general.android-ios-switcher %}
-
-{% default %}
-
-With the Nautical map on the screen, you can adjust what you see by:
-     
-- showing or hiding the depth contours;
-- specifying the detail level for the seabed information. 
-
-![Depth contours in iOS](/assets/images/plugins/nautical-charts/ios_depth_contours1.png) 
-
-{% enddefault %}
-
-{% ios%}
-
-In the **iOS** version, with the Nautical plugin set up, you can show, or hide the depth contours with the respective option in the [Configure map](/osmand/map/configure-map-menu) menu: 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.res_details %}  
-        
-![Depth contours in iOS](/assets/images/plugins/nautical-charts/ios_depth_contours1.png)
-
-{% endios%}
-
-{% android%}
-
-In the **Android** version, with the Nautical plugin set up, you can change the visibility of the depth contour, and select the level of details for the seabed to be displayed with. 
-
-
-#### DEPTH CONTOUR
-
-To show or hide the depth contours, and thus, adjust the visual representation of the map to your needs, use the [Configure map](/osmand/map/configure-map-menu) menu and the respective option, as follows: 
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.rendering_attr_depthContours_name %}
-
-![Nautical depth contours in Android](/assets/images/plugins/nautical-charts/and_nautical_depth_contours2.png)
-
-
-#### SEABED DETAILS
-
-Seabed details provide information about the vegetation and general material the surface is composed of, such as: rocky, shells, gravel, coral, mud, etc. Due to the international classification of the seabed data, there are options of how to display such details on the map: *simple*, *category*, *all*, or *omit*. To select one of the seabed details options, go to:
-
-&nbsp;&nbsp;&nbsp;&nbsp;{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.rendering_attr_seabedDetail_name %}
-
-![Seabed details in Android](/assets/images/plugins/nautical-charts/and_seabed_details1.png)
-
-| Parameter and Description |
-| --- | 
-| **Omit** - shows no seabed details. |
-| **Simple** - shows the seamark symbols in accordance with INT-1 Ref, indicating the nature of the seabed surface. |
-| ![Seabed simple](/assets/images/plugins/nautical-charts/seabed_simple1.png) |
-| **Category** - in addition to the seamark symbol, also shows the respective seamark tag, indicating the natural material, or the seaweed/seagrass category. | 
-| ![Seabed category](/assets/images/plugins/nautical-charts/seabed_category1.png) |
-| **All** - in addition to the seamark symbol, tag or category, also shows qualification, like: fine, sticky, coarse, etc.; or for seagrass/seaweed, shows data marked with the *taxon* and *genus* tags.|
-| ![Seabed all](/assets/images/plugins/nautical-charts/seabed_all1.png) | 
-
->**NOTE**: For more details on the classification of the surface details and the rendering options, refer to [OSM's seamark wiki](https://wiki.openstreetmap.org/wiki/Seamarks/INT-1_Section_J).
-
-{% endandroid%}
-
-
-
-## Return to conventional maps
+### Return to conventional maps
 
 To return to one of OsmAnd's conventional map styles, do any of the following:
 
