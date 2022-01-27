@@ -1,37 +1,94 @@
 ---
 title: "{% data variables.android-values.record_plugin_name %}"
-intro: "Essential tool that allows user to record his track using phone's GPS"
+intro: "GPS data recorded and stored in a file can be re-used, improved, tweaked, added with waypoints, provided for navigation, shared with friends, etc. to tell a story of where you have been."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-The Trip recording plugin enables functionality to record and save users tracks.
 
-![Enable / Disable Plugin Android](/assets/images/plugins/enable_disable_plugin_android.png) ![Enable / Disable Plugin iOS](/assets/images/plugins/enable_disable_plugin_ios.png)
+## Overview
 
-## Enable / Disable Plugin
+GPS data consists of the latitude and longitude of your location at a specific moment in time. If it is recorded into a file as a set of location points in a particular order, the file stores the course of your trip. By placing the points from the file onto the map, the trip is visualized as a track with exact start and destination, as well as the route along which it is possible to go again, or share with somebody, or improve, etc. 
 
-In order to Enable / Disable plugin please use:
+There are three base capabilities in regard to Trip recording: creating new tracks, showing the existing tracks on the map, and working with the ready records. The plugin is required to be enabled only for making new records. Using already created tracks is possible whenever needed. 
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.map_widget_monitoring %} → tap on the plugin or tap three vertical dots. 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → tab {% data variables.ios-values.track_recording %} → tick the button
 
-> **_Note:_** [Trip recording (REC) widget](/osmand/widgets/info-widgets#-trip-recording-widget) is required to use Trip recording feature.
+## Setup 
 
-## Trip recording Plugin settings
+To start making new recording, the following setup is required: 
 
-To configure settings follow {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.map_widget_monitoring %}
+1. Enable the plugin. 
 
-![REC Settings Plugin Android](/assets/images/plugins/trip-recording/rec_settings_plugin_android.png)
+2. Configure Trip recording for the required profile.
 
-### Configure trip recording profile
+3. If needed, add the REC widget to the screen. 
 
-Default 'Trip recording' profile is Browse map profile. User can choose other OsmAnd profile or create his own (Manage<!--сделать ссылку на инстукцию как сделать уникальный профиль [Manage profile ](text)-->) profile.
+Once setup completed, it is possible to make new records, as well as to display tracks on the map, and if needed, manage the existing tracks by changing their appearance, editing the route, adding waypoints, etc. 
 
-![REC profile Android](/assets/images/plugins/trip-recording/rec_plugin_change_profile_android.png)
+![Recorded trip in iOS](/assets/images/plugins/trip-recording/ios_recorded_trip1.png) ![Recorded trip in Android](assets/images/plugins/trip-recording/and_recorded_trip1.png)
 
-To change the profile please click the globe icon in the upper-right corner.
+
+### Enable plugin
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+The Trip recording plugin is needed for recording new tracks. It is possible to do either with the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget), or the Trip recording option in the menu. Both are added to the app with the Trip recording plugin. 
+
+![Enable / Disable Plugin iOS](/assets/images/plugins/enable_disable_plugin_ios.png) ![Enable / Disable Plugin Android](/assets/images/plugins/enable_disable_plugin_android.png) 
+
+{% enddefault %}
+
+{% ios%}
+
+In the **iOS** version, the Trip recording plugin is enabled by tapping the respective option in:
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → tab {% data variables.ios-values.track_recording %}
+
+![Enable / Disable Plugin iOS](/assets/images/plugins/enable_disable_plugin_ios.png)
+
+{% endios%}
+
+{% android%}
+
+In the **Android** version, to enable the Trip recording plugin, tap the triple dots at the right side of the option and select **Enable**: 
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.map_widget_monitoring %} 
+
+![Enable / Disable Plugin Android](/assets/images/plugins/enable_disable_plugin_android.png) 
+
+{% endandroid%}
+
+
+
+
+### Configure Trip recording per profile
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+
+![Trip recording settings per profile in iOS](/assets/images/plugins/trip-recording/ios_profile_trip_rec2.png) ![Trip recording settings per profile in Android](/assets/images/plugins/trip-recording/and_profile_trip_rec2.png)
+
+{% enddefault %}
+
+{% ios%}
+
+![Trip recording settings per profile in iOS](/assets/images/plugins/trip-recording/ios_profile_trip_rec2.png) 
+
+
+{% endios%}
+
+{% android%}
+
+![Trip recording settings per profile in Android](/assets/images/plugins/trip-recording/and_profile_trip_rec2.png)
+
+{% endandroid%}
+
+
 
 ### Configure trip recording navigation
 
