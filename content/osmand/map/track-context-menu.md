@@ -503,11 +503,11 @@ This feature doesn't exist for iOS version of OsmAnd.
 
 A user can filter points of a GPX track by Smoothing, Speed, Altitude, Min GPS Precision for saving new track without excluded points.
 
+![GPS filter screen Android](/assets/images/personal/tracks/gps_filter_android.png)
+
 {% data reusables.general.android-ios-switcher %}
 
 {% default %}
-
-![GPS filter screen Android](/assets/images/personal/tracks/gps_filter_android.png)
 
 {% enddefault %}
 
@@ -523,7 +523,7 @@ In the screen you see the map (with [zoom buttons](/osmand/map/interact-with-map
 
 Here you can change any filter parameters for your track. The menu two parts: Points and Actions.
 
-| **Points** | 
+| **_Points_** | 
 |:------------|
 |Numbers points after filtration / all points of the track.| 
 |![GPS filter screen points numbers Android](/assets/images/personal/tracks/gps_filter_points_numbers_android.png) | 
@@ -537,8 +537,21 @@ Here you can change any filter parameters for your track. The menu two parts: Po
 |![GPS filter precision numbers Android](/assets/images/personal/tracks/gps_filter_precision_android.png) | 
 
 
+**_Actions_**
 
-**Statistics**
+OsmAnd will apply the changes to the track without updating the file. You can save changes manually.
+
+- {% data variables.android-values.reset_to_original %} - allows to reset parameters to original.
+- {% data variables.android-values.save_as_copy %} - allows to save the track as new.
+- {% data variables.android-values.save_changes_into_file %} - allows to rewrite the track with new parameters.
+
+**Statistics** Menu
+
+This menu has two parts: Graph and Actions. Actions part is similar like Filter menu.
+
+The Graph part has three graph parametes: Overview, Altitude, Speed. This functional is a copy of [track Graph](osmand/map/track-context-menu#altitude--speed-graphs)
+
+![GPS filter graph Android](/assets/images/personal/tracks/gps_filter_graph_android.png)
 
 
 {% endandroid %}
