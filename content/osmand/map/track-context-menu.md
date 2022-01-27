@@ -420,12 +420,13 @@ Actions:
 
 ## Options
 
+Menu "Options" allows to make manipulation with the chosen track, to opens it in other tools.
 
 {% data reusables.general.android-ios-switcher %}
 
 {% default %}
 
-![Track menu options Android](/assets/images/personal/tracks/track_menu_options_android.png)  ![Track menu options Android](/assets/images/personal/tracks/track_menu_options_ios.png)  
+![Track menu options Android](/assets/images/personal/tracks/track_menu_options_android.png)  ![Track menu options iOS](/assets/images/personal/tracks/track_menu_options_ios.png)  
 
 {% enddefault %}
 
@@ -492,13 +493,15 @@ A user can divide a track by intervals (distance or time) and analyze it.
 
 {% ios %}
 
+{% note %}
 This feature doesn't exist for iOS version of OsmAnd.
+{% endnote %}
 
 {% endios %}
 
 ### GPS filter
 
-A user can filter points of a GPX track by Smoothing, Speed, Altitude, Min GPS Precision.
+A user can filter points of a GPX track by Smoothing, Speed, Altitude, Min GPS Precision for saving new track without excluded points.
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -510,7 +513,35 @@ A user can filter points of a GPX track by Smoothing, Speed, Altitude, Min GPS P
 
 {% android %}
 
+In the screen you see the map (with [zoom buttons](/osmand/map/interact-with-map#my-location--zoom), [my location button](/osmand/map/interact-with-map#my-location--zoom), my track location button), buttons "Reset" and "&#8285;"(Actions), part with two menus: **Filter** and **Statistics**.
 
+- "&#8285;"(Actions) button opens "Actions" part of "Filter" or "Statistics" menu.
+- "&#8634;" button allows to reset the track to original.
+- "My track location" button allows to move the map to your track.
+
+**Filter** Menu
+
+Here you can change any filter parameters for your track. The menu two parts: Points and Actions.
+
+| **Points** | 
+|:------------|
+|Numbers points after filtration / all points of the track.| 
+|![GPS filter screen points numbers Android](/assets/images/personal/tracks/gps_filter_points_numbers_android.png) | 
+|*Smoothing*: Set the threshold distance between points. Track points not at least this distance away from the last visible point will be hidden. Be aware that high thresholds may oversimplify the track geometry.| 
+|![GPS filter smoothing numbers Android](/assets/images/personal/tracks/gps_filter_smoothing_android.png) |
+|*Speed*: Only track points matching the set interval will appear on the chart and map, the rest will be hidden.| 
+|![GPS filter speed numbers Android](/assets/images/personal/tracks/gps_filter_speed_android.png) | 
+|*Altitude*: Only track points matching the set interval will appear on the chart and map, the rest will be hidden.| 
+|![GPS filter altitude numbers Android](/assets/images/personal/tracks/gps_filter_altitude_android.png) | 
+|*GPS precision*: Set the maximum accepted value for HDOP. Points with higher value will be hidden.| 
+|![GPS filter precision numbers Android](/assets/images/personal/tracks/gps_filter_precision_android.png) | 
+
+
+
+
+![GPS filter screen Android](/assets/images/personal/tracks/gps_filter_points_android.png) 
+
+**Statistics**
 
 
 {% endandroid %}
