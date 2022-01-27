@@ -538,9 +538,6 @@ Here you can change any filter parameters for your track. The menu two parts: Po
 
 
 
-
-![GPS filter screen Android](/assets/images/personal/tracks/gps_filter_points_android.png) 
-
 **Statistics**
 
 
