@@ -1,6 +1,6 @@
 ---
 title: "{% data variables.android-values.record_plugin_name %}"
-intro: "GPS data recorded and stored in a file can be re-used, improved, tweaked, added with waypoints, provided for navigation, shared with friends, etc. to tell a story of where you have been."
+intro: "To tell a story of where you have been, GPS data, as latitude and longitude of your location, can be recorded and stored in a file, and then re-used, improved, tweaked, added with waypoints, provided for navigation, shared with friends, etc."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
@@ -24,10 +24,11 @@ To start making new recording, the following setup is required:
 
 3. If needed, add the REC widget to the screen. 
 
-Once setup completed, it is possible to make new records, as well as to display tracks on the map, and if needed, manage the existing tracks by changing their appearance, editing the route, adding waypoints, etc. 
+Once setup completed, it is possible to make new records, as well as to display tracks on the map, and manage them by changing the appearance, editing the route, adding waypoints, etc. 
 
-![Recorded trip in iOS](/assets/images/plugins/trip-recording/ios_recorded_trip1.png) ![Recorded trip in Android](assets/images/plugins/trip-recording/and_recorded_trip1.png)
+![Recorded trip in iOS](/assets/images/plugins/trip-recording/ios_recorded_trip1.png) ![Recorded trip in Android](/assets/images/plugins/trip-recording/and_recorded_trip1.png)
 
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 ### Enable plugin
 
@@ -35,7 +36,7 @@ Once setup completed, it is possible to make new records, as well as to display 
 
 {% default %}
 
-The Trip recording plugin is needed for recording new tracks. It is possible to do either with the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget), or the Trip recording option in the menu. Both are added to the app with the Trip recording plugin. 
+The Trip recording plugin is needed for recording new tracks. It is possible to do either with the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget), or with the Trip recording option in the menu. Both are added to the app by the Trip recording plugin. 
 
 ![Enable / Disable Plugin iOS](/assets/images/plugins/enable_disable_plugin_ios.png) ![Enable / Disable Plugin Android](/assets/images/plugins/enable_disable_plugin_android.png) 
 
@@ -62,20 +63,30 @@ In the **Android** version, to enable the Trip recording plugin, tap the triple 
 {% endandroid%}
 
 
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-### Configure Trip recording per profile
+### Open settings 
 
 {% data reusables.general.android-ios-switcher %}
 
 {% default %}
 
+For each specific profile, Trip recording can be configured individually, as the parameters could differ depending on the character of the movement, for example, whether it is the location of a car driver, a cyclist, or a nordic walker that is detected. All profiles are configured in the general settings of the entire app. First, it is needed to select the required profile, and then among other settings of the profile, to find the section dedicated for Trip recording. 
 
 ![Trip recording settings per profile in iOS](/assets/images/plugins/trip-recording/ios_profile_trip_rec2.png) ![Trip recording settings per profile in Android](/assets/images/plugins/trip-recording/and_profile_trip_rec2.png)
 
 {% enddefault %}
 
 {% ios%}
+
+In the **iOS** version, to open settings for configuring Trip recording, do the following:
+
+1. Go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %}.
+
+2. Select a profile. 
+
+3. Tap **{% data variables.ios-values.track_recording %}**.
 
 ![Trip recording settings per profile in iOS](/assets/images/plugins/trip-recording/ios_profile_trip_rec2.png) 
 
@@ -84,30 +95,57 @@ In the **Android** version, to enable the Trip recording plugin, tap the triple 
 
 {% android%}
 
+In the **Android** version, to open settings for configuring Trip recording, do the following:
+
+1. Go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %}.
+
+2. Select a profile.
+
+3. Tap **{% data variables.android-values.record_plugin_name %}**.
+
+
 ![Trip recording settings per profile in Android](/assets/images/plugins/trip-recording/and_profile_trip_rec2.png)
 
 {% endandroid%}
 
 
+&nbsp;&nbsp;&nbsp;&nbsp;
 
-### Configure trip recording navigation
 
-![REC navigation Android](/assets/images/plugins/trip-recording/rec_plugin_navigation_android.png)
+### Establish options
 
-Auto-record track during navigation – the function that enables saving each 'trip recording' track automatically. <br>
-User may find his track under {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_files %} tab
+{% data reusables.general.android-ios-switcher %}
 
-> :warning: **Track recording impacts the battery life**. Even if the screen is off, it continues to run. Check the notifications in the background in status bar!
+{% default %}
 
-Logging interval during navigation controls the frequency of queries to the GPS sensor along with the frequency of new dots appearing in the track line. <br>
-By default, it is set to 5 seconds, but it can be configured in the range from 0 seconds to 5 minutes.
+With the Trip recording settings opened for a profile, establish the required options as needed. Use the description of available parameters specified below. 
 
-### Configure trip recording logging accuracy
+![Configuring Trip recording in iOS](/assets/images/plugins/trip-recording/ios_trip_rec_settings1.png) ![Configuring Trip recording in Android](/assets/images/plugins/trip-recording/and_trip_rec_settings1.png)
 
-![REC logging accuracy Android](/assets/images/plugins/trip-recording/rec_plugin_logging_accuracy_android.png)
+
+{% enddefault %}
+
+{% ios%}
+
+![Configuring Trip recording in iOS](/assets/images/plugins/trip-recording/ios_trip_rec_settings1.png)
+
+{% endios%}
+
+{% android%}
+
+![Configuring Trip recording in Android](/assets/images/plugins/trip-recording/and_trip_rec_settings1.png)
+
+{% endandroid%}
+
 
 | Parameter | Description |
-|--------------------------|-------------|
+|---|---|
+| Show start dialog | If enabled, to start the recording the respective option should be tapped on the Start dialog. Otherwise, the recording starts automatically. |
+|Auto-record track during navigation | Auto-record track during navigation – the function that enables saving each 'trip recording' track automatically. <br>
+User may find his track under {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.shared_string_gpx_files %} tab <br>
+warning: **Track recording impacts the battery life**. Even if the screen is off, it continues to run. Check the notifications in the background in status bar! | 
+| Logging interval during navigation | Logging interval during navigation controls the frequency of queries to the GPS sensor along with the frequency of new dots appearing in the track line. <br>
+By default, it is set to 5 seconds, but it can be configured in the range from 0 seconds to 5 minutes. |
 | General logging interval |Specifies the logging interval for the general track recording. Can be set to 'always ask' or optionally chosen in the range between 0 to 5 minutes. Can be turned on via [Trip recording (REC) widget](/osmand/widgets/info-widgets#-trip-recording-widget). |
 | Minimum displacement | Specifies the minimum displacement for the track recording. Can be chosen as 'not selected' or optionally chosen from 2 meters  to 50 meters.  This function should be configured to avoid duplicating points being recorded where too little actual motion may have occurred. |
 | Minimum accuracy | Accuracy means the proximity of  measurements to the actual position. It is not directly related to precision, which is the spread of repeated measurements. Lowering the accuracy range value may reduce the amount of points recorded depending on GPS signal quality. |
