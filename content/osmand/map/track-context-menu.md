@@ -444,7 +444,7 @@ Actions:
 - {% data variables.android-values.edit_track %} - open the chosen track in [Plan route tool](/osmand/plan-route/create-route).
 - {% data variables.android-values.rename_track %} - change track name.
 - {% data variables.android-values.change_folder %} - select folder and add new one for the chosen track.
-- {% data variables.android-values.shared_string_gps_filter %} - allows [to filter points of the track](). You can filter points of your GPX track by Smoothing, Speed, Altitude, Min GPS Precision.
+- {% data variables.android-values.shared_string_gps_filter %} - allows [to filter points of the track](/osmand/map/track-context-menu#gps-filter). 
 - {% data variables.android-values.shared_string_delete %} - delete the track.
 
 {% endandroid %}
@@ -468,19 +468,19 @@ Actions:
 {% endios %}
 
 
-
-
-
-- {% data variables.ios-values.fav_rename %} - allows to rename the track.
-- {% data variables.ios-values.shared_string_remove %} - allows to remove chosen track.
-- {% data variables.ios-values.shared_string_export %} - allows to export chosen track.
-- {% data variables.ios-values.gpx_edit_mode %} - opens [Edit mode menu](/osmand/personal/tracks#edit-mode-ios) for waypoints.
-- {% data variables.ios-values.product_title_trip_planning %} - opens [Trip planning tool](/osmand/personal/tracks#edit-via-plan-route) for chosen track.
-- {% data variables.ios-values.plan_route_change_folder %} - allows to move chosen track to another track folder or new folder.
-
-
-
 ### Split interval
+
+A user can divide a track by intervals (distance or time) and analyze it.
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Track split interval screen Android](/assets/images/personal/tracks/track_split_interval_android.png) ![Track split interval screen time Android](/assets/images/personal/tracks/track_split_interval_time_android.png)
+
+{% enddefault %}
+
+{% android %}
 
 {% data variables.android-values.shared_string_options %} → {% data variables.android-values.analyze_by_intervals %}
 
@@ -488,7 +488,40 @@ Actions:
 
 ![Track split interval screen Android](/assets/images/personal/tracks/track_split_interval_android.png) ![Track split interval screen time Android](/assets/images/personal/tracks/track_split_interval_time_android.png)
 
+{% endandroid %}
+
+{% ios %}
+
+This feature doesn't exist for iOS version of OsmAnd.
+
+{% endios %}
+
 ### GPS filter
+
+A user can filter points of a GPX track by Smoothing, Speed, Altitude, Min GPS Precision.
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![GPS filter screen Android](/assets/images/personal/tracks/gps_filter_android.png)
+
+{% enddefault %}
+
+{% android %}
+
+
+
+
+{% endandroid %}
+
+{% ios %}
+
+{% note %}
+This feature doesn't exist for iOS version of OsmAnd.
+{% endnote %}
+
+{% endios %}
 
 
 ## Read more
