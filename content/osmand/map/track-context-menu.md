@@ -503,8 +503,6 @@ This feature doesn't exist for iOS version of OsmAnd.
 
 A user can filter points of a GPX track by Smoothing, Speed, Altitude, Min GPS Precision for saving new track without excluded points.
 
-![GPS filter screen Android](/assets/images/personal/tracks/gps_filter_android.png)
-
 {% data reusables.general.android-ios-switcher %}
 
 {% default %}
@@ -512,6 +510,8 @@ A user can filter points of a GPX track by Smoothing, Speed, Altitude, Min GPS P
 {% enddefault %}
 
 {% android %}
+
+![GPS filter screen Android](/assets/images/personal/tracks/gps_filter_android.png)
 
 In the screen you see the map (with [zoom buttons](/osmand/map/interact-with-map#my-location--zoom), [my location button](/osmand/map/interact-with-map#my-location--zoom), my track location button), buttons "Reset" and "&#8285;"(Actions), part with two menus: **Filter** and **Statistics**.
 
@@ -549,7 +549,7 @@ OsmAnd will apply the changes to the track without updating the file. You can sa
 
 This menu has two parts: Graph and Actions. Actions part is similar like Filter menu.
 
-The Graph part has three graph parametes: Overview, Altitude, Speed. This functional is a copy of [track Graph](osmand/map/track-context-menu#altitude--speed-graphs)
+The Graph part has three graph parametes: Overview, Altitude, Speed. This functional is a copy of [track Graph](/osmand/map/track-context-menu#altitude--speed-graphs).
 
 ![GPS filter graph Android](/assets/images/personal/tracks/gps_filter_graph_android.png)
 
