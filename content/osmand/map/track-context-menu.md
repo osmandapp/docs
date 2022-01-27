@@ -376,11 +376,13 @@ Points / Waypoins menu in Context track menu opens list of track / folders waypo
 
 ### Waypoints folder 
 
-"&#8285;" button opens waypoint Group menu.
+Manipulation with waypoints folder: change name and color, delete..
 
 {% data reusables.general.android-ios-switcher %}
 
 {% default %}
+
+"&#8285;" button opens waypoint Group menu.
 
 ![Track menu Group menu Android](/assets/images/personal/tracks/track_menu_group_menu_android.png) ![Track menu Group menu iOS](/assets/images/personal/tracks/track_menu_group_menu_ios.png) 
 
@@ -404,11 +406,13 @@ Actions:
 
 {% ios %}
 
+"&#8230;" button opens waypoint Group menu.
+
 ![Track menu Group menu iOS](/assets/images/personal/tracks/track_menu_group_menu_ios.png) 
 
 Actions:
-- {% data variables.ios-values.shared_string_show_on_map %} - allows to show or not group waypoints on the map.
-- {% data variables.ios-values.shared_string_rename %} - allows to change Group name.
+- {% data variables.ios-values.map_settings_show %} - allows to show or not group waypoints on the map.
+- {% data variables.ios-values.fav_rename %} - allows to change Group name.
 - {% data variables.ios-values.change_color %} - allows to change color for group waypoints.
 - {% data variables.ios-values.shared_string_delete %} - allows to delete group waypoints.
 
@@ -416,11 +420,23 @@ Actions:
 
 ## Options
 
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Track menu options Android](/assets/images/personal/tracks/track_menu_options_android.png)  ![Track menu options Android](/assets/images/personal/tracks/track_menu_options_ios.png)  
+
+{% enddefault %}
+
+{% android %}
+
 ![Track menu options Android](/assets/images/personal/tracks/track_menu_options_android.png)  
 
 - {% data variables.android-values.shared_string_show_on_map %} - shows or not the track on the map.
 - {% data variables.android-values.shared_string_appearance %} - opens [Appearance menu](/osmand/map/tracks-on-map#track-appearance-android) for the track.
 - {% data variables.android-values.shared_string_navigation %} - starts navigation by [Follow track option](/osmand/navigation/gpx-navigation).
+- {% data variables.android-values.gpx_join_gaps %} - allows to join gaps of the track.
 - {% data variables.android-values.analyze_on_map %} - opens [Analyze on map function](/osmand/map/tracks-on-map#analyze-track-on-map-android).
 - {% data variables.android-values.analyze_by_intervals %} - [analyze the track by time or distance intervals](/osmand/map/track-context-menu#split-interval).
 - {% data variables.android-values.shared_string_share %} - export the chosen track.
@@ -428,7 +444,31 @@ Actions:
 - {% data variables.android-values.edit_track %} - open the chosen track in [Plan route tool](/osmand/plan-route/create-route).
 - {% data variables.android-values.rename_track %} - change track name.
 - {% data variables.android-values.change_folder %} - select folder and add new one for the chosen track.
+- {% data variables.android-values.shared_string_gps_filter %} - allows [to filter points of the track](). You can filter points of your GPX track by Smoothing, Speed, Altitude, Min GPS Precision.
 - {% data variables.android-values.shared_string_delete %} - delete the track.
+
+{% endandroid %}
+
+{% ios %}
+
+ ![Track menu options Android](/assets/images/personal/tracks/track_menu_options_ios.png)  
+
+- {% data variables.ios-values.map_settings_show %} - shows or not the track on the map.
+- {% data variables.ios-values.map_settings_appearance %} - opens [Appearance menu](/osmand/map/tracks-on-map#track-appearance-android) for the track.
+- {% data variables.ios-values.shared_string_navigation%} - starts navigation by [Follow track option](/osmand/navigation/gpx-navigation).
+- {% data variables.ios-values.analyze_on_map %} - opens [Analyze on map function](/osmand/map/tracks-on-map#analyze-track-on-map-android).
+- {% data variables.ios-values.shared_string_export %} - export the chosen track.
+- {% data variables.ios-values.edit_track %} - open the chosen track in [Plan route tool](/osmand/plan-route/create-route).
+- Dublicate track - allows to make and save a copy of the track.
+- {% data variables.ios-values.gpx_rename_q %} - change track name.
+- {% data variables.ios-values.plan_route_change_folder %} - select folder and add new one for the chosen track.
+- {% data variables.ios-values.shared_string_delete %} - delete the track.
+
+
+{% endios %}
+
+
+
 
 
 - {% data variables.ios-values.fav_rename %} - allows to rename the track.
@@ -447,6 +487,8 @@ Actions:
 - Split the track  by distance or time interval
 
 ![Track split interval screen Android](/assets/images/personal/tracks/track_split_interval_android.png) ![Track split interval screen time Android](/assets/images/personal/tracks/track_split_interval_time_android.png)
+
+### GPS filter
 
 
 ## Read more
