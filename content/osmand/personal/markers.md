@@ -6,18 +6,55 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
+
 Map markers are special points marked as flags on the map. You can customize their look & feel with **arrows** ({% data variables.android-values.show_arrows_on_the_map %}) and **distance indication** ({% data variables.android-values.show_direction %}). 
 
+
+{% default %}
+
 ![Map markers Android](/assets/images/map/map_markers_android.png) ![Map markers iOS](/assets/images/map/map_markers_ios.png)
+
+{% enddefault %}
+
+{% android %}
+
+![Map markers Android](/assets/images/map/map_markers_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![Map markers iOS](/assets/images/map/map_markers_ios.png)
+
+{% endios %}
 
 
 ## Map markers menu
 
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Map markers menu Android](/assets/images/personal/markers/map_markers_menu_android.png) ![Map markers menu iOS](/assets/images/personal/markers/map_markers_menu_ios.png)
+
+{% enddefault %}
+
+{% android %}
+
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_markers %}
+
+![Map markers menu Android](/assets/images/personal/markers/map_markers_menu_android.png)
+
+{% endandroid %}
+
+{% ios %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_markers %}
 
-![Map markers menu Android](/assets/images/personal/markers/map_markers_menu_android.png) ![Map markers menu iOS](/assets/images/personal/markers/map_markers_menu_ios.png)
+![Map markers menu iOS](/assets/images/personal/markers/map_markers_menu_ios.png)
+
+{% endios %}
+
 
 ### List (Android)
 
