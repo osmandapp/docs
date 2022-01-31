@@ -307,12 +307,8 @@ Once recorded and saved, tracks can be managed, as follows:
 
 - in **Configure map** to select a specific track and display it on the map;
 
-- with the context menu of the track selected on the map to adjust the appearance, points on the route, view segments, start navigation along it, and/or other options. 
+- with the context menu of the track selected on the map to adjust the appearance, to update points on the route, to view segments, to start navigation along the track/segment, and/or other options. 
 
-
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
@@ -324,11 +320,11 @@ Once recorded and saved, tracks can be managed, as follows:
 
 All tracks ever recorded automatically show up in the [**My Places**](/osmand/personal/myplaces). It is the central storage of all user-generated information organized into tabs by the essence criterion of the saved data. There are favourites, notes, and also tracks. Look at the [**Tracks**](/osmand/personal/tracks) tab for any trip recordings. 
 
-For any details on My Places, and/or Tracks in it, refer to the respective sections of the current documentation. However, here it makes sense to underscore, that:
+For any details on [My Places](/osmand/personal/myplaces), and/or [Tracks in it](/osmand/personal/tracks), refer to the respective sections of the current documentation. However, here it makes sense to underscore, that:
 
 - the internal organization of the Tracks tab can be managed with the Trip recording plugin settings described above;
 
-- it is a useful place to consult with in any case of doubts, for example, on what/if is anything recorded, what/if is anything is visible right now on the map, and the like;
+- it is a useful place to consult with in any case of doubts, for example, on what/if is anything recorded, what/if is anything visible right now on the map, and the like;
 
 - My Places is perfect for any inventory work: tap the triple points/arow at the right side of a track to manage it with any of the options, such as Move, Rename, Share, etc. 
 
@@ -341,7 +337,7 @@ For any details on My Places, and/or Tracks in it, refer to the respective secti
 
 {% ios%}
 
-In the **iOS** version, to view all ever recorded tracks, go to:
+In the **iOS** version, to view all ever recorded tracks, and/or manage them, go to:
 
 {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} tab
 
@@ -351,7 +347,7 @@ In the **iOS** version, to view all ever recorded tracks, go to:
 
 {% android%}
 
-In the **Android** version, to view all ever recorded tracks, go to: 
+In the **Android** version, to view all ever recorded tracks, and/or manage them, go to: 
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} → {% data variables.android-values.shared_string_gpx_files %} tab
 
@@ -373,6 +369,8 @@ In the **Android** version, to view all ever recorded tracks, go to:
 
 {% default %}
 
+Tracks make up an individual data layer that can be shown, or hidden with the respective option in the [**Configure map**](/osmand/map/configure-map-menu#map-data-layers) menu. Moreover, by tapping Tracks, the dialog with a choice of tracks shows up, and allows you to select what track, or some tracks to display on the map.
+
 ![Show tracks on the map in iOS](/assets/images/plugins/trip-recording/ios_show_tracks2.png) ![Show tracks on the map in Android](/assets/images/plugins/trip-recording/and_show_tracks2.png)
 
 
@@ -380,31 +378,30 @@ In the **Android** version, to view all ever recorded tracks, go to:
 
 {% ios%}
 
-![Show tracks on the map in iOS](/assets/images/plugins/trip-recording/ios_show_tracks2.png)
+In the **iOS** version, for a specific profile, to display a track on the map, open [**Configure map**](/osmand/map/configure-map-menu) and tap [**Tracks**](/osmand/map/tracks-on-map#display-via-configure-map-menu). Then from the opened dialog, check the needed track. To hide a track, uncheck it from the list of Tracks in the **Configure map** menu:
+
+{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.tracks %}
+
+![Show tracks on the map in iOS](/assets/images/plugins/trip-recording/ios_show_tracks2.png) ![Select a track to display in iOS](/assets/images/plugins/trip-recording/ios_select_track_to_display1.png)
 
 {% endios%}
 
 {% android%}
 
-![Show tracks on the map in Android](/assets/images/plugins/trip-recording/and_show_tracks2.png)
+In the **Android** version, for a specific profile, to display a track on the map, open [**Configure map**](/osmand/map/configure-map-menu) and tap [**Tracks**](/osmand/map/tracks-on-map#display-via-configure-map-menu). Then from the opened dialog, check the needed track. To hide a track, either uncheck it from the list of tracks, or toggle off the Tracks option in the **Configure map** menu: 
+
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map   %} → {% data variables.android-values.show_gpx %}
+
+![Show tracks on the map in Android](/assets/images/plugins/trip-recording/and_show_tracks2.png) ![Select a track to display in Android](/assets/images/plugins/trip-recording/and_select_track_to_display1.png)
 
 {% endandroid%}
-
-
-
-
-
-
-
-
-
 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 
-### Options 
+### Options of context menu
 
 
 
@@ -414,6 +411,8 @@ In the **Android** version, to view all ever recorded tracks, go to:
 {% default %}
 
 
+![Context menu of a track in iOS](/assets/images/plugins/trip-recording/ios_tracks_context_menu1.png)  ![Context menu of a track in Android](/assets/images/plugins/trip-recording/and_tracks_context_menu1.png)
+
 
 {% enddefault %}
 
@@ -421,20 +420,16 @@ In the **Android** version, to view all ever recorded tracks, go to:
 
 
 
-
+![Context menu of a track in iOS](/assets/images/plugins/trip-recording/ios_tracks_context_menu1.png)
 
 {% endios%}
 
 {% android%}
 
 
+![Context menu of a track in Android](/assets/images/plugins/trip-recording/and_tracks_context_menu1.png)
 
 
-![Trip recording Appearence Android](/assets/images/plugins/trip-recording/appearance_trip_recording_android.png)
-
-
-
-![REC widget info Android](/assets/images/plugins/trip-recording/rec_widget_info_android.png)
 
 * See all general information about the track: distance, ascent, descent, average speed, maximum speed, time span. This panel can  be scrolled by the user right and back.
 * Enable 'Show track' on the map feature and configure the style of the track line.
