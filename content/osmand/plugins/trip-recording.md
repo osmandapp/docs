@@ -118,7 +118,9 @@ In the **Android** version, to open settings for configuring Trip recording, do 
 
 {% default %}
 
-With the Trip recording settings opened for a profile, establish the required options as needed. Use the description of available parameters specified for the respective version of the application. 
+With the Trip recording settings opened for a profile, establish the required options as needed. In general, depending on the character of the movement: driving a car, a bicycle, riding a horse, skiing, etc. - it might be needed to make some adjustments in the manner of how the location points are captured and recorded into a file: scarcely, too much, in intervals, and other, to make the final output look smooth and/or digestible. 
+
+There are such parameters of recording that can be tweaked to fit the context: for example, the time interval of how often your GPS receiver should turn to the global navigation satellite systems to detect your location; or if detection resuts are almost similar, whether to log the points or wait for the next detection result; and so forth. Use the description of available parameters specified for the respective version of the application: iOS or Android. 
 
 ![Configuring Trip recording in iOS](/assets/images/plugins/trip-recording/ios_trip_rec_settings1.png) ![Configuring Trip recording in Android](/assets/images/plugins/trip-recording/and_trip_rec_settings1.png)
 
@@ -186,11 +188,13 @@ In the **Android** version, the available parameters are specified below. Establ
 
 {% default %}
 
-The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is used to create new records. The widget shows up in the list of widgets in the [Configure screen](/osmand/widgets/configure-screen) menu, after the Trip recording plugin is enabled. If toggled on in the list of widgets, the REC widget becomes displayed on the screen. 
+With the setup of the Trip recording plugin, the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) shows up in the list of widgets in the [Configure screen](/osmand/widgets/configure-screen) menu.
 
-- To start recording, tap the REC widget, and confirm in the opened Start dialog, if it is enabled to be displayed.  
+The REC widget is used to create new records. If toggled on in the list of widgets, the REC widget becomes displayed on the screen. 
 
-- To finish recording, tap the REC widget again, and confirm in the Trip recording dialog. 
+- To start recording, tap the REC widget, and confirm in the opened Start dialog, if it is enabled. Otherwise, confirmation is not needed, and the recording will start automatically. 
+
+- To finish recording, tap the REC widget again, and confirm in the Trip recording dialog. Select the respective option for confirmation, as there are a few other and providing extra capabilities detailed for the iOS and Android versions.
 
 ![Start recording in iOS](/assets/images/plugins/trip-recording/ios_widget_start2.png) ![Start recording in Android](/assets/images/plugins/trip-recording/and_widget_menu2.png)
 
@@ -200,7 +204,7 @@ The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is used to
 
 #### START RECORDING 
 
-In the **iOS** version, to start recording, tap the REC widget, and in the opened Start dialog, it is possible adjust the following recording settings before confirming the start of the recording by tapping **OK**:
+In the **iOS** version, to start recording, tap the REC widget, and in the opened Start dialog, it is possible to adjust the following recording settings before confirming the start of the recording by tapping **OK**:
 
 - **Loggin interval** - to set the frequency of the requests sent to the GPS sensor to detect and post a new point onto the route of the track;
 
@@ -211,11 +215,13 @@ In the **iOS** version, to start recording, tap the REC widget, and in the opene
 ![Start recording in iOS](/assets/images/plugins/trip-recording/ios_widget_start2.png) ![Finish recording in iOS](/assets/images/plugins/trip-recording/ios_widget_finish1.png)
 
 
-#### STOP RECORDING and OTHER OPTIONS
+#### STOP RECORDING
 
 In the **iOS** version, to stop recording, or to do any of the following options, tap the REC widget again, and in the opened Track recording dialog, select:
 
-- **Stop recording** - to stop the recording. The track will automatically put for storing in: {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → tab {% data variables.ios-values.shared_string_tracks %}. 
+- **Stop recording** - to stop the recording. The track will automatically be put for storing in: 
+
+    {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} tab. 
 
 - **Show Info** - opens the *Current recording track* context menu with options for managing the track described further. 
 
@@ -235,10 +241,7 @@ In the **Android** version, there are two options to start recording:
 - either using the REC widget, 
 - or with the Trip recording option in the menu. 
 
-Both open the Start dialog, if it is enabled in the Trip recording settings described above. 
-
-
-#### START DIALOG
+Both open the Start dialog, if it is enabled in the Trip recording settings described above. Otherwise, the recording starts automatically without providing the extra options to configure.
 
 In the opened Start dialog, it is possible adjust the following recording settings before confirming the start of the recording by tapping **Start**:
 
@@ -255,33 +258,35 @@ In the opened Start dialog, it is possible adjust the following recording settin
 ![Finish recording in Android](/assets/images/plugins/trip-recording/and_recording_finish1.png)
 
 
-#### STOP RECORDING and OTHER OPTIONS
+#### STOP RECORDING 
 
-In the **Android** version, to stop recording, or to do any of the following options, tap the REC widget, or the Trip recording option in the menu again, and in the opened Trip recording dialog, select:
+In the **Android** version, tap the REC widget, or the Trip recording option in the menu again, to stop recording, and/or to do any of the following extra options in the Trip recording dialog:
 
-- **Show on map** - if enabled, shows the detected points on the map;
+- **Show on map** - if enabled, to show the detected points on the map;
 
-- **Appearance** - the *Line* icon - opens the context menu with options to adjust visual representation of the track on the map. The available options are described further;
+- **Appearance** - the *Line* icon - to open and work with the context menu with options to adjust visual representation of the track on the map. The available options are described further;
 
 - **Start time** / **End Time** - the timestamps of the first detected point and the last detected point;
 
 - **Close** - to close the Trip recording dialog and continue recording; 
 
-- **Pause** - to take a break in recording, and after a while to resume recording;
+- **Pause** - to take a break, and resume recording after a while;
 
-- **Finish** - to stop the recording. The track will automatically put for storing in: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} →  tab {% data variables.android-values.shared_string_gpx_files %}. 
+- **Finish** - to stop the recording. The track will automatically be put for storing in: 
 
-- **Options** - opens the context menu with the following options: 
+    {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} → {% data variables.android-values.shared_string_gpx_files %} tab. 
 
-    - **Clear recorded data** - if any accumulated unsaved data, it will be deleted;
+- **Options** - to reach out for the following options in the context menu: 
+
+    - **Clear recorded data** - to delete, if any accumulated unsaved data;
     
-    - **Stop without saving** - stops recording and does not save a track;
+    - **Stop without saving** - to stop recording without saving a track;
     
-    - **Stop online tracking** - stops sending recorded points to the specified online resource;
+    - **Stop online tracking** - to stop sending recorded points to the specified online resource;
     
-    - **Save and continue** - saves the track for storing and continues recording further; 
+    - **Save and continue** - to save the track for storing and continue recording further; 
     
-    - **Start new segment** - starts a new segment of the current track. The number of segments are available for analysis with the context menu of the track described further.
+    - **Start new segment** - to start a new segment of the current track. The number of segments are available for analysis with the context menu of the track described further.
 
 
 {% endandroid%}
@@ -293,7 +298,76 @@ In the **Android** version, to stop recording, or to do any of the following opt
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 
-### Show track on map
+
+## Manage tracks
+
+Once recorded and saved, tracks can be managed, as follows:
+
+- in **My Places** to view all ever recorded pieces of data as a file in the [GPX format](https://en.wikipedia.org/wiki/GPS_Exchange_Format); 
+
+- in **Configure map** to select a specific track and display it on the map;
+
+- with the context menu of the track selected on the map to adjust the appearance, points on the route, view segments, start navigation along it, and/or other options. 
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+### View all tracks 
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+All tracks ever recorded automatically show up in the [**My Places**](/osmand/personal/myplaces). It is the central storage of all user-generated information organized into tabs by the essence criterion of the saved data. There are favourites, notes, and also tracks. Look at the [**Tracks**](/osmand/personal/tracks) tab for any trip recordings. 
+
+For any details on My Places, and/or Tracks in it, refer to the respective sections of the current documentation. However, here it makes sense to underscore, that:
+
+- the internal organization of the Tracks tab can be managed with the Trip recording plugin settings described above;
+
+- it is a useful place to consult with in any case of doubts, for example, on what/if is anything recorded, what/if is anything is visible right now on the map, and the like;
+
+- My Places is perfect for any inventory work: tap the triple points/arow at the right side of a track to manage it with any of the options, such as Move, Rename, Share, etc. 
+
+
+![My Places with tracks in iOS](/assets/images/plugins/trip-recording/ios_my_places1.png) ![My Places with tracks in Android](/assets/images/plugins/trip-recording/and_my_places1.png)
+
+
+
+{% enddefault %}
+
+{% ios%}
+
+In the **iOS** version, to view all ever recorded tracks, go to:
+
+{% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} tab
+
+![My Places with tracks in iOS](/assets/images/plugins/trip-recording/ios_my_places1.png)
+
+{% endios%}
+
+{% android%}
+
+In the **Android** version, to view all ever recorded tracks, go to: 
+
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} → {% data variables.android-values.shared_string_gpx_files %} tab
+
+![My Places with tracks in Android](/assets/images/plugins/trip-recording/and_my_places1.png)
+
+{% endandroid%}
+
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+### Display tracks on map
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -306,22 +380,20 @@ In the **Android** version, to stop recording, or to do any of the following opt
 
 {% ios%}
 
+![Show tracks on the map in iOS](/assets/images/plugins/trip-recording/ios_show_tracks2.png)
 
 {% endios%}
 
 {% android%}
 
-
+![Show tracks on the map in Android](/assets/images/plugins/trip-recording/and_show_tracks2.png)
 
 {% endandroid%}
 
 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;
 
-
-### Tracks in My Places
 
 
 
@@ -332,7 +404,7 @@ In the **Android** version, to stop recording, or to do any of the following opt
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 
-## Manage tracks 
+### Options 
 
 
 
