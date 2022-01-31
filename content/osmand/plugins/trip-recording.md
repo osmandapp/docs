@@ -223,9 +223,9 @@ In the **iOS** version, to stop recording, or to do any of the following options
 
     {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} tab. 
 
-- **Show Info** - opens the *Current recording track* context menu with options for managing the track described further. 
+- **Show Info** - opens the *Current recording track* [context menu](/osmand/map/track-context-menu) with options for managing the track. 
 
-- **Start new segment** - starts a new segment of the current track. The number of segments are available for analysis with the context menu of the track described further.
+- **Start new segment** - starts a new segment of the current track. The number of segments are available for analysis with the [context menu of the track](/osmand/map/track-context-menu).
 
 - **Save current track** - saves the track for storing and asks if to continue to record, or stop. 
 
@@ -247,7 +247,7 @@ In the opened Start dialog, it is possible adjust the following recording settin
 
 - **Show on map** - if enabled, shows the detected points on the map;
 
-- **Appearance** - the *Line* icon - opens the context menu with options to adjust visual representation of the track on the map. The available options are described further;
+- **Appearance** - the *Line* icon - opens the [context menu](/osmand/map/track-context-menu) with options to adjust visual representation of the track on the map;
 
 - **Logging interval** - to set the frequency of the requests sent to the GPS sensor to detect and post a new point onto the route of the track;
 
@@ -264,7 +264,7 @@ In the **Android** version, tap the REC widget, or the Trip recording option in 
 
 - **Show on map** - if enabled, to show the detected points on the map;
 
-- **Appearance** - the *Line* icon - to open and work with the context menu with options to adjust visual representation of the track on the map. The available options are described further;
+- **Appearance** - the *Line* icon - to open and work with the [context menu](/osmand/map/track-context-menu) with options to adjust visual representation of the track on the map;
 
 - **Start time** / **End Time** - the timestamps of the first detected point and the last detected point;
 
@@ -286,7 +286,7 @@ In the **Android** version, tap the REC widget, or the Trip recording option in 
     
     - **Save and continue** - to save the track for storing and continue recording further; 
     
-    - **Start new segment** - to start a new segment of the current track. The number of segments are available for analysis with the context menu of the track described further.
+    - **Start new segment** - to start a new segment of the current track. The number of segments are available for analysis with the [context menu of the track](/osmand/map/track-context-menu).
 
 
 {% endandroid%}
@@ -307,7 +307,7 @@ Once recorded and saved, tracks can be managed, as follows:
 
 - in **Configure map** to select a specific track and display it on the map;
 
-- with the context menu of the track selected on the map to adjust the appearance, to update points on the route, to view segments, to start navigation along the track/segment, and/or other options. 
+- with the [context menu of the track](/osmand/map/track-context-menu) selected on the map to adjust the appearance, to update points on the route, to view segments, to start navigation along the track/segment, and/or other options. 
 
 
 
@@ -404,12 +404,19 @@ In the **Android** version, for a specific profile, to display a track on the ma
 ### Options of context menu
 
 
-
-
 {% data reusables.general.android-ios-switcher %}
 
 {% default %}
 
+When a track is displayed on the map, on tapping it, the [context menu of the track](/osmand/map/track-context-menu) shows up. For the details of every available option, refer to the respective section of the current documentation. Here is an overview of options:
+
+- basic info to show the distance, ascending and descending areas, description and quick actions buttons, such as whether to show the track on the map, its appearance, points and if to place it for navigation;
+
+- graphs for analysis of altitude and speed;
+
+- a tab for any overview, and/or updates of points and waypoints;
+
+- and other [options](/osmand/map/track-context-menu#options): appearance, analysis of split intervals, sharing, editing, renaming, etc.  
 
 ![Context menu of a track in iOS](/assets/images/plugins/trip-recording/ios_tracks_context_menu1.png)  ![Context menu of a track in Android](/assets/images/plugins/trip-recording/and_tracks_context_menu1.png)
 
@@ -418,7 +425,7 @@ In the **Android** version, for a specific profile, to display a track on the ma
 
 {% ios%}
 
-
+By tapping a track directly on the map in the **iOS** version, the [context menu of the track](/osmand/map/track-context-menu) shows up and provides a quick [basic overview about the track](/osmand/map/track-context-menu#overview) as well as more [analytical data](/osmand/map/track-context-menu#altitude--speed-graphs) to investigate the route and make any corrections of [points and waypoints](/map/track-context-menu#points--waypoints), if needed. For more details, refer to [Track Context Menu](/osmand/map/track-context-menu).
 
 ![Context menu of a track in iOS](/assets/images/plugins/trip-recording/ios_tracks_context_menu1.png)
 
@@ -426,20 +433,9 @@ In the **Android** version, for a specific profile, to display a track on the ma
 
 {% android%}
 
+By tapping a track directly on the map in the **iOS** version, the [context menu of the track](/osmand/map/track-context-menu) shows up and provides a quick [basic overview about the track](/osmand/map/track-context-menu#overview) as well as more [analytical data](/osmand/map/track-context-menu#altitude--speed-graphs) to investigate the route and make any corrections of [points and waypoints](/map/track-context-menu#points--waypoints), if needed. For more details, refer to [Track Context Menu](/osmand/map/track-context-menu).
 
 ![Context menu of a track in Android](/assets/images/plugins/trip-recording/and_tracks_context_menu1.png)
-
-
-
-* See all general information about the track: distance, ascent, descent, average speed, maximum speed, time span. This panel can  be scrolled by the user right and back.
-* Enable 'Show track' on the map feature and configure the style of the track line.
-* Clear recorded data
-* Start new segment
-* Save (save the recorded track and change GPX file name)
-* Pause and stop recording
-
-
-
 
 {% endandroid%}
 
