@@ -1,6 +1,6 @@
 ---
 title: "{% data variables.android-values.record_plugin_name %}"
-intro: "To tell a story of where you have been, GPS data, as latitude and longitude of your location, can be recorded and stored in a file, and then re-used, improved, tweaked, added with waypoints, provided for navigation, shared with friends, etc."
+intro: "To tell a story of where you have been, GPS data, as latitude and longitude of your location, can be recorded and stored in a file, and then re-used, improved, added with waypoints, provided for navigation, shared with friends, etc."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
@@ -8,7 +8,7 @@ versions: '*'
 
 ## Overview
 
-GPS data consists of the latitude and longitude of your location at a specific moment in time. If it is recorded into a file as a set of location points in a particular order, the file stores the course of your trip. By placing the points from the file onto the map, the trip is visualized as a track with exact start and destination, as well as the route along which it is possible to go again, or share with somebody, or improve, etc. 
+GPS data consists of the latitude and longitude of your location at a specific moment in time. If it is recorded into a file as a set of location points in a particular order, the file stores the course of your trip. By placing the points from the file onto the map, the trip is visualized as a track with exact start and destination, as well as the route along which it is possible to go again, share with somebody, analyze, and/or improve, etc. 
 
 There are three base capabilities in regard to Trip recording: creating new tracks, showing the existing tracks on the map, and working with the ready records. The plugin is required to be enabled only for making new records. Using already created tracks is possible whenever needed. 
 
@@ -16,7 +16,7 @@ There are three base capabilities in regard to Trip recording: creating new trac
 
 ## Setup 
 
-To start making new recording, the following setup is required: 
+To start making new records, the following setup is required: 
 
 1. Enable the plugin. 
 
@@ -24,7 +24,7 @@ To start making new recording, the following setup is required:
 
 3. If needed, add the REC widget to the screen. 
 
-Once setup completed, it is possible to make new records, as well as to display tracks on the map, and manage them by changing the appearance, editing the route, adding waypoints, etc. 
+Once the setup is completed, it is possible to make new records, as well as to display tracks on the map, and manage them by changing the appearance, editing the route, adding waypoints, etc. 
 
 ![Recorded trip in iOS](/assets/images/plugins/trip-recording/ios_recorded_trip1.png) ![Recorded trip in Android](/assets/images/plugins/trip-recording/and_recorded_trip1.png)
 
@@ -136,9 +136,9 @@ In the **iOS** version, the available parameters are specified below. Establish 
 
 | Parameter | Description |
 |---|---|
-| **General logging interval** | It is the frequency of the requests sent to the GPS sensor to detect and post a new point onto the route of the track that is started to be recorded manually. The option is duplicated on the [Start recording dialog](/osmand/widgets/info-widgets#-trip-recording-widget). 5 seconds is the default option. Available are the options in the range from 0 seconds to 5 minutes. The *Always ask* option requires the interval to be established anew on every start of the recording. |
+| **General logging interval** | It is the frequency of the requests sent to the GPS sensor to detect and post a new point onto the route of the track that is started to be recorded manually. The option is duplicated on the Start recording dialog. 5 seconds is the default option. Available are the options in the range from 0 seconds to 5 minutes. The *Always ask* option requires the interval to be established anew on every start of the recording. |
 | **Minimum displacement** | Given that two points are detected being close to one another, when a minimum displacement option is established, one of the points is removed, if it is detected to be closer than the established interval. It is helpful for none, or little movement, so that not to generate redundant points. The displacement interval is disabled if the *Not selected* option is set. Otherwise, an interval is considered to be between 2 meters and 50 meters depending on the selected option. For example, 5 meters is used, when there is no need in capturing more precise data than that, and no need in capturing any data at all when not moving. |
-| **Minimum accuracy** | Given that your location is identified via GPS, when the longitude and latitude are calculated, the resulted location point can be detected accurately to a certain extend and expressed in meters/feet, as reported by Android for your chipset. It is possible to establish a minimum threshold between 1 meter and 50 meters for calculating the accuracy of the detected location in relation to the real location. A too small accuracy may cause the existence of blank spots on the track, for example, in circumstances when the route goes under the bridge, or between large trees, or high buildings, or is conducted in unfavorable weather conditions. It is recommended to disable the accuracy by establishing the *Not selected* option in case of uncertainty of the quality of the GPS signal. |
+| **Minimum accuracy** | Given that your location is identified via GPS, when the longitude and latitude are calculated, the resulted location point can be detected accurately to a certain extend and expressed in meters/feet. It is possible to establish a minimum threshold between 1 meter and 50 meters for calculating the accuracy of the detected location in relation to the real location. A too small accuracy may cause the existence of blank spots on the track, for example, in circumstances when the route goes under the bridge, or between large trees, or high buildings, or is conducted in unfavorable weather conditions. It is recommended to disable the accuracy by establishing the *Not selected* option in case of uncertainty of the quality of the GPS signal. |
 | **Minimum speed** | Given that at a low speed the recorded track can be noisy by showing lots of points on a small segment of the route, when the motion is detected and the speed level is calculated to be less than the established threshold, then the points will not be recorded. To disable the minimum speed detection, set the *Not selected* option. To detect only motion to start recording points, set the *>0* option. The rest of options are recommended to be used carefully, and to avoid losing too many points, decrease the minimum threshold. |
 | **Auto-record track** | If enabled, whenever navigation is in progress, the track is recorded automatically, and saved to the folder specified for tracks. Please, note that Track recording consumes the battery energy, and continues to run in the background with the screen being closed. For efficient use of the battery life, check out its status. |
 | **Logging interval during navigation** | It is the frequency of the requests sent to the GPS sensor to detect and post a new point onto the route of the track, which is recorded automatically during navigation, if the **Auto-record track** option is enabled. 5 seconds is the default option. Available are the options in the range from 0 seconds to 5 minutes. |
@@ -161,9 +161,9 @@ In the **Android** version, the available parameters are specified below. Establ
 | **Show start dialog** | If enabled, to start the recording, it is needed to tap the respective option in the Start dialog. Otherwise, the recording will start automatically. |
 | **Auto-record track during navigation** | If enabled, whenever navigation is in progress, the track is recorded automatically, and saved to the folder specified for tracks. Please, note that Track recording consumes the battery energy, and continues to run in the background with the screen being closed. For efficient use of the battery life, check out its status.| 
 | **Logging interval** | It is the frequency of the requests sent to the GPS sensor to detect and post a new point onto the route of the track, which is recorded automatically during navigation, if the **Auto-record track during navigation** option is enabled. 5 seconds is the default option. Available are the options in the range from 0 seconds to 5 minutes. |
-| **General logging interval** | It is the frequency of the requests sent to the GPS sensor to detect and post a new point onto the route of the track that is started to be recorded manually. The option is duplicated on the [Start recording dialog](/osmand/widgets/info-widgets#-trip-recording-widget). 5 seconds is the default option. Available are the options in the range from 0 seconds to 5 minutes. |
+| **General logging interval** | It is the frequency of the requests sent to the GPS sensor to detect and post a new point onto the route of the track that is started to be recorded manually. The option is duplicated on the Start recording dialog. 5 seconds is the default option. Available are the options in the range from 0 seconds to 5 minutes. |
 | **Minimum displacement** | Given that two points are detected being close to one another, when a minimum displacement option is established, one of the points is removed, if it is detected to be closer than the established interval. It is helpful for none, or little movement, so that not to generate redundant points. The displacement interval is disabled if the *Not selected* option is set. Otherwise, an interval is considered to be between 2 meters and 50 meters depending on the selected option. For example, 5 meters is used, when there is no need in capturing more precise data than that, and no need in capturing any data at all when not moving. |
-| **Minimum accuracy** | Given that your location is identified via GPS, when the longitude and latitude are calculated, the resulted location point can be detected accurately to a certain extend and expressed in meters/feet, as reported by Android for your chipset. It is possible to establish a minimum threshold between 1 meter and 50 meters for calculating the accuracy of the detected location in relation to the real location. A too small accuracy may cause the existence of blank spots on the track, for example, in circumstances when the route goes under the bridge, or between large trees, or high buildings, or is conducted in unfavorable weather conditions. It is recommended to disable the accuracy by establishing the *Not selected* option in case of uncertainty of the quality of the GPS signal. |
+| **Minimum accuracy** | Given that your location is identified via GPS, when the longitude and latitude are calculated, the resulted location point can be detected accurately to a certain extend and expressed in meters/feet. It is possible to establish a minimum threshold between 1 meter and 50 meters for calculating the accuracy of the detected location in relation to the real location. A too small accuracy may cause the existence of blank spots on the track, for example, in circumstances when the route goes under the bridge, or between large trees, or high buildings, or is conducted in unfavorable weather conditions. It is recommended to disable the accuracy by establishing the *Not selected* option in case of uncertainty of the quality of the GPS signal. |
 | **Minimum speed** | Given that at a low speed the recorded track can be noisy by showing lots of points on a small segment of the route, when the motion is detected and the speed level is calculated to be less than the established threshold, then the points will not be recorded. To disable the minimum speed detection, set the *Not selected* option. To detect only motion to start recording points, set the *>0* option. The rest of options are recommended to be used carefully, and to avoid losing too many points, decrease the minimum threshold. |
 | **Auto-split recordings after gap** | If enabled, a new segment will automatically start after 6 minutes of inactivity; a new track will automatically start after 2 hours of inactivity; and a new file will automatically start when the date has changed. |
 | **Prevent standalone logging** | If enabled, Trip recording will automatically stop, when the OsmAnd app is stopped, and the notification bar of Android shows no indication of OsmAnd's working in the background. |
@@ -190,11 +190,11 @@ In the **Android** version, the available parameters are specified below. Establ
 
 With the setup of the Trip recording plugin, the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) shows up in the list of widgets in the [Configure screen](/osmand/widgets/configure-screen) menu.
 
-The REC widget is used to create new records. If toggled on in the list of widgets, the REC widget becomes displayed on the screen. 
+The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is used to create new records. If toggled on in the list of widgets, the REC widget becomes displayed on the screen. 
 
-- To start recording, tap the REC widget, and confirm in the opened Start dialog, if it is enabled. Otherwise, confirmation is not needed, and the recording will start automatically. 
+- To start recording, tap the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget), and confirm in the opened Start dialog, if it is enabled. Otherwise, confirmation is not needed, and the recording will start automatically. 
 
-- To finish recording, tap the REC widget again, and confirm in the Trip recording dialog. Select the respective option for confirmation, as there are a few other and providing extra capabilities detailed for the iOS and Android versions.
+- To finish recording, tap the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) again, and confirm in the Trip recording dialog with the respective option. Additionally, there are a few other options that can be used. All options are detailed for the iOS and Android versions.
 
 ![Start recording in iOS](/assets/images/plugins/trip-recording/ios_widget_start2.png) ![Start recording in Android](/assets/images/plugins/trip-recording/and_widget_menu2.png)
 
@@ -204,7 +204,7 @@ The REC widget is used to create new records. If toggled on in the list of widge
 
 #### START RECORDING 
 
-In the **iOS** version, to start recording, tap the REC widget, and in the opened Start dialog, it is possible to adjust the following recording settings before confirming the start of the recording by tapping **OK**:
+In the **iOS** version, to start recording, tap the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget), and in the opened Start dialog, it is possible to adjust the following recording settings before confirming the start of the recording by tapping **OK**:
 
 - **Loggin interval** - to set the frequency of the requests sent to the GPS sensor to detect and post a new point onto the route of the track;
 
@@ -217,7 +217,7 @@ In the **iOS** version, to start recording, tap the REC widget, and in the opene
 
 #### STOP RECORDING
 
-In the **iOS** version, to stop recording, or to do any of the following options, tap the REC widget again, and in the opened Track recording dialog, select:
+In the **iOS** version, to stop recording, or to do any of the following options, tap the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) again, and in the opened Track recording dialog, select:
 
 - **Stop recording** - to stop the recording. The track will automatically be put for storing in: 
 
@@ -238,7 +238,7 @@ In the **iOS** version, to stop recording, or to do any of the following options
 
 In the **Android** version, there are two options to start recording: 
 
-- either using the REC widget, 
+- either using the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget), 
 - or with the Trip recording option in the menu. 
 
 Both open the Start dialog, if it is enabled in the Trip recording settings described above. Otherwise, the recording starts automatically without providing the extra options to configure.
@@ -260,7 +260,7 @@ In the opened Start dialog, it is possible adjust the following recording settin
 
 #### STOP RECORDING 
 
-In the **Android** version, tap the REC widget, or the Trip recording option in the menu again, to stop recording, and/or to do any of the following extra options in the Trip recording dialog:
+In the **Android** version, tap the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget), or the Trip recording option in the menu again, to stop recording, and/or to do any of the following extra options in the Trip recording dialog:
 
 - **Show on map** - if enabled, to show the detected points on the map;
 
@@ -303,11 +303,11 @@ In the **Android** version, tap the REC widget, or the Trip recording option in 
 
 Once recorded and saved, tracks can be managed, as follows:
 
-- in **My Places** to view all ever recorded pieces of data as a file in the [GPX format](https://en.wikipedia.org/wiki/GPS_Exchange_Format); 
+- in **My Places**, so that to view all ever recorded pieces of data as a file in the [GPX format](https://en.wikipedia.org/wiki/GPS_Exchange_Format); 
 
-- in **Configure map** to select a specific track and display it on the map;
+- in **Configure map**, so that to select a specific track and display it on the map;
 
-- with the [context menu of the track](/osmand/map/track-context-menu) selected on the map to adjust the appearance, to update points on the route, to view segments, to start navigation along the track/segment, and/or other options. 
+- with the **Context menu** of the track on the map, so that to adjust the appearance, to update points on the route, to view segments, to start navigation along the track/segment, and/or other options. 
 
 
 
@@ -320,11 +320,11 @@ Once recorded and saved, tracks can be managed, as follows:
 
 All tracks ever recorded automatically show up in the [**My Places**](/osmand/personal/myplaces). It is the central storage of all user-generated information organized into tabs by the essence criterion of the saved data. There are favourites, notes, and also tracks. Look at the [**Tracks**](/osmand/personal/tracks) tab for any trip recordings. 
 
-For any details on [My Places](/osmand/personal/myplaces), and/or [Tracks in it](/osmand/personal/tracks), refer to the respective sections of the current documentation. However, here it makes sense to underscore, that:
+For any details about [My Places](/osmand/personal/myplaces), and/or [Tracks](/osmand/personal/tracks) stored there, refer to the respective sections of the current documentation. However, here it makes sense to underscore, that:
 
-- the internal organization of the Tracks tab can be managed with the Trip recording plugin settings described above;
+- the internal organization of the Tracks tab in My Places can be managed with the Trip recording plugin settings described above;
 
-- it is a useful place to consult with in any case of doubts, for example, on what/if is anything recorded, what/if is anything visible right now on the map, and the like;
+- it is a useful place to consult with in any case of doubts, for example, on what/if anything is recorded, what/if anything is visible right now on the map, and so forth;
 
 - My Places is perfect for any inventory work: tap the triple points/arow at the right side of a track to manage it with any of the options, such as Move, Rename, Share, etc. 
 
@@ -410,7 +410,7 @@ In the **Android** version, for a specific profile, to display a track on the ma
 
 When a track is displayed on the map, on tapping it, the [context menu of the track](/osmand/map/track-context-menu) shows up. For the details of every available option, refer to the respective section of the current documentation. Here is an overview of options:
 
-- basic info to show the distance, ascending and descending areas, description and quick actions buttons, such as whether to show the track on the map, its appearance, points and if to place it for navigation;
+- basic info to show the distance, ascending and descending areas, description and quick action buttons, such as whether to show the track on the map, its appearance, points and if to place the track for navigation;
 
 - graphs for analysis of altitude and speed;
 
@@ -425,7 +425,7 @@ When a track is displayed on the map, on tapping it, the [context menu of the tr
 
 {% ios%}
 
-By tapping a track directly on the map in the **iOS** version, the [context menu of the track](/osmand/map/track-context-menu) shows up and provides a quick [basic overview about the track](/osmand/map/track-context-menu#overview) as well as more [analytical data](/osmand/map/track-context-menu#altitude--speed-graphs) to investigate the route and make any corrections of [points and waypoints](/map/track-context-menu#points--waypoints), if needed. For more details, refer to [Track Context Menu](/osmand/map/track-context-menu).
+By tapping a track directly on the map in the **iOS** version, the [context menu of the track](/osmand/map/track-context-menu) shows up and provides a quick [basic overview about the track](/osmand/map/track-context-menu#overview) as well as more [analytical data](/osmand/map/track-context-menu#altitude--speed-graphs) to investigate the route and make any corrections of [points and waypoints](/osmand/map/track-context-menu#points--waypoints), if needed. For more details, refer to [Track Context Menu](/osmand/map/track-context-menu).
 
 ![Context menu of a track in iOS](/assets/images/plugins/trip-recording/ios_tracks_context_menu1.png)
 
@@ -433,7 +433,7 @@ By tapping a track directly on the map in the **iOS** version, the [context menu
 
 {% android%}
 
-By tapping a track directly on the map in the **iOS** version, the [context menu of the track](/osmand/map/track-context-menu) shows up and provides a quick [basic overview about the track](/osmand/map/track-context-menu#overview) as well as more [analytical data](/osmand/map/track-context-menu#altitude--speed-graphs) to investigate the route and make any corrections of [points and waypoints](/map/track-context-menu#points--waypoints), if needed. For more details, refer to [Track Context Menu](/osmand/map/track-context-menu).
+By tapping a track directly on the map in the **iOS** version, the [context menu of the track](/osmand/map/track-context-menu) shows up and provides a quick [basic overview about the track](/osmand/map/track-context-menu#overview) as well as more [analytical data](/osmand/map/track-context-menu#altitude--speed-graphs) to investigate the route and make any corrections of [points and waypoints](/osmand/map/track-context-menu#points--waypoints), if needed. For more details, refer to [Track Context Menu](/osmand/map/track-context-menu).
 
 ![Context menu of a track in Android](/assets/images/plugins/trip-recording/and_tracks_context_menu1.png)
 
