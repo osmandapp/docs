@@ -6,15 +6,6 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
-For the Contour lines and Terrain data to show up on the map, the following configuration is needed:
-
-1. Purchase any of the Contour lines maps.  
-2. Enable the Coutour lines plugin in the Plugins section of the main menu.
-3. Download the Contour lines and/or Terrain maps for the required regions. 
-4. Toggle on the Contour lines and/or Terrain maps per profile.
-5. If needed, configure the map view. 
-
-![Contour lines and Terrain](/assets/images/plugins/contour-lines/contour_lines_terrain.png)
 
 
 ## Overview
@@ -29,6 +20,8 @@ The Contour lines plugin is an autonomous functionality that can be enabled/disa
 
     - the **Slopes** map. 
 
+![Contour lines and Terrain](/assets/images/plugins/contour-lines/contour_lines_terrain.png)
+
 Each map of the Contour lines plugin is an independent option, which if toggled on, is displayed above, or underneath the Map Source, depending on the established settings.
 
 The terrain information on the map can be represented by hill shading, with the contour lines of the uphill and downhill, with the color of the slope angle of diviation from flat. By means of contour lines, shades and colors, the map shows slopes, peaks, rugged terrain, and other elevation above the sea level. 
@@ -36,9 +29,21 @@ The terrain information on the map can be represented by hill shading, with the 
 The elevation data on the map - between 70 degrees north and 70 degrees south - is produced on the basis of the measurements made by the Shuttle Radar Topography Mission (abbrev.as *SRTM*). It used the Advanced Spaceborne Thermal Emission and Reflection Radiometer (abbrev. as *ASTER*), which is a sensor onboard the Terra satellite and the flagship imaging instrument of NASA's Earth Observing System. ASTER represents a cooperative effort between NASA, Japan's Ministry of Economy, Trade and Industry (abbrev. as *METI*), and Japan Space Systems (also known as *J-spacesystems*).
 
 
-## Prerequisites  
+## Setup 
 
-Puchase of the Contour lines package is required to enable the plugin and start downloading Contour lines, and/or Hillshade, and/or Slope maps per region. 
+For the Contour lines and Terrain data to show up on the map, the following setup is needed:
+
+1. Purchase any of the Contour lines maps.  
+2. Enable the Coutour lines plugin in the Plugins section of the main menu.
+3. Download the Contour lines and/or Terrain maps for the required regions. 
+4. Toggle on the Contour lines and/or Terrain maps per profile.
+5. If needed, configure the map view. 
+
+
+
+### Purchase and enable plugin
+
+Purchase of the Contour lines package is required to enable the plugin and start downloading Contour lines, and/or Hillshade, and/or Slope maps per region. 
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -72,13 +77,13 @@ In the **Android** version, to enable the plugin, tap Enable for **Contour lines
 
 {% endandroid%}
 
+&nbsp;&nbsp;&nbsp;&nbsp;
 
-
-## Download Contour lines/Terrain 
+### Download Contour lines/Terrain 
 
 There are three types of the elevation data packages for [download per region](/osmand/start-with/download-maps): Contour lines, Hillshade and Slope. Most often all of them can be downloaded at the country level. And also, there are maps available per lower region level. 
 
-### Consider country/region levels 
+#### Consider country/region levels 
 
 By combining the maps of both levels and different types, you can achieve an optimal configuration of the elevation data that suites your current needs. 
 
@@ -109,9 +114,9 @@ For example, you can combine the Contour lines region map of the Sicily island w
 > **NOTE**: The Contour lines, Hillshade and Slope angle colors become viewable at a certain zoom level, which is established in the settings for the specific map type.
 
 
+&nbsp;&nbsp;&nbsp;&nbsp;
 
-
-### Combine map types
+#### Combine map types
 
 When downloading different types of the maps: Contour lines, Hillshade, and/or Slope, consider the possiblity further to combine them.
 
@@ -140,9 +145,9 @@ For example, to make an assessment of curvature, especially for a mountain ridge
 
 >**NOTE**: There is a legend of colors that shows how each color aligns with the angle of deviation from flat. The legend is available in the settings of the Slope map. ![Slope color legend](/assets/images/plugins/contour-lines/Slope_legend.png)
 
+&nbsp;&nbsp;&nbsp;&nbsp;
 
-
-### Choose Meters or Feet
+#### Choose Meters or Feet
 
 The contour interval can be displayed in feet, or meters. It is important to decide what units it is convenient for you to see Contour lines in, so that to download the respective version of the Contour lines map. The units are not interchangeable, and in case if feet are needed to be switched into meters, or vice versa, the previous version of the Contour lines map has to be removed, so that anew to download the other version. 
 
@@ -173,8 +178,9 @@ The versions - in feet, or meters - are displayed on the download popup, when th
 {% endandroid%}
 
 
+&nbsp;&nbsp;&nbsp;&nbsp;
 
-### How to download
+#### How to download
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -232,7 +238,9 @@ In the **Android** version, to download any of the available packages of Contour
 {% endandroid%}
 
 
-## Show Contour lines/Terrain per profile
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### Show Contour lines/Terrain per profile
 
 Usually as many packages of Contour lines, Hillshade, and/or Slope are downloaded for as many specific areas as needed. Once all downloads are done, it is possible to determine what [map types](/osmand/personal/maps#map-types) to show for what profile. There are two options - Contour lines and/or Terrain - to enable per [profile](/osmand/personal/profiles):
 
@@ -315,7 +323,12 @@ In the **Android** version, to show one of the **Terrain** maps for the selected
 
 
 
-## Configure Hillshade
+## Configure map view
+
+Each of the maps: Hillshade, Slope, Contour lines can be configured to visually look differently depending on personal preferences, and/or the context of a specific region, and/or other conditions. Use the context menu of the respective map option in the Configure map menu to make the needed appearance adjustments. 
+
+
+### Hillshade map
 
 Hillshade allows you to research the relief by highlighting it with the hypothetical  illumination to simulate the cast of shadow, and thus to reveal the curvature, which is normally hidden, or unclear, for example, due to lots of vegetation. There are some aspects of the Hillshade map available for [configuration](/osmand/map/configure-map-menu): transparency of the shadow, the zoom level at which the Hillshade map is expected to be visible. 
 
@@ -357,9 +370,9 @@ The **Hillshade** settings are available in the context menu of the **Terrain** 
 
 {% endandroid%}
 
+&nbsp;&nbsp;&nbsp;&nbsp;
 
-
-## Configure Slope
+### Slope map
 
 Slope allows you to research the steepness, or incline of the slope expressed as an angle in the number of degrees of deviation from flat, which corresponds to the vertical distance divided by the horizontal distance. There are some aspects of the Slope map available for [configuration](/osmand/map/configure-map-menu): transparency of the colors used to show the angle, the zoom level at which the Slope map is expected to be visible.
 
@@ -404,7 +417,9 @@ The **Slope** settings are available in the context menu of the **Terrain** opti
 {% endandroid%} 
 
 
-## Configure Contour lines
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### Contour lines map
 
 Contour lines allows you to research in which direction and how much the surface inclines by analyzing the contour lines, which are placed closely for steep ground and more curved when going upward. There are some aspects of the Contour lines map available for [configuration](/osmand/map/configure-map-menu): the minimal zoom level where the contour lines will become visible, color scheme, width and density of lines. 
 
