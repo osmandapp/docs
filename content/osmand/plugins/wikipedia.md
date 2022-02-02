@@ -6,17 +6,6 @@ versions: '*'
 {% data reusables.general.article-not-complete %}
 
 
-For the Wikipedia data to show up on the map, the following configuration is required: 
-
-1. If needed, purchase paid services.
-
-2. Enable the Wikipedia plugin in the Plugins section of the main menu.
-
-3. Download the Wikipedia data for the required regions.
-
-4. Enable the Wikipedia POI for the needed profile.
-
-
 ## Overview 
 
 The Wikipedia plugin is an autonomous functionality that can be enabled/disabled as needed. Once enabled, it allows the Wikipedia data to be [downloaded](/osmand/personal/maps#download-maps-maps) per geographical region. There are two views to display the downloaded Wikipedia knowledge on the map: a short summary, and a full article. 
@@ -30,7 +19,21 @@ The short summary is provided via the Wikipedia POI (abbrev. from '[point of int
 
 
 
-## Prerequisites 
+## Setup
+
+For the Wikipedia data to show up on the map, the following setup is needed: 
+
+1. If needed, purchase paid services.
+
+2. Enable the Wikipedia plugin in the Plugins section of the main menu.
+
+3. Download the Wikipedia packages for the required regions.
+
+4. Display the Wikipedia POI on the map for the needed profile.
+
+
+
+### Purchase and enable plugin  
 
 Depending on the mobile application you are using, whether it is the Android version, or the iOS version, a [paid subscription](/osmand/purchases) might be required, to allow the Wikipedia plugin to be enabled among other plugins. 
 
@@ -62,7 +65,7 @@ The **Android** version requires one of the [paid services](/osmand/purchases/an
 
 
 
-## Download Wikipedia data
+### Download Wikipedia packages 
 
 The Wikipedia data is available per geographical region. If it is downloaded for one region, and not downloaded for another, in the first case it would be possible to work with the Wikipedia information when browsing across the region on the map, and in the other case, the region will lack any Wikipedia information. Being downloaded, the Wikipedia data becomes available in general, as well as offline. 
 
@@ -113,7 +116,7 @@ To view what data is already downloaded, go to:
 
 
 
-## Show/Hide Wikipedia POI 
+### Display Wikipedia on the map
 
 With the Wikipedia data downloaded for the required regions, it is possible to manage the visibility of this data on the map. The visibility is managed via the [Wikipedia POI](/osmand/map/point-layers-on-map#-wikipedia), which can be shown, or hidden for all downloaded regions per specific [profile](/osmand/personal/profiles), such as: a profile for driving a car, a profile for cycling, another one to show the Public Transport, etc. 
 
