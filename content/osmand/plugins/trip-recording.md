@@ -129,7 +129,7 @@ In the **Android** version, to open settings for configuring Trip recording, do 
 
 With the Trip recording settings opened for a profile, establish the required options as needed. In general, depending on the character of the movement: driving a car, a bicycle, riding a horse, skiing, etc. - it might be needed to make some adjustments in the manner of how the location points are captured and recorded into a file: scarcely, too much, in intervals, and other, to make the final output look smooth and/or digestible. 
 
-There are such parameters of recording that can be tweaked to fit the context: for example, the time interval of how often your GPS receiver should turn to the global navigation satellite systems to detect your location; or if detection resuts are almost similar, whether to log the points or wait for the next detection result; and so forth. Use the description of available parameters specified for the respective version of the application: iOS or Android. 
+There are such parameters of recording that can be tweaked to fit the context: for example, the time interval of how often the Location module should detect your location; or if detection resuts are almost similar, whether to log the points or wait for the next detection result; whether it is acceptable to generate individual segments inside one track in case of gaps, and so forth. Use the description of available parameters specified for the respective version of the application: iOS or Android. 
 
 ![Configuring Trip recording in iOS](/assets/images/plugins/trip-recording/ios_trip_rec_settings1.png) ![Configuring Trip recording in Android](/assets/images/plugins/trip-recording/and_trip_rec_settings1.png)
 
