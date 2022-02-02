@@ -240,7 +240,7 @@ In the **Android** version, to download any of the available packages of Contour
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Show Contour lines/Terrain per profile
+### Show Contour lines/Terrain 
 
 Usually as many packages of Contour lines, Hillshade, and/or Slope are downloaded for as many specific areas as needed. Once all downloads are done, it is possible to determine what [map types](/osmand/personal/maps#map-types) to show for what profile. There are two options - Contour lines and/or Terrain - to enable per [profile](/osmand/personal/profiles):
 
@@ -321,7 +321,7 @@ In the **Android** version, to show one of the **Terrain** maps for the selected
 
 >**NOTE**: If you cannot see the enabled Hillshade, or Slope after downloading the respective map, please restart the application.
 
-
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Configure map view
 
