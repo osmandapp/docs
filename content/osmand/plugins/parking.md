@@ -1,16 +1,28 @@
 ---
 title: "{% data variables.android-values.osmand_parking_plugin_name %}"
-intro: "It keeps the information about the exact location of your car and helps you keep track of time."
+intro: "Setting a point on the map of where your car is left in the street, and a calendar notice of when the parking time started to count down, will comfort your efforts in keeping track of the time and the car location."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-Parking plugin is a free plugin working with the main OsmAnd Maps and Navigation app. It keeps the information about the exact location of your car and helps you keep track of time. All you have to do is set the type of parking you are using (with or without a time limit) and set the alarm if needed.
+## Overview 
+
+A Parking point on the map and a notice in the calendar are provided by the Parking plugin. It is free, and works well with the downloaded OsmAnd Maps and Navigation. A Parking point will help you remember the exact location of where the car is left as well as to stay aware of how far it is already from your parking spot, and if needed, to return on time, avoid additional unnecessary costs, share the location with your loved ones. It is easy to set a Parking point, with or without time-tracking, and to remove it after successful use. 
 
 ![Pakring plugin view Android](/assets/images/plugins/parking/parking_plugin_view_android.png) ![Pakring plugin view iOS](/assets/images/plugins/parking/parking_plugin_view_ios.png)
 
+&nbsp;&nbsp;&nbsp;&nbsp;
 
-## Enable / Disable Plugin
+## Setup
+
+For using a Parking point on the map, the following setup is required:
+
+1. Enable the plugin.
+
+2. Ensure the Parking widget is added to the screen. 
+
+
+### Enable plugin
 
 Before starting to use or not option for marking a parking postion on the map you need to Enable / Disable plugin:
 
@@ -21,7 +33,32 @@ Before starting to use or not option for marking a parking postion on the map yo
 ![Pakring plugin Android](/assets/images/plugins/parking/parking_plugin_android.png) ![Pakring plugin iOS](/assets/images/plugins/parking/parking_plugin_ios.png)
 
 
-## Parking point on the map
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### Add Parking widget
+
+[Parking widget](/osmand/widgets/info-widgets#-parking-widget) shows distance from user position or center map to Parking place.
+
+Clicking to the widget moves map view to the parking position.
+
+![Parking widget Android](/assets/images/plugins/parking/parking_widget_android.png) ![Parking widget iOS](/assets/images/plugins/parking/parking_widget_ios.png)
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+## Parking point at work
+
+It is a simple point on the map with the latitude and longitude that allows you to know exactly where and when your car was left, as follows:
+
+1. Set a point.
+2. Stay informed.
+3. Navigate to the point, if needed. 
+4. Remove it, once done. 
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+###  Set a Parking point
 
 To mark parking place on the map user has to:
 
@@ -39,15 +76,23 @@ The following menu will show the configurations of the parking spot such as park
 
 ![Action Parking set point Android](/assets/images/plugins/parking/parking_set_android.png) ![Action Parking set point iOS](/assets/images/plugins/parking/parking_set_ios.png)
 
-## Parking widget 
 
-[Parking widget](/osmand/widgets/info-widgets#-parking-widget) shows distance from user position or center map to Parking place.
 
-Clicking to the widget moves map view to the parking position.
+&nbsp;&nbsp;&nbsp;&nbsp;
 
-![Parking widget Android](/assets/images/plugins/parking/parking_widget_android.png) ![Parking widget iOS](/assets/images/plugins/parking/parking_widget_ios.png)
+### Stay informed about Parking
 
-## Delete parking point
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### Navigate to Parking
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### Remove the Parking point
 
 User can delete the parking location marker anytime. Click to the parking point and ‘Delete’ button in [Map Context menu](/osmand/map/map-context-menu#-add--delete-parking-point).
 

@@ -129,7 +129,7 @@ In the **Android** version, to open settings for configuring Trip recording, do 
 
 With the Trip recording settings opened for a profile, establish the required options as needed. In general, depending on the character of the movement: driving a car, a bicycle, riding a horse, skiing, etc. - it might be needed to make some adjustments in the manner of how the location points are captured and recorded into a file: scarcely, too much, in intervals, and other, to make the final output look smooth and/or digestible. 
 
-There are such parameters of recording that can be tweaked to fit the context: for example, the time interval of how often the Location module should detect your location; or if detection resuts are almost similar, whether to log the points or wait for the next detection result; whether it is acceptable to generate individual segments inside one track in case of gaps, and so forth. Use the description of available parameters specified for the respective version of the application: iOS or Android. 
+There are such parameters of recording that can be tweaked to fit the context: for example, the time interval of how often the Location module should detect your location; or if detection results are almost similar, whether to log the points or wait for the next detection result; whether it is acceptable to generate individual segments inside one track in case of gaps, and so forth. Use the description of available parameters specified for the respective version of the application: iOS or Android. 
 
 ![Configuring Trip recording in iOS](/assets/images/plugins/trip-recording/ios_trip_rec_settings1.png) ![Configuring Trip recording in Android](/assets/images/plugins/trip-recording/and_trip_rec_settings1.png)
 
@@ -178,7 +178,7 @@ In the **Android** version, the available parameters are specified below. Establ
 | **Prevent standalone logging** | If enabled, Trip recording will automatically stop, when the OsmAnd app is stopped, and the notification bar of Android shows no indication of OsmAnd's working in the background. |
 | **Include heading** | If enabled, the heading as the angle of the direction of movement is saved into the GPX file for every point. |
 | **Track storage folder** | Given that all tracks are stored in: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} → {% data variables.android-values.shared_string_gpx_files %} tab; it is possible to establish the internal structure of this folder by selecting one of the following two options: either 1. to record all tracks to the *Rec* folder; or 2. to group all tracks by respective month folders, such as: *Rec/yyyy-mm* |
-| **Notification** | If enabled, trip recording messages show up in the system notification area of the device. The notification area is opened with a swipe from the top of the screen to the bottom, and closed with a swipe in the opposite direction. The messages are intended to notify about all start/stop actions of the trip recording functionality and especially useful in case of the enabled **Auto-record track during navigation** option, as well as when the Start recording dialog is disabled and the recording starts silently on tap of the REC widget. Once a message is sent, it is visible in the notification area. A sent message can be cleared, if not needed. The visibility of a sent uncleared message does not depend on the status of the app: whether it runs in the backgroud, foreground, or closed. | 
+| **Notification** | If enabled, trip recording messages show up in the system notification area of the device. The notification area is opened with a swipe from the top of the screen to the bottom, and closed with a swipe in the opposite direction. The messages are intended to notify about all start/stop actions of the trip recording functionality and especially useful in case of the enabled **Auto-record track during navigation** option, as well as when the Start recording dialog is disabled and the recording starts silently on tap of the REC widget. Once a message is sent, it is visible in the notification area. A sent message can be cleared, if not needed. The visibility of a sent uncleared message does not depend on the status of the app: whether it runs in the background, foreground, or closed. | 
 | **Online tracking** | It is real-time monitoring of your current location. If enabled, every point is transmitted to the specified URL. The **Web address** field is intended for entering the URL in the following format: *https://example.com?lat={0}&lon={1}&timestamp={2}&hdop={3}&altitude={4}&speed={5}* The **Tracking interval** parameter is used to determine the frequency of how often to send the location points. The options can be selected in the range from 0 second to 5 minutes. The **Time buffer** parameter establishes the period of time during which the points will be accumulated in case if the Internet connection is lost.|
 | **Tracks** | This is a quick re-direction to the folder: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places  %} → {% data variables.android-values.shared_string_gpx_files %} tab. |
 | **Reset plugin settings to default** | This establishes the default values for all of the above settings. |
@@ -215,7 +215,7 @@ The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is used to
 
 In the **iOS** version, to start recording, tap the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget), and in the opened Start dialog, it is possible to adjust the following recording settings before confirming the start of the recording by tapping **OK**:
 
-- **Loggin interval** - to set the frequency of the requests sent to the GPS sensor to detect and post a new point onto the route of the track;
+- **Logging interval** - to set the frequency of the requests sent to the GPS sensor to detect and post a new point onto the route of the track;
 
 - **Remember my choice** - removes the Start dialog, so that recording to start without confirmation. Once toggled on, the Start dialog will be disabled, and can show up again only after re-start of the Trip recording plugin;
 
@@ -335,7 +335,7 @@ For any details about [My Places](/osmand/personal/myplaces), and/or [Tracks](/o
 
 - it is a useful place to consult with in any case of doubts, for example, on what/if anything is recorded, what/if anything is visible right now on the map, and so forth;
 
-- My Places is perfect for any inventory work: tap the triple points/arow at the right side of a track to manage it with any of the options, such as Move, Rename, Share, etc. 
+- My Places is perfect for any inventory work: tap the triple points/arrow at the right side of a track to manage it with any of the options, such as Move, Rename, Share, etc. 
 
 
 ![My Places with tracks in iOS](/assets/images/plugins/trip-recording/ios_my_places1.png) ![My Places with tracks in Android](/assets/images/plugins/trip-recording/and_my_places1.png)
@@ -346,7 +346,7 @@ For any details about [My Places](/osmand/personal/myplaces), and/or [Tracks](/o
 
 {% ios%}
 
-In the **iOS** version, to view all ever recorded tracks, and/or manage them, go to:
+In the **iOS** version, to view all ever-recorded tracks, and/or manage them, go to:
 
 {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} tab
 
@@ -356,7 +356,7 @@ In the **iOS** version, to view all ever recorded tracks, and/or manage them, go
 
 {% android%}
 
-In the **Android** version, to view all ever recorded tracks, and/or manage them, go to: 
+In the **Android** version, to view all ever-recorded tracks, and/or manage them, go to: 
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} → {% data variables.android-values.shared_string_gpx_files %} tab
 
