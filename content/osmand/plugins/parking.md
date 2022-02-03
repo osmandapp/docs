@@ -102,7 +102,7 @@ A Parking point on the map stores the latitude and longitude to show where your 
 4. Remove it, once done. 
 
 
-###  Set a Parking point
+###  Set a point
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -115,7 +115,7 @@ To set a Parking point on the map, zoom in to the required level, then long-tap 
 3. If needed, set time, and add a reminder to the Calendar app. 
 4. **Save** the point. 
 
-![Set Parking point in iOS](/assets/images/plugins/parking/ios_set_p_point3_.png) ![Set Parking point in Android](/assets/images/plugins/parking/and_set_p_point_limit.png) 
+![Set Parking point in iOS](/assets/images/plugins/parking/ios_set_p_point_limit.png) ![Set Parking point in Android](/assets/images/plugins/parking/and_set_p_point_limit.png) 
 
 {% enddefault %}
 
@@ -123,14 +123,13 @@ To set a Parking point on the map, zoom in to the required level, then long-tap 
 
 In the **iOS** version, to set a Parking point, long-tap a spot on the map and in the opened [Context menu](/osmand/map/map-context-menu), do the following:
 
-1. Tap **{% data variables.ios-values.actions %}**.
-2. Tap **{% data variables.ios-values.add_parking_short %}**.
-3. Consider time limits in the opened {% data variables.ios-values.parking_marker %} dialog. If a time limit is needed, enable the **{% data variables.ios-values.time_limited %}** option, and establish the following:
+1. Tap **{% data variables.ios-values.actions %}**, and then tap **{% data variables.ios-values.add_parking_short %}**.
+2. Consider time limits in the opened {% data variables.ios-values.parking_marker %} dialog. If a time limit is needed, enable the **{% data variables.ios-values.time_limited %}** option, and establish the following:
 
     - time when to end parking;
     - reminder for the Calendar app.
 
-4. Tap **Save** to close the context menu and save the point. 
+3. Tap **Save**. 
 
 ![Select Parking in Actions in iOS](/assets/images/plugins/parking/ios_set_p_point2.png)  ![Set Parking point in iOS](/assets/images/plugins/parking/ios_set_p_point3_.png)
 
@@ -138,38 +137,73 @@ In the **iOS** version, to set a Parking point, long-tap a spot on the map and i
 
 {% android%}
 
+In the **Android** version, to set a Parking point, long-tap a spot on the map and in the opened [Context menu](/osmand/map/map-context-menu), do the following:
 
+1. Tap **{% data variables.android-values.shared_string_actions %}**, and then tap **{% data variables.android-values.context_menu_item_add_parking_point %}**.
+2. Consider time limits in the opened {% data variables.android-values.parking_options %} dialog: 
+
+    - If there is no time limit, select the **{% data variables.android-values.osmand_parking_no_lim_text %}** option, and the point without time constraints is set on the map. 
+
+    - If a time limit is required, select the **{% data variables.android-values.osmand_parking_lim_text %}** option, and then: 
+        - select time when to end parking;
+        - add reminder for the Calendar app;
+        - tap **OK** to save the point.
+
+![Set Parking point in Android](/assets/images/plugins/parking/and_set_p_point_limit.png) ![Set time limits in Android](/assets/images/plugins/parking/and_set_p_point4_.png)
 
 {% endandroid%}
 
+>**NOTE**: The start time is always established automatically for the Parking point. The end time, if selected to be set for the Parking point, can be re-added anew only, not edited. The expected end time of the parking reminder in the Calendar app can be updated as needed. 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Stay informed about Parking
+### Stay informed
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
 
 Use the [Parking widget](/osmand/widgets/info-widgets#-parking-widget): 
 
 - to view the distance to the Parking point from your current position or the center of the map on the screen;
 
-- to move the map to the Parking point by tapping the Parking widget. 
+- to move the map and show the Parking point with a tap on the widget. 
 
-![Parking widget Android](/assets/images/plugins/parking/parking_widget_android.png) ![Parking widget iOS](/assets/images/plugins/parking/parking_widget_ios.png)
+![Parking widget iOS](/assets/images/plugins/parking/parking_widget_ios.png) ![Parking widget Android](/assets/images/plugins/parking/parking_widget_android.png)
 
-The following menu will show the configurations of the parking spot such as parking time and date, information about parking limitation, distance from the current location to the parking spot.
+{% enddefault %}
 
-![Action Parking set point Android](/assets/images/plugins/parking/parking_set_android.png) ![Action Parking set point iOS](/assets/images/plugins/parking/parking_set_ios.png)
+{% ios%}
+
+Whenever the app is closed, and re-opened again, the [Parking widget](/osmand/widgets/info-widgets#-parking-widget) will help you find the Parking point on the map. It is enough to tap the widget, and the map will show the Parking point. 
+
+With the **Share** option in the context menu opened on tap on the Parking point, it is possible to share it.  
+
+![Parking widget iOS](/assets/images/plugins/parking/parking_widget_ios.png)
+
+{% endios%}
+
+{% android%}
+
+Whenever the app is closed, and re-opened again, the [Parking widget](/osmand/widgets/info-widgets#-parking-widget) will help you find the Parking point on the map. It is enough to tap the widget, and the map will show the Parking point. 
+
+With the **Share** option in the context menu opened on tap on the Parking point, it is possible to share it via a number of options, where the one named as: **Geo** saves it to the Favourite tab in My Places. 
+
+![Parking widget Android](/assets/images/plugins/parking/parking_widget_android.png)
+
+{% endandroid%}
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Navigate to Parking
+### Navigate to the point
 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Remove the Parking point
+### Remove the point
 
 User can delete the parking location marker anytime. Click to the parking point and ‘Delete’ button in [Map Context menu](/osmand/map/map-context-menu#-add--delete-parking-point).
 
