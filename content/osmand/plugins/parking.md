@@ -40,7 +40,7 @@ In the **iOS** version, to enable the Parking plugin, open the list of plugins, 
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_parking %}
 
-![Parking plugin in iOS](/assets/images/plugins/parking/parking_plugin_ios.png) ![Plugin confirmation in iOS](/assets/images/plugins/parking/ios_add_parking_plugin.png)
+![Plugin confirmation in iOS](/assets/images/plugins/parking/ios_add_parking_plugin.png)
 
 {% endios%}
 
@@ -50,7 +50,7 @@ In the **Android** version, to enable the Parking plugin, tap the triple dots at
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group %} → {% data variables.android-values.osmand_parking_plugin_name %}
 
-![Parking plugin in Android](/assets/images/plugins/parking/parking_plugin_android.png) ![Plugin confirmation in Android](/assets/images/plugins/parking/and_add_parking_plugin.png)
+![Plugin confirmation in Android](/assets/images/plugins/parking/and_add_parking_plugin.png)
 
 {% endandroid%}
 
@@ -65,15 +65,15 @@ In the **Android** version, to enable the Parking plugin, tap the triple dots at
 
 The [Parking widget](/osmand/widgets/info-widgets#-parking-widget) is added automatically to the screen once the Parking plugin is enabled. However, before setting a Parking point, make certain you have the plugin on the screen, and if not, add it by enabling the respective option in the [Configure Screen](/osmand/widgets/configure-screen) menu. The Parking widget will help you quickly reach out to the Parking point on the map. 
 
-![Adding Parking widget in iOS](/assets/images/plugins/parking/ios_adding_parking_widget.png) ![Adding Parking widget in Android](/assets/images/plugins/parking/and_add_parking_plugin.png)
+![Adding Parking widget in iOS](/assets/images/plugins/parking/ios_adding_parking_widget.png) ![Adding Parking widget in Android](/assets/images/plugins/parking/and_adding_parking_widget.png)
 
 {% enddefault %}
 
 {% ios%}
 
-In the **iOS** version, toggle on the {% data variables.ios-values.add_parking %} widget in: 
+In the **iOS** version, toggle on the {% data variables.ios-values.product_title_parking %} widget in: 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.add_parking %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.product_title_parking %}
 
 ![Adding Parking widget in iOS](/assets/images/plugins/parking/ios_adding_parking_widget.png)
 
@@ -85,14 +85,14 @@ In the **Android** version, toggle on the {% data variables.android-values.map_w
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.layer_map_appearance %} → {% data variables.android-values.map_widget_parking %}
 
-![Adding Parking widget in Android](/assets/images/plugins/parking/and_add_parking_plugin.png)
+![Adding Parking widget in Android](/assets/images/plugins/parking/and_adding_parking_widget.png)
 
 {% endandroid%}
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-## Parking point at work
+## Parking point on the map
 
 A Parking point on the map stores the latitude and longitude to show where your car was left. It is used as follows:
 
@@ -102,22 +102,20 @@ A Parking point on the map stores the latitude and longitude to show where your 
 4. Remove it, once done. 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;
-
 ###  Set a Parking point
 
 {% data reusables.general.android-ios-switcher %}
 
 {% default %}
 
-1. Zoom in and long-tap a spot on the map.
-2. Tap [Actions](/osmand/map/map-context-menu#-add--delete-parking-point).
-3. Tap Parking.
-4. If needed, set time. 
-5. If needed, add to Calendar. 
-6. Save the point. 
+To set a Parking point on the map, zoom in to the required level, then long-tap a spot on the map, and in the opened [Context menu](/osmand/map/map-context-menu), do the following: 
 
-![Set Parking point in iOS](/assets/images/plugins/parking/ios_set_p_point3_.png) ![Set Parking point in Android](/assets/images/plugins/parking/and_set_p_point4_.png) 
+1. Tap [**Actions**](/osmand/map/map-context-menu#-add--delete-parking-point).
+2. Tap **Parking**.
+3. If needed, set time, and add a reminder to the Calendar app. 
+4. **Save** the point. 
+
+![Set Parking point in iOS](/assets/images/plugins/parking/ios_set_p_point3_.png) ![Set Parking point in Android](/assets/images/plugins/parking/and_set_p_point_limit.png) 
 
 {% enddefault %}
 
@@ -127,14 +125,12 @@ In the **iOS** version, to set a Parking point, long-tap a spot on the map and i
 
 1. Tap **{% data variables.ios-values.actions %}**.
 2. Tap **{% data variables.ios-values.add_parking_short %}**.
-3. Consider time limits in the opened {% data variables.ios-values.parking_marker %} dialog. 
+3. Consider time limits in the opened {% data variables.ios-values.parking_marker %} dialog. If a time limit is needed, enable the **{% data variables.ios-values.time_limited %}** option, and establish the following:
 
-    - If needed, enable **{% data variables.ios-values.time_limited %}**, and establish the following:
+    - time when to end parking;
+    - reminder for the Calendar app.
 
-            - expected time to end parking;
-            - notification for the Calendar app.
-
-4. Tap **Save**.
+4. Tap **Save** to close the context menu and save the point. 
 
 ![Select Parking in Actions in iOS](/assets/images/plugins/parking/ios_set_p_point2.png)  ![Set Parking point in iOS](/assets/images/plugins/parking/ios_set_p_point3_.png)
 
