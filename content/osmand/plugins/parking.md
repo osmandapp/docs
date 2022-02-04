@@ -124,7 +124,7 @@ In the **iOS** version, to set a Parking point, long-tap a spot on the map and i
     - time when to end parking;
     - reminder for the Calendar app.
 
-3. Tap **Save**. 
+3. Tap **Save**, and the point will be set on the map. 
 
 ![Select Parking in Actions in iOS](/assets/images/plugins/parking/ios_set_p_point2.png)  ![Set Parking point in iOS](/assets/images/plugins/parking/ios_set_p_point3_.png)
 
@@ -137,12 +137,12 @@ In the **Android** version, to set a Parking point, long-tap a spot on the map a
 1. Tap **{% data variables.android-values.shared_string_actions %}**, and then tap **{% data variables.android-values.context_menu_item_add_parking_point %}**.
 2. Consider time limits in the opened {% data variables.android-values.parking_options %} dialog: 
 
-    - If there is no time limit, select the **{% data variables.android-values.osmand_parking_no_lim_text %}** option, and the point without time constraints is set on the map. 
+    - If there is no time limit, select the **{% data variables.android-values.osmand_parking_no_lim_text %}** option, and the point without time constraints will be set on the map. 
 
-    - If a time limit is required, select the **{% data variables.android-values.osmand_parking_lim_text %}** option, and then: 
+    - If a time limit is required, select the **{% data variables.android-values.osmand_parking_time_limit %}** option, and then: 
         - select time when to end parking;
         - add reminder for the Calendar app;
-        - tap **OK** to save the point.
+        - tap **OK**, and the point with the established time limit will be set on the map. .
 
 ![Set Parking point in Android](/assets/images/plugins/parking/and_set_p_point_limit.png) ![Set time limits in Android](/assets/images/plugins/parking/and_set_p_point4_.png)
 
@@ -196,6 +196,8 @@ To stay aware of the parking location and the time, after a Parking point is set
 
 **Location** is revealed by the [Parking widget](/osmand/widgets/info-widgets#-parking-widget). Whenever the app is closed, and re-opened again, the Parking widget will help you find the Parking point on the map. It is enough to tap the widget, and the map will show the Parking point. 
 
+Also, the widget shows the distance from your current location, or the center of the screen to the Parking point.
+
 ![Parking widget iOS](/assets/images/plugins/parking/parking_widget_ios.png)
 
 **Start Time** is always visible in the details of the Parking point. To see the details, tap the Parking point, and the opened {% data variables.ios-values.parking_marker %} context menu will show you when Parking started. 
@@ -215,7 +217,9 @@ To stay aware of the parking location and the time, after a Parking point is set
 
 {% android%}
 
-**Location** is revealed by the [Parking widget](/osmand/widgets/info-widgets#-parking-widget). Whenever the app is closed, and re-opened again, the Parking widget will help you find the Parking point on the map. It is enough to tap the widget, and the map will show the Parking point. 
+**Location** is revealed by the [Parking widget](/osmand/widgets/info-widgets#-parking-widget). Whenever the app is closed, and re-opened again, the Parking widget will help you find the Parking point on the map. It is enough to tap the widget, and the map will show the Parking point.
+
+Also, the widget shows the distance from your current location, or the center of the screen to the Parking point.
 
 ![Parking widget Android](/assets/images/plugins/parking/parking_widget_android.png)
 
@@ -227,7 +231,7 @@ To stay aware of the parking location and the time, after a Parking point is set
 
 ![Time left in Android](/assets/images/plugins/parking/and_parking_info_left.png) 
 
-**{% data variables.android-values.osmand_parking_add_event %}** is the option in the **{% data variables.android-values.osmand_parking_time_limit_title %}** that if checked during setting a time-limited Parking point, creates a reminder about the end of Parking time in the default Calendar app on your device. 
+**{% data variables.android-values.osmand_parking_add_event %}** option, if checked in the **{% data variables.android-values.osmand_parking_time_limit_title %}** popup during setting a time-limited Parking point, creates a reminder about the end of Parking time in the default Calendar app on your device. 
 
 {% endandroid%}
 
