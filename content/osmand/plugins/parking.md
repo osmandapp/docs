@@ -94,12 +94,7 @@ In the **Android** version, toggle on the {% data variables.android-values.map_w
 
 ## Parking point on the map
 
-A Parking point on the map stores the latitude and longitude to show where your car was left. It is used as follows:
-
-1. Set a point.
-2. Stay informed.
-3. Navigate to the point, if needed. 
-4. Remove it, once done. 
+When a Parking point shows up on the map, it acquires the latitude and longitude of the selected geolocation, and the timestamp of the creation moment. It helps visually to identify the parking both when setting the point and when further tracking it as well as using for navigation, if necessary. There are a number of ways of how to store the parking information and use it for checking out the time, and/or location. 
 
 
 ###  Set a point
@@ -168,7 +163,7 @@ To stay aware of the parking location and the time, after a Parking point is set
 
 #### LOCATION
 
-**Location** is revealed by the [Parking widget](/osmand/widgets/info-widgets#-parking-widget). It helps to see the distance from your current center of the screen to the Parking point. Additionally, by tapping the widget the map immediately brings the Parking point into the center of your screen. 
+**Location** is revealed by the [Parking widget](/osmand/widgets/info-widgets#-parking-widget). It helps to see the distance from your current location, or the center of the screen to the Parking point. Additionally, by tapping the widget the map immediately brings the Parking point into the center of your screen. 
 
 ![Parking widget iOS](/assets/images/plugins/parking/parking_widget_ios.png) ![Parking widget Android](/assets/images/plugins/parking/parking_widget_android.png) 
 
@@ -189,7 +184,7 @@ To stay aware of the parking location and the time, after a Parking point is set
 
 #### CALENDAR REMINDER
 
-**Calendar reminder** is helpful in keeping track of the time by setting reminders. To add one to your Calendar app, select the respective option when setting a time-limited Parking point. 
+**Calendar reminder** is helpful in keeping track of the time by highlighting the end of Parking. To add a reminder about the end of Parking time to your Calendar app, select the respective option when setting a time-limited Parking point. 
 
 ![Parking reminder in Calendar](/assets/images/plugins/parking/ios_parking_in_calendar.png)
 
@@ -199,21 +194,43 @@ To stay aware of the parking location and the time, after a Parking point is set
 
 {% ios%}
 
-Whenever the app is closed, and re-opened again, the [Parking widget](/osmand/widgets/info-widgets#-parking-widget) will help you find the Parking point on the map. It is enough to tap the widget, and the map will show the Parking point. 
-
-With the **Share** option in the context menu opened on tap on the Parking point, it is possible to share it.  
+**Location** is revealed by the [Parking widget](/osmand/widgets/info-widgets#-parking-widget). Whenever the app is closed, and re-opened again, the Parking widget will help you find the Parking point on the map. It is enough to tap the widget, and the map will show the Parking point. 
 
 ![Parking widget iOS](/assets/images/plugins/parking/parking_widget_ios.png)
+
+**Start Time** is always visible in the details of the Parking point. To see the details, tap the Parking point, and the opened {% data variables.ios-values.parking_marker %} context menu will show you when Parking started. 
+
+![Parking info in iOS](/assets/images/plugins/parking/ios_parking_info.png) 
+
+
+**Time Left** or **Time Overdue** in the details of a time-limited Parking point, opened with the {% data variables.ios-values.parking_marker %} context menu, will show the overall amount of time: either left up to the expected end of the parking, or overdue since then. 
+
+![Time left in iOS](/assets/images/plugins/parking/ios_parking_info_left.png)
+
+**{% data variables.ios-values.add_notification_calendar %}** is the option that if enabled during setting a time-limited Parking point, creates a reminder about the end of Parking time in the default Calendar app on your device. 
+
+![Parking reminder in Calendar](/assets/images/plugins/parking/ios_parking_in_calendar.png) 
 
 {% endios%}
 
 {% android%}
 
-Whenever the app is closed, and re-opened again, the [Parking widget](/osmand/widgets/info-widgets#-parking-widget) will help you find the Parking point on the map. It is enough to tap the widget, and the map will show the Parking point. 
-
-With the **Share** option in the context menu opened on tap on the Parking point, it is possible to share it via a number of options, where the one named as: **Geo** saves it to the Favourite tab in My Places. 
+**Location** is revealed by the [Parking widget](/osmand/widgets/info-widgets#-parking-widget). Whenever the app is closed, and re-opened again, the Parking widget will help you find the Parking point on the map. It is enough to tap the widget, and the map will show the Parking point. 
 
 ![Parking widget Android](/assets/images/plugins/parking/parking_widget_android.png)
+
+**Start Time** is always visible in the details of the Parking point. To see the details, tap the Parking point, and the opened {% data variables.android-values.parking_place %} context menu will show you when Parking started. 
+
+![Parking info in Android](/assets/images/plugins/parking/and_parking_info.png) 
+
+**Time Left** or **Time Overdue** in the details of a time-limited Parking point, opened with the {% data variables.android-values.pick_up_till %} context menu, will show the overall amount of time: either left up to the expected end of the parking, or overdue since then. 
+
+![Time left in Android](/assets/images/plugins/parking/and_parking_info_left.png) 
+
+**{% data variables.android-values.osmand_parking_add_event %}** is the option in the **{% data variables.android-values.osmand_parking_time_limit_title %}** that if checked during setting a time-limited Parking point, creates a reminder about the end of Parking time in the default Calendar app on your device. 
+
+![Parking reminder in Calendar](/assets/images/plugins/parking/ios_parking_in_calendar.png)
+
 
 {% endandroid%}
 
@@ -222,6 +239,36 @@ With the **Share** option in the context menu opened on tap on the Parking point
 
 ### Navigate to the point
 
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+A Parking point can be used for navigation, if the geolocation is unknown, and/or simply to find an optimal course when heading to where the car is parked. To provision the Parking point to the navigation functionality, do the following:
+
+1. Tap the navigation icon on your map. 
+2. Select the profile. 
+2. Tap the From field, and select an option of your current position.  
+3. Tap the To fiels, and select the Parking option. 
+
+![Heading to Parking point in iOS](/assets/images/plugins/parking/ios_going_to_parking.png) ![Heading to Parking point in Android](/assets/images/plugins/parking/and_navigating_to_parking.png)
+
+{% enddefault %}
+
+{% ios%}
+
+To show the route from your current position to the Parking point, tap the navigation icon on the map, select the profile (i.e. on foot, public transport, etc.), and then tap the **To** field and among the available options look for **{% data variables.ios-values.parking %}**.
+
+![Heading to Parking point in iOS](/assets/images/plugins/parking/ios_going_to_parking.png)
+
+{% endios%}
+
+{% android%}
+
+To show the route from your current position to the Parking point, tap the navigation icon on the map, select the profile (i.e. on foot, public transport, etc.), and then tap the **To** field and among the available options look for **{% data variables.android-values.osmand_parking_position_name %}**.
+
+![Heading to Parking point in Android](/assets/images/plugins/parking/and_navigating_to_parking.png)
+
+{% endandroid%}
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
