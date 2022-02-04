@@ -229,9 +229,6 @@ To stay aware of the parking location and the time, after a Parking point is set
 
 **{% data variables.android-values.osmand_parking_add_event %}** is the option in the **{% data variables.android-values.osmand_parking_time_limit_title %}** that if checked during setting a time-limited Parking point, creates a reminder about the end of Parking time in the default Calendar app on your device. 
 
-![Parking reminder in Calendar](/assets/images/plugins/parking/ios_parking_in_calendar.png)
-
-
 {% endandroid%}
 
 
@@ -275,8 +272,28 @@ To show the route from your current position to the Parking point, tap the navig
 
 ### Remove the point
 
-User can delete the parking location marker anytime. Click to the parking point and ‘Delete’ button in [Map Context menu](/osmand/map/map-context-menu#-add--delete-parking-point).
+{% data reusables.general.android-ios-switcher %}
 
-It will be removed from the map and from the calendar if such option has been chosen earlier.
+{% default %}
 
-![Action Delete Parking Android](/assets/images/map/context_menu_limited_parking.png) ![Action Delete Parking iOS](/assets/images/map/context_menu_limited_parking_ios.png)
+Once the Parking point is not needed anymore, remove it by long-tapping the point and selecting the respective option in the opened [context menu](/osmand/map/map-context-menu#-add--delete-parking-point). If any reminder, it will be deleted in the Calendar app too.  
+
+![Action Delete Parking in iOS](/assets/images/map/context_menu_limited_parking_ios.png) ![Action Delete Parking in Android](/assets/images/map/context_menu_limited_parking.png)
+
+{% enddefault %}
+
+{% ios%}
+
+To remove the Parking point from the map, long-tap it and select **{% data variables.ios-values.shared_string_dismiss %}** in the opened [context menu](/osmand/map/map-context-menu#-add--delete-parking-point). If any reminder, it will be deleted in the Calendar app too. 
+
+![Action Delete Parking in iOS](/assets/images/map/context_menu_limited_parking_ios.png) 
+
+{% endios%}
+
+{% android%}
+
+To remove the Parking point from the map, long-tap it and select **{% data variables.android-values.poi_action_delete %}** in the opened [context menu](/osmand/map/map-context-menu#-add--delete-parking-point). If any reminder, it will be deleted in the Calendar app too. 
+
+![Action Delete Parking in Android](/assets/images/map/context_menu_limited_parking.png)
+
+{% endandroid%}
