@@ -166,16 +166,37 @@ In the **Android** version, to set a Parking point, long-tap a spot on the map a
 
 To stay aware of the parking location and the time, after a Parking point is set, you can use: the [Parking widget](/osmand/widgets/info-widgets#-parking-widget) and the context menu of the point on the map. 
 
-| Location and time |
-| --- |
-| **Location** is revealed by the [Parking widget](/osmand/widgets/info-widgets#-parking-widget). It helps to see the distance to the Parking point from your current center of the map on the screen. Additionally, on tap the widget brings you directly onto the Parking point. |
-| ![Parking widget iOS](/assets/images/plugins/parking/parking_widget_ios.png) ![Parking widget Android](/assets/images/plugins/parking/parking_widget_android.png) |
- **Start Time** is always visible in the details of the Parking point. To see the details, tap the Parking point, and the opened context menu will show you when Parking started. |
-| ![Parking info in iOS](/assets/images/plugins/parking/ios_parking_info.png) ![Parking info in Android](/assets/images/plugins/parking/and_parking_info.png) |
-| **Time Left** or **Time Overdue** is provided in the details of a time-limited Parking point to show an initial expectation of when the car was planned to be picked up. To see the time left or overdue, tap the time-limited Parking point, and the opened context menu will show you when Parking was expected to be ended. |
-| ![Time left in iOS](/assets/images/plugins/parking/ios_parking_info_left.png) ![Time left in Android](/assets/images/plugins/parking/and_parking_info_left.png) |
-| **Calendar reminder** is helpful in keeping track of the time by setting reminders. To add one to your Calendar app, select the respective option when setting a time-limited Parking point. |
-| ![Parking reminder in Calendar](/assets/images/plugins/parking/ios_parking_in_calendar.png) |
+#### LOCATION
+
+**Location** is revealed by the [Parking widget](/osmand/widgets/info-widgets#-parking-widget). It helps to see the distance to the Parking point from your current center of the map on the screen. Additionally, on tap the widget brings you directly onto the Parking point. 
+
+![Parking widget iOS](/assets/images/plugins/parking/parking_widget_ios.png) ![Parking widget Android](/assets/images/plugins/parking/parking_widget_android.png) 
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+#### START TIME
+
+**Start Time** is always visible in the details of the Parking point. To see the details, tap the Parking point, and the opened context menu will show you when Parking started. 
+
+![Parking info in iOS](/assets/images/plugins/parking/ios_parking_info.png) ![Parking info in Android](/assets/images/plugins/parking/and_parking_info.png)
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+#### TIME LEFT / OVERDUE
+
+**Time Left** or **Time Overdue** is provided in the details of a time-limited Parking point to show an initial expectation of when the car was planned to be picked up. To see the time left or overdue, tap the time-limited Parking point, and the opened context menu will show you when Parking was expected to be ended. 
+
+![Time left in iOS](/assets/images/plugins/parking/ios_parking_info_left.png) ![Time left in Android](/assets/images/plugins/parking/and_parking_info_left.png) 
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+#### CALENDAR REMINDER
+
+**Calendar reminder** is helpful in keeping track of the time by setting reminders. To add one to your Calendar app, select the respective option when setting a time-limited Parking point. 
+
+![Parking reminder in Calendar](/assets/images/plugins/parking/ios_parking_in_calendar.png)
 
 
 
