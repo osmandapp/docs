@@ -1,6 +1,6 @@
 ---
 title: "{% data variables.android-values.audionotes_plugin_name %}"
-intro: "Audio-visual notes for future reference in case of need, or just to remember the moment, scene, or interaction, once recorded, are available from the central storage as well as on the map as an individual layer of user-made stories and thoughts tied to a geolocation.  **For Android only**."
+intro: "Audio/video notes for future reference in case of need, or just to remember the moment, scene, or interaction, once made, are available from the central storage as well as on the map as an individual layer of user-made stories and thoughts tied to a geolocation.  **For Android only**."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
@@ -79,7 +79,7 @@ User can set any parameters for media files in Settings menu of the Plugin.
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 
-## Audio-visual notes at work 
+## Manage notes
 
 For viewing your notes on the map you can switch on the  [Recording layer](/osmand/map/point-layers-on-map#-audio--video-points-android)  in  [Configure map menu](/osmand/map/configure-map-menu).
 
@@ -92,7 +92,7 @@ There are two ways how to add your notes on the map:
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Link to current position 
+### Create notes in relation to current position 
 
 The Audio-video notes widget is a clickable widget. It changes its state according to settings chosen in [the Configure screen menu](/osmand/widgets/info-widgets#-audio-video-notes-widget-android) .
 
@@ -120,7 +120,7 @@ User can sort files by type/data, share and delete them.
 
 &nbsp;&nbsp;&nbsp;&nbsp; 
 
-### Link to a geolocation 
+### Create notes in relation to a geolocation 
 
 User can add [a note in chosen point on the map](/osmand/map/map-context-menu#-record-av-note-android). Just make long tap on the map and choose [special Actions on Map Context menu](/osmand/map/map-context-menu):
 
@@ -135,7 +135,7 @@ User can add [a note in chosen point on the map](/osmand/map/map-context-menu#-r
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-###  Manage everything in My Places
+###  Reach out everything in My Places
 
 All notes keep in [My places menu](/osmand/personal/myplaces). User can make needed actions with notes in My places menu or in Map Context menu.
 
@@ -175,7 +175,7 @@ At the bottom of the screen are three Actions buttons:
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Show audio-visual notes on the map 
+### Show notes on the map 
 
 
 
@@ -183,7 +183,7 @@ At the bottom of the screen are three Actions buttons:
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### View a note from the map  
+### View audio/video POI   
 
 [Short tap](/osmand/map/map-context-menu#select-an-object-short-tap) on a/v note on the map or in [My places menu](/osmand/plugins/audio-video-notes#my-places-menu) opens [Map Context menu](/osmand/map/map-context-menu).
 
@@ -195,7 +195,7 @@ In this menu user can see [Details](/osmand/map/map-context-menu#-audiovideo-not
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Make A/V notes together with Trip recording 
+### Make notes during Trip recording 
 
 You can use this plugin while  [recording the GPX track](/osmand/plugins/trip-recording). This way, all your notes will be added to the track as waypoints automatically.
 
