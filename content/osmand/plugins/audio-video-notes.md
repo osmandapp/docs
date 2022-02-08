@@ -7,67 +7,112 @@ versions: '*'
 
 ## Overview 
 
-The Audio/video notes plugin extends the functional capabilities of storing the information about a geolocation by giving the user options to create their own representations in different formats, such as: a photo note, a video note, or an audio file, and tie them to a place of interest, or the current location. The recording options are provided with the context menu of a POI, and/or a widget. The resulted data is automatically saved to the central storage from where it is convenient to manage and share, if needed. 
+The Audio/video notes plugin extends the functional capabilities of storing the information about a geolocation by giving the user options to create their own representations in different formats, such as: a photo note, a video note, or an audio file, and tie them to a geographical place, or the current position. The recording options are provided with the context menu of a POI, and/or a widget. The resulted data is automatically saved to the central storage from where it is convenient to manage and share anything needed. 
 
-Simultaneously, all created audio/visual notes make up a Recording layer that if configured to show up on the map, provide some different means for managing the recorded data. It lays out audio-visual POIs across the map, thus creating a user-made narrative. 
+Simultaneously, all created audio/video notes make up a Recording layer that if configured to show up on the map, provides a different view on the recorded data and means for managing it. Within the Recording layer, the audio-visual notes are laid out as POIs across the map, thus creating a user-made map narrative. 
 
 ![Audio video notes intro](/assets/images/plugins/audio-video-notes/audio-video-intro.png)
 
 
+>**NOTE**: As of March, 2022, the audio/video notes functionality is available for **Android only**. 
+
+
+## Setup
+
+The audio/video notes are provided with the Audio/video notes plugin, and require the following setup:
+
+1. Enable the Audio/video notes plugin. 
+
+2. Configure the recording settings per profile. 
+
+
 ### Enable plugin
 
-Before starting to use or not option for making your notes on the map you need to Enable / Disable plugin:
+The Audio/video notes plugin is required for all the process of working with the audio/video notes: from creating them to viewing in My Places, and showing on the map. All existing audio-video notes will be hidden from the map and in My Places, if the plugin becomes disabled. 
+
+To enable the plugin, tap the triple dots beside the Audio/video notes option in the list of plugins and select **Enable**, as follows: 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.audionotes_plugin_name %}
 
 ![Audio video plugin Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_android.png)
 
 
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 ### Configure recording settings
 
-User can set any parameters for media files in Settings menu of the Plugin. 
+For every profile, it is possible to configure the recording settings and determine the properties of how photo/audio/video recording should be done. To reach out for the set of available configuration parameters, do any of the following: 
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.audionotes_plugin_name %} → {% data variables.android-values.shared_string_settings %}
+- either select **Settings** from the triple dots list of the Audio/video notes option in the list of plugins, and go on to configure the parameters for the default profile: 
+
+    - {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group %} → {% data variables.android-values.audionotes_plugin_name %} → {% data variables.android-values.shared_string_settings %}
+
+- or configure the parameters for a specific profile in the settings of the app:
+
+    - {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} 
+    - select a profile,
+    - tap **{% data variables.android-values.audionotes_plugin_name %}**
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 #### PHOTO SETTINGS 
 
+The {% data variables.android-values.photo_notes %} section can be used to establish any of the following settings:
+
 ![Audio video plugin settings Photo Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_photo_android.png)
 
-- {% data variables.android-values.multimedia_use_system_camera %} - use or not system application for photos.
-- {% data variables.android-values.av_camera_pic_size %}- set camera picture size.
-- {% data variables.android-values.av_camera_focus %} - set focus mode: {% data variables.android-values.av_camera_focus_infinity %}, {% data variables.android-values.av_camera_focus_auto %}, {% data variables.android-values.av_camera_focus_continuous %}.
-- {% data variables.android-values.multimedia_photo_play_sound %} - switch on/off camera shutter sound.
+| Parameter | Description |
+| --- | --- |
+| **{% data variables.android-values.multimedia_use_system_camera %}** | If enabled, the app uses the system application to create photos.|
+| **{% data variables.android-values.av_camera_pic_size %}** | This sets the preferred size for the photos to be taken in.  |
+| **{% data variables.android-values.av_camera_focus %}** | The focus mode for the camera is established as {% data variables.android-values.av_camera_focus_auto %} which is the option that makes the camera automatically adjust the focus every time a photo is taken. |
+| **{% data variables.android-values.multimedia_photo_play_sound %}** | If enabled, a sound is produced on closing the camera.| 
 
 
 #### AUDIO SETTINGS 
 
+The {% data variables.android-values.map_widget_audionotes %} section can be used to establish any of the following settings:
+
 ![Audio video plugin settings Audio Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_audio_android.png)
 
-- {% data variables.android-values.av_audio_format %} - select audio output format: Default or ACC.
-- {% data variables.android-values.av_audio_bitrate %}- select audio bitrate: Default, 16kbps, 32 kbps... 128 kbps.
+| Parameter | Description |
+| --- | --- |
+| **{% data variables.android-values.av_audio_format %}** | select audio output format: Default or ACC. |
+| **{% data variables.android-values.av_audio_bitrate %}** | select audio bitrate: Default, 16kbps, 32 kbps... 128 kbps.| 
 
 
 #### VIDEO SETTINGS 
 
+The {% data variables.android-values.video_notes %} section can be used to establish any of the following settings:
 
 ![Audio video plugin settings Video Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_video_android.png)
 
-- {% data variables.android-values.multimedia_use_system_camera %} - use or not system recorder for video.
-- {% data variables.android-values.av_video_quality %}- select video quality.
-- {% data variables.android-values.multimedia_rec_split_title %}- choose option: Rewrite clips when used space exceeds the storage size.
-- {% data variables.android-values.rec_split_clip_length %}- set upper time limit for recorded clips.
-- {% data variables.android-values.rec_split_storage_size %}- set amount of space that can be occupied by all recorded clips.
+| Parameter | Description |
+| --- |  --- |
+| **{% data variables.android-values.multimedia_use_system_camera %}** | use or not system recorder for video. |
+| **{% data variables.android-values.av_video_quality %}** | select video quality. |
+| **{% data variables.android-values.multimedia_rec_split_title %}** | choose option: Rewrite clips when used space exceeds the storage size. |
+| **{% data variables.android-values.rec_split_clip_length %}** | set upper time limit for recorded clips. |
+| **{% data variables.android-values.rec_split_storage_size %}** | set amount of space that can be occupied by all recorded clips. |
 
 #### OTHER
 
+The rest of the settings provide the following: 
+
 ![Audio video plugin settings Action Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_action_android.png)
 
-- [The way to your media notes in OsmAnd menu](/osmand/personal/myplaces): click to '{% data variables.android-values.notes %}' opening menu.
-- {% data variables.android-values.reset_plugin_to_default %} - tapping discards all your changes.
-- {% data variables.android-values.copy_from_other_profile %} - tapping for copy plugin settings from another profile.
+| Parameter | Description |
+| --- | --- |
+| **{% data variables.android-values.notes %}** | [The way to your media notes in OsmAnd menu](/osmand/personal/myplaces): click to '{% data variables.android-values.notes %}' opening menu. |
+| **{% data variables.android-values.reset_plugin_to_default %}** | tapping discards all your changes. |
+| **{% data variables.android-values.copy_from_other_profile %}** | tapping for copy plugin settings from another profile.|
 
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### Media file format 
 
 {% data variables.android-values.audionotes_plugin_name %} Plugin stores media files in a format:
 
@@ -204,6 +249,13 @@ You can use this plugin while  [recording the GPX track](/osmand/plugins/trip-re
 When [viewing the track](/osmand/map/track-context-menu), you'll see exactly what was recorded where.
 
 ![Audio video plugin to Track view](/assets/images/plugins/audio-video-notes/audio_video_notes_to_track_view.png)
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### Export for JOSM editor 
+
 
 To view everything later, you can export the track together with all the media and see them in the  [JOSM editor](https://josm.openstreetmap.de/). Please note that you'll need to put the media in the corresponding folder (you'll know which one if you click on a video note and see the message about a missing file. Just put it in the indicated folder).
 
