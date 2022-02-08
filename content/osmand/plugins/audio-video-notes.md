@@ -1,16 +1,20 @@
 ---
 title: "{% data variables.android-values.audionotes_plugin_name %}"
-intro: "Making memorable notes is one of the main pleasures of traveling. **For Android only**."
+intro: "Audio-visual notes for future reference in case of need, or just to remember the moment, scene, or interaction, once recorded, are available from the central storage as well as on the map as an individual layer of user-made stories and thoughts tied to a geolocation.  **For Android only**."
 versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
-Making memorable notes is one of the main pleasures of traveling. With OsmAnd Audio/video notes plugin, you can add media right to the map to watch it later. Want your pictures to be added to the locations they were made at? Easy. Need a comfortable video recorder? No problem. Want to make an audio note and link it to the location? Problem solved.
+## Overview 
+
+The Audio/video notes plugin extends the functional capabilities of storing the information about a geolocation by giving the user options to create their own representations in different formats, such as: a photo note, a video note, or an audio file, and tie them to a place of interest, or the current location. The recording options are provided with the context menu of a POI, and/or a widget. The resulted data is automatically saved to the central storage from where it is convenient to manage and share, if needed. 
+
+Simultaneously, all created audio/visual notes make up a Recording layer that if configured to show up on the map, provide some different means for managing the recorded data. It lays out audio-visual POIs across the map, thus creating a user-made narrative. 
 
 ![Audio video notes intro](/assets/images/plugins/audio-video-notes/audio-video-intro.png)
 
 
-## Enable / Disable Plugin
+### Enable plugin
 
 Before starting to use or not option for making your notes on the map you need to Enable / Disable plugin:
 
@@ -18,14 +22,16 @@ Before starting to use or not option for making your notes on the map you need t
 
 ![Audio video plugin Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_android.png)
 
-## Plugin settings
+
+
+### Configure recording settings
 
 User can set any parameters for media files in Settings menu of the Plugin. 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.audionotes_plugin_name %} → {% data variables.android-values.shared_string_settings %}
 
 
-**Photo notes:**
+#### PHOTO SETTINGS 
 
 ![Audio video plugin settings Photo Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_photo_android.png)
 
@@ -35,7 +41,7 @@ User can set any parameters for media files in Settings menu of the Plugin.
 - {% data variables.android-values.multimedia_photo_play_sound %} - switch on/off camera shutter sound.
 
 
-**Audio notes:**
+#### AUDIO SETTINGS 
 
 ![Audio video plugin settings Audio Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_audio_android.png)
 
@@ -43,7 +49,7 @@ User can set any parameters for media files in Settings menu of the Plugin.
 - {% data variables.android-values.av_audio_bitrate %}- select audio bitrate: Default, 16kbps, 32 kbps... 128 kbps.
 
 
-**Video notes:**
+#### VIDEO SETTINGS 
 
 
 ![Audio video plugin settings Video Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_video_android.png)
@@ -54,7 +60,7 @@ User can set any parameters for media files in Settings menu of the Plugin.
 - {% data variables.android-values.rec_split_clip_length %}- set upper time limit for recorded clips.
 - {% data variables.android-values.rec_split_storage_size %}- set amount of space that can be occupied by all recorded clips.
 
-**Action button:**
+#### OTHER
 
 ![Audio video plugin settings Action Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_action_android.png)
 
@@ -68,7 +74,12 @@ User can set any parameters for media files in Settings menu of the Plugin.
 {SHORTLINK_LOCATION}_Description.{avi,mp3,jpg} where SHORTLINK_LOCATION is encoded latitude/longitude according to specification https://wiki.openstreetmap.org/wiki/Shortlink.
 
 
-## Add note on the map
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+## Audio-visual notes at work 
 
 For viewing your notes on the map you can switch on the  [Recording layer](/osmand/map/point-layers-on-map#-audio--video-points-android)  in  [Configure map menu](/osmand/map/configure-map-menu).
 
@@ -77,7 +88,11 @@ There are two ways how to add your notes on the map:
 - [by Map Context menu](/osmand/map/map-context-menu#-record-av-note-android): adding a note in the chosen point on the map.
 
 
-### By Widget
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### Link to current position 
 
 The Audio-video notes widget is a clickable widget. It changes its state according to settings chosen in [the Configure screen menu](/osmand/widgets/info-widgets#-audio-video-notes-widget-android) .
 
@@ -99,7 +114,13 @@ When the 'Take a photo' option is selected, the user can take a picture.
 All audio, video files and photos will be in the {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → tab {% data variables.android-values.notes %} . 
 User can sort files by type/data, share and delete them.
 
-### By Map Context menu
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp; 
+
+### Link to a geolocation 
 
 User can add [a note in chosen point on the map](/osmand/map/map-context-menu#-record-av-note-android). Just make long tap on the map and choose [special Actions on Map Context menu](/osmand/map/map-context-menu):
 
@@ -109,11 +130,14 @@ User can add [a note in chosen point on the map](/osmand/map/map-context-menu#-r
 
 ![Audio video plugin  Context menu take a note](/assets/images/plugins/audio-video-notes/context-menu-take-note.png)
 
-## Actions with notes
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+###  Manage everything in My Places
 
 All notes keep in [My places menu](/osmand/personal/myplaces). User can make needed actions with notes in My places menu or in Map Context menu.
-
-### My places menu
 
 All user notes keep in [My places menu](/osmand/personal/myplaces). It's a list with all your notes.
 
@@ -147,7 +171,19 @@ At the bottom of the screen are three Actions buttons:
 - {% data variables.android-values.shared_string_delete %} - choose notes from the list and delete its. You can choose a/v notes in GPX file too.
 
 
-### Actions in Map Context menu
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### Show audio-visual notes on the map 
+
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### View a note from the map  
 
 [Short tap](/osmand/map/map-context-menu#select-an-object-short-tap) on a/v note on the map or in [My places menu](/osmand/plugins/audio-video-notes#my-places-menu) opens [Map Context menu](/osmand/map/map-context-menu).
 
@@ -156,7 +192,10 @@ In this menu user can see [Details](/osmand/map/map-context-menu#-audiovideo-not
 ![Audio video plugin Context menu](/assets/images/plugins/audio-video-notes/audio_video_notes_map_context_menu_1.png)
 
 
-## Add notes to your GPX track
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### Make A/V notes together with Trip recording 
 
 You can use this plugin while  [recording the GPX track](/osmand/plugins/trip-recording). This way, all your notes will be added to the track as waypoints automatically.
 
