@@ -28,9 +28,9 @@ The audio/video notes are provided with the Audio/video notes plugin, and requir
 
 ### Enable plugin
 
-The Audio/video notes plugin is required for all the process of working with the audio/video notes: from creating them to viewing in My Places, and showing on the map. All existing audio-video notes will be hidden from the map and in My Places, if the plugin becomes disabled. 
+The Audio/video notes plugin is required for all the process of working with the audio/video notes: from creating them to viewing in My Places, and showing on the map. All existing audio-video notes will be hidden from the map and from My Places, if the plugin becomes disabled. 
 
-To enable the plugin, tap the triple dots beside the Audio/video notes option in the list of plugins and select **Enable**, as follows: 
+To enable the plugin, tap the triple dots beside the enabled Audio/video notes option in the list of plugins and select **Enable**, as follows: 
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.audionotes_plugin_name %}
 
@@ -47,11 +47,11 @@ For every profile, it is possible to configure the recording settings and determ
 
     - {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group %} → {% data variables.android-values.audionotes_plugin_name %} → {% data variables.android-values.shared_string_settings %}
 
-- or configure the parameters for a specific profile in the settings of the app:
+- or configure the parameters for a specific profile by selecting it in the settings of the app, as follows:
 
-    - {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} 
+    - open: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} 
     - select a profile,
-    - tap **{% data variables.android-values.audionotes_plugin_name %}**
+    - tap the **{% data variables.android-values.audionotes_plugin_name %}** option. 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -65,9 +65,9 @@ The {% data variables.android-values.photo_notes %} section can be used to estab
 
 | Parameter | Description |
 | --- | --- |
-| **{% data variables.android-values.multimedia_use_system_camera %}** | If enabled, the app uses the system application to create photos.|
-| **{% data variables.android-values.av_camera_pic_size %}** | This sets the preferred size for the photos to be taken in.  |
-| **{% data variables.android-values.av_camera_focus %}** | The focus mode for the camera is established as {% data variables.android-values.av_camera_focus_auto %} which is the option that makes the camera automatically adjust the focus every time a photo is taken. |
+| **{% data variables.android-values.multimedia_use_system_camera %}** | If enabled, OsmAnd uses the system application to create photos.|
+| **{% data variables.android-values.av_camera_pic_size %}** | This establishes a size to create photos in.  |
+| **{% data variables.android-values.av_camera_focus %}** | This establishes {% data variables.android-values.av_camera_focus_auto %} which is the option that makes the camera automatically adjust the focus every time a photo is taken. |
 | **{% data variables.android-values.multimedia_photo_play_sound %}** | If enabled, a sound is produced on closing the camera.| 
 
 
@@ -79,8 +79,8 @@ The {% data variables.android-values.map_widget_audionotes %} section can be use
 
 | Parameter | Description |
 | --- | --- |
-| **{% data variables.android-values.av_audio_format %}** | select audio output format: Default or ACC. |
-| **{% data variables.android-values.av_audio_bitrate %}** | select audio bitrate: Default, 16kbps, 32 kbps... 128 kbps.| 
+| **{% data variables.android-values.av_audio_format %}** | This provides a choice of formats that an audio file should be created in. There are two options: either the default format, or the **.aac** format. |
+| **{% data variables.android-values.av_audio_bitrate %}** | This provides a choice of bitrate options, which range from 16kbps, and to 128 kbps, or the Default option. | 
 
 
 #### VIDEO SETTINGS 
