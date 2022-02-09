@@ -9,7 +9,27 @@ versions: '*'
 
 A Parking point on the map and a notice in the calendar are provided by the Parking plugin. It is free, and works well with the downloaded OsmAnd Maps and Navigation. A Parking point will help you remember the exact location of where the car is left as well as to stay aware of how far it is already from your parking spot, and if needed, to return on time, avoid additional unnecessary costs, share the location with your loved ones. It is easy to set a Parking point, with or without time-tracking, and to remove it after successful use. 
 
-![Parking overdue in Android](/assets/images/plugins/parking/and_parking_overdue.png) ![Heading to Parking point in iOS](/assets/images/plugins/parking/ios_going_to_parking.png)
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Parking widget iOS](/assets/images/plugins/parking/parking_widget_ios.png) ![Parking widget Android](/assets/images/plugins/parking/parking_widget_android.png) 
+
+
+{% enddefault %}
+
+{% ios%}
+
+![Parking widget iOS](/assets/images/plugins/parking/parking_widget_ios.png)
+
+{% endios%}
+
+{% android%}
+
+![Parking widget Android](/assets/images/plugins/parking/parking_widget_android.png) 
+
+{% endandroid%}
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
