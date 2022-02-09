@@ -109,7 +109,7 @@ For each specific profile, Trip recording can be configured individually, as the
 
 In the **iOS** version, to open [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) for configuring Trip recording, do the following:
 
-1. Go to: {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %}.
+1. Open {% data variables.ios-values.menu %} → {% data variables.ios-values.sett_settings %}.
 
 2. Select a [profile](/osmand/personal/profiles). 
 
@@ -121,26 +121,32 @@ In the **iOS** version, to open [settings](/osmand/start-with/first-steps#how-to
 
 {% android%}
 
-In the **Android** version, to open [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) for configuring Trip recording, use any of the following:
+In the **Android** version, to open [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) for configuring Trip recording, it is possible to use any of the two options: general [settings](/osmand/start-with/first-steps#how-to-manage-your-settings), or [plugin](/osmand/start-with/first-steps#how-to-configure-plugins) settings. 
 
-- the [Settings](/osmand/start-with/first-steps#how-to-manage-your-settings) of the app: 
+#### GENERAL SETTINGS 
 
-    1. Go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %}.
+The [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) of the app provide allow you to establish the Trip recording settings individually for a specific profile, and can be reached out, as follows:
 
-    2. Select a [profile](/osmand/personal/profiles).
+1. Open {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %}.
 
-    3. Tap **{% data variables.android-values.record_plugin_name %}**.
+2. Select a [profile](/osmand/personal/profiles).
+
+3. Tap **{% data variables.android-values.record_plugin_name %}**.
 
 
 ![Trip recording settings per profile in Android](/assets/images/plugins/trip-recording/and_profile_trip_rec2.png)
 
-- the settings opened from the [plugin]:
+&nbsp;&nbsp;&nbsp;&nbsp;
 
-    1. Go to: {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group %} 
+#### PLUGIN SETTINGS
 
-    2. Tap the triple point at the right side of **{% data variables.android-values.map_widget_monitoring %}**, or tap the **{% data variables.android-values.map_widget_monitoring %}** option.
+The settings opened from the [plugin](/osmand/start-with/first-steps#how-to-configure-plugins) allow you to establish the Trip recording settings only for one default profile, and can be reached out, as follows: 
 
-    3. Select **Settings**. 
+1. Open {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group %}.
+
+2. Tap the triple point at the right side of **{% data variables.android-values.map_widget_monitoring %}**, or tap the **{% data variables.android-values.map_widget_monitoring %}** option.
+
+3. Select **Settings**. 
 
 ![Settings opened from the plugin](/assets/images/plugins/trip-recording/and_open_settings_from_profile.png) ![Settings opened from the plugin](/assets/images/plugins/trip-recording/rec_settings_plugin.png)
 
@@ -280,9 +286,13 @@ In the **Android** version, there are three options to start recording:
 - with the Trip recording option in the menu,
 - with the Start Recording icon on the screen of the device. 
 
+&nbsp;&nbsp;&nbsp;&nbsp;
+
 ![Icon's context menu](/assets/images/plugins/trip-recording/and_open_from_icon.png) ![Start Recording icon](/assets/images/plugins/trip-recording/and_trip_rec_icon.png)
 
 > **NOTE**: Short-tap to open the icon's context menu with an option to Start Recording. Long-tap an option from the icon's context menu, to add it as an individual icon to the screen of the device. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 In any case, the Start dialog opens, if it is enabled in the Trip recording settings described above. Otherwise, the recording starts automatically without providing the extra options to configure.
 
