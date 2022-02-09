@@ -45,6 +45,12 @@ Map markers are special points marked as flags on the map. You can customize the
 
 ![Map markers menu Android](/assets/images/personal/markers/map_markers_menu_android.png)
 
+- {% data variables.android-values.shared_string_list %} - keeps all your Map markers in the one place. Here you can move Map marker to the History part or replace it.
+- {% data variables.android-values.shared_string_groups %} - contains groups of your Map markers. 
+- {% data variables.android-values.shared_string_history %} - keeps all Map markers which were deleted yearlier.
+- {% data variables.android-values.shared_string_more_without_dots %} - keeps Options of Map markers (Appearance) and etc.
+
+
 {% endandroid %}
 
 {% ios %}
@@ -56,11 +62,11 @@ Map markers are special points marked as flags on the map. You can customize the
 {% endios %}
 
 
-### List (Android)
+### List
 
 ![Map markers List Android](/assets/images/personal/markers/map_markers_list_android.png) 
 
-### Groups (Android)
+### Groups
 
 ![Map markers Groups Android](/assets/images/personal/markers/map_markers_groups_android.png) ![Map markers Groups Android](/assets/images/personal/markers/map_markers_groups_add_android.png) 
 
@@ -74,7 +80,7 @@ Click to '&#43;' Button.  {% data variables.android-values.favourites_group %}:
 
 ![Map markers History Android](/assets/images/personal/markers/map_markers_history_android.png) ![Map markers History iOS](/assets/images/personal/markers/map_markers_history_ios.png) 
 
-### More (Android) / Appearance (iOS)
+### More / Appearance 
 
 ![Map markers More Android](/assets/images/personal/markers/map_markers_more_android.png) ![Map markers Appearance iOS](/assets/images/personal/markers/map_markers_appearance_ios.png) 
 
