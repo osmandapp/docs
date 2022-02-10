@@ -9,7 +9,7 @@ const port = Number(process.env.PORT) || 4000
 const app = express()
 const dotenv = require('dotenv');
 dotenv.config();
-
+console.log(process.env)
 require('./middleware')(app)
 
 // prevent the app from starting up during tests
