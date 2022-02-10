@@ -3,6 +3,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const { EnvironmentPlugin, DefinePlugin } = require('webpack')
 const { reactBabelOptions } = require('./lib/react/babel')
+const dotenv = require('dotenv');
+dotenv.config();
 
 module.exports = {
   devtool: 'source-map', // this prevents webpack from using eval
