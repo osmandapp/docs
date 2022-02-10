@@ -70,7 +70,7 @@ export default function () {
 
     // https://www.algolia.com/apps/ZI5KPY1HBE/dashboard
     // This API key is public. There's also a private API key for writing to the Aloglia API
-    searchClient: algoliasearch('ZI5KPY1HBE', '685df617246c3a10abba589b4599288f'),
+    searchClient: algoliasearch(process.env.ALGOLIA_APPLICATION_ID, process.env.ALGOLIA_API_KEY),
 
     // There's an index for every version/language combination
     indexName: `github-docs-${deriveVersionFromPath()}-${deriveLanguageCodeFromPath()}`,
