@@ -5,7 +5,6 @@ versions: "*"
 ---
 
 {% link_with_intro /android %}
-{% link_with_intro /android-4-0 %}
 {% link_with_intro /ios %}
 {% link_with_intro /giveaway %}
 
