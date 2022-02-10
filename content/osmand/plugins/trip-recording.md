@@ -499,7 +499,7 @@ The location points are recorded into a file in the [GPX format](https://en.wiki
 
 Below is an example of a point and a segment in the track.
 
-![GPX file of a recorded track](/assets/images/plugins/trip-recording/exs_trkpt_seqn_with_segm.png)
+![GPX file of a recorded track](/assets/images/plugins/trip-recording/exs_trkpt_seqn_with_segm2.png)
 
 | Parameter | Description | 
 | --- | --- |
