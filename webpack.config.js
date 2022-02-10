@@ -1,7 +1,7 @@
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
-const { EnvironmentPlugin } = require('webpack')
+const { EnvironmentPlugin, DefinePlugin } = require('webpack')
 const { reactBabelOptions } = require('./lib/react/babel')
 
 module.exports = {
@@ -85,7 +85,7 @@ module.exports = {
         { from: 'node_modules/@primer/css/fonts', to: 'fonts' }
       ]
     }),
-    new EnvironmentPlugin(['NODE_ENV'])
+    new EnvironmentPlugin(['NODE_ENV', 'ALGOLIA_API_KEY', 'ALGOLIA_APPLICATION_ID', 'ALLOW_TRANSLATION_COMMITS'])
   ],
   resolve: {
     alias: {

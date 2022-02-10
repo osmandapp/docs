@@ -73,7 +73,7 @@ export default function () {
     searchClient: algoliasearch(process.env.ALGOLIA_APPLICATION_ID, process.env.ALGOLIA_API_KEY),
 
     // There's an index for every version/language combination
-    indexName: `github-docs-${deriveVersionFromPath()}-${deriveLanguageCodeFromPath()}`,
+    indexName: `osmand-docs-${deriveVersionFromPath()}-${deriveLanguageCodeFromPath()}`,
 
     // allows "phrase queries" and "prohibit operator"
     // https://www.algolia.com/doc/api-reference/api-parameters/advancedSyntax/
@@ -155,7 +155,7 @@ export default function () {
       }),
       configure({
         analyticsTags: [
-          'site:docs.github.com',
+          'site:docs.osmand.net',
           `env:${process.env.NODE_ENV}`
         ]
       }),

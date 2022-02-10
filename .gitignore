@@ -1,6 +1,7 @@
 .algolia-cache
 .DS_Store
 .env
+yarn.lock
 /node_modules/
 npm-debug.log
 coverage/
