@@ -31,7 +31,7 @@ COPY package*.json ./
 COPY javascripts ./javascripts
 COPY stylesheets ./stylesheets
 COPY lib ./lib
-COPY [".env"] ./
+COPY dockerbuild.env ./.env
 COPY webpack.config.js ./webpack.config.js
 # Install the project's dependencies and build the bundles
 RUN npm ci && npm run build
