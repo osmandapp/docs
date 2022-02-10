@@ -13,6 +13,7 @@ RUN apk --no-cache add --virtual native-deps \
 ENV NODE_ENV production
 WORKDIR /usr/src/docs
 COPY package*.json ./
+COPY dockerbuild.env ./.env
 
 # Install the project's dependencies
 RUN npm ci
@@ -31,7 +32,7 @@ COPY package*.json ./
 COPY javascripts ./javascripts
 COPY stylesheets ./stylesheets
 COPY lib ./lib
-COPY dockerbuild.env ./dockerbuild.env
+COPY dockerbuild.env ./.env
 COPY webpack.config.js ./webpack.config.js
 # Install the project's dependencies and build the bundles
 RUN npm ci && npm run build
@@ -61,6 +62,7 @@ ENV NODE_ENV production
 # Copy only what's needed to run the server
 COPY --chown=node:node server.js ./server.js
 COPY --chown=node:node package*.json ./
+COPY --chown=node:node dockerbuild.env ./.env
 COPY --chown=node:node feature-flags.json ./
 COPY --chown=node:node middleware ./middleware
 COPY --chown=node:node lib ./lib
