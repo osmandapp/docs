@@ -7,23 +7,27 @@ versions: '*'
 
 ## Overview 
 
-The Audio/video notes plugin extends the functional capabilities of storing the information about a geolocation by giving the user options to create their own representations in different formats, such as: a photo note, a video note, or an audio file, and tie them to a geographical place, or the current position. The recording options are provided with the context menu of a POI, and/or a widget. The resulted data is automatically saved to the central storage from where it is convenient to manage and share anything needed. 
+The Audio/video notes plugin extends the functional capabilities of storing the information about a geolocation by giving the user options to create their own representations in different formats, such as: a photo note, a video note, or an audio file, and tie them to a geographical place, or the current position. The recording options are provided with the Audio/video notes widget, and/or the context menu of a POI. The resulted data is automatically saved to the central storage from where it is convenient to manage and share anything needed. 
 
-Simultaneously, all created audio/video notes make up a Recording layer that if configured to show up on the map, provides a different view on the recorded data and means for managing it. Within the Recording layer, the audio-visual notes are laid out as POIs across the map, thus creating a user-made map narrative. 
+Simultaneously, all created audio/video notes make up a Recording layer that if configured to show up on the map, provides a different view on the recorded data and means for managing it. Within the Recording layer, the audio/video notes are laid out as POIs across the map, thus creating a user-made map narrative. 
 
 ![Audio video notes intro](/assets/images/plugins/audio-video-notes/audio-video-intro.png)
 
 
 >**NOTE**: As of March, 2022, the audio/video notes functionality is available for **Android only**. 
 
+&nbsp;&nbsp;&nbsp;&nbsp;
+
 
 ## Setup
 
 The audio/video notes are provided with the Audio/video notes plugin, and require the following setup:
 
-1. Enable the Audio/video notes plugin. 
+1. Enable the plugin. 
 
-2. Configure the recording settings per profile. 
+2. Make certain the widget is added to the screen of the device.
+
+3. Configure the recording settings per profile. 
 
 
 ### Enable plugin
@@ -35,6 +39,17 @@ To enable the plugin, tap the triple dots beside the enabled Audio/video notes o
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.audionotes_plugin_name %}
 
 ![Audio video plugin Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_android.png)
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### Add widget to screen
+
+
+
+
+
+
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
