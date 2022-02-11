@@ -29,6 +29,7 @@ There are the next tabs of Track Context menu:
 
 {% endandroid %}
 
+
 {% ios %}
 
 ![Statistics screen track iOS](/assets/images/personal/tracks/menu_track_ios.png)
