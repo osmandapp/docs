@@ -49,9 +49,9 @@ The {% data variables.android-values.map_widget_av_notes %} widget makes records
 
 ![The widget](/assets/images/plugins/audio-video-notes/audio_video_notes_widget.png)
 
-Adding the widget to the screen is needed when you would rather skip looking for a geolocation on the map and by defailt link the notes to your current position. To add, and/or configure the widget, do the following:
+Adding the widget to the screen is needed when you would rather skip looking for a geolocation on the map and by default link the notes to your current position. To add, and/or configure the widget, do the following:
 
-1. Open {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %}
+1. Open {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %}
 
 2. Scroll down the **{% data variables.android-values.map_widget_right %}**.
 
@@ -59,15 +59,15 @@ Adding the widget to the screen is needed when you would rather skip looking for
 
 4. Select an option you prefer to do by default by tapping the widget:
 
-    - **{% data variables.android-values.av_def_action_choose %}** to open a choice of options;
+    - **{% data variables.android-values.av_def_action_choose %}** - to open a choice of options;
 
-    - **{% data variables.android-values.av_def_action_audio %}** to immediately start to record an audio message;
+    - **{% data variables.android-values.av_def_action_audio %}** - to immediately start to record an audio message;
 
-    - **{% data variables.android-values.av_def_action_video %}** to immediately start to record a video;
+    - **{% data variables.android-values.av_def_action_video %}** - to immediately start to record a video;
 
-    - **{% data variables.android-values.av_def_action_picture %}** to immediately start taking a photo. 
+    - **{% data variables.android-values.av_def_action_picture %}** - to immediately start taking a photo. 
 
-5. Make certain {% data variables.android-values.shared_string_show %} or {% data variables.android-values.shared_string_collapse%} is selected, so that the widget to be displayed on the device screen. In the latter case, it will be available from a arrow icon opening a dropdown list of widgets in the top right-hand corner of the screen. 
+5. Make certain {% data variables.android-values.shared_string_show %} or {% data variables.android-values.shared_string_collapse%} is selected, so that the widget to be displayed on the device screen. In the latter case, it will be available from an arrow icon opening the dropdown list of widgets in the top right-hand corner of the screen. 
 
 
 ![Widget options](/assets/images/plugins/audio-video-notes/av-widget-configure2.png)
@@ -75,29 +75,32 @@ Adding the widget to the screen is needed when you would rather skip looking for
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Configure recording settings
+### Open settings
 
-For every profile, it is possible to configure the recording settings and determine the properties of how photo/audio/video recording should be done. To reach out for the set of available configuration parameters, do any of the following: 
+For every profile, it is possible to configure the recording settings. There are two options of how to opens the {% data variables.android-values.audionotes_plugin_name %} settings: from the plugin, so that to configure recording only for the default profile; or from the app settings, so that to configure recording for a specific profile. 
 
-- either select **Settings** from the triple dots list of the Audio/video notes option in the list of plugins, and go on to configure the parameters for the default profile: 
+From the list of [plugins](/osmand/start-with/first-steps#how-to-configure-plugins), to open the Audio/video recording settings, select **Settings** in the triple dots list of the {% data variables.android-values.audionotes_plugin_name %} option in: 
 
-    - {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group %} → {% data variables.android-values.audionotes_plugin_name %} → {% data variables.android-values.shared_string_settings %}
+    {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group %} → {% data variables.android-values.audionotes_plugin_name %} → {% data variables.android-values.shared_string_settings %}
 
-- or configure the parameters for a specific profile by selecting it in the settings of the app, as follows:
+From the settings of the entire app, to open the Audio/video recording settings, do the following:
 
     - open: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} 
     - select a profile,
     - tap the **{% data variables.android-values.audionotes_plugin_name %}** option. 
 
+![Opening Audio video plugin settings](/assets/images/plugins/audio-video-notes/settings_avplugin_per_profile2.png) 
+
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-
-#### PHOTO SETTINGS 
+### Establish options 
 
 The {% data variables.android-values.photo_notes %} section can be used to establish any of the following settings:
 
-![Audio video plugin settings Photo Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_photo_android.png)
+![Audio video plugin settings Photo Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_photo_android.png)  ![Audio video plugin settings Video Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_video_android.png)
+
 
 | Parameter | Description |
 | --- | --- |
@@ -105,45 +108,19 @@ The {% data variables.android-values.photo_notes %} section can be used to estab
 | **{% data variables.android-values.av_camera_pic_size %}** | This establishes a size to create photos in.  |
 | **{% data variables.android-values.av_camera_focus %}** | This establishes {% data variables.android-values.av_camera_focus_auto %} which is the option that makes the camera automatically adjust the focus every time a photo is taken. |
 | **{% data variables.android-values.multimedia_photo_play_sound %}** | If enabled, a sound is produced on closing the camera.| 
-
-
-#### AUDIO SETTINGS 
-
-The {% data variables.android-values.map_widget_audionotes %} section can be used to establish any of the following settings:
-
-![Audio video plugin settings Audio Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_audio_android.png)
-
-| Parameter | Description |
-| --- | --- |
 | **{% data variables.android-values.av_audio_format %}** | This provides a choice of formats that an audio file should be created in. There are two options: either the default format, or the **.aac** format. |
 | **{% data variables.android-values.av_audio_bitrate %}** | This provides a choice of bitrate options, which range from 16kbps, and to 128 kbps, or the Default option. | 
-
-
-#### VIDEO SETTINGS 
-
-The {% data variables.android-values.video_notes %} section can be used to establish any of the following settings:
-
-![Audio video plugin settings Video Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_video_android.png)
-
-| Parameter | Description |
-| --- |  --- |
 | **{% data variables.android-values.multimedia_use_system_camera %}** | use or not system recorder for video. |
 | **{% data variables.android-values.av_video_quality %}** | select video quality. |
 | **{% data variables.android-values.multimedia_rec_split_title %}** | choose option: Rewrite clips when used space exceeds the storage size. |
 | **{% data variables.android-values.rec_split_clip_length %}** | set upper time limit for recorded clips. |
 | **{% data variables.android-values.rec_split_storage_size %}** | set amount of space that can be occupied by all recorded clips. |
-
-#### OTHER
-
-The rest of the settings provide the following: 
-
-![Audio video plugin settings Action Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_action_android.png)
-
-| Parameter | Description |
-| --- | --- |
 | **{% data variables.android-values.notes %}** | [The way to your media notes in OsmAnd menu](/osmand/personal/myplaces): click to '{% data variables.android-values.notes %}' opening menu. |
 | **{% data variables.android-values.reset_plugin_to_default %}** | tapping discards all your changes. |
 | **{% data variables.android-values.copy_from_other_profile %}** | tapping for copy plugin settings from another profile.|
+
+![Audio video plugin settings Audio Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_audio_android.png) ![Audio video plugin settings Video Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_video_android.png)
+
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
