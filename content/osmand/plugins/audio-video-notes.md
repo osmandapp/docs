@@ -25,31 +25,52 @@ The audio/video notes are provided with the Audio/video notes plugin, and requir
 
 1. Enable the plugin. 
 
-2. Make certain the widget is added to the screen of the device.
+2. If needed, add the widget to the device screen, and/or configure. 
 
-3. Configure the recording settings per profile. 
+3. If needed, configure the recording settings per profile. 
 
 
 ### Enable plugin
 
-The Audio/video notes plugin is required for all the process of working with the audio/video notes: from creating them to viewing in My Places, and showing on the map. All existing audio-video notes will be hidden from the map and from My Places, if the plugin becomes disabled. 
+The Audio/video notes plugin is required for working with the audio/video notes: from creating the notes to viewing them in My Places, and showing on the map. All audio/video notes will be hidden from the map and from My Places, if the plugin becomes disabled. 
 
-To enable the plugin, tap the triple dots beside the enabled Audio/video notes option in the list of plugins and select **Enable**, as follows: 
+To enable the plugin, tap the triple dots beside the enabled **{% data variables.android-values.audionotes_plugin_name %}** option in the list of [plugins](/osmand/start-with/first-steps#how-to-configure-plugins) and select **Enable**.  
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.audionotes_plugin_name %}
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group %} → {% data variables.android-values.audionotes_plugin_name %}
 
 ![Audio video plugin Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_android.png)
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Add widget to screen
+### Add/Configure widget
+
+The {% data variables.android-values.map_widget_av_notes %} widget makes records (i.e. photo, audio, video) and ties them to the current position of the user. The widget has several options that can be set up as the default action performed by the widget on tap. 
+
+![The widget](/assets/images/plugins/audio-video-notes/audio_video_notes_widget.png)
+
+Adding the widget to the screen is needed when you would rather skip looking for a geolocation on the map and by defailt link the notes to your current position. To add, and/or configure the widget, do the following:
+
+1. Open {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %}
+
+2. Scroll down the **{% data variables.android-values.map_widget_right %}**.
+
+3. Tap **{% data variables.android-values.map_widget_av_notes %}** and the context menu of the widget opens. 
+
+4. Select an option you prefer to do by default by tapping the widget:
+
+    - **{% data variables.android-values.av_def_action_choose %}** to open a choice of options;
+
+    - **{% data variables.android-values.av_def_action_audio %}** to immediately start to record an audio message;
+
+    - **{% data variables.android-values.av_def_action_video %}** to immediately start to record a video;
+
+    - **{% data variables.android-values.av_def_action_picture %}** to immediately start taking a photo. 
+
+5. Make certain {% data variables.android-values.shared_string_show %} or {% data variables.android-values.shared_string_collapse%} is selected, so that the widget to be displayed on the device screen. In the latter case, it will be available from a arrow icon opening a dropdown list of widgets in the top right-hand corner of the screen. 
 
 
-
-
-
-
+![Widget options](/assets/images/plugins/audio-video-notes/av-widget-configure2.png)
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;

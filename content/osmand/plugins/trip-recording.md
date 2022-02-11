@@ -486,7 +486,7 @@ By tapping a track directly on the map in the **iOS** version, the [context menu
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-## GPX file details  
+### GPX file details  
 
 The location points are recorded into a file in the [GPX format](https://en.wikipedia.org/wiki/GPS_Exchange_Format), according to the following structure: *file > track > segments > points*, where:
 
