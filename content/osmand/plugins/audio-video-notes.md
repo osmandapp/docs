@@ -9,7 +9,7 @@ versions: '*'
 
 The Audio/video notes plugin extends the functional capabilities of storing the information about a geolocation by giving the user options to create their own representations in different formats, such as: a photo note, a video note, or an audio file, and tie them to a geographical place, or the current position. The recording options are provided with the Audio/video notes widget, and/or the context menu of a POI. The resulted data is automatically saved to the central storage from where it is convenient to manage and share anything needed. 
 
-Simultaneously, all created audio/video notes make up a Recording layer that if configured to show up on the map, provides a different view on the recorded data and means for managing it. Within the Recording layer, the audio/video notes are laid out as POIs across the map, thus creating a user-made map narrative. 
+Simultaneously, all created audio/video notes make up a Recording layer that if configured to show up on the map, provides a different view on the recorded data and means for managing it. Within the Recording layer, the audio/video notes are laid out as POIs across the map, thus creating a user-made map narrative, visible only to the owner of the device.
 
 ![Audio video notes intro](/assets/images/plugins/audio-video-notes/audio-video-intro.png)
 
@@ -77,17 +77,23 @@ Adding the widget to the screen is needed when you would rather skip looking for
 
 ### Open settings
 
-For every profile, it is possible to configure the recording settings. There are two options of how to opens the {% data variables.android-values.audionotes_plugin_name %} settings: from the plugin, so that to configure recording only for the default profile; or from the app settings, so that to configure recording for a specific profile. 
+For every profile, it is possible to configure the recording settings. There are two options of how to open the {% data variables.android-values.audionotes_plugin_name %} settings: 
 
-From the list of [plugins](/osmand/start-with/first-steps#how-to-configure-plugins), to open the Audio/video recording settings, select **Settings** in the triple dots list of the {% data variables.android-values.audionotes_plugin_name %} option in: 
+- from the plugin, so that to configure recording only for the default profile; 
 
-    {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group %} → {% data variables.android-values.audionotes_plugin_name %} → {% data variables.android-values.shared_string_settings %}
+- from the app settings, so that to configure recording for any of the profiles. 
 
-From the settings of the entire app, to open the Audio/video recording settings, do the following:
+From the [plugin](/osmand/start-with/first-steps#how-to-configure-plugins), the Audio/video recording settings are available on selecting **Settings** from the triple dots list of the plugin in: 
 
-    - open: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} 
-    - select a profile,
-    - tap the **{% data variables.android-values.audionotes_plugin_name %}** option. 
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group %} → {% data variables.android-values.audionotes_plugin_name %} → {% data variables.android-values.shared_string_settings %}
+
+From the [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) of the entire app, the Audio/video recording settings can be opened as follows:
+
+1. Go to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %}.
+
+2. Select a profile.
+
+3. Tap the **{% data variables.android-values.audionotes_plugin_name %}** option. 
 
 ![Opening Audio video plugin settings](/assets/images/plugins/audio-video-notes/settings_avplugin_per_profile2.png) 
 
@@ -97,7 +103,7 @@ From the settings of the entire app, to open the Audio/video recording settings,
 
 ### Establish options 
 
-The {% data variables.android-values.photo_notes %} section can be used to establish any of the following settings:
+The way the Audio/video recording will work can be determined with the settings described below. Establish them as needed. 
 
 ![Audio video plugin settings Photo Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_photo_android.png)  ![Audio video plugin settings Video Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_video_android.png)
 
@@ -105,21 +111,19 @@ The {% data variables.android-values.photo_notes %} section can be used to estab
 | Parameter | Description |
 | --- | --- |
 | **{% data variables.android-values.multimedia_use_system_camera %}** | If enabled, OsmAnd uses the system application to create photos.|
-| **{% data variables.android-values.av_camera_pic_size %}** | This establishes a size to create photos in.  |
-| **{% data variables.android-values.av_camera_focus %}** | This establishes {% data variables.android-values.av_camera_focus_auto %} which is the option that makes the camera automatically adjust the focus every time a photo is taken. |
+| **{% data variables.android-values.av_camera_pic_size %}** | This establishes a size to create photos in. The number of available options is determined with the capabilities of the device camera. If no option is selected, the app uses the size that is established in the system  settings for the device camera. |
+| **{% data variables.android-values.av_camera_focus %}** | This establishes the method of how focus is set by the camera. The number of available options is determined with the capabilities of the device camera. Basically, there are the following three options: {% av_camera_focus_auto %}; {% av_camera_focus_continuous %}; and {% av_camera_focus_infinity %}, where **autofocus** is the most popular one and establishes the automatic mode for the camera to focus by rotating the lens focus ring; **continous** makes the camera detect movements and refocus accordingly; and **infinity** makes the lens to focus on a distance and thus keep everything extraordinarily wide in focus no matter how far it is. |
 | **{% data variables.android-values.multimedia_photo_play_sound %}** | If enabled, a sound is produced on closing the camera.| 
 | **{% data variables.android-values.av_audio_format %}** | This provides a choice of formats that an audio file should be created in. There are two options: either the default format, or the **.aac** format. |
-| **{% data variables.android-values.av_audio_bitrate %}** | This provides a choice of bitrate options, which range from 16kbps, and to 128 kbps, or the Default option. | 
-| **{% data variables.android-values.multimedia_use_system_camera %}** | use or not system recorder for video. |
-| **{% data variables.android-values.av_video_quality %}** | select video quality. |
+| **{% data variables.android-values.av_audio_bitrate %}** | This provides a choice of bitrate options, which range from 16kbps, and to 128 kbps, or the Default option. The default option is determined with the default microphone settings of the device. | 
+| **{% data variables.android-values.multimedia_use_system_camera %}** in {% data variables.android-values.video_notes %} | If enabled, OsmAnd uses the system application to record video. |
+| **{% data variables.android-values.av_video_quality %}** | This provides a choice of options that determine the quality of recorded video.  |
 | **{% data variables.android-values.multimedia_rec_split_title %}** | choose option: Rewrite clips when used space exceeds the storage size. |
 | **{% data variables.android-values.rec_split_clip_length %}** | set upper time limit for recorded clips. |
 | **{% data variables.android-values.rec_split_storage_size %}** | set amount of space that can be occupied by all recorded clips. |
 | **{% data variables.android-values.notes %}** | [The way to your media notes in OsmAnd menu](/osmand/personal/myplaces): click to '{% data variables.android-values.notes %}' opening menu. |
 | **{% data variables.android-values.reset_plugin_to_default %}** | tapping discards all your changes. |
 | **{% data variables.android-values.copy_from_other_profile %}** | tapping for copy plugin settings from another profile.|
-
-![Audio video plugin settings Audio Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_audio_android.png) ![Audio video plugin settings Video Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_video_android.png)
 
 
 
