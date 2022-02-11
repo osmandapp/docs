@@ -1,9 +1,8 @@
 ---
 title: "Begin with OsmAnd"
-intro: "First steps with OsmAnd: how to install, to download maps, how to make initial setup or how to copy settings from another device. This section also explains key OsmAnd topics such as Main menu and Settings."
+intro: "Begin with OsmAnd: how to install and download maps. Get access to all features via Main Menu. First steps also refer to key OsmAnd functionality via simple questions list."
 versions: '*'
 ---
-{% data reusables.general.article-not-complete %}
 
 {% link_with_intro /first-steps %}
 {% link_with_intro /download-maps %}

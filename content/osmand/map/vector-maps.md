@@ -14,7 +14,7 @@ OsmAnd offers you numerous map styles and data layers to fit the purpose by defa
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.map_widget_renderer %} 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_settings_offline %} 
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_offline %} 
 
 
 ### OsmAnd
@@ -99,7 +99,10 @@ Download map fonts for simplified / traditional chinese, japanese, korean maps:
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.other_menu_group %} → {% data variables.android-values.fonts_header %}
 
 ![Map fonts Android version](/assets/images/map/map_fonts.png) ![Map fonts version](/assets/images/map/map_fonts_1.png)
+<<<<<<< HEAD
 
+=======
+>>>>>>> ef9c1d946a0aa8f2b9bbc4a3039819c56ea2f21b
 
 
 ## Contour Lines
@@ -110,7 +113,7 @@ Contour lines are available for all map styles and modes and could be configured
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.index_srtm_ele %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.product_title_srtm %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.product_title_srtm %}
 
 ![Contour lines map style](/assets/images/map/contour_lines.png)
 
@@ -127,7 +130,7 @@ In order to change {% data variables.android-values.daynight%}:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.map_mode %} 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.map_mode %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.map_mode %}
 
 Here you can choose:
 
@@ -144,7 +147,7 @@ In {% data variables.android-values.rendering_category_details %} menu you can s
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.rendering_category_details %} 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.res_details %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.res_details %}
 
 |Parameter and Description|   
 |------------|
@@ -171,32 +174,35 @@ In {% data variables.android-values.rendering_category_details %} menu you can s
 
 Sometimes when we use the application during your trip, you don't use navigation and you want to see special paths and symbols on the map. In OsmAnd we can highlight routes and hiking symbol overlay for your activities. It will very useful for your cycling, hiking, etc. In the table we show all parameters:
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.rendering_category_routes %} 
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_category_routes %} 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_routes %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.rendering_category_routes %}
 
 |Parameter and Description|   
 |------------|
-|**_{% data variables.android-values.rendering_category_routes %}_**|
-|**{% data variables.android-values.rendering_attr_showCycleRoutes_name %}**: Showing colored cycle routes, paths, and showing nodes network cycle routes. Look at [Map legend](https://osmand.net/help-online/map-legend/).|
+|**_{% data variables.android-values.rendering_attr_showCycleRoutes_name %}_**|
+|{% data variables.android-values.layer_route %}: {% data variables.android-values.rendering_value_walkingRoutesOSMC_description %}. Look at [Map legend](https://osmand.net/help-online/map-legend/).|
 |![Map routes - cycle routes](/assets/images/map/map-routes-cycle-routes.png)|
-|**{% data variables.android-values.rendering_attr_showCycleNodeNetworkRoutes_name %}**: Highlighted cycle routes and showed nodes network cycle routes.|
+|{% data variables.android-values.rendering_value_walkingRoutesOSMCNodes_name %}: {% data variables.android-values.rendering_value_walkingRoutesOSMCNodes_description %}.|
 |![Map routes - cycle-node-networks](/assets/images/map/map-routes-cycle-node-networks.png)|
 |**{% data variables.android-values.rendering_attr_showMtbRoutes_name %}**: Showing colored MTB trails. Look at [Map legend](https://osmand.net/help-online/map-legend/).|
 |![Map routes - mtb trails](/assets/images/map/map-routes-mtb-trails.png)|
+|**_{% data variables.android-values.rendering_attr_hikingRoutesOSMC_name %}_**|
+|{% data variables.android-values.rendering_value_walkingRoutesOSMC_name %}: [{% data variables.android-values.rendering_value_walkingRoutesOSMC_description %}](https://wiki.openstreetmap.org/wiki/Key:osmc:symbol#Maps_that_show_osmc:symbol).|
+|![Map routes - hiking osmc](/assets/images/map/map-routes-hiking-osmc.png)|
+|{% data variables.android-values.rendering_value_walkingRoutesScopeOSMC_name %}: [{% data variables.android-values.rendering_value_walkingRoutesScopeOSMC_description %}](https://wiki.openstreetmap.org/wiki/Key:osmc:symbol#Maps_that_show_osmc:symbol). |
+|![Map routes - hiking network](/assets/images/map/map-routes-hiking-network.png)|
+|{% data variables.android-values.rendering_value_walkingRoutesOSMCNodes_name %}: [{% data variables.android-values.rendering_value_walkingRoutesOSMCNodes_description %}](https://wiki.openstreetmap.org/wiki/Node_Networks). |
+|![Map routes - hiking node networks](/assets/images/map/map-routes-hiking-node-networks.png)|
 |**{% data variables.android-values.rendering_attr_alpineHiking_name %}**: Showing  [classified hiking trails](https://wiki.openstreetmap.org/wiki/Key:sac_scale) in mountainous areas with regard to the difficulties to be expected by color.|
 |![Map routes - alpine hiking](/assets/images/map/map-routes-alpine-hiking.png)|
+|**{% data variables.android-values.rendering_attr_pisteRoutes_name %}**: Showing colored routes of ski slopes. This setting is supported by [map style "Winter and ski"](/osmand/map/vector-maps#winter-and-ski).|
+|![Map routes - ski slopes](/assets/images/map/map-routes-ski-slopes.png)|
 |**{% data variables.android-values.rendering_attr_horseRoutes_name %}**: Showing colored routes and symbols for riding horses.|
 |![Map routes - horse routes](/assets/images/map/map-routes-horse.png)|
 |**{% data variables.android-values.rendering_attr_whiteWaterSports_name %}**: Showing [icons of access, dangerous areas, tourism of whitewater sports](https://wiki.openstreetmap.org/wiki/Whitewater_sports#Whitewater_Map). |
 |![Map routes - whitewater sport](/assets/images/map/map-routes-whitewater-sport.png)|
-|**_{% data variables.android-values.rendering_attr_hikingRoutesOSMC_name %}_**|
-|**{% data variables.android-values.rendering_value_walkingRoutesOSMC_name %}**: Showing [colored hiking trails and OSMC symbols](https://wiki.openstreetmap.org/wiki/Key:osmc:symbol#Maps_that_show_osmc:symbol) on the map.|
-|![Map routes - hiking osmc](/assets/images/map/map-routes-hiking-osmc.png)|
-|**{% data variables.android-values.rendering_value_walkingRoutesScopeOSMC_name %}**: Showing [colored trails by type and OSMC symbols](https://wiki.openstreetmap.org/wiki/Key:osmc:symbol#Maps_that_show_osmc:symbol) on the map. |
-|![Map routes - hiking network](/assets/images/map/map-routes-hiking-network.png)|
-|**{% data variables.android-values.rendering_value_walkingRoutesOSMCNodes_name %}**: Showing [Node networks](https://wiki.openstreetmap.org/wiki/Node_Networks) on the map. |
-|![Map routes - hiking node networks](/assets/images/map/map-routes-hiking-node-networks.png)|
+
 
 ### Transport
 
@@ -208,7 +214,7 @@ In OsmAnd  we can choose special rendering for these needed:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.shared_string_show %} → {% data variables.android-values.icon_group_transport %} 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_transport %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_transport %}
 
 |Parameter and Description|   
 |------------|
@@ -228,11 +234,12 @@ In order to hide some objects on the map you can choose them in this menu:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.shared_string_hide %} 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_hide %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_hide %}
 
 |Parameter          |Description        
 |:------------|:---------------|
 |{% data variables.android-values.rendering_attr_noAdminboundaries_name %}| Hide regional boundaries inside of countries, but state boundaries are visible. |
+|{% data variables.android-values.rendering_attr_noNatureReserveBoundaries_name %}| Hide nature boundaries (national parks and etc.) |
 |{% data variables.android-values.rendering_attr_noPolygons_name %}|Hide all polygons of natural objects, special function for [Underlay/Overlay layer](/osmand/map/raster-maps#change-layer-parameters-transparency).  |
 |{% data variables.android-values.rendering_attr_hideBuildings_name %}|Hide all polygons of buildings. |
 |{% data variables.android-values.rendering_attr_hideWaterPolygons_name %}|Hide all polygons of water (seas, lakes, reservoirs and etc.)  |
@@ -266,7 +273,7 @@ This setting helps to change the text size for names on the map:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.text_size %} 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.map_settings_text_size %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.map_settings_text_size %}
 
 |Example|  
 |------------|
@@ -281,7 +288,7 @@ This setting helps to change magnifier of the map. It is applicable for raster &
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.map_magnifier %} 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.map_settings_map_magnifier %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.map_settings_map_magnifier %}
 
 |Example|  
 |------------|
@@ -296,7 +303,7 @@ This setting allows using of any language for names on the map. If names don't h
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.map_locale %} 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_settings_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.sett_lang %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.sett_lang %}
 
 |Example|  
 |------------|

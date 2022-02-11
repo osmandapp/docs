@@ -13,4 +13,5 @@ Using offline Travel guides is an important source of information while travelin
 
 {% link_with_intro /create-route %}
 {% link_with_intro /travel-guides %}
+{% link_with_intro /coordinate-input %}
 

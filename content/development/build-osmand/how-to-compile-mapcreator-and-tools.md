@@ -31,12 +31,16 @@ versions: '*'
 Native rendering library could be used to test Offline Rendering or Offline Native Routing. It's very useful to debug and test a rendering style or a routing configuration.
 
 1. First setup the **development environment**, see {% link /setup-the-dev-environment %}.
-2. Choose a specific [target](https://github.com/osmandapp/OsmAnd-core/tree/legacy_core/targets) for OS.
+2. Download external dependencies
+ ```
+ cd core-legacy/externals
+ ./configure.sh
+ ```
 3. Specify JAVA_HOME globally via $PATH or in command line 
   ```
   export JAVA_HOME=<>
   ```
-4. Compile a specific version 'debug', 'release' or '' (default). Example
+4. Choose a specific [target](https://github.com/osmandapp/OsmAnd-core/tree/legacy_core/targets) for OS and compile a specific version 'debug', 'release' or '' (default). Example
   ```
   cd core-legacy/targets
   ./intel-darwin.sh release # macOs release
@@ -50,7 +54,6 @@ Example:
     core-legacy/binaries/darwin/intel/Debug/libosmand.dylib
   ```
 
-
 ### Troubleshooting 
 - Missing files externals/libjpeg-turbo/jconfigint.h.in does not exist.
 If you experience that libjpeg-turbo couldn't compile
@@ -60,3 +63,19 @@ targets/.cmake/../../externals/skia/upstream.patched/third_party/externals/libjp
 You can find the files here and put them in the specified folder
 https://github.com/osmandapp/OsmAnd-core/blob/legacy_core/externals/jpeg/jconfig.h
 https://github.com/osmandapp/OsmAnd-core/blob/legacy_core/externals/jpeg/jconfigint.h
+
+## Compile qt core version for OsmAndMapCreator
+1. First setup the **development environment**, see {% link /setup-the-dev-environment %}.
+2. Compile and copy icon resources 
+```
+  (cd "resources" && ./verify-embed-resources-list.sh)
+```
+3. Prepare build (cmake) for specific target. Example clang / linux :
+```
+   alias clang='clang -std=c++11'
+   build/amd64-linux-clang.sh release
+```
+4. Compile library release
+```
+    (cd "baked/amd64-linux-clang-release.make" && make -j4)
+```

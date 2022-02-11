@@ -1,6 +1,6 @@
 ---
 title: "Download maps"
-intro: "Download maps is a nessecarily action for further using map and navigation in offline mode. Maps can be downloaded both through the list in the main menu and by clicking on the needed territory on the map."
+intro: "Download maps is a necessarily action for further using map and navigation in offline mode. Maps can be downloaded both by browsing through the regions list from the main menu and by clicking on the needed territory on the map."
 versions: '*'
 ---
 
@@ -10,7 +10,7 @@ Application is not properly functional without offline maps which are not distri
 
 When the app is launched for the first time, it suggests to download the map based on your internet location. It could be not correctly detected in case you are using VPN and it's possible to select another map region.
 
-**Note**: - World map. Old versions of OsmAnd (< 3.8) suggest to download World map, so you could browse the map on the planet level zoom. In new OsmAnd versions: small "Mini world overview map" is packaged inside. There is a bigger "World overview map" available to download which contains more details for the World-level map.
+**Note**: World map. Old versions of OsmAnd (< 3.8) suggest to download World map, so you could browse the map on the planet level zoom. In new OsmAnd versions: small "Mini world overview map" is packaged inside the app. There is a large "World overview map" available to download which contains more details worldwide but it is also provided with detailed maps.
 
 ![Download map](/assets/images/settings/download_map.png)
 

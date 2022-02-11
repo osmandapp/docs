@@ -21,7 +21,7 @@ Context menu will appear when you hold at any point on the Map with **long tap**
 
 ### Select route (short tap for Android)
 
-Short tap to a GPX-track on the map  opens [Context track menu](/osmand/map/tracks-on-map#context-track-menu-android).
+Short tap on a [GPX-track](/osmand/map/tracks-on-map) on the map  opens [Context track menu](/osmand/map/track-context-menu).
 
 ![Context track menu Android](/assets/images/map/context_track_menu_Android.png)
 
@@ -302,9 +302,9 @@ Requires [OSM Editing plugin](/osmand/plugins/osm-editing).
 
 Records or takes a media note at selected point on the map.
 
-- {% data variables.android-values.recording_context_menu_arecord %} - makes a [audio note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with audio icon).
-- {% data variables.android-values.recording_context_menu_vrecord%} - makes a [video note](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on selected point (creates new point on the overlay with video icon).
-- {% data variables.android-values.recording_context_menu_precord %} - makes a [photo point](/osmand/map/point-layers-on-map#audio--video-notes-on-the-map) on the map.
+- {% data variables.android-values.recording_context_menu_arecord %} - makes a [audio note](/osmand/map/point-layers-on-map#-audio--video-points-android) on selected point (creates new point on the overlay with audio icon).
+- {% data variables.android-values.recording_context_menu_vrecord%} - makes a [video note](/osmand/map/point-layers-on-map#-audio--video-points-android) on selected point (creates new point on the overlay with video icon).
+- {% data variables.android-values.recording_context_menu_precord %} - makes a [photo point](/osmand/map/point-layers-on-map#-audio--video-points-android) on the map.
 
 Requires [Audio / Video note plugin](/osmand/plugins/audio-video-notes).
 

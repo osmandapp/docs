@@ -1,31 +1,31 @@
 ---
 title: "Main menu"
-intro: "'Main menu' is a primary list of options available to use in the application. It provides quick access to the profile configuration, features and global settings."
+intro: "'Main menu' is a primary list of options available to use in the application. It provides quick access to the profile configuration, global settings, search, personal data, navigation and other features."
 versions: '*'
 ---
 
 The [Main menu](/osmand/widgets/map-buttons#main-menu) icon '&#8801;' is located on the left bottom corner of the Map screen. In navigation mode this button is not visible by default. It appears after a short tap on the map. 
 
-![Main menu](/assets/images/menu/Main_menu.png)
+![Main menu Android](/assets/images/menu/main_menu_android.png) ![Main menu iOS](/assets/images/menu/main_menu_ios.png)
 
 ## Main menu (Drawer)
 
 ### Features
-- [Map markers](/osmand/personal/markers) - Is a tool that allows to mark place on the map.
-- [My places](//osmand/personal/myplaces) - Is a menu that includes by default Favorites and tracks and in addition can include [A/V notes](/osmand/plugins/audio-video-notes) and [OSM edits](/osmand/plugins/osm-editing) (if such plugins are turned on). 
-- [Search](/osmand/search) (Android)- Is a tool that allows you to find the place or object that exist on the map.
-- [Directions](/osmand/widgets/map-buttons#directions) - Directions button allows to create a route and start navigation.
-- [Configure map](/osmand/map/configure-map-menu) - Is a menu that allows configuring map view.
-- [Download maps](/osmand/start-with/download-maps) - Is a menu that contains all files that could be downloaded.
-- [Travel guides (Beta)](/osmand/plan-route/travel-guides) (Android) - Is a tool that allows using Wikivoyage guide for your trip.
-- [Plan route](/osmand/plan-route/create-route) - Is a tool that allows you to measure distances on the map, create GPX tracks or add new segments to existing ones.
-- [* Trip recording](/osmand/plugins/trip-recording) (Android)- Is a tool that allows to record all movements into track using phone's GPS. 
+- [Map markers](/osmand/personal/markers) is a tool that allows to mark place on the map.
+- [My places](//osmand/personal/myplaces) is a menu that includes by default Favorites and tracks and in addition can include [A/V notes](/osmand/plugins/audio-video-notes) and [OSM edits](/osmand/plugins/osm-editing) (if such plugins are turned on). 
+- [Search](/osmand/search) (Android) is a tool that allows you to find the place or object that exist on the map.
+- [Directions](/osmand/widgets/map-buttons#directions) button allows to create a route and start navigation.
+- [Configure map](/osmand/map/configure-map-menu) is a menu that allows configuring map view.
+- [Download maps](/osmand/start-with/download-maps) is a menu that contains all files that could be downloaded.
+- [Travel guides (Beta)](/osmand/plan-route/travel-guides) (Android) is a tool that allows using Wikivoyage guide for your trip.
+- [Plan route](/osmand/plan-route/create-route) is a tool that allows you to measure distances on the map, create GPX tracks or add new segments to existing ones.
+- [* Trip recording](/osmand/plugins/trip-recording) (Android) is a tool that allows to record all movements into track using phone's GPS. 
 
 ### Settings
-- [Configure screen](/osmand/widgets/configure-screen) - Is a menu that allows configuring displaying widgets on the Map.
-- [Plugins](/osmand/plugins) - Is a list of additional functionality and advanced settings.
-- [Settings](/osmand/personal/global-settings) - Is a menu that allows configuring main app parameters.
-- Help - Is a menu that provides quick access to a detailed explanation of the feature,  information about the app version and allows to fast contact the development team.
+- [Configure screen](/osmand/widgets/configure-screen) is a menu that allows configuring displaying widgets on the Map.
+- [Plugins](/osmand/plugins) is a list of additional functionality and advanced settings.
+- [Settings](/osmand/personal/global-settings) is a menu that allows configuring main app parameters.
+- Help is a menu that provides quick access to a detailed explanation of the feature,  information about the app version and allows to fast contact the development team.
 
 ### Active Profile (Android)
 
