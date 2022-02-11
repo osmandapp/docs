@@ -1,6 +1,6 @@
 ---
 title: "My data"
-intro: "OsmAnd allows to store and manage different map data like maps, points, tracks; personal data like settings of application profile."
+intro: "OsmAnd allows to store and manage different map data like maps, points, tracks; personal data like settings of the application profile."
 versions: '*'
 ---
 

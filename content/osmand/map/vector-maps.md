@@ -6,7 +6,7 @@ versions: '*'
 
 ## Use cases
 
-Configurable & Custom Map styles are one of the main advantages of OsmAnd. Each user can customize the display of the map for himself and his hobbies, configure to show or hide certain map objects, sizes, and colors of these objects, change the scale on which to display certain objects.
+Configurable & Custom Map styles are one of the main advantages of OsmAnd. Each user can customize the display of the map for himself and his hobbies, configure to show or hide certain map objects, sizes, and colors of these objects and change the scale on which to display certain objects.
 
 ## Default Map styles
 
@@ -57,7 +57,7 @@ Winter and ski style is designed to help you navigate winter sports locations: y
 
 ### Topo
 
-{% data variables.android-values.topo_render_descr %}
+For hiking, trekking, and nature cycling. Readable outdoors. Contrasting roads and natural objects, different route types, advanced contour line options, extra details. Adjusting "Surface integrity" distinguishes road quality.
 
 ![Topo map style](/assets/images/map/map-style-topo.png)
 
@@ -94,7 +94,7 @@ Map legend of OsmAnd maps you can find [here](https://osmand.net/help-online/map
 
 The spelling of local names in simplified / traditional chinese, japanese, korean languages ([Map language](https://docs.osmand.net/en/main@latest/osmand/map/vector-maps#map-language)) could be shown in erroneous hieroglyphs or even in squares. This happens when the device does not support the required fonts. Some issues with these incorrect fonts on our Github page: [3911](https://github.com/osmandapp/OsmAnd/issues/3911), [8187](https://github.com/osmandapp/OsmAnd/issues/8187), [9400](https://github.com/osmandapp/OsmAnd/issues/9400), [10862](https://github.com/osmandapp/OsmAnd/issues/10862). To do this, OsmAnd for Android has the ability to download the necessary fonts for download.
 
-Download map fonts for simplified / traditional chinese, japanese, korean maps:
+Download map fonts for simplified / traditional Chinese, Japanese, Korean maps:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.other_menu_group %} → {% data variables.android-values.fonts_header %}
 
@@ -107,7 +107,7 @@ Download map fonts for simplified / traditional chinese, japanese, korean maps:
 
 ## Contour Lines
 
-Contour lines are represented as vector maps that are displayed as elevation lines. You need to enable [Contour lines Plugin](/osmand/plugins/contour-lines), download the data for your region and configure the display. Feature is not enabled by default and need to be [purchased first](/osmand/purchases).
+Contour lines are represented as vector maps that are displayed as elevation lines. You need to enable [Contour lines Plugin](/osmand/plugins/contour-lines), download the data for your region and configure the display. Feature is not enabled by default and needs to be [purchased first](/osmand/purchases).
 
 Contour lines are available for all map styles and modes and could be configured via [Contour lines Menu](/osmand/plugins/contour-lines#contour-lines-settings).
 
@@ -124,7 +124,7 @@ More information about [Contour lines](/osmand/plugins/contour-lines).
 
 ### Map mode
 
-During day and night, you need to use mode for the map. [Map styles](#default-map-styles) have night and day mode style. In this menu, you find the time of sunrise and sunset.
+During day and night, you need to use mode for the map. [Map styles](#default-map-styles) have night and day mode styles. In this menu, you find the time of sunrise and sunset.
 
 In order to change {% data variables.android-values.daynight%}:
 
@@ -139,7 +139,7 @@ Here you can choose:
 |**{% data variables.android-values.daynight_mode_auto %}**|Automated day/night view switching. |
 |**{% data variables.android-values.daynight_mode_day %}**|Switching on day mode only.|
 |**{% data variables.android-values.daynight_mode_night %}**|Switching on night mode only.|
-|**{% data variables.android-values.daynight_mode_sensor %}**|Using light sensor for day/night mode.|
+|**{% data variables.android-values.daynight_mode_sensor %}**|Using a light sensor for day/night mode.|
 
 ### Details
 
@@ -149,34 +149,38 @@ In {% data variables.android-values.rendering_category_details %} menu you can s
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.res_details %}
 
-|Parameter and Description|   
+|Parameter and Description|
 |------------|
-|**{% data variables.ios-values.rendering_attr_moreDetailed_name %}**: Showing polygons, trails, points, signs at low zooms on the map. It means you can see more details on your map at low zooms. _Note_: rendering in your device may be no fast.|
+|**{% data variables.ios-values.rendering_attr_moreDetailed_name %}**: Showing polygons, trails, points, signs at low zooms on the map. It means you can see more details on your map at low zooms. _Note_: rendering on your device may be not fast.|
 |![Map parameter - More detailed](/assets/images/map/map-parameter-more-details.png)|
-|**{% data variables.ios-values.rendering_attr_showSurfaces_name %}**: Showing type of surface of roads. Color of the road helps you to understand what is surface of the road: asphalt, grass or sand and etc. Look at [Map legend](https://osmand.net/help-online/map-legend/).|
+|**{% data variables.ios-values.rendering_attr_showSurfaces_name %}**: Showing type of surface of roads. Color of the road helps you to understand what is the surface of the road is: asphalt, grass or sand etc. Look at [Map legend](https://osmand.net/help-online/map-legend/).|
 |![Map parameter - Road surface](/assets/images/map/map-parameter-road-surface.png)|
 |**{% data variables.ios-values.rendering_attr_showSurfaceGrade_name %}**: Showing smoothness (grade) of the road. What smoothness is of your roads: good, bad or maybe horrible and etc: good, bad or maybe horrible and etc. Look at [Map legend](https://osmand.net/help-online/map-legend/) to find your road smoothness.|
 |![Map parameter - Road smoothness](/assets/images/map/map-parameter-road-smoothness.png)|
 |**{% data variables.ios-values.rendering_attr_showAccess_name %}**:  Showing access of roads: private or permissive, or only for emergency, or maybe toll road. Look at [Map legend](https://osmand.net/help-online/map-legend/) to find your road access. |
 |![Map parameter - Road access](/assets/images/map/map-parameter-road-access.png)|
-|**{% data variables.ios-values.rendering_attr_showLez_name %}**: Showing green board and labels for Low Emission Zones in cities. It will help you not receive penalties in the green city center.|
+|**{% data variables.ios-values.rendering_attr_showLez_name %}**: Showing green board and labels "LEZ" for [Low Emission Zones](https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dlow_emission_zone) in cities. A [Low-Emission Zone (LEZ)](https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dlow_emission_zone) is a geographically defined area which seeks to restrict or deter access by certain polluting vehicles with the aim of improving the air quality. It will help you not receive penalties in the green city center.|
 |![Map parameter - Low emission zones](/assets/images/map/map-parameter-low-emission-zones.png)|
 |**{% data variables.ios-values.rendering_attr_coloredBuildings_name %}**: Coloring buildings and places have special colors for each category: regular buildings, industrial, commercial, etc. Look at [Map legend](https://osmand.net/help-online/map-legend/) to find your color for the building. |
 |![Map parameter - Coloured buildings](/assets/images/map/map-parameter-coloured-buildings.png)|
-|**{% data variables.ios-values.rendering_attr_streetLighting_name %}**: Showing street lighting on the map. On the map, you can see illuminated and not illuminated street, underground illuminated way, temporarily illuminated street. Look at [Map legend](https://osmand.net/help-online/map-legend/).|
+|**{% data variables.ios-values.rendering_attr_streetLighting_name %}**: Showing street lighting on the map. On the map, you can see illuminated and not illuminated streets, underground illuminated ways and temporarily illuminated streets. Look at [Map legend](https://osmand.net/help-online/map-legend/).|
 |![Map parameter - Street lightning](/assets/images/map/map-parameter-street-lighting.png)|
 |**{% data variables.ios-values.rendering_attr_OSMMapperAssistant_name %}**:Special setting for mappers. Showed refs, remarks, comments on the map from other mappers. |
 |![Map parameter - Map assistant](/assets/images/map/map-parameter-map-assistant.png)|
-|**{% data variables.ios-values.rendering_attr_depthContours_name %}**: Showing nautical depth contours on seas. You need to have [nautical plugin](/osmand/plugins/nautical-charts) and download Nautical maps.|
+|**{% data variables.ios-values.rendering_attr_depthContours_name %}**: Showing nautical depth contours on seas. You need to have a [nautical plugin](/osmand/plugins/nautical-charts) and download Nautical maps.|
 |![Map parameter - Depth contours](/assets/images/map/map-parameter-depth-contours.png)|
+|**{% data variables.ios-values.rendering_attr_natureReserves_name %}**: Showing green board and labels "NR" for [Nature reserve territory](https://wiki.openstreetmap.org/wiki/Tag:leisure%3Dnature_reserve). A nature reserve is a protected area of importance for wildlife, flora, fauna or features of geological or other special interest.|
+|![Map parameter - Nature reserve](/assets/images/map/nature-reserve.png)|
 
 ### Routes
 
-Sometimes when we use the application during your trip, you don't use navigation and you want to see special paths and symbols on the map. In OsmAnd we can highlight routes and hiking symbol overlay for your activities. It will very useful for your cycling, hiking, etc. In the table we show all parameters:
+In OsmAnd you can highlight official routes (present on OpenStreetMap) and hiking symbol overlay for your activities. It is very useful for your cycling, hiking, etc. You can select multiple routes at once though they will be displayed as layers and if the road has multiple routes over it only top color will be visible. If you have some specific rendering styles enabled, you could have a bigger routes variety i.e. for **_Snowmobile style_** you could select **_Snowmobile routes_**.
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_category_routes %} 
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.rendering_category_routes %}
+
+![Configure Map Routes section](/assets/images/map/configure_map_routes_android.png) 
 
 |Parameter and Description|   
 |------------|
@@ -208,7 +212,7 @@ Sometimes when we use the application during your trip, you don't use navigation
 
 In navigation in cities, you need to see public transport in more contrast and stops. Of course, this setting shows train routes too.
 
-You can click to public transport stop and choose one of a public transport route. You see all routes with stops.
+You can click to a public transport stop and choose one of the public transport routes. You see all routes with stops.
 
 In OsmAnd  we can choose special rendering for these needed:
 
@@ -229,7 +233,7 @@ In OsmAnd  we can choose special rendering for these needed:
 
 ### Hide
 
-Sometimes we need to hide objects on the map for better vision. For example to hide water during using [Underlay layer of Satellite online maps](/osmand/map/raster-maps#select-map-as-main--underlay--overlay-layer).
+Sometimes we need to hide objects on the map for better vision. For example to hide water while using the [Underlay layer of Satellite online maps](/osmand/map/raster-maps#select-map-as-main--underlay--overlay-layer).
 In order to hide some objects on the map you can choose them in this menu:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.shared_string_hide %} 
@@ -239,16 +243,16 @@ In order to hide some objects on the map you can choose them in this menu:
 |Parameter          |Description        
 |:------------|:---------------|
 |{% data variables.android-values.rendering_attr_noAdminboundaries_name %}| Hide regional boundaries inside of countries, but state boundaries are visible. |
-|{% data variables.android-values.rendering_attr_noNatureReserveBoundaries_name %}| Hide nature boundaries (national parks and etc.) |
+|{% data variables.android-values.rendering_attr_noNatureReserveBoundaries_name %}| Hide nature boundaries (national parks etc.) |
 |{% data variables.android-values.rendering_attr_noPolygons_name %}|Hide all polygons of natural objects, special function for [Underlay/Overlay layer](/osmand/map/raster-maps#change-layer-parameters-transparency).  |
 |{% data variables.android-values.rendering_attr_hideBuildings_name %}|Hide all polygons of buildings. |
-|{% data variables.android-values.rendering_attr_hideWaterPolygons_name %}|Hide all polygons of water (seas, lakes, reservoirs and etc.)  |
+|{% data variables.android-values.rendering_attr_hideWaterPolygons_name %}|Hide all polygons of water (seas, lakes, reservoirs etc.)  |
 |{% data variables.android-values.rendering_attr_hideHouseNumbers_name %}|Hide house numbers on the map.  |
-|{% data variables.android-values.rendering_attr_hideProposed_name %}|Hide proposed objects, that objects which planned for a building, but only have a project (projected roads, crossroads, buildings and etc.)  |
+|{% data variables.android-values.rendering_attr_hideProposed_name %}|Hide proposed objects, those objects which are planned for a building, but only have a project (projected roads, crossroads, buildings etc.)  |
 |{% data variables.android-values.rendering_attr_hideIcons_name %}|Hide POI icons from the map. But labels of these POI will be on the map. |
 |{% data variables.android-values.rendering_attr_hidePOILabels_name %}|Hide POI labels from the map. But icons of these POI will be on the map.  |
-|{% data variables.android-values.rendering_attr_hideUnderground_name %}| Hide all underground objects, like tunnels, passes, floors, etc. Special for clearing map on cities from nonuseful objects.  |
-|{% data variables.android-values.rendering_attr_hideOverground_name %}|Hide all overground objects. Special for seeing only underground objects like tunnels, passed, etc.|
+|{% data variables.android-values.rendering_attr_hideUnderground_name %}| Hide all underground objects, like tunnels, passes, floors, etc. Special for clearing maps on cities from non useful objects.  |
+|{% data variables.android-values.rendering_attr_hideOverground_name %}|Hide all overground objects. Special for seeing only underground objects like tunnels, passes, etc.|
 
 ### Road style
 
@@ -284,7 +288,7 @@ This setting helps to change the text size for names on the map:
 
 ### Map magnifier
 
-This setting helps to change magnifier of the map. It is applicable for raster & vector maps. For raster maps it applies a magnifying effect, so text labels look bigger or smaller. For vector maps it provides a more or less detailed map, if you put it to a low value it will produce a noisy / slow map. You can choose this setting by long-click to "+" or "-" button on the screen or:
+This setting helps to change the magnifier of the map. It is applicable for raster & vector maps. For raster maps it applies a magnifying effect, so text labels look bigger or smaller. For vector maps it provides a more or less detailed map, if you put it to a low value it will produce a noisy / slow map. You can choose this setting by long-click to "+" or "-" button on the screen or:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.map_magnifier %} 
 
@@ -316,7 +320,7 @@ This setting allows using of any language for names on the map. If names don't h
 If you have your own or 3rd party custom map style created according to [Specification](/development/osmand-file-formats/osmand-rendering-style), you can install it on a device in the following ways.
 - Copy *.render.xml file on devices & Open with OsmAnd. 
 - Rendering styles could be exported & imported via [Standard import / export dialogs](/osmand/personal/import-export). So if you create an example '*.osf' package which will work as a plugin that could be shared with other people.
-- If you have access directly to the External Storage of OsmAnd (Android), you can simply copy it to **rendering-styles** folder. Read more about it in [Storage specification](/osmand/personal/storage).
+- If you have access directly to the External Storage of OsmAnd (Android), you can simply copy it to the **rendering-styles** folder. Read more about it in [Storage specification](/osmand/personal/storage).
 
 After that, you could select your own map style in the menu.
 

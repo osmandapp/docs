@@ -6,24 +6,117 @@ versions: '*'
 
 {% data reusables.general.article-not-complete %}
 
+
 Map markers are special points marked as flags on the map. You can customize their look & feel with **arrows** ({% data variables.android-values.show_arrows_on_the_map %}) and **distance indication** ({% data variables.android-values.show_direction %}). 
 
+
+{% default %}
+
 ![Map markers Android](/assets/images/map/map_markers_android.png) ![Map markers iOS](/assets/images/map/map_markers_ios.png)
+
+{% enddefault %}
+
+{% android %}
+
+![Map markers Android](/assets/images/map/map_markers_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![Map markers iOS](/assets/images/map/map_markers_ios.png)
+
+{% endios %}
 
 
 ## Map markers menu
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_markers %}
+{% data reusables.general.android-ios-switcher %}
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_markers %}
+{% default %}
 
 ![Map markers menu Android](/assets/images/personal/markers/map_markers_menu_android.png) ![Map markers menu iOS](/assets/images/personal/markers/map_markers_menu_ios.png)
 
-### List (Android)
+{% enddefault %}
+
+{% android %}
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_markers %}
+
+![Map markers menu Android](/assets/images/personal/markers/map_markers_menu_android.png)
+
+- {% data variables.android-values.shared_string_list %} - keeps all your Map markers in the one place. Here you can move Map marker to the History part or replace it.
+- {% data variables.android-values.shared_string_groups %} - contains groups of your Map markers. 
+- {% data variables.android-values.shared_string_history %} - keeps all Map markers which were deleted yearlier.
+- {% data variables.android-values.shared_string_more_without_dots %} - keeps Options of Map markers (Appearance) and etc.
+
+
+{% endandroid %}
+
+{% ios %}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.map_markers %}
+
+![Map markers menu iOS](/assets/images/personal/markers/map_markers_menu_ios.png)
+
+{% endios %}
+
+
+### List
+
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
 
 ![Map markers List Android](/assets/images/personal/markers/map_markers_list_android.png) 
 
-### Groups (Android)
+{% enddefault %}
+
+{% android %}
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_markers %} → {% data variables.android-values.shared_string_list %}
+
+![Map markers List Android](/assets/images/personal/markers/map_markers_list_android.png) 
+
+Info:
+
+Active Map markers: map marker color, showing the big arrow to the location (color arrow), distance to it from your location, data of creation of this marker.
+Non active map markers: map marker color, showing the small arrow to the location, distance to it from your location, data of creation of this marker.
+
+Actions:
+
+- Changing the order of Map markers - just click to "&equals;" button and swip up/down the map marker line.
+- Delete the Map marker - click to "&#10003;" button.
+
+{% note %}
+
+The first one or two Map markers are active Map markers. Changing order one of the Map markers to the top list is made it active.
+
+{% endnote %}
+
+
+{% endandroid %}
+
+{% ios %}
+
+Not exist for iOS version
+
+{% endios %}
+
+
+
+### Groups
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Map markers Groups Android](/assets/images/personal/markers/map_markers_groups_android.png) ![Map markers Groups Android](/assets/images/personal/markers/map_markers_groups_add_android.png) 
+
+{% enddefault %}
+
+{% android %}
 
 ![Map markers Groups Android](/assets/images/personal/markers/map_markers_groups_android.png) ![Map markers Groups Android](/assets/images/personal/markers/map_markers_groups_add_android.png) 
 
@@ -33,11 +126,37 @@ Click to '&#43;' Button.  {% data variables.android-values.favourites_group %}:
 - {% data variables.android-values.favourites_group %} - from Favorites.
 - {% data variables.android-values.shared_string_gpx_waypoints %} - from track waypoints.
 
+{% endandroid %}
+
+{% ios %}
+
+Not exist for iOS version
+
+{% endios %}
+
 ### History
 
-![Map markers History Android](/assets/images/personal/markers/map_markers_history_android.png) ![Map markers History iOS](/assets/images/personal/markers/map_markers_history_ios.png) 
+{% data reusables.general.android-ios-switcher %}
 
-### More (Android) / Appearance (iOS)
+{% default %}
+
+![Map markers History Android](/assets/images/personal/markers/map_markers_history_android.png) ![Map markers History iOS](/assets/images/personal/markers/map_markers_history_ios.png)
+
+{% enddefault %}
+
+{% android %}
+
+![Map markers History Android](/assets/images/personal/markers/map_markers_history_android.png)
+
+{% endandroid %}
+
+{% ios %}
+
+![Map markers History iOS](/assets/images/personal/markers/map_markers_history_ios.png)
+
+{% endios %}
+
+### More / Appearance 
 
 ![Map markers More Android](/assets/images/personal/markers/map_markers_more_android.png) ![Map markers Appearance iOS](/assets/images/personal/markers/map_markers_appearance_ios.png) 
 
@@ -47,6 +166,34 @@ Click to '&#43;' Button.  {% data variables.android-values.favourites_group %}:
 - {% data variables.android-values.plan_route %} (Android) - build route [for navigation using chosen markers](/osmand/navigation/markers-navigation).
 - {% data variables.android-values.marker_save_as_track %} (Android) - save active markers like file GPX.
 - {% data variables.android-values.move_all_to_history %} (Android) - deactivate all markers and move its to [History](/osmand/personal/markers#history).
+
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Map markers More Android](/assets/images/personal/markers/map_markers_more_android.png) ![Map markers Appearance iOS](/assets/images/personal/markers/map_markers_appearance_ios.png) 
+
+{% enddefault %}
+
+{% android %}
+
+![Map markers More Android](/assets/images/personal/markers/map_markers_more_android.png) 
+
+- {% data variables.android-values.appearance_on_the_map %} or {% data variables.ios-values.map_settings_appearance %}  - [settings for Map markers](/osmand/personal/markers#appearance-on-the-map).
+- {% data variables.android-values.sort_by %} (Android) - sort Makrers in [List](/osmand/personal/markers#list-android).
+- {% data variables.android-values.coordinate_input %} (Android) - add Markers by [input coorditanes (like for Tracks)](/osmand/personal/tracks#coordinate-input-android)
+- {% data variables.android-values.plan_route %} (Android) - build route [for navigation using chosen markers](/osmand/navigation/markers-navigation).
+- {% data variables.android-values.marker_save_as_track %} (Android) - save active markers like file GPX.
+- {% data variables.android-values.move_all_to_history %} (Android) - deactivate all markers and move its to [History](/osmand/personal/markers#history).
+
+{% endandroid %}
+
+{% ios %}
+
+![Map markers Appearance iOS](/assets/images/personal/markers/map_markers_appearance_ios.png) 
+
+{% endios %}
 
 ## Add Marker on the map
 

@@ -72,7 +72,9 @@ There are two options to display [Tracks](/osmand/personal/tracks) on the map: v
 
 ## Manage Tracks 
 
-### My Places (Android)
+### My Places
+
+{% android %}
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places%} → {% data variables.android-values.shared_string_tracks %}
 
@@ -87,7 +89,9 @@ At the bottom of the screen are four Actions buttons.
 - "&#10227;" button - allows to refresh tracks list.
 - "OSM editing" button - allows [to upload chosen track to OSM](/osmand/plugins/osm-editing).
 
-### Search / Sort (Android)
+{% endandroid %}
+
+### Search / Sort
 
 Clicking to "&#x1F50D;" button on the top of the device screen opens the searching function of the tracks list.
 

@@ -1,8 +1,10 @@
 ---
 title: OsmAnd
-intro: "OsmAnd provides global offline map browsing and offline navigation for Android and iOS"
+intro: "OsmAnd provides global offline map browsing and offline navigation with many special tools for Android and iOS."
 versions: '*'
 ---
+
+![LOGO OsmAnd](/assets/images/site/logo_osmand.png)
 
 ## User Documentation
 {% link_with_intro /start-with %}
@@ -18,10 +20,13 @@ versions: '*'
 
 
 ## Get OsmAnd
-OsmAnd is available via
- - {% data reusables.links.osmand-plus-google-play %}
- - {% data reusables.links.osmand-plus-amazon %}
- - {% data reusables.links.osmand-maps-app-store %}
+
+#### Android
+ - [OsmAnd](https://play.google.com/store/apps/details?id=net.osmand), {% data reusables.links.osmand-plus-google-play %}
+ - [OsmAnd](https://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8/), {% data reusables.links.osmand-plus-amazon %}
  - {% data reusables.links.osmand-huawei %}
+
+#### iOS
+ - {% data reusables.links.osmand-maps-app-store %}
 
 

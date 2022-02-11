@@ -62,7 +62,7 @@ This widget shows battery level of your device.
 
 The widget is shown at the top of the screen. It shows the geographic coordinates of current geo-location.
 
-![Coordinates widget](/assets/images/widgets/coordinates_widget.png)
+![Coordinates widget Android](/assets/images/widgets/coordinates_widget_android.png) ![Coordinates widget iOS](/assets/images/widgets/coordinates_widget_ios.png)
 
 | | |
 |------------|------------|

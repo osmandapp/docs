@@ -4,15 +4,13 @@ intro: "OsmAnd has many powerful features to display various routes on the map. 
 versions: '*'
 ---
 
-{% data reusables.general.article-not-complete %}
-
 ## Type of routes on the map
 
 OsmAnd can display several different type of routes:
 
 1.  [Tracks (GPX)](#tracks) - recorded or planned trip saved in [GPX-format](https://en.wikipedia.org/wiki/GPS_Exchange_Format). This kind of route could be imported from the external source, created in the application or recorded by user. GPX could contain one of 3 different types of data or all of them:
     - Track as a line - file has ```<trkpt>``` points array, each point has location and optionally time, speed, altitude and other attributes. These tracks are displayed on the map as solid lines.
-    - Track as a route -  file has ```<rtept>``` points array, each point describes as an intermediate point of the route. It depends on track how points within a route should be connected either as small route segments or via straight line. These tracks are displayed on the map as dashed lines. 
+    - Track as a route -  file has ```<rtept>``` points array, each point described as an intermediate point of the route. It depends on how points within a route should be connected either as small route segments or via straight line. These tracks are displayed on the map as dashed lines. 
     - Waypoints - file has ```<wpt>``` points with attributes. Waypoints are displayed as circular points on the map. You could click on them to get additional information.
 2. [Navigation Route](#navigation-route) - a route line displayed during [navigation](/osmand/navigation/route-navigation). By default this is a solid transparent blue line, though default appearance depends on [vector map style](/osmand/map/vector-maps#default-map-styles), [day & night mode](/osmand/map/vector-maps#map-mode). It's also possible to fully customize it on Android.
 3. [Routes and route networks on the map](#routes-on-the-map) - special [objects](/osmand/map/vector-maps#routes) on the map from [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Relation:route) data and provided with standard vector maps. They typically represent popular local routes and could be displayed in many ways (shields, color, thickness, pattern). To use these types of routes you will need to enable them on the map.
@@ -29,7 +27,7 @@ There are two options to display [Tracks](/osmand/personal/tracks) on the map: v
 
 {% data reusables.general.android-ios-switcher %}
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.show_gpx %} → &#8230 → Choosing tracks for displayed from the list and setting of track appearance.
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.show_gpx %} → &#8230 → Choosing tracks for display from the list and setting track appearance.
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.tracks %} → Choosing tracks for displayed from the list 
 
@@ -38,8 +36,6 @@ There are two options to display [Tracks](/osmand/personal/tracks) on the map: v
 {% enddefault %}
 
 {% android %}
-
-![Configure map menu tracks](/assets/images/map/configure_map_tracks_android.png)
 
 ![Tracks menu Android](/assets/images/map/tracks_menu_android.png) 
 
@@ -82,7 +78,7 @@ There are two options to display [Tracks](/osmand/personal/tracks) on the map: v
 
 In OsmAnd you can change the color, the thickness of the track, display arrows and icons of the starting and ending points.
 
-To get to the track Appearance menu, you need to display track on the map, then in the [track Context menu](https://docs.osmand.net/en/main@latest/osmand/map/track-context-menu#overview) in the {% data variables.android-values.shared_string_overview %} section, [shortly](/osmand/map/map-context-menu#select-route-short-tap-for-android) click on the "palette" icon. 
+To get to the track Appearance menu, you need to display track on the map, then in the [Track Context menu](https://docs.osmand.net/en/main@latest/osmand/map/track-context-menu#overview) in the {% data variables.android-values.shared_string_overview %} section, [shortcut](/osmand/map/map-context-menu#select-route-short-tap-for-android) is to click on the "palette" icon. 
 
 {% default %}
 
@@ -102,70 +98,87 @@ To get to the track Appearance menu, you need to display track on the map, then 
 
 |**Parameter and Description**|   
 |------------|--------|
-|**{% data variables.android-values.gpx_split_interval %}** - splits track into intervals by distance or time.|
+|**{% data variables.android-values.gpx_split_interval %}** - splits track into intervals by **_Distance_** or **_Time_** and displays shields on the map.|
 |![Track menu Appearance Split interval Android](/assets/images/map/track_appearance_menu_split_interval_android.png)| 
-|**{% data variables.android-values.gpx_direction_arrows %}** - adds direction info for the track.|
+|**{% data variables.android-values.gpx_direction_arrows %}** - adds direction info on the track.|
 |![Track menu Appearance direction arrows Android](/assets/images/map/track_appearance_menu_direction_arrows_android.png)|  
-|**{% data variables.android-values.track_show_start_finish_icons %}** - shows or hides start/finish icons of the track.|
+|**{% data variables.android-values.track_show_start_finish_icons %}** - shows or hides start/finish icons of the track segments.|
 |![Track menu Appearance start and finish icons Android](/assets/images/map/track_appearance_menu_sf_icons_android.png)|  
-|**{% data variables.android-values.shared_string_color %}** -  you can change the color of the track with solid fill and gradient. To make the track solid, select the Solid fill and color. When choosing to color by speed, height, slope, etc., the track will have a gradient fill according to the track data.|
+|**{% data variables.android-values.shared_string_color %}** -  changes the color (solid or gradient) of the track using internal data: **_Solid Color_**, **_Height_**, **_Speed_**, **_Slope_** (PRO feature), **_Smoothness_** (OsmAnd plan route), **_Surface_** (OsmAnd plan route). If necessary data is not available grey color is displayed. |
 |![Track menu Appearance Track color Android](/assets/images/map/track_appearance_menu_track_color_android.png)|
-|**{% data variables.android-values.select_track_width %}** - allows configuring thickness for the track: {% data variables.android-values.rendering_value_thin_name %}, {% data variables.android-values.rendering_value_medium_name %}, {% data variables.android-values.rendering_value_bold_name %}, {% data variables.android-values.shared_string_custom %}.|
+|**{% data variables.android-values.select_track_width %}** - changes the thickness for the track between **_{% data variables.android-values.rendering_value_thin_name %}_**, **_{% data variables.android-values.rendering_value_medium_name %}_**, **_{% data variables.android-values.rendering_value_bold_name %}, {% data variables.android-values.shared_string_custom %}_**.|
 |![Track menu Appearance Track Thickness Android](/assets/images/map/track_appearance_menu_track_thickness_android.png)|
 
 ### Analyze Track on Map (Android)
 
-This option allows you to review track information on the map. To get access to this menu shortly tap on the track → [{% data variables.android-values.shared_string_options %}](/osmand/map/track-context-menu#options) → {% data variables.android-values.analyze_on_map %}
+This option allows you to interactively review track information using graphs and the map. To get access to this menu shortly tap on the track → [{% data variables.android-values.shared_string_options %}](/osmand/map/track-context-menu#options) → {% data variables.android-values.analyze_on_map %}
 
 ![Track menu analyze on map Android](/assets/images/personal/tracks/track_analyze_on_map_android.png) ![Track menu analize on the map distance Android](/assets/images/personal/tracks/track_analyze_on_map_distance_android.png) 
 
-- Graph: altitude / slope / speed - data of vertical axis. Here user can choose: Altitude, Slope, Speed, Altitude/Slope, Altitude/Speed data for viewing on Graph.
-
-![Track menu analyze on map 1 Android](/assets/images/personal/tracks/track_analyze_on_map_1_android.png) ![Track menu analyze on map 1.1 Android](/assets/images/personal/tracks/track_analyze_on_map_1.1_android.png)
-
-- Graph: distance / time - data of horizontal data. User can choose: Distance, Time, Time of day for analyzing data of vertical axis by timing or distance.
-
-![Track menu analyze on map 2 Android](/assets/images/personal/tracks/track_analyze_on_map_2_android.png) ![Track menu analyze on map 2.1 Android](/assets/images/personal/tracks/track_analyze_on_map_2.1_android.png)
+- **Graph data**: Altitude / Slope / Speed (if data is available in the track).
+- **Graph dimension**: Distance / Time.
+- **Tap/Slide**: tap to Graph for showing info about track point and moving along Graph highlights point location on the map and displays info about point on the bar.
+- **Scale**: scale Graph by [two fingers gesture](/osmand/map/interact-with-map#gestures). 
+- **Follow My location**: click button [My Location](/osmand/map/interact-with-map#my-location--zoom), so map view and graph is synchronized with your location. In that case **graph scale** will stay constant and **bar information** will be fixed to 1/4 from the left. As you move, **graph will slide** from left to right displaying information Ahead of your Track. This functionality is useful for hiking & cycling during navigation, though this screen doesn't have other widgets displayed.
 
 
-- Interact with map & graph - tap to Graph for showing info about track point and moving finger along Graph shows info about points of the track. User can scale Graph by [two fingers](/osmand/map/interact-with-map#gestures). 
+![Track menu analyze on map 3 Android](/assets/images/personal/tracks/track_analyze_on_map_3_android.png) ![Track menu analyze on map 5 Android](/assets/images/personal/tracks/track_analyze_on_map_5_android.png)
 
+
+<!-- 
 ![Track menu analyze on map 3 Android](/assets/images/personal/tracks/track_analyze_on_map_3_android.png) ![Track menu analyze on map 4 Android](/assets/images/personal/tracks/track_analyze_on_map_4_android.png)
-
-- Follow My location - new function for [navigation by track](/osmand/navigation/gpx-navigation).
-
+![Track menu analyze on map 1 Android](/assets/images/personal/tracks/track_analyze_on_map_1_android.png) ![Track menu analyze on map 1.1 Android](/assets/images/personal/tracks/track_analyze_on_map_1.1_android.png)
+![Track menu analyze on map 2 Android](/assets/images/personal/tracks/track_analyze_on_map_2_android.png) ![Track menu analyze on map 2.1 Android](/assets/images/personal/tracks/track_analyze_on_map_2.1_android.png)
 ![Track menu analyze on map 5 Android](/assets/images/personal/tracks/track_analyze_on_map_5_android.png)
-
-
+-->
 
 ## Navigation Route
 
-Navigation route is a line between user-defined points. In OsmAnd, the user builds a route taking into account the navigation parameters.
+Navigation route is a solid line prepared by [Route Preparation process](/osmand/navigation/route-navigation). It is displayed during Navigation or during Route preparation step.
 
  ![Route on the map Android](/assets/images/map/route_layer_android.png) ![Route on the map iOS](/assets/images/map/route_layer_ios.png)
 
 ### Route Appearance (Android)
 
-You can customize the route line's appearance for any navigation profile. It is available to select color and width of the line.
+You can customize the route line's appearance for any navigation profile differently. It is possible to select **_Color_** and **_Width_** for the line, **separately** for **_Day_** and **_Night_** [mode](/osmand/map/vector-maps#map-mode).
 
-{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.profile_appearance %} → {% data variables.android-values.customize_route_line %}
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_profile %} → {% data variables.android-values.routing_settings_2 %} → {% data variables.android-values.customize_route_line %}
 
 ![Route Customization Android](/assets/images/map/route_custom_android.png)
 
 ## Routes on the map
 
-One kind of route is node-based cycling, hiking or other routes from the OpenStreetMap. You can enable them in OsmAnd as an additional layer. 
+{% data reusables.general.android-ios-switcher %}
+
+OsmAnd can highlight [routes present on OpenStreetMap](https://wiki.openstreetmap.org/wiki/Relation:route). They are not selectable but with the right configuration of visible set of routes, it's possible to follow the route by color & shields, you can create a Track on top of the routes using [Plan Route](/osmand/plan-route/create-route) functionality.
+
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.rendering_category_routes %}
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_routes %}
 
-![Configure Map Routes section](/assets/images/map/configure_map_routes_android.png)
+**Read more** about Map Routes at [Vector map style](/osmand/map/vector-maps#routes).
 
-![Map routes - hiking osmc](/assets/images/map/map-routes-hiking-osmc.png) ![Map routes - cycle-node-networks](/assets/images/map/map-routes-cycle-node-networks.png)
+{% default %}
 
-Read more about Travel routes for [Vector map style](/osmand/map/vector-maps#routes).
+![Configure Map Routes section](/assets/images/map/configure_map_routes_android.png) 
 
+{% enddefault %}
+
+{% android %}
+
+![Configure Map Routes section](/assets/images/map/configure_map_routes_android.png) 
+
+{% endandroid %}
+
+{% ios %}
+
+![Track menu iOS](/assets/images/map/configure_map_routes_ios.png) 
+
+{% endios %}
+
+
+![Map routes - hiking osmc](/assets/images/map/map-routes-hiking-osmc.png)![Map routes - cycle-node-networks](/assets/images/map/map-routes-cycle-node-networks.png)
 
 
 ## Read more

@@ -1,5 +1,5 @@
 ---
-title: "{% data variables.android-values.osm_settings %}"
+title: "{% data variables.android-values.osm_editing_plugin_name %}"
 intro: "Make contributions to OpenStreetMap."
 versions: '*'
 ---
@@ -23,7 +23,7 @@ Make OSM contributions like creating or modifying OSM POI objects, opening or co
 
 ![OpenStretMap editing Android](/assets/images/plugins/osm-editing/osm_plugin_android.png)  ![OpenStretMap editing](/assets/images/plugins/osm-editing/osm_plugin_ios.png)
 
-### Plugin settings (Android)
+### Plugin settings
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.osm_settings %} → {% data variables.android-values.shared_string_settings %}
 
@@ -31,7 +31,7 @@ Make OSM contributions like creating or modifying OSM POI objects, opening or co
 
 Next settings:
 - {% data variables.android-values.login_account %} - [{% data variables.android-values.open_street_map_login_mode %}](https://www.openstreetmap.org/login) 
-- {% data variables.android-values.offline_edition %} - enable or disable offline editing. Users can make and save OSM edits and after upload its with Enternet connection.
+- {% data variables.android-values.offline_edition %} - enable or disable offline editing. Users can make and save OSM edits and after upload its with Internet connection.
 - {% data variables.android-values.use_dev_url %} - enable or disable [dev.openstreetmap.org](https://dev.openstreetmap.org/) instead of [openstreetmap.org](http://openstreetmap.org/) to testing uploading OSM Note / POI / GPX.
 - {% data variables.android-values.map_updates_for_mappers %} - allows [OsmAnd live](/osmand/personal/maps#osmand-live) updating for mappers.
 

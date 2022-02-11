@@ -27,7 +27,7 @@ In OpenStreetMap:
 - The city's boundaries are broken. How to fix [here](https://help.openstreetmap.org/questions/1053/how-do-i-fix-inconsistent-boundaries).
 - The city has no borders ([example](https://github.com/osmandapp/OsmAnd/issues/10699)).
 - City boundaries don't overlap correctly. OsmAnd must include the street in both cities. You can fix it in OpenStreetMap.
-- No required tags for relation (**boundary** or **place**) - [4](https://github.com/osmandapp/OsmAnd/issues/10921).
+- No required tags for relation (**boundary admin type** or **place**) - [4](https://github.com/osmandapp/OsmAnd/issues/10921), [Erfstadt](https://github.com/osmandapp/OsmAnd/issues/12548).
 
 In OsmAnd
 - The address begins to belong to the neighboring city. These cities are often villages, suburbs, districts. Or belong to the general area. Github: [1](https://github.com/osmandapp/OsmAnd/issues/10559),[2](https://github.com/osmandapp/OsmAnd/issues/10679),[3](https://github.com/osmandapp/OsmAnd/issues/10730)

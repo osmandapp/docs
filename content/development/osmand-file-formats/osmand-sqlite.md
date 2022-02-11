@@ -17,7 +17,7 @@ The SQLIte format used in OsmAnd is based on the "BigPlanet" SQLite as supported
 ||"maxzoom"|Integer. Max zoom level. Respective integer. (Also inverted in case of BigPlanet).|
 ||"ellipsoid"|Integer 0 or 1. 1 for Elliptic Mercator (Yandex tiles). 0 for regular Spheric Web Mercator (OSM, Google maps)|
 ||"inverted\_y"|Integer 0 or 1. 1 for inverted Y tile number (Nakarte.me tiles).|
-||"timeSupported"|Bool "yes" or "no". A tiles table with a "time" column indicates when each tile was retrieved.|
+||"timecolumn"|String "yes" or "no". A tiles table with a "time" column indicates when each tile was retrieved.|
 ||"expireminutes"|Integer. Specifies if tiles shall expire after the given number of minutes. They would still be displayed, but also re-downloaded.|
 ||"tilenumbering"|String "" or "BigPlanet". If "BigPlanet", zoom will be inverted and calculated as z = 17 - zoom.|
 ||"tilesize"| Integer. Empty or 256 or 512, optional, it is used to describe what's the tile size|

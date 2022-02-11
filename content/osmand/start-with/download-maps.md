@@ -40,7 +40,7 @@ One of the option to download map is via World map and [Map Context menu](/osman
 
 ![Tap on the map download region](/assets/images/settings/tap_on_the_map_download_region.png)
 
-## Download / Manage - World Map (Android)
+## Download / Manage - World Map
 
 One way to download the map is to zoom out the World map and by short tap select the region to download. This area will be highlighted in yellow and on the bottom will appear a panel with the name of the region and an offer to download it or choose other maps.
 
@@ -48,7 +48,7 @@ One way to download the map is to zoom out the World map and by short tap select
 
 **Note**: At low zoom level map selected to download will be highlighted in yellow and maps that already downloaded will be highlighted in green, deactivated maps will be highlighted in orange. 'Deactivated' maps allow to speed up program in case you have many downloaded maps.
 
-## Download - Map Zoom in (Android)
+## Download - Map Zoom in
 It is possible to download a map of a certain area just by zooming in on the World map. A notification "Download detailed map, to view the area" will appear at the top bar.
 
 ![Zoom in to download map Android](/assets/images/settings/zoom_in_download_map_android.png)
@@ -61,7 +61,7 @@ There is a possibility to download created by yourself (in OsmAnd Map Creator) m
 
 ## Type of maps
 
-You can download several types of maps: Standard, Roads-only (lightweight maps without details i.e. buildings, Android), [Coutour lines](/osmand/map/vector-maps#contour-lines), [Hillshades](/osmand/map/raster-maps#hillshade--slope), [Slopes](/osmand/map/raster-maps#hillshade--slope), [Wikipedia](/osmand/plugins/wikipedia), [Travel guides (Wikivoyage)](/osmand/plan-route/travel-guides), [Nautical maps](/osmand/map/nautical-charts), [Voice packages](/osmand/navigation/voice-navigation), [Map fonts](/osmand/map/vector-maps#map-fonts-android), [Altitude correction (Android)](/osmand/widgets/info-widgets#altitude).
+You can download several types of maps: Standard, Roads-only (lightweight maps without details i.e. buildings, Android), [Coutour lines](/osmand/map/vector-maps#contour-lines), [Hillshades](/osmand/map/raster-maps#hillshade--slope), [Slopes](/osmand/map/raster-maps#hillshade--slope), [Wikipedia](/osmand/plugins/wikipedia), [Travel guides (Wikivoyage)](/osmand/plan-route/travel-guides), [Nautical maps](/osmand/plugins/nautical-charts), [Voice packages](/osmand/navigation/voice-navigation), [Map fonts](/osmand/map/vector-maps#map-fonts-android), [Altitude correction (Android)](/osmand/widgets/info-widgets#altitude).
 
 **[Read more](/osmand/personal/maps#type-of-maps)**.
 
