@@ -117,7 +117,7 @@ The way the Audio/video recording will work can be determined with the settings 
 | **{% data variables.android-values.av_camera_focus %}** | This establishes the method of how focus is set by the camera. The number of available options is determined with the capabilities of the device camera. Basically, there are the following three options: *{% data variables.android-values.av_camera_focus_auto %}*; *{% data variables.android-values.av_camera_focus_continuous %}*; and *{% data variables.android-values.av_camera_focus_infinity %}*, where **autofocus** is the most popular one and establishes the automatic mode for the camera to focus by rotating the lens focus ring; **continuous** one makes the camera detect movements and refocus accordingly; and the **infinity** option makes the lens to focus on a distance and thus keep everything extraordinarily wide in focus no matter how far it is. |
 | **{% data variables.android-values.multimedia_photo_play_sound %}** | If enabled, a sound is produced on closing the camera.| 
 | **{% data variables.android-values.av_audio_format %}** | This provides a choice of formats for an audio file to be created in. There are two options: either the default format, or the **.aac** format. |
-| **{% data variables.android-values.av_audio_bitrate %}** | This provides a choice of bitrate options with the range from 16kbps to 128 kbps, or the Default option. The default option is determined with the default microphone settings of the device. | 
+| **{% data variables.android-values.av_audio_bitrate %}** | This provides a choice of bitrate options for an audio file to be created in. The available bitrate options range from 16kbps to 128 kbps, or the Default option. The default option is determined with the default microphone settings of the device. | 
 | **{% data variables.android-values.multimedia_use_system_camera %}** in {% data variables.android-values.video_notes %} | If enabled, OsmAnd uses the system application to record video. |
 | **{% data variables.android-values.av_video_quality %}** | This provides a choice of options that determine the quality of video to be recorded. |
 | **{% data variables.android-values.multimedia_rec_split_title %}** | If enabled, the video recording will be automatically split into two files if the length of the video reaches the established time limit.  |
@@ -249,7 +249,7 @@ At the bottom of the screen are three Actions buttons:
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### View audio/video POI   
+### Play audio/video notes   
 
 [Short tap](/osmand/map/map-context-menu#select-an-object-short-tap) on a/v note on the map or in [My places menu](/osmand/plugins/audio-video-notes#my-places-menu) opens [Map Context menu](/osmand/map/map-context-menu).
 
