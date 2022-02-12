@@ -83,9 +83,11 @@ For every profile, it is possible to configure the recording settings. There are
 
 - from the app settings, so that to configure recording for any of the profiles. 
 
-From the [plugin](/osmand/start-with/first-steps#how-to-configure-plugins), the Audio/video recording settings are available on selecting **Settings** from the triple dots list of the plugin in: 
+From the [plugin](/osmand/start-with/first-steps#how-to-configure-plugins), the Audio/video recording settings are opened by selecting **Settings** from the triple dots list of the plugin in: 
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group %} → {% data variables.android-values.audionotes_plugin_name %} → {% data variables.android-values.shared_string_settings %}
+
+![Plugin_settings](/assets/images/plugins/audio-video-notes/settings_from plugin.png)
 
 From the [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) of the entire app, the Audio/video recording settings can be opened as follows:
 
@@ -103,37 +105,39 @@ From the [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) 
 
 ### Establish options 
 
-The way the Audio/video recording will work can be determined with the settings described below. Establish them as needed. 
+The way the Audio/video recording will work can be determined with the settings described below. Establish the parameters as needed. 
 
 ![Audio video plugin settings Photo Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_photo_android.png)  ![Audio video plugin settings Video Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_settings_video_android.png)
 
 
 | Parameter | Description |
 | --- | --- |
-| **{% data variables.android-values.multimedia_use_system_camera %}** | If enabled, OsmAnd uses the system application to create photos.|
-| **{% data variables.android-values.av_camera_pic_size %}** | This establishes a size to create photos in. The number of available options is determined with the capabilities of the device camera. If no option is selected, the app uses the size that is established in the system  settings for the device camera. |
-| **{% data variables.android-values.av_camera_focus %}** | This establishes the method of how focus is set by the camera. The number of available options is determined with the capabilities of the device camera. Basically, there are the following three options: *{% data variables.android-values.av_camera_focus_auto %}*; *{% data variables.android-values.av_camera_focus_continuous %}*; and *{% data variables.android-values.av_camera_focus_infinity %}*, where **autofocus** is the most popular one and establishes the automatic mode for the camera to focus by rotating the lens focus ring; **continous** makes the camera detect movements and refocus accordingly; and **infinity** makes the lens to focus on a distance and thus keep everything extraordinarily wide in focus no matter how far it is. |
+| **{% data variables.android-values.multimedia_use_system_camera %}** in {% data variables.android-values.photo_notes %} | If enabled, OsmAnd uses the system application to create photos.|
+| **{% data variables.android-values.av_camera_pic_size %}** | This establishes a size for photos to take in. The number of available options is determined with the capabilities of the device camera. If no option is selected, the app uses the size that is established in the system settings for the device camera. |
+| **{% data variables.android-values.av_camera_focus %}** | This establishes the method of how focus is set by the camera. The number of available options is determined with the capabilities of the device camera. Basically, there are the following three options: *{% data variables.android-values.av_camera_focus_auto %}*; *{% data variables.android-values.av_camera_focus_continuous %}*; and *{% data variables.android-values.av_camera_focus_infinity %}*, where **autofocus** is the most popular one and establishes the automatic mode for the camera to focus by rotating the lens focus ring; **continuous** one makes the camera detect movements and refocus accordingly; and the **infinity** option makes the lens to focus on a distance and thus keep everything extraordinarily wide in focus no matter how far it is. |
 | **{% data variables.android-values.multimedia_photo_play_sound %}** | If enabled, a sound is produced on closing the camera.| 
-| **{% data variables.android-values.av_audio_format %}** | This provides a choice of formats that an audio file should be created in. There are two options: either the default format, or the **.aac** format. |
-| **{% data variables.android-values.av_audio_bitrate %}** | This provides a choice of bitrate options, which range from 16kbps, and to 128 kbps, or the Default option. The default option is determined with the default microphone settings of the device. | 
+| **{% data variables.android-values.av_audio_format %}** | This provides a choice of formats for an audio file to be created in. There are two options: either the default format, or the **.aac** format. |
+| **{% data variables.android-values.av_audio_bitrate %}** | This provides a choice of bitrate options with the range from 16kbps to 128 kbps, or the Default option. The default option is determined with the default microphone settings of the device. | 
 | **{% data variables.android-values.multimedia_use_system_camera %}** in {% data variables.android-values.video_notes %} | If enabled, OsmAnd uses the system application to record video. |
-| **{% data variables.android-values.av_video_quality %}** | This provides a choice of options that determine the quality of recorded video.  |
-| **{% data variables.android-values.multimedia_rec_split_title %}** | choose option: Rewrite clips when used space exceeds the storage size. |
-| **{% data variables.android-values.rec_split_clip_length %}** | set upper time limit for recorded clips. |
-| **{% data variables.android-values.rec_split_storage_size %}** | set amount of space that can be occupied by all recorded clips. |
-| **{% data variables.android-values.notes %}** | [The way to your media notes in OsmAnd menu](/osmand/personal/myplaces): click to '{% data variables.android-values.notes %}' opening menu. |
-| **{% data variables.android-values.reset_plugin_to_default %}** | tapping discards all your changes. |
-| **{% data variables.android-values.copy_from_other_profile %}** | tapping for copy plugin settings from another profile.|
+| **{% data variables.android-values.av_video_quality %}** | This provides a choice of options that determine the quality of video to be recorded. |
+| **{% data variables.android-values.multimedia_rec_split_title %}** | If enabled, the video recording will be automatically split into two files if the length of the video reaches the established time limit.  |
+| **{% data variables.android-values.rec_split_clip_length %}** | This determines the upper time limit for recorded video. There are options with the range from 1 minute to 30 minutes.|
+| **{% data variables.android-values.rec_split_storage_size %}** | This establishes the size of the storage intended for recorded video. There are options with the range from 1024 MB to 62 GB. |
+| **{% data variables.android-values.notes %}** | This re-direct you directly to the [Audio/video notes in My Places](/osmand/personal/myplaces). This is the central storage of all Audio/video notes ever made in the app. |
+| **{% data variables.android-values.reset_plugin_to_default %}** | This establishes the default values for all of the above settings.  |
+| **{% data variables.android-values.copy_from_other_profile %}** | This opens a dialog to select a profile to copy the established Audio/video note recording configuration of values from, and further to establish them for the current profile. |
 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Media file format 
+### File formats
 
-{% data variables.android-values.audionotes_plugin_name %} Plugin stores media files in a format:
+The {% data variables.android-values.audionotes_plugin_name %} plugin generates audio/video/photo files in the following format:
 
-{SHORTLINK_LOCATION}_Description.{avi,mp3,jpg} where SHORTLINK_LOCATION is encoded latitude/longitude according to specification https://wiki.openstreetmap.org/wiki/Shortlink.
+    {SHORTLINK_LOCATION}_Description.{avi,mp3,jpg}
+
+where `SHORTLINK_LOCATION` indicates the latitude and longitude of the location that the file is linked to. The `SHORTLINK_LOCATION` is encoded, according to specification https://wiki.openstreetmap.org/wiki/Shortlink.
 
 
 
