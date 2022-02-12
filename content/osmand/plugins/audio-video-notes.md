@@ -87,7 +87,7 @@ From the [plugin](/osmand/start-with/first-steps#how-to-configure-plugins), the 
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group %} → {% data variables.android-values.audionotes_plugin_name %} → {% data variables.android-values.shared_string_settings %}
 
-![Plugin_settings](/assets/images/plugins/audio-video-notes/settings_from plugin.png)
+![Plugin settings](/assets/images/plugins/audio-video-notes/settings_from_plugin.png)
 
 From the [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) of the entire app, the Audio/video recording settings can be opened as follows:
 
@@ -137,7 +137,7 @@ The {% data variables.android-values.audionotes_plugin_name %} plugin generates 
 
     {SHORTLINK_LOCATION}_Description.{avi,mp3,jpg}
 
-where `SHORTLINK_LOCATION` indicates the latitude and longitude of the location that the file is linked to. The `SHORTLINK_LOCATION` is encoded, according to specification https://wiki.openstreetmap.org/wiki/Shortlink.
+where `SHORTLINK_LOCATION` indicates the latitude and longitude of the location that the file is linked to. The `SHORTLINK_LOCATION` is encoded, according to the specification https://wiki.openstreetmap.org/wiki/Shortlink.
 
 
 
