@@ -84,6 +84,44 @@ In the **Android** version, to enable the Trip recording plugin, tap the triple 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 
+### Add REC widget
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is needed to make new records. It is added automatically with the Trip recording enabled. However, if anything, to add the REC widget, open the Configure screen menu and toggle on the Trip recording widget. 
+
+![Adding REC widget in iOS](/assets/images/plugins/trip-recording/ios_configure_screen_TrRec_widget.png) ![Adding REC widget in Android](/assets/images/plugins/trip-recording/and_configure_screen_TrRec_widget.png)
+
+{% enddefault %}
+
+{% ios%}
+
+The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is needed to make new records. It is added automatically with the Trip recording enabled. However, if anything, to add the REC widget, select a profile and toggle on **{% data variables.ios-values.track_recording %}** in the following [Configure screen](/osmand/widgets/configure-screen) menu:
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.track_recording %}
+
+![Adding REC widget in iOS](/assets/images/plugins/trip-recording/ios_configure_screen_TrRec_widget.png)
+
+{% endios%}
+
+{% android%}
+
+The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is needed to make new records. It is added automatically with the Trip recording enabled. However, if anything, to add the REC widget, select a profile and toggle on **{% data variables.android-values.shared_string_trip_recording %}** in the following [Configure screen](/osmand/widgets/configure-screen) menu:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} → {% data variables.android-values.shared_string_trip_recording %}
+
+![Adding REC widget in Android](/assets/images/plugins/trip-recording/and_configure_screen_TrRec_widget.png)
+
+{% endandroid%}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
 ### Open settings 
 
 {% data reusables.general.android-ios-switcher %}
@@ -112,11 +150,11 @@ In the **iOS** version, to open [settings](/osmand/start-with/first-steps#how-to
 
 {% android%}
 
-In the **Android** version, to open [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) for configuring Trip recording, it is possible to use any of the two options: general [settings](/osmand/start-with/first-steps#how-to-manage-your-settings), or [plugin](/osmand/start-with/first-steps#how-to-configure-plugins) settings. 
+In the **Android** version, to open [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) for configuring Trip recording, it is possible to use any of the two options: app [settings](/osmand/start-with/first-steps#how-to-manage-your-settings), or [plugin](/osmand/start-with/first-steps#how-to-configure-plugins) settings. 
 
-#### GENERAL SETTINGS 
+#### APP SETTINGS 
 
-The [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) of the app provide allow you to establish the Trip recording settings individually for a specific profile, and can be reached out, as follows:
+The [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) of the app allow you to establish the Trip recording settings individually for a specific profile, and can be reached out, as follows:
 
 1. Open {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %}.
 
@@ -231,7 +269,7 @@ The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is used to
 
 - To finish recording, tap the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) again, and confirm in the Trip recording dialog with the respective option. Additionally, there are a few other options that can be used. All options are detailed for the iOS and Android versions.
 
-![Start recording in iOS](/assets/images/plugins/trip-recording/ios_widget_start2.png) ![Start recording in Android](/assets/images/plugins/trip-recording/and_widget_menu2.png)
+![REC widget in iOS](/assets/images/plugins/trip-recording/ios_REC_widget.png) ![REC widget in Android](/assets/images/plugins/trip-recording/and_REC_widget.png)
 
 {% enddefault %}
 
@@ -486,7 +524,7 @@ By tapping a track directly on the map in the **iOS** version, the [context menu
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### GPX file details  
+## GPX file details  
 
 The location points are recorded into a file in the [GPX format](https://en.wikipedia.org/wiki/GPS_Exchange_Format), according to the following structure: *file > track > segments > points*, where:
 
