@@ -141,8 +141,8 @@ The way the Audio/video recording will work can be determined with the settings 
 You can manage your information, thoughts, ideas, etc. tied to a geographical place, as follows:
 
 - create a note;
-- view all notes represented as a list in [My Places](/osmand/personal/myplaces);
-- show all notes spread [across the map](/osmand/map/configure-map-menu#map-data-layers);
+- view all notes as a list in [My Places](/osmand/personal/myplaces);
+- show all notes [on the map](/osmand/map/configure-map-menu#map-data-layers);
 - play the note;
 - add to the [GPX file](/osmand/plugins/trip-recording#gpx-file-details);
 - export to [JOSM](https://josm.openstreetmap.de/);
@@ -174,17 +174,19 @@ To create a note tied to a selected point on the map, the [Context menu](/osmand
 3. Tap **Actions**.
 4. Select one of the available options from the list: 
 
-    - {% data variables.android-values.recording_context_menu_arecord %} - to make an audio note and tie it to the selected point on the map;
-    - {% data variables.android-values.recording_context_menu_vrecord%} - to make a video note and tie it to the selected point on the map;
-    - {% data variables.android-values.recording_context_menu_precord %} - to make a photo note and tie it to the selected point on the map.
-
-![Audio video plugin  Context menu take a note](/assets/images/plugins/audio-video-notes/context-menu-take-note.png)
+    - **{% data variables.android-values.recording_context_menu_arecord %}** - to make an audio note and tie it to the selected point on the map;
+    - **{% data variables.android-values.recording_context_menu_vrecord%}** - to make a video note and tie it to the selected point on the map;
+    - **{% data variables.android-values.recording_context_menu_precord %}** - to make a photo note and tie it to the selected point on the map.
 
 5. Depending on the selected format of the note, the respective recorder dialog opens. 
 
+![Audio video plugin  Context menu take a note](/assets/images/plugins/audio-video-notes/context-menu-take-note.png)
+
+
+
 #### RECORDER DIALOG
 
-For an audio / video note, respectively the audio, or video recorder shows up, and you can:
+For _an audio / video note_, respectively the audio, or video recorder shows up. And you can:
 
 - stop the recording with the Stop icon,
 - see the length of the record,
@@ -192,36 +194,32 @@ For an audio / video note, respectively the audio, or video recorder shows up, a
 
 > **NOTE**: Also, it is possible to stop the recording with a tap on the {% data variables.android-values.map_widget_av_notes %} widget, regardless of whether the Context menu, or the widget started the recording. 
 
-![Audio video plugin Take a video note](/assets/images/plugins/audio-video-notes/take_a_video_note_widget.png) <br>
+![Video note recorder](/assets/images/plugins/audio-video-notes/take_a_video_note_widget.png) 
 
-For a photo note, the camera functionality shows up, and you can take a photo, view the result, and accept and save it, or take a new photo.
+For _a photo note_, the camera functionality shows up, and you can take a photo, view the result, and accept and save it, or take a new photo.
 
-Automatically, all photo, audio, and video records are saved to: 
-
-{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → tab {% data variables.android-values.notes %}
+> **NOTE**: Automatically, all photo, audio, and video records are saved to: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.notes %} tab. 
 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-###  View all in My Places
+###  View in My Places
 
-[My Places](/osmand/personal/myplaces) is the central storage for all notes. It allows you to view all notes listed as a list. To open it, follow the path: 
+[My Places](/osmand/personal/myplaces) is the central storage for all notes. It allows you to view all notes listed as a list; open a specific note; and to manage the entire list of notes. To open My Places, follow the path: 
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places %} → {% data variables.android-values.notes %}
 
 ![Audio video plugin My places menu](/assets/images/plugins/audio-video-notes/audio_video_notes_myplaces_menu.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;
 
 #### OPEN A NOTE
 
-To open a note, tap it in the list in My Places, and the map shows up, highlights the linked point of the note, and opens the [Context menu](/osmand/plugins/audio-video-notes#actions-in-map-context-menu) of the point. It is possible to work with the note by selecting the options in the context menu.
+To open a note, tap it in the list of notes in My Places. And the map shows up, highlights the linked point of the note, and opens the [Context menu](/osmand/plugins/audio-video-notes#actions-in-map-context-menu) of the point. It is possible to work with the note by selecting the options in the context menu.
 
 ![Audio video plugin My places menu Context](/assets/images/plugins/audio-video-notes/audio_video_notes_myplaces_menu_context.png)
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;
 
 #### MANAGE A NOTE
 
@@ -240,11 +238,11 @@ To manage a note in My Places, tap the vertical triple points of the note in the
 
 #### MANAGE LIST OF NOTES
 
-The options on the bottom bar can be used to manage what notes to display in the list in My Places,as follows:
+The options on the bottom bar can be used to manage the list of notes in My Places, as follows:
 
 - {% data variables.android-values.shared_string_sort %} - opens a choice of how to sort: by type, or date, and on selection an option, sorts the list respectively. 
 - {% data variables.android-values.shared_string_share %} - shows a check list of all notes, including those added as waypoints to GPX files. First, required notes are checked, then the Share icon on tap at the right-hand top corner of the screen provides the available sharing options, and finally, the checked notes are shared, according to the selected option. 
-- {% data variables.android-values.shared_string_delete %} - shows a check list of audio, photo and video notes only. First, required notes are checked, then the Delete icon on tap at the right-hand top corner of the screen is clicked, and after confirmation, deletes the selected notes. 
+- {% data variables.android-values.shared_string_delete %} - shows a check list of audio, photo and video notes only. First, required notes are checked, then the Delete icon at the right-hand top corner of the screen is clicked, and after confirmation, deletes the selected notes. 
 
 ![Audio video plugin My places menu Three actions](/assets/images/plugins/audio-video-notes/audio_video_notes_myplaces_menu_three_actions.png)
 
@@ -253,10 +251,17 @@ The options on the bottom bar can be used to manage what notes to display in the
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Show all on the map 
+### Show on the map 
 
-For viewing your notes on the map you can switch on the [Recording layer](/osmand/map/point-layers-on-map#-audio--video-points-android)  in  [Configure map menu](/osmand/map/configure-map-menu).
+Notes can tell you a story, once displayed on the map: e.g. where to notice signs, which door to open, how to find a way out, an optimal path to go, etc. Once toggled on in the [Configure map](/osmand/map/configure-map-menu) menu, the [Recording layer](/osmand/map/point-layers-on-map#-audio--video-points-android) shows the notes on the map.
 
+![No notes on the map](/assets/images/plugins/audio-video-notes/no_notes_on_map.png) ![Notes are on the map](/assets/images/plugins/audio-video-notes/notes_on_map.png)
+
+The [Recording layer](/osmand/map/point-layers-on-map#-audio--video-points-android) can be reached out, as follows:
+
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map   %} → {% data variables.android-values.layer_recordings %}
+
+![Show notes on the map](/assets/images/plugins/audio-video-notes/recording_layer.png)
 
 
 
@@ -264,11 +269,14 @@ For viewing your notes on the map you can switch on the [Recording layer](/osman
 
 ### Play the note   
 
-[Short tap](/osmand/map/map-context-menu#select-an-object-short-tap) on a/v note on the map or in [My places menu](/osmand/plugins/audio-video-notes#my-places-menu) opens [Map Context menu](/osmand/map/map-context-menu).
+To play a note, use the respective option in the [Context menu](/osmand/map/map-context-menu#-audiovideo-note-android) opened:
 
-In this menu user can see [Details](/osmand/map/map-context-menu#-audiovideo-note-android) of chosen note and make Actions (Delete, Play, Show) with chosen note.
+- on the map;
+- in My Places. 
 
-![Audio video plugin Context menu](/assets/images/plugins/audio-video-notes/audio_video_notes_map_context_menu_1.png)
+Also, [Details](/osmand/map/map-context-menu#-audiovideo-note-android) will help by giving more data, like: the latitude and longitude; the date and time of the record, if any photos.
+
+![Audio video plugin Context menu](/assets/images/plugins/audio-video-notes/audio_video_notes_map_context_menu_1.png) ![Audio video plugin My places menu actions](/assets/images/plugins/audio-video-notes/audio_video_notes_myplaces_menu_actions.png)
 
 
 
