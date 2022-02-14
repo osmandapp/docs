@@ -223,11 +223,11 @@ To open a note, tap it in the list of notes in My Places. And the map shows up, 
 
 To manage a note in My Places, tap the vertical triple points of the note in the list, and the available options show up, as follows: 
 
-- {% data variables.android-values.watch %} / {% data variables.android-values.recording_context_menu_play %} - to play/show the note,
-- {% data variables.android-values.shared_string_share %} - to share the note, 
-- {% data variables.android-values.shared_string_show_on_map %} - to show the linked place on the map and the [Context menu](/osmand/plugins/audio-video-notes#actions-in-map-context-menu),
-- {% data variables.android-values.shared_string_rename %} - to rename the note,
-- {% data variables.android-values.shared_string_delete %} - to delete the note.
+- **{% data variables.android-values.watch %}** / **{% data variables.android-values.recording_context_menu_play %}** - to play/show the note,
+- **{% data variables.android-values.shared_string_share %}** - to share the note, 
+- **{% data variables.android-values.shared_string_show_on_map %}** - to show the linked place on the map and the [Context menu](/osmand/plugins/audio-video-notes#actions-in-map-context-menu),
+- **{% data variables.android-values.shared_string_rename %}** - to rename the note,
+- **{% data variables.android-values.shared_string_delete %}** - to delete the note.
 
 ![Audio video plugin My places menu actions](/assets/images/plugins/audio-video-notes/audio_video_notes_myplaces_menu_actions.png)
 
@@ -238,9 +238,9 @@ To manage a note in My Places, tap the vertical triple points of the note in the
 
 The options on the bottom bar can be used to manage the list of notes in My Places, as follows:
 
-- {% data variables.android-values.shared_string_sort %} - opens a choice of how to sort: by type, or date, and on selection an option, sorts the list respectively. 
-- {% data variables.android-values.shared_string_share %} - shows a check list of all notes, including those added as waypoints to GPX files. First, required notes are checked, then the Share icon on tap at the right-hand top corner of the screen provides the available sharing options, and finally, the checked notes are shared, according to the selected option. 
-- {% data variables.android-values.shared_string_delete %} - shows a check list of audio, photo and video notes only. First, required notes are checked, then the Delete icon at the right-hand top corner of the screen is clicked, and after confirmation, deletes the selected notes. 
+- **{% data variables.android-values.shared_string_sort %}** - opens a choice of how to sort: by type, or date, and on selection an option, sorts the list respectively. 
+- **{% data variables.android-values.shared_string_share %}** - shows a check list of all notes, including those added as waypoints to GPX files. First, required notes are checked, then the Share icon on tap at the right-hand top corner of the screen provides the available sharing options, and finally, the checked notes are shared, according to the selected option. 
+- **{% data variables.android-values.shared_string_delete %}** - shows a check list of audio, photo and video notes only. First, required notes are checked, then the Delete icon at the right-hand top corner of the screen is clicked, and after confirmation, deletes the selected notes. 
 
 ![Audio video plugin My places menu Three actions](/assets/images/plugins/audio-video-notes/audio_video_notes_myplaces_menu_three_actions.png)
 

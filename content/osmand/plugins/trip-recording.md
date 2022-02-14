@@ -269,7 +269,7 @@ The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is used to
 
 - When in progress, the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is colored in red.
 
-- With enabled online recording, the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is colored in green.
+- When in progress and with enabled online recording, the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is colored in green.
 
 - To finish recording, tap the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) again, and confirm in the Trip recording dialog with the respective option. Additionally, there are a few other options that can be used. All options are detailed for the iOS and Android versions.
 
@@ -291,7 +291,7 @@ In the **iOS** version, to start recording, tap the [REC widget](/osmand/widgets
 
 ![Start recording in iOS](/assets/images/plugins/trip-recording/ios_widget_start2.png) ![Finish recording in iOS](/assets/images/plugins/trip-recording/ios_widget_finish1.png)
 
->**NOTE**: When in progress, the REC widget is colored in red. With enabled online recording, the REC widget is colored in green.
+>**NOTE**: When in progress, the REC widget is colored in red. When in progress and with enabled online recording, the REC widget is colored in green.
 
 
 #### STOP RECORDING
@@ -345,7 +345,7 @@ In the opened Start dialog, it is possible adjust the following recording settin
 ![Start recording in Android](/assets/images/plugins/trip-recording/and_recording_start1.png)
 ![Finish recording in Android](/assets/images/plugins/trip-recording/and_recording_finish1.png)
 
->**NOTE**: When in progress, the REC widget is colored in red. With enabled online recording, the REC widget is colored in green.
+>**NOTE**: When in progress, the REC widget is colored in red. When in progress and with enabled online recording, the REC widget is colored in green.
 
 
 #### STOP RECORDING 
