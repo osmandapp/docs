@@ -156,7 +156,7 @@ You can create a photo, video, and/or audio note in any of the following ways:
 - with the [Context menu](/osmand/map/map-context-menu#-record-av-note-android) of a point on the map - if the note should be tied to the selected point on the map.
 
 
-#### TIE TO YOUR CURRENT POSITION
+#### CREATE AND TIE TO YOUR CURRENT POSITION
 
 To create a note tied to your current position, and thus, avoiding any search of a suitable point on the map to tie the note to, the {% data variables.android-values.map_widget_av_notes %} widget is used: tap the widget, and make the note. 
 
@@ -165,20 +165,18 @@ The functions provided by the {% data variables.android-values.map_widget_av_not
 ![Audio video plugin widget Android](/assets/images/plugins/audio-video-notes/audio_video_plugin_widget_choice_android.png)
 
 
-#### TIE TO SELECTED GEOLOCATION 
+#### CREATE AND TIE TO SELECTED GEOLOCATION 
 
 To create a note tied to a selected point on the map, the [Context menu](/osmand/map/map-context-menu#-record-av-note-android) of the point is used, as follows:
 
-1. Long-tap a point on the map. 
-2. The [Context menu](/osmand/map/map-context-menu) opens.
-3. Tap **Actions**.
-4. Select one of the available options from the list: 
+1. Long-tap a point on the map, and the [Context menu](/osmand/map/map-context-menu) opens.
+2. Tap **Actions**, and select one of the available options from the list: 
 
     - **{% data variables.android-values.recording_context_menu_arecord %}** - to make an audio note and tie it to the selected point on the map;
     - **{% data variables.android-values.recording_context_menu_vrecord%}** - to make a video note and tie it to the selected point on the map;
     - **{% data variables.android-values.recording_context_menu_precord %}** - to make a photo note and tie it to the selected point on the map.
 
-5. Depending on the selected format of the note, the respective recorder dialog opens. 
+3. Depending on the selected format of the note, the respective recorder dialog opens. 
 
 ![Audio video plugin  Context menu take a note](/assets/images/plugins/audio-video-notes/context-menu-take-note.png)
 
