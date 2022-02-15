@@ -538,7 +538,7 @@ By tapping a track directly on the map in the **iOS** version, the [context menu
 
 
 
-### Change folder for track
+### Change folder
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -562,11 +562,11 @@ All new tracks are automatically saved to the default folder in My Places:
 
 Later on, it is possible to move the track to any other preferable folder within My Places, and/or export the GPX file to an external storage. 
 
-#### MOVE TRACK
+#### MOVE TRACK WITHIN MY PLACES
 
 To move a track from the default folder to another folder within My Places, do the following:
 
-1. Open the [Context menu](/osmand/map/track-context-menu) of a track on the map in one of the next ways:
+1. Open the [Context menu](/osmand/map/track-context-menu) of a track on the map in one of the following ways:
 
     - by tapping a track in My Places, the map shows up with the context menu opened for the track;
     - by tapping a track directly on the map. 
@@ -579,11 +579,11 @@ To move a track from the default folder to another folder within My Places, do t
 ![More options in iOS](/assets/images/plugins/trip-recording/ios_context_menu_options1.png) ![Change folder in iOS](/assets/images/plugins/trip-recording/ios_context_menu_option2.png)
 
 
-#### EXPORT GPX FILE
+#### EXPORT GPX FILE TO EXTERNAL STORAGE
 
 To export a GPX file to an external storage, do the following: 
 
-1. Open the [Context menu](/osmand/map/track-context-menu) of a track on the map in one of the next ways:
+1. Open the [Context menu](/osmand/map/track-context-menu) of a track on the map in one of the following ways:
 
     - by tapping a track in My Places, the map shows up with the context menu opened for the track;
     - by tapping a track directly on the map. 
@@ -603,6 +603,11 @@ All new tracks are automatically saved to the default folder in My Places:
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} → {% data variables.android-values.shared_string_gpx_files %} tab
 
+For the **Android** version of the app, the default folder can be established in [Trip recording settings](/osmand/plugins/trip-recording#establish-options) as one of the following options:
+
+- the `Rec` folder, which is one folder for all tracks; or as 
+- the `Rec/yyyy-mm` folder, which is created individually anew for every month and contain tracks recorded during the given month.
+
 Later on, it is possible to move the track to any other preferable folder within My Places by using:
 
 - the [Context menu of a track on the map](/osmand/map/track-context-menu);
@@ -612,7 +617,7 @@ Later on, it is possible to move the track to any other preferable folder within
 
 To move a track to another folder within My Places, it is possible to use [Context menu of a track on the map](/osmand/map/track-context-menu), as follows: 
 
-1. Open the [Context menu](/osmand/map/track-context-menu) of a track on the map in one of the next ways:
+1. Open the [Context menu](/osmand/map/track-context-menu) of a track on the map in one of the following ways:
 
     - by tapping a track in My Places, the map shows up with the context menu opened for the track;
     - by tapping a track directly on the map. 
