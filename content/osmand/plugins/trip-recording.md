@@ -261,9 +261,7 @@ In the **Android** version, the available parameters are specified below. Establ
 
 {% default %}
 
-With the setup of the Trip recording plugin, the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) shows up in the list of widgets in the [Configure screen](/osmand/widgets/configure-screen) menu.
-
-The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is used to create new records. If toggled on in the list of widgets, the REC widget becomes displayed on the screen. 
+The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is used to create new records.  
 
 - To start recording, tap the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget), and confirm in the opened Start dialog, if it is enabled. Otherwise, confirmation is not needed, and the recording will start automatically. 
 
@@ -281,7 +279,13 @@ The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is used to
 
 #### START RECORDING 
 
-In the **iOS** version, to start recording, tap the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget), and in the opened Start dialog, it is possible to adjust the following recording settings before confirming the start of the recording by tapping **OK**:
+In the **iOS** version, there are two options to start recording:
+
+- using the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget),
+- using the {% data variables.ios-values.track_recording_name %} option in [My Places](/osmand/personal/myplaces): 
+    {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} tab
+
+In any case, the Start dialog opens, unless the **{% data variables.ios-values.track_interval_remember %}** option is toggled on, and provides the following recording settings to adjust before confirming the start of the recording by tapping **OK**:
 
 - **Logging interval** - to set the frequency of the requests sent to the GPS sensor to detect and post a new point onto the route of the track;
 
@@ -291,7 +295,7 @@ In the **iOS** version, to start recording, tap the [REC widget](/osmand/widgets
 
 ![Start recording in iOS](/assets/images/plugins/trip-recording/ios_widget_start2.png) ![Finish recording in iOS](/assets/images/plugins/trip-recording/ios_widget_finish1.png)
 
->**NOTE**: When in progress, the REC widget is colored in red. When in progress and with enabled online recording, the REC widget is colored in green.
+>**NOTE**: When in progress, the REC widget is colored in red. 
 
 
 #### STOP RECORDING
@@ -315,11 +319,13 @@ In the **iOS** version, to stop recording, or to do any of the following options
 
 #### START RECORDING 
 
-In the **Android** version, there are three options to start recording: 
+In the **Android** version, there are four options to start recording: 
 
 - using the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget), 
 - with the Trip recording option in the menu,
-- with the Start Recording icon on the screen of the device. 
+- with the RECORD option in [My Places](/osmand/personal/myplaces):
+    {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} → {% data variables.android-values.shared_string_gpx_files %} tab;
+- with the Start Recording icon on the screen of the device, as the examples on the figures below show. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -414,12 +420,12 @@ For any details about [My Places](/osmand/personal/myplaces), and/or [Tracks](/o
 
 - the internal organization of the Tracks tab in My Places can be managed with the Trip recording plugin settings described above;
 
-- it is a useful place to consult with in any case of doubts, for example, on what/if anything is recorded, what/if anything is visible right now on the map, and so forth;
+- it is a useful place to consult with in case of doubts, for example, on what/if anything is recorded, what/if anything is visible right now on the map, and so forth;
 
 - My Places is perfect for any inventory work: tap the triple points/arrow at the right side of a track to manage it with any of the options, such as Move, Rename, Share, etc. 
 
 
-![My Places with tracks in iOS](/assets/images/plugins/trip-recording/ios_my_places1.png) ![My Places with tracks in Android](/assets/images/plugins/trip-recording/and_my_places1.png)
+![My Places with tracks in iOS](/assets/images/plugins/trip-recording/ios_my_places_viewing_tracks.png) ![My Places with tracks in Android](/assets/images/plugins/trip-recording/and_my_places_viewing_tracks.png)
 
 
 
@@ -431,7 +437,7 @@ In the **iOS** version, to view all ever-recorded tracks, and/or manage them, go
 
 {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} tab
 
-![My Places with tracks in iOS](/assets/images/plugins/trip-recording/ios_my_places1.png)
+![My Places with tracks in iOS](/assets/images/plugins/trip-recording/ios_my_places_viewing_tracks.png)
 
 {% endios%}
 
@@ -441,19 +447,16 @@ In the **Android** version, to view all ever-recorded tracks, and/or manage them
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} → {% data variables.android-values.shared_string_gpx_files %} tab
 
-![My Places with tracks in Android](/assets/images/plugins/trip-recording/and_my_places1.png)
+![My Places with tracks in Android](/assets/images/plugins/trip-recording/and_my_places_viewing_tracks.png)
 
 {% endandroid%}
-
-
-
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
-### Display tracks on map
+### Show tracks on map
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -530,6 +533,112 @@ By tapping a track directly on the map in the **iOS** version, the [context menu
 {% endandroid%}
 
 
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+### Change folder for track
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+All recorded tracks are stored [**My Places**](/osmand/personal/myplaces). It is the only storage for tracks. Even if moved, tracks are moved between folders in My Places. However, as soon as a new track is created, it is automatically saved to the default folder in My Places. The default folder is one and the same for all new tracks. After showing up in the default folder, tracks can be moved to any other preferred folder, as follows:
+
+1. Select more options from the [Context menu](/osmand/map/track-context-menu) of a track on the map. 
+2. Tap **Change folder** and select another folder in My Places to store the track in. 
+
+![More options in iOS](/assets/images/plugins/trip-recording/ios_context_menu_options1.png) ![More options in Android](/assets/images/plugins/trip-recording/and_context_menu_options1.png)
+
+
+{% enddefault %}
+
+{% ios%}
+
+All new tracks are automatically saved to the default folder in My Places:
+
+{% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} tab
+
+Later on, it is possible to move the track to any other preferable folder within My Places, and/or export the GPX file to an external storage. 
+
+#### MOVE TRACK
+
+To move a track from the default folder to another folder within My Places, do the following:
+
+1. Open the [Context menu](/osmand/map/track-context-menu) of a track on the map in one of the next ways:
+
+    - by tapping a track in My Places, the map shows up with the context menu opened for the track;
+    - by tapping a track directly on the map. 
+    In any case, make certain the track is visible on the map. 
+
+2. Tap the triple points on the extreme right of the bottom panel.
+3. Tap **{% data variables.ios-values.plan_route_change_folder %}** from the opened {% data variables.ios-values.actions %} list.
+4. Select a folder to move the track to.   
+
+![More options in iOS](/assets/images/plugins/trip-recording/ios_context_menu_options1.png) ![Change folder in iOS](/assets/images/plugins/trip-recording/ios_context_menu_option2.png)
+
+
+#### EXPORT GPX FILE
+
+To export a GPX file to an external storage, do the following: 
+
+1. Open the [Context menu](/osmand/map/track-context-menu) of a track on the map in one of the next ways:
+
+    - by tapping a track in My Places, the map shows up with the context menu opened for the track;
+    - by tapping a track directly on the map. 
+    In any case, make certain the track is visible on the map. 
+
+2. Tap **{% data variables.ios-values.shared_string_export %}**.
+3. Select the required storage to export the GPX file to. 
+
+
+![Export with Context menu in iOS](/assets/images/plugins/trip-recording/ios_context_menu_export.png) 
+
+{% endios%}
+
+{% android%}
+
+All new tracks are automatically saved to the default folder in My Places:
+
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} → {% data variables.android-values.shared_string_gpx_files %} tab
+
+Later on, it is possible to move the track to any other preferable folder within My Places by using:
+
+- the [Context menu of a track on the map](/osmand/map/track-context-menu);
+- the [Context menu of a track in My Places](/osmand/personal/tracks#manage-tracks).
+
+#### CONTEXT MENU ON THE MAP
+
+To move a track to another folder within My Places, it is possible to use [Context menu of a track on the map](/osmand/map/track-context-menu), as follows: 
+
+1. Open the [Context menu](/osmand/map/track-context-menu) of a track on the map in one of the next ways:
+
+    - by tapping a track in My Places, the map shows up with the context menu opened for the track;
+    - by tapping a track directly on the map. 
+    In any case, make certain the track is visible on the map. 
+
+2. Tap **{% data variables.android-values.shared_string_options %}**.
+3. Tap **{% data variables.android-values.change_folder %}** from the opened {% data variables.android-values.shared_string_options %} list.
+4. Select a folder to move the track to. 
+
+![More options in Android](/assets/images/plugins/trip-recording/and_context_menu_options1.png) ![Change folder in Android](/assets/images/plugins/trip-recording/and_context_menu_option2.png)
+
+#### CONTEXT MENU IN MY PLACES
+
+To move a track to another folder within My Places, it is possible to use the [Context menu of a track in My Places](/osmand/personal/tracks#manage-tracks), as follows: 
+
+1. Open {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} → {% data variables.android-values.shared_string_gpx_files %} tab.
+2. Tap the triple points on the right of the required track.
+3. Tap **{% data variables.android-values.shared_string_move %}** from the opened context menu.
+4. Select a folder to move the track to. 
+
+![Move with My Places in Android](/assets/images/plugins/trip-recording/and_my_places_viewing_tracks.png)
+
+{% endandroid%}
+
+
+
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 ## GPX file details  
@@ -539,7 +648,7 @@ The location points are recorded into a file in the [GPX format](https://en.wiki
 - one point has a number of attributes: coordinates, speed, altitude, heading;
 - points are grouped into tracks;
 - one track is generated by one recording, i.e. one start and one stop actions;
-- with auto-split after gaps, the next point of the track after the gap makes up a new segment;
+- with auto-split after gaps, the next point after the gap makes up a new segment;
 - both segments and tracks are identified with the Start and Finish icons on the map; 
 - both tracks and segments are recorded into a file.
 
