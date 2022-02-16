@@ -142,6 +142,8 @@ You can manage your information, thoughts, ideas, etc. tied to a geographical pl
 
 - create a note;
 - view all notes as a list in [My Places](/osmand/personal/myplaces);
+- show the specific note on the map;
+- rename a note in My Places;
 - show all notes [on the map](/osmand/map/configure-map-menu#map-data-layers);
 - play the note;
 - add to the [GPX file](/osmand/plugins/trip-recording#gpx-file-details);
@@ -211,7 +213,7 @@ For _a photo note_, the camera functionality shows up, and you can take a photo,
 ![Audio video plugin My places menu](/assets/images/plugins/audio-video-notes/audio_video_notes_myplaces_menu.png)
 
 
-#### OPEN A NOTE
+### Show a note on the map
 
 To open a note, tap it in the list of notes in My Places. And the map shows up, highlights the linked point of the note, and opens the [Context menu](/osmand/plugins/audio-video-notes#actions-in-map-context-menu) of the point. It is possible to work with the note by selecting the options in the context menu.
 
@@ -219,7 +221,7 @@ To open a note, tap it in the list of notes in My Places. And the map shows up, 
 
 
 
-#### MANAGE A NOTE
+### Rename and manage a note
 
 To manage a note in My Places, tap the vertical triple points of the note in the list, and the available options show up, as follows: 
 
@@ -234,7 +236,7 @@ To manage a note in My Places, tap the vertical triple points of the note in the
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-#### MANAGE LIST OF NOTES
+### Manage list of notes in Places
 
 The options on the bottom bar can be used to manage the list of notes in My Places, as follows:
 
@@ -249,7 +251,7 @@ The options on the bottom bar can be used to manage the list of notes in My Plac
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Show on the map 
+### Show all notes on the map 
 
 Notes can tell you a story, once displayed on the map: e.g. where to notice signs, which door to open, how to find a way out, an optimal path to go, etc. Once toggled on in the [Configure map](/osmand/map/configure-map-menu) menu, the [Recording layer](/osmand/map/point-layers-on-map#-audio--video-points-android) shows the notes on the map.
 
@@ -267,7 +269,7 @@ The [Recording layer](/osmand/map/point-layers-on-map#-audio--video-points-andro
 
 ### Play the note   
 
-To play a note, use the respective option in the [Context menu](/osmand/map/map-context-menu#-audiovideo-note-android) opened:
+To play a note, use the respective option in the [Context menu](/osmand/map/map-context-menu#-audiovideo-note-android) opened for the note:
 
 - on the map;
 - in My Places. 
@@ -280,16 +282,58 @@ Also, [Details](/osmand/map/map-context-menu#-audiovideo-note-android) will help
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Add to GPX file 
+## Notes vs track waypoints 
 
-You can use this plugin while  [recording the GPX track](/osmand/plugins/trip-recording). This way, all your notes will be added to the track as waypoints automatically.
+If an audio/video/photo note is added to a track, a waypoint is created. Waypoints exist within the track. If a track is visible, its waypoints are visible. So, audio/video/photo notes can be visible on the map altogether, or by specific visible track. In the latter case, audio/video/photo notes are displayed as track waypoints. 
 
-![Audio video plugin to Track](/assets/images/plugins/audio-video-notes/audio_video_notes_to_track.png)
+>**NOTE**: If a track is exported, the waypoints cannot be viewed, or played, as audio/video/photo notes are stored on the device only and available for the user of the device. 
 
-When [viewing the track](/osmand/map/track-context-menu), you'll see exactly what was recorded where.
+![Notes and waypoints on the map](/assets/images/plugins/audio-video-notes/note_waypoint_on_map.png) ![Waypoints on the track](/assets/images/plugins/audio-video-notes/waypoint_auto_manual.png)
 
-![Audio video plugin to Track view](/assets/images/plugins/audio-video-notes/audio_video_notes_to_track_view.png)
 
+### Create waypoints
+
+There are two ways to create a waypoint: automatically and manually. 
+
+**Automatically**, a waypoint is created, when the user takes an audio/video/photo note when the Trip recording is in progress, regardless of the geolocation tied: current position, or any place. 
+
+All waypoints added in this case get an automatically assigned name. The name is created, according to the format specified below for an audio/video/photo file, and has a [shortlink](https://wiki.openstreetmap.org/wiki/Shortlink). The example of waypoints on the figure above shows first four waypoints on the track created automatically, and the last one was created manually. 
+
+**Manually**, a waypoint is created via the [Context menu](/osmand/map/map-context-menu#-audiovideo-note-android), as follows: 
+
+1. Select the required audio/video/photo note on the map;
+2. Tap **Actions**, and then tap **Add track**.
+3. Select the required track to add the new waypoint to. 
+4. The {% data variables.android-values.quick_action_add_gpx %} dialog opens, and allows the user to set some properties, like the name to the waypoint, an icon, color, etc. Once done, tap **Save**.
+
+>**NOTE**: The name of a manually created waypoint can be established by the user. 
+
+![Manually adding a waypoint to track](/assets/images/plugins/audio-video-notes/waypoint_manually_created.png)
+ 
+
+
+### View waypoint 
+
+A waypoint is available for viewing as a waypoint on the map and in the list of [waypoints of a specific track](/osmand/map/track-context-menu#points--waypoints). Deleting the waypoint does not delete the respective audio/video/photo note. 
+
+An audio/video/photo note is available for viewing on the map and in the list of A/V notes in [My Places](/osmand/plugins/audio-video-notes#view-in-my-places). Deleting the audio/video/photo note does not deletes the respective waypoint. 
+
+On the map, a waypoint and an audio/video/photo note can be visible, or not. It is determined by what layer is toggled on.
+
+| Visible | Layer is on |
+| --- | --- |
+| Only waypoints | Tracks layer |
+| Waypoints and notes | Tracks and Recording layer | 
+| Only notes | Recording layer | 
+| None | Neither Tracks, not Recording layer. |
+
+>**NOTE**: When neither Tracks, not Recording layer is on, both waypoints and notes can be shown by tapping them in My Places. In this case, the map shows the locations of the tapped note, or respectively, the locations of all waypoints of the tapped track. 
+
+### In GPX file
+
+If to view the GPX file of the track added with a waypoint from an audio/video/photo note, the waypoint will be like on the example below, having the coordinates, the timestamp, the name of the respective note, and the shortlink.
+
+![Waypoint in a GPX file](/assets/images/plugins/audio-video-notes/waypoint_in_GPX_file.png)
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
