@@ -146,7 +146,7 @@ You can manage your information, thoughts, ideas, etc. tied to a geographical pl
 - rename a note in My Places;
 - show all notes [on the map](/osmand/map/configure-map-menu#map-data-layers);
 - play the note;
-- add to the [GPX file](/osmand/plugins/trip-recording#gpx-file-details);
+- create waypoints in a [track](/osmand/plugins/trip-recording#gpx-file-details);
 - export to [JOSM](https://josm.openstreetmap.de/);
 
 
@@ -282,11 +282,11 @@ Also, [Details](/osmand/map/map-context-menu#-audiovideo-note-android) will help
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-## Notes vs track waypoints 
+## Waypoints created from notes
 
-If an audio/video/photo note is added to a track, a waypoint is created. Waypoints exist within the track. If a track is visible, its waypoints are visible. So, audio/video/photo notes can be visible on the map altogether, or by specific visible track. In the latter case, audio/video/photo notes are displayed as track waypoints. 
+If an audio/video/photo note is added to a track, a waypoint is created. Waypoints exist within the track. If a track is visible, its waypoints are visible. So, audio/video/photo notes can be visible on the map altogether, or by the specific visible track. In the latter case, audio/video/photo notes are displayed as track waypoints. 
 
->**NOTE**: If a track is exported, the waypoints cannot be viewed, or played, as audio/video/photo notes are stored on the device only and available for the user of the device. 
+>**NOTE**: If a track is exported, the waypoints cannot be viewed, or played, because audio/video/photo notes are stored on the device only, and available only to the user of the device. 
 
 ![Notes and waypoints on the map](/assets/images/plugins/audio-video-notes/note_waypoint_on_map.png) ![Waypoints on the track](/assets/images/plugins/audio-video-notes/waypoint_auto_manual.png)
 
@@ -295,16 +295,16 @@ If an audio/video/photo note is added to a track, a waypoint is created. Waypoin
 
 There are two ways to create a waypoint: automatically and manually. 
 
-**Automatically**, a waypoint is created, when the user takes an audio/video/photo note when the Trip recording is in progress, regardless of the geolocation tied: current position, or any place. 
+**Automatically**, a waypoint is created, in case if the user takes an audio/video/photo note when the Trip recording is in progress, regardless of the geolocation tied to the current position, or any place, and thus, regardless of the means used for that: if it is the [Widget](/osmand/widgets/info-widgets#-audio-video-notes-widget-android), or the [Context menu](/osmand/map/map-context-menu#-audiovideo-note-android). 
 
-All waypoints added in this case get an automatically assigned name. The name is created, according to the format specified below for an audio/video/photo file, and has a [shortlink](https://wiki.openstreetmap.org/wiki/Shortlink). The example of waypoints on the figure above shows first four waypoints on the track created automatically, and the last one was created manually. 
+All waypoints added automatically get an automatically assigned name. The name is created, according to the format specified below for an audio/video/photo file, and has a [shortlink](https://wiki.openstreetmap.org/wiki/Shortlink). The example of the waypoints on the figure above shows automatically and manually created waypoints, where first four were created automatically, and the last one - manually. 
 
 **Manually**, a waypoint is created via the [Context menu](/osmand/map/map-context-menu#-audiovideo-note-android), as follows: 
 
 1. Select the required audio/video/photo note on the map;
 2. Tap **Actions**, and then tap **Add track**.
-3. Select the required track to add the new waypoint to. 
-4. The {% data variables.android-values.quick_action_add_gpx %} dialog opens, and allows the user to set some properties, like the name to the waypoint, an icon, color, etc. Once done, tap **Save**.
+3. Select the track that the waypoint is intended to be added to. 
+4. The *{% data variables.android-values.quick_action_add_gpx %}* dialog opens, and allows the user to set some properties, like: the name to the waypoint, an icon, color, etc. Once done, tap **Save**.
 
 >**NOTE**: The name of a manually created waypoint can be established by the user. 
 
@@ -312,41 +312,31 @@ All waypoints added in this case get an automatically assigned name. The name is
  
 
 
-### View waypoint 
+### View waypoints 
 
 A waypoint is available for viewing as a waypoint on the map and in the list of [waypoints of a specific track](/osmand/map/track-context-menu#points--waypoints). Deleting the waypoint does not delete the respective audio/video/photo note. 
 
-An audio/video/photo note is available for viewing on the map and in the list of A/V notes in [My Places](/osmand/plugins/audio-video-notes#view-in-my-places). Deleting the audio/video/photo note does not deletes the respective waypoint. 
+An audio/video/photo note is available for viewing on the map and in the list of A/V notes in [My Places](/osmand/plugins/audio-video-notes#view-in-my-places). Deleting the audio/video/photo note does not delete the respective waypoint. 
 
-On the map, a waypoint and an audio/video/photo note can be visible, or not. It is determined by what layer is toggled on.
+On the map, a waypoint and an audio/video/photo note can be visible, or not. It is determined by what layer is currently toggled on for the profile.
 
-| Visible | Layer is on |
+| Visible | Layer toggled on |
 | --- | --- |
 | Only waypoints | Tracks layer |
 | Waypoints and notes | Tracks and Recording layer | 
 | Only notes | Recording layer | 
 | None | Neither Tracks, not Recording layer. |
 
->**NOTE**: When neither Tracks, not Recording layer is on, both waypoints and notes can be shown by tapping them in My Places. In this case, the map shows the locations of the tapped note, or respectively, the locations of all waypoints of the tapped track. 
+>**NOTE**: When neither Tracks, not Recording layer is toggled on, both waypoints and notes can be shown by tapping them in My Places. In this case, the map shows the locations of the tapped note, or respectively, the locations of all waypoints of the tapped track. 
 
-### In GPX file
+### GPX file with waypoints
 
 If to view the GPX file of the track added with a waypoint from an audio/video/photo note, the waypoint will be like on the example below, having the coordinates, the timestamp, the name of the respective note, and the shortlink.
 
 ![Waypoint in a GPX file](/assets/images/plugins/audio-video-notes/waypoint_in_GPX_file.png)
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;
 
-### Export to JOSM 
-
-
-To view everything later, you can export the track together with all the media and see them in the  [JOSM editor](https://josm.openstreetmap.de/). Please note that you'll need to put the media in the corresponding folder (you'll know which one if you click on a video note and see the message about a missing file. Just put it in the indicated folder).
-
-![Audio video notes in Josm](/assets/images/plugins/audio-video-notes/josm-track-points.png)
-
-
-So there you have it: your personal notes linked to the map and stored in one place. Document your adventures!
 
 
 
@@ -359,3 +349,15 @@ The {% data variables.android-values.audionotes_plugin_name %} plugin generates 
     {SHORTLINK_LOCATION}_Description.{avi,mp3,jpg}
 
 where `SHORTLINK_LOCATION` indicates the latitude and longitude of the location that the file is linked to. The `SHORTLINK_LOCATION` is encoded, according to the specification https://wiki.openstreetmap.org/wiki/Shortlink.
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+## Export to JOSM 
+
+
+To view everything later, you can export the track together with all the media and see them in the  [JOSM editor](https://josm.openstreetmap.de/). Please note that you'll need to put the media in the corresponding folder (you'll know which one if you click on a video note and see the message about a missing file. Just put it in the indicated folder).
+
+![Audio video notes in Josm](/assets/images/plugins/audio-video-notes/josm-track-points.png)
+
+
+So there you have it: your personal notes linked to the map and stored in one place. Document your adventures!
