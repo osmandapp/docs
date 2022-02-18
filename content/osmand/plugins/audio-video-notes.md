@@ -120,8 +120,8 @@ The way the Audio/video recording will work can be determined with the settings 
 | **{% data variables.android-values.av_audio_bitrate %}** | This provides a choice of bitrate options for an audio file to be created in. The available bitrate options range from 16kbps to 128 kbps, or the Default option. The default option is determined with the default microphone settings of the device. | 
 | **{% data variables.android-values.multimedia_use_system_camera %}** in {% data variables.android-values.video_notes %} | If enabled, OsmAnd uses the system application to record video. |
 | **{% data variables.android-values.av_video_quality %}** | This provides a choice of options that determine the format of the output image. The number of options available is determined with the parameters of a specific device. The default option is the *Highest quality* option.  |
-| **{% data variables.android-values.multimedia_rec_split_title %}** | If enabled, the video recording will be automatically re-written if the length of the video reaches the established time limit.  |
-| **{% data variables.android-values.rec_split_clip_length %}** | This determines the upper time limit for recorded video. There are options with the range from 1 minute to 30 minutes.|
+| **{% data variables.android-values.multimedia_rec_split_title %}** | If enabled, old video recordings will be automatically re-written and replaced with new video recordings if the storage size reaches the established size limit.  |
+| **{% data variables.android-values.rec_split_clip_length %}** | This determines the upper time limit for recorded video clips. There are options with the range from 1 minute to 30 minutes.|
 | **{% data variables.android-values.rec_split_storage_size %}** | This establishes the size of the storage intended for recorded video. There are options with the range from 1024 MB to 62 GB. A specific range of options, as well as the default option are determined with the parameters of a specific device. A system message will remind on the storage size reaching the established limit. |
 | **{% data variables.android-values.notes %}** | This re-directs you directly to the [Audio/video notes in My Places](/osmand/personal/myplaces). This is the central storage of all Audio/video notes ever made in the app. |
 | **{% data variables.android-values.reset_plugin_to_default %}** | This establishes the default values for all of the above settings.  |
@@ -215,7 +215,7 @@ For _a photo note_, the camera functionality shows up, and you can take a photo,
 
 ### Show a note on the map
 
-To open a note, tap it in the list of notes in My Places. And the map shows up, highlights the linked point of the note, and opens the [Context menu](/osmand/plugins/audio-video-notes#actions-in-map-context-menu) of the point. It is possible to work with the note by selecting the options in the context menu.
+To show a specific note on the map, use the list of notes in My Places, find the needed one and tap it. As a result, the map shows up, highlights the location of the note, and opens the [Context menu](/osmand/plugins/audio-video-notes#actions-in-map-context-menu). It is possible to work with the note by selecting the options in the context menu.
 
 ![Audio video plugin My places menu Context](/assets/images/plugins/audio-video-notes/audio_video_notes_myplaces_menu_context.png)
 
@@ -253,7 +253,9 @@ The options on the bottom bar can be used to manage the list of notes in My Plac
 
 ### Show all notes on the map 
 
-Notes can tell you a story, once displayed on the map: e.g. where to notice signs, which door to open, how to find a way out, an optimal path to go, etc. Once toggled on in the [Configure map](/osmand/map/configure-map-menu) menu, the [Recording layer](/osmand/map/point-layers-on-map#-audio--video-points-android) shows the notes on the map.
+Notes can tell you a story, once displayed on the map: e.g. where to notice signs, which door to open, how to find a way out, an optimal path to go, etc. It is possible to show all notes altogether instead of [one by one](/osmand/plugins/audio-video-notes#show-a-note-on-the-map). 
+
+To show/hide all notes altogether, use the [Recording layer](/osmand/map/point-layers-on-map#-audio--video-points-android). Once toggled on in the [Configure map](/osmand/map/configure-map-menu) menu, the Recording layer shows all notes on the map.
 
 ![No notes on the map](/assets/images/plugins/audio-video-notes/no_notes_on_map.png) ![Notes are on the map](/assets/images/plugins/audio-video-notes/notes_on_map.png)
 
@@ -295,7 +297,7 @@ If an audio/video/photo note is added to a track, a waypoint is created. Waypoin
 
 There are two ways to create a waypoint: automatically and manually. 
 
-**Automatically**, a waypoint is created, in case if the user takes an audio/video/photo note when the Trip recording is in progress, regardless of the geolocation tied to the current position, or any place, and thus, regardless of the means used for that: if it is the [Widget](/osmand/widgets/info-widgets#-audio-video-notes-widget-android), or the [Context menu](/osmand/map/map-context-menu#-audiovideo-note-android). 
+**Automatically**, a waypoint is created, in case if the user takes an audio/video/photo note when the [Trip recording](/osmand/plugins/trip-recording) is in progress, regardless of the geolocation if it is tied to the current position, or any place, and thus, regardless of the means used for that: if it is the [Widget](/osmand/widgets/info-widgets#-audio-video-notes-widget-android), or the [Context menu](/osmand/map/map-context-menu#-audiovideo-note-android). 
 
 All waypoints added automatically get an automatically assigned name. The name is created, according to the format specified below for an audio/video/photo file, and has a [shortlink](https://wiki.openstreetmap.org/wiki/Shortlink). The example of the waypoints on the figure above shows automatically and manually created waypoints, where first four were created automatically, and the last one - manually. 
 
@@ -327,7 +329,7 @@ On the map, a waypoint and an audio/video/photo note can be visible, or not. It 
 | Only notes | Recording layer | 
 | None | Neither Tracks, not Recording layer. |
 
->**NOTE**: When neither Tracks, not Recording layer is toggled on, both waypoints and notes can be shown by tapping them in My Places. In this case, the map shows the locations of the tapped note, or respectively, the locations of all waypoints of the tapped track. 
+>**NOTE**: When neither Tracks, nor Recording layer is toggled on, both waypoints and notes can be shown by tapping them in My Places. In this case, the map shows the locations of the tapped note, or respectively, the locations of all waypoints of the tapped track. 
 
 ### GPX file with waypoints
 
