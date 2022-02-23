@@ -51,7 +51,7 @@ With the profiles configured individually, it is possible to configure and prepa
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Set Winter and Ski map style
+### Set Winter style
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -85,7 +85,7 @@ For switch on [Winter and ski map style](/osmand/map/vector-maps#winter-and-ski)
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Combine with contours and/or hillshade
+### Combine maps
 
 
 
@@ -96,7 +96,13 @@ For switch on [Winter and ski map style](/osmand/map/vector-maps#winter-and-ski)
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Piste type and complexity
+### Piste complexity
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### Piste type 
 
 
 
