@@ -61,7 +61,7 @@ The following setup makes OsmAnd Ski Map show up on the screen:
 
 {% default %}
 
-Enabling the Ski map plugin is a quick way to setup OsmAnd Ski Map. The plugin can add the default profile for skiing. If it has not been used yet, the default Skiing profile has the Ski navigation and the Winter and ski map style already enabled. Otherwise, the profile would remember the settings of the latest use. 
+Enabling the Ski map plugin is a quick way to setup OsmAnd Ski Map. The plugin can add the default profile for skiing. If it has not been used yet, the default Skiing profile has the Ski navigation and the Winter and ski map style already established for it. Otherwise, the profile would remember the settings of the latest use. 
 
 To enable the Ski Map plugin, do the following:
 
@@ -69,7 +69,7 @@ To enable the Ski Map plugin, do the following:
 
 2. Find the Ski map plugin, and tap it. 
 
-3. If needed, leave the Ski profile option toggled-on in the opened popup window, so that together with the plugin to enable the Ski profile. 
+3. If needed, leave the Ski profile option toggled-on in the opened popup window, so that together with the plugin to enable the Skiing profile. 
 
 ![Ski maps plugin Android](/assets/images/plugins/ski-maps/plugin_ski_maps_android.png) ![Ski maps plugin iOS](/assets/images/plugins/ski-maps/plugin_ski_maps_ios.png)
 
@@ -77,21 +77,33 @@ To enable the Ski Map plugin, do the following:
 
 {% ios%}
 
-The **{% data variables.ios-values.product_title_skimap %}** plugin can  be enabled together with the **{% data variables.ios-values.app_mode_skiing %}** profile, which on the first use, has the Ski navigation and the Winter and Ski map stype established for it. To enable the plugin, tap it in the list of plugins, opened as follows, and select if to enable the **{% data variables.ios-values.app_mode_skiing %}** profile: 
+The **{% data variables.ios-values.product_title_skimap %}** plugin can  be enabled together with the **{% data variables.ios-values.app_mode_skiing %}** profile, which on the first use, has the Ski navigation and the Winter and ski map style established for it. 
+
+To enable the **{% data variables.ios-values.product_title_skimap %}** plugin, tap it in the list of plugins opened, as follows: 
 
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.plugins %} → {% data variables.ios-values.product_title_skimap %}
 
-![Ski maps plugin iOS](/assets/images/plugins/ski-maps/plugin_ski_maps_ios.png) ![Enabling Ski profile with plugin in iOS](/assets/images/plugins/ski-maps/ios_profile_in_ski_plugin.png)
+![Ski maps plugin iOS](/assets/images/plugins/ski-maps/plugin_ski_maps_ios.png)
+
+If the **{% data variables.ios-values.app_mode_skiing %}** profile is needed, leave the respective option toggled on in the opened popup window and tap **OK**. Otherwise, tap Turn off, and the plugin will be enabled without adding the profile. 
+
+![Enabling Ski profile with plugin in iOS](/assets/images/plugins/ski-maps/ios_profile_in_ski_plugin.png)
 
 {% endios%}
 
 {% android%}
 
-The **{% data variables.android-values.plugin_ski_name %}** plugin can  be enabled together with the **{% data variables.android-values.app_mode_skiing %}** profile, which on the first use, has the Ski navigation and the Winter and Ski map style established for it. To enable the plugin, tap it in the list of plugins, opened as follows, and select if to enable the **{% data variables.android-values.app_mode_skiing %}** profile:
+The **{% data variables.android-values.plugin_ski_name %}** plugin can  be enabled together with the **{% data variables.android-values.app_mode_skiing %}** profile, which on the first use, has the Ski navigation and the Winter and ski map style established for it. 
+
+To enable the **{% data variables.android-values.plugin_ski_name %}** plugin, tap it in the list of plugins opened, as follows:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.plugins_menu_group: %} → {% data variables.android-values.plugin_ski_name %}
 
-![Ski maps plugin Android](/assets/images/plugins/ski-maps/plugin_ski_maps_android.png) ![Enabling Ski profile with plugin in Android](/assets/images/plugins/ski-maps/and_profile_in_ski_plugin.png)
+![Ski maps plugin Android](/assets/images/plugins/ski-maps/plugin_ski_maps_android.png) 
+
+ If the **{% data variables.android-values.app_mode_skiing %}** profile is needed, leave the respective option toggled on in the opened popup window and tap **OK**. Otherwise, tap Turn off, and the plugin will be enabled without adding the profile. 
+
+![Enabling Ski profile with plugin in Android](/assets/images/plugins/ski-maps/and_profile_in_ski_plugin.png)
 
 {% endandroid%}
 
