@@ -16,7 +16,7 @@ The [Piste Maps](https://wiki.openstreetmap.org/wiki/Piste_Maps) of [OpenStreetM
 
 OsmAnd Ski Map is delivered as part of the default vector maps, and does not require any extra downloading. However, it is disabled by default. The plugin allows you quickly and easily to enable OsmAnd Ski Map and use it. OsmAnd Ski Map is one of the [Map Styles](/osmand/map/vector-maps) that provide extra capabilities by highlighting some objects, while making other less viable. 
 
-With the profiles configured individually, it is possible to configure and prepare one specifically for skiing by highlighting an assorted amount of winter and ski related information on the map. 
+With the profiles configured individually, it is possible to prepare a Skiing profile specifically for skiing. It will highlight an assorted amount of winter and ski related information on the map. Below are two profiles: the left-hand one is for skiing, the other one is for driving, where the profile for skiing highlight pistes, aerial ways, winter colors, etc. 
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -77,7 +77,7 @@ To enable the Ski Map plugin, do the following:
 
 {% ios%}
 
-The **{% data variables.ios-values.product_title_skimap %}** plugin can  be enabled together with the **{% data variables.ios-values.app_mode_skiing %}** profile, which on the first use, has the Ski navigation and the Winter and ski map style established for it. 
+The **{% data variables.ios-values.product_title_skimap %}** plugin can  be enabled together with the **{% data variables.ios-values.app_mode_skiing %}** profile, which on the first use, has the Ski navigation and the [Winter and ski map style](/osmand/map/vector-maps#winter-and-ski) established for it. 
 
 To enable the **{% data variables.ios-values.product_title_skimap %}** plugin, tap it in the list of plugins opened, as follows: 
 
@@ -93,7 +93,7 @@ If the **{% data variables.ios-values.app_mode_skiing %}** profile is needed, le
 
 {% android%}
 
-The **{% data variables.android-values.plugin_ski_name %}** plugin can  be enabled together with the **{% data variables.android-values.app_mode_skiing %}** profile, which on the first use, has the Ski navigation and the Winter and ski map style established for it. 
+The **{% data variables.android-values.plugin_ski_name %}** plugin can  be enabled together with the **{% data variables.android-values.app_mode_skiing %}** profile, which on the first use, has the Ski navigation and the [Winter and ski map style](/osmand/map/vector-maps#winter-and-ski) established for it. 
 
 To enable the **{% data variables.android-values.plugin_ski_name %}** plugin, tap it in the list of plugins opened, as follows:
 
@@ -116,25 +116,23 @@ To enable the **{% data variables.android-values.plugin_ski_name %}** plugin, ta
 
 {% default %}
 
-First, you need to go to Plugins menu - Ski map view and select Enable.  Then use the 'Configure map - Map style' menu to switch the winter and ski style on. After that, you can find your desired area on the map and enjoy the info about the ski tracks including their complexity, location and infrastructure around.
 
-For switch on [Winter and ski map style](/osmand/map/vector-maps#winter-and-ski).
 
-{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.map_widget_renderer %} → {% data variables.android-values.winter_and_ski_renderer %} 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_offline %} → {% data variables.android-values.winter_and_ski_renderer %}
-
-![Ski maps plugin map style Android](/assets/images/plugins/ski-maps/plugin_ski_maps_style_android.png) ![Ski maps plugin map style iOS](/assets/images/plugins/ski-maps/plugin_ski_maps_style_ios.png)
 
 {% enddefault %}
 
 {% ios%}
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_offline %} → {% data variables.android-values.winter_and_ski_renderer %}
 
 ![Ski maps plugin map style iOS](/assets/images/plugins/ski-maps/plugin_ski_maps_style_ios.png)
 
 {% endios%}
 
 {% android%}
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.map_widget_renderer %} → {% data variables.android-values.winter_and_ski_renderer %} 
 
 ![Ski maps plugin map style Android](/assets/images/plugins/ski-maps/plugin_ski_maps_style_android.png)
 
