@@ -116,7 +116,7 @@ To enable the **{% data variables.android-values.plugin_ski_name %}** plugin, ta
 
 {% default %}
 
-The Winter and Ski style highlights pistes, ski touring trails, sled paths, etc. - all winter and ski related information. Whenever needed, just enable it for the required profile, as follows: 
+The **Winter and Ski** style highlights pistes, ski touring trails, sled paths, etc. - the winter and ski related information. Whenever needed, just enable it for the required profile, as follows: 
 
 1. Select the required [profile](/osmand/personal/profiles). 
 
@@ -149,13 +149,34 @@ To verify what style is currently established for the profile, and\or to establi
 
 {% endandroid%}
 
->**NOTE**: The Skiing profile is initially created to be used together with the Winter and Ski style, as by default it has the Ski navigation established, which is intended for navigating along the pistes. However, what navigation type to use for every profile can be changed and established individually, and thus, the final configuration of the profile, the map style and the navigation is fully governed by the settings of a particular user.
+>**NOTE**: The Skiing profile is initially created to be used together with the Winter and Ski style, as by default the Skiing profile is expected to have the Ski navigation established, which is intended for navigating along the pistes. However, what navigation type to use for every specific profile can be changed, and established individually, and thus, the final configuration of the profile, the map style and the navigation is fully governed by the settings made by the user.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 ### Combine maps
 
+The default [vector map](/osmand/map/vector-maps) with the enabled [Winter and Ski map style](/osmand/map/vector-maps#winter-and-ski) can be added with the [Contour lines](/osmand/plugins/contour-lines#show-contour-linesterrain) and\or [Hillshade](/osmand/plugins/contour-lines#hillshade-map) maps. Below are two examples. The left-hand figure shows pistes on the default vector map, while the one on the right shows pistes on the default vector map combined with the contour lines and the hillshade rastor map. In the second case, the map unveils more geolocation insights and elevation data to assess the complexity, risks, distance, etc. 
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![No map combination in Android](/assets/images/plugins/ski-maps/and_no_contour_hillshade.png) ![With map combination in Android](/assets/images/plugins/ski-maps/and_yes_contour_hillshade.png)
+
+{% enddefault %}
+
+{% ios%}
+
+![No map combination in iOS](/assets/images/plugins/ski-maps/ios_no_contours_hillshade.png) ![With map combination in iOS](/assets/images/plugins/ski-maps/ios_yes_contours_hillshade.png)
+
+{% endios%}
+
+{% android%}
+
+![No map combination in Android](/assets/images/plugins/ski-maps/and_no_contour_hillshade.png) ![With map combination in Android](/assets/images/plugins/ski-maps/and_yes_contour_hillshade.png)
+
+{% endandroid%}
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
