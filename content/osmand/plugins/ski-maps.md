@@ -156,7 +156,7 @@ To verify what style is currently established for the profile, and\or to establi
 
 ### Combine maps
 
-The default [vector map](/osmand/map/vector-maps) with the enabled [Winter and Ski map style](/osmand/map/vector-maps#winter-and-ski) can be added with the [Contour lines](/osmand/plugins/contour-lines#show-contour-linesterrain) and\or [Hillshade](/osmand/plugins/contour-lines#hillshade-map) maps. Below are two examples. The left-hand figure shows pistes on the default vector map, while the one on the right shows pistes on the default vector map combined with the contour lines and the hillshade rastor map. In the second case, the map unveils more geolocation insights and elevation data to assess the complexity, risks, distance, etc. 
+The default [vector map](/osmand/map/vector-maps) with the enabled [Winter and Ski map style](/osmand/map/vector-maps#winter-and-ski) can be added with the [Contour lines](/osmand/plugins/contour-lines#show-contour-linesterrain) and\or [Hillshade](/osmand/plugins/contour-lines#hillshade-map) maps. Below are two examples. The left-hand figure shows pistes on the default vector map, while the one on the right shows pistes on the default vector map combined with the contour lines and the hillshade raster map. In the second case, the map unveils more geolocation insights and elevation data to assess the complexity, risks, distance, etc. 
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -183,16 +183,28 @@ The default [vector map](/osmand/map/vector-maps) with the enabled [Winter and S
 
 ## Ski map options
 
+While reading the map, it is possible to get other accompanying details, like: the complexity of a specific piste, the type of the trail, if any grooming is conducted, if the path is lightened in the night, or other characteristics that might be helpful to skiing and snowboarding enthusiasts.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+### Piste difficulty
 
-### Piste complexity
+Being aware of the difficulty of a specific piste makes sense for alpine/downhill skiers, and also anybody who is visiting a ski resort,or area, so that to get straight to the point, and/or turn in the right direction. The difficulty of a piste is displayed with colors. Colors might differ in different resorts as well as in different countries. Below is some hands-on reference. 
 
+| Color | Description | 
+| --- | --- |
+| ![Beginner piste](/assets/images/plugins/ski-maps/1c_green_1.png) | Beginner piste |
+| ![ Easy hills](/assets/images/plugins/ski-maps/2c_blue_1.png) | Easy hills | 
+| ![Intermediate slopes](/assets/images/plugins/ski-maps/3c_red_1.png) | Intermediate slopes | 
+| ![Advanced difficulty](/assets/images/plugins/ski-maps/4c_black_1.png) | Slopes of advanced difficulty |
+| ![Expert difficulty](/assets/images/plugins/ski-maps/5c_yellow_1.png) | Slopes of expert difficulty | 
+
+>**NOTE**: For more specific guidance on each piste difficulty type, see the [OSM Piste Map reference](/https://wiki.openstreetmap.org/wiki/Piste_Maps), and/or any other sources that consider also inclination, the presence of any obstacles and hazards.  
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 ### Piste type 
+
+Piste differ as differ the types of winter related activities: alpine skiing, classic skating, snowboarding, sled riding, backcountry skiing, ski touring, mogul skiing, night skiing, etc. It is possible to differentiate pistes when reading the OsmAnd Ski Map as follows:
 
 
 
