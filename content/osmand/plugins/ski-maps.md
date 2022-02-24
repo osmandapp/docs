@@ -14,9 +14,9 @@ To illustrate skiing location and amenities, most resorts and parks provide thei
 
 The [Piste Maps](https://wiki.openstreetmap.org/wiki/Piste_Maps) of [OpenStreetMap](https://www.openstreetmap.org/#map=16/51.5110/0.0550) is the source of data for OsmAnd Ski Map. Combined with the default vector maps, the Ski Map of OsmAnd preserves its accuracy and benefits from a variety of contributors, like: ski resorts, lift operators, instructors, eager mountaineers, winter sports enthusiasts, etc.
 
-OsmAnd Ski Map is delivered as part of the default vector maps, and does not require any extra downloading. However, it is disabled by default. The plugin allows you quickly and easily to enable OsmAnd Ski Map and use it. OsmAnd Ski Map is one of the [Map Styles](/osmand/map/vector-maps) that provide extra capabilities by highlighting some objects, while making other less viable. 
+OsmAnd Ski Map is delivered as part of the default vector maps, and does not require any extra downloading. However, it is disabled by default. The plugin allows you quickly to enable OsmAnd Ski Map and start to use it. OsmAnd Ski Map is one of the [Map Styles](/osmand/map/vector-maps) that provide extra capabilities by highlighting some objects, while making other less viable. 
 
-With the profiles configured individually, it is possible to prepare a Skiing profile specifically for skiing. It will highlight an assorted amount of winter and ski related information on the map. Below are two profiles: the left-hand one is for skiing, the other one is for driving, where the profile for skiing highlight pistes, aerial ways, winter colors, etc. 
+With the profiles configured individually, it is possible to prepare a Skiing profile specifically for skiing. It will highlight an assorted amount of winter and ski related information on the map. Below are two profiles: the left-hand one is for skiing, the other one is for driving. And the profile for skiing highlights pistes, aerial ways, winter colors, etc. - the map objects useful when navigating through the ski area.
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -61,7 +61,7 @@ The following setup makes OsmAnd Ski Map show up on the screen:
 
 {% default %}
 
-Enabling the Ski map plugin is a quick way to setup OsmAnd Ski Map. The plugin can add the default profile for skiing. If it has not been used yet, the default Skiing profile has the Ski navigation and the Winter and ski map style already established for it. Otherwise, the profile would remember the settings of the latest use. 
+Enabling the Ski map plugin is a quick way to setup OsmAnd Ski Map. The plugin can add the default profile for skiing. If it has not been used yet, the default Skiing profile has the Ski navigation and the [Winter and ski map style](/osmand/map/vector-maps#winter-and-ski) already established for it. Otherwise, the profile would remember the settings of the latest use. 
 
 To enable the Ski Map plugin, do the following:
 
@@ -116,28 +116,40 @@ To enable the **{% data variables.android-values.plugin_ski_name %}** plugin, ta
 
 {% default %}
 
+The Winter and Ski style highlights pistes, ski touring trails, sled paths, etc. - all winter and ski related information. Whenever needed, just enable it for the required profile, as follows: 
+
+1. Select the required [profile](/osmand/personal/profiles). 
+
+2. Open [Configure map](/osmand/map/configure-map-menu).
+
+3. Scroll down up to [Map style](/osmand/map/vector-maps), open it and check the Winter and Ski style. 
 
 
-
+![Enable Winter style in iOS](/assets/images/plugins/ski-maps/ios_map_style_winter.png) ![Enable Winter style in Android](/assets/images/plugins/ski-maps/and_map_styles.png)
 
 {% enddefault %}
 
 {% ios%}
 
+To verify what style is currently established for the profile, and\or to establish the **Winter and ski** style, select the respective option in the list of styles opened, as follows:
+
 {% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_offline %} → {% data variables.android-values.winter_and_ski_renderer %}
 
-![Ski maps plugin map style iOS](/assets/images/plugins/ski-maps/plugin_ski_maps_style_ios.png)
+![Enable Winter style in iOS](/assets/images/plugins/ski-maps/ios_map_style_winter.png) ![Ski maps plugin map style iOS](/assets/images/plugins/ski-maps/plugin_ski_maps_style_ios.png)
 
 {% endios%}
 
 {% android%}
 
+To verify what style is currently established for the profile, and\or to establish the **Winter and ski** style, select the respective option in the list of styles opened, as follows:
+
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.map_widget_renderer %} → {% data variables.android-values.winter_and_ski_renderer %} 
 
-![Ski maps plugin map style Android](/assets/images/plugins/ski-maps/plugin_ski_maps_style_android.png)
+![Enable Winter style in Android](/assets/images/plugins/ski-maps/and_map_styles.png) ![Ski maps plugin map style Android](/assets/images/plugins/ski-maps/plugin_ski_maps_style_android.png)
 
 {% endandroid%}
 
+>**NOTE**: The Skiing profile is initially created to be used together with the Winter and Ski style, as by default it has the Ski navigation established, which is intended for navigating along the pistes. However, what navigation type to use for every profile can be changed and established individually, and thus, the final configuration of the profile, the map style and the navigation is fully governed by the settings of a particular user.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
