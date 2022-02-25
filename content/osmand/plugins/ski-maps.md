@@ -204,11 +204,9 @@ Being aware of the difficulty of a specific piste makes sense for alpine/downhil
 
 ### Piste type 
 
-Pistes differ as differ the types of winter related activities: alpine skiing, classic skating, snowboarding, sled riding, backcountry skiing, ski touring, mogul skiing, night skiing, etc. 
+Pistes differ by type. A type represents different characterstics for a piste to meet the requirements of different winter related activities: alpine skiing, classic skating, snowboarding, sled riding, backcountry skiing, ski touring, mogul skiing, night skiing, etc. Understanding the type of the piste on the map helps in selecting an optimal navigation type.
 
-Understanding the type of the piste on the map helps in selecting the respective type of navigation:
-
-**Downhill/alpine skiing piste** is used for the Ski navigation. This piste type has a direction, difficulty, and most often is surrounded by the boundaries of the ski resort. When a downhill piste is selected for the Ski navigation, the direction of the piste is taken into consideration. And in case if the Departure and the Destination points are established opposite to the direction of the piste, the navigation goes along the nearest aerial way. 
+**Downhill/alpine skiing piste** is used for the Ski navigation. This piste type has a direction, difficulty, and most often it is surrounded by the boundaries of the ski resort. When a downhill piste is selected for the Ski navigation, the direction of the piste is taken into consideration. And in case if the Departure and the Destination points are established opposite to the direction of the piste, the navigation goes along the nearest aerial way. 
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -231,7 +229,9 @@ Understanding the type of the piste on the map helps in selecting the respective
 
 {% endandroid%}
 
-**Nordic/backcountry skiing piste** is also used for the Ski navigation. This piste type can, or cannot have a direction, none of difficulty and most often goes beyond the boundaries of the ski resort. When navigating along this type of pistes, the Departure and Destination points often can successfully be exchanged. 
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+**Nordic/backcountry skiing piste** is also used for the Ski navigation. This piste type has no difficulty; can, or cannot have a direction, and most often it goes beyond the boundaries of the ski resort. When navigating along this type of pistes, the Departure and Destination points often can be exchanged. 
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -253,14 +253,38 @@ Understanding the type of the piste on the map helps in selecting the respective
 
 {% endandroid%}
 
+&nbsp;&nbsp;&nbsp;&nbsp;
 
-**Other** piste types, like: Hiking piste, Ski touring piste, Sleigh and sled piste most often cannot be used for the Ski navigation, however, can be applicable for the On foot navigation, or other. 
+**Other** piste types, like: Hiking piste, Ski touring piste, Sleigh and sled piste can, or most often cannot be used for the Ski navigation, however, they may be applicable for the On foot navigation, or other. 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 ### Piste grooming
 
+Grooming is performed by special vehicles and ensure the piste is ready for the respective type of activities. If the map shows that a piste is subject to grooming, at least, somebody takes care of it, and at most, it perfectly suites the conditions of skiing.  
+
+To view if there is some information about grooming on the map, it is possible to enable the option in the Details list opened from the Configure map menu. 
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![No grooming in Android](/assets/images/plugins/ski-maps/and_no_grooming.png) ![Grooming displayed in Android](/assets/images/plugins/ski-maps/and_yes_grooming.png)
+
+{% enddefault %}
+
+{% ios%}
+
+
+
+{% endios%}
+
+{% android%}
+
+![Enable grooming in Android](/assets/images/plugins/ski-maps/and_enable_grooming.png) [Grooming displayed in Android](/assets/images/plugins/ski-maps/and_yes_grooming.png)
+
+{% endandroid%}
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
