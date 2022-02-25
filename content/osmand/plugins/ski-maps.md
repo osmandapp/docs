@@ -204,8 +204,57 @@ Being aware of the difficulty of a specific piste makes sense for alpine/downhil
 
 ### Piste type 
 
-Piste differ as differ the types of winter related activities: alpine skiing, classic skating, snowboarding, sled riding, backcountry skiing, ski touring, mogul skiing, night skiing, etc. It is possible to differentiate pistes when reading the OsmAnd Ski Map as follows:
+Pistes differ as differ the types of winter related activities: alpine skiing, classic skating, snowboarding, sled riding, backcountry skiing, ski touring, mogul skiing, night skiing, etc. 
 
+Understanding the type of the piste on the map helps in selecting the respective type of navigation:
+
+**Downhill/alpine skiing piste** is used for the Ski navigation. This piste type has a direction, difficulty, and most often is surrounded by the boundaries of the ski resort. When a downhill piste is selected for the Ski navigation, the direction of the piste is taken into consideration. And in case if the Departure and the Destination points are established opposite to the direction of the piste, the navigation goes along the nearest aerial way. 
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Downhill piste type in Android](/assets/images/plugins/ski-maps/and_downhill_piste_type.png)
+
+{% enddefault %}
+
+{% ios%}
+
+
+
+{% endios%}
+
+{% android%}
+
+![Downhill piste type in Android](/assets/images/plugins/ski-maps/and_downhill_piste_type.png)
+
+
+{% endandroid%}
+
+**Nordic/backcountry skiing piste** is also used for the Ski navigation. This piste type can, or cannot have a direction, none of difficulty and most often goes beyond the boundaries of the ski resort. When navigating along this type of pistes, the Departure and Destination points often can successfully be exchanged. 
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Nordic piste type in Android](/assets/images/plugins/ski-maps/and_nordic_piste_type.png)
+
+{% enddefault %}
+
+{% ios%}
+
+
+
+{% endios%}
+
+{% android%}
+
+![Nordic piste type in Android](/assets/images/plugins/ski-maps/and_nordic_piste_type.png)
+
+{% endandroid%}
+
+
+**Other** piste types, like: Hiking piste, Ski touring piste, Sleigh and sled piste most often cannot be used for the Ski navigation, however, can be applicable for the On foot navigation, or other. 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
