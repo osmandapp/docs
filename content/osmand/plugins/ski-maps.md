@@ -282,7 +282,7 @@ To view if there is some information about grooming on the map, it is possible t
 
 {% android%}
 
-![Enable grooming in Android](/assets/images/plugins/ski-maps/and_enable_grooming.png) [Grooming displayed in Android](/assets/images/plugins/ski-maps/and_yes_grooming.png)
+![Enable grooming in Android](/assets/images/plugins/ski-maps/and_enable_grooming.png) ![Grooming displayed in Android](/assets/images/plugins/ski-maps/and_yes_grooming.png)
 
 {% endandroid%}
 
