@@ -25,7 +25,7 @@ OpenPlaceReviews plugin allows you to make contributions to [OpenPlaceReviews pr
 
 
 Next settings:
-- {% data variables.android-values.login_account %} - insert your [login for OpenPlaceReviews}](https://openplacereviews.org/login) project.
+- {% data variables.android-values.login_account %} - insert your [login for OpenPlaceReviews](https://openplacereviews.org/login) project.
 - {% data variables.android-values.opr_use_dev_url %} - allows to use test profile for [OpenPlaceReviews project](https://openplacereviews.org/).
 
 ## How to use
