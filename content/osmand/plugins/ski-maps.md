@@ -262,7 +262,7 @@ Pistes differ by type. A type represents different characterstics for a piste to
 
 ### Piste grooming
 
-Grooming is performed by special vehicles and ensure the piste is ready for the respective type of activities. If the map shows that a piste is subject to grooming, at least, somebody takes care of it, and at most, it perfectly suites the conditions of skiing.  
+Grooming is performed by special vehicles and ensure the piste is ready for the respective type of activities. If the map shows that a piste is subject to grooming, at least, somebody takes care of it, and at most, it perfectly suites the conditions of skiing. Grooming is assumed to be done by default for the pistes which are surrounded with the boundaries of a ski resort. If the pistes are outside such boundaries, and pictured being groomed, it is a good sign for those going out for skiing.    
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -300,13 +300,39 @@ To check out the map on whether a piste is subject to grooming, use the **{% dat
 
 ### Ski slope routes
 
-For [Winter and ski map style](/osmand/map/vector-maps#winter-and-ski) user can switch on [Ski slopes](/osmand/map/vector-maps#routes) routes.
+With the Skiing profile, the Ski navigation and the [Winter and ski map style](/osmand/map/vector-maps#winter-and-ski) enabled, the [Ski slopes](/osmand/map/vector-maps#routes) routes show all types of pistes that the Ski navigation can use to build navigation routes along. Such Ski slopes routes, if enabled, are outlined with the pink color mostly outside ski resort boundaries.
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+The **Routes** panel in the [Configure map](/osmand/map/configure-map-menu) menu, opened for a specific profile, shows the **Ski slopes** routes among other availble routes in the app. To view the Ski slopes routes, enable the respective option. 
+
+![Enabling routes in iOS](/assets/images/plugins/ski-maps/ios_enable_routes.png) ![Routes enabled in Android](/assets/images/plugins/ski-maps/and_yes_routes.png)
+
+{% enddefault %}
+
+{% ios%}
+
+To view what piste outside the ski resort is possible to navigate along, enable the **{% data variables.ios-values.rendering_attr_pisteRoutes_name %}** option in the **{% data variables.ios-values.rendering_category_routes %}** list, opened for the required profile as follows: 
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.rendering_category_routes %} → {% data variables.ios-values.rendering_attr_pisteRoutes_name %}
+
+![Routes disabled in iOS](/assets/images/plugins/ski-maps/ios_no_routes.png) ![Routes enabled in iOS](/assets/images/plugins/ski-maps/ios_yes_routes.png)
+
+{% endios%}
+
+{% android%}
+
+To view what piste outside the ski resort is possible to navigate along, enable the **{% data variables.android-values.rendering_attr_pisteRoutes_name %}** option in the **{% data variables.android-values.rendering_category_routes %}** list, opened for the required profile as follows:
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_category_routes %} → {% data variables.android-values.rendering_attr_pisteRoutes_name %} 
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_routes %} → {% data variables.ios-values.rendering_attr_pisteRoutes_name %}
+![Routes disabled in Android](/assets/images/plugins/ski-maps/and_no_routes.png) ![Routes enabled in Android](/assets/images/plugins/ski-maps/and_yes_routes.png) 
 
-![Map routes - ski slopes](/assets/images/map/map-routes-ski-slopes.png)
+{% endandroid%}
+
+
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
