@@ -306,7 +306,7 @@ With the Skiing profile, the Ski navigation and the [Winter and ski map style](/
 
 {% default %}
 
-The **Routes** panel in the [Configure map](/osmand/map/configure-map-menu) menu, opened for a specific profile, shows the **Ski slopes** routes among other availble routes in the app. To view the Ski slopes routes, enable the respective option. 
+The **Routes** panel in the [Configure map](/osmand/map/configure-map-menu) menu, opened for a specific profile, shows the **Ski slopes** routes among other availble options in the app. To view the Ski slopes routes, enable the respective option. 
 
 ![Enabling routes in iOS](/assets/images/plugins/ski-maps/ios_enable_routes.png) ![Routes enabled in Android](/assets/images/plugins/ski-maps/and_yes_routes.png)
 
@@ -337,13 +337,30 @@ To view what piste outside the ski resort is possible to navigate along, enable 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Night skiing 
+### Night and lightening
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+
+![No lightening at night in Android](/assets/images/plugins/ski-maps/and_no_lightening.png) ![Night and lightening in Android](/assets/images/plugins/ski-maps/and_yes_lightening.png)
+
+{% enddefault %}
+
+{% ios%}
 
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+{% endios%}
 
-### Street lightening 
+{% android%}
+
+
+
+{% endandroid%}
+
+
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
