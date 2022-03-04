@@ -212,13 +212,13 @@ Pistes differ by type. A type represents different characterstics for a piste to
 
 {% default %}
 
-![Downhill piste type in Android](/assets/images/plugins/ski-maps/and_downhill_piste_type.png)
+![Downhill piste type in iOS](/assets/images/plugins/ski-maps/ios_downhill_piste.png) ![Downhill piste type in Android](/assets/images/plugins/ski-maps/and_downhill_piste_type.png)
 
 {% enddefault %}
 
 {% ios%}
 
-
+![Downhill piste type in iOS](/assets/images/plugins/ski-maps/ios_downhill_piste.png)
 
 {% endios%}
 
@@ -237,13 +237,13 @@ Pistes differ by type. A type represents different characterstics for a piste to
 
 {% default %}
 
-![Nordic piste type in Android](/assets/images/plugins/ski-maps/and_nordic_piste_type.png)
+![Nordic piste type in iOS](/assets/images/plugins/ski-maps/ios_nordic_piste.png) ![Nordic piste type in Android](/assets/images/plugins/ski-maps/and_nordic_piste_type.png)
 
 {% enddefault %}
 
 {% ios%}
 
-
+![Nordic piste type in iOS](/assets/images/plugins/ski-maps/ios_nordic_piste.png)
 
 {% endios%}
 
@@ -264,23 +264,32 @@ Pistes differ by type. A type represents different characterstics for a piste to
 
 Grooming is performed by special vehicles and ensure the piste is ready for the respective type of activities. If the map shows that a piste is subject to grooming, at least, somebody takes care of it, and at most, it perfectly suites the conditions of skiing.  
 
-To view if there is some information about grooming on the map, it is possible to enable the option in the Details list opened from the Configure map menu. 
-
 {% data reusables.general.android-ios-switcher %}
 
 {% default %}
 
-![No grooming in Android](/assets/images/plugins/ski-maps/and_no_grooming.png) ![Grooming displayed in Android](/assets/images/plugins/ski-maps/and_yes_grooming.png)
+To check out the map on whether a piste is subject to grooming, it is needed to enable the respective option in the **Details** list opened from the [Configure map](/osmand/map/configure-map-menu) menu. And the map will show groomed pistes, as exemplified on the figures below. The left-hand one shows no grooming, while the right-hand one differentiates pistes by grooming conditions. 
+
+![No grooming in iOS](/assets/images/plugins/ski-maps/ios_no_grooming.png) ![Grooming displayed in Android](/assets/images/plugins/ski-maps/and_yes_grooming.png)
 
 {% enddefault %}
 
 {% ios%}
 
+To check out the map on whether a piste is subject to grooming, use the **{% data variables.ios-values.rendering_attr_pisteGrooming_name %}** option. It makes the map show which pistes are groomed. To enable the option, select the profile and open the **{% data variables.ios-values.rendering_category_details %}** list, as follows: 
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.rendering_category_details %} → {% data variables.ios-values.rendering_attr_pisteGrooming_name %}
+
+![Enable grooming in iOS](/assets/images/plugins/ski-maps/ios_details_grooming.png) ![Grooming displayed in iOS](/assets/images/plugins/ski-maps/ios_grooming_enabled.png)
 
 
 {% endios%}
 
 {% android%}
+
+To check out the map on whether a piste is subject to grooming, use the **{% data variables.android-values.rendering_attr_pisteGrooming_name %}** option. It makes the map show which pistes are groomed. To enable the option, select the profile and open the **{% data variables.android-values.rendering_category_details %}** list, as follows: 
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.rendering_category_details %} → {% data variables.android-values.rendering_attr_pisteGrooming_name %} 
 
 ![Enable grooming in Android](/assets/images/plugins/ski-maps/and_enable_grooming.png) ![Grooming displayed in Android](/assets/images/plugins/ski-maps/and_yes_grooming.png)
 
