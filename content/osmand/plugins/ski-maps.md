@@ -133,7 +133,7 @@ The **Winter and Ski** style highlights pistes, ski touring trails, sled paths, 
 
 To verify what style is currently established for the profile, and\or to establish the **Winter and ski** style, select the respective option in the list of styles opened, as follows:
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_offline %} → {% data variables.android-values.winter_and_ski_renderer %}
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_type %} → {% data variables.ios-values.map_settings_offline %} → {% data variables.android-values.winter_and_ski_renderer %}
 
 ![Enable Winter style in iOS](/assets/images/plugins/ski-maps/ios_map_style_winter.png) ![Ski maps plugin map style iOS](/assets/images/plugins/ski-maps/plugin_ski_maps_style_ios.png)
 
@@ -337,26 +337,49 @@ To view what piste outside the ski resort is possible to navigate along, enable 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Night and lightening
+### Night mode and lightening
 
 {% data reusables.general.android-ios-switcher %}
 
 {% default %}
 
+The **Winter and ski** style can be used with the [**Night**](/osmand/map/vector-maps#map-mode) mode. It can be an obvious choice for someone who prefers dark colors on the device screen when it gets closer to the sunset, as well as for those who does often night skiing. Together with the Night mode, OsmAnd Ski Maps can show which of the pistes outside the ski resort can be [lightened up in the night](/osmand/map/vector-maps#details). 
 
-![No lightening at night in Android](/assets/images/plugins/ski-maps/and_no_lightening.png) ![Night and lightening in Android](/assets/images/plugins/ski-maps/and_yes_lightening.png)
+Both options are provided with the [Configure map](/osmand/map/configure-map-menu) menu. To enable the Night mode, look for the respective option within the **Map mode** section of settings. To make the map show which pistes are lightened up in the night, enable the respective option in the **Details** section of settings. 
+
+![No lightening in iOS](/assets/images/plugins/ski-maps/ios_no_lightening.png) ![Night and lightening in Android](/assets/images/plugins/ski-maps/and_yes_lightening.png)
 
 {% enddefault %}
 
 {% ios%}
 
+The **Night** mode and **Street lightening** can help during night skiing. Both options are available within the [Configure map](/osmand/map/configure-map-menu) menu opened for the needed profile.  
 
+To enable the **Night** mode, select the respective option from the following list:
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.map_mode %}
+
+To enable the **Street lightening**, toggle the following option:
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.configure_map %} → {% data variables.ios-values.res_details %} → {% data variables.ios-values.rendering_attr_streetLighting_name %}
+
+![Enabling Night mode and Lightening in iOS](/assets/images/plugins/ski-maps/ios_night_lightening1.png) ![Night and Lightening in iOS](/assets/images/plugins/ski-maps/ios_yes_lightening.png)
 
 {% endios%}
 
 {% android%}
 
+The **Night** mode and **Street lightening** can help during night skiing. Both options are available within the [Configure map](/osmand/map/configure-map-menu) menu opened for the needed profile.  
 
+To enable the **Night** mode, select the respective option from the following list: 
+
+{% data variables.product.android_button_seq %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_mode %}
+
+To enable the **Street lightening**, toggle the following option: 
+
+{% data variables.product.android_button_seq %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_category_details %} → {% data variables.android-values.rendering_attr_streetLighting_name %}
+
+![Enable Night mode and Lightening in Android](/assets/images/plugins/ski-maps/and_night_and_lightening1.png) ![Night and lightening in Android](/assets/images/plugins/ski-maps/and_yes_lightening.png)
 
 {% endandroid%}
 
