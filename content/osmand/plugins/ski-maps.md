@@ -183,7 +183,10 @@ The default [vector map](/osmand/map/vector-maps) with the enabled [Winter and S
 
 ## Ski map options
 
-While reading the map, it is possible to get other accompanying details, like: the complexity of a specific piste, the type of the trail, if any grooming is conducted, if the path is lightened in the night, or other characteristics that might be helpful to skiing and snowboarding enthusiasts.  
+While reading the map, it is possible to get other accompanying details, like: the complexity of a specific piste, the type of the trail, if any grooming is conducted, if the path is lightened in the night, or other characteristics that might be helpful to skiing and snowboarding enthusiasts. 
+
+> **NOTE**: The options covered herein, are worth considering also when [navigating through the ski area](/osmand/navigation/route-navigation). The [Ski profile](/osmand/personal/profiles) by default is set up with the **Ski navigation type**. It is supplied with individual route parameters applicable only to skiing. The Ski navigation type builds the route along pistes. 
+
 
 ### Piste difficulty
 
@@ -438,12 +441,3 @@ To remove the **Winter and ski** style, uncheck the option for the needed profil
 {% endandroid%}
 
 >**NOTE**: Disabling the Skiing profile is also an option to consider, if  the Winter and ski style gets disabled together with the profile. 
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-## Ski navigation
-
-You need [to enable Ski-maps plugin](/osmand/plugins/ski-maps#enable--disable-plugin) and to choose Ski profile for routing by ski slopes.
-
-[Navigation link](/osmand/navigation/route-navigation)
