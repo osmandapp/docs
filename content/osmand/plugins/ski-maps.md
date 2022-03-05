@@ -337,7 +337,7 @@ To view what piste outside the ski resort is possible to navigate along, enable 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Night mode and lightening
+### Night and lightening
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -357,11 +357,11 @@ The **Night** mode and **Street lightening** can help during night skiing. Both 
 
 To enable the **Night** mode, select the respective option from the following list:
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.map_mode %}
+{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.map_mode %}
 
 To enable the **Street lightening**, toggle the following option:
 
-{% data variables.product.ios_button_seq %} {% data variables.ios-values.configure_map %} → {% data variables.ios-values.res_details %} → {% data variables.ios-values.rendering_attr_streetLighting_name %}
+{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.res_details %} → {% data variables.ios-values.rendering_attr_streetLighting_name %}
 
 ![Enabling Night mode and Lightening in iOS](/assets/images/plugins/ski-maps/ios_night_lightening1.png) ![Night and Lightening in iOS](/assets/images/plugins/ski-maps/ios_yes_lightening.png)
 
@@ -373,11 +373,11 @@ The **Night** mode and **Street lightening** can help during night skiing. Both 
 
 To enable the **Night** mode, select the respective option from the following list: 
 
-{% data variables.product.android_button_seq %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_mode %}
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_mode %}
 
 To enable the **Street lightening**, toggle the following option: 
 
-{% data variables.product.android_button_seq %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_category_details %} → {% data variables.android-values.rendering_attr_streetLighting_name %}
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_category_details %} → {% data variables.android-values.rendering_attr_streetLighting_name %}
 
 ![Enable Night mode and Lightening in Android](/assets/images/plugins/ski-maps/and_night_and_lightening1.png) ![Night and lightening in Android](/assets/images/plugins/ski-maps/and_yes_lightening.png)
 
@@ -385,21 +385,59 @@ To enable the **Street lightening**, toggle the following option:
 
 
 
-
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 ### Map legend
 
-Map legend of Ski map you can find  [here](https://osmand.net/help-online/map-legend#nautical).
+For any reference, use the [Ski map legend](https://osmand.net/help-online/map-legend#ski). It helps to be certain of the types of piste displayed on the map, as well as the types of aerial ways and other characteristics that can be read from the map.  
 
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+### Map data details
+
+OsmAnd Ski Map is built as one of the rendering styles that determine what objects to show on the map and the objects' appearance. All rendering styles are described within an XML file. For the rules that govern the internal structure of the XML file, refer to the [Rendering documentation](/development/osmand-file-formats/osmand-rendering-style).
+
+For the details on what data OsmAnd Ski Map shows, refer to the [Rendering.xml](https://github.com/osmandapp/OsmAnd-resources/blob/master/rendering_styles/skimap.render.xml) file.
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 ### Remove Ski
 
+{% data reusables.general.android-ios-switcher %}
 
+{% default %}
 
+Whenever removing pistes and winter colors from the map is preferable, and/or the ski season is over, or anything, do any of the following: 
+
+- uncheck the [Winter and ski style](/osmand/map/vector-maps) for the needed profile, and/or
+
+- disable the Skiing [profile](/osmand/personal/profiles). 
+
+{% enddefault %}
+
+{% ios%}
+
+To remove the **Winter and ski** style, uncheck the option for the needed profile, as follows:
+
+{% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_type %} → {% data variables.ios-values.map_settings_offline %} → {% data variables.android-values.winter_and_ski_renderer %}
+
+![Enable Winter style in iOS](/assets/images/plugins/ski-maps/ios_map_style_winter.png) 
+
+{% endios%}
+
+{% android%}
+
+To remove the **Winter and ski** style, uncheck the option for the needed profile, as follows:
+
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_widget_map_rendering %} → {% data variables.android-values.map_widget_renderer %} → {% data variables.android-values.winter_and_ski_renderer %} 
+
+![Enable Winter style in Android](/assets/images/plugins/ski-maps/and_map_styles.png) 
+
+{% endandroid%}
+
+>**NOTE**: Disabling the Skiing profile is also an option to consider, if  the Winter and ski style gets disabled together with the profile. 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -409,15 +447,3 @@ Map legend of Ski map you can find  [here](https://osmand.net/help-online/map-le
 You need [to enable Ski-maps plugin](/osmand/plugins/ski-maps#enable--disable-plugin) and to choose Ski profile for routing by ski slopes.
 
 [Navigation link](/osmand/navigation/route-navigation)
-
-
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-## Ski Map data details
-
-OsmAnd [Rendering.xml](https://github.com/osmandapp/OsmAnd-resources/blob/master/rendering_styles/skimap.render.xml) file.
-
-[Rendering documentation](/development/osmand-file-formats/osmand-rendering-style) for Winter and ski map.
-
