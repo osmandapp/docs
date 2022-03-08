@@ -43,7 +43,7 @@ You can add in-app purchases to [the Family Sharing - Apple](https://support.app
 
 Here is detailed information about all in apps with prices for US / Europe region. For other regions, prices are equivalent in local currencies.
 
-|  Purchase  | Description   | Price |
+|  Purchase  | Description   | Price* |
 | :------------- | :------------- | :------------- |
 | {% data variables.ios-values.product_title_sea_depth_contours %} | {% data variables.ios-values.product_desc_sea_depth_contours %} | 2.29€ / 1.99$   |
 | {% data variables.ios-values.product_title_wiki %} | Offline Wikipedia articles on the map | 0€ / 0$  |
@@ -58,6 +58,8 @@ Here is detailed information about all in apps with prices for US / Europe regio
 | {% data variables.ios-values.product_title_centralamerica %} | {% data variables.ios-values.product_desc_centralamerica %} | 2.99€ / 2.99$  |
 | {% data variables.ios-values.product_title_northamerica %} | {% data variables.ios-values.product_desc_northamerica %} | 6.99€  / 5.99$ |
 | {% data variables.ios-values.product_title_southamerica %} | {% data variables.ios-values.product_desc_southamerica %} | 3.99€ / 3.99$ |
+
+[*Prices can be differents for world regions.](https://appstoreconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app/934850257/pricingMatrix/nonConsumable/1001979425)
 
 ## Subscription
 **OsmAnd Live** subscription includes all features could be bought via in apps + quick map updates (up to 1 hour vs normal once a month).
