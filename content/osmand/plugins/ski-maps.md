@@ -12,7 +12,7 @@ versions: '*'
 
 To illustrate skiing location and amenities, most resorts and parks provide their piste map/trail map. OsmAnd Ski Map shows known/popular ski touring trails, officially approved ski areas and piste maps of most ski resorts on the northern and southern hemispheres, in Europe, Scandinavia, central Asia, Japan, North America, and other. 
 
-The [Piste Maps](https://wiki.openstreetmap.org/wiki/Piste_Maps) of [OpenStreetMap](https://www.openstreetmap.org/#map=16/51.5110/0.0550) is the source of data for OsmAnd Ski Map. Combined with the default vector maps, the Ski Map of OsmAnd preserves its accuracy and benefits from a variety of contributors, like: ski resorts, lift operators, instructors, eager mountaineers, winter sports enthusiasts, etc.
+The Piste Maps of [OpenStreetMap](https://www.openstreetmap.org/#map=16/51.5110/0.0550) is the source of data for OsmAnd Ski Map. Combined with the default vector maps, the Ski Map of OsmAnd preserves its accuracy and benefits from a variety of contributors, like: ski resorts, lift operators, instructors, eager mountaineers, winter sports enthusiasts, etc.
 
 OsmAnd Ski Map is delivered as part of the default vector maps, and does not require any extra downloading. However, it is disabled by default. The plugin allows you quickly to enable OsmAnd Ski Map and start to use it. OsmAnd Ski Map is one of the [Map Styles](/osmand/map/vector-maps) that provide extra capabilities by highlighting some objects, while making other less viable. 
 
@@ -200,14 +200,14 @@ Being aware of the difficulty of a specific piste makes sense for alpine/downhil
 | ![Advanced difficulty](/assets/images/plugins/ski-maps/4c_black_1.png) | Slopes of advanced difficulty |
 | ![Expert difficulty](/assets/images/plugins/ski-maps/5c_yellow_1.png) | Slopes of expert difficulty | 
 
->**NOTE**: For more specific guidance on each piste difficulty type, see the [OSM Piste Map reference](/https://wiki.openstreetmap.org/wiki/Piste_Maps), and/or any other sources that consider also inclination, the presence of any obstacles and hazards.  
+>**NOTE**: For more specific guidance on each piste difficulty type, see the [OSM piste difficulty reference](https://wiki.openstreetmap.org/wiki/Key:piste:difficulty), and/or any other sources that consider also inclination, the presence of any obstacles and hazards.  
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 ### Piste type 
 
-Pistes differ by type. A type represents different characterstics for a piste to meet the requirements of different winter related activities: alpine skiing, classic skating, snowboarding, sled riding, backcountry skiing, ski touring, mogul skiing, night skiing, etc. Understanding the type of the piste on the map helps in selecting an optimal navigation type.
+Pistes differ by type. A type represents different characterstics for a piste to meet the requirements of different winter related activities: alpine skiing, classic skating, snowboarding, sled riding, backcountry skiing, ski touring, mogul skiing, night skiing, etc. Understanding the [type of the piste](https://wiki.openstreetmap.org/wiki/Key:piste:type) on the map helps in building an optimal navigation route.
 
 **Downhill/alpine skiing piste** is used for the Ski navigation. This piste type has a direction, difficulty, and most often it is surrounded by the boundaries of the ski resort. When a downhill piste is selected for the Ski navigation, the direction of the piste is taken into consideration. And in case if the Departure and the Destination points are established opposite to the direction of the piste, the navigation goes along the nearest aerial way. 
 
@@ -258,14 +258,14 @@ Pistes differ by type. A type represents different characterstics for a piste to
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-**Other** piste types, like: Hiking piste, Ski touring piste, Sleigh and sled piste can, or most often cannot be used for the Ski navigation, however, they may be applicable for the On foot navigation, or other. 
+**Other** piste types, like: Hiking piste, Ski touring piste, Sleigh and sled piste can, or cannot be used for the Ski navigation, however, they may be applicable for the On foot navigation, or other. 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 ### Piste grooming
 
-Grooming is performed by special vehicles and ensure the piste is ready for the respective type of activities. If the map shows that a piste is subject to grooming, at least, somebody takes care of it, and at most, it perfectly suites the conditions of skiing. Grooming is assumed to be done by default for the pistes which are surrounded with the boundaries of a ski resort. If the pistes are outside such boundaries, and pictured being groomed, it is a good sign for those going out for skiing.    
+Grooming is performed by special vehicles and ensure the piste is ready for the respective type of activities. If the map shows that a piste is subject to grooming, it is expected to suit the conditions of skiing. Grooming is assumed to be done by default for the pistes which are surrounded with the boundaries of a ski resort. If the pistes are outside such boundaries, and pictured being groomed, it is a good sign for those going out for skiing.    
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -303,7 +303,7 @@ To check out the map on whether a piste is subject to grooming, use the **{% dat
 
 ### Ski slope routes
 
-With the Skiing profile, the Ski navigation and the [Winter and ski map style](/osmand/map/vector-maps#winter-and-ski) enabled, the [Ski slopes](/osmand/map/vector-maps#routes) routes show all types of pistes that the Ski navigation can use to build navigation routes along. Such Ski slopes routes, if enabled, are outlined with the pink color mostly outside ski resort boundaries.
+With the Skiing profile, the Ski navigation and the [Winter and ski map style](/osmand/map/vector-maps#winter-and-ski) enabled, the [Ski slopes](/osmand/map/vector-maps#routes) routes show all types of pistes that the Ski navigation can use to build navigation routes along. Such Ski slopes routes, if enabled, are outlined with the violet color mostly outside ski resort boundaries.
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -340,49 +340,49 @@ To view what piste outside the ski resort is possible to navigate along, enable 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### Night and lightening
+### Night and lighting
 
 {% data reusables.general.android-ios-switcher %}
 
 {% default %}
 
-The **Winter and ski** style can be used with the [**Night**](/osmand/map/vector-maps#map-mode) mode. It can be an obvious choice for someone who prefers dark colors on the device screen when it gets closer to the sunset, as well as for those who does often night skiing. Together with the Night mode, OsmAnd Ski Maps can show which of the pistes outside the ski resort can be [lightened up in the night](/osmand/map/vector-maps#details). 
+The **Winter and ski** style can be used with the [**Night**](/osmand/map/vector-maps#map-mode) mode. It can be an obvious choice for someone who prefers dark colors on the device screen when it gets closer to the sunset, as well as for those who does often night skiing. Together with the Night mode, OsmAnd Ski Maps can show which of the pistes outside the ski resort can be [lighting up in the night](/osmand/map/vector-maps#details). 
 
-Both options are provided with the [Configure map](/osmand/map/configure-map-menu) menu. To enable the Night mode, look for the respective option within the **Map mode** section of settings. To make the map show which pistes are lightened up in the night, enable the respective option in the **Details** section of settings. 
+Both options are provided with the [Configure map](/osmand/map/configure-map-menu) menu. To enable the Night mode, look for the respective option within the **Map mode** section of settings. To make the map show which pistes are lit up in the night, enable the respective option in the **Details** section of settings. 
 
-![No lightening in iOS](/assets/images/plugins/ski-maps/ios_no_lightening.png) ![Night and lightening in Android](/assets/images/plugins/ski-maps/and_yes_lightening.png)
+![No lighting in iOS](/assets/images/plugins/ski-maps/ios_no_lighting.png) ![Night and lighting in Android](/assets/images/plugins/ski-maps/and_yes_lighting.png)
 
 {% enddefault %}
 
 {% ios%}
 
-The **Night** mode and **Street lightening** can help during night skiing. Both options are available within the [Configure map](/osmand/map/configure-map-menu) menu opened for the needed profile.  
+The **Night** mode and **Street lighting** can help during night skiing. Both options are available within the [Configure map](/osmand/map/configure-map-menu) menu opened for the needed profile.  
 
 To enable the **Night** mode, select the respective option from the following list:
 
 {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.map_settings_style %} → {% data variables.ios-values.map_mode %}
 
-To enable the **Street lightening**, toggle the following option:
+To enable the **Street lighting**, toggle the following option:
 
 {% data variables.ios-values.menu %} → {% data variables.ios-values.configure_map %} → {% data variables.ios-values.res_details %} → {% data variables.ios-values.rendering_attr_streetLighting_name %}
 
-![Enabling Night mode and Lightening in iOS](/assets/images/plugins/ski-maps/ios_night_lightening1.png) ![Night and Lightening in iOS](/assets/images/plugins/ski-maps/ios_yes_lightening.png)
+![Enabling Night mode and Lighting in iOS](/assets/images/plugins/ski-maps/ios_night_lighting1.png) ![Night and Lighting in iOS](/assets/images/plugins/ski-maps/ios_yes_lighting.png)
 
 {% endios%}
 
 {% android%}
 
-The **Night** mode and **Street lightening** can help during night skiing. Both options are available within the [Configure map](/osmand/map/configure-map-menu) menu opened for the needed profile.  
+The **Night** mode and **Street lighting** can help during night skiing. Both options are available within the [Configure map](/osmand/map/configure-map-menu) menu opened for the needed profile.  
 
 To enable the **Night** mode, select the respective option from the following list: 
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.map_mode %}
 
-To enable the **Street lightening**, toggle the following option: 
+To enable the **Street lighting**, toggle the following option: 
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.configure_map %} → {% data variables.android-values.rendering_category_details %} → {% data variables.android-values.rendering_attr_streetLighting_name %}
 
-![Enable Night mode and Lightening in Android](/assets/images/plugins/ski-maps/and_night_and_lightening1.png) ![Night and lightening in Android](/assets/images/plugins/ski-maps/and_yes_lightening.png)
+![Enable Night mode and Lighting in Android](/assets/images/plugins/ski-maps/and_night_and_lighting1.png) ![Night and lighting in Android](/assets/images/plugins/ski-maps/and_yes_lighting.png)
 
 {% endandroid%}
 
