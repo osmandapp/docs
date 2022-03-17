@@ -84,6 +84,44 @@ In the **Android** version, to enable the Trip recording plugin, tap the triple 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 
+### Add REC widget
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is needed to make new records. It is added automatically with the Trip recording enabled. However, if anything, to add the REC widget, open the Configure screen menu and toggle on the Trip recording widget. 
+
+![Adding REC widget in iOS](/assets/images/plugins/trip-recording/ios_configure_screen_TrRec_widget.png) ![Adding REC widget in Android](/assets/images/plugins/trip-recording/and_configure_screen_TrRec_widget.png)
+
+{% enddefault %}
+
+{% ios%}
+
+The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is needed to make new records. It is added automatically with the Trip recording enabled. However, if anything, to add the REC widget, select a profile and toggle on **{% data variables.ios-values.track_recording %}** in the following [Configure screen](/osmand/widgets/configure-screen) menu:
+
+{% data variables.product.ios_button_seq %} {% data variables.ios-values.menu %} → {% data variables.ios-values.layer_map_appearance %} → {% data variables.ios-values.map_widget_right %} → {% data variables.ios-values.track_recording %}
+
+![Adding REC widget in iOS](/assets/images/plugins/trip-recording/ios_configure_screen_TrRec_widget.png)
+
+{% endios%}
+
+{% android%}
+
+The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is needed to make new records. It is added automatically with the Trip recording enabled. However, if anything, to add the REC widget, select a profile and toggle on **{% data variables.android-values.shared_string_trip_recording %}** in the following [Configure screen](/osmand/widgets/configure-screen) menu:
+
+{% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.map_widget_config %} → {% data variables.android-values.map_widget_right %} → {% data variables.android-values.shared_string_trip_recording %}
+
+![Adding REC widget in Android](/assets/images/plugins/trip-recording/and_configure_screen_TrRec_widget.png)
+
+{% endandroid%}
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
 ### Open settings 
 
 {% data reusables.general.android-ios-switcher %}
@@ -112,11 +150,11 @@ In the **iOS** version, to open [settings](/osmand/start-with/first-steps#how-to
 
 {% android%}
 
-In the **Android** version, to open [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) for configuring Trip recording, it is possible to use any of the two options: general [settings](/osmand/start-with/first-steps#how-to-manage-your-settings), or [plugin](/osmand/start-with/first-steps#how-to-configure-plugins) settings. 
+In the **Android** version, to open [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) for configuring Trip recording, it is possible to use any of the two options: app [settings](/osmand/start-with/first-steps#how-to-manage-your-settings), or [plugin](/osmand/start-with/first-steps#how-to-configure-plugins) settings. 
 
-#### GENERAL SETTINGS 
+#### APP SETTINGS 
 
-The [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) of the app provide allow you to establish the Trip recording settings individually for a specific profile, and can be reached out, as follows:
+The [settings](/osmand/start-with/first-steps#how-to-manage-your-settings) of the app allow you to establish the Trip recording settings individually for a specific profile, and can be reached out, as follows:
 
 1. Open {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %}.
 
@@ -171,7 +209,7 @@ In the **iOS** version, the available parameters are specified below. Establish 
 
 | Parameter | Description |
 |---|---|
-| **General logging interval** | It is the frequency of the requests to detect the location with subsequent logging of location points into the track, which is started to be recorded manually via the REC widget. The option is duplicated on the Start recording dialog. 5 seconds is the default option. Available are the options in the range from 0 seconds to 5 minutes. The *Always ask* option requires the interval to be established anew on every start of the recording. |
+| **General logging interval** | It is the frequency of the requests to detect the location with subsequent logging of location points into the track, which is started to be recorded **manually via the REC widget**. The option is duplicated on the Start recording dialog. 5 seconds is the default option. Available are the options in the range from 0 seconds to 5 minutes. The *Always ask* option requires the interval to be established anew on every start of the recording. |
 | **Minimum displacement** | Given that two points are detected being close to one another, when a minimum displacement option is established, one of the points is removed, if it is detected to be closer than the established interval. It is helpful for none, or little movement, so that not to generate redundant points, regardless of any motion detection. The displacement interval is disabled if the *Not selected* option is set. Otherwise, an interval is considered to be between 2 meters and 50 meters depending on the selected option. For example, 5 meters is used, when there is no need in capturing more precise data than that, and no need in capturing any data at all when not moving. |
 | **Minimum accuracy** | Given that your location is identified via the built-in Location module of the device, when the longitude and latitude are calculated, the resulted location point can be detected accurately to a certain extend and expressed in meters/feet. It is possible to establish a minimum threshold between 1 meter and 50 meters for calculating the accuracy of the detected location in relation to the real location. A too small accuracy may cause the existence of blank spots on the track. It is recommended to decrease the accuracy, or disable at all by establishing the *Not selected* option, in case of uncertainty of the quality of the signals used for identifying the location, whether it is the GPS signal, and/or the mobile phone signal, and/or the Internet connection. For example, GPS signal can be weaker in circumstances when the route goes under the bridge, or between large trees, or high buildings, or in unfavorable weather conditions; and better with the growing number of GPS satellites. |
 | **Minimum speed** | Given that at a low speed the recorded track can be noisy by showing lots of points on a small segment of the route, when the motion is detected and the speed level is calculated to be less than the established threshold, then the points will not be recorded. To disable the minimum speed detection, set the *Not selected* option. To detect only motion to start recording points, set the *>0* option. The rest of options are recommended to be used carefully, and to avoid losing too many points, decrease the minimum threshold. |
@@ -196,7 +234,7 @@ In the **Android** version, the available parameters are specified below. Establ
 | **Show start dialog** | If enabled, to start the recording, it is needed to tap the respective option in the Start dialog. Otherwise, the recording will start automatically. |
 | **Auto-record track during navigation** | If enabled, whenever navigation is in progress, the track is recorded automatically, and saved to the respective folder in {% data variables.android-values.shared_string_my_places %}. Please, note that Track recording consumes the battery energy, and continues to run in the background with the screen being closed. For efficient use of the battery life, check out its status.| 
 | **Logging interval** | It is the frequency of the requests to detect the location with subsequent logging of location points into the track, which is started to be recorded automatically via the enabled **Auto-record track during navigation** option. 5 seconds is the default option. Available are the options in the range from 0 seconds to 5 minutes. |
-| **General logging interval** | It is the frequency of the requests to detect the location with subsequent logging of location points into the track, which is started to be recorded manually via the REC widget. The option is duplicated on the Start recording dialog. 5 seconds is the default option. Available are the options in the range from 0 seconds to 5 minutes. |
+| **General logging interval** | It is the frequency of the requests to detect the location with subsequent logging of location points into the track, which is started to be recorded **manually via the REC widget**. The option is duplicated on the Start recording dialog. 5 seconds is the default option. Available are the options in the range from 0 seconds to 5 minutes. |
 | **Minimum displacement** | Given that two points are detected being close to one another, when a minimum displacement option is established, one of the points is removed, if it is detected to be closer than the established interval. It is helpful for none, or little movement, so that not to generate redundant points, regardless of any motion detection. The displacement interval is disabled if the *Not selected* option is set. Otherwise, an interval is considered to be between 2 meters and 50 meters depending on the selected option. For example, 5 meters is used, when there is no need in capturing more precise data than that, and no need in capturing any data at all when not moving. |
 | **Minimum accuracy** | Given that your location is identified via the built-in Location module of the device, when the longitude and latitude are calculated, the resulted location point can be detected accurately to a certain extend and expressed in meters/feet. It is possible to establish a minimum threshold between 1 meter and 50 meters for calculating the accuracy of the detected location in relation to the real location. A too small accuracy may cause the existence of blank spots on the track. It is recommended to decrease the accuracy, or disable at all by establishing the *Not selected* option, in case of uncertainty of the quality of the signals used for identifying the location, whether it is the GPS signal, and/or the mobile phone signal, and/or the Internet connection. For example, GPS signal can be weaker in circumstances when the route goes under the bridge, or between large trees, or high buildings, or in unfavorable weather conditions; and better with the growing number of GPS satellites. |
 | **Minimum speed** | Given that at a low speed the recorded track can be noisy by showing lots of points on a small segment of the route, when the motion is detected and the speed level is calculated to be less than the established threshold, then the points will not be recorded. To disable the minimum speed detection, set the *Not selected* option. To detect only motion to start recording points, set the *>0* option. The rest of options are recommended to be used carefully, and to avoid losing too many points, decrease the minimum threshold. |
@@ -205,7 +243,7 @@ In the **Android** version, the available parameters are specified below. Establ
 | **Include heading** | If enabled, the heading is saved into the GPX file for every point. The heading is the direction to where the front panel of the vehicle/device points to. It is determined with the angle between the direction where the front panel points to and the course towards which the vehicle/device is intended to move. In navigation, the difference may exist due to the drift caused by the air, water, skidding, slipping, etc. |
 | **Track storage folder** | Given that all tracks are stored in: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} → {% data variables.android-values.shared_string_gpx_files %} tab; it is possible to establish the internal structure of this folder by selecting one of the following two options: either 1. to record all tracks to the *Rec* folder; or 2. to group all tracks by respective month folders, such as: *Rec/yyyy-mm* |
 | **Notification** | If enabled, trip recording messages show up in the system notification area of the device. The notification area is opened with a swipe from the top of the screen to the bottom, and closed with a swipe in the opposite direction. The messages are intended to notify about all start/stop actions of the trip recording functionality and especially useful in case of the enabled **Auto-record track during navigation** option, as well as when the Start recording dialog is disabled and the recording starts silently on tap of the REC widget. Once a message is sent, it is visible in the notification area. A sent message can be cleared, if not needed. The visibility of a sent uncleared message does not depend on the status of the app: whether it runs in the background, foreground, or closed. | 
-| **Online tracking** | It is real-time monitoring of your current location. If enabled, every point is transmitted to the specified URL. The **Web address** field is intended for entering the URL in the following format: *https://example.com?lat={0}&lon={1}&timestamp={2}&hdop={3}&altitude={4}&speed={5}* The **Tracking interval** parameter is used to determine the frequency of how often to send the location points. The options can be selected in the range from 0 second to 5 minutes. The **Time buffer** parameter establishes the period of time during which the points will be accumulated in case if the Internet connection is lost.|
+| **Online tracking** | It is real-time monitoring of your current location. If the option is enabled and the recording is in progress, the REC widget is green, instead of red, and every point is transmitted to the specified URL. The **Web address** field is intended for entering the URL in the following format: *https://example.com?lat={0}&lon={1}&timestamp={2}&hdop={3}&altitude={4}&speed={5}* The **Tracking interval** parameter is used to determine the frequency of how often to send the location points. The options can be selected in the range from 0 second to 5 minutes. The **Time buffer** parameter establishes the period of time during which the points will be accumulated in case if the Internet connection is lost.|
 | **Tracks** | This is a quick re-direction to the folder: {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places  %} → {% data variables.android-values.shared_string_gpx_files %} tab. |
 | **Reset plugin settings to default** | This establishes the default values for all of the above settings. |
 | **Copy from another profile** | This opens a dialog to select a profile to copy the established Trip recording configuration of values from, and further to establish them for the current profile. |
@@ -223,15 +261,17 @@ In the **Android** version, the available parameters are specified below. Establ
 
 {% default %}
 
-With the setup of the Trip recording plugin, the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) shows up in the list of widgets in the [Configure screen](/osmand/widgets/configure-screen) menu.
-
-The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is used to create new records. If toggled on in the list of widgets, the REC widget becomes displayed on the screen. 
+The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is used to create new records.  
 
 - To start recording, tap the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget), and confirm in the opened Start dialog, if it is enabled. Otherwise, confirmation is not needed, and the recording will start automatically. 
 
+- When in progress, the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is colored in red.
+
+- When in progress and with enabled online recording, the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is colored in green.
+
 - To finish recording, tap the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) again, and confirm in the Trip recording dialog with the respective option. Additionally, there are a few other options that can be used. All options are detailed for the iOS and Android versions.
 
-![Start recording in iOS](/assets/images/plugins/trip-recording/ios_widget_start2.png) ![Start recording in Android](/assets/images/plugins/trip-recording/and_widget_menu2.png)
+![REC widget in iOS](/assets/images/plugins/trip-recording/ios_REC_widget.png) ![REC widget in Android](/assets/images/plugins/trip-recording/and_REC_widget.png)
 
 {% enddefault %}
 
@@ -239,7 +279,13 @@ The [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget) is used to
 
 #### START RECORDING 
 
-In the **iOS** version, to start recording, tap the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget), and in the opened Start dialog, it is possible to adjust the following recording settings before confirming the start of the recording by tapping **OK**:
+In the **iOS** version, there are two options to start recording:
+
+- using the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget),
+- using the {% data variables.ios-values.track_recording_name %} option in [My Places](/osmand/personal/myplaces): 
+    {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} tab
+
+In any case, the Start dialog opens, unless the **{% data variables.ios-values.track_interval_remember %}** option is toggled on, and provides the following recording settings to adjust before confirming the start of the recording by tapping **OK**:
 
 - **Logging interval** - to set the frequency of the requests sent to the GPS sensor to detect and post a new point onto the route of the track;
 
@@ -248,6 +294,8 @@ In the **iOS** version, to start recording, tap the [REC widget](/osmand/widgets
 - **Show on map** - if enabled, shows detected points on the map. 
 
 ![Start recording in iOS](/assets/images/plugins/trip-recording/ios_widget_start2.png) ![Finish recording in iOS](/assets/images/plugins/trip-recording/ios_widget_finish1.png)
+
+>**NOTE**: When in progress, the REC widget is colored in red. 
 
 
 #### STOP RECORDING
@@ -271,11 +319,13 @@ In the **iOS** version, to stop recording, or to do any of the following options
 
 #### START RECORDING 
 
-In the **Android** version, there are three options to start recording: 
+In the **Android** version, there are four options to start recording: 
 
 - using the [REC widget](/osmand/widgets/info-widgets#-trip-recording-widget), 
 - with the Trip recording option in the menu,
-- with the Start Recording icon on the screen of the device. 
+- with the RECORD option in [My Places](/osmand/personal/myplaces):
+    {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} → {% data variables.android-values.shared_string_gpx_files %} tab;
+- with the Start Recording icon on the screen of the device, as the examples on the figures below show. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -300,6 +350,8 @@ In the opened Start dialog, it is possible adjust the following recording settin
 
 ![Start recording in Android](/assets/images/plugins/trip-recording/and_recording_start1.png)
 ![Finish recording in Android](/assets/images/plugins/trip-recording/and_recording_finish1.png)
+
+>**NOTE**: When in progress, the REC widget is colored in red. When in progress and with enabled online recording, the REC widget is colored in green.
 
 
 #### STOP RECORDING 
@@ -368,12 +420,12 @@ For any details about [My Places](/osmand/personal/myplaces), and/or [Tracks](/o
 
 - the internal organization of the Tracks tab in My Places can be managed with the Trip recording plugin settings described above;
 
-- it is a useful place to consult with in any case of doubts, for example, on what/if anything is recorded, what/if anything is visible right now on the map, and so forth;
+- it is a useful place to consult with in case of doubts, for example, on what/if anything is recorded, what/if anything is visible right now on the map, and so forth;
 
 - My Places is perfect for any inventory work: tap the triple points/arrow at the right side of a track to manage it with any of the options, such as Move, Rename, Share, etc. 
 
 
-![My Places with tracks in iOS](/assets/images/plugins/trip-recording/ios_my_places1.png) ![My Places with tracks in Android](/assets/images/plugins/trip-recording/and_my_places1.png)
+![My Places with tracks in iOS](/assets/images/plugins/trip-recording/ios_my_places_viewing_tracks.png) ![My Places with tracks in Android](/assets/images/plugins/trip-recording/and_my_places_viewing_tracks.png)
 
 
 
@@ -385,7 +437,7 @@ In the **iOS** version, to view all ever-recorded tracks, and/or manage them, go
 
 {% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} tab
 
-![My Places with tracks in iOS](/assets/images/plugins/trip-recording/ios_my_places1.png)
+![My Places with tracks in iOS](/assets/images/plugins/trip-recording/ios_my_places_viewing_tracks.png)
 
 {% endios%}
 
@@ -395,19 +447,16 @@ In the **Android** version, to view all ever-recorded tracks, and/or manage them
 
 {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} → {% data variables.android-values.shared_string_gpx_files %} tab
 
-![My Places with tracks in Android](/assets/images/plugins/trip-recording/and_my_places1.png)
+![My Places with tracks in Android](/assets/images/plugins/trip-recording/and_my_places_viewing_tracks.png)
 
 {% endandroid%}
-
-
-
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
-### Display tracks on map
+### Show tracks on map
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -484,16 +533,127 @@ By tapping a track directly on the map in the **iOS** version, the [context menu
 {% endandroid%}
 
 
+
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-### GPX file details  
+
+
+### Change folder
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+All recorded tracks are stored [**My Places**](/osmand/personal/myplaces). It is the only storage for tracks. Even if moved, tracks are moved between folders in My Places. However, as soon as a new track is created, it is automatically saved to the default folder in My Places. The default folder is one and the same for all new tracks. After showing up in the default folder, tracks can be moved to any other preferred folder, as follows:
+
+1. Select more options from the [Context menu](/osmand/map/track-context-menu) of a track on the map. 
+2. Tap **Change folder** and select another folder in My Places to store the track in. 
+
+![More options in iOS](/assets/images/plugins/trip-recording/ios_context_menu_options1.png) ![More options in Android](/assets/images/plugins/trip-recording/and_context_menu_options1.png)
+
+
+{% enddefault %}
+
+{% ios%}
+
+All new tracks are automatically saved to the default folder in My Places:
+
+{% data variables.ios-values.menu %} → {% data variables.ios-values.menu_my_places %} → {% data variables.ios-values.tracks %} tab
+
+Later on, it is possible to move the track to any other preferable folder within My Places, and/or export the GPX file to an external storage. 
+
+#### MOVE TRACK WITHIN MY PLACES
+
+To move a track from the default folder to another folder within My Places, do the following:
+
+1. Open the [Context menu](/osmand/map/track-context-menu) of a track on the map in one of the following ways:
+
+    - by tapping a track in My Places, the map shows up with the context menu opened for the track;
+    - by tapping a track directly on the map. 
+    In any case, make certain the track is visible on the map. 
+
+2. Tap the triple points on the extreme right of the bottom panel.
+3. Tap **{% data variables.ios-values.plan_route_change_folder %}** from the opened {% data variables.ios-values.actions %} list.
+4. Select a folder to move the track to.   
+
+![More options in iOS](/assets/images/plugins/trip-recording/ios_context_menu_options1.png) ![Change folder in iOS](/assets/images/plugins/trip-recording/ios_context_menu_option2.png)
+
+
+#### EXPORT GPX FILE TO EXTERNAL STORAGE
+
+To export a GPX file to an external storage, do the following: 
+
+1. Open the [Context menu](/osmand/map/track-context-menu) of a track on the map in one of the following ways:
+
+    - by tapping a track in My Places, the map shows up with the context menu opened for the track;
+    - by tapping a track directly on the map. 
+    In any case, make certain the track is visible on the map. 
+
+2. Tap **{% data variables.ios-values.shared_string_export %}**.
+3. Select the required storage to export the GPX file to. 
+
+
+![Export with Context menu in iOS](/assets/images/plugins/trip-recording/ios_context_menu_export.png) 
+
+{% endios%}
+
+{% android%}
+
+All new tracks are automatically saved to the default folder in My Places:
+
+{% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} → {% data variables.android-values.shared_string_gpx_files %} tab
+
+For the **Android** version of the app, the default folder can be established in [Trip recording settings](/osmand/plugins/trip-recording#establish-options) as one of the following options:
+
+- the `Rec` folder, which is one folder for all tracks; or as 
+- the `Rec/yyyy-mm` folder, which is created individually anew for every month and contain tracks recorded during the given month.
+
+Later on, it is possible to move the track to any other preferable folder within My Places by using:
+
+- the [Context menu of a track on the map](/osmand/map/track-context-menu);
+- the [Context menu of a track in My Places](/osmand/personal/tracks#manage-tracks).
+
+#### CONTEXT MENU ON THE MAP
+
+To move a track to another folder within My Places, it is possible to use [Context menu of a track on the map](/osmand/map/track-context-menu), as follows: 
+
+1. Open the [Context menu](/osmand/map/track-context-menu) of a track on the map in one of the following ways:
+
+    - by tapping a track in My Places, the map shows up with the context menu opened for the track;
+    - by tapping a track directly on the map. 
+    In any case, make certain the track is visible on the map. 
+
+2. Tap **{% data variables.android-values.shared_string_options %}**.
+3. Tap **{% data variables.android-values.change_folder %}** from the opened {% data variables.android-values.shared_string_options %} list.
+4. Select a folder to move the track to. 
+
+![More options in Android](/assets/images/plugins/trip-recording/and_context_menu_options1.png) ![Change folder in Android](/assets/images/plugins/trip-recording/and_context_menu_option2.png)
+
+#### CONTEXT MENU IN MY PLACES
+
+To move a track to another folder within My Places, it is possible to use the [Context menu of a track in My Places](/osmand/personal/tracks#manage-tracks), as follows: 
+
+1. Open {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_my_places   %} → {% data variables.android-values.shared_string_gpx_files %} tab.
+2. Tap the triple points on the right of the required track.
+3. Tap **{% data variables.android-values.shared_string_move %}** from the opened context menu.
+4. Select a folder to move the track to. 
+
+![Move with My Places in Android](/assets/images/plugins/trip-recording/and_my_places_viewing_tracks.png)
+
+{% endandroid%}
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+## GPX file details  
 
 The location points are recorded into a file in the [GPX format](https://en.wikipedia.org/wiki/GPS_Exchange_Format), according to the following structure: *file > track > segments > points*, where:
 
 - one point has a number of attributes: coordinates, speed, altitude, heading;
 - points are grouped into tracks;
 - one track is generated by one recording, i.e. one start and one stop actions;
-- with auto-split after gaps, the next point of the track after the gap makes up a new segment;
+- with auto-split after gaps, the next point after the gap makes up a new segment;
 - both segments and tracks are identified with the Start and Finish icons on the map; 
 - both tracks and segments are recorded into a file.
 
