@@ -101,7 +101,7 @@ To enable the **{% data variables.android-values.plugin_ski_name %}** plugin, ta
 
 ![Ski maps plugin Android](/assets/images/plugins/ski-maps/plugin_ski_maps_android.png) 
 
- If the **{% data variables.android-values.app_mode_skiing %}** profile is needed, leave the respective option toggled on in the opened popup window and tap **OK**. Otherwise, tap Turn off, and the plugin will be enabled without adding the profile. 
+If the **{% data variables.android-values.app_mode_skiing %}** profile is needed, leave the respective option toggled on in the opened popup window and tap **OK**. Otherwise, tap Turn off, and the plugin will be enabled without adding the profile. 
 
 ![Enabling Ski profile with plugin in Android](/assets/images/plugins/ski-maps/and_profile_in_ski_plugin.png)
 
@@ -156,7 +156,7 @@ To verify what style is currently established for the profile, and\or to establi
 
 ### Combine maps
 
-The default [vector map](/osmand/map/vector-maps) with the enabled [Winter and Ski map style](/osmand/map/vector-maps#winter-and-ski) can be added with the [Contour lines](/osmand/plugins/contour-lines#show-contour-linesterrain) and\or [Hillshade](/osmand/plugins/contour-lines#hillshade-map) maps. Below are two examples. The left-hand figure shows pistes on the default vector map, while the one on the right shows pistes on the default vector map combined with the contour lines and the hillshade raster map. In the second case, the map unveils more geolocation insights and elevation data to assess the complexity, risks, distance, etc. 
+The default [vector map](/osmand/map/vector-maps) with the enabled [Winter and Ski map style](/osmand/map/vector-maps#winter-and-ski) can be added with the [Contour lines](/osmand/plugins/contour-lines#show-contour-linesterrain) and\or [Hillshade](/osmand/plugins/contour-lines#hillshade-map) maps. Below are two examples. The left-hand figure shows pistes on the default vector map, while the one on the right shows pistes on the default vector map combined with the contour lines and the hillshade raster map. In the second case, the map unveils more geolocation insights and elevation data to help making an assessment of the complexity, risks, distance, etc. 
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -183,14 +183,14 @@ The default [vector map](/osmand/map/vector-maps) with the enabled [Winter and S
 
 ## Ski map options
 
-While reading the map, it is possible to get other accompanying details, like: the complexity of a specific piste, the type of the trail, if any grooming is conducted, if the path is lightened in the night, or other characteristics that might be helpful to skiing and snowboarding enthusiasts. 
+While reading the map, it is possible to get other accompanying details, like: the complexity of a specific piste, the type of the trail, if any grooming is conducted, if the path is lit up at night, or other characteristics that might be helpful to skiing and snowboarding enthusiasts. 
 
-> **NOTE**: The options covered herein, are worth considering also when [navigating through the ski area](/osmand/navigation/route-navigation). The [Ski profile](/osmand/personal/profiles) by default is set up with the **Ski navigation type**. It is supplied with individual route parameters applicable only to skiing. The Ski navigation type builds the route along pistes. 
+> **NOTE**: The options covered herein, are worth considering also when using the [Ski navigation](/osmand/navigation/route-navigation). As a rule, it is available within the [Ski profile](/osmand/personal/profiles). The default navigation for the Ski profile is the **Ski navigation**, unless it is established otherwise. The Ski navigation is supplied with individual route parameters applicable only to skiing, and builds the route along pistes. 
 
 
 ### Piste difficulty
 
-Being aware of the difficulty of a specific piste makes sense for alpine/downhill skiers, and also anybody who is visiting a ski resort,or area, so that to get straight to the point, and/or turn in the right direction. The difficulty of a piste is displayed with colors. Colors might differ in different resorts as well as in different countries. Below is some hands-on reference. 
+Being aware of the difficulty of a specific piste makes sense for alpine/downhill skiers, and also anybody who is visiting a ski resort, or area, so that to get straight to the point, and/or turn in the right direction. The difficulty of a piste is displayed with colors. Colors might differ in different resorts as well as in different countries. Below is some hands-on reference. 
 
 | Color | Description | 
 | --- | --- |
@@ -258,14 +258,39 @@ Pistes differ by type. A type represents different characterstics for a piste to
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-**Other** piste types, like: Hiking piste, Ski touring piste, Sleigh and sled piste can, or cannot be used for the Ski navigation, however, they may be applicable for the On foot navigation, or other. 
+**Ski touring piste** is often used by skiers for a nordic ascent and a downhill descent. The difficulty of a ski touring piste is often marked with the respective color. The Ski navigation can build a route along this type of piste, thus allowing you to combine the piste types.
+
+{% data reusables.general.android-ios-switcher %}
+
+{% default %}
+
+![Ski touring in iOS](/assets/images/plugins/ski-maps/ios_skitour.png) ![Ski touring in Android](/assets/images/plugins/ski-maps/and_skitour1.png)
+
+{% enddefault %}
+
+{% ios%}
+
+![Ski touring in iOS](/assets/images/plugins/ski-maps/ios_skitour.png)
+
+{% endios%}
+
+{% android%}
+
+![Ski touring in Android](/assets/images/plugins/ski-maps/and_skitour1.png)
+
+{% endandroid%}
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+**Other** piste types, like: Hiking piste, Sleigh and sled piste can, or cannot be used for the Ski navigation, however, they may be applicable for the On foot navigation, or other. 
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
 ### Piste grooming
 
-Grooming is performed by special vehicles and ensure the piste is ready for the respective type of activities. If the map shows that a piste is subject to grooming, it is expected to suit the conditions of skiing. Grooming is assumed to be done by default for the pistes which are surrounded with the boundaries of a ski resort. If the pistes are outside such boundaries, and pictured being groomed, it is a good sign for those going out for skiing.    
+Grooming is performed by special vehicles and ensure the piste is ready for the respective type of activities: classic skiing, skating, other. The same piste can be groomed differently on different segments. If the pistes outside the ski resort boundaries are pictured being groomed, it is a good sign for those going out for skiing.  
 
 {% data reusables.general.android-ios-switcher %}
 
@@ -309,7 +334,7 @@ With the Skiing profile, the Ski navigation and the [Winter and ski map style](/
 
 {% default %}
 
-The **Routes** panel in the [Configure map](/osmand/map/configure-map-menu) menu, opened for a specific profile, shows the **Ski slopes** routes among other availble options in the app. To view the Ski slopes routes, enable the respective option. 
+The **Routes** panel in the [Configure map](/osmand/map/configure-map-menu) menu, opened for a specific profile, shows the **Ski slopes** routes among other available options in the app. To view the Ski slopes routes, enable the respective option. 
 
 ![Enabling routes in iOS](/assets/images/plugins/ski-maps/ios_enable_routes.png) ![Routes enabled in Android](/assets/images/plugins/ski-maps/and_yes_routes.png)
 
@@ -346,9 +371,9 @@ To view what piste outside the ski resort is possible to navigate along, enable 
 
 {% default %}
 
-The **Winter and ski** style can be used with the [**Night**](/osmand/map/vector-maps#map-mode) mode. It can be an obvious choice for someone who prefers dark colors on the device screen when it gets closer to the sunset, as well as for those who does often night skiing. Together with the Night mode, OsmAnd Ski Maps can show which of the pistes outside the ski resort can be [lighting up in the night](/osmand/map/vector-maps#details). 
+The **Winter and ski** style can be used with the [**Night**](/osmand/map/vector-maps#map-mode) mode. It is an obvious choice for someone who prefers dark colors, and/or it is getting dark at night, as well as for those who does some night skiing. Together with the Night mode, OsmAnd Ski Maps can show which pistes has [lighting](/osmand/map/vector-maps#details). 
 
-Both options are provided with the [Configure map](/osmand/map/configure-map-menu) menu. To enable the Night mode, look for the respective option within the **Map mode** section of settings. To make the map show which pistes are lit up in the night, enable the respective option in the **Details** section of settings. 
+Both options are provided with the [Configure map](/osmand/map/configure-map-menu) menu. To enable the Night mode, look for the respective option within the **Map mode** section of settings. To make the map show which pistes are lit up at night, enable the respective option in the **Details** section of settings. 
 
 ![No lighting in iOS](/assets/images/plugins/ski-maps/ios_no_lighting.png) ![Night and lighting in Android](/assets/images/plugins/ski-maps/and_yes_lighting.png)
 
@@ -412,7 +437,7 @@ For the details on what data OsmAnd Ski Map shows, refer to the [Rendering.xml](
 
 {% default %}
 
-Whenever removing pistes and winter colors from the map is preferable, and/or the ski season is over, or anything, do any of the following: 
+Whenever removing pistes and winter colors from the map is preferable, and/or the ski season is over, do any of the following: 
 
 - uncheck the [Winter and ski style](/osmand/map/vector-maps) for the needed profile, and/or
 
@@ -440,4 +465,4 @@ To remove the **Winter and ski** style, uncheck the option for the needed profil
 
 {% endandroid%}
 
->**NOTE**: Disabling the Skiing profile is also an option to consider, if  the Winter and ski style gets disabled together with the profile. 
+>**NOTE**: Disabling the Skiing profile is also an option to consider, if the Winter and ski style gets disabled together with the profile. 
