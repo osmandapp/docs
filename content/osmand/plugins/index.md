@@ -5,6 +5,7 @@ versions: '*'
 ---
 {% data reusables.general.article-not-complete %}
 
+{% link_with_intro /online-map %}
 {% link_with_intro /contour-lines %}
 {% link_with_intro /wikipedia %}
 {% link_with_intro /trip-recording %}
