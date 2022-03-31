@@ -142,12 +142,12 @@ Back up or restore data (it has restrictions for unpaid users. you can't back up
 
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.shared_string_settings %} → {% data variables.android-values.backup_and_restore %} → {% data variables.android-values.local_backup %}
 
-- {% data variables.android-values.backup_into_file %} - creating and saving OBF-file in your device.
+- {% data variables.android-values.backup_into_file %} - creating and saving OSF-file in your device.
 ![Backup local Android](/assets/images/personal/backup/backup_local_android.png) ![Backup local Android](/assets/images/personal/backup/backup_local_1_android.png)
 
 ![Backup local Android](/assets/images/personal/backup/backup_local_2_android.png) ![Backup local Android](/assets/images/personal/backup/backup_local_3_android.png)
 
-- {% data variables.android-values.restore_from_file %} - opening and restoring OBF-file (you backup).
+- {% data variables.android-values.restore_from_file %} - opening and restoring OSF-file (you backup).
 
 
 ## Copy raster map package created on PC 
