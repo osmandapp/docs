@@ -99,11 +99,6 @@ Download map fonts for simplified / traditional Chinese, Japanese, Korean maps:
 {% data variables.product.android_button_seq %} {% data variables.android-values.shared_string_menu %} → {% data variables.android-values.welmode_download_maps %} → {% data variables.android-values.other_menu_group %} → {% data variables.android-values.fonts_header %}
 
 ![Map fonts Android version](/assets/images/map/map_fonts.png) ![Map fonts version](/assets/images/map/map_fonts_1.png)
-<<<<<<< HEAD
-
-=======
->>>>>>> ef9c1d946a0aa8f2b9bbc4a3039819c56ea2f21b
-
 
 ## Contour Lines
 
