@@ -28,7 +28,7 @@ Actions button:
 
 In Categories menu user can start searching by typping line.
 
-OsmAnd starts to find names and categories of POI by entered words. First results will be categories, second resolts will be POI with additional info (full name, categorie name, direction and distance to POI, work time). Pressing to needed categorie opens POI list of this categorie. 
+OsmAnd starts to find names and categories of POI by entered words. First results will be categories, second results will be POI with additional info (full name, categorie name, direction and distance to POI, work time). Pressing to needed categorie opens POI list of this categorie. 
 
 Tapping to chosen POI in the list opens [Map Context menu](/osmand/map/map-context-menu#select-an-object-short-tap) of POI.
 
