@@ -4,7 +4,7 @@ intro: 'Common issues with track recording: Noise, gaps, an inaccuracies'
 versions: '*'
 ---
 
-This article addresses OsmAnd's GPS track recording issues. **'Background'** refers to the OsmAnd app not being displayed in the foreground, in particular when the device screen is off.
+This article addresses OsmAnd's GPS track recording issues. **'Background'** means to simply refer to the OsmAnd app not being displayed in the foreground, in particular when the device screen is off (which is different from the Android-internal definition of 'background').
 The following issues have been observed over time in different Android versions.
 
 **Note**: Since Android 11 (2020/12) there is no option "Always allow" to use location in background but this **doesn't limit** background track recording, according to Google docummentation it's considered **foreground usage** because internally foreground service permission is used and notification about track being recorded is always visible.
@@ -16,29 +16,29 @@ There are 2 typical accuracy issues leading to a 'messy' recorded track.
 - Longer standing in same place 
 - Bad GPS signal and switching to network signal based location
 
-You may either avoid such issues if using "Pause" to interrupt the recording during such conditions.
-It is also possible to edit a track later and remove "noisy" points. 
-It is further posible to use the [Track settings](/osmand/plugins/trip-recording) to filter "noisy" points based on your **experience** and **recording device**. You can filter out points by various criteria: 
-- Points with low or zero speed
-- Points with bad precision (GPS 'hdop')
-- Points closer than a threshold in meters
+You may
+- either avoid such issues if using "Pause" to interrupt the recording during such conditions.
+- It is also possible to edit a track later and remove "noisy" points. 
+- Or you can use the [Track settings](/osmand/plugins/trip-recording) to already while recording filter "noisy" points based on your **experience** and **recording device**, you can filter out points by various criteria: 
+  - Points with low or zero speed
+  - Points with bad precision (GPS 'hdop')
+  - Points closer than a threshold in meters
 
 ## Recorded tracks have gaps
 
-- In general: Starting with Android 4.4 (or maybe before), new Android power saving options allow limiting CPU max speed and screen brightness, and facilitate apps being killed in the background, e.g. while the device screen is turned aoo.
-- For outdoor use (screen brightness), map rendering (CPU limit), and 'background' track recording these power saving features may impair your experience with OsmAnd, you may want to consider turning the device (Android) power saving entirely off. (I observe no decisive increase in power usage for any of my apps.)
+- In general: Starting with Android 4.4 (or maybe before), new Android power saving options allow limiting CPU max speed and screen brightness, and facilitate apps being killed in the background, e.g. while the device screen is turned off.
+- For outdoor use (screen brightness), map rendering (CPU limit), and 'background' track recording these power saving features may impair your experience with OsmAnd, you may want to consider turning the device (Android) power saving entirely off. (It depends on the apps, but I observe no decisive increase in power usage for any of my apps.)
 
-### Check your configuration
+### Check in OsmAnd
 
-**In OsmAnd**
 * To allow OsmAnd recording tracks while the device screen is off, make sure the OsmAnd setting (under) 'Prevent standalone logging' under Plugin/Trip recording is deactivated.
 * Update OsmAnd to 3.9 or higher. Different Android versions apply different strategies to reduce power consumption [by killing apps running in the background](https://dontkillmyapp.com/). New versions of OsmAnd therefore deploy a Foreground service during navigation or while recording a trip, visible in the Android notification bar. This should keep the app active on most systems, at least under Android 8+ (Issues [\#5255](https://github.com/osmandapp/Osmand/issues/5255), [\#5587](https://github.com/osmandapp/Osmand/issues/5587)).
 
-**In Android, try these steps**
+### In Android, try these steps
 * On some systems it may be sufficient to just exempt the OsmAnd app from power optimization, your mileage may vary: In your **Android's** Power or Power Savings setting, white-list OsmAnd to not being optimized: In **Android's** 'Apps', 'Applications', or 'App Manager' settings, find OsmAnd and tap it. You may find a line item regarding 'Power Savings' or 'Power Consumption': Tap it and exempt OsmAnd from power optimization measures. ([Issue \#5255](https://github.com/osmandapp/Osmand/issues/5255))
 * Disable the Android Power Saving on your device, this often helps for older Android versions
 
-**Tested Power Settings for Android 9, 10, and 11 (Hardy, 2020-08-25)**
+### Tested Power Settings for Android 9, 10, and 11 (Hardy, 2020-08-25)
 
 I have successfully tested the following Power settings under Android 9, 10 and later 11 (on Samsung devices), with particular attention if OsmAnd logging works reliably:
 
