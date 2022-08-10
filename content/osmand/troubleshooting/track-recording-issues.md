@@ -1,6 +1,6 @@
 ---
 title: Track recording
-intro: 'Common issues with track recording: interruptions while recording the track, wrong recorded data, etc'
+intro: 'Common issues with track recording: Noise, gaps, an inaccuracies'
 versions: '*'
 ---
 
