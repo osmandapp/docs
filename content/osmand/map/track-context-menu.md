@@ -438,7 +438,7 @@ Menu "Options" allows to make manipulation with the chosen track, to opens it in
 - {% data variables.android-values.shared_string_show_on_map %} - shows or not the track on the map.
 - {% data variables.android-values.shared_string_appearance %} - opens [Appearance menu](/osmand/map/tracks-on-map#track-appearance-android) for the track.
 - {% data variables.android-values.shared_string_navigation %} - starts navigation by [Follow track option](/osmand/navigation/gpx-navigation).
-- {% data variables.android-values.gpx_join_gaps %} - allows to join gaps of the track.
+- {% data variables.android-values.join_segments %} - allows to join gaps of the track.
 - {% data variables.android-values.analyze_on_map %} - opens [Analyze on map function](/osmand/map/tracks-on-map#analyze-track-on-map-android).
 - {% data variables.android-values.analyze_by_intervals %} - [analyze the track by time or distance intervals](/osmand/map/track-context-menu#split-interval).
 - {% data variables.android-values.shared_string_share %} - export the chosen track.
