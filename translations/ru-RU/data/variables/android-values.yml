@@ -3167,7 +3167,6 @@ routing_attr_piste_type_skitour_description: "Маршруты для горно
 routing_attr_freeride_policy_name: "Вне трассы"
 routing_attr_freeride_policy_description: "Фрирайды и внетрассовые маршруты — это неофициальные неподготовленные трассы. Обычно неухоженные, неразмеченные и неосвещённые вечером. Вход на свой страх и риск."
 shared_string_open_track: "Открыть трек"
-gpx_join_gaps: "Соединить разрывы (исключить пробелы)"
 app_mode_camper: "Кемпер"
 app_mode_campervan: "Альковен (RV)"
 rendering_attr_showLez_description: "Показывать на карте зоны с низким уровнем выбросов. Не влияет на навигацию."
