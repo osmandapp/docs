@@ -3982,7 +3982,6 @@ release_3_9: "• Option zum Exportieren und Importieren aller Daten einschließ
  
   • Unterstützung benutzerdefinierter Farben für Favoriten und Track-Wegpunkte"
 app_mode_gap: "Lücke"
-plan_route_join_segments: "Segmente verbinden"
 plan_route_add_new_segment: "Neues Segment hinzufügen"
 profile_type_osmand_string: "OsmAnd-Profil"
 profile_type_user_string: "Benutzerprofil"
