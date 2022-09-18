@@ -58,7 +58,7 @@ I have successfully tested the following Power settings under Android 9, 10 and 
   * _Notifications_ = ON
   * _Auto optimize (daily)_ = ON
   * _Auto restart (at set times)_ = OFF
-  * _Optimize Settings_ = OFF
+  * _Optimize Settings_ = OFF (in And 11 seems gone)
 * **Apps / ... / Special access / Optimize battery usage / All** = Leave all unchanged (looks like OsmAnd does not need to have Battery optimization disabled here)
 
 
