@@ -62,7 +62,7 @@ Please locate these **11 settings** and set accordingly:
 Depending on your version of Android these settings may be scattered over these various _Android Settings screens_:
 * _Device care_
 * _Device care / 3-dots / Automation_
-* _Device Care / Advanced_
+* _Device care / Advanced_
 * _Device care / Battery_
 * _Device care / Battery / Settings_
 * _Device care / Battery / App Power Management_
