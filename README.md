@@ -1,3 +1,7 @@
+# MOVED TO DOCUSAURUS FRAMEWORK 
+
+Please check https://github.com/osmandapp/web/tree/main/main/docs/user
+
 ## OsmAnd Docs (Github docs fork) <!-- omit in toc -->
 
 This repository contains the documentation website code and Markdown source files for [https://docs.osmand.net/](https://docs.osmand.net/).
